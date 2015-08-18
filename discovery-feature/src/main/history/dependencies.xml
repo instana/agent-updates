@@ -19,6 +19,7 @@
         <feature prerequisite="false" dependency="false">instana-java-discovery</feature>
         <feature prerequisite="false" dependency="false">instana-java-discovery</feature>
         <feature prerequisite="false" dependency="false">instana-java-discovery</feature>
+        <feature prerequisite="false" dependency="false">instana-java-discovery</feature>
         <bundle>mvn:com.instana/discovery-azure/1.0.0</bundle>
         <bundle>mvn:com.instana/discovery-cassandra/1.0.1</bundle>
         <bundle>mvn:com.instana/discovery-docker/1.0.2</bundle>
@@ -31,5 +32,6 @@
         <bundle>mvn:com.instana/discovery-mongodb/1.0.0</bundle>
         <bundle>mvn:com.instana/discovery-openstack-nova/1.0.1</bundle>
         <bundle>mvn:com.instana/discovery-redis/1.0.0</bundle>
+        <bundle>mvn:com.instana/discovery-tomcat/1.0.0</bundle>
     </feature>
 </features>
