@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<features xmlns="http://karaf.apache.org/xmlns/features/v1.3.0" name="sensor-feature-1.0.0-SNAPSHOT">
+    <feature version="0.0.0">
+        <feature prerequisite="false" dependency="false">instana-apache-commons</feature>
+        <feature prerequisite="false" dependency="false">instana-apache-commons</feature>
+        <feature prerequisite="false" dependency="false">instana-apache-commons</feature>
+        <feature prerequisite="false" dependency="false">instana-api</feature>
+        <feature prerequisite="false" dependency="false">instana-api</feature>
+        <feature prerequisite="false" dependency="false">instana-api</feature>
+        <feature prerequisite="false" dependency="false">instana-api</feature>
+        <feature prerequisite="false" dependency="false">instana-api</feature>
+        <feature prerequisite="false" dependency="false">instana-api</feature>
+        <feature prerequisite="false" dependency="false">instana-api</feature>
+        <feature prerequisite="false" dependency="false">instana-api</feature>
+        <feature prerequisite="false" dependency="false">instana-api</feature>
+        <feature prerequisite="false" dependency="false">instana-jackson</feature>
+        <feature prerequisite="false" dependency="false">instana-jackson</feature>
+        <feature prerequisite="false" dependency="false">instana-java-sensor</feature>
+        <feature prerequisite="false" dependency="false">instana-java-sensor</feature>
+        <feature prerequisite="false" dependency="false">instana-java-sensor</feature>
+        <feature prerequisite="false" dependency="false">instana-java-sensor</feature>
+        <feature prerequisite="false" dependency="false">instana-java-sensor</feature>
+        <feature prerequisite="false" dependency="false">instana-java-sensor</feature>
+        <feature prerequisite="false" dependency="false">instana-netty</feature>
+        <bundle>mvn:com.instana/sensor-cassandra/1.0.1</bundle>
+        <bundle>mvn:com.instana/sensor-docker/1.0.2</bundle>
+        <bundle>mvn:com.instana/sensor-elasticsearch/1.0.5</bundle>
+        <bundle>mvn:com.instana/sensor-haproxy/1.0.0-SNAPSHOT</bundle>
+        <bundle>mvn:com.instana/sensor-host/1.0.4</bundle>
+        <bundle>mvn:com.instana/sensor-httpd/1.0.0-SNAPSHOT</bundle>
+        <bundle>mvn:com.instana/sensor-java/1.0.10</bundle>
+        <bundle>mvn:com.instana/sensor-jira/1.0.0</bundle>
+        <bundle>mvn:com.instana/sensor-mongodb/1.0.0</bundle>
+        <bundle>mvn:com.instana/sensor-mysql/1.0.0-SNAPSHOT</bundle>
+        <bundle>mvn:com.instana/sensor-opentsdb2/1.0.0-SNAPSHOT</bundle>
+        <bundle>mvn:com.instana/sensor-process/1.0.3</bundle>
+        <bundle>mvn:com.instana/sensor-redis/1.0.0</bundle>
+        <bundle>mvn:com.instana/sensor-springboot/1.0.0-SNAPSHOT</bundle>
+        <bundle>mvn:com.instana/sensor-tomcat/1.0.0-SNAPSHOT</bundle>
+        <bundle>mvn:com.instana/sensor-weblogic/1.0.0-SNAPSHOT</bundle>
+        <bundle>mvn:mysql/mysql-connector-java/5.1.34</bundle>
+        <bundle>mvn:org.mongodb/mongo-java-driver/3.0.3</bundle>
+        <bundle>mvn:redis.clients/jedis/2.7.2</bundle>
+    </feature>
+</features>

@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<features xmlns="http://karaf.apache.org/xmlns/features/v1.3.0" name="discovery-feature-1.0.0-SNAPSHOT">
+    <feature version="0.0.0">
+        <feature prerequisite="false" dependency="false">instana-apache-commons</feature>
+        <feature prerequisite="false" dependency="false">instana-apache-commons</feature>
+        <feature prerequisite="false" dependency="false">instana-apache-commons</feature>
+        <feature prerequisite="false" dependency="false">instana-apache-commons</feature>
+        <feature prerequisite="false" dependency="false">instana-api</feature>
+        <feature prerequisite="false" dependency="false">instana-api</feature>
+        <feature prerequisite="false" dependency="false">instana-api</feature>
+        <feature prerequisite="false" dependency="false">instana-api</feature>
+        <feature prerequisite="false" dependency="false">instana-api</feature>
+        <feature prerequisite="false" dependency="false">instana-api</feature>
+        <feature prerequisite="false" dependency="false">instana-api</feature>
+        <feature prerequisite="false" dependency="false">instana-api</feature>
+        <feature prerequisite="false" dependency="false">instana-api</feature>
+        <feature prerequisite="false" dependency="false">instana-jackson</feature>
+        <feature prerequisite="false" dependency="false">instana-jackson</feature>
+        <feature prerequisite="false" dependency="false">instana-java-discovery</feature>
+        <feature prerequisite="false" dependency="false">instana-java-discovery</feature>
+        <feature prerequisite="false" dependency="false">instana-java-discovery</feature>
+        <bundle>mvn:com.instana/discovery-azure/1.0.0</bundle>
+        <bundle>mvn:com.instana/discovery-cassandra/1.0.1</bundle>
+        <bundle>mvn:com.instana/discovery-docker/1.0.2</bundle>
+        <bundle>mvn:com.instana/discovery-ec2/1.0.1</bundle>
+        <bundle>mvn:com.instana/discovery-elasticsearch/1.0.5</bundle>
+        <bundle>mvn:com.instana/discovery-gce/1.0.1</bundle>
+        <bundle>mvn:com.instana/discovery-host/1.0.4</bundle>
+        <bundle>mvn:com.instana/discovery-java/1.0.10</bundle>
+        <bundle>mvn:com.instana/discovery-jira/1.0.0</bundle>
+        <bundle>mvn:com.instana/discovery-mongodb/1.0.0</bundle>
+        <bundle>mvn:com.instana/discovery-openstack-nova/1.0.1</bundle>
+        <bundle>mvn:com.instana/discovery-redis/1.0.0</bundle>
+    </feature>
+</features>

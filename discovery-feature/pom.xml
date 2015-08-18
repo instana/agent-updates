@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+  xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
+  <modelVersion>4.0.0</modelVersion>
+
+  <parent>
+    <groupId>com.instana</groupId>
+    <artifactId>agent-parent</artifactId>
+    <version>1.0.0-SNAPSHOT</version>
+  </parent>
+
+  <groupId>com.instana</groupId>
+  <artifactId>discovery-feature</artifactId>
+  <!-- this needs to be 1.0.0-SNAPSHOT to enable auto updates -->
+  <version>1.0.0-SNAPSHOT</version>
+  <packaging>feature</packaging>
+
+  <name>Instana - AgentUpdate - Discovery</name>
+
+  <build>
+    <pluginManagement>
+      <plugins>
+        <plugin>
+          <groupId>org.apache.karaf.tooling</groupId>
+          <artifactId>karaf-maven-plugin</artifactId>
+          <version>${karaf.version}</version>
+          <extensions>true</extensions>
+        </plugin>
+      </plugins>
+    </pluginManagement>
+    <plugins>
+      <plugin>
+        <groupId>org.apache.karaf.tooling</groupId>
+        <artifactId>karaf-maven-plugin</artifactId>
+
+        <configuration>
+          <startLevel>50</startLevel>
+          <aggregateFeatures>false</aggregateFeatures>
+          <checkDependencyChange>true</checkDependencyChange>
+          <failOnDependencyChange>false</failOnDependencyChange>
+          <logDependencyChanges>true</logDependencyChanges>
+          <overwriteChangedDependencies>true</overwriteChangedDependencies>
+        </configuration>
+      </plugin>
+    </plugins>
+  </build>
+
+  <distributionManagement>
+    <!-- repository for features are always public snapshot repo. The latest deployed version dictates what gets installed by agents -->
+    <snapshotRepository>
+      <id>feature-repository</id>
+      <url>http://repo.public.instana.io/artifactory/features-internal</url>
+    </snapshotRepository>
+  </distributionManagement>
+
+</project>
