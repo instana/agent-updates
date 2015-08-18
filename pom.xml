@@ -45,7 +45,7 @@
     <!-- repository for features are always public snapshot repo. The latest deployed version dictates what gets installed by agents -->
     <snapshotRepository>
       <id>feature-repository</id>
-      <url>http://repo.public.instana.io/artifactory/features-internal</url>
+      <url>http://repo.public.instana.io/artifactory/features-public</url>
     </snapshotRepository>
   </distributionManagement>
 
