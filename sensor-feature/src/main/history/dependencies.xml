@@ -28,7 +28,7 @@
         <bundle>mvn:com.instana/sensor-haproxy/1.0.0-SNAPSHOT</bundle>
         <bundle>mvn:com.instana/sensor-host/1.0.4</bundle>
         <bundle>mvn:com.instana/sensor-httpd/1.0.0-SNAPSHOT</bundle>
-        <bundle>mvn:com.instana/sensor-java/1.0.10</bundle>
+        <bundle>mvn:com.instana/sensor-java/1.0.11</bundle>
         <bundle>mvn:com.instana/sensor-jira/1.0.0</bundle>
         <bundle>mvn:com.instana/sensor-mongodb/1.0.0</bundle>
         <bundle>mvn:com.instana/sensor-mysql/1.0.0-SNAPSHOT</bundle>

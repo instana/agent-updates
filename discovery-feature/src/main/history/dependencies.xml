@@ -27,7 +27,7 @@
         <bundle>mvn:com.instana/discovery-elasticsearch/1.0.5</bundle>
         <bundle>mvn:com.instana/discovery-gce/1.0.1</bundle>
         <bundle>mvn:com.instana/discovery-host/1.0.4</bundle>
-        <bundle>mvn:com.instana/discovery-java/1.0.10</bundle>
+        <bundle>mvn:com.instana/discovery-java/1.0.11</bundle>
         <bundle>mvn:com.instana/discovery-jira/1.0.0</bundle>
         <bundle>mvn:com.instana/discovery-mongodb/1.0.0</bundle>
         <bundle>mvn:com.instana/discovery-openstack-nova/1.0.1</bundle>
