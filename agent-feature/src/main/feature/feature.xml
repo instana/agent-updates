@@ -16,12 +16,14 @@
     <bundle start-level="80">mvn:com.fasterxml.jackson.core/jackson-annotations/2.6.0</bundle>
   </feature>
   
-  <feature name="instana-netty" description="Shared Netty" version="4.1.0.Beta5">
+  <feature name="instana-netty" description="Shared Netty" version="4.1.0.Beta5-ext1">
     <bundle start-level="80">mvn:io.netty/netty-buffer/4.1.0.Beta5</bundle>
     <bundle start-level="80">mvn:io.netty/netty-codec/4.1.0.Beta5</bundle>
     <bundle start-level="80">mvn:io.netty/netty-codec-http/4.1.0.Beta5</bundle>
+    <bundle start-level="80">mvn:io.netty/netty-codec-socks/4.1.0.Beta5</bundle>
     <bundle start-level="80">mvn:io.netty/netty-common/4.1.0.Beta5</bundle>
     <bundle start-level="80">mvn:io.netty/netty-handler/4.1.0.Beta5</bundle>
+    <bundle start-level="80">mvn:io.netty/netty-handler-proxy/4.1.0.Beta5</bundle>
     <bundle start-level="80">mvn:io.netty/netty-resolver/4.1.0.Beta5</bundle>
     <bundle start-level="80">mvn:io.netty/netty-transport/4.1.0.Beta5</bundle>
   </feature>
@@ -31,11 +33,11 @@
     <bundle start-level="80">mvn:com.instana/sensor-api/1.1.0</bundle>
   </feature>
 
-  <feature name="instana-agent" description="Instana Agent" version="1.0.13">
+  <feature name="instana-agent" description="Instana Agent" version="1.0.14">
     <feature>scr</feature>
     <feature version="[1.1,2)">instana-api</feature>
     <feature version="[1.0,2)">instana-apache-commons</feature>
-    <bundle start-level="80">mvn:com.instana/agent/1.0.13</bundle>
+    <bundle start-level="80">mvn:com.instana/agent/1.0.14</bundle>
   </feature>
 
 </features>
