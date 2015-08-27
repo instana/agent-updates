@@ -33,9 +33,9 @@
     <bundle start-level="80">mvn:com.instana/sensor-httpd/1.0.0-SNAPSHOT</bundle>
   </feature>
 
-  <feature name="instana-java-sensor" version="1.0.13">
+  <feature name="instana-java-sensor" version="1.0.14">
     <feature version="[1.1.1,2)">instana-api</feature>
-    <bundle start-level="80">mvn:com.instana/sensor-java/1.0.13</bundle>
+    <bundle start-level="80">mvn:com.instana/sensor-java/1.0.14</bundle>
   </feature>
 
   <feature name="instana-jira-sensor" version="1.0.0">
