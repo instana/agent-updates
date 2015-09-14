@@ -79,9 +79,9 @@
     <bundle start-level="80">mvn:com.instana/sensor-springboot/1.0.0-SNAPSHOT</bundle>
   </feature>
 
-  <feature name="instana-tomcat-sensor" version="1.0.0">
-    <feature version="[1.0,2)">instana-java-sensor</feature>
-    <bundle start-level="80">mvn:com.instana/sensor-tomcat/1.0.0</bundle>
+  <feature name="instana-tomcat-sensor" version="1.0.2">
+    <feature version="[1.0.16,2)">instana-java-sensor</feature>
+    <bundle start-level="80">mvn:com.instana/sensor-tomcat/1.0.2</bundle>
   </feature>
 
   <feature name="instana-weblogic-sensor" version="1.0.0-SNAPSHOT">
