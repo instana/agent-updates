@@ -14,14 +14,14 @@
         <feature prerequisite="false" dependency="false">instana-api</feature>
         <feature prerequisite="false" dependency="false">instana-api</feature>
         <feature prerequisite="false" dependency="false">instana-api</feature>
+        <feature prerequisite="false" dependency="false">instana-api</feature>
+        <feature prerequisite="false" dependency="false">instana-api</feature>
+        <feature prerequisite="false" dependency="false">instana-api</feature>
+        <feature prerequisite="false" dependency="false">instana-api</feature>
         <feature prerequisite="false" dependency="false">instana-jackson</feature>
-        <feature prerequisite="false" dependency="false">instana-java-discovery</feature>
-        <feature prerequisite="false" dependency="false">instana-java-discovery</feature>
-        <feature prerequisite="false" dependency="false">instana-java-discovery</feature>
-        <feature prerequisite="false" dependency="false">instana-java-discovery</feature>
         <bundle>mvn:com.instana/discovery-azure/1.1.0</bundle>
         <bundle>mvn:com.instana/discovery-cassandra/1.1.0</bundle>
-        <bundle>mvn:com.instana/discovery-docker/1.1.0</bundle>
+        <bundle>mvn:com.instana/discovery-docker/1.1.2</bundle>
         <bundle>mvn:com.instana/discovery-ec2/1.1.0</bundle>
         <bundle>mvn:com.instana/discovery-elasticsearch/1.1.0</bundle>
         <bundle>mvn:com.instana/discovery-gce/1.1.0</bundle>

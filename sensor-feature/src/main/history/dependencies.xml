@@ -31,7 +31,7 @@
         <feature prerequisite="false" dependency="false">instana-netty</feature>
         <bundle>mvn:com.instana/sensor-azure/1.1.0</bundle>
         <bundle>mvn:com.instana/sensor-cassandra/1.1.0</bundle>
-        <bundle>mvn:com.instana/sensor-docker/1.1.0</bundle>
+        <bundle>mvn:com.instana/sensor-docker/1.1.2</bundle>
         <bundle>mvn:com.instana/sensor-ec2/1.1.0</bundle>
         <bundle>mvn:com.instana/sensor-elasticsearch/1.1.0</bundle>
         <bundle>mvn:com.instana/sensor-gce/1.1.0</bundle>
