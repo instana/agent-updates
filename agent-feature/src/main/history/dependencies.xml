@@ -7,9 +7,9 @@
         <bundle>mvn:com.fasterxml.jackson.core/jackson-annotations/2.6.0</bundle>
         <bundle>mvn:com.fasterxml.jackson.core/jackson-core/2.6.0</bundle>
         <bundle>mvn:com.fasterxml.jackson.core/jackson-databind/2.6.0</bundle>
-        <bundle>mvn:com.instana/agent-json/1.2.0</bundle>
-        <bundle>mvn:com.instana/agent/1.1.0</bundle>
-        <bundle>mvn:com.instana/sensor-api/1.2.0</bundle>
+        <bundle>mvn:com.instana/agent-json/1.2.1</bundle>
+        <bundle>mvn:com.instana/agent/1.1.1</bundle>
+        <bundle>mvn:com.instana/sensor-api/1.2.1</bundle>
         <bundle>mvn:commons-io/commons-io/2.4</bundle>
         <bundle>mvn:io.netty/netty-buffer/4.1.0.Beta5</bundle>
         <bundle>mvn:io.netty/netty-codec-http/4.1.0.Beta5</bundle>
