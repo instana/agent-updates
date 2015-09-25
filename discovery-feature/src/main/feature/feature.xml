@@ -35,10 +35,10 @@
     <bundle start-level="80">mvn:com.instana/discovery-gce/1.1.0</bundle>
   </feature>
 
-  <feature name="instana-host-discovery" version="1.1.1">
-    <feature version="[1.2,2)">instana-api</feature>
+  <feature name="instana-host-discovery" version="1.1.2">
+    <feature version="[1.2.2,2)">instana-api</feature>
     <feature version="[1.0,2)">instana-apache-commons</feature>
-    <bundle start-level="80">mvn:com.instana/discovery-host/1.1.1</bundle>
+    <bundle start-level="80">mvn:com.instana/discovery-host/1.1.2</bundle>
   </feature>
 
   <!-- Experimental 
