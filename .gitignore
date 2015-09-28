@@ -1,2 +1,5 @@
 .classpath
 .project
+agent-feature/src/main/history/dependencies.xml
+discovery-feature/src/main/history/dependencies.xml
+sensor-feature/src/main/history/dependencies.xml
