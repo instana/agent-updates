@@ -77,6 +77,11 @@
     <bundle start-level="80">mvn:com.instana/discovery-mysql/1.1.5</bundle>
   </feature>
 
+  <feature name="instana-nodejs-discovery" version="1.1.2">
+    <feature version="[1.2.4,2)">instana-api</feature>
+    <bundle start-level="80">mvn:com.instana/discovery-nodejs/1.1.2</bundle>
+  </feature>
+
   <feature name="instana-openstack-nova-discovery" version="1.1.1">
     <feature version="[1.2,2)">instana-api</feature>
     <bundle start-level="80">mvn:com.instana/discovery-openstack-nova/1.1.1</bundle>
