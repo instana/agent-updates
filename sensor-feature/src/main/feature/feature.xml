@@ -72,9 +72,9 @@
     <bundle start-level="80">mvn:com.instana/sensor-mysql/1.1.2</bundle>
   </feature>
 
-  <feature name="instana-nodejs-sensor" version="1.1.0-SNAPSHOT">
+  <feature name="instana-nodejs-sensor" version="1.1.0">
     <feature version="[1.2.2,2)">instana-api</feature>
-    <bundle start-level="80">mvn:com.instana/sensor-nodejs/1.1.0-SNAPSHOT</bundle>
+    <bundle start-level="80">mvn:com.instana/sensor-nodejs/1.1.0</bundle>
   </feature>
 
   <feature name="instana-openstack-nova-sensor" version="1.1.0">
