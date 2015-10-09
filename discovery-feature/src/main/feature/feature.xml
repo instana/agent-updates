@@ -35,13 +35,13 @@
     <bundle start-level="80">mvn:com.instana/discovery-gce/1.1.0</bundle>
   </feature>
 
-  <feature name="instana-host-discovery" version="1.1.2">
+  <feature name="instana-host-discovery" version="1.1.4">
     <feature version="[1.2.2,2)">instana-api</feature>
     <feature version="[1.0,2)">instana-apache-commons</feature>
-    <bundle start-level="80">mvn:com.instana/discovery-host/1.1.2</bundle>
+    <bundle start-level="80">mvn:com.instana/discovery-host/1.1.4</bundle>
   </feature>
 
-  <!-- Experimental 
+  <!-- Experimental
   <feature name="instana-haproxy-discovery" version="1.0.0-SNAPSHOT">
     <feature version="[1.2.1,2)">instana-api</feature>
     <bundle start-level="80">mvn:com.instana/discovery-haproxy/1.0.0-SNAPSHOT</bundle>
@@ -82,7 +82,7 @@
     <bundle start-level="80">mvn:com.instana/discovery-redis/1.1.0</bundle>
   </feature>
 
-  <!-- Experimental 
+  <!-- Experimental
   <feature name="instana-springboot-discovery" version="1.0.0-SNAPSHOT">
     <feature version="[1.2.2,2)">instana-api</feature>
     <bundle start-level="80">mvn:com.instana/discovery-springboot/1.0.0-SNAPSHOT</bundle>
@@ -93,7 +93,7 @@
     <bundle start-level="80">mvn:com.instana/discovery-tomcat/1.1.1</bundle>
   </feature>
 
-  <!-- Experimental 
+  <!-- Experimental
   <feature name="instana-weblogic-discovery" version="1.0.0-SNAPSHOT">
     <feature version="[1.2.2,2)">instana-api</feature>
     <bundle start-level="80">mvn:com.instana/discovery-weblogic/1.0.0-SNAPSHOT</bundle>
