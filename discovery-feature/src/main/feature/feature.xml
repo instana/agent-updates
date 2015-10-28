@@ -72,11 +72,10 @@
     <bundle start-level="80">mvn:com.instana/discovery-mysql/1.1.4</bundle>
   </feature>
 
-  <!-- Experimental
-  <feature name="instana-nginx-discovery" version="1.1.0-SNAPSHOT">
+  <feature name="instana-nginx-discovery" version="1.1.0">
     <feature version="[1.2.2,2)">instana-api</feature>
-    <bundle start-level="80">mvn:com.instana/discovery-nginx/1.1.0-SNAPSHOT</bundle>
-  </feature> -->
+    <bundle start-level="80">mvn:com.instana/discovery-nginx/1.1.0</bundle>
+  </feature>
 
   <feature name="instana-nodejs-discovery" version="1.1.2">
     <feature version="[1.2.4,2)">instana-api</feature>
