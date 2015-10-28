@@ -45,9 +45,9 @@
     <bundle start-level="80">mvn:com.instana/sensor-host/1.1.4</bundle>
   </feature>
 
-  <feature name="instana-httpd-sensor" version="1.0.0-SNAPSHOT">
+  <feature name="instana-httpd-sensor" version="1.1.0">
     <feature version="[1.2,2)">instana-api</feature>
-    <bundle start-level="80">mvn:com.instana/sensor-httpd/1.0.0-SNAPSHOT</bundle>
+    <bundle start-level="80">mvn:com.instana/sensor-httpd/1.1.0</bundle>
   </feature>
 
   <feature name="instana-java-sensor" version="1.1.4">
