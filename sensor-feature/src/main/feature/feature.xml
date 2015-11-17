@@ -65,10 +65,10 @@
     <bundle start-level="80">mvn:com.instana/sensor-jira/1.1.1</bundle>
   </feature>
 
-  <feature name="instana-mongodb-sensor" version="1.1.1">
-    <feature version="[1.2.2,2)">instana-api</feature>
+  <feature name="instana-mongodb-sensor" version="1.1.2">
+    <feature version="[1.2.5,2)">instana-api</feature>
     <bundle start-level="80">mvn:org.mongodb/mongo-java-driver/3.0.4</bundle>
-    <bundle start-level="80">mvn:com.instana/sensor-mongodb/1.1.1</bundle>
+    <bundle start-level="80">mvn:com.instana/sensor-mongodb/1.1.2</bundle>
   </feature>
 
   <feature name="instana-mysql-sensor" version="1.1.4">
