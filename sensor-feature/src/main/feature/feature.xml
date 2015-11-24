@@ -60,9 +60,9 @@
     <bundle start-level="80">mvn:com.instana/sensor-java-app/1.1.4</bundle>
   </feature>
 
-  <feature name="instana-jira-sensor" version="1.1.1">
-    <feature version="[1.1.1,2)">instana-java-sensor</feature>
-    <bundle start-level="80">mvn:com.instana/sensor-jira/1.1.1</bundle>
+  <feature name="instana-jira-sensor" version="1.1.2">
+    <feature version="[1.1.9,2)">instana-java-sensor</feature>
+    <bundle start-level="80">mvn:com.instana/sensor-jira/1.1.2</bundle>
   </feature>
 
   <feature name="instana-mongodb-sensor" version="1.1.2">
