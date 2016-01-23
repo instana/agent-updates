@@ -18,16 +18,17 @@
     <bundle start-level="80">mvn:com.fasterxml.jackson.core/jackson-annotations/2.6.3</bundle>
   </feature>
   
-  <feature name="instana-netty" description="Shared Netty" version="4.1.0.Beta8">
-    <bundle start-level="80">mvn:io.netty/netty-buffer/4.1.0.Beta8</bundle>
-    <bundle start-level="80">mvn:io.netty/netty-codec/4.1.0.Beta8</bundle>
-    <bundle start-level="80">mvn:io.netty/netty-codec-http/4.1.0.Beta8</bundle>
-    <bundle start-level="80">mvn:io.netty/netty-codec-socks/4.1.0.Beta8</bundle>
-    <bundle start-level="80">mvn:io.netty/netty-common/4.1.0.Beta8</bundle>
-    <bundle start-level="80">mvn:io.netty/netty-handler/4.1.0.Beta8</bundle>
-    <bundle start-level="80">mvn:io.netty/netty-handler-proxy/4.1.0.Beta8</bundle>
-    <bundle start-level="80">mvn:io.netty/netty-resolver/4.1.0.Beta8</bundle>
-    <bundle start-level="80">mvn:io.netty/netty-transport/4.1.0.Beta8</bundle>
+  <feature name="instana-netty" description="Shared Netty" version="4.1.0.CR1">
+    <bundle start-level="80">mvn:io.netty/netty-buffer/4.1.0.CR1</bundle>
+    <bundle start-level="80">mvn:io.netty/netty-codec/4.1.0.CR1</bundle>
+    <bundle start-level="80">mvn:io.netty/netty-codec-http/4.1.0.CR1</bundle>
+    <bundle start-level="80">mvn:io.netty/netty-codec-http2/4.1.0.CR1</bundle>
+    <bundle start-level="80">mvn:io.netty/netty-codec-socks/4.1.0.CR1</bundle>
+    <bundle start-level="80">mvn:io.netty/netty-common/4.1.0.CR1</bundle>
+    <bundle start-level="80">mvn:io.netty/netty-handler/4.1.0.CR1</bundle>
+    <bundle start-level="80">mvn:io.netty/netty-handler-proxy/4.1.0.CR1</bundle>
+    <bundle start-level="80">mvn:io.netty/netty-resolver/4.1.0.CR1</bundle>
+    <bundle start-level="80">mvn:io.netty/netty-transport/4.1.0.CR1</bundle>
   </feature>
 
   <feature name="instana-api" description="Instana Sensor and Discovery API" version="1.2.11">
