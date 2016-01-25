@@ -35,11 +35,11 @@
     <bundle start-level="80">mvn:com.instana/sensor-api/1.2.11</bundle>
   </feature>
 
-  <feature name="instana-agent" description="Instana Agent" version="1.1.46">
+  <feature name="instana-agent" description="Instana Agent" version="1.1.47">
     <feature>scr</feature>
     <feature version="[1.2.7,2)">instana-api</feature>
     <feature version="[1.1,2)">instana-apache-commons</feature>
-    <bundle start-level="80">mvn:com.instana/agent/1.1.46</bundle>
+    <bundle start-level="80">mvn:com.instana/agent/1.1.47</bundle>
   </feature>
 
 </features>
