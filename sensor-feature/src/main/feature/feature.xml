@@ -76,10 +76,10 @@
     <bundle start-level="80">mvn:com.instana/sensor-mongodb/1.1.10</bundle>
   </feature>
 
-  <feature name="instana-mysql-sensor" version="1.1.7">
+  <feature name="instana-mysql-sensor" version="1.1.8">
     <feature version="[1.2.5,2)">instana-api</feature>
     <bundle start-level="80">mvn:mysql/mysql-connector-java/5.1.36</bundle>
-    <bundle start-level="80">mvn:com.instana/sensor-mysql/1.1.7</bundle>
+    <bundle start-level="80">mvn:com.instana/sensor-mysql/1.1.8</bundle>
   </feature>
 
   <feature name="instana-mssql-sensor" version="1.1.3">
