@@ -119,10 +119,10 @@
     <bundle start-level="80">mvn:com.instana/sensor-opentsdb2/1.0.0-SNAPSHOT</bundle>
   </feature>
 
-  <feature name="instana-process-sensor" version="1.1.1">
+  <feature name="instana-process-sensor" version="1.1.2">
     <feature version="[1.2.2,2)">instana-api</feature>
     <feature version="[1.0,2)">instana-apache-commons</feature>
-    <bundle start-level="80">mvn:com.instana/sensor-process/1.1.1</bundle>
+    <bundle start-level="80">mvn:com.instana/sensor-process/1.1.2</bundle>
   </feature>
 
   <feature name="instana-redis-sensor" version="1.1.0">
