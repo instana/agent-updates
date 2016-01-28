@@ -11,11 +11,11 @@
     <bundle start-level="80">mvn:com.instana/sensor-cassandra/1.1.11</bundle>
   </feature>
 
-  <feature name="instana-docker-sensor" version="1.1.7">
+  <feature name="instana-docker-sensor" version="1.1.8">
     <feature version="[1.2.5,2)">instana-api</feature>
     <feature version="[1.0,2)">instana-apache-commons</feature>
     <feature version="[2.6,3)">instana-jackson</feature>
-    <bundle start-level="80">mvn:com.instana/sensor-docker/1.1.7</bundle>
+    <bundle start-level="80">mvn:com.instana/sensor-docker/1.1.8</bundle>
   </feature>
 
   <feature name="instana-ec2-sensor" version="1.1.2">
