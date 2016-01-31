@@ -142,9 +142,9 @@
     <bundle start-level="80">mvn:com.instana/sensor-redis/1.1.1</bundle>
   </feature>
 
-  <feature name="instana-springboot-sensor" version="1.0.0-SNAPSHOT">
-    <feature version="[1.1.1,2)">instana-java-sensor</feature>
-    <bundle start-level="80">mvn:com.instana/sensor-springboot/1.0.0-SNAPSHOT</bundle>
+  <feature name="instana-springboot-sensor" version="1.1.0">
+    <feature version="[1.1.15,2)">instana-java-sensor</feature>
+    <bundle start-level="80">mvn:com.instana/sensor-springboot/1.1.0</bundle>
   </feature>
 
   <feature name="instana-tomcat-sensor" version="1.1.9">
