@@ -52,9 +52,9 @@
     <bundle start-level="80">mvn:com.instana/discovery-httpd/1.1.11</bundle>
   </feature>
 
-  <feature name="instana-java-discovery" version="1.1.16">
+  <feature name="instana-java-discovery" version="1.1.17">
     <feature version="[1.2.11,2)">instana-api</feature>
-    <bundle start-level="80">mvn:com.instana/discovery-java/1.1.16</bundle>
+    <bundle start-level="80">mvn:com.instana/discovery-java/1.1.17</bundle>
   </feature>
 
   <feature name="instana-jira-discovery" version="1.1.3">
