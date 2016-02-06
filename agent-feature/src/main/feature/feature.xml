@@ -1,21 +1,22 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
 <features name="${project.artifactId}-${project.version}" xmlns="http://karaf.apache.org/xmlns/features/v1.3.0" >
 
- <feature name="instana-apache-commons" description="Shared Apache Commons Libs" version="1.1.1">
+ <feature name="instana-apache-commons" description="Shared Apache Commons Libs" version="1.1.2">
     <bundle start-level="80">mvn:commons-io/commons-io/2.4</bundle>
     <bundle start-level="80">mvn:commons-lang/commons-lang/2.6</bundle>
     <bundle start-level="80">mvn:commons-configuration/commons-configuration/1.10</bundle>
     <bundle start-level="80">mvn:org.apache.commons/commons-collections4/4.1</bundle>
     <bundle start-level="80">mvn:org.apache.commons/commons-csv/1.1</bundle>
     <bundle start-level="80">mvn:org.apache.commons/commons-lang3/3.4</bundle>
-    <bundle start-level="80">mvn:org.apache.commons/commons-math3/3.5</bundle>
+    <bundle start-level="80">mvn:org.apache.commons/commons-math3/3.6</bundle>
     <bundle start-level="80">mvn:org.apache.commons/commons-pool2/2.4.2</bundle>
   </feature>
 
-  <feature name="instana-jackson" description="Shared Jackson JSON Util" version="2.6.3">
-    <bundle start-level="80">mvn:com.fasterxml.jackson.core/jackson-core/2.6.3</bundle>
-    <bundle start-level="80">mvn:com.fasterxml.jackson.core/jackson-databind/2.6.3</bundle>
-    <bundle start-level="80">mvn:com.fasterxml.jackson.core/jackson-annotations/2.6.3</bundle>
+  <feature name="instana-jackson" description="Shared Jackson JSON Util" version="2.7.1">
+    <bundle start-level="80">mvn:com.fasterxml.jackson.core/jackson-core/2.7.1</bundle>
+    <bundle start-level="80">mvn:com.fasterxml.jackson.core/jackson-databind/2.7.1</bundle>
+    <bundle start-level="80">mvn:com.fasterxml.jackson.core/jackson-annotations/2.7.1</bundle>
+    <bundle start-level="80">mvn:com.fasterxml.jackson.module/jackson-module-afterburner/2.7.1</bundle>
   </feature>
   
   <feature name="instana-netty" description="Shared Netty" version="4.1.0.CR1">
@@ -33,7 +34,7 @@
 
   <feature name="instana-api" description="Instana Sensor and Discovery API" version="1.2.12">
     <feature>scr</feature>
-    <feature version="4.1.0.CR1">instana-netty</feature>
+    <feature>instana-netty</feature>
     <bundle start-level="80">mvn:com.instana/agent-json/1.2.12</bundle>
     <bundle start-level="80">mvn:com.instana/sensor-api/1.2.12</bundle>
   </feature>
@@ -42,14 +43,14 @@
     <feature>scr</feature>
     <feature>bundle</feature>
     <feature>instana-agent-bootstrap</feature>
-    <feature version="2.6.3">instana-jackson</feature>
-    <feature version="[1.1,2)">instana-apache-commons</feature>
-    <feature version="[1.2.12,2)">instana-api</feature>
+    <feature>instana-jackson</feature>
+    <feature>instana-apache-commons</feature>
+    <feature>instana-api</feature>
     <bundle start-level="80">mvn:com.instana/agent/1.1.54</bundle>
   </feature>
   
   <feature name="instana-generic" version="1.1.0">
-    <feature version="[1.2.7,2)">instana-api</feature>
+    <feature>instana-api</feature>
     <bundle start-level="80">mvn:com.instana/sensor-generic/1.1.0</bundle>
     <bundle start-level="80">mvn:com.instana/sensor-generic-hardware/1.1.0</bundle>
   </feature>
