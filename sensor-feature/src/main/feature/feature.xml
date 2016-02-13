@@ -102,9 +102,9 @@
     <bundle start-level="80">mvn:com.instana/sensor-nginx/1.1.19</bundle>
   </feature>
 
-  <feature name="instana-nodejs-app-sensor" version="1.1.1">
+  <feature name="instana-nodejs-app-sensor" version="1.1.2">
     <feature version="[1.2.4,2)">instana-api</feature>
-    <bundle start-level="80">mvn:com.instana/sensor-nodejs-app/1.1.1</bundle>
+    <bundle start-level="80">mvn:com.instana/sensor-nodejs-app/1.1.2</bundle>
   </feature>
 
   <feature name="instana-nodejs-sensor" version="1.1.7">
