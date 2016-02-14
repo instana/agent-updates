@@ -12,10 +12,11 @@
     <bundle start-level="80">mvn:org.apache.commons/commons-pool2/2.4.2</bundle>
   </feature>
 
-  <feature name="instana-jackson" description="Shared Jackson JSON Util" version="2.7.1">
+  <feature name="instana-jackson" description="Shared Jackson JSON Util" version="2.7.1.1">
     <bundle start-level="80">mvn:com.fasterxml.jackson.core/jackson-core/2.7.1</bundle>
     <bundle start-level="80">mvn:com.fasterxml.jackson.core/jackson-databind/2.7.1</bundle>
     <bundle start-level="80">mvn:com.fasterxml.jackson.core/jackson-annotations/2.7.1</bundle>
+    <bundle start-level="80">mvn:com.fasterxml.jackson.dataformat/jackson-dataformat-yaml/2.7.1</bundle>
     <bundle start-level="80">mvn:com.fasterxml.jackson.module/jackson-module-afterburner/2.7.1</bundle>
   </feature>
   
@@ -32,21 +33,21 @@
     <bundle start-level="80">mvn:io.netty/netty-transport/4.1.0.CR1</bundle>
   </feature>
 
-  <feature name="instana-api" description="Instana Sensor and Discovery API" version="1.2.13">
+  <feature name="instana-api" description="Instana Sensor and Discovery API" version="1.2.14">
     <feature>scr</feature>
     <feature>instana-netty</feature>
-    <bundle start-level="80">mvn:com.instana/agent-json/1.2.13</bundle>
-    <bundle start-level="80">mvn:com.instana/sensor-api/1.2.13</bundle>
+    <bundle start-level="80">mvn:com.instana/agent-json/1.2.14</bundle>
+    <bundle start-level="80">mvn:com.instana/sensor-api/1.2.14</bundle>
   </feature>
 
-  <feature name="instana-agent" description="Instana Agent" version="1.1.61">
+  <feature name="instana-agent" description="Instana Agent" version="1.1.62">
     <feature>scr</feature>
     <feature>bundle</feature>
     <feature>instana-agent-bootstrap</feature>
     <feature>instana-jackson</feature>
     <feature>instana-apache-commons</feature>
     <feature>instana-api</feature>
-    <bundle start-level="80">mvn:com.instana/agent/1.1.61</bundle>
+    <bundle start-level="80">mvn:com.instana/agent/1.1.62</bundle>
   </feature>
 
 </features>
