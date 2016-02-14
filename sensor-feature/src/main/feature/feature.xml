@@ -50,14 +50,14 @@
     <bundle start-level="80">mvn:com.instana/sensor-httpd/1.1.12</bundle>
   </feature>
 
-  <feature name="instana-java-sensor" version="1.1.19">
-    <feature version="[1.2.11,2)">instana-api</feature>
-    <bundle start-level="80">mvn:com.instana/sensor-java/1.1.19</bundle>
+  <feature name="instana-java-sensor" version="1.2.0">
+    <feature version="[1.2.14,2)">instana-api</feature>
+    <bundle start-level="80">mvn:com.instana/sensor-java/1.2.0</bundle>
   </feature>
 
-  <feature name="instana-java-trace-sensor" version="1.1.10">
-    <feature version="[1.1.17,2)">instana-java-sensor</feature>
-    <bundle start-level="80">mvn:com.instana/sensor-java-trace/1.1.10</bundle>
+  <feature name="instana-java-trace-sensor" version="1.2.0">
+    <feature version="[1.2.0,2)">instana-java-sensor</feature>
+    <bundle start-level="80">mvn:com.instana/sensor-java-trace/1.2.0</bundle>
   </feature>
 
   <feature name="instana-jira-sensor" version="1.1.4">
