@@ -140,11 +140,11 @@
     <bundle start-level="80">mvn:com.instana/sensor-process/1.1.4</bundle>
   </feature>
 
-  <feature name="instana-redis-sensor" version="1.1.1">
-    <feature version="[1.2,2)">instana-api</feature>
+  <feature name="instana-redis-sensor" version="1.1.2">
+    <feature version="[1.2.15,2)">instana-api</feature>
     <feature version="[1.0,2)">instana-apache-commons</feature>
     <bundle start-level="80">mvn:redis.clients/jedis/2.7.2</bundle>
-    <bundle start-level="80">mvn:com.instana/sensor-redis/1.1.1</bundle>
+    <bundle start-level="80">mvn:com.instana/sensor-redis/1.1.2</bundle>
   </feature>
 
   <feature name="instana-springboot-sensor" version="1.1.2">
