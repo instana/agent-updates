@@ -52,9 +52,9 @@
     <bundle start-level="80">mvn:com.instana/discovery-haproxy/1.0.0-SNAPSHOT</bundle>
   </feature> -->
 
-  <feature name="instana-httpd-discovery" version="1.1.12">
-    <feature version="[1.2.12,2)">instana-api</feature>
-    <bundle start-level="80">mvn:com.instana/discovery-httpd/1.1.12</bundle>
+  <feature name="instana-httpd-discovery" version="1.1.13">
+    <feature version="[1.2.15,2)">instana-api</feature>
+    <bundle start-level="80">mvn:com.instana/discovery-httpd/1.1.13</bundle>
   </feature>
 
   <feature name="instana-java-discovery" version="1.2.3">
