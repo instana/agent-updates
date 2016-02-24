@@ -92,9 +92,9 @@
     <bundle start-level="80">mvn:com.instana/discovery-mssql/1.1.5</bundle>
   </feature>
 
-  <feature name="instana-nginx-discovery" version="1.1.20">
+  <feature name="instana-nginx-discovery" version="1.1.21">
     <feature version="[1.2.15,2)">instana-api</feature>
-    <bundle start-level="80">mvn:com.instana/discovery-nginx/1.1.20</bundle>
+    <bundle start-level="80">mvn:com.instana/discovery-nginx/1.1.21</bundle>
   </feature>
 
   <feature name="instana-nodejs-discovery" version="1.1.7">
