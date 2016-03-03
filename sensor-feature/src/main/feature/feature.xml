@@ -35,9 +35,9 @@
     <bundle start-level="80">mvn:com.instana/sensor-gce/1.1.2</bundle>
   </feature>
 
-  <feature name="instana-generic-hardware-sensor" version="1.1.0">
-    <feature version="[1.2.14,2)">instana-api</feature>
-    <bundle start-level="80">mvn:com.instana/sensor-generic-hardware/1.1.0</bundle>
+  <feature name="instana-generic-hardware-sensor" version="1.1.1">
+    <feature version="[1.2.15,2)">instana-api</feature>
+    <bundle start-level="80">mvn:com.instana/sensor-generic-hardware/1.1.1</bundle>
   </feature>
 
   <feature name="instana-haproxy-sensor" version="1.0.0-SNAPSHOT">
