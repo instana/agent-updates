@@ -66,6 +66,11 @@
     <bundle start-level="80">mvn:com.instana/sensor-java-trace/1.2.5</bundle>
   </feature>
 
+  <feature name="instana-jboss-as-sensor" version="1.1.0">
+    <feature version="[1.2.2,2)">instana-java-sensor</feature>
+    <bundle start-level="80">mvn:com.instana/sensor-jboss-as/1.1.0</bundle>
+  </feature>
+
   <feature name="instana-jira-sensor" version="1.1.6">
     <feature version="[1.2.2,2)">instana-java-sensor</feature>
     <bundle start-level="80">mvn:com.instana/sensor-jira/1.1.6</bundle>
