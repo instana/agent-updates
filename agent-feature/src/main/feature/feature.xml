@@ -35,21 +35,21 @@
     <bundle start-level="80">mvn:io.netty/netty-transport/4.1.0.CR3</bundle>
   </feature>
 
-  <feature name="instana-api" description="Instana Sensor and Discovery API" version="1.2.17">
+  <feature name="instana-api" description="Instana Sensor and Discovery API" version="1.2.18">
     <feature>scr</feature>
     <feature>instana-netty</feature>
-    <bundle start-level="80">mvn:com.instana/agent-json/1.2.17</bundle>
-    <bundle start-level="80">mvn:com.instana/sensor-api/1.2.17</bundle>
+    <bundle start-level="80">mvn:com.instana/agent-json/1.2.18</bundle>
+    <bundle start-level="80">mvn:com.instana/sensor-api/1.2.18</bundle>
   </feature>
 
-  <feature name="instana-agent" description="Instana Agent" version="1.1.83">
+  <feature name="instana-agent" description="Instana Agent" version="1.1.85">
     <feature>scr</feature>
     <feature>bundle</feature>
     <feature>instana-agent-bootstrap</feature>
     <feature>instana-jackson</feature>
     <feature>instana-apache-commons</feature>
     <feature>instana-api</feature>
-    <bundle start-level="80">mvn:com.instana/agent/1.1.83</bundle>
+    <bundle start-level="80">mvn:com.instana/agent/1.1.85</bundle>
   </feature>
 
 </features>
