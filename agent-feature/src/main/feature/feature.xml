@@ -12,12 +12,11 @@
     <bundle start-level="80">mvn:org.apache.commons/commons-pool2/2.4.2</bundle>
   </feature>
 
-  <feature name="instana-jackson" description="Shared Jackson JSON Util" version="2.7.1.1">
-    <bundle start-level="80">mvn:com.fasterxml.jackson.core/jackson-core/2.7.1</bundle>
-    <bundle start-level="80">mvn:com.fasterxml.jackson.core/jackson-databind/2.7.1</bundle>
-    <bundle start-level="80">mvn:com.fasterxml.jackson.core/jackson-annotations/2.7.1</bundle>
-    <bundle start-level="80">mvn:com.fasterxml.jackson.dataformat/jackson-dataformat-yaml/2.7.1</bundle>
-    <bundle start-level="80">mvn:com.fasterxml.jackson.module/jackson-module-afterburner/2.7.1</bundle>
+  <feature name="instana-jackson" description="Shared Jackson JSON Util" version="2.7.3">
+    <bundle start-level="80">mvn:com.fasterxml.jackson.core/jackson-core/2.7.3</bundle>
+    <bundle start-level="80">mvn:com.fasterxml.jackson.core/jackson-databind/2.7.3</bundle>
+    <bundle start-level="80">mvn:com.fasterxml.jackson.core/jackson-annotations/2.7.3</bundle>
+    <bundle start-level="80">mvn:com.fasterxml.jackson.dataformat/jackson-dataformat-yaml/2.7.3</bundle>
   </feature>
   
   <feature name="instana-netty" description="Shared Netty" version="4.1.0.CR3.1">
