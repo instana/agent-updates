@@ -6,9 +6,9 @@
     <bundle start-level="80">mvn:com.instana/discovery-azure/1.1.1</bundle>
   </feature>
 
-  <feature name="instana-cassandra-discovery" version="1.1.17">
+  <feature name="instana-cassandra-discovery" version="1.1.18">
     <feature version="[1.2.15,2)">instana-api</feature>
-    <bundle start-level="80">mvn:com.instana/discovery-cassandra/1.1.17</bundle>
+    <bundle start-level="80">mvn:com.instana/discovery-cassandra/1.1.18</bundle>
   </feature>
 
   <feature name="instana-docker-discovery" version="1.1.11">
