@@ -117,9 +117,9 @@
     <bundle start-level="80">mvn:com.instana/discovery-openstack-nova/1.1.1</bundle>
   </feature>
 
-  <feature name="instana-php-fpm-discovery" version="1.1.15">
+  <feature name="instana-php-fpm-discovery" version="1.1.16">
     <feature version="[1.2.20,2)">instana-api</feature>
-    <bundle start-level="80">mvn:com.instana/discovery-php-fpm/1.1.15</bundle>
+    <bundle start-level="80">mvn:com.instana/discovery-php-fpm/1.1.16</bundle>
   </feature>
 
   <feature name="instana-redis-discovery" version="1.1.6">
