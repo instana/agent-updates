@@ -124,9 +124,9 @@
     <bundle start-level="80">mvn:com.instana/sensor-nodejs-app/1.1.2</bundle>
   </feature>
 
-  <feature name="instana-nodejs-sensor" version="1.1.8">
-    <feature version="[1.2.13,2)">instana-api</feature>
-    <bundle start-level="80">mvn:com.instana/sensor-nodejs/1.1.8</bundle>
+  <feature name="instana-nodejs-sensor" version="1.1.9">
+    <feature version="[1.2.24,2)">instana-api</feature>
+    <bundle start-level="80">mvn:com.instana/sensor-nodejs/1.1.9</bundle>
   </feature>
 
   <feature name="instana-openstack-nova-sensor" version="1.1.1">
