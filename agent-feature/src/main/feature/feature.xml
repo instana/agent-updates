@@ -18,7 +18,7 @@
     <bundle start-level="80">mvn:com.fasterxml.jackson.core/jackson-annotations/2.7.3</bundle>
     <bundle start-level="80">mvn:com.fasterxml.jackson.dataformat/jackson-dataformat-yaml/2.7.3</bundle>
   </feature>
-  
+
   <feature name="instana-netty" description="Shared Netty" version="4.1.0.CR7">
     <bundle start-level="80">mvn:io.netty/netty-buffer/4.1.0.CR7</bundle>
     <bundle start-level="80">mvn:io.netty/netty-codec/4.1.0.CR7</bundle>
@@ -41,14 +41,14 @@
     <bundle start-level="80">mvn:com.instana/sensor-api/1.2.24</bundle>
   </feature>
 
-  <feature name="instana-agent" description="Instana Agent" version="1.1.119">
+  <feature name="instana-agent" description="Instana Agent" version="1.1.120">
     <feature>scr</feature>
     <feature>bundle</feature>
     <feature>instana-agent-bootstrap</feature>
     <feature>instana-jackson</feature>
     <feature>instana-apache-commons</feature>
     <feature>instana-api</feature>
-    <bundle start-level="80">mvn:com.instana/agent/1.1.119</bundle>
+    <bundle start-level="80">mvn:com.instana/agent/1.1.120</bundle>
   </feature>
 
 </features>
