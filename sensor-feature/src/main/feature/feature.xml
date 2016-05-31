@@ -121,7 +121,7 @@
     <feature prerequisite="true">wrap</feature>
     <bundle start-level="80">wrap:mvn:com.github.odiszapc/nginxparser/0.9.6$Bundle-SymbolicName=nginxparser&amp;Bundle-Version=0.9.6</bundle>
     <bundle start-level="80">mvn:org.antlr/antlr4-runtime/4.5.3</bundle>
-    <bundle start-level="80">mvn:com.instana/sensor-nginx/1.1.22</bundle>
+    <bundle start-level="80">mvn:com.instana/sensor-nginx/1.1.23</bundle>
   </feature>
 
   <feature name="instana-nodejs-app-sensor" version="1.1.3">
