@@ -11,11 +11,11 @@
     <bundle start-level="80">mvn:com.instana/discovery-cassandra/1.1.20</bundle>
   </feature>
 
-  <feature name="instana-docker-discovery" version="1.1.13">
+  <feature name="instana-docker-discovery" version="1.1.14">
     <feature version="[1.2.20,2)">instana-api</feature>
     <feature version="[1.0,2)">instana-apache-commons</feature>
     <feature version="[2.7,3)">instana-jackson</feature>
-    <bundle start-level="80">mvn:com.instana/discovery-docker/1.1.13</bundle>
+    <bundle start-level="80">mvn:com.instana/discovery-docker/1.1.14</bundle>
   </feature>
 
   <feature name="instana-dropwizard-discovery" version="1.1.7">
