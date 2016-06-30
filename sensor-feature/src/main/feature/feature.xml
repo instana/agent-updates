@@ -186,9 +186,9 @@
     <bundle start-level="80">mvn:com.instana/sensor-rabbitmq/1.1.16</bundle>
   </feature>
 
-  <feature name="instana-springboot-sensor" version="1.1.6">
-    <feature version="[1.2.2,2)">instana-java-sensor</feature>
-    <bundle start-level="80">mvn:com.instana/sensor-springboot/1.1.6</bundle>
+  <feature name="instana-springboot-sensor" version="1.1.8">
+    <feature version="[1.2.18,2)">instana-java-sensor</feature>
+    <bundle start-level="80">mvn:com.instana/sensor-springboot/1.1.8</bundle>
   </feature>
 
   <feature name="instana-tomcat-sensor" version="1.1.22">
