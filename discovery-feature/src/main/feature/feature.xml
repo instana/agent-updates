@@ -29,9 +29,9 @@
     <bundle start-level="80">mvn:com.instana/discovery-ec2/1.1.4</bundle>
   </feature>
 
-  <feature name="instana-elasticsearch-discovery" version="1.1.24">
-    <feature version="[1.2.20,2)">instana-api</feature>
-    <bundle start-level="80">mvn:com.instana/discovery-elasticsearch/1.1.24</bundle>
+  <feature name="instana-elasticsearch-discovery" version="1.1.25">
+    <feature version="[1.2.32,2)">instana-api</feature>
+    <bundle start-level="80">mvn:com.instana/discovery-elasticsearch/1.1.25</bundle>
   </feature>
 
   <feature name="instana-gce-discovery" version="1.1.4">
