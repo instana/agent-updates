@@ -56,9 +56,9 @@
     <bundle start-level="80">mvn:com.instana/sensor-host/1.1.40</bundle>
   </feature>
 
-  <feature name="instana-httpd-sensor" version="1.1.23">
-    <feature version="[1.2.20,2)">instana-api</feature>
-    <bundle start-level="80">mvn:com.instana/sensor-httpd/1.1.23</bundle>
+  <feature name="instana-httpd-sensor" version="1.1.24">
+    <feature version="[1.2.32,2)">instana-api</feature>
+    <bundle start-level="80">mvn:com.instana/sensor-httpd/1.1.24</bundle>
   </feature>
 
   <feature name="instana-java-sensor" version="1.2.20">
@@ -121,12 +121,12 @@
     <bundle start-level="80">wrap:mvn:com.microsoft.sqlserver/sqljdbc4/4.0$Bundle-SymbolicName=sqljdbc4&amp;Bundle-Version=4.0</bundle>
   </feature>
 
-  <feature name="instana-nginx-sensor" version="1.1.26">
+  <feature name="instana-nginx-sensor" version="1.1.27">
     <feature version="[1.2.29,2)">instana-api</feature>
     <feature prerequisite="true">wrap</feature>
     <bundle start-level="80">wrap:mvn:com.github.odiszapc/nginxparser/0.9.6$Bundle-SymbolicName=nginxparser&amp;Bundle-Version=0.9.6</bundle>
     <bundle start-level="80">mvn:org.antlr/antlr4-runtime/4.5.3</bundle>
-    <bundle start-level="80">mvn:com.instana/sensor-nginx/1.1.26</bundle>
+    <bundle start-level="80">mvn:com.instana/sensor-nginx/1.1.27</bundle>
   </feature>
 
   <feature name="instana-nodejs-app-sensor" version="1.1.3">
