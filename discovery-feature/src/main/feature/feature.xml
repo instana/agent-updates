@@ -1,6 +1,11 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
 <features name="${project.artifactId}-${project.version}" xmlns="http://karaf.apache.org/xmlns/features/v1.3.0" >
 
+  <feature name="instana-activemq-discovery" version="1.1.0">
+    <feature version="[1.2.32,2)">instana-api</feature>
+    <bundle start-level="80">mvn:com.instana/discovery-activemq/1.1.0</bundle>
+  </feature>
+
   <feature name="instana-azure-discovery" version="1.1.1">
     <feature version="[1.2.15,2)">instana-api</feature>
     <bundle start-level="80">mvn:com.instana/discovery-azure/1.1.1</bundle>
