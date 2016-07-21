@@ -1,6 +1,11 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
 <features name="${project.artifactId}-${project.version}" xmlns="http://karaf.apache.org/xmlns/features/v1.3.0" >
 
+  <feature name="instana-activemq-sensor" version="1.1.1">
+    <feature version="[1.2.18,2)">instana-java-sensor</feature>
+    <bundle start-level="80">mvn:com.instana/sensor-activemq/1.1.1</bundle>
+  </feature>
+
   <feature name="instana-azure-sensor" version="1.1.1">
     <feature version="[1.2.15,2)">instana-api</feature>
     <bundle start-level="80">mvn:com.instana/sensor-azure/1.1.1</bundle>
@@ -29,9 +34,9 @@
     <bundle start-level="80">mvn:com.instana/sensor-ec2/1.1.4</bundle>
   </feature>
 
-  <feature name="instana-elasticsearch-sensor" version="1.1.29">
+  <feature name="instana-elasticsearch-sensor" version="1.1.30">
     <feature version="[1.2.18,2)">instana-java-sensor</feature>
-    <bundle start-level="80">mvn:com.instana/sensor-elasticsearch/1.1.29</bundle>
+    <bundle start-level="80">mvn:com.instana/sensor-elasticsearch/1.1.30</bundle>
   </feature>
 
   <feature name="instana-gce-sensor" version="1.1.4">
@@ -66,9 +71,9 @@
     <bundle start-level="80">mvn:com.instana/sensor-java/1.2.21</bundle>
   </feature>
 
-  <feature name="instana-java-trace-sensor" version="1.2.65">
+  <feature name="instana-java-trace-sensor" version="1.2.66">
     <feature version="[1.2.18,2)">instana-java-sensor</feature>
-    <bundle start-level="80">mvn:com.instana/sensor-java-trace/1.2.65</bundle>
+    <bundle start-level="80">mvn:com.instana/sensor-java-trace/1.2.66</bundle>
   </feature>
 
   <feature name="instana-jboss-as-sensor" version="1.1.6">
@@ -91,9 +96,10 @@
     <bundle start-level="80">mvn:com.instana/sensor-kafka/1.1.15</bundle>
   </feature>
 
-  <feature name="instana-memcached-sensor" version="1.0.0">
+  <feature name="instana-memcached-sensor" version="1.0.1">
     <feature version="[1.2.32,2.0.0)">instana-api</feature>
-    <bundle start-level="80">mvn:com.instana/sensor-memcached/1.0.0</bundle>
+    <bundle start-level="80">wrap:mvn:net.spy/spymemcached/2.12.1</bundle>
+    <bundle start-level="80">mvn:com.instana/sensor-memcached/1.0.1</bundle>
   </feature>
 
   <feature name="instana-mariadb-sensor" version="1.1.10">
