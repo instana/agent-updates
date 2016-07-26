@@ -191,10 +191,10 @@
     <bundle start-level="80">mvn:com.instana/sensor-redis/1.1.8</bundle>
   </feature>
 
-  <feature name="instana-rabbitmq-sensor" version="1.1.16">
+  <feature name="instana-rabbitmq-sensor" version="1.1.17">
     <feature version="[1.2.26,2)">instana-api</feature>
     <feature version="[1.0,2)">instana-apache-commons</feature>
-    <bundle start-level="80">mvn:com.instana/sensor-rabbitmq/1.1.16</bundle>
+    <bundle start-level="80">mvn:com.instana/sensor-rabbitmq/1.1.17</bundle>
   </feature>
 
   <feature name="instana-springboot-sensor" version="1.1.12">
