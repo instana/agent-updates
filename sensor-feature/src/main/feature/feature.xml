@@ -6,9 +6,9 @@
     <bundle start-level="80">mvn:com.instana/sensor-activemq/1.1.2</bundle>
   </feature>
 
-  <feature name="instana-azure-sensor" version="1.1.1">
+  <feature name="instana-azure-sensor" version="1.1.2">
     <feature version="[1.2.15,2)">instana-api</feature>
-    <bundle start-level="80">mvn:com.instana/sensor-azure/1.1.1</bundle>
+    <bundle start-level="80">mvn:com.instana/sensor-azure/1.1.2</bundle>
   </feature>
 
   <feature name="instana-cassandra-sensor" version="1.1.22">
