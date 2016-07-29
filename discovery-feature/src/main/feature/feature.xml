@@ -161,6 +161,11 @@
     <bundle start-level="80">mvn:com.instana/discovery-rabbitmq/1.1.19</bundle>
   </feature>
 
+  <feature name="instana-solr-discovery" version="1.0.1">
+    <feature version="[1.2.32,2)">instana-api</feature>
+    <bundle start-level="80">mvn:com.instana/discovery-solr/1.0.1</bundle>
+  </feature>
+
   <feature name="instana-springboot-discovery" version="1.1.12">
     <feature version="[1.2.32,2)">instana-api</feature>
     <bundle start-level="80">mvn:com.instana/discovery-springboot/1.1.12</bundle>
