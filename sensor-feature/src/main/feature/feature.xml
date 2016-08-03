@@ -76,9 +76,9 @@
     <bundle start-level="80">mvn:com.instana/sensor-java-trace/1.2.71</bundle>
   </feature>
 
-  <feature name="instana-jboss-as-sensor" version="1.1.7">
-    <feature version="[1.2.18,2)">instana-java-sensor</feature>
-    <bundle start-level="80">mvn:com.instana/sensor-jboss-as/1.1.7</bundle>
+  <feature name="instana-jboss-as-sensor" version="1.1.8">
+    <feature version="[1.2.24,2)">instana-java-sensor</feature>
+    <bundle start-level="80">mvn:com.instana/sensor-jboss-as/1.1.8</bundle>
   </feature>
 
   <feature name="instana-jetty-sensor" version="1.1.2">
