@@ -81,6 +81,11 @@
     <bundle start-level="80">mvn:com.instana/sensor-jboss-as/1.1.9</bundle>
   </feature>
 
+  <feature name="instana-jboss-datagrid-sensor" version="1.1.0">
+    <feature version="[1.2.34,2)">instana-api</feature>
+    <bundle start-level="80">mvn:com.instana/sensor-jboss-datagrid/1.1.0</bundle>
+  </feature>
+
   <feature name="instana-jetty-sensor" version="1.1.2">
     <feature version="[1.2.18,2)">instana-java-sensor</feature>
     <bundle start-level="80">mvn:com.instana/sensor-jetty/1.1.2</bundle>
