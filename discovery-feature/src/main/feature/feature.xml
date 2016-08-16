@@ -166,9 +166,9 @@
     <bundle start-level="80">mvn:com.instana/discovery-solr/1.0.2</bundle>
   </feature>
 
-  <feature name="instana-springboot-discovery" version="1.1.12">
-    <feature version="[1.2.32,2)">instana-api</feature>
-    <bundle start-level="80">mvn:com.instana/discovery-springboot/1.1.12</bundle>
+  <feature name="instana-springboot-discovery" version="1.1.13">
+    <feature version="[1.2.37,2)">instana-api</feature>
+    <bundle start-level="80">mvn:com.instana/discovery-springboot/1.1.13</bundle>
   </feature>
 
   <feature name="instana-tomcat-discovery" version="1.1.24">
