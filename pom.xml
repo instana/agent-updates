@@ -18,6 +18,7 @@
   </scm>
 
   <properties>
+    <repository>http://repo.public.instana.io/artifactory/features-internal</repository>
     <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
     <project.reporting.outputEncoding>UTF-8</project.reporting.outputEncoding>
     <karaf.version>4.0.0</karaf.version>
@@ -45,7 +46,7 @@
     <!-- repository for features are always public snapshot repo. The latest deployed version dictates what gets installed by agents -->
     <snapshotRepository>
       <id>feature-repository</id>
-      <url>http://repo.public.instana.io/artifactory/features-internal</url>
+      <url>${repository}</url>
     </snapshotRepository>
   </distributionManagement>
 
