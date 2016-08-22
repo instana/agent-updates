@@ -167,14 +167,14 @@
     <bundle start-level="80">mvn:com.instana/sensor-opentsdb2/1.0.0-SNAPSHOT</bundle>
   </feature>
 
-  <feature name="instana-php-fpm-sensor" version="1.1.23">
-    <feature version="[1.2.24,2)">instana-api</feature>
-    <bundle start-level="80">mvn:com.instana/sensor-php-fpm/1.1.23</bundle>
+  <feature name="instana-php-fpm-sensor" version="1.1.27">
+    <feature version="[1.2.37,2)">instana-api</feature>
+    <bundle start-level="80">mvn:com.instana/sensor-php-fpm/1.1.27</bundle>
   </feature>
 
-  <feature name="instana-php-sensor" version="1.0.3">
-    <feature version="[1.2.15,2)">instana-api</feature>
-    <bundle start-level="80">mvn:com.instana/sensor-php/1.0.3</bundle>
+  <feature name="instana-php-sensor" version="1.0.7">
+    <feature version="[1.2.37,2)">instana-api</feature>
+    <bundle start-level="80">mvn:com.instana/sensor-php/1.0.7</bundle>
   </feature>
 
   <feature name="instana-postgresql-sensor" version="1.0.7">
