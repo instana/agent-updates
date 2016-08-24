@@ -32,34 +32,6 @@
           <overwriteChangedDependencies>true</overwriteChangedDependencies>
         </configuration>
       </plugin>
-      <!-- for unkown reasons, this config will upload as 1.0.0-SNAPSHOT and as GIT_COMMIT version, which is exactly what we want. -->
-      <plugin>
-        <artifactId>maven-deploy-plugin</artifactId>
-        <version>2.8.2</version>
-        <executions>
-           <execution>
-            <id>default-deploy</id>
-            <phase>none</phase>
-            </execution>
-           <execution>
-            <id>deploy-file</id>
-            <phase>deploy</phase>
-            <goals>
-              <goal>deploy-file</goal>
-            </goals>
-            <configuration>
-              <file>${project.build.directory}/feature/feature.xml</file>
-              <repositoryId>feature-repository</repositoryId>
-              <url>${repository}</url>
-              <groupId>com.instana</groupId>
-              <artifactId>agent-feature</artifactId>
-              <version>${env.GIT_COMMIT}</version>
-              <classifier>features</classifier>
-              <packaging>feature</packaging>
-            </configuration>
-          </execution>
-        </executions>
-      </plugin>
     </plugins>
   </build>
 
