@@ -172,9 +172,9 @@
     <bundle start-level="80">mvn:com.instana/sensor-php-fpm/1.1.27</bundle>
   </feature>
 
-  <feature name="instana-php-sensor" version="1.0.7">
+  <feature name="instana-php-sensor" version="1.0.8">
     <feature version="[1.2.37,2)">instana-api</feature>
-    <bundle start-level="80">mvn:com.instana/sensor-php/1.0.7</bundle>
+    <bundle start-level="80">mvn:com.instana/sensor-php/1.0.8</bundle>
   </feature>
 
   <feature name="instana-postgresql-sensor" version="1.0.7">
