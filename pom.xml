@@ -47,6 +47,10 @@
       <id>feature-repository</id>
       <url>http://repo-public.instana.io/artifactory/features-public</url>
     </snapshotRepository>
+    <repository>
+      <id>feature-repository-releases</id>
+      <url>http://repo-public.instana.io/artifactory/features-public</url>
+    </repository>
   </distributionManagement>
 
 </project>
