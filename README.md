@@ -1,20 +1,16 @@
-## Release procedure
+## Instana Agent Update Repository
 
-The release procedure is simple, but there are a couple of constraints.
-First of all, strict semantical versioning is required to have auto updates work.
+This repository contains all released Instana agent versions.
 
-The agent will by default pull updates from the repository once a day.
-It can be triggered using `agent:update`.
-The repository is defined in `etc/org.ops4j.pax.url.mvn.cfg`
+There can be potentially many different release branches, like alpha or beta, but currently there is only one: `public`
 
-`http://repo.public.instana.io/artifactory/features-internal@id=features@noreleases@snapshots@snapshotsUpdate=always`
+This release branch is referenced in each agent installation in `etc/org.ops4j.pax.url.mvn.cfg`
 
-The version of `agent-feature`, `discovery-feature` and `sensor-feature` is always
-`1.0.0-SNAPSHOT`, this way the agent will always get the new definitions.
+with the line: `http://repo-public.instana.io/artifactory/features-public@id=features@snapshots@snapshotsUpdate=always`
+(This url matches the URL from `pom.xml` distribution management section)
 
-Customer releases should be pushed to `http://repo.public.instana.io/artifactory/features-public` and not contain any snapshot references anymore. At the moment it is expected to be a manual procedure.
+Updates from that repository will be pulled automatically by the agent.
+The update interval is defined in `etc/instana/com.instana.agent.main.config.UpdateManager.cfg`.
 
-To release a public version of the agent this line needs to be changed in maven config.
-
-In the artifactory it should like
-![Artifactory](maven-structure.png)
+Should automatic update not be desired, it is possible to pin the agent to a specific version. This can be done in `etc/instana/com.instana.agent.bootstrap.AgentBootstrap.cfg`, where the `version` needs to correspond to a commit of the respective release branch, like `06fba01ca3c13265c0ac33bfcb4e5b0ef08ec385`.
+Once the version is pinned, no updates are performed anymore.
