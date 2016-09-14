@@ -39,10 +39,10 @@
     <bundle start-level="80">mvn:com.instana/sensor-elasticsearch/1.1.30</bundle>
   </feature>
 
-  <feature name="instana-gce-sensor" version="1.1.4">
+  <feature name="instana-gce-sensor" version="1.1.5">
     <feature version="[1.2.15,2)">instana-api</feature>
     <feature version="[1.0,2)">instana-apache-commons</feature>
-    <bundle start-level="80">mvn:com.instana/sensor-gce/1.1.4</bundle>
+    <bundle start-level="80">mvn:com.instana/sensor-gce/1.1.5</bundle>
   </feature>
 
   <feature name="instana-generic-hardware-sensor" version="1.1.2">
@@ -110,10 +110,10 @@
     <bundle start-level="80">mvn:com.instana/sensor-memcached/1.0.6</bundle>
   </feature>
 
-  <feature name="instana-mariadb-sensor" version="1.1.14">
+  <feature name="instana-mariadb-sensor" version="1.1.15">
     <feature version="[1.2.34,2)">instana-api</feature>
     <bundle start-level="80">mvn:org.mariadb.jdbc/mariadb-java-client/1.4.6</bundle>
-    <bundle start-level="80">mvn:com.instana/sensor-mariadb/1.1.14</bundle>
+    <bundle start-level="80">mvn:com.instana/sensor-mariadb/1.1.15</bundle>
   </feature>
 
   <feature name="instana-mongodb-sensor" version="1.1.16">
@@ -122,10 +122,10 @@
     <bundle start-level="80">mvn:com.instana/sensor-mongodb/1.1.16</bundle>
   </feature>
 
-  <feature name="instana-mysql-sensor" version="1.1.36">
+  <feature name="instana-mysql-sensor" version="1.1.37">
     <feature version="[1.2.34,2)">instana-api</feature>
     <bundle start-level="80">mvn:org.mariadb.jdbc/mariadb-java-client/1.4.6</bundle>
-    <bundle start-level="80">mvn:com.instana/sensor-mysql/1.1.36</bundle>
+    <bundle start-level="80">mvn:com.instana/sensor-mysql/1.1.37</bundle>
   </feature>
 
   <feature name="instana-msiis-sensor" version="1.1.5">
@@ -170,14 +170,14 @@
     <bundle start-level="80">mvn:com.instana/sensor-opentsdb2/1.0.0-SNAPSHOT</bundle>
   </feature>
 
-  <feature name="instana-php-fpm-sensor" version="1.1.30">
+  <feature name="instana-php-fpm-sensor" version="1.1.31">
     <feature version="[1.2.37,2)">instana-api</feature>
-    <bundle start-level="80">mvn:com.instana/sensor-php-fpm/1.1.30</bundle>
+    <bundle start-level="80">mvn:com.instana/sensor-php-fpm/1.1.31</bundle>
   </feature>
 
-  <feature name="instana-php-sensor" version="1.0.11">
+  <feature name="instana-php-sensor" version="1.0.12">
     <feature version="[1.2.37,2)">instana-api</feature>
-    <bundle start-level="80">mvn:com.instana/sensor-php/1.0.11</bundle>
+    <bundle start-level="80">mvn:com.instana/sensor-php/1.0.12</bundle>
   </feature>
 
   <feature name="instana-postgresql-sensor" version="1.0.7">
@@ -199,10 +199,10 @@
     <bundle start-level="80">mvn:com.instana/sensor-redis/1.1.13</bundle>
   </feature>
 
-  <feature name="instana-rabbitmq-sensor" version="1.1.23">
+  <feature name="instana-rabbitmq-sensor" version="1.1.24">
     <feature version="[1.2.37,2)">instana-api</feature>
     <feature version="[1.0,2)">instana-apache-commons</feature>
-    <bundle start-level="80">mvn:com.instana/sensor-rabbitmq/1.1.23</bundle>
+    <bundle start-level="80">mvn:com.instana/sensor-rabbitmq/1.1.24</bundle>
   </feature>
 
   <feature name="instana-solr-sensor" version="1.0.2">
@@ -220,10 +220,10 @@
     <bundle start-level="80">mvn:com.instana/sensor-tomcat/1.1.24</bundle>
   </feature>
 
-  <feature name="instana-varnish-sensor" version="1.0.1">
-    <feature version="[1.2.37,2)">instana-api</feature>
+  <feature name="instana-varnish-sensor" version="1.0.2">
+    <feature version="[1.2.40,2)">instana-api</feature>
     <feature version="[1.0,2)">instana-apache-commons</feature>
-    <bundle start-level="80">mvn:com.instana/sensor-varnish/1.0.1</bundle>
+    <bundle start-level="80">mvn:com.instana/sensor-varnish/1.0.2</bundle>
   </feature>
 
   <feature name="instana-weblogic-sensor" version="1.0.0-SNAPSHOT">
