@@ -72,10 +72,10 @@
     <bundle start-level="80">mvn:com.instana/sensor-java/1.2.26</bundle>
   </feature>
 
-  <feature name="instana-java-trace-sensor" version="1.2.93">
+  <feature name="instana-java-trace-sensor" version="1.2.94">
     <feature version="[1.2.24,2)">instana-java-sensor</feature>
     <feature version="[1.2.1,2)">instana-jctools</feature>
-    <bundle start-level="80">mvn:com.instana/sensor-java-trace/1.2.93</bundle>
+    <bundle start-level="80">mvn:com.instana/sensor-java-trace/1.2.94</bundle>
   </feature>
 
   <feature name="instana-jboss-as-sensor" version="1.1.10">
@@ -104,10 +104,10 @@
     <bundle start-level="80">mvn:com.instana/sensor-kafka/1.1.15</bundle>
   </feature>
 
-  <feature name="instana-memcached-sensor" version="1.0.6">
+  <feature name="instana-memcached-sensor" version="1.0.7">
     <feature version="[1.2.37,2.0.0)">instana-api</feature>
     <bundle start-level="80">wrap:mvn:net.spy/spymemcached/2.12.1</bundle>
-    <bundle start-level="80">mvn:com.instana/sensor-memcached/1.0.6</bundle>
+    <bundle start-level="80">mvn:com.instana/sensor-memcached/1.0.7</bundle>
   </feature>
 
   <feature name="instana-mariadb-sensor" version="1.1.15">
@@ -186,10 +186,10 @@
     <bundle start-level="80">mvn:com.instana/sensor-postgresql/1.0.7</bundle>
   </feature>
 
-  <feature name="instana-process-sensor" version="1.1.14">
+  <feature name="instana-process-sensor" version="1.1.15">
     <feature version="[1.2.37,2)">instana-api</feature>
     <feature version="[1.0,2)">instana-apache-commons</feature>
-    <bundle start-level="80">mvn:com.instana/sensor-process/1.1.14</bundle>
+    <bundle start-level="80">mvn:com.instana/sensor-process/1.1.15</bundle>
   </feature>
 
   <feature name="instana-redis-sensor" version="1.1.13">
