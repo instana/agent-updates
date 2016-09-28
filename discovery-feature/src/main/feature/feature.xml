@@ -186,9 +186,9 @@
     <bundle start-level="80">mvn:com.instana/discovery-tomcat/1.1.24</bundle>
   </feature>
 
-  <feature name="instana-varnish-discovery" version="1.0.3">
+  <feature name="instana-varnish-discovery" version="1.0.4">
     <feature version="[1.2.40,2)">instana-api</feature>
-    <bundle start-level="80">mvn:com.instana/discovery-varnish/1.0.3</bundle>
+    <bundle start-level="80">mvn:com.instana/discovery-varnish/1.0.4</bundle>
   </feature>
 
   <!-- Experimental
