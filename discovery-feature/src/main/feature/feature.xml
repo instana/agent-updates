@@ -191,6 +191,11 @@
     <bundle start-level="80">mvn:com.instana/discovery-varnish/1.0.4</bundle>
   </feature>
 
+  <feature name="instana-websphere-discovery" version="1.1.0">
+    <feature version="[1.2.40,2)">instana-api</feature>
+    <bundle start-level="80">mvn:com.instana/discovery-websphere/1.1.0</bundle>
+  </feature>
+
   <!-- Experimental
   <feature name="instana-weblogic-discovery" version="1.0.0-SNAPSHOT">
     <feature version="[1.2.2,2)">instana-api</feature>
