@@ -71,9 +71,9 @@
     <bundle start-level="80">mvn:com.instana/discovery-httpd/1.1.36</bundle>
   </feature>
 
-  <feature name="instana-java-discovery" version="1.2.26">
+  <feature name="instana-java-discovery" version="1.2.27">
     <feature version="[1.2.35,2)">instana-api</feature>
-    <bundle start-level="80">mvn:com.instana/discovery-java/1.2.26</bundle>
+    <bundle start-level="80">mvn:com.instana/discovery-java/1.2.27</bundle>
   </feature>
 
   <feature name="instana-jboss-as-discovery" version="1.1.10">
