@@ -95,9 +95,9 @@
     <bundle start-level="80">mvn:com.instana/sensor-jboss-datagrid/1.1.7</bundle>
   </feature>
 
-  <feature name="instana-jetty-sensor" version="1.1.5">
+  <feature name="instana-jetty-sensor" version="1.1.6">
     <feature version="[1.2.18,2)">instana-java-sensor</feature>
-    <bundle start-level="80">mvn:com.instana/sensor-jetty/1.1.5</bundle>
+    <bundle start-level="80">mvn:com.instana/sensor-jetty/1.1.6</bundle>
   </feature>
 
   <feature name="instana-jira-sensor" version="1.1.10">
