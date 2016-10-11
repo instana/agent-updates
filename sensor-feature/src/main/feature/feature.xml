@@ -67,9 +67,9 @@
     <bundle start-level="80">mvn:com.instana/sensor-host/1.1.53</bundle>
   </feature>
 
-  <feature name="instana-httpd-sensor" version="1.1.39">
+  <feature name="instana-httpd-sensor" version="1.1.40">
     <feature version="[1.2.37,2)">instana-api</feature>
-    <bundle start-level="80">mvn:com.instana/sensor-httpd/1.1.39</bundle>
+    <bundle start-level="80">mvn:com.instana/sensor-httpd/1.1.40</bundle>
   </feature>
 
   <feature name="instana-java-sensor" version="1.2.28">
@@ -78,10 +78,10 @@
     <bundle start-level="80">mvn:com.instana/sensor-java/1.2.28</bundle>
   </feature>
 
-  <feature name="instana-java-trace-sensor" version="1.2.103">
+  <feature name="instana-java-trace-sensor" version="1.2.105">
     <feature version="[1.2.24,2)">instana-java-sensor</feature>
     <feature version="[1.2.1,2)">instana-jctools</feature>
-    <bundle start-level="80">mvn:com.instana/sensor-java-trace/1.2.103</bundle>
+    <bundle start-level="80">mvn:com.instana/sensor-java-trace/1.2.105</bundle>
   </feature>
 
   <feature name="instana-jboss-as-sensor" version="1.1.10">
@@ -181,9 +181,9 @@
     <bundle start-level="80">mvn:com.instana/sensor-php-fpm/1.1.34</bundle>
   </feature>
 
-  <feature name="instana-php-sensor" version="1.0.15">
+  <feature name="instana-php-sensor" version="1.0.16">
     <feature version="[1.2.37,2)">instana-api</feature>
-    <bundle start-level="80">mvn:com.instana/sensor-php/1.0.15</bundle>
+    <bundle start-level="80">mvn:com.instana/sensor-php/1.0.16</bundle>
   </feature>
 
   <feature name="instana-postgresql-sensor" version="1.0.8">
@@ -226,10 +226,10 @@
     <bundle start-level="80">mvn:com.instana/sensor-tomcat/1.1.24</bundle>
   </feature>
 
-  <feature name="instana-varnish-sensor" version="1.0.4">
+  <feature name="instana-varnish-sensor" version="1.0.5">
     <feature version="[1.2.40,2)">instana-api</feature>
     <feature version="[1.0,2)">instana-apache-commons</feature>
-    <bundle start-level="80">mvn:com.instana/sensor-varnish/1.0.4</bundle>
+    <bundle start-level="80">mvn:com.instana/sensor-varnish/1.0.5</bundle>
   </feature>
 
   <feature name="instana-weblogic-sensor" version="1.0.0-SNAPSHOT">
