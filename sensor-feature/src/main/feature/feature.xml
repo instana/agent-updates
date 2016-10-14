@@ -78,10 +78,10 @@
     <bundle start-level="80">mvn:com.instana/sensor-java/1.2.28</bundle>
   </feature>
 
-  <feature name="instana-java-trace-sensor" version="1.2.107">
+  <feature name="instana-java-trace-sensor" version="1.2.109">
     <feature version="[1.2.24,2)">instana-java-sensor</feature>
     <feature version="[1.2.1,2)">instana-jctools</feature>
-    <bundle start-level="80">mvn:com.instana/sensor-java-trace/1.2.107</bundle>
+    <bundle start-level="80">mvn:com.instana/sensor-java-trace/1.2.109</bundle>
   </feature>
 
   <feature name="instana-jboss-as-sensor" version="1.1.10">
@@ -116,10 +116,10 @@
     <bundle start-level="80">mvn:com.instana/sensor-memcached/1.0.7</bundle>
   </feature>
 
-  <feature name="instana-mariadb-sensor" version="1.1.17">
+  <feature name="instana-mariadb-sensor" version="1.1.18">
     <feature version="[1.2.41,2)">instana-api</feature>
     <bundle start-level="80">mvn:org.mariadb.jdbc/mariadb-java-client/1.5.2</bundle>
-    <bundle start-level="80">mvn:com.instana/sensor-mariadb/1.1.17</bundle>
+    <bundle start-level="80">mvn:com.instana/sensor-mariadb/1.1.18</bundle>
   </feature>
 
   <feature name="instana-mongodb-sensor" version="1.1.17">
@@ -128,10 +128,10 @@
     <bundle start-level="80">mvn:com.instana/sensor-mongodb/1.1.17</bundle>
   </feature>
 
-  <feature name="instana-mysql-sensor" version="1.1.39">
+  <feature name="instana-mysql-sensor" version="1.1.40">
     <feature version="[1.2.41,2)">instana-api</feature>
     <bundle start-level="80">mvn:org.mariadb.jdbc/mariadb-java-client/1.5.2</bundle>
-    <bundle start-level="80">mvn:com.instana/sensor-mysql/1.1.39</bundle>
+    <bundle start-level="80">mvn:com.instana/sensor-mysql/1.1.40</bundle>
   </feature>
 
   <feature name="instana-msiis-sensor" version="1.1.5">
@@ -146,12 +146,12 @@
     <bundle start-level="80">wrap:mvn:com.microsoft.sqlserver/sqljdbc4/4.0$Bundle-SymbolicName=sqljdbc4&amp;Bundle-Version=4.0</bundle>
   </feature>
 
-  <feature name="instana-nginx-sensor" version="1.1.28">
-    <feature version="[1.2.29,2)">instana-api</feature>
+  <feature name="instana-nginx-sensor" version="1.1.29">
+    <feature version="[1.2.41,2)">instana-api</feature>
     <feature prerequisite="true">wrap</feature>
     <bundle start-level="80">wrap:mvn:com.github.odiszapc/nginxparser/0.9.6$Bundle-SymbolicName=nginxparser&amp;Bundle-Version=0.9.6</bundle>
     <bundle start-level="80">mvn:org.antlr/antlr4-runtime/4.5.3</bundle>
-    <bundle start-level="80">mvn:com.instana/sensor-nginx/1.1.28</bundle>
+    <bundle start-level="80">mvn:com.instana/sensor-nginx/1.1.29</bundle>
   </feature>
 
   <feature name="instana-nodejs-app-sensor" version="1.1.3">
