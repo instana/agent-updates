@@ -78,10 +78,10 @@
     <bundle start-level="80">mvn:com.instana/sensor-java/1.2.28</bundle>
   </feature>
 
-  <feature name="instana-java-trace-sensor" version="1.2.109">
+  <feature name="instana-java-trace-sensor" version="1.2.110">
     <feature version="[1.2.24,2)">instana-java-sensor</feature>
     <feature version="[1.2.1,2)">instana-jctools</feature>
-    <bundle start-level="80">mvn:com.instana/sensor-java-trace/1.2.109</bundle>
+    <bundle start-level="80">mvn:com.instana/sensor-java-trace/1.2.110</bundle>
   </feature>
 
   <feature name="instana-jboss-as-sensor" version="1.1.10">
@@ -221,15 +221,15 @@
     <bundle start-level="80">mvn:com.instana/sensor-springboot/1.1.14</bundle>
   </feature>
 
-  <feature name="instana-tomcat-sensor" version="1.1.24">
+  <feature name="instana-tomcat-sensor" version="1.1.25">
     <feature version="[1.2.18,2)">instana-java-sensor</feature>
-    <bundle start-level="80">mvn:com.instana/sensor-tomcat/1.1.24</bundle>
+    <bundle start-level="80">mvn:com.instana/sensor-tomcat/1.1.25</bundle>
   </feature>
 
-  <feature name="instana-varnish-sensor" version="1.0.5">
+  <feature name="instana-varnish-sensor" version="1.0.6">
     <feature version="[1.2.40,2)">instana-api</feature>
     <feature version="[1.0,2)">instana-apache-commons</feature>
-    <bundle start-level="80">mvn:com.instana/sensor-varnish/1.0.5</bundle>
+    <bundle start-level="80">mvn:com.instana/sensor-varnish/1.0.6</bundle>
   </feature>
 
   <feature name="instana-weblogic-sensor" version="1.0.0-SNAPSHOT">
