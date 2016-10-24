@@ -216,9 +216,9 @@
     <bundle start-level="80">mvn:com.instana/sensor-ruby/1.1.0</bundle>
   </feature>
 
-  <feature name="instana-solr-sensor" version="1.0.2">
-    <feature version="[1.2.18,2)">instana-java-sensor</feature>
-    <bundle start-level="80">mvn:com.instana/sensor-solr/1.0.2</bundle>
+  <feature name="instana-solr-sensor" version="1.0.3">
+    <feature version="[1.2.28,2)">instana-java-sensor</feature>
+    <bundle start-level="80">mvn:com.instana/sensor-solr/1.0.3</bundle>
   </feature>
 
   <feature name="instana-springboot-sensor" version="1.1.14">
