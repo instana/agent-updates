@@ -171,9 +171,14 @@
     <bundle start-level="80">mvn:com.instana/discovery-rabbitmq/1.1.25</bundle>
   </feature>
 
-  <feature name="instana-solr-discovery" version="1.0.2">
-    <feature version="[1.2.32,2)">instana-api</feature>
-    <bundle start-level="80">mvn:com.instana/discovery-solr/1.0.2</bundle>
+  <feature name="instana-ruby-discovery" version="1.1.0">
+    <feature version="[1.2.41,2)">instana-api</feature>
+    <bundle start-level="80">mvn:com.instana/discovery-ruby/1.1.0</bundle>
+  </feature>
+
+  <feature name="instana-solr-discovery" version="1.0.3">
+    <feature version="[1.2.42,2)">instana-api</feature>
+    <bundle start-level="80">mvn:com.instana/discovery-solr/1.0.3</bundle>
   </feature>
 
   <feature name="instana-springboot-discovery" version="1.1.14">
@@ -191,9 +196,9 @@
     <bundle start-level="80">mvn:com.instana/discovery-varnish/1.0.7</bundle>
   </feature>
 
-  <feature name="instana-websphere-discovery" version="1.1.0">
+  <feature name="instana-websphere-discovery" version="1.1.1">
     <feature version="[1.2.40,2)">instana-api</feature>
-    <bundle start-level="80">mvn:com.instana/discovery-websphere/1.1.0</bundle>
+    <bundle start-level="80">mvn:com.instana/discovery-websphere/1.1.1</bundle>
   </feature>
 
   <!-- Experimental
