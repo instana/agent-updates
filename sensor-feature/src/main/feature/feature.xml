@@ -21,11 +21,11 @@
     <bundle start-level="80">mvn:com.instana/sensor-cassandra/1.1.23</bundle>
   </feature>
 
-  <feature name="instana-docker-sensor" version="1.1.23">
+  <feature name="instana-docker-sensor" version="1.1.25">
     <feature version="[1.2.34,2)">instana-api</feature>
     <feature version="[1.0,2)">instana-apache-commons</feature>
     <feature version="[2.7,3)">instana-jackson</feature>
-    <bundle start-level="80">mvn:com.instana/sensor-docker/1.1.23</bundle>
+    <bundle start-level="80">mvn:com.instana/sensor-docker/1.1.25</bundle>
   </feature>
 
   <feature name="instana-dropwizard-sensor" version="1.1.11">
