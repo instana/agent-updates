@@ -1,6 +1,11 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
 <features name="${project.artifactId}-${project.version}" xmlns="http://karaf.apache.org/xmlns/features/v1.3.0" >
 
+  <feature name="instana-clr-sensor" version="1.1.2">
+    <feature version="[1.2.32,2)">instana-api</feature>
+    <bundle start-level="80">mvn:com.instana/sensor-clr/1.1.2</bundle>
+  </feature>
+
   <feature name="instana-activemq-sensor" version="1.1.3">
     <feature version="[1.2.18,2)">instana-java-sensor</feature>
     <bundle start-level="80">mvn:com.instana/sensor-activemq/1.1.3</bundle>
@@ -16,11 +21,11 @@
     <bundle start-level="80">mvn:com.instana/sensor-cassandra/1.1.23</bundle>
   </feature>
 
-  <feature name="instana-docker-sensor" version="1.1.23">
+  <feature name="instana-docker-sensor" version="1.1.25">
     <feature version="[1.2.34,2)">instana-api</feature>
     <feature version="[1.0,2)">instana-apache-commons</feature>
     <feature version="[2.7,3)">instana-jackson</feature>
-    <bundle start-level="80">mvn:com.instana/sensor-docker/1.1.23</bundle>
+    <bundle start-level="80">mvn:com.instana/sensor-docker/1.1.25</bundle>
   </feature>
 
   <feature name="instana-dropwizard-sensor" version="1.1.11">
@@ -61,10 +66,10 @@
     <bundle start-level="80">mvn:com.instana/sensor-haproxy/1.1.8</bundle>
   </feature>
 
-  <feature name="instana-host-sensor" version="1.1.53">
+  <feature name="instana-host-sensor" version="1.1.55">
     <feature version="[1.2.34,2)">instana-api</feature>
     <bundle start-level="80">mvn:net.jodah/expiringmap/0.5.2</bundle>
-    <bundle start-level="80">mvn:com.instana/sensor-host/1.1.53</bundle>
+    <bundle start-level="80">mvn:com.instana/sensor-host/1.1.55</bundle>
   </feature>
 
   <feature name="instana-httpd-sensor" version="1.1.46">
@@ -240,6 +245,11 @@
   <feature name="instana-weblogic-sensor" version="1.0.0-SNAPSHOT">
     <feature version="[1.1.1,2)">instana-java-sensor</feature>
     <bundle start-level="80">mvn:com.instana/sensor-weblogic/1.0.0-SNAPSHOT</bundle>
+  </feature>
+
+  <feature name="instana-zookeeper-sensor" version="1.0.0">
+    <feature version="[1.2.28,2)">instana-java-sensor</feature>
+    <bundle start-level="80">mvn:com.instana/sensor-zookeeper/1.0.0</bundle>
   </feature>
 
   <feature name="instana-websphere-sensor" version="1.1.1">

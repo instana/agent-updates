@@ -16,11 +16,11 @@
     <bundle start-level="80">mvn:com.instana/discovery-cassandra/1.1.23</bundle>
   </feature>
 
-  <feature name="instana-docker-discovery" version="1.1.23">
+  <feature name="instana-docker-discovery" version="1.1.25">
     <feature version="[1.2.34,2)">instana-api</feature>
     <feature version="[1.0,2)">instana-apache-commons</feature>
     <feature version="[2.7,3)">instana-jackson</feature>
-    <bundle start-level="80">mvn:com.instana/discovery-docker/1.1.23</bundle>
+    <bundle start-level="80">mvn:com.instana/discovery-docker/1.1.25</bundle>
   </feature>
 
   <feature name="instana-dropwizard-discovery" version="1.1.11">
@@ -37,6 +37,11 @@
   <feature name="instana-elasticsearch-discovery" version="1.1.30">
     <feature version="[1.2.32,2)">instana-api</feature>
     <bundle start-level="80">mvn:com.instana/discovery-elasticsearch/1.1.30</bundle>
+  </feature>
+
+  <feature name="instana-clr-discovery" version="1.1.2">
+    <feature version="[1.2.32,2)">instana-api</feature>
+    <bundle start-level="80">mvn:com.instana/discovery-clr/1.1.2</bundle>
   </feature>
 
   <feature name="instana-gce-discovery" version="1.1.5">
@@ -60,10 +65,10 @@
     <bundle start-level="80">mvn:com.instana/discovery-haproxy/1.1.8</bundle>
   </feature>
 
-  <feature name="instana-host-discovery" version="1.1.53">
+  <feature name="instana-host-discovery" version="1.1.55">
     <feature version="[1.2.34,2)">instana-api</feature>
     <feature version="[1.0,2)">instana-apache-commons</feature>
-    <bundle start-level="80">mvn:com.instana/discovery-host/1.1.53</bundle>
+    <bundle start-level="80">mvn:com.instana/discovery-host/1.1.55</bundle>
   </feature>
 
   <feature name="instana-httpd-discovery" version="1.1.46">
@@ -199,6 +204,11 @@
   <feature name="instana-websphere-discovery" version="1.1.1">
     <feature version="[1.2.40,2)">instana-api</feature>
     <bundle start-level="80">mvn:com.instana/discovery-websphere/1.1.1</bundle>
+  </feature>
+
+  <feature name="instana-zookeeper-discovery" version="1.0.0">
+    <feature version="[1.2.42,2)">instana-api</feature>
+    <bundle start-level="80">mvn:com.instana/discovery-zookeeper/1.0.0</bundle>
   </feature>
 
   <!-- Experimental
