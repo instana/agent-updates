@@ -70,10 +70,10 @@
     <bundle start-level="80">mvn:com.instana/discovery-haproxy/1.1.8</bundle>
   </feature>
 
-  <feature name="instana-host-discovery" version="1.1.55">
+  <feature name="instana-host-discovery" version="1.1.56">
     <feature version="[1.2.34,2)">instana-api</feature>
     <feature version="[1.0,2)">instana-apache-commons</feature>
-    <bundle start-level="80">mvn:com.instana/discovery-host/1.1.55</bundle>
+    <bundle start-level="80">mvn:com.instana/discovery-host/1.1.56</bundle>
   </feature>
 
   <feature name="instana-httpd-discovery" version="1.1.47">
