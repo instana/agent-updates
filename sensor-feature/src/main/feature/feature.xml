@@ -156,12 +156,12 @@
     <bundle start-level="80">wrap:mvn:com.microsoft.sqlserver/sqljdbc4/4.0$Bundle-SymbolicName=sqljdbc4&amp;Bundle-Version=4.0</bundle>
   </feature>
 
-  <feature name="instana-nginx-sensor" version="1.1.31">
+  <feature name="instana-nginx-sensor" version="1.1.32">
     <feature version="[1.2.41,2)">instana-api</feature>
     <feature prerequisite="true">wrap</feature>
     <bundle start-level="80">wrap:mvn:com.github.odiszapc/nginxparser/0.9.6$Bundle-SymbolicName=nginxparser&amp;Bundle-Version=0.9.6</bundle>
     <bundle start-level="80">mvn:org.antlr/antlr4-runtime/4.5.3</bundle>
-    <bundle start-level="80">mvn:com.instana/sensor-nginx/1.1.31</bundle>
+    <bundle start-level="80">mvn:com.instana/sensor-nginx/1.1.32</bundle>
   </feature>
 
   <feature name="instana-nodejs-app-sensor" version="1.1.3">
@@ -186,9 +186,9 @@
     <bundle start-level="80">mvn:com.instana/sensor-opentsdb2/1.0.0-SNAPSHOT</bundle>
   </feature>
 
-  <feature name="instana-php-fpm-sensor" version="1.1.35">
+  <feature name="instana-php-fpm-sensor" version="1.1.36">
     <feature version="[1.2.37,2)">instana-api</feature>
-    <bundle start-level="80">mvn:com.instana/sensor-php-fpm/1.1.35</bundle>
+    <bundle start-level="80">mvn:com.instana/sensor-php-fpm/1.1.36</bundle>
   </feature>
 
   <feature name="instana-php-sensor" version="1.0.18">
