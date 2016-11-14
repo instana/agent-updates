@@ -39,9 +39,9 @@
     <bundle start-level="80">mvn:com.instana/sensor-ec2/1.1.4</bundle>
   </feature>
 
-  <feature name="instana-elasticsearch-sensor" version="1.1.31">
+  <feature name="instana-elasticsearch-sensor" version="1.1.32">
     <feature version="[1.2.18,2)">instana-java-sensor</feature>
-    <bundle start-level="80">mvn:com.instana/sensor-elasticsearch/1.1.31</bundle>
+    <bundle start-level="80">mvn:com.instana/sensor-elasticsearch/1.1.32</bundle>
   </feature>
 
   <feature name="instana-gce-sensor" version="1.1.5">
