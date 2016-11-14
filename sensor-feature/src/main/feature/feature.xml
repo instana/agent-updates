@@ -39,9 +39,9 @@
     <bundle start-level="80">mvn:com.instana/sensor-ec2/1.1.4</bundle>
   </feature>
 
-  <feature name="instana-elasticsearch-sensor" version="1.1.31">
+  <feature name="instana-elasticsearch-sensor" version="1.1.32">
     <feature version="[1.2.18,2)">instana-java-sensor</feature>
-    <bundle start-level="80">mvn:com.instana/sensor-elasticsearch/1.1.31</bundle>
+    <bundle start-level="80">mvn:com.instana/sensor-elasticsearch/1.1.32</bundle>
   </feature>
 
   <feature name="instana-gce-sensor" version="1.1.5">
@@ -77,9 +77,9 @@
     <bundle start-level="80">mvn:com.instana/sensor-host/1.1.56</bundle>
   </feature>
 
-  <feature name="instana-httpd-sensor" version="1.1.47">
+  <feature name="instana-httpd-sensor" version="1.1.48">
     <feature version="[1.2.37,2)">instana-api</feature>
-    <bundle start-level="80">mvn:com.instana/sensor-httpd/1.1.47</bundle>
+    <bundle start-level="80">mvn:com.instana/sensor-httpd/1.1.48</bundle>
   </feature>
 
   <feature name="instana-java-sensor" version="1.2.30">
@@ -191,9 +191,9 @@
     <bundle start-level="80">mvn:com.instana/sensor-php-fpm/1.1.36</bundle>
   </feature>
 
-  <feature name="instana-php-sensor" version="1.0.18">
+  <feature name="instana-php-sensor" version="1.0.19">
     <feature version="[1.2.37,2)">instana-api</feature>
-    <bundle start-level="80">mvn:com.instana/sensor-php/1.0.18</bundle>
+    <bundle start-level="80">mvn:com.instana/sensor-php/1.0.19</bundle>
   </feature>
 
   <feature name="instana-postgresql-sensor" version="1.0.9">
