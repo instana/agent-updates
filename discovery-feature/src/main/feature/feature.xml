@@ -211,9 +211,9 @@
     <bundle start-level="80">mvn:com.instana/discovery-websphere/1.1.1</bundle>
   </feature>
 
-  <feature name="instana-zookeeper-discovery" version="1.0.0">
+  <feature name="instana-zookeeper-discovery" version="1.0.1">
     <feature version="[1.2.42,2)">instana-api</feature>
-    <bundle start-level="80">mvn:com.instana/discovery-zookeeper/1.0.0</bundle>
+    <bundle start-level="80">mvn:com.instana/discovery-zookeeper/1.0.1</bundle>
   </feature>
 
   <!-- Experimental
