@@ -82,10 +82,10 @@
     <bundle start-level="80">mvn:com.instana/sensor-httpd/1.1.49</bundle>
   </feature>
 
-  <feature name="instana-java-sensor" version="1.2.30">
+  <feature name="instana-java-sensor" version="1.2.31">
     <feature version="[1.2.35,2)">instana-api</feature>
     <feature version="[1.2.1,2)">instana-jctools</feature>
-    <bundle start-level="80">mvn:com.instana/sensor-java/1.2.30</bundle>
+    <bundle start-level="80">mvn:com.instana/sensor-java/1.2.31</bundle>
   </feature>
 
   <feature name="instana-java-trace-sensor" version="1.2.125">
