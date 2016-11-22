@@ -196,10 +196,10 @@
     <bundle start-level="80">mvn:com.instana/sensor-php/1.0.22</bundle>
   </feature>
 
-  <feature name="instana-postgresql-sensor" version="1.0.9">
+  <feature name="instana-postgresql-sensor" version="1.0.10">
     <feature version="[1.2.41,2)">instana-api</feature>
     <bundle start-level="80">wrap:mvn:postgresql/postgresql/9.1-901-1.jdbc4</bundle>
-    <bundle start-level="80">mvn:com.instana/sensor-postgresql/1.0.9</bundle>
+    <bundle start-level="80">mvn:com.instana/sensor-postgresql/1.0.10</bundle>
   </feature>
 
   <feature name="instana-process-sensor" version="1.1.17">
