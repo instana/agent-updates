@@ -44,6 +44,12 @@
     <bundle start-level="80">mvn:com.instana/sensor-elasticsearch/1.1.33</bundle>
   </feature>
 
+  <feature name="instana-etcd-sensor" version="1.0.0">
+    <feature version="[1.2.42,2)">instana-api</feature>
+    <feature version="[1.0,2)">instana-apache-commons</feature>
+    <bundle start-level="80">mvn:com.instana/sensor-etcd/1.0.0</bundle>
+  </feature>
+
   <feature name="instana-gce-sensor" version="1.1.5">
     <feature version="[1.2.15,2)">instana-api</feature>
     <feature version="[1.0,2)">instana-apache-commons</feature>
@@ -71,10 +77,10 @@
     <bundle start-level="80">mvn:com.instana/sensor-haproxy/1.1.8</bundle>
   </feature>
 
-  <feature name="instana-host-sensor" version="1.1.57">
+  <feature name="instana-host-sensor" version="1.1.58">
     <feature version="[1.2.34,2)">instana-api</feature>
     <bundle start-level="80">mvn:net.jodah/expiringmap/0.5.2</bundle>
-    <bundle start-level="80">mvn:com.instana/sensor-host/1.1.57</bundle>
+    <bundle start-level="80">mvn:com.instana/sensor-host/1.1.58</bundle>
   </feature>
 
   <feature name="instana-httpd-sensor" version="1.1.52">
@@ -191,9 +197,9 @@
     <bundle start-level="80">mvn:com.instana/sensor-php-fpm/1.1.37</bundle>
   </feature>
 
-  <feature name="instana-php-sensor" version="1.0.22">
+  <feature name="instana-php-sensor" version="1.0.23">
     <feature version="[1.2.37,2)">instana-api</feature>
-    <bundle start-level="80">mvn:com.instana/sensor-php/1.0.22</bundle>
+    <bundle start-level="80">mvn:com.instana/sensor-php/1.0.23</bundle>
   </feature>
 
   <feature name="instana-postgresql-sensor" version="1.0.10">
