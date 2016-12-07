@@ -138,10 +138,10 @@
     <bundle start-level="80">mvn:com.instana/sensor-mariadb/1.1.19</bundle>
   </feature>
 
-  <feature name="instana-mongodb-sensor" version="1.1.18">
+  <feature name="instana-mongodb-sensor" version="1.1.19">
     <feature version="[1.2.41,2)">instana-api</feature>
     <bundle start-level="80">mvn:org.mongodb/mongo-java-driver/3.4.0</bundle>
-    <bundle start-level="80">mvn:com.instana/sensor-mongodb/1.1.18</bundle>
+    <bundle start-level="80">mvn:com.instana/sensor-mongodb/1.1.19</bundle>
   </feature>
 
   <feature name="instana-mysql-sensor" version="1.1.43">
@@ -202,10 +202,10 @@
     <bundle start-level="80">mvn:com.instana/sensor-php/1.0.25</bundle>
   </feature>
 
-  <feature name="instana-postgresql-sensor" version="1.0.10">
-    <feature version="[1.2.41,2)">instana-api</feature>
+  <feature name="instana-postgresql-sensor" version="1.0.11">
+    <feature version="[1.2.42,2)">instana-api</feature>
     <bundle start-level="80">wrap:mvn:postgresql/postgresql/9.1-901-1.jdbc4</bundle>
-    <bundle start-level="80">mvn:com.instana/sensor-postgresql/1.0.10</bundle>
+    <bundle start-level="80">mvn:com.instana/sensor-postgresql/1.0.11</bundle>
   </feature>
 
   <feature name="instana-process-sensor" version="1.1.17">
@@ -258,10 +258,10 @@
     <bundle start-level="80">mvn:com.instana/sensor-weblogic/1.0.0-SNAPSHOT</bundle>
   </feature>
 
-  <feature name="instana-websphere-sensor" version="1.1.3">
+  <feature name="instana-websphere-sensor" version="1.1.4">
     <feature version="[1.2.31,2)">instana-java-sensor</feature>
     <feature version="[1.2.40,2)">instana-api</feature>
-    <bundle start-level="80">mvn:com.instana/sensor-websphere/1.1.3</bundle>
+    <bundle start-level="80">mvn:com.instana/sensor-websphere/1.1.4</bundle>
   </feature>
 
   <feature name="instana-zookeeper-sensor" version="1.0.2">
