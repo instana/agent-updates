@@ -126,10 +126,10 @@
     <bundle start-level="80">mvn:com.instana/sensor-kafka/1.1.20</bundle>
   </feature>
 
-  <feature name="instana-memcached-sensor" version="1.0.7">
+  <feature name="instana-memcached-sensor" version="1.0.8">
     <feature version="[1.2.37,2.0.0)">instana-api</feature>
     <bundle start-level="80">wrap:mvn:net.spy/spymemcached/2.12.1</bundle>
-    <bundle start-level="80">mvn:com.instana/sensor-memcached/1.0.7</bundle>
+    <bundle start-level="80">mvn:com.instana/sensor-memcached/1.0.8</bundle>
   </feature>
 
   <feature name="instana-mariadb-sensor" version="1.1.19">
