@@ -192,6 +192,12 @@
     <bundle start-level="80">mvn:com.instana/sensor-opentsdb2/1.0.0-SNAPSHOT</bundle>
   </feature>
 
+  <feature name="instana-oracledb-sensor" version="1.1.2">
+    <feature version="[1.2.44,2)">instana-api</feature>
+    <bundle start-level="80">wrap:mvn:com.oracle.jdbc/ojdbc7/12.1.0.2$Bundle-SymbolicName=ojdbc7&amp;Bundle-Version=12.1.0.2</bundle>
+    <bundle start-level="80">mvn:com.instana/sensor-oracledb/1.1.2</bundle>
+  </feature>
+
   <feature name="instana-php-fpm-sensor" version="1.1.38">
     <feature version="[1.2.37,2)">instana-api</feature>
     <bundle start-level="80">mvn:com.instana/sensor-php-fpm/1.1.38</bundle>

@@ -161,6 +161,11 @@
     <bundle start-level="80">mvn:com.instana/discovery-openstack-nova/1.1.2</bundle>
   </feature>
 
+  <feature name="instana-oracledb-discovery" version="1.1.2">
+    <feature version="[1.2.44,2)">instana-api</feature>
+    <bundle start-level="80">mvn:com.instana/discovery-oracledb/1.1.2</bundle>
+  </feature>
+
   <feature name="instana-php-fpm-discovery" version="1.1.38">
     <feature version="[1.2.37,2)">instana-api</feature>
     <bundle start-level="80">mvn:com.instana/discovery-php-fpm/1.1.38</bundle>
