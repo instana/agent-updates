@@ -81,9 +81,9 @@
     <bundle start-level="80">mvn:com.instana/discovery-host/1.1.59</bundle>
   </feature>
 
-  <feature name="instana-httpd-discovery" version="1.1.52">
+  <feature name="instana-httpd-discovery" version="1.1.53">
     <feature version="[1.2.37,2)">instana-api</feature>
-    <bundle start-level="80">mvn:com.instana/discovery-httpd/1.1.52</bundle>
+    <bundle start-level="80">mvn:com.instana/discovery-httpd/1.1.53</bundle>
   </feature>
 
   <feature name="instana-java-discovery" version="1.2.35">
@@ -116,9 +116,9 @@
     <bundle start-level="80">mvn:com.instana/discovery-kafka/1.1.20</bundle>
   </feature>
 
-  <feature name="instana-memcached-discovery" version="1.0.7">
+  <feature name="instana-memcached-discovery" version="1.0.8">
     <feature version="[1.2.37,2.0.0)">instana-api</feature>
-    <bundle start-level="80">mvn:com.instana/discovery-memcached/1.0.7</bundle>
+    <bundle start-level="80">mvn:com.instana/discovery-memcached/1.0.8</bundle>
   </feature>
 
   <feature name="instana-mariadb-discovery" version="1.1.19">
@@ -161,9 +161,14 @@
     <bundle start-level="80">mvn:com.instana/discovery-openstack-nova/1.1.2</bundle>
   </feature>
 
-  <feature name="instana-php-fpm-discovery" version="1.1.37">
+  <feature name="instana-oracledb-discovery" version="1.1.2">
+    <feature version="[1.2.44,2)">instana-api</feature>
+    <bundle start-level="80">mvn:com.instana/discovery-oracledb/1.1.2</bundle>
+  </feature>
+
+  <feature name="instana-php-fpm-discovery" version="1.1.38">
     <feature version="[1.2.37,2)">instana-api</feature>
-    <bundle start-level="80">mvn:com.instana/discovery-php-fpm/1.1.37</bundle>
+    <bundle start-level="80">mvn:com.instana/discovery-php-fpm/1.1.38</bundle>
   </feature>
 
   <feature name="instana-postgresql-discovery" version="1.0.11">
@@ -211,9 +216,9 @@
     <bundle start-level="80">mvn:com.instana/discovery-varnish/1.0.9</bundle>
   </feature>
 
-  <feature name="instana-websphere-discovery" version="1.1.4">
+  <feature name="instana-websphere-discovery" version="1.1.5">
     <feature version="[1.2.40,2)">instana-api</feature>
-    <bundle start-level="80">mvn:com.instana/discovery-websphere/1.1.4</bundle>
+    <bundle start-level="80">mvn:com.instana/discovery-websphere/1.1.5</bundle>
   </feature>
 
   <feature name="instana-zookeeper-discovery" version="1.0.2">
