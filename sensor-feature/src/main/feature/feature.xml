@@ -246,9 +246,9 @@
     <bundle start-level="80">mvn:com.instana/sensor-springboot/1.1.18</bundle>
   </feature>
 
-  <feature name="instana-tomcat-sensor" version="1.1.26">
+  <feature name="instana-tomcat-sensor" version="1.1.27">
     <feature version="[1.2.31,2)">instana-java-sensor</feature>
-    <bundle start-level="80">mvn:com.instana/sensor-tomcat/1.1.26</bundle>
+    <bundle start-level="80">mvn:com.instana/sensor-tomcat/1.1.27</bundle>
   </feature>
 
   <feature name="instana-varnish-sensor" version="1.0.9">
