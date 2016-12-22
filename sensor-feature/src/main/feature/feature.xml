@@ -94,10 +94,10 @@
     <bundle start-level="80">mvn:com.instana/sensor-java/1.2.35</bundle>
   </feature>
 
-  <feature name="instana-java-trace-sensor" version="1.2.139">
+  <feature name="instana-java-trace-sensor" version="1.2.140">
     <feature version="[1.2.35,2)">instana-java-sensor</feature>
     <feature version="[1.2.1,2)">instana-jctools</feature>
-    <bundle start-level="80">mvn:com.instana/sensor-java-trace/1.2.139</bundle>
+    <bundle start-level="80">mvn:com.instana/sensor-java-trace/1.2.140</bundle>
   </feature>
 
   <feature name="instana-jboss-as-sensor" version="1.1.11">
@@ -121,9 +121,9 @@
     <bundle start-level="80">mvn:com.instana/sensor-jira/1.1.11</bundle>
   </feature>
 
-  <feature name="instana-kafka-sensor" version="1.1.20">
+  <feature name="instana-kafka-sensor" version="1.1.21">
     <feature version="[1.2.31,2)">instana-java-sensor</feature>
-    <bundle start-level="80">mvn:com.instana/sensor-kafka/1.1.20</bundle>
+    <bundle start-level="80">mvn:com.instana/sensor-kafka/1.1.21</bundle>
   </feature>
 
   <feature name="instana-memcached-sensor" version="1.0.8">
@@ -138,10 +138,10 @@
     <bundle start-level="80">mvn:com.instana/sensor-mariadb/1.1.19</bundle>
   </feature>
 
-  <feature name="instana-mongodb-sensor" version="1.1.19">
+  <feature name="instana-mongodb-sensor" version="1.1.20">
     <feature version="[1.2.41,2)">instana-api</feature>
-    <bundle start-level="80">mvn:org.mongodb/mongo-java-driver/3.4.0</bundle>
-    <bundle start-level="80">mvn:com.instana/sensor-mongodb/1.1.19</bundle>
+    <bundle start-level="80">mvn:org.mongodb/mongo-java-driver/3.4.1</bundle>
+    <bundle start-level="80">mvn:com.instana/sensor-mongodb/1.1.20</bundle>
   </feature>
 
   <feature name="instana-mysql-sensor" version="1.1.43">
@@ -218,11 +218,11 @@
     <bundle start-level="80">mvn:com.instana/sensor-process/1.1.18</bundle>
   </feature>
 
-  <feature name="instana-redis-sensor" version="1.1.14">
+  <feature name="instana-redis-sensor" version="1.1.16">
     <feature version="[1.2.37,2)">instana-api</feature>
     <feature version="[1.0,2)">instana-apache-commons</feature>
     <bundle start-level="80">mvn:redis.clients/jedis/2.7.2</bundle>
-    <bundle start-level="80">mvn:com.instana/sensor-redis/1.1.14</bundle>
+    <bundle start-level="80">mvn:com.instana/sensor-redis/1.1.16</bundle>
   </feature>
 
   <feature name="instana-rabbitmq-sensor" version="1.1.26">
@@ -241,9 +241,9 @@
     <bundle start-level="80">mvn:com.instana/sensor-solr/1.0.4</bundle>
   </feature>
 
-  <feature name="instana-springboot-sensor" version="1.1.18">
+  <feature name="instana-springboot-sensor" version="1.1.20">
     <feature version="[1.2.35,2)">instana-java-sensor</feature>
-    <bundle start-level="80">mvn:com.instana/sensor-springboot/1.1.18</bundle>
+    <bundle start-level="80">mvn:com.instana/sensor-springboot/1.1.20</bundle>
   </feature>
 
   <feature name="instana-tomcat-sensor" version="1.1.27">
