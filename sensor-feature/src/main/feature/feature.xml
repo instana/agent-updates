@@ -44,10 +44,10 @@
     <bundle start-level="80">mvn:com.instana/sensor-elasticsearch/1.1.33</bundle>
   </feature>
 
-  <feature name="instana-etcd-sensor" version="1.0.2">
+  <feature name="instana-etcd-sensor" version="1.0.3">
     <feature version="[1.2.42,2)">instana-api</feature>
     <feature version="[1.0,2)">instana-apache-commons</feature>
-    <bundle start-level="80">mvn:com.instana/sensor-etcd/1.0.2</bundle>
+    <bundle start-level="80">mvn:com.instana/sensor-etcd/1.0.3</bundle>
   </feature>
 
   <feature name="instana-gce-sensor" version="1.1.5">
@@ -77,10 +77,10 @@
     <bundle start-level="80">mvn:com.instana/sensor-haproxy/1.1.8</bundle>
   </feature>
 
-  <feature name="instana-host-sensor" version="1.1.60">
+  <feature name="instana-host-sensor" version="1.1.61">
     <feature version="[1.2.34,2)">instana-api</feature>
     <bundle start-level="80">mvn:net.jodah/expiringmap/0.5.2</bundle>
-    <bundle start-level="80">mvn:com.instana/sensor-host/1.1.60</bundle>
+    <bundle start-level="80">mvn:com.instana/sensor-host/1.1.61</bundle>
   </feature>
 
   <feature name="instana-httpd-sensor" version="1.1.55">
@@ -94,10 +94,10 @@
     <bundle start-level="80">mvn:com.instana/sensor-java/1.2.35</bundle>
   </feature>
 
-  <feature name="instana-java-trace-sensor" version="1.2.140">
+  <feature name="instana-java-trace-sensor" version="1.2.142">
     <feature version="[1.2.35,2)">instana-java-sensor</feature>
     <feature version="[1.2.1,2)">instana-jctools</feature>
-    <bundle start-level="80">mvn:com.instana/sensor-java-trace/1.2.140</bundle>
+    <bundle start-level="80">mvn:com.instana/sensor-java-trace/1.2.142</bundle>
   </feature>
 
   <feature name="instana-jboss-as-sensor" version="1.1.11">
