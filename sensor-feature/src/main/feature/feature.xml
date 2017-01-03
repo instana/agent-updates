@@ -28,9 +28,9 @@
     <bundle start-level="80">mvn:com.instana/sensor-docker/1.1.27</bundle>
   </feature>
 
-  <feature name="instana-dropwizard-sensor" version="1.1.13">
+  <feature name="instana-dropwizard-sensor" version="1.1.14">
     <feature version="[1.2.31,2)">instana-java-sensor</feature>
-    <bundle start-level="80">mvn:com.instana/sensor-dropwizard/1.1.13</bundle>
+    <bundle start-level="80">mvn:com.instana/sensor-dropwizard/1.1.14</bundle>
   </feature>
 
   <feature name="instana-ec2-sensor" version="1.1.4">
@@ -94,10 +94,10 @@
     <bundle start-level="80">mvn:com.instana/sensor-java/1.2.36</bundle>
   </feature>
 
-  <feature name="instana-java-trace-sensor" version="1.2.142">
+  <feature name="instana-java-trace-sensor" version="1.2.143">
     <feature version="[1.2.35,2)">instana-java-sensor</feature>
     <feature version="[1.2.1,2)">instana-jctools</feature>
-    <bundle start-level="80">mvn:com.instana/sensor-java-trace/1.2.142</bundle>
+    <bundle start-level="80">mvn:com.instana/sensor-java-trace/1.2.143</bundle>
   </feature>
 
   <feature name="instana-jboss-as-sensor" version="1.1.11">
