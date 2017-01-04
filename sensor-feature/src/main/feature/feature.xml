@@ -16,9 +16,9 @@
     <bundle start-level="80">mvn:com.instana/sensor-azure/1.1.3</bundle>
   </feature>
 
-  <feature name="instana-cassandra-sensor" version="1.1.24">
+  <feature name="instana-cassandra-sensor" version="1.1.25">
     <feature version="[1.2.31,2)">instana-java-sensor</feature>
-    <bundle start-level="80">mvn:com.instana/sensor-cassandra/1.1.24</bundle>
+    <bundle start-level="80">mvn:com.instana/sensor-cassandra/1.1.25</bundle>
   </feature>
 
   <feature name="instana-docker-sensor" version="1.1.27">
