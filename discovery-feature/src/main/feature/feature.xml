@@ -75,10 +75,10 @@
     <bundle start-level="80">mvn:com.instana/discovery-haproxy/1.1.8</bundle>
   </feature>
 
-  <feature name="instana-host-discovery" version="1.1.63">
+  <feature name="instana-host-discovery" version="1.1.64">
     <feature version="[1.2.34,2)">instana-api</feature>
     <feature version="[1.0,2)">instana-apache-commons</feature>
-    <bundle start-level="80">mvn:com.instana/discovery-host/1.1.63</bundle>
+    <bundle start-level="80">mvn:com.instana/discovery-host/1.1.64</bundle>
   </feature>
 
   <feature name="instana-httpd-discovery" version="1.1.55">
@@ -86,9 +86,9 @@
     <bundle start-level="80">mvn:com.instana/discovery-httpd/1.1.55</bundle>
   </feature>
 
-  <feature name="instana-java-discovery" version="1.2.36">
+  <feature name="instana-java-discovery" version="1.2.37">
     <feature version="[1.2.35,2)">instana-api</feature>
-    <bundle start-level="80">mvn:com.instana/discovery-java/1.2.36</bundle>
+    <bundle start-level="80">mvn:com.instana/discovery-java/1.2.37</bundle>
   </feature>
 
   <feature name="instana-jboss-as-discovery" version="1.1.12">
@@ -216,14 +216,14 @@
     <bundle start-level="80">mvn:com.instana/discovery-tomcat/1.1.27</bundle>
   </feature>
 
-  <feature name="instana-varnish-discovery" version="1.0.9">
-    <feature version="[1.2.42,2)">instana-api</feature>
-    <bundle start-level="80">mvn:com.instana/discovery-varnish/1.0.9</bundle>
+  <feature name="instana-varnish-discovery" version="1.0.10">
+    <feature version="[1.2.44,2)">instana-api</feature>
+    <bundle start-level="80">mvn:com.instana/discovery-varnish/1.0.10</bundle>
   </feature>
 
-  <feature name="instana-websphere-discovery" version="1.1.6">
+  <feature name="instana-websphere-discovery" version="1.1.7">
     <feature version="[1.2.40,2)">instana-api</feature>
-    <bundle start-level="80">mvn:com.instana/discovery-websphere/1.1.6</bundle>
+    <bundle start-level="80">mvn:com.instana/discovery-websphere/1.1.7</bundle>
   </feature>
 
   <feature name="instana-websphere-liberty-discovery" version="1.1.0">
