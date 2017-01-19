@@ -83,15 +83,15 @@
     <bundle start-level="80">mvn:com.instana/sensor-host/1.1.66</bundle>
   </feature>
 
-  <feature name="instana-httpd-sensor" version="1.1.57">
+  <feature name="instana-httpd-sensor" version="1.1.58">
     <feature version="[1.2.37,2)">instana-api</feature>
-    <bundle start-level="80">mvn:com.instana/sensor-httpd/1.1.57</bundle>
+    <bundle start-level="80">mvn:com.instana/sensor-httpd/1.1.58</bundle>
   </feature>
 
-  <feature name="instana-java-sensor" version="1.2.39">
+  <feature name="instana-java-sensor" version="1.2.40">
     <feature version="[1.2.45,2)">instana-api</feature>
     <feature version="[1.2.1,2)">instana-jctools</feature>
-    <bundle start-level="80">mvn:com.instana/sensor-java/1.2.39</bundle>
+    <bundle start-level="80">mvn:com.instana/sensor-java/1.2.40</bundle>
   </feature>
 
   <feature name="instana-java-trace-sensor" version="1.2.149">
@@ -100,10 +100,10 @@
     <bundle start-level="80">mvn:com.instana/sensor-java-trace/1.2.149</bundle>
   </feature>
 
-  <feature name="instana-jboss-as-sensor" version="1.1.14">
+  <feature name="instana-jboss-as-sensor" version="1.1.15">
     <feature version="[1.2.35,2)">instana-java-sensor</feature>
     <feature version="[1.2.44,2)">instana-api</feature>
-    <bundle start-level="80">mvn:com.instana/sensor-jboss-as/1.1.14</bundle>
+    <bundle start-level="80">mvn:com.instana/sensor-jboss-as/1.1.15</bundle>
   </feature>
 
   <feature name="instana-jboss-datagrid-sensor" version="1.1.8">
@@ -127,10 +127,10 @@
     <bundle start-level="80">mvn:com.instana/sensor-kafka/1.1.22</bundle>
   </feature>
 
-  <feature name="instana-memcached-sensor" version="1.0.8">
+  <feature name="instana-memcached-sensor" version="1.0.9">
     <feature version="[1.2.37,2.0.0)">instana-api</feature>
     <bundle start-level="80">wrap:mvn:net.spy/spymemcached/2.12.1</bundle>
-    <bundle start-level="80">mvn:com.instana/sensor-memcached/1.0.8</bundle>
+    <bundle start-level="80">mvn:com.instana/sensor-memcached/1.0.9</bundle>
   </feature>
 
   <feature name="instana-mariadb-sensor" version="1.1.19">
@@ -219,11 +219,11 @@
     <bundle start-level="80">mvn:com.instana/sensor-python/1.0.1</bundle>
   </feature>
 
-  <feature name="instana-redis-sensor" version="1.1.16">
+  <feature name="instana-redis-sensor" version="1.1.17">
     <feature version="[1.2.37,2)">instana-api</feature>
     <feature version="[1.0,2)">instana-apache-commons</feature>
     <bundle start-level="80">mvn:redis.clients/jedis/2.7.2</bundle>
-    <bundle start-level="80">mvn:com.instana/sensor-redis/1.1.16</bundle>
+    <bundle start-level="80">mvn:com.instana/sensor-redis/1.1.17</bundle>
   </feature>
 
   <feature name="instana-rabbitmq-sensor" version="1.1.26">
