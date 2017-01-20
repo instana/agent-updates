@@ -77,10 +77,10 @@
     <bundle start-level="80">mvn:com.instana/sensor-haproxy/1.1.8</bundle>
   </feature>
 
-  <feature name="instana-host-sensor" version="1.1.66">
+  <feature name="instana-host-sensor" version="1.1.67">
     <feature version="[1.2.45,2)">instana-api</feature>
     <bundle start-level="80">mvn:net.jodah/expiringmap/0.5.2</bundle>
-    <bundle start-level="80">mvn:com.instana/sensor-host/1.1.66</bundle>
+    <bundle start-level="80">mvn:com.instana/sensor-host/1.1.67</bundle>
   </feature>
 
   <feature name="instana-httpd-sensor" version="1.1.58">
@@ -163,10 +163,10 @@
     <bundle start-level="80">wrap:mvn:com.microsoft.sqlserver/sqljdbc4/4.0$Bundle-SymbolicName=sqljdbc4&amp;Bundle-Version=4.0</bundle>
   </feature>
 
-  <feature name="instana-nginx-sensor" version="1.1.36">
+  <feature name="instana-nginx-sensor" version="1.1.37">
     <feature version="[1.2.41,2)">instana-api</feature>
     <bundle start-level="80">mvn:org.antlr/antlr4-runtime/4.5.3</bundle>
-    <bundle start-level="80">mvn:com.instana/sensor-nginx/1.1.36</bundle>
+    <bundle start-level="80">mvn:com.instana/sensor-nginx/1.1.37</bundle>
   </feature>
 
   <feature name="instana-nodejs-sensor" version="1.1.20">
