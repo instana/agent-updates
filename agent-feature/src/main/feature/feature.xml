@@ -16,6 +16,8 @@
     <bundle start-level="80">mvn:com.fasterxml.jackson.core/jackson-core/2.8.6</bundle>
     <bundle start-level="80">mvn:com.fasterxml.jackson.core/jackson-databind/2.8.6</bundle>
     <bundle start-level="80">mvn:com.fasterxml.jackson.core/jackson-annotations/2.8.6</bundle>
+    <!-- dependency for dataformat yaml -->
+    <bundle start-level="80">mvn:org.yaml/snakeyaml/1.17</bundle>
     <bundle start-level="80">mvn:com.fasterxml.jackson.dataformat/jackson-dataformat-yaml/2.8.6</bundle>
   </feature>
 
