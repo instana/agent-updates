@@ -21,11 +21,11 @@
     <bundle start-level="80">mvn:com.instana/sensor-cassandra/1.1.26</bundle>
   </feature>
 
-  <feature name="instana-docker-sensor" version="1.1.28">
+  <feature name="instana-docker-sensor" version="1.1.29">
     <feature version="[1.2.34,2)">instana-api</feature>
     <feature version="[1.0,2)">instana-apache-commons</feature>
     <feature version="[2.7,3)">instana-jackson</feature>
-    <bundle start-level="80">mvn:com.instana/sensor-docker/1.1.28</bundle>
+    <bundle start-level="80">mvn:com.instana/sensor-docker/1.1.29</bundle>
   </feature>
 
   <feature name="instana-dropwizard-sensor" version="1.1.14">
@@ -122,9 +122,9 @@
     <bundle start-level="80">mvn:com.instana/sensor-jira/1.1.11</bundle>
   </feature>
 
-  <feature name="instana-kafka-sensor" version="1.1.22">
+  <feature name="instana-kafka-sensor" version="1.1.23">
     <feature version="[1.2.31,2)">instana-java-sensor</feature>
-    <bundle start-level="80">mvn:com.instana/sensor-kafka/1.1.22</bundle>
+    <bundle start-level="80">mvn:com.instana/sensor-kafka/1.1.23</bundle>
   </feature>
 
   <feature name="instana-memcached-sensor" version="1.0.9">
@@ -258,9 +258,10 @@
     <bundle start-level="80">mvn:com.instana/sensor-varnish/1.0.10</bundle>
   </feature>
 
-  <feature name="instana-weblogic-sensor" version="1.0.0-SNAPSHOT">
-    <feature version="[1.1.1,2)">instana-java-sensor</feature>
-    <bundle start-level="80">mvn:com.instana/sensor-weblogic/1.0.0-SNAPSHOT</bundle>
+  <feature name="instana-weblogic-sensor" version="1.1.0">
+    <feature version="[1.2.37,2)">instana-java-sensor</feature>
+    <feature version="[1.2.44,2)">instana-api</feature>
+    <bundle start-level="80">mvn:com.instana/sensor-weblogic/1.1.0</bundle>
   </feature>
 
   <feature name="instana-websphere-sensor" version="1.1.7">
