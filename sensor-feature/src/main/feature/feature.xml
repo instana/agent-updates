@@ -21,11 +21,11 @@
     <bundle start-level="80">mvn:com.instana/sensor-cassandra/1.1.26</bundle>
   </feature>
 
-  <feature name="instana-docker-sensor" version="1.1.30">
+  <feature name="instana-docker-sensor" version="1.1.32">
     <feature version="[1.2.34,2)">instana-api</feature>
     <feature version="[1.0,2)">instana-apache-commons</feature>
     <feature version="[2.7,3)">instana-jackson</feature>
-    <bundle start-level="80">mvn:com.instana/sensor-docker/1.1.30</bundle>
+    <bundle start-level="80">mvn:com.instana/sensor-docker/1.1.32</bundle>
   </feature>
 
   <feature name="instana-dropwizard-sensor" version="1.1.14">
@@ -44,10 +44,10 @@
     <bundle start-level="80">mvn:com.instana/sensor-elasticsearch/1.1.33</bundle>
   </feature>
 
-  <feature name="instana-etcd-sensor" version="1.0.4">
+  <feature name="instana-etcd-sensor" version="1.0.5">
     <feature version="[1.2.42,2)">instana-api</feature>
     <feature version="[1.0,2)">instana-apache-commons</feature>
-    <bundle start-level="80">mvn:com.instana/sensor-etcd/1.0.4</bundle>
+    <bundle start-level="80">mvn:com.instana/sensor-etcd/1.0.5</bundle>
   </feature>
 
   <feature name="instana-gce-sensor" version="1.1.5">
@@ -77,10 +77,10 @@
     <bundle start-level="80">mvn:com.instana/sensor-haproxy/1.1.8</bundle>
   </feature>
 
-  <feature name="instana-host-sensor" version="1.1.69">
+  <feature name="instana-host-sensor" version="1.1.70">
     <feature version="[1.2.45,2)">instana-api</feature>
     <bundle start-level="80">mvn:net.jodah/expiringmap/0.5.2</bundle>
-    <bundle start-level="80">mvn:com.instana/sensor-host/1.1.69</bundle>
+    <bundle start-level="80">mvn:com.instana/sensor-host/1.1.70</bundle>
   </feature>
 
   <feature name="instana-httpd-sensor" version="1.1.59">
@@ -197,9 +197,9 @@
     <bundle start-level="80">mvn:com.instana/sensor-php-fpm/1.1.38</bundle>
   </feature>
 
-  <feature name="instana-php-sensor" version="1.0.34">
+  <feature name="instana-php-sensor" version="1.0.35">
     <feature version="[1.2.37,2)">instana-api</feature>
-    <bundle start-level="80">mvn:com.instana/sensor-php/1.0.34</bundle>
+    <bundle start-level="80">mvn:com.instana/sensor-php/1.0.35</bundle>
   </feature>
 
   <feature name="instana-postgresql-sensor" version="1.0.13">
@@ -226,10 +226,10 @@
     <bundle start-level="80">mvn:com.instana/sensor-redis/1.1.17</bundle>
   </feature>
 
-  <feature name="instana-rabbitmq-sensor" version="1.1.26">
+  <feature name="instana-rabbitmq-sensor" version="1.1.27">
     <feature version="[1.2.37,2)">instana-api</feature>
     <feature version="[1.0,2)">instana-apache-commons</feature>
-    <bundle start-level="80">mvn:com.instana/sensor-rabbitmq/1.1.26</bundle>
+    <bundle start-level="80">mvn:com.instana/sensor-rabbitmq/1.1.27</bundle>
   </feature>
 
   <feature name="instana-ruby-sensor" version="1.1.1">
