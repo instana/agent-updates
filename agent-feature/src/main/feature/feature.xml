@@ -8,7 +8,6 @@
     <bundle start-level="80">mvn:org.apache.commons/commons-collections4/4.1</bundle>
     <bundle start-level="80">mvn:org.apache.commons/commons-csv/1.4</bundle>
     <bundle start-level="80">mvn:org.apache.commons/commons-lang3/3.5</bundle>
-    <bundle start-level="80">mvn:org.apache.commons/commons-math3/3.6</bundle>
     <bundle start-level="80">mvn:org.apache.commons/commons-pool2/2.4.2</bundle>
   </feature>
 
