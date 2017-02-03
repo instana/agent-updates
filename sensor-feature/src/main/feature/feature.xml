@@ -21,11 +21,11 @@
     <bundle start-level="80">mvn:com.instana/sensor-cassandra/1.1.26</bundle>
   </feature>
 
-  <feature name="instana-docker-sensor" version="1.1.32">
+  <feature name="instana-docker-sensor" version="1.1.33">
     <feature version="[1.2.34,2)">instana-api</feature>
     <feature version="[1.0,2)">instana-apache-commons</feature>
     <feature version="[2.7,3)">instana-jackson</feature>
-    <bundle start-level="80">mvn:com.instana/sensor-docker/1.1.32</bundle>
+    <bundle start-level="80">mvn:com.instana/sensor-docker/1.1.33</bundle>
   </feature>
 
   <feature name="instana-dropwizard-sensor" version="1.1.14">
@@ -77,10 +77,10 @@
     <bundle start-level="80">mvn:com.instana/sensor-haproxy/1.1.8</bundle>
   </feature>
 
-  <feature name="instana-host-sensor" version="1.1.70">
+  <feature name="instana-host-sensor" version="1.1.71">
     <feature version="[1.2.45,2)">instana-api</feature>
     <bundle start-level="80">mvn:net.jodah/expiringmap/0.5.2</bundle>
-    <bundle start-level="80">mvn:com.instana/sensor-host/1.1.70</bundle>
+    <bundle start-level="80">mvn:com.instana/sensor-host/1.1.71</bundle>
   </feature>
 
   <feature name="instana-httpd-sensor" version="1.1.59">
@@ -90,14 +90,12 @@
 
   <feature name="instana-java-sensor" version="1.2.40">
     <feature version="[1.2.45,2)">instana-api</feature>
-    <feature version="[1.2.1,2)">instana-jctools</feature>
     <bundle start-level="80">mvn:com.instana/sensor-java/1.2.40</bundle>
   </feature>
 
-  <feature name="instana-java-trace-sensor" version="1.2.155">
+  <feature name="instana-java-trace-sensor" version="1.2.156">
     <feature version="[1.2.35,2)">instana-java-sensor</feature>
-    <feature version="[1.2.1,2)">instana-jctools</feature>
-    <bundle start-level="80">mvn:com.instana/sensor-java-trace/1.2.155</bundle>
+    <bundle start-level="80">mvn:com.instana/sensor-java-trace/1.2.156</bundle>
   </feature>
 
   <feature name="instana-jboss-as-sensor" version="1.1.15">
@@ -242,9 +240,9 @@
     <bundle start-level="80">mvn:com.instana/sensor-solr/1.0.4</bundle>
   </feature>
 
-  <feature name="instana-springboot-sensor" version="1.1.20">
+  <feature name="instana-springboot-sensor" version="1.1.21">
     <feature version="[1.2.35,2)">instana-java-sensor</feature>
-    <bundle start-level="80">mvn:com.instana/sensor-springboot/1.1.20</bundle>
+    <bundle start-level="80">mvn:com.instana/sensor-springboot/1.1.21</bundle>
   </feature>
 
   <feature name="instana-tomcat-sensor" version="1.1.27">

@@ -16,11 +16,11 @@
     <bundle start-level="80">mvn:com.instana/discovery-cassandra/1.1.26</bundle>
   </feature>
 
-  <feature name="instana-docker-discovery" version="1.1.32">
+  <feature name="instana-docker-discovery" version="1.1.33">
     <feature version="[1.2.34,2)">instana-api</feature>
     <feature version="[1.0,2)">instana-apache-commons</feature>
     <feature version="[2.7,3)">instana-jackson</feature>
-    <bundle start-level="80">mvn:com.instana/discovery-docker/1.1.32</bundle>
+    <bundle start-level="80">mvn:com.instana/discovery-docker/1.1.33</bundle>
   </feature>
 
   <feature name="instana-dropwizard-discovery" version="1.1.14">
@@ -75,10 +75,10 @@
     <bundle start-level="80">mvn:com.instana/discovery-haproxy/1.1.8</bundle>
   </feature>
 
-  <feature name="instana-host-discovery" version="1.1.70">
+  <feature name="instana-host-discovery" version="1.1.71">
     <feature version="[1.2.45,2)">instana-api</feature>
     <feature version="[1.0,2)">instana-apache-commons</feature>
-    <bundle start-level="80">mvn:com.instana/discovery-host/1.1.70</bundle>
+    <bundle start-level="80">mvn:com.instana/discovery-host/1.1.71</bundle>
   </feature>
 
   <feature name="instana-httpd-discovery" version="1.1.59">
@@ -211,9 +211,9 @@
     <bundle start-level="80">mvn:com.instana/discovery-solr/1.0.4</bundle>
   </feature>
 
-  <feature name="instana-springboot-discovery" version="1.1.20">
+  <feature name="instana-springboot-discovery" version="1.1.21">
     <feature version="[1.2.37,2)">instana-api</feature>
-    <bundle start-level="80">mvn:com.instana/discovery-springboot/1.1.20</bundle>
+    <bundle start-level="80">mvn:com.instana/discovery-springboot/1.1.21</bundle>
   </feature>
 
   <feature name="instana-tomcat-discovery" version="1.1.27">
