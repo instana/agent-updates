@@ -2,55 +2,55 @@
 <features name="${project.artifactId}-${project.version}" xmlns="http://karaf.apache.org/xmlns/features/v1.3.0" >
 
  <feature name="instana-apache-commons" description="Shared Apache Commons Libs" version="1.1.4">
-    <bundle start-level="80">mvn:commons-io/commons-io/2.5</bundle>
-    <bundle start-level="80">mvn:commons-lang/commons-lang/2.6</bundle>
-    <bundle start-level="80">mvn:commons-configuration/commons-configuration/1.10</bundle>
-    <bundle start-level="80">mvn:org.apache.commons/commons-collections4/4.1</bundle>
-    <bundle start-level="80">mvn:org.apache.commons/commons-csv/1.4</bundle>
-    <bundle start-level="80">mvn:org.apache.commons/commons-lang3/3.5</bundle>
-    <bundle start-level="80">mvn:org.apache.commons/commons-pool2/2.4.2</bundle>
+    <bundle start-level="50">mvn:commons-io/commons-io/2.5</bundle>
+    <bundle start-level="50">mvn:commons-lang/commons-lang/2.6</bundle>
+    <bundle start-level="50">mvn:commons-configuration/commons-configuration/1.10</bundle>
+    <bundle start-level="50">mvn:org.apache.commons/commons-collections4/4.1</bundle>
+    <bundle start-level="50">mvn:org.apache.commons/commons-csv/1.4</bundle>
+    <bundle start-level="50">mvn:org.apache.commons/commons-lang3/3.5</bundle>
+    <bundle start-level="50">mvn:org.apache.commons/commons-pool2/2.4.2</bundle>
   </feature>
 
   <feature name="instana-jackson" description="Shared Jackson JSON Util" version="2.8.6">
-    <bundle start-level="80">mvn:com.fasterxml.jackson.core/jackson-core/2.8.6</bundle>
-    <bundle start-level="80">mvn:com.fasterxml.jackson.core/jackson-databind/2.8.6</bundle>
-    <bundle start-level="80">mvn:com.fasterxml.jackson.core/jackson-annotations/2.8.6</bundle>
+    <bundle start-level="50">mvn:com.fasterxml.jackson.core/jackson-core/2.8.6</bundle>
+    <bundle start-level="50">mvn:com.fasterxml.jackson.core/jackson-databind/2.8.6</bundle>
+    <bundle start-level="50">mvn:com.fasterxml.jackson.core/jackson-annotations/2.8.6</bundle>
     <!-- dependency for dataformat yaml -->
-    <bundle start-level="80">mvn:org.yaml/snakeyaml/1.17</bundle>
-    <bundle start-level="80">mvn:com.fasterxml.jackson.dataformat/jackson-dataformat-yaml/2.8.6</bundle>
+    <bundle start-level="50">mvn:org.yaml/snakeyaml/1.17</bundle>
+    <bundle start-level="50">mvn:com.fasterxml.jackson.dataformat/jackson-dataformat-yaml/2.8.6</bundle>
   </feature>
 
   <feature name="instana-netty" description="Shared Netty" version="4.1.8.Final">
-    <bundle start-level="80">mvn:io.netty/netty-buffer/4.1.8.Final</bundle>
-    <bundle start-level="80">mvn:io.netty/netty-codec/4.1.8.Final</bundle>
-    <bundle start-level="80">mvn:io.netty/netty-codec-dns/4.1.8.Final</bundle>
-    <bundle start-level="80">mvn:io.netty/netty-codec-http/4.1.8.Final</bundle>
-    <bundle start-level="80">mvn:io.netty/netty-codec-http2/4.1.8.Final</bundle>
-    <bundle start-level="80">mvn:io.netty/netty-codec-socks/4.1.8.Final</bundle>
-    <bundle start-level="80">mvn:io.netty/netty-common/4.1.8.Final</bundle>
-    <bundle start-level="80">mvn:io.netty/netty-handler/4.1.8.Final</bundle>
-    <bundle start-level="80">mvn:io.netty/netty-handler-proxy/4.1.8.Final</bundle>
-    <bundle start-level="80">mvn:io.netty/netty-resolver/4.1.8.Final</bundle>
-    <bundle start-level="80">mvn:io.netty/netty-resolver-dns/4.1.8.Final</bundle>
-    <bundle start-level="80">mvn:io.netty/netty-transport/4.1.8.Final</bundle>
+    <bundle start-level="50">mvn:io.netty/netty-buffer/4.1.8.Final</bundle>
+    <bundle start-level="50">mvn:io.netty/netty-codec/4.1.8.Final</bundle>
+    <bundle start-level="50">mvn:io.netty/netty-codec-dns/4.1.8.Final</bundle>
+    <bundle start-level="50">mvn:io.netty/netty-codec-http/4.1.8.Final</bundle>
+    <bundle start-level="50">mvn:io.netty/netty-codec-http2/4.1.8.Final</bundle>
+    <bundle start-level="50">mvn:io.netty/netty-codec-socks/4.1.8.Final</bundle>
+    <bundle start-level="50">mvn:io.netty/netty-common/4.1.8.Final</bundle>
+    <bundle start-level="50">mvn:io.netty/netty-handler/4.1.8.Final</bundle>
+    <bundle start-level="50">mvn:io.netty/netty-handler-proxy/4.1.8.Final</bundle>
+    <bundle start-level="50">mvn:io.netty/netty-resolver/4.1.8.Final</bundle>
+    <bundle start-level="50">mvn:io.netty/netty-resolver-dns/4.1.8.Final</bundle>
+    <bundle start-level="50">mvn:io.netty/netty-transport/4.1.8.Final</bundle>
   </feature>
 
   <feature name="instana-jctools" description="Instana JCTools" version="1.2.1">
-      <bundle start-level="80">mvn:com.instana/jctools/1.2.1</bundle>
+      <bundle start-level="50">mvn:com.instana/jctools/1.2.1</bundle>
   </feature>
 
   <feature name="instana-jctools2" description="Instana JCTools 2" version="2.0.1">
-      <bundle start-level="80">mvn:com.instana/jctools/2.0.1</bundle>
+      <bundle start-level="50">mvn:com.instana/jctools/2.0.1</bundle>
   </feature>
 
   <feature name="instana-api" description="Instana Sensor and Discovery API" version="1.2.45">
     <feature>scr</feature>
     <feature>instana-netty</feature>
-    <bundle start-level="80">mvn:com.instana/agent-json/1.2.45</bundle>
-    <bundle start-level="80">mvn:com.instana/sensor-api/1.2.45</bundle>
+    <bundle start-level="50">mvn:com.instana/agent-json/1.2.45</bundle>
+    <bundle start-level="50">mvn:com.instana/sensor-api/1.2.45</bundle>
   </feature>
 
-  <feature name="instana-agent" description="Instana Agent" version="1.1.303">
+  <feature name="instana-agent" description="Instana Agent" version="1.1.304">
     <feature>scr</feature>
     <feature>bundle</feature>
     <feature>instana-agent-bootstrap</feature>
@@ -58,7 +58,7 @@
     <feature>instana-apache-commons</feature>
     <feature>instana-api</feature>
     <feature>instana-jctools2</feature>
-    <bundle start-level="80">mvn:com.instana/agent/1.1.303</bundle>
+    <bundle start-level="70">mvn:com.instana/agent/1.1.304</bundle>
   </feature>
 
 </features>
