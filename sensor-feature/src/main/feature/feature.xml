@@ -97,10 +97,10 @@
     <bundle start-level="90">mvn:com.instana/sensor-java-trace/1.2.159</bundle>
   </feature>
 
-  <feature name="instana-jboss-as-sensor" version="1.1.15">
+  <feature name="instana-jboss-as-sensor" version="1.1.16">
     <feature version="[1.2.35,2)">instana-java-sensor</feature>
     <feature version="[1.2.44,2)">instana-api</feature>
-    <bundle start-level="80">mvn:com.instana/sensor-jboss-as/1.1.15</bundle>
+    <bundle start-level="80">mvn:com.instana/sensor-jboss-as/1.1.16</bundle>
   </feature>
 
   <feature name="instana-jboss-datagrid-sensor" version="1.1.8">
