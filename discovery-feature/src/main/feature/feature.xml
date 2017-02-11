@@ -191,9 +191,9 @@
     <bundle start-level="80">mvn:com.instana/discovery-process/1.1.18</bundle>
   </feature>
 
-  <feature name="instana-python-discovery" version="1.0.1">
+  <feature name="instana-python-discovery" version="1.2.0">
     <feature version="[1.2.37,2)">instana-api</feature>
-    <bundle start-level="80">mvn:com.instana/discovery-python/1.0.1</bundle>
+    <bundle start-level="80">mvn:com.instana/discovery-python/1.2.0</bundle>
   </feature>
 
   <feature name="instana-redis-discovery" version="1.1.17">

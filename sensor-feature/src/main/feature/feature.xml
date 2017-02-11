@@ -221,9 +221,14 @@
     <bundle start-level="80">mvn:com.instana/sensor-process/1.1.18</bundle>
   </feature>
 
-  <feature name="instana-python-sensor" version="1.0.1">
+  <feature name="instana-python-sensor" version="1.2.0">
     <feature version="[1.2.41,2)">instana-api</feature>
-    <bundle start-level="80">mvn:com.instana/sensor-python/1.0.1</bundle>
+    <bundle start-level="80">mvn:com.instana/sensor-python/1.2.0</bundle>
+  </feature>
+
+  <feature name="instana-python-trace-sensor" version="1.2.0">
+    <feature version="[1.2.41,2)">instana-api</feature>
+    <bundle start-level="90">mvn:com.instana/sensor-python-trace/1.2.0</bundle>
   </feature>
 
   <feature name="instana-redis-sensor" version="1.1.17">
