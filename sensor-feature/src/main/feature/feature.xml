@@ -67,9 +67,14 @@
     <bundle start-level="80">mvn:com.instana/sensor-glassfish/1.1.5</bundle>
   </feature>
 
-  <feature name="instana-golang-sensor" version="1.1.1">
+  <feature name="instana-golang-sensor" version="1.2.0">
     <feature version="[1.2.41,2)">instana-api</feature>
-    <bundle start-level="80">mvn:com.instana/sensor-golang/1.1.1</bundle>
+    <bundle start-level="80">mvn:com.instana/sensor-golang/1.2.0</bundle>
+  </feature>
+
+  <feature name="instana-golang-trace-sensor" version="1.2.0">
+    <feature version="[1.2.41,2)">instana-api</feature>
+    <bundle start-level="90">mvn:com.instana/sensor-golang-trace/1.2.0</bundle>
   </feature>
 
   <feature name="instana-haproxy-sensor" version="1.1.8">
