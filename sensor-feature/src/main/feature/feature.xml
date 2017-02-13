@@ -67,9 +67,14 @@
     <bundle start-level="80">mvn:com.instana/sensor-glassfish/1.1.5</bundle>
   </feature>
 
-  <feature name="instana-golang-sensor" version="1.1.1">
+  <feature name="instana-golang-sensor" version="1.2.0">
     <feature version="[1.2.41,2)">instana-api</feature>
-    <bundle start-level="80">mvn:com.instana/sensor-golang/1.1.1</bundle>
+    <bundle start-level="80">mvn:com.instana/sensor-golang/1.2.0</bundle>
+  </feature>
+
+  <feature name="instana-golang-trace-sensor" version="1.2.0">
+    <feature version="[1.2.41,2)">instana-api</feature>
+    <bundle start-level="90">mvn:com.instana/sensor-golang-trace/1.2.0</bundle>
   </feature>
 
   <feature name="instana-haproxy-sensor" version="1.1.8">
@@ -82,9 +87,9 @@
     <bundle start-level="80">mvn:com.instana/sensor-host/1.1.72</bundle>
   </feature>
 
-  <feature name="instana-httpd-sensor" version="1.1.59">
+  <feature name="instana-httpd-sensor" version="1.1.60">
     <feature version="[1.2.37,2)">instana-api</feature>
-    <bundle start-level="80">mvn:com.instana/sensor-httpd/1.1.59</bundle>
+    <bundle start-level="80">mvn:com.instana/sensor-httpd/1.1.60</bundle>
   </feature>
 
   <feature name="instana-java-sensor" version="1.2.40">
@@ -92,9 +97,9 @@
     <bundle start-level="80">mvn:com.instana/sensor-java/1.2.40</bundle>
   </feature>
 
-  <feature name="instana-java-trace-sensor" version="1.2.160">
+  <feature name="instana-java-trace-sensor" version="1.2.161">
     <feature version="[1.2.35,2)">instana-java-sensor</feature>
-    <bundle start-level="90">mvn:com.instana/sensor-java-trace/1.2.160</bundle>
+    <bundle start-level="90">mvn:com.instana/sensor-java-trace/1.2.161</bundle>
   </feature>
 
   <feature name="instana-jboss-as-sensor" version="1.1.16">
@@ -199,9 +204,9 @@
     <bundle start-level="80">mvn:com.instana/sensor-oracledb/1.1.3</bundle>
   </feature>
 
-  <feature name="instana-php-fpm-sensor" version="1.1.40">
+  <feature name="instana-php-fpm-sensor" version="1.1.41">
     <feature version="[1.2.37,2)">instana-api</feature>
-    <bundle start-level="80">mvn:com.instana/sensor-php-fpm/1.1.40</bundle>
+    <bundle start-level="80">mvn:com.instana/sensor-php-fpm/1.1.41</bundle>
   </feature>
 
   <feature name="instana-php-sensor" version="1.0.35">
@@ -221,9 +226,14 @@
     <bundle start-level="80">mvn:com.instana/sensor-process/1.1.18</bundle>
   </feature>
 
-  <feature name="instana-python-sensor" version="1.0.1">
+  <feature name="instana-python-sensor" version="1.2.0">
     <feature version="[1.2.41,2)">instana-api</feature>
-    <bundle start-level="80">mvn:com.instana/sensor-python/1.0.1</bundle>
+    <bundle start-level="80">mvn:com.instana/sensor-python/1.2.0</bundle>
+  </feature>
+
+  <feature name="instana-python-trace-sensor" version="1.2.0">
+    <feature version="[1.2.41,2)">instana-api</feature>
+    <bundle start-level="90">mvn:com.instana/sensor-python-trace/1.2.0</bundle>
   </feature>
 
   <feature name="instana-redis-sensor" version="1.1.17">
@@ -239,9 +249,14 @@
     <bundle start-level="80">mvn:com.instana/sensor-rabbitmq/1.1.27</bundle>
   </feature>
 
-  <feature name="instana-ruby-sensor" version="1.1.1">
+  <feature name="instana-ruby-sensor" version="1.2.0">
     <feature version="[1.2.41,2)">instana-api</feature>
-    <bundle start-level="80">mvn:com.instana/sensor-ruby/1.1.1</bundle>
+    <bundle start-level="80">mvn:com.instana/sensor-ruby/1.2.0</bundle>
+  </feature>
+
+  <feature name="instana-ruby-trace-sensor" version="1.2.0">
+    <feature version="[1.2.41,2)">instana-api</feature>
+    <bundle start-level="90">mvn:com.instana/sensor-ruby-trace/1.2.0</bundle>
   </feature>
 
   <feature name="instana-solr-sensor" version="1.0.4">
