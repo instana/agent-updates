@@ -77,9 +77,9 @@
     <bundle start-level="90">mvn:com.instana/sensor-golang-trace/1.2.0</bundle>
   </feature>
 
-  <feature name="instana-haproxy-sensor" version="1.1.8">
+  <feature name="instana-haproxy-sensor" version="1.1.9">
     <feature version="[1.2.37,2)">instana-api</feature>
-    <bundle start-level="80">mvn:com.instana/sensor-haproxy/1.1.8</bundle>
+    <bundle start-level="80">mvn:com.instana/sensor-haproxy/1.1.9</bundle>
   </feature>
 
   <feature name="instana-host-sensor" version="1.1.72">
