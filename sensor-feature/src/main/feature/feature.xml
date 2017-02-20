@@ -171,14 +171,14 @@
     <bundle start-level="80">mvn:com.instana/sensor-nginx/1.1.38</bundle>
   </feature>
 
-  <feature name="instana-nodejs-sensor" version="1.2.0">
+  <feature name="instana-nodejs-sensor" version="1.2.1">
     <feature version="[1.2.41,2)">instana-api</feature>
-    <bundle start-level="80">mvn:com.instana/sensor-nodejs/1.2.0</bundle>
+    <bundle start-level="80">mvn:com.instana/sensor-nodejs/1.2.1</bundle>
   </feature>
 
-  <feature name="instana-nodejs-trace-sensor" version="1.2.0">
+  <feature name="instana-nodejs-trace-sensor" version="1.2.1">
     <feature version="[1.2.41,2)">instana-api</feature>
-    <bundle start-level="90">mvn:com.instana/sensor-nodejs-trace/1.2.0</bundle>
+    <bundle start-level="90">mvn:com.instana/sensor-nodejs-trace/1.2.1</bundle>
   </feature>
 
   <feature name="instana-openstack-nova-sensor" version="1.1.2">
