@@ -1,10 +1,8 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
 <features name="${project.artifactId}-${project.version}" xmlns="http://karaf.apache.org/xmlns/features/v1.3.0" >
 
- <feature name="instana-apache-commons" description="Shared Apache Commons Libs" version="1.1.5">
+ <feature name="instana-apache-commons" description="Shared Apache Commons Libs" version="1.1.6">
     <bundle start-level="50">mvn:commons-io/commons-io/2.5</bundle>
-    <bundle start-level="50">mvn:commons-lang/commons-lang/2.6</bundle>
-    <bundle start-level="50">mvn:commons-configuration/commons-configuration/1.10</bundle>
     <bundle start-level="50">mvn:org.apache.commons/commons-configuration2/2.1.1</bundle>
     <bundle start-level="50">mvn:org.apache.commons/commons-collections4/4.1</bundle>
     <bundle start-level="50">mvn:org.apache.commons/commons-csv/1.4</bundle>
