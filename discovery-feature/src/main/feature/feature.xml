@@ -211,6 +211,11 @@
     <bundle start-level="80">mvn:com.instana/discovery-ruby/1.2.0</bundle>
   </feature>
 
+  <feature name="instana-sap-hana-discovery" version="1.1.0">
+    <feature version="[1.2.44,2)">instana-api</feature>
+    <bundle start-level="80">mvn:com.instana/discovery-sap-hana/1.1.0</bundle>
+  </feature>
+
   <feature name="instana-solr-discovery" version="1.0.4">
     <feature version="[1.2.42,2)">instana-api</feature>
     <bundle start-level="80">mvn:com.instana/discovery-solr/1.0.4</bundle>
