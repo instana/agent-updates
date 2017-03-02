@@ -259,6 +259,12 @@
     <bundle start-level="90">mvn:com.instana/sensor-ruby-trace/1.2.0</bundle>
   </feature>
 
+  <feature name="instana-sap-hana-sensor" version="1.1.0">
+    <feature version="[1.2.44,2)">instana-api</feature>
+    <bundle start-level="80">wrap:mvn:com.sap.db.jdbc/ngdbc/2.0$overwrite=merge&amp;Import-Package=javax.crypto;resolution:=optional,javax.crypto.spec;resolution:=optional,javax.naming;resolution:=optional,javax.naming.ldap;resolution:=optional,javax.naming.spi;resolution:=optional,javax.net;resolution:=optional,javax.net.ssl;resolution:=optional,javax.security.auth;resolution:=optional,javax.security.auth.x500;resolution:=optional,javax.sql;resolution:=optional,javax.swing;resolution:=optional,javax.swing.border;resolution:=optional,javax.transaction.xa;resolution:=optional,org.ietf.jgss;resolution:=optional</bundle>
+    <bundle start-level="80">mvn:com.instana/sensor-sap-hana/1.1.0</bundle>
+  </feature>
+
   <feature name="instana-solr-sensor" version="1.0.4">
     <feature version="[1.2.31,2)">instana-java-sensor</feature>
     <bundle start-level="80">mvn:com.instana/sensor-solr/1.0.4</bundle>
