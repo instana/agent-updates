@@ -129,16 +129,22 @@
     <bundle start-level="80">mvn:com.instana/sensor-kafka/1.1.24</bundle>
   </feature>
 
-  <feature name="instana-memcached-sensor" version="1.0.9">
-    <feature version="[1.2.37,2.0.0)">instana-api</feature>
-    <bundle start-level="80">wrap:mvn:net.spy/spymemcached/2.12.1</bundle>
-    <bundle start-level="80">mvn:com.instana/sensor-memcached/1.0.9</bundle>
+  <feature name="instana-marathon-sensor" version="1.0.0">
+    <feature version="[1.1.272,2)">instana-agent</feature>
+    <feature version="[1.2.41,2)">instana-api</feature>
+    <bundle start-level="80">mvn:com.instana/sensor-marathon/1.0.0</bundle>
   </feature>
 
   <feature name="instana-mariadb-sensor" version="1.1.21">
     <feature version="[1.2.41,2)">instana-api</feature>
     <bundle start-level="80">mvn:org.mariadb.jdbc/mariadb-java-client/1.5.5</bundle>
     <bundle start-level="80">mvn:com.instana/sensor-mariadb/1.1.21</bundle>
+  </feature>
+
+  <feature name="instana-memcached-sensor" version="1.0.9">
+    <feature version="[1.2.37,2.0.0)">instana-api</feature>
+    <bundle start-level="80">wrap:mvn:net.spy/spymemcached/2.12.1</bundle>
+    <bundle start-level="80">mvn:com.instana/sensor-memcached/1.0.9</bundle>
   </feature>
 
   <feature name="instana-mongodb-sensor" version="1.1.23">
