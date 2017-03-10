@@ -19,19 +19,19 @@
     <bundle start-level="50">mvn:com.fasterxml.jackson.dataformat/jackson-dataformat-yaml/2.8.6</bundle>
   </feature>
 
-  <feature name="instana-netty" description="Shared Netty" version="4.1.8.Final">
-    <bundle start-level="50">mvn:io.netty/netty-buffer/4.1.8.Final</bundle>
-    <bundle start-level="50">mvn:io.netty/netty-codec/4.1.8.Final</bundle>
-    <bundle start-level="50">mvn:io.netty/netty-codec-dns/4.1.8.Final</bundle>
-    <bundle start-level="50">mvn:io.netty/netty-codec-http/4.1.8.Final</bundle>
-    <bundle start-level="50">mvn:io.netty/netty-codec-http2/4.1.8.Final</bundle>
-    <bundle start-level="50">mvn:io.netty/netty-codec-socks/4.1.8.Final</bundle>
-    <bundle start-level="50">mvn:io.netty/netty-common/4.1.8.Final</bundle>
-    <bundle start-level="50">mvn:io.netty/netty-handler/4.1.8.Final</bundle>
-    <bundle start-level="50">mvn:io.netty/netty-handler-proxy/4.1.8.Final</bundle>
-    <bundle start-level="50">mvn:io.netty/netty-resolver/4.1.8.Final</bundle>
-    <bundle start-level="50">mvn:io.netty/netty-resolver-dns/4.1.8.Final</bundle>
-    <bundle start-level="50">mvn:io.netty/netty-transport/4.1.8.Final</bundle>
+  <feature name="instana-netty" description="Shared Netty" version="4.1.9.Final">
+    <bundle start-level="50">mvn:io.netty/netty-buffer/4.1.9.Final</bundle>
+    <bundle start-level="50">mvn:io.netty/netty-codec/4.1.9.Final</bundle>
+    <bundle start-level="50">mvn:io.netty/netty-codec-dns/4.1.9.Final</bundle>
+    <bundle start-level="50">mvn:io.netty/netty-codec-http/4.1.9.Final</bundle>
+    <bundle start-level="50">mvn:io.netty/netty-codec-http2/4.1.9.Final</bundle>
+    <bundle start-level="50">mvn:io.netty/netty-codec-socks/4.1.9.Final</bundle>
+    <bundle start-level="50">mvn:io.netty/netty-common/4.1.9.Final</bundle>
+    <bundle start-level="50">mvn:io.netty/netty-handler/4.1.9.Final</bundle>
+    <bundle start-level="50">mvn:io.netty/netty-handler-proxy/4.1.9.Final</bundle>
+    <bundle start-level="50">mvn:io.netty/netty-resolver/4.1.9.Final</bundle>
+    <bundle start-level="50">mvn:io.netty/netty-resolver-dns/4.1.9.Final</bundle>
+    <bundle start-level="50">mvn:io.netty/netty-transport/4.1.9.Final</bundle>
   </feature>
 
   <feature name="instana-jctools" description="Instana JCTools" version="1.2.1">
@@ -49,7 +49,7 @@
     <bundle start-level="50">mvn:com.instana/sensor-api/1.2.45</bundle>
   </feature>
 
-  <feature name="instana-agent" description="Instana Agent" version="1.1.324">
+  <feature name="instana-agent" description="Instana Agent" version="1.1.325">
     <feature>scr</feature>
     <feature>bundle</feature>
     <feature>instana-agent-bootstrap</feature>
@@ -57,7 +57,7 @@
     <feature>instana-apache-commons</feature>
     <feature>instana-api</feature>
     <feature>instana-jctools2</feature>
-    <bundle start-level="70">mvn:com.instana/agent/1.1.324</bundle>
+    <bundle start-level="70">mvn:com.instana/agent/1.1.325</bundle>
   </feature>
 
 </features>
