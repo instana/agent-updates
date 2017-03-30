@@ -65,9 +65,9 @@
     <bundle start-level="80">mvn:com.instana/discovery-glassfish/1.1.6</bundle>
   </feature>
 
-  <feature name="instana-golang-discovery" version="1.2.1">
+  <feature name="instana-golang-discovery" version="1.2.2">
     <feature version="[1.2.37,2)">instana-api</feature>
-    <bundle start-level="80">mvn:com.instana/discovery-golang/1.2.1</bundle>
+    <bundle start-level="80">mvn:com.instana/discovery-golang/1.2.2</bundle>
   </feature>
 
   <feature name="instana-haproxy-discovery" version="1.1.9">
