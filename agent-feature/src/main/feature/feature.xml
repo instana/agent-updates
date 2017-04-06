@@ -34,10 +34,6 @@
     <bundle start-level="50">mvn:io.netty/netty-transport/4.1.9.Final</bundle>
   </feature>
 
-  <feature name="instana-jctools" description="Instana JCTools" version="1.2.1">
-      <bundle start-level="50">mvn:com.instana/jctools/1.2.1</bundle>
-  </feature>
-
   <feature name="instana-jctools2" description="Instana JCTools 2" version="2.0.1">
       <bundle start-level="50">mvn:com.instana/jctools/2.0.1</bundle>
   </feature>
