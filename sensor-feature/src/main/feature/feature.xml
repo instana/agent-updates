@@ -61,9 +61,9 @@
     <bundle start-level="80">mvn:com.instana/sensor-gce/1.1.6</bundle>
   </feature>
 
-  <feature name="instana-generic-hardware-sensor" version="1.1.5">
+  <feature name="instana-generic-hardware-sensor" version="1.1.6">
     <feature version="[1.2.16,2)">instana-api</feature>
-    <bundle start-level="80">mvn:com.instana/sensor-generic-hardware/1.1.5</bundle>
+    <bundle start-level="80">mvn:com.instana/sensor-generic-hardware/1.1.6</bundle>
   </feature>
 
   <feature name="instana-glassfish-sensor" version="1.1.6">
