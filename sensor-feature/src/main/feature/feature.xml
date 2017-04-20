@@ -87,9 +87,9 @@
     <bundle start-level="80">mvn:com.instana/sensor-haproxy/1.1.9</bundle>
   </feature>
 
-  <feature name="instana-host-sensor" version="1.1.73">
+  <feature name="instana-host-sensor" version="1.1.74">
     <feature version="[1.2.45,2)">instana-api</feature>
-    <bundle start-level="80">mvn:com.instana/sensor-host/1.1.73</bundle>
+    <bundle start-level="80">mvn:com.instana/sensor-host/1.1.74</bundle>
   </feature>
 
   <feature name="instana-httpd-sensor" version="1.1.63">
@@ -309,10 +309,10 @@
     <bundle start-level="80">mvn:com.instana/sensor-weblogic/1.1.0</bundle>
   </feature>
 
-  <feature name="instana-websphere-sensor" version="1.1.7">
+  <feature name="instana-websphere-sensor" version="1.1.8">
     <feature version="[1.2.31,2)">instana-java-sensor</feature>
     <feature version="[1.2.40,2)">instana-api</feature>
-    <bundle start-level="80">mvn:com.instana/sensor-websphere/1.1.7</bundle>
+    <bundle start-level="80">mvn:com.instana/sensor-websphere/1.1.8</bundle>
   </feature>
 
   <feature name="instana-websphere-liberty-sensor" version="1.1.0">
