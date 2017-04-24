@@ -215,9 +215,9 @@
     <bundle start-level="80">mvn:com.instana/sensor-oracledb/1.1.4</bundle>
   </feature>
 
-  <feature name="instana-php-fpm-sensor" version="1.1.42">
-    <feature version="[1.2.37,2)">instana-api</feature>
-    <bundle start-level="80">mvn:com.instana/sensor-php-fpm/1.1.42</bundle>
+  <feature name="instana-php-fpm-sensor" version="1.1.43">
+    <feature version="[1.2.48,2)">instana-api</feature>
+    <bundle start-level="80">mvn:com.instana/sensor-php-fpm/1.1.43</bundle>
   </feature>
 
   <feature name="instana-php-sensor" version="1.0.39">
