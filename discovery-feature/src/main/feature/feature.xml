@@ -75,10 +75,10 @@
     <bundle start-level="80">mvn:com.instana/discovery-haproxy/1.1.9</bundle>
   </feature>
 
-  <feature name="instana-host-discovery" version="1.1.74">
+  <feature name="instana-host-discovery" version="1.1.75">
     <feature version="[1.2.45,2)">instana-api</feature>
     <feature version="[1.0,2)">instana-apache-commons</feature>
-    <bundle start-level="80">mvn:com.instana/discovery-host/1.1.74</bundle>
+    <bundle start-level="80">mvn:com.instana/discovery-host/1.1.75</bundle>
   </feature>
 
   <feature name="instana-httpd-discovery" version="1.1.63">
@@ -176,14 +176,14 @@
     <bundle start-level="80">mvn:com.instana/discovery-php-cgi/1.0.0</bundle>
   </feature>
 
-  <feature name="instana-php-fpm-discovery" version="1.1.42">
-    <feature version="[1.2.37,2)">instana-api</feature>
-    <bundle start-level="80">mvn:com.instana/discovery-php-fpm/1.1.42</bundle>
+  <feature name="instana-php-fpm-discovery" version="1.1.43">
+    <feature version="[1.2.48,2)">instana-api</feature>
+    <bundle start-level="80">mvn:com.instana/discovery-php-fpm/1.1.43</bundle>
   </feature>
 
-  <feature name="instana-postgresql-discovery" version="1.0.15">
+  <feature name="instana-postgresql-discovery" version="1.0.16">
     <feature version="[1.2.42,2)">instana-api</feature>
-    <bundle start-level="80">mvn:com.instana/discovery-postgresql/1.0.15</bundle>
+    <bundle start-level="80">mvn:com.instana/discovery-postgresql/1.0.16</bundle>
   </feature>
 
   <feature name="instana-process-discovery" version="1.1.19">
