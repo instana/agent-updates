@@ -42,11 +42,11 @@
       <bundle start-level="50">mvn:com.instana/jctools/2.0.1</bundle>
   </feature>
 
-  <feature name="instana-api" description="Instana Sensor and Discovery API" version="1.2.50">
+  <feature name="instana-api" description="Instana Sensor and Discovery API" version="1.2.51">
     <feature>scr</feature>
     <feature>instana-netty</feature>
-    <bundle start-level="50">mvn:com.instana/agent-json/1.2.50</bundle>
-    <bundle start-level="50">mvn:com.instana/sensor-api/1.2.50</bundle>
+    <bundle start-level="50">mvn:com.instana/agent-json/1.2.51</bundle>
+    <bundle start-level="50">mvn:com.instana/sensor-api/1.2.51</bundle>
   </feature>
 
   <feature name="instana-agent" description="Instana Agent" version="1.1.343">
