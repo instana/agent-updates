@@ -80,10 +80,10 @@
     <bundle start-level="80">mvn:com.instana/discovery-haproxy/1.1.9</bundle>
   </feature>
 
-  <feature name="instana-host-discovery" version="1.1.76">
+  <feature name="instana-host-discovery" version="1.1.77">
     <feature version="[1.2.45,2)">instana-api</feature>
     <feature version="[1.0,2)">instana-apache-commons</feature>
-    <bundle start-level="80">mvn:com.instana/discovery-host/1.1.76</bundle>
+    <bundle start-level="80">mvn:com.instana/discovery-host/1.1.77</bundle>
   </feature>
 
   <feature name="instana-httpd-discovery" version="1.1.63">
@@ -231,9 +231,9 @@
     <bundle start-level="80">mvn:com.instana/discovery-statsd/1.1.2</bundle>
   </feature>
 
-  <feature name="instana-springboot-discovery" version="1.1.21">
+  <feature name="instana-springboot-discovery" version="1.1.22">
     <feature version="[1.2.37,2)">instana-api</feature>
-    <bundle start-level="80">mvn:com.instana/discovery-springboot/1.1.21</bundle>
+    <bundle start-level="80">mvn:com.instana/discovery-springboot/1.1.22</bundle>
   </feature>
 
   <feature name="instana-tomcat-discovery" version="1.1.27">
