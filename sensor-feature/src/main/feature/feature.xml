@@ -26,11 +26,11 @@
     <bundle start-level="80">mvn:com.instana/sensor-cassandra/1.1.26</bundle>
   </feature>
 
-  <feature name="instana-docker-sensor" version="1.1.37">
+  <feature name="instana-docker-sensor" version="1.1.38">
     <feature version="[1.2.34,2)">instana-api</feature>
     <feature version="[1.0,2)">instana-apache-commons</feature>
     <feature version="[2.7,3)">instana-jackson</feature>
-    <bundle start-level="80">mvn:com.instana/sensor-docker/1.1.37</bundle>
+    <bundle start-level="80">mvn:com.instana/sensor-docker/1.1.38</bundle>
   </feature>
 
   <feature name="instana-dropwizard-sensor" version="1.1.15">
@@ -49,10 +49,10 @@
     <bundle start-level="80">mvn:com.instana/sensor-elasticsearch/1.1.35</bundle>
   </feature>
 
-  <feature name="instana-etcd-sensor" version="1.0.6">
+  <feature name="instana-etcd-sensor" version="1.0.7">
     <feature version="[1.2.42,2)">instana-api</feature>
     <feature version="[1.0,2)">instana-apache-commons</feature>
-    <bundle start-level="80">mvn:com.instana/sensor-etcd/1.0.6</bundle>
+    <bundle start-level="80">mvn:com.instana/sensor-etcd/1.0.7</bundle>
   </feature>
 
   <feature name="instana-gce-sensor" version="1.1.6">
@@ -108,9 +108,9 @@
     <bundle start-level="80">mvn:com.instana/sensor-java/1.2.45</bundle>
   </feature>
 
-  <feature name="instana-java-trace-sensor" version="1.2.179">
+  <feature name="instana-java-trace-sensor" version="1.2.180">
     <feature version="[1.2.35,2)">instana-java-sensor</feature>
-    <bundle start-level="90">mvn:com.instana/sensor-java-trace/1.2.179</bundle>
+    <bundle start-level="90">mvn:com.instana/sensor-java-trace/1.2.180</bundle>
   </feature>
 
   <feature name="instana-jboss-as-sensor" version="1.1.16">
@@ -237,10 +237,10 @@
     <bundle start-level="80">mvn:com.instana/sensor-postgresql/1.0.16</bundle>
   </feature>
 
-  <feature name="instana-process-sensor" version="1.1.20">
+  <feature name="instana-process-sensor" version="1.1.21">
     <feature version="[1.2.49,2)">instana-api</feature>
     <feature version="[1.0,2)">instana-apache-commons</feature>
-    <bundle start-level="80">mvn:com.instana/sensor-process/1.1.20</bundle>
+    <bundle start-level="80">mvn:com.instana/sensor-process/1.1.21</bundle>
   </feature>
 
   <feature name="instana-python-sensor" version="1.2.0">
@@ -287,10 +287,10 @@
     <bundle start-level="80">mvn:com.instana/sensor-solr/1.0.4</bundle>
   </feature>
 
-  <feature name="instana-statsd-sensor" version="1.1.2">
+  <feature name="instana-statsd-sensor" version="1.1.3">
     <feature version="[1.2.45,2)">instana-api</feature>
     <bundle start-level="80">mvn:org.hdrhistogram/HdrHistogram/2.1.9</bundle>
-    <bundle start-level="80">mvn:com.instana/sensor-statsd/1.1.2</bundle>
+    <bundle start-level="80">mvn:com.instana/sensor-statsd/1.1.3</bundle>
   </feature>
 
   <feature name="instana-springboot-sensor" version="1.1.22">
