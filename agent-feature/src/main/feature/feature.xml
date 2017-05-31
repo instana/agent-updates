@@ -34,13 +34,8 @@
     <bundle start-level="50">mvn:io.netty/netty-transport/4.1.10.Final</bundle>
   </feature>
 
-  <feature name="instana-jctools" description="Instana JCTools" version="1.2.1.1">
-    <bundle start-level="50">mvn:com.instana/jctools/1.2.1</bundle>
-    <bundle start-level="51">mvn:com.instana/remove-jctools/1.2.1</bundle>
-  </feature>
-
-  <feature name="instana-jctools2" description="Instana JCTools 2" version="2.0.1">
-    <bundle start-level="50">mvn:com.instana/jctools/2.0.1</bundle>
+  <feature name="instana-jctools2" description="Instana JCTools 2" version="2.0.2">
+    <bundle start-level="50">mvn:com.instana/jctools/2.0.2</bundle>
   </feature>
 
   <feature name="instana-api" description="Instana Sensor and Discovery API" version="1.2.53">
@@ -55,7 +50,7 @@
     <bundle start-level="50">mvn:com.instana/unix-socket-util/1.1.0</bundle>
   </feature>
 
-  <feature name="instana-agent" description="Instana Agent" version="1.1.360">
+  <feature name="instana-agent" description="Instana Agent" version="1.1.361">
     <feature>scr</feature>
     <feature>bundle</feature>
     <feature>instana-agent-bootstrap</feature>
@@ -64,7 +59,7 @@
     <feature>instana-api</feature>
     <feature>instana-unix-socket-util</feature>
     <feature>instana-jctools2</feature>
-    <bundle start-level="70">mvn:com.instana/agent/1.1.360</bundle>
+    <bundle start-level="70">mvn:com.instana/agent/1.1.361</bundle>
   </feature>
 
 </features>
