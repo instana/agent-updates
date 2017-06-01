@@ -36,11 +36,11 @@
     <bundle start-level="80">mvn:com.instana/sensor-cassandra/1.1.26</bundle>
   </feature>
 
-  <feature name="instana-docker-sensor" version="1.1.39">
+  <feature name="instana-docker-sensor" version="1.1.40">
     <feature version="[1.2.34,2)">instana-api</feature>
     <feature version="[1.0,2)">instana-apache-commons</feature>
     <feature version="[2.7,3)">instana-jackson</feature>
-    <bundle start-level="80">mvn:com.instana/sensor-docker/1.1.39</bundle>
+    <bundle start-level="80">mvn:com.instana/sensor-docker/1.1.40</bundle>
   </feature>
 
   <feature name="instana-dropwizard-sensor" version="1.1.15">
@@ -108,9 +108,9 @@
     <bundle start-level="80">mvn:com.instana/sensor-host/1.1.77</bundle>
   </feature>
 
-  <feature name="instana-httpd-sensor" version="1.1.66">
+  <feature name="instana-httpd-sensor" version="1.1.67">
     <feature version="[1.2.37,2)">instana-api</feature>
-    <bundle start-level="80">mvn:com.instana/sensor-httpd/1.1.66</bundle>
+    <bundle start-level="80">mvn:com.instana/sensor-httpd/1.1.67</bundle>
   </feature>
 
   <feature name="instana-java-sensor" version="1.2.45">
@@ -303,9 +303,9 @@
     <bundle start-level="80">mvn:com.instana/sensor-statsd/1.1.4</bundle>
   </feature>
 
-  <feature name="instana-springboot-sensor" version="1.1.22">
+  <feature name="instana-springboot-sensor" version="1.1.23">
     <feature version="[1.2.35,2)">instana-java-sensor</feature>
-    <bundle start-level="80">mvn:com.instana/sensor-springboot/1.1.22</bundle>
+    <bundle start-level="80">mvn:com.instana/sensor-springboot/1.1.23</bundle>
   </feature>
 
   <feature name="instana-tomcat-sensor" version="1.1.27">
