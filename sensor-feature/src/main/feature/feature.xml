@@ -103,9 +103,9 @@
     <bundle start-level="80">mvn:com.instana/sensor-haproxy/1.1.9</bundle>
   </feature>
 
-  <feature name="instana-host-sensor" version="1.1.77">
+  <feature name="instana-host-sensor" version="1.1.78">
     <feature version="[1.2.45,2)">instana-api</feature>
-    <bundle start-level="80">mvn:com.instana/sensor-host/1.1.77</bundle>
+    <bundle start-level="80">mvn:com.instana/sensor-host/1.1.78</bundle>
   </feature>
 
   <feature name="instana-httpd-sensor" version="1.1.67">
@@ -247,10 +247,10 @@
     <bundle start-level="80">mvn:com.instana/sensor-postgresql/1.0.16</bundle>
   </feature>
 
-  <feature name="instana-process-sensor" version="1.1.21">
-    <feature version="[1.2.49,2)">instana-api</feature>
+  <feature name="instana-process-sensor" version="1.1.22">
+    <feature version="[1.2.54,2)">instana-api</feature>
     <feature version="[1.0,2)">instana-apache-commons</feature>
-    <bundle start-level="80">mvn:com.instana/sensor-process/1.1.21</bundle>
+    <bundle start-level="80">mvn:com.instana/sensor-process/1.1.22</bundle>
   </feature>
 
   <feature name="instana-python-sensor" version="1.2.0">
