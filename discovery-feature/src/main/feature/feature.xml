@@ -85,6 +85,11 @@
     <bundle start-level="80">mvn:com.instana/discovery-haproxy/1.1.9</bundle>
   </feature>
 
+  <feature name="instana-hbase-discovery" version="1.1.0">
+    <feature version="[1.2.45,2)">instana-api</feature>
+    <bundle start-level="80">mvn:com.instana/discovery-hbase/1.1.0</bundle>
+  </feature>
+
   <feature name="instana-host-discovery" version="1.1.78">
     <feature version="[1.2.45,2)">instana-api</feature>
     <feature version="[1.0,2)">instana-apache-commons</feature>
