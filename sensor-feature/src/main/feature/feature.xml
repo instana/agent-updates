@@ -65,6 +65,11 @@
     <bundle start-level="80">mvn:com.instana/sensor-etcd/1.0.7</bundle>
   </feature>
 
+  <feature name="instana-finagle-sensor" version="1.1.0">
+    <feature version="[1.2.45,2)">instana-java-sensor</feature>
+    <bundle start-level="80">mvn:com.instana/sensor-finagle/1.1.0</bundle>
+  </feature>
+
   <feature name="instana-gce-sensor" version="1.1.6">
     <feature version="[1.2.15,2)">instana-api</feature>
     <feature version="[1.0,2)">instana-apache-commons</feature>
