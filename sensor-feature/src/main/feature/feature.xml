@@ -97,10 +97,10 @@
     <bundle start-level="90">mvn:com.instana/sensor-golang-trace/1.2.0</bundle>
   </feature>
 
-  <feature name="instana-hadoop-yarn-sensor" version="1.1.0">
+  <feature name="instana-hadoop-yarn-sensor" version="1.1.1">
     <feature version="[1.2.35,2)">instana-java-sensor</feature>
     <feature version="[1.2.37,2)">instana-api</feature>
-    <bundle start-level="80">mvn:com.instana/sensor-hadoop-yarn/1.1.0</bundle>
+    <bundle start-level="80">mvn:com.instana/sensor-hadoop-yarn/1.1.1</bundle>
   </feature>
 
   <feature name="instana-haproxy-sensor" version="1.1.9">
