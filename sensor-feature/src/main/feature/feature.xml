@@ -97,10 +97,10 @@
     <bundle start-level="90">mvn:com.instana/sensor-golang-trace/1.2.0</bundle>
   </feature>
 
-  <feature name="instana-hadoop-yarn-sensor" version="1.1.0">
+  <feature name="instana-hadoop-yarn-sensor" version="1.1.1">
     <feature version="[1.2.35,2)">instana-java-sensor</feature>
     <feature version="[1.2.37,2)">instana-api</feature>
-    <bundle start-level="80">mvn:com.instana/sensor-hadoop-yarn/1.1.0</bundle>
+    <bundle start-level="80">mvn:com.instana/sensor-hadoop-yarn/1.1.1</bundle>
   </feature>
 
   <feature name="instana-haproxy-sensor" version="1.1.9">
@@ -129,9 +129,9 @@
     <bundle start-level="80">mvn:com.instana/sensor-java/1.2.45</bundle>
   </feature>
 
-  <feature name="instana-java-trace-sensor" version="1.2.185">
+  <feature name="instana-java-trace-sensor" version="1.2.186">
     <feature version="[1.2.35,2)">instana-java-sensor</feature>
-    <bundle start-level="90">mvn:com.instana/sensor-java-trace/1.2.185</bundle>
+    <bundle start-level="90">mvn:com.instana/sensor-java-trace/1.2.186</bundle>
   </feature>
 
   <feature name="instana-jboss-as-sensor" version="1.1.16">
@@ -173,10 +173,10 @@
     <bundle start-level="80">mvn:com.instana/sensor-mariadb/1.1.21</bundle>
   </feature>
 
-  <feature name="instana-memcached-sensor" version="1.0.10">
+  <feature name="instana-memcached-sensor" version="1.0.11">
     <feature version="[1.2.37,2.0.0)">instana-api</feature>
     <bundle start-level="80">wrap:mvn:net.spy/spymemcached/2.12.1</bundle>
-    <bundle start-level="80">mvn:com.instana/sensor-memcached/1.0.10</bundle>
+    <bundle start-level="80">mvn:com.instana/sensor-memcached/1.0.11</bundle>
   </feature>
 
   <feature name="instana-mongodb-sensor" version="1.1.23">
@@ -312,6 +312,11 @@
     <feature version="[1.2.45,2)">instana-api</feature>
     <bundle start-level="80">mvn:org.hdrhistogram/HdrHistogram/2.1.9</bundle>
     <bundle start-level="80">mvn:com.instana/sensor-statsd/1.1.4</bundle>
+  </feature>
+
+  <feature name="instana-spark-application-sensor" version="1.1.1">
+    <feature version="[1.2.37,2)">instana-java-sensor</feature>
+    <bundle start-level="80">mvn:com.instana/sensor-spark-application/1.1.1</bundle>
   </feature>
 
   <feature name="instana-springboot-sensor" version="1.1.23">
