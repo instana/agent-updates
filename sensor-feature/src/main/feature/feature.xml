@@ -119,9 +119,9 @@
     <bundle start-level="80">mvn:com.instana/sensor-host/1.1.78</bundle>
   </feature>
 
-  <feature name="instana-httpd-sensor" version="1.1.68">
+  <feature name="instana-httpd-sensor" version="1.1.69">
     <feature version="[1.2.37,2)">instana-api</feature>
-    <bundle start-level="80">mvn:com.instana/sensor-httpd/1.1.68</bundle>
+    <bundle start-level="80">mvn:com.instana/sensor-httpd/1.1.69</bundle>
   </feature>
 
   <feature name="instana-java-sensor" version="1.2.45">
@@ -252,10 +252,10 @@
     <bundle start-level="90">mvn:com.instana/sensor-php/1.0.45</bundle>
   </feature>
 
-  <feature name="instana-postgresql-sensor" version="1.0.16">
+  <feature name="instana-postgresql-sensor" version="1.0.17">
     <feature version="[1.2.42,2)">instana-api</feature>
     <bundle start-level="80">wrap:mvn:postgresql/postgresql/9.1-901-1.jdbc4</bundle>
-    <bundle start-level="80">mvn:com.instana/sensor-postgresql/1.0.16</bundle>
+    <bundle start-level="80">mvn:com.instana/sensor-postgresql/1.0.17</bundle>
   </feature>
 
   <feature name="instana-process-sensor" version="1.1.22">
