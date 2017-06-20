@@ -50,7 +50,7 @@
     <bundle start-level="50">mvn:com.instana/unix-socket-util/1.1.1</bundle>
   </feature>
 
-  <feature name="instana-agent" description="Instana Agent" version="1.1.368">
+  <feature name="instana-agent" description="Instana Agent" version="1.1.369">
     <feature>scr</feature>
     <feature>bundle</feature>
     <feature>instana-agent-bootstrap</feature>
@@ -59,7 +59,7 @@
     <feature>instana-api</feature>
     <feature>instana-unix-socket-util</feature>
     <feature>instana-jctools2</feature>
-    <bundle start-level="70">mvn:com.instana/agent/1.1.368</bundle>
+    <bundle start-level="70">mvn:com.instana/agent/1.1.369</bundle>
   </feature>
 
 </features>
