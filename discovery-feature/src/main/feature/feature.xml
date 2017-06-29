@@ -21,11 +21,11 @@
     <bundle start-level="80">mvn:com.instana/discovery-crystal/1.0.0</bundle>
   </feature>
 
-  <feature name="instana-docker-discovery" version="1.1.40">
-    <feature version="[1.2.34,2)">instana-api</feature>
+  <feature name="instana-docker-discovery" version="1.1.41">
+    <feature version="[1.2.56,2)">instana-api</feature>
     <feature version="[1.0,2)">instana-apache-commons</feature>
     <feature version="[2.7,3)">instana-jackson</feature>
-    <bundle start-level="80">mvn:com.instana/discovery-docker/1.1.40</bundle>
+    <bundle start-level="80">mvn:com.instana/discovery-docker/1.1.41</bundle>
   </feature>
 
   <feature name="instana-dropwizard-discovery" version="1.1.15">
@@ -251,9 +251,9 @@
     <bundle start-level="80">mvn:com.instana/discovery-spark-application/1.1.1</bundle>
   </feature>
 
-  <feature name="instana-springboot-discovery" version="1.1.23">
+  <feature name="instana-springboot-discovery" version="1.1.24">
     <feature version="[1.2.37,2)">instana-api</feature>
-    <bundle start-level="80">mvn:com.instana/discovery-springboot/1.1.23</bundle>
+    <bundle start-level="80">mvn:com.instana/discovery-springboot/1.1.24</bundle>
   </feature>
 
   <feature name="instana-tomcat-discovery" version="1.1.28">

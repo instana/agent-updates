@@ -36,11 +36,11 @@
     <bundle start-level="90">mvn:com.instana/sensor-crystal-trace/1.0.0</bundle>
   </feature>
 
-  <feature name="instana-docker-sensor" version="1.1.40">
-    <feature version="[1.2.34,2)">instana-api</feature>
+  <feature name="instana-docker-sensor" version="1.1.41">
+    <feature version="[1.2.56,2)">instana-api</feature>
     <feature version="[1.0,2)">instana-apache-commons</feature>
     <feature version="[2.7,3)">instana-jackson</feature>
-    <bundle start-level="80">mvn:com.instana/sensor-docker/1.1.40</bundle>
+    <bundle start-level="80">mvn:com.instana/sensor-docker/1.1.41</bundle>
   </feature>
 
   <feature name="instana-dropwizard-sensor" version="1.1.15">
@@ -319,9 +319,9 @@
     <bundle start-level="80">mvn:com.instana/sensor-spark-application/1.1.1</bundle>
   </feature>
 
-  <feature name="instana-springboot-sensor" version="1.1.23">
-    <feature version="[1.2.35,2)">instana-java-sensor</feature>
-    <bundle start-level="80">mvn:com.instana/sensor-springboot/1.1.23</bundle>
+  <feature name="instana-springboot-sensor" version="1.1.24">
+    <feature version="[1.2.45,2)">instana-java-sensor</feature>
+    <bundle start-level="80">mvn:com.instana/sensor-springboot/1.1.24</bundle>
   </feature>
 
   <feature name="instana-tomcat-sensor" version="1.1.28">
