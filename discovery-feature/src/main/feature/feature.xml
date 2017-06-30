@@ -44,9 +44,9 @@
     <bundle start-level="80">mvn:com.instana/discovery-elasticsearch/1.1.36</bundle>
   </feature>
 
-  <feature name="instana-etcd-discovery" version="1.0.7">
+  <feature name="instana-etcd-discovery" version="1.0.8">
     <feature version="[1.2.42,2)">instana-api</feature>
-    <bundle start-level="80">mvn:com.instana/discovery-etcd/1.0.7</bundle>
+    <bundle start-level="80">mvn:com.instana/discovery-etcd/1.0.8</bundle>
   </feature>
 
   <feature name="instana-clr-discovery" version="1.1.5">
@@ -141,9 +141,9 @@
     <bundle start-level="80">mvn:com.instana/discovery-mariadb/1.1.21</bundle>
   </feature>
 
-  <feature name="instana-memcached-discovery" version="1.0.11">
+  <feature name="instana-memcached-discovery" version="1.0.12">
     <feature version="[1.2.37,2.0.0)">instana-api</feature>
-    <bundle start-level="80">mvn:com.instana/discovery-memcached/1.0.11</bundle>
+    <bundle start-level="80">mvn:com.instana/discovery-memcached/1.0.12</bundle>
   </feature>
 
   <feature name="instana-mongodb-discovery" version="1.1.23">

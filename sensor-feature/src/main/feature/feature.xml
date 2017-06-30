@@ -59,10 +59,10 @@
     <bundle start-level="80">mvn:com.instana/sensor-elasticsearch/1.1.36</bundle>
   </feature>
 
-  <feature name="instana-etcd-sensor" version="1.0.7">
+  <feature name="instana-etcd-sensor" version="1.0.8">
     <feature version="[1.2.42,2)">instana-api</feature>
     <feature version="[1.0,2)">instana-apache-commons</feature>
-    <bundle start-level="80">mvn:com.instana/sensor-etcd/1.0.7</bundle>
+    <bundle start-level="80">mvn:com.instana/sensor-etcd/1.0.8</bundle>
   </feature>
 
   <feature name="instana-finagle-sensor" version="1.1.0">
@@ -173,10 +173,10 @@
     <bundle start-level="80">mvn:com.instana/sensor-mariadb/1.1.21</bundle>
   </feature>
 
-  <feature name="instana-memcached-sensor" version="1.0.11">
+  <feature name="instana-memcached-sensor" version="1.0.12">
     <feature version="[1.2.37,2.0.0)">instana-api</feature>
     <bundle start-level="80">wrap:mvn:net.spy/spymemcached/2.12.1</bundle>
-    <bundle start-level="80">mvn:com.instana/sensor-memcached/1.0.11</bundle>
+    <bundle start-level="80">mvn:com.instana/sensor-memcached/1.0.12</bundle>
   </feature>
 
   <feature name="instana-mongodb-sensor" version="1.1.23">
