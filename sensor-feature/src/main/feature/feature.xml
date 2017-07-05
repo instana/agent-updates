@@ -2,6 +2,7 @@
 <features name="${project.artifactId}-${project.version}" xmlns="http://karaf.apache.org/xmlns/features/v1.3.0" >
 
   <feature name="instana-activemq-sensor" version="1.1.5">
+    <feature version="[1.2.45,2)">instana-java-sensor</feature>
     <bundle start-level="80">mvn:com.instana/sensor-activemq/1.1.5</bundle>
   </feature>
 
@@ -10,6 +11,7 @@
   </feature>
 
   <feature name="instana-cassandra-sensor" version="1.1.27">
+    <feature version="[1.2.31,2)">instana-java-sensor</feature>
     <bundle start-level="80">mvn:com.instana/sensor-cassandra/1.1.27</bundle>
   </feature>
 
@@ -34,6 +36,7 @@
   </feature>
 
   <feature name="instana-dropwizard-sensor" version="1.1.15">
+    <feature version="[1.2.31,2)">instana-java-sensor</feature>
     <bundle start-level="80">mvn:com.instana/sensor-dropwizard/1.1.15</bundle>
   </feature>
 
@@ -42,6 +45,7 @@
   </feature>
 
   <feature name="instana-elasticsearch-sensor" version="1.1.37">
+    <feature version="[1.2.45,2)">instana-java-sensor</feature>
     <bundle start-level="80">mvn:com.instana/sensor-elasticsearch/1.1.37</bundle>
   </feature>
 
@@ -50,6 +54,7 @@
   </feature>
 
   <feature name="instana-finagle-sensor" version="1.1.0">
+    <feature version="[1.2.45,2)">instana-java-sensor</feature>
     <bundle start-level="80">mvn:com.instana/sensor-finagle/1.1.0</bundle>
   </feature>
 
@@ -62,6 +67,7 @@
   </feature>
 
   <feature name="instana-glassfish-sensor" version="1.1.6">
+    <feature version="[1.2.25,2)">instana-java-sensor</feature>
     <bundle start-level="80">mvn:com.instana/sensor-glassfish/1.1.6</bundle>
   </feature>
 
@@ -74,6 +80,7 @@
   </feature>
 
   <feature name="instana-hadoop-yarn-sensor" version="1.1.1">
+    <feature version="[1.2.35,2)">instana-java-sensor</feature>
     <bundle start-level="80">mvn:com.instana/sensor-hadoop-yarn/1.1.1</bundle>
   </feature>
 
@@ -82,6 +89,7 @@
   </feature>
 
   <feature name="instana-hbase-sensor" version="1.1.0">
+    <feature version="[1.2.37,2)">instana-java-sensor</feature>
     <bundle start-level="80">mvn:com.instana/sensor-hbase/1.1.0</bundle>
   </feature>
 
@@ -98,26 +106,32 @@
   </feature>
 
   <feature name="instana-java-trace-sensor" version="1.2.190">
+    <feature version="[1.2.35,2)">instana-java-sensor</feature>
     <bundle start-level="90">mvn:com.instana/sensor-java-trace/1.2.190</bundle>
   </feature>
 
   <feature name="instana-jboss-as-sensor" version="1.1.16">
+    <feature version="[1.2.35,2)">instana-java-sensor</feature>
     <bundle start-level="80">mvn:com.instana/sensor-jboss-as/1.1.16</bundle>
   </feature>
 
   <feature name="instana-jboss-datagrid-sensor" version="1.1.8">
+    <feature version="[1.2.31,2)">instana-java-sensor</feature>
     <bundle start-level="80">mvn:com.instana/sensor-jboss-datagrid/1.1.8</bundle>
   </feature>
 
   <feature name="instana-jetty-sensor" version="1.1.8">
+    <feature version="[1.2.45,2)">instana-java-sensor</feature>
     <bundle start-level="80">mvn:com.instana/sensor-jetty/1.1.8</bundle>
   </feature>
 
   <feature name="instana-jira-sensor" version="1.1.11">
+    <feature version="[1.2.31,2)">instana-java-sensor</feature>
     <bundle start-level="80">mvn:com.instana/sensor-jira/1.1.11</bundle>
   </feature>
 
   <feature name="instana-kafka-sensor" version="1.1.24">
+    <feature version="[1.2.31,2)">instana-java-sensor</feature>
     <bundle start-level="80">mvn:com.instana/sensor-kafka/1.1.24</bundle>
   </feature>
 
@@ -130,6 +144,7 @@
   </feature>
 
   <feature name="instana-mariadb-sensor" version="1.1.21">
+    <bundle start-level="80">mvn:org.mariadb.jdbc/mariadb-java-client/1.5.5</bundle>
     <bundle start-level="80">mvn:com.instana/sensor-mariadb/1.1.21</bundle>
   </feature>
 
@@ -236,6 +251,7 @@
   </feature>
 
   <feature name="instana-solr-sensor" version="1.0.4">
+    <feature version="[1.2.31,2)">instana-java-sensor</feature>
     <bundle start-level="80">mvn:com.instana/sensor-solr/1.0.4</bundle>
   </feature>
 
@@ -245,14 +261,17 @@
   </feature>
 
   <feature name="instana-spark-application-sensor" version="1.1.1">
+    <feature version="[1.2.37,2)">instana-java-sensor</feature>
     <bundle start-level="80">mvn:com.instana/sensor-spark-application/1.1.1</bundle>
   </feature>
 
   <feature name="instana-springboot-sensor" version="1.1.25">
+    <feature version="[1.2.45,2)">instana-java-sensor</feature>
     <bundle start-level="80">mvn:com.instana/sensor-springboot/1.1.25</bundle>
   </feature>
 
   <feature name="instana-tomcat-sensor" version="1.1.28">
+    <feature version="[1.2.31,2)">instana-java-sensor</feature>
     <bundle start-level="80">mvn:com.instana/sensor-tomcat/1.1.28</bundle>
   </feature>
 
@@ -261,18 +280,22 @@
   </feature>
 
   <feature name="instana-weblogic-sensor" version="1.1.0">
+    <feature version="[1.2.37,2)">instana-java-sensor</feature>
     <bundle start-level="80">mvn:com.instana/sensor-weblogic/1.1.0</bundle>
   </feature>
 
   <feature name="instana-websphere-sensor" version="1.1.9">
+    <feature version="[1.2.31,2)">instana-java-sensor</feature>
     <bundle start-level="80">mvn:com.instana/sensor-websphere/1.1.9</bundle>
   </feature>
 
   <feature name="instana-websphere-liberty-sensor" version="1.1.0">
+    <feature version="[1.2.31,2)">instana-java-sensor</feature>
     <bundle start-level="80">mvn:com.instana/sensor-websphere-liberty/1.1.0</bundle>
   </feature>
 
   <feature name="instana-zookeeper-sensor" version="1.0.3">
+    <feature version="[1.2.31,2)">instana-java-sensor</feature>
     <bundle start-level="80">mvn:com.instana/sensor-zookeeper/1.0.3</bundle>
   </feature>
 </features>
