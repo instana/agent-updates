@@ -228,9 +228,9 @@
     <bundle start-level="90">mvn:com.instana/sensor-python-trace/1.2.1</bundle>
   </feature>
 
-  <feature name="instana-redis-sensor" version="1.1.20">
+  <feature name="instana-redis-sensor" version="1.1.21">
     <bundle start-level="80">mvn:redis.clients/jedis/2.7.2</bundle>
-    <bundle start-level="80">mvn:com.instana/sensor-redis/1.1.20</bundle>
+    <bundle start-level="80">mvn:com.instana/sensor-redis/1.1.21</bundle>
   </feature>
 
   <feature name="instana-rabbitmq-sensor" version="1.1.30">
