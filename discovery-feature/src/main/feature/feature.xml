@@ -161,8 +161,8 @@
     <bundle start-level="80">mvn:com.instana/discovery-php-fpm/1.1.44</bundle>
   </feature>
 
-  <feature name="instana-postgresql-discovery" version="1.0.17">
-    <bundle start-level="80">mvn:com.instana/discovery-postgresql/1.0.17</bundle>
+  <feature name="instana-postgresql-discovery" version="1.0.18">
+    <bundle start-level="80">mvn:com.instana/discovery-postgresql/1.0.18</bundle>
   </feature>
 
   <feature name="instana-process-discovery" version="1.1.23">
