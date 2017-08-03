@@ -97,8 +97,8 @@
     <bundle start-level="80">mvn:com.instana/sensor-hbase/1.1.0</bundle>
   </feature>
 
-  <feature name="instana-host-sensor" version="1.1.80">
-    <bundle start-level="80">mvn:com.instana/sensor-host/1.1.80</bundle>
+  <feature name="instana-host-sensor" version="1.1.82">
+    <bundle start-level="80">mvn:com.instana/sensor-host/1.1.82</bundle>
   </feature>
 
   <feature name="instana-httpd-sensor" version="1.1.73">
@@ -109,9 +109,9 @@
     <bundle start-level="80">mvn:com.instana/sensor-java/1.2.48</bundle>
   </feature>
 
-  <feature name="instana-java-trace-sensor" version="1.2.196">
+  <feature name="instana-java-trace-sensor" version="1.2.198">
     <feature version="[1.2.35,2)">instana-java-sensor</feature>
-    <bundle start-level="90">mvn:com.instana/sensor-java-trace/1.2.196</bundle>
+    <bundle start-level="90">mvn:com.instana/sensor-java-trace/1.2.198</bundle>
   </feature>
 
   <feature name="instana-jboss-as-sensor" version="1.1.17">
@@ -211,8 +211,8 @@
     <bundle start-level="80">mvn:com.instana/sensor-php-fpm/1.1.44</bundle>
   </feature>
 
-  <feature name="instana-php-sensor" version="1.0.48">
-    <bundle start-level="90">mvn:com.instana/sensor-php/1.0.48</bundle>
+  <feature name="instana-php-sensor" version="1.0.49">
+    <bundle start-level="90">mvn:com.instana/sensor-php/1.0.49</bundle>
   </feature>
 
   <feature name="instana-postgresql-sensor" version="1.0.18">
