@@ -23,8 +23,8 @@
     <bundle start-level="90">mvn:com.instana/sensor-clr-trace/1.1.5</bundle>
   </feature>
 
-  <feature name="instana-crystal-sensor" version="1.0.0">
-    <bundle start-level="80">mvn:com.instana/sensor-crystal/1.0.0</bundle>
+  <feature name="instana-crystal-sensor" version="1.0.1">
+    <bundle start-level="80">mvn:com.instana/sensor-crystal/1.0.1</bundle>
   </feature>
 
   <feature name="instana-crystal-trace-sensor" version="1.0.0">
@@ -71,8 +71,8 @@
     <bundle start-level="80">mvn:com.instana/sensor-glassfish/1.1.7</bundle>
   </feature>
 
-  <feature name="instana-golang-sensor" version="1.2.2">
-    <bundle start-level="80">mvn:com.instana/sensor-golang/1.2.2</bundle>
+  <feature name="instana-golang-sensor" version="1.2.3">
+    <bundle start-level="80">mvn:com.instana/sensor-golang/1.2.3</bundle>
   </feature>
 
   <feature name="instana-golang-trace-sensor" version="1.2.0">
@@ -101,8 +101,8 @@
     <bundle start-level="80">mvn:com.instana/sensor-host/1.1.82</bundle>
   </feature>
 
-  <feature name="instana-httpd-sensor" version="1.1.73">
-    <bundle start-level="80">mvn:com.instana/sensor-httpd/1.1.73</bundle>
+  <feature name="instana-httpd-sensor" version="1.1.74">
+    <bundle start-level="80">mvn:com.instana/sensor-httpd/1.1.74</bundle>
   </feature>
 
   <feature name="instana-java-sensor" version="1.2.48">
@@ -148,7 +148,7 @@
   </feature>
 
   <feature name="instana-mariadb-sensor" version="1.1.21">
-    <bundle start-level="80">mvn:org.mariadb.jdbc/mariadb-java-client/1.5.5</bundle>
+    <bundle start-level="80">mvn:org.mariadb.jdbc/mariadb-java-client/2.1.0</bundle>
     <bundle start-level="80">mvn:com.instana/sensor-mariadb/1.1.21</bundle>
   </feature>
 
@@ -163,7 +163,7 @@
   </feature>
 
   <feature name="instana-mysql-sensor" version="1.1.49">
-    <bundle start-level="80">mvn:org.mariadb.jdbc/mariadb-java-client/2.0.3</bundle>
+    <bundle start-level="80">mvn:org.mariadb.jdbc/mariadb-java-client/2.1.0</bundle>
     <bundle start-level="80">mvn:com.instana/sensor-mysql/1.1.49</bundle>
   </feature>
 
@@ -182,8 +182,8 @@
     <bundle start-level="80">mvn:com.instana/sensor-nginx/1.1.45</bundle>
   </feature>
 
-  <feature name="instana-nodejs-sensor" version="1.2.2">
-    <bundle start-level="80">mvn:com.instana/sensor-nodejs/1.2.2</bundle>
+  <feature name="instana-nodejs-sensor" version="1.2.3">
+    <bundle start-level="80">mvn:com.instana/sensor-nodejs/1.2.3</bundle>
   </feature>
 
   <feature name="instana-nodejs-trace-sensor" version="1.2.3">
@@ -207,8 +207,8 @@
     <bundle start-level="80">mvn:com.instana/sensor-oracledb/1.1.4</bundle>
   </feature>
 
-  <feature name="instana-php-fpm-sensor" version="1.1.44">
-    <bundle start-level="80">mvn:com.instana/sensor-php-fpm/1.1.44</bundle>
+  <feature name="instana-php-fpm-sensor" version="1.1.45">
+    <bundle start-level="80">mvn:com.instana/sensor-php-fpm/1.1.45</bundle>
   </feature>
 
   <feature name="instana-php-sensor" version="1.0.49">
@@ -224,8 +224,8 @@
     <bundle start-level="80">mvn:com.instana/sensor-process/1.1.23</bundle>
   </feature>
 
-  <feature name="instana-python-sensor" version="1.2.0">
-    <bundle start-level="80">mvn:com.instana/sensor-python/1.2.0</bundle>
+  <feature name="instana-python-sensor" version="1.2.1">
+    <bundle start-level="80">mvn:com.instana/sensor-python/1.2.1</bundle>
   </feature>
 
   <feature name="instana-python-trace-sensor" version="1.2.1">
@@ -241,8 +241,8 @@
     <bundle start-level="80">mvn:com.instana/sensor-rabbitmq/1.1.30</bundle>
   </feature>
 
-  <feature name="instana-ruby-sensor" version="1.2.2">
-    <bundle start-level="80">mvn:com.instana/sensor-ruby/1.2.2</bundle>
+  <feature name="instana-ruby-sensor" version="1.2.3">
+    <bundle start-level="80">mvn:com.instana/sensor-ruby/1.2.3</bundle>
   </feature>
 
   <feature name="instana-ruby-trace-sensor" version="1.2.0">
