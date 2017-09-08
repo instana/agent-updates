@@ -279,8 +279,8 @@
     <bundle start-level="80">mvn:com.instana/sensor-tomcat/1.1.28</bundle>
   </feature>
 
-  <feature name="instana-varnish-sensor" version="1.0.14">
-    <bundle start-level="80">mvn:com.instana/sensor-varnish/1.0.14</bundle>
+  <feature name="instana-varnish-sensor" version="1.0.15">
+    <bundle start-level="80">mvn:com.instana/sensor-varnish/1.0.15</bundle>
   </feature>
 
   <feature name="instana-weblogic-sensor" version="1.1.0">
