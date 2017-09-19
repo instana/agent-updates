@@ -237,8 +237,8 @@
     <bundle start-level="80">mvn:com.instana/sensor-redis/1.1.21</bundle>
   </feature>
 
-  <feature name="instana-rabbitmq-sensor" version="1.1.30">
-    <bundle start-level="80">mvn:com.instana/sensor-rabbitmq/1.1.30</bundle>
+  <feature name="instana-rabbitmq-sensor" version="1.1.31">
+    <bundle start-level="80">mvn:com.instana/sensor-rabbitmq/1.1.31</bundle>
   </feature>
 
   <feature name="instana-ruby-sensor" version="1.2.3">
