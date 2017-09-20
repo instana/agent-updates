@@ -206,6 +206,10 @@
     <bundle start-level="80">mvn:com.instana/sensor-msiis/1.1.6</bundle>
   </feature>
 
+  <feature name="instana-mule-sensor" version="1.0.0">
+    <bundle start-level="80">mvn:com.instana/sensor-mule/1.0.0</bundle>
+  </feature>
+
   <feature name="instana-mssql-sensor" version="1.1.13">
     <feature prerequisite="true">wrap</feature>
     <bundle start-level="80">mvn:com.instana/sensor-mssql/1.1.13</bundle>
