@@ -89,8 +89,8 @@
     <bundle start-level="80">mvn:com.instana/discovery-java/1.2.48</bundle>
   </feature>
 
-  <feature name="instana-jboss-as-discovery" version="1.1.20">
-    <bundle start-level="80">mvn:com.instana/discovery-jboss-as/1.1.20</bundle>
+  <feature name="instana-jboss-as-discovery" version="1.1.21">
+    <bundle start-level="80">mvn:com.instana/discovery-jboss-as/1.1.21</bundle>
   </feature>
 
   <feature name="instana-jboss-datagrid-discovery" version="1.1.9">
