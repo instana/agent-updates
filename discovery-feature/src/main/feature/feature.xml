@@ -17,6 +17,10 @@
     <bundle start-level="80">mvn:com.instana/discovery-cassandra/1.1.28</bundle>
   </feature>
 
+  <feature name="instana-clr-discovery" version="1.1.7">
+    <bundle start-level="80">mvn:com.instana/discovery-clr/1.1.7</bundle>
+  </feature>
+
   <feature name="instana-crystal-discovery" version="1.0.1">
     <bundle start-level="80">mvn:com.instana/discovery-crystal/1.0.1</bundle>
   </feature>
@@ -39,10 +43,6 @@
 
   <feature name="instana-etcd-discovery" version="1.0.10">
     <bundle start-level="80">mvn:com.instana/discovery-etcd/1.0.10</bundle>
-  </feature>
-
-  <feature name="instana-clr-discovery" version="1.1.6">
-    <bundle start-level="80">mvn:com.instana/discovery-clr/1.1.6</bundle>
   </feature>
 
   <feature name="instana-finagle-discovery" version="1.1.0">
