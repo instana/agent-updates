@@ -181,8 +181,8 @@
     <bundle start-level="80">mvn:com.instana/discovery-postgresql/1.0.19</bundle>
   </feature>
 
-  <feature name="instana-process-discovery" version="1.1.23">
-    <bundle start-level="80">mvn:com.instana/discovery-process/1.1.23</bundle>
+  <feature name="instana-process-discovery" version="1.1.24">
+    <bundle start-level="80">mvn:com.instana/discovery-process/1.1.24</bundle>
   </feature>
 
   <feature name="instana-python-discovery" version="1.2.2">
