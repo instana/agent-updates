@@ -50,8 +50,8 @@
     <bundle start-level="80">mvn:com.instana/sensor-cassandra/1.1.28</bundle>
   </feature>
 
-  <feature name="instana-clr-sensor" version="1.1.7">
-    <bundle start-level="80">mvn:com.instana/sensor-clr/1.1.7</bundle>
+  <feature name="instana-clr-sensor" version="1.1.8">
+    <bundle start-level="80">mvn:com.instana/sensor-clr/1.1.8</bundle>
   </feature>
 
   <feature name="instana-clr-trace-sensor" version="1.1.5">
