@@ -50,8 +50,8 @@
     <bundle start-level="80">mvn:com.instana/sensor-cassandra/1.1.28</bundle>
   </feature>
 
-  <feature name="instana-clr-sensor" version="1.1.7">
-    <bundle start-level="80">mvn:com.instana/sensor-clr/1.1.7</bundle>
+  <feature name="instana-clr-sensor" version="1.1.8">
+    <bundle start-level="80">mvn:com.instana/sensor-clr/1.1.8</bundle>
   </feature>
 
   <feature name="instana-clr-trace-sensor" version="1.1.5">
@@ -144,9 +144,9 @@
     <bundle start-level="80">mvn:com.instana/sensor-java/1.2.51</bundle>
   </feature>
 
-  <feature name="instana-java-trace-sensor" version="1.2.207">
+  <feature name="instana-java-trace-sensor" version="1.2.208">
     <feature version="[1.2.35,2)">instana-java-sensor</feature>
-    <bundle start-level="90">mvn:com.instana/sensor-java-trace/1.2.207</bundle>
+    <bundle start-level="90">mvn:com.instana/sensor-java-trace/1.2.208</bundle>
   </feature>
 
   <feature name="instana-jboss-as-sensor" version="1.1.22">
@@ -328,8 +328,8 @@
     <bundle start-level="80">mvn:com.instana/sensor-tomcat/1.1.28</bundle>
   </feature>
 
-  <feature name="instana-varnish-sensor" version="1.0.15">
-    <bundle start-level="80">mvn:com.instana/sensor-varnish/1.0.15</bundle>
+  <feature name="instana-varnish-sensor" version="1.0.16">
+    <bundle start-level="80">mvn:com.instana/sensor-varnish/1.0.16</bundle>
   </feature>
 
   <feature name="instana-weblogic-sensor" version="1.1.1">
