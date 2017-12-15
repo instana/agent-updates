@@ -149,9 +149,9 @@
     <bundle start-level="90">mvn:com.instana/sensor-java-trace/1.2.213</bundle>
   </feature>
 
-  <feature name="instana-jboss-as-sensor" version="1.1.22">
+  <feature name="instana-jboss-as-sensor" version="1.1.23">
     <feature version="[1.2.35,2)">instana-java-sensor</feature>
-    <bundle start-level="80">mvn:com.instana/sensor-jboss-as/1.1.22</bundle>
+    <bundle start-level="80">mvn:com.instana/sensor-jboss-as/1.1.23</bundle>
   </feature>
 
   <feature name="instana-jboss-datagrid-sensor" version="1.1.10">
@@ -174,14 +174,14 @@
     <bundle start-level="80">mvn:com.instana/sensor-kafka/1.1.25</bundle>
   </feature>
 
-  <feature name="instana-kubernetes-sensor" version="1.1.9">
+  <feature name="instana-kubernetes-sensor" version="1.1.12">
     <bundle start-level="80">wrap:mvn:com.squareup.okio/okio/1.13.0</bundle>
-    <bundle start-level="80">wrap:mvn:com.squareup.okhttp3/okhttp/3.8.1</bundle>
-    <bundle start-level="80">wrap:mvn:com.squareup.okhttp3/logging-interceptor/3.8.1</bundle>
+    <bundle start-level="80">wrap:mvn:com.squareup.okhttp3/okhttp/3.9.0</bundle>
+    <bundle start-level="80">wrap:mvn:com.squareup.okhttp3/logging-interceptor/3.9.0</bundle>
     <bundle start-level="80">mvn:javax.validation/validation-api/1.1.0.Final</bundle>
-    <bundle start-level="80">wrap:mvn:io.fabric8/kubernetes-model/1.1.2</bundle>
-    <bundle start-level="80">wrap:mvn:io.fabric8/kubernetes-client/2.6.1</bundle>
-    <bundle start-level="80">mvn:com.instana/sensor-kubernetes/1.1.9</bundle>
+    <bundle start-level="80">wrap:mvn:io.fabric8/kubernetes-model/2.0.4</bundle>
+    <bundle start-level="80">wrap:mvn:io.fabric8/kubernetes-client/3.1.2</bundle>
+    <bundle start-level="80">mvn:com.instana/sensor-kubernetes/1.1.12</bundle>
   </feature>
 
   <feature name="instana-liferay-sensor" version="1.0.0">
@@ -260,8 +260,8 @@
     <bundle start-level="80">mvn:com.instana/sensor-php-fpm/1.1.45</bundle>
   </feature>
 
-  <feature name="instana-php-sensor" version="1.0.64">
-    <bundle start-level="90">mvn:com.instana/sensor-php/1.0.64</bundle>
+  <feature name="instana-php-sensor" version="1.0.65">
+    <bundle start-level="90">mvn:com.instana/sensor-php/1.0.65</bundle>
   </feature>
 
   <feature name="instana-postgresql-sensor" version="1.0.20">
