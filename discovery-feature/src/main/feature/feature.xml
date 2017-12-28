@@ -237,8 +237,8 @@
     <bundle start-level="80">mvn:com.instana/discovery-websphere-liberty/1.1.0</bundle>
   </feature>
 
-  <feature name="instana-zookeeper-discovery" version="1.0.3">
-    <bundle start-level="80">mvn:com.instana/discovery-zookeeper/1.0.3</bundle>
+  <feature name="instana-zookeeper-discovery" version="1.0.4">
+    <bundle start-level="80">mvn:com.instana/discovery-zookeeper/1.0.4</bundle>
   </feature>
 
   <feature name="instana-weblogic-discovery" version="1.1.1">

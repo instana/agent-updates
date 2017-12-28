@@ -348,9 +348,9 @@
     <bundle start-level="80">mvn:com.instana/sensor-websphere-liberty/1.1.0</bundle>
   </feature>
 
-  <feature name="instana-zookeeper-sensor" version="1.0.3">
+  <feature name="instana-zookeeper-sensor" version="1.0.4">
     <feature version="[1.2.31,2)">instana-java-sensor</feature>
-    <bundle start-level="80">mvn:com.instana/sensor-zookeeper/1.0.3</bundle>
+    <bundle start-level="80">mvn:com.instana/sensor-zookeeper/1.0.4</bundle>
   </feature>
 
   <feature name="jta-spec" version="1.1.1">
