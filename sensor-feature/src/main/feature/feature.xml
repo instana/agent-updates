@@ -70,9 +70,9 @@
     <bundle start-level="80">mvn:com.instana/sensor-docker/1.1.45</bundle>
   </feature>
 
-  <feature name="instana-dropwizard-sensor" version="1.1.16">
+  <feature name="instana-dropwizard-sensor" version="1.1.17">
     <feature version="[1.2.31,2)">instana-java-sensor</feature>
-    <bundle start-level="80">mvn:com.instana/sensor-dropwizard/1.1.16</bundle>
+    <bundle start-level="80">mvn:com.instana/sensor-dropwizard/1.1.17</bundle>
   </feature>
 
   <feature name="instana-ec2-sensor" version="1.1.5">
