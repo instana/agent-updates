@@ -47,7 +47,7 @@
     <bundle start-level="50">mvn:com.instana/unix-socket-util/1.1.2</bundle>
   </feature>
 
-  <feature name="instana-agent" description="Instana Agent" version="1.1.399">
-    <bundle start-level="70">mvn:com.instana/agent/1.1.399</bundle>
+  <feature name="instana-agent" description="Instana Agent" version="1.1.400">
+    <bundle start-level="70">mvn:com.instana/agent/1.1.400</bundle>
   </feature>
 </features>
