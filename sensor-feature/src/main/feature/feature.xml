@@ -226,9 +226,9 @@
     <bundle start-level="80">wrap:mvn:com.microsoft.sqlserver/sqljdbc4/4.0$Bundle-SymbolicName=sqljdbc4&amp;Bundle-Version=4.0</bundle>
   </feature>
 
-  <feature name="instana-nginx-sensor" version="1.1.46">
+  <feature name="instana-nginx-sensor" version="1.1.47">
     <bundle start-level="80">mvn:org.antlr/antlr4-runtime/4.5.3</bundle>
-    <bundle start-level="80">mvn:com.instana/sensor-nginx/1.1.46</bundle>
+    <bundle start-level="80">mvn:com.instana/sensor-nginx/1.1.47</bundle>
   </feature>
 
   <feature name="instana-nodejs-sensor" version="1.2.3">
