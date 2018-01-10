@@ -123,8 +123,8 @@
     <bundle start-level="80">mvn:com.instana/sensor-hadoop-yarn-node/1.1.0</bundle>
   </feature>
 
-  <feature name="instana-haproxy-sensor" version="1.1.10">
-    <bundle start-level="80">mvn:com.instana/sensor-haproxy/1.1.10</bundle>
+  <feature name="instana-haproxy-sensor" version="1.1.11">
+    <bundle start-level="80">mvn:com.instana/sensor-haproxy/1.1.11</bundle>
   </feature>
 
   <feature name="instana-hbase-sensor" version="1.1.0">
@@ -132,8 +132,8 @@
     <bundle start-level="80">mvn:com.instana/sensor-hbase/1.1.0</bundle>
   </feature>
 
-  <feature name="instana-host-sensor" version="1.1.86">
-    <bundle start-level="80">mvn:com.instana/sensor-host/1.1.86</bundle>
+  <feature name="instana-host-sensor" version="1.1.87">
+    <bundle start-level="80">mvn:com.instana/sensor-host/1.1.87</bundle>
   </feature>
 
   <feature name="instana-httpd-sensor" version="1.1.76">
@@ -226,9 +226,9 @@
     <bundle start-level="80">wrap:mvn:com.microsoft.sqlserver/sqljdbc4/4.0$Bundle-SymbolicName=sqljdbc4&amp;Bundle-Version=4.0</bundle>
   </feature>
 
-  <feature name="instana-nginx-sensor" version="1.1.46">
+  <feature name="instana-nginx-sensor" version="1.1.47">
     <bundle start-level="80">mvn:org.antlr/antlr4-runtime/4.5.3</bundle>
-    <bundle start-level="80">mvn:com.instana/sensor-nginx/1.1.46</bundle>
+    <bundle start-level="80">mvn:com.instana/sensor-nginx/1.1.47</bundle>
   </feature>
 
   <feature name="instana-nodejs-sensor" version="1.2.3">
@@ -260,8 +260,8 @@
     <bundle start-level="80">mvn:com.instana/sensor-php-fpm/1.1.45</bundle>
   </feature>
 
-  <feature name="instana-php-sensor" version="1.0.66">
-    <bundle start-level="90">mvn:com.instana/sensor-php/1.0.66</bundle>
+  <feature name="instana-php-sensor" version="1.0.67">
+    <bundle start-level="90">mvn:com.instana/sensor-php/1.0.67</bundle>
   </feature>
 
   <feature name="instana-postgresql-sensor" version="1.0.20">
@@ -274,8 +274,8 @@
     <bundle start-level="80">mvn:com.instana/sensor-process/1.1.25</bundle>
   </feature>
 
-  <feature name="instana-python-sensor" version="1.2.2">
-    <bundle start-level="80">mvn:com.instana/sensor-python/1.2.2</bundle>
+  <feature name="instana-python-sensor" version="1.2.3">
+    <bundle start-level="80">mvn:com.instana/sensor-python/1.2.3</bundle>
   </feature>
 
   <feature name="instana-python-trace-sensor" version="1.2.1">
@@ -291,8 +291,8 @@
     <bundle start-level="80">mvn:com.instana/sensor-rabbitmq/1.1.31</bundle>
   </feature>
 
-  <feature name="instana-ruby-sensor" version="1.2.3">
-    <bundle start-level="80">mvn:com.instana/sensor-ruby/1.2.3</bundle>
+  <feature name="instana-ruby-sensor" version="1.2.4">
+    <bundle start-level="80">mvn:com.instana/sensor-ruby/1.2.4</bundle>
   </feature>
 
   <feature name="instana-ruby-trace-sensor" version="1.2.0">
@@ -314,9 +314,9 @@
     <bundle start-level="80">mvn:com.instana/sensor-statsd/1.1.4</bundle>
   </feature>
 
-  <feature name="instana-spark-application-sensor" version="1.1.1">
+  <feature name="instana-spark-application-sensor" version="1.1.2">
     <feature version="[1.2.37,2)">instana-java-sensor</feature>
-    <bundle start-level="80">mvn:com.instana/sensor-spark-application/1.1.1</bundle>
+    <bundle start-level="80">mvn:com.instana/sensor-spark-application/1.1.2</bundle>
   </feature>
 
   <feature name="instana-springboot-sensor" version="1.1.25">
