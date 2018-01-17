@@ -173,8 +173,8 @@
     <bundle start-level="80">mvn:com.instana/discovery-php-cgi/1.0.0</bundle>
   </feature>
 
-  <feature name="instana-php-fpm-discovery" version="1.1.46">
-    <bundle start-level="80">mvn:com.instana/discovery-php-fpm/1.1.46</bundle>
+  <feature name="instana-php-fpm-discovery" version="1.1.47">
+    <bundle start-level="80">mvn:com.instana/discovery-php-fpm/1.1.47</bundle>
   </feature>
 
   <feature name="instana-postgresql-discovery" version="1.0.20">
