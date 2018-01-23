@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
 <features name="${project.artifactId}-${project.version}" xmlns="http://karaf.apache.org/xmlns/features/v1.3.0" >
 
-  <feature name="instana-activemq-sensor" version="1.1.5">
+  <feature name="instana-activemq-sensor" version="1.1.6">
     <feature version="[1.2.45,2)">instana-java-sensor</feature>
-    <bundle start-level="80">mvn:com.instana/sensor-activemq/1.1.5</bundle>
+    <bundle start-level="80">mvn:com.instana/sensor-activemq/1.1.6</bundle>
   </feature>
 
   <feature name="instana-azure-sensor" version="1.1.4">
@@ -48,6 +48,10 @@
   <feature name="instana-cassandra-sensor" version="1.1.28">
     <feature version="[1.2.31,2)">instana-java-sensor</feature>
     <bundle start-level="80">mvn:com.instana/sensor-cassandra/1.1.28</bundle>
+  </feature>
+
+  <feature name="instana-clickhouse-sensor" version="1.0.0">
+    <bundle start-level="80">mvn:com.instana/sensor-clickhouse/1.0.0</bundle>
   </feature>
 
   <feature name="instana-clr-sensor" version="1.1.8">
@@ -132,8 +136,8 @@
     <bundle start-level="80">mvn:com.instana/sensor-hbase/1.1.0</bundle>
   </feature>
 
-  <feature name="instana-host-sensor" version="1.1.87">
-    <bundle start-level="80">mvn:com.instana/sensor-host/1.1.87</bundle>
+  <feature name="instana-host-sensor" version="1.1.88">
+    <bundle start-level="80">mvn:com.instana/sensor-host/1.1.88</bundle>
   </feature>
 
   <feature name="instana-httpd-sensor" version="1.1.77">
@@ -220,9 +224,9 @@
     <bundle start-level="80">mvn:com.instana/sensor-mule/1.0.2</bundle>
   </feature>
 
-  <feature name="instana-mssql-sensor" version="1.1.13">
+  <feature name="instana-mssql-sensor" version="1.1.14">
     <feature prerequisite="true">wrap</feature>
-    <bundle start-level="80">mvn:com.instana/sensor-mssql/1.1.13</bundle>
+    <bundle start-level="80">mvn:com.instana/sensor-mssql/1.1.14</bundle>
     <bundle start-level="80">wrap:mvn:com.microsoft.sqlserver/sqljdbc4/4.0$Bundle-SymbolicName=sqljdbc4&amp;Bundle-Version=4.0</bundle>
   </feature>
 
