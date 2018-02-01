@@ -55,8 +55,8 @@
     <bundle start-level="80">mvn:com.instana/sensor-cassandra/1.1.28</bundle>
   </feature>
 
-  <feature name="instana-clickhouse-sensor" version="1.0.0">
-    <bundle start-level="80">mvn:com.instana/sensor-clickhouse/1.0.0</bundle>
+  <feature name="instana-clickhouse-sensor" version="1.0.1">
+    <bundle start-level="80">mvn:com.instana/sensor-clickhouse/1.0.1</bundle>
   </feature>
 
   <feature name="instana-clr-sensor" version="1.1.8">
@@ -141,8 +141,8 @@
     <bundle start-level="80">mvn:com.instana/sensor-hbase/1.1.0</bundle>
   </feature>
 
-  <feature name="instana-host-sensor" version="1.1.90">
-    <bundle start-level="80">mvn:com.instana/sensor-host/1.1.90</bundle>
+  <feature name="instana-host-sensor" version="1.1.91">
+    <bundle start-level="80">mvn:com.instana/sensor-host/1.1.91</bundle>
   </feature>
 
   <feature name="instana-httpd-sensor" version="1.1.77">
