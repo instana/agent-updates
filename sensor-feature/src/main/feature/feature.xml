@@ -102,8 +102,8 @@
     <bundle start-level="80">mvn:com.instana/sensor-finagle/1.1.0</bundle>
   </feature>
 
-  <feature name="instana-gce-sensor" version="1.1.6">
-    <bundle start-level="80">mvn:com.instana/sensor-gce/1.1.6</bundle>
+  <feature name="instana-gce-sensor" version="1.1.7">
+    <bundle start-level="80">mvn:com.instana/sensor-gce/1.1.7</bundle>
   </feature>
 
   <feature name="instana-generic-hardware-sensor" version="1.1.6">
