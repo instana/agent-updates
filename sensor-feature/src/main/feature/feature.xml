@@ -145,8 +145,8 @@
     <bundle start-level="80">mvn:com.instana/sensor-host/1.1.91</bundle>
   </feature>
 
-  <feature name="instana-httpd-sensor" version="1.1.77">
-    <bundle start-level="80">mvn:com.instana/sensor-httpd/1.1.77</bundle>
+  <feature name="instana-httpd-sensor" version="1.1.78">
+    <bundle start-level="80">mvn:com.instana/sensor-httpd/1.1.78</bundle>
   </feature>
 
   <feature name="instana-java-sensor" version="1.2.56">
@@ -216,9 +216,9 @@
     <bundle start-level="80">mvn:com.instana/sensor-mongodb/1.1.24</bundle>
   </feature>
 
-  <feature name="instana-mysql-sensor" version="1.1.50">
+  <feature name="instana-mysql-sensor" version="1.1.51">
     <bundle start-level="80">mvn:org.mariadb.jdbc/mariadb-java-client/2.1.0</bundle>
-    <bundle start-level="80">mvn:com.instana/sensor-mysql/1.1.50</bundle>
+    <bundle start-level="80">mvn:com.instana/sensor-mysql/1.1.51</bundle>
   </feature>
 
   <feature name="instana-msiis-sensor" version="1.1.6">
@@ -269,8 +269,8 @@
     <bundle start-level="80">mvn:com.instana/sensor-php-fpm/1.1.47</bundle>
   </feature>
 
-  <feature name="instana-php-sensor" version="1.0.68">
-    <bundle start-level="90">mvn:com.instana/sensor-php/1.0.68</bundle>
+  <feature name="instana-php-sensor" version="1.0.69">
+    <bundle start-level="90">mvn:com.instana/sensor-php/1.0.69</bundle>
   </feature>
 
   <feature name="instana-postgresql-sensor" version="1.0.21">
