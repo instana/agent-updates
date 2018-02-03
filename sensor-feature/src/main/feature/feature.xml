@@ -6,8 +6,8 @@
     <bundle start-level="80">mvn:com.instana/sensor-activemq/1.1.6</bundle>
   </feature>
 
-  <feature name="instana-azure-sensor" version="1.1.4">
-    <bundle start-level="80">mvn:com.instana/sensor-azure/1.1.4</bundle>
+  <feature name="instana-azure-sensor" version="1.1.5">
+    <bundle start-level="80">mvn:com.instana/sensor-azure/1.1.5</bundle>
   </feature>
 
   <feature name="instana-aws-sdk" version="1.11.268">
