@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
-<features name="${project.artifactId}-${project.version}" xmlns="http://karaf.apache.org/xmlns/features/v1.3.0" >
+<features name="${project.artifactId}-${project.version}" xmlns="http://karaf.apache.org/xmlns/features/v1.3.0">
 
   <feature name="instana-activemq-sensor" version="1.1.7">
     <feature version="[1.2.45,2)">instana-java-sensor</feature>
@@ -132,8 +132,8 @@
     <bundle start-level="80">mvn:com.instana/sensor-hadoop-yarn-node/1.1.0</bundle>
   </feature>
 
-  <feature name="instana-haproxy-sensor" version="1.1.11">
-    <bundle start-level="80">mvn:com.instana/sensor-haproxy/1.1.11</bundle>
+  <feature name="instana-haproxy-sensor" version="1.1.12">
+    <bundle start-level="80">mvn:com.instana/sensor-haproxy/1.1.12</bundle>
   </feature>
 
   <feature name="instana-hbase-sensor" version="1.1.0">
@@ -275,6 +275,7 @@
 
   <feature name="instana-postgresql-sensor" version="1.0.21">
     <feature version="[1.1,2)">jta-spec</feature>
+    <bundle start-level="80">wrap:mvn:com.bluemedora.postgresql/postgresql/1.0.0$Bundle-SymbolicName=postgresql&amp;Bundle-Version=1.0.0</bundle>
     <bundle start-level="80">mvn:org.postgresql/postgresql/42.1.4</bundle>
     <bundle start-level="80">mvn:com.instana/sensor-postgresql/1.0.21</bundle>
   </feature>
