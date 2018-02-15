@@ -280,7 +280,6 @@
 
   <feature name="instana-postgresql-sensor" version="1.0.21">
     <feature version="[1.1,2)">jta-spec</feature>
-    <bundle start-level="80">wrap:mvn:com.bluemedora.postgresql/postgresql/1.0.0$Bundle-SymbolicName=postgresql&amp;Bundle-Version=1.0.0</bundle>
     <bundle start-level="80">mvn:org.postgresql/postgresql/42.1.4</bundle>
     <bundle start-level="80">mvn:com.instana/sensor-postgresql/1.0.21</bundle>
   </feature>
