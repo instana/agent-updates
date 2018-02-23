@@ -161,8 +161,8 @@
     <bundle start-level="80">mvn:com.instana/discovery-nodejs/1.2.3</bundle>
   </feature>
 
-  <feature name="instana-nomad-discovery" version="1.0.0">
-    <bundle start-level="80">mvn:com.instana/discovery-nomad/1.0.0</bundle>
+  <feature name="instana-nomad-discovery" version="1.0.1">
+    <bundle start-level="80">mvn:com.instana/discovery-nomad/1.0.1</bundle>
   </feature>
 
   <feature name="instana-openstack-nova-discovery" version="1.1.4">
