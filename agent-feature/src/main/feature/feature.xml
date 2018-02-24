@@ -10,13 +10,13 @@
     <bundle start-level="50">mvn:org.apache.commons/commons-pool2/2.5.0</bundle>
   </feature>
 
-  <feature name="instana-jackson" description="Shared Jackson JSON Util" version="2.8.8.1">
-    <bundle start-level="50">mvn:com.fasterxml.jackson.core/jackson-core/2.8.8</bundle>
-    <bundle start-level="50">mvn:com.fasterxml.jackson.core/jackson-databind/2.8.8.1</bundle>
-    <bundle start-level="50">mvn:com.fasterxml.jackson.core/jackson-annotations/2.8.8</bundle>
+  <feature name="instana-jackson" description="Shared Jackson JSON Util" version="2.9.4">
+    <bundle start-level="50">mvn:com.fasterxml.jackson.core/jackson-core/2.9.4</bundle>
+    <bundle start-level="50">mvn:com.fasterxml.jackson.core/jackson-databind/2.9.4</bundle>
+    <bundle start-level="50">mvn:com.fasterxml.jackson.core/jackson-annotations/2.9.4</bundle>
     <!-- dependency for dataformat yaml -->
-    <bundle start-level="50">mvn:org.yaml/snakeyaml/1.17</bundle>
-    <bundle start-level="50">mvn:com.fasterxml.jackson.dataformat/jackson-dataformat-yaml/2.8.8</bundle>
+    <bundle start-level="50">mvn:org.yaml/snakeyaml/1.18</bundle>
+    <bundle start-level="50">mvn:com.fasterxml.jackson.dataformat/jackson-dataformat-yaml/2.9.4</bundle>
   </feature>
 
   <feature name="instana-netty" description="Shared Netty" version="4.1.21.Final">
