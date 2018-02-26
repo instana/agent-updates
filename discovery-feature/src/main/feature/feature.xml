@@ -89,8 +89,8 @@
     <bundle start-level="80">mvn:com.instana/discovery-host/1.1.92</bundle>
   </feature>
 
-  <feature name="instana-httpd-discovery" version="1.1.79">
-    <bundle start-level="80">mvn:com.instana/discovery-httpd/1.1.79</bundle>
+  <feature name="instana-httpd-discovery" version="1.1.80">
+    <bundle start-level="80">mvn:com.instana/discovery-httpd/1.1.80</bundle>
   </feature>
 
   <feature name="instana-java-discovery" version="1.2.57">
@@ -117,8 +117,8 @@
     <bundle start-level="80">mvn:com.instana/discovery-kafka/1.1.25</bundle>
   </feature>
 
-  <feature name="instana-kubernetes-discovery" version="1.1.14">
-    <bundle start-level="80">mvn:com.instana/discovery-kubernetes/1.1.14</bundle>
+  <feature name="instana-kubernetes-discovery" version="1.1.15">
+    <bundle start-level="80">mvn:com.instana/discovery-kubernetes/1.1.15</bundle>
   </feature>
 
   <feature name="instana-liferay-discovery" version="1.0.0">
@@ -161,8 +161,8 @@
     <bundle start-level="80">mvn:com.instana/discovery-nodejs/1.2.3</bundle>
   </feature>
 
-  <feature name="instana-nomad-discovery" version="1.0.1">
-    <bundle start-level="80">mvn:com.instana/discovery-nomad/1.0.1</bundle>
+  <feature name="instana-nomad-discovery" version="1.0.2">
+    <bundle start-level="80">mvn:com.instana/discovery-nomad/1.0.2</bundle>
   </feature>
 
   <feature name="instana-openstack-nova-discovery" version="1.1.4">
