@@ -216,9 +216,9 @@
     <bundle start-level="80">mvn:com.instana/sensor-memcached/1.0.14</bundle>
   </feature>
 
-  <feature name="instana-mongodb-sensor" version="1.1.24">
+  <feature name="instana-mongodb-sensor" version="1.1.25">
     <bundle start-level="80">mvn:org.mongodb/mongo-java-driver/3.4.1</bundle>
-    <bundle start-level="80">mvn:com.instana/sensor-mongodb/1.1.24</bundle>
+    <bundle start-level="80">mvn:com.instana/sensor-mongodb/1.1.25</bundle>
   </feature>
 
   <feature name="instana-mysql-sensor" version="1.1.51">
@@ -278,8 +278,8 @@
     <bundle start-level="80">mvn:com.instana/sensor-php-fpm/1.1.47</bundle>
   </feature>
 
-  <feature name="instana-php-sensor" version="1.0.73">
-    <bundle start-level="90">mvn:com.instana/sensor-php/1.0.73</bundle>
+  <feature name="instana-php-sensor" version="1.0.74">
+    <bundle start-level="90">mvn:com.instana/sensor-php/1.0.74</bundle>
   </feature>
 
   <feature name="instana-postgresql-sensor" version="1.0.21">
