@@ -41,8 +41,8 @@
     <bundle start-level="80">mvn:com.instana/discovery-ec2/1.1.6</bundle>
   </feature>
 
-  <feature name="instana-elasticsearch-discovery" version="1.1.42">
-    <bundle start-level="80">mvn:com.instana/discovery-elasticsearch/1.1.42</bundle>
+  <feature name="instana-elasticsearch-discovery" version="1.1.43">
+    <bundle start-level="80">mvn:com.instana/discovery-elasticsearch/1.1.43</bundle>
   </feature>
 
   <feature name="instana-etcd-discovery" version="1.0.11">
@@ -117,8 +117,8 @@
     <bundle start-level="80">mvn:com.instana/discovery-kafka/1.1.25</bundle>
   </feature>
 
-  <feature name="instana-kubernetes-discovery" version="1.1.16">
-    <bundle start-level="80">mvn:com.instana/discovery-kubernetes/1.1.16</bundle>
+  <feature name="instana-kubernetes-discovery" version="1.1.17">
+    <bundle start-level="80">mvn:com.instana/discovery-kubernetes/1.1.17</bundle>
   </feature>
 
   <feature name="instana-liferay-discovery" version="1.0.0">
@@ -185,8 +185,8 @@
     <bundle start-level="80">mvn:com.instana/discovery-php-fpm/1.1.48</bundle>
   </feature>
 
-  <feature name="instana-postgresql-discovery" version="1.0.21">
-    <bundle start-level="80">mvn:com.instana/discovery-postgresql/1.0.21</bundle>
+  <feature name="instana-postgresql-discovery" version="1.0.22">
+    <bundle start-level="80">mvn:com.instana/discovery-postgresql/1.0.22</bundle>
   </feature>
 
   <feature name="instana-process-discovery" version="1.1.25">
