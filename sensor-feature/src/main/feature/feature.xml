@@ -226,9 +226,9 @@
     <bundle start-level="80">mvn:com.instana/sensor-mongodb/1.1.25</bundle>
   </feature>
 
-  <feature name="instana-mysql-sensor" version="1.1.51">
+  <feature name="instana-mysql-sensor" version="1.1.52">
     <bundle start-level="80">mvn:org.mariadb.jdbc/mariadb-java-client/2.1.0</bundle>
-    <bundle start-level="80">mvn:com.instana/sensor-mysql/1.1.51</bundle>
+    <bundle start-level="80">mvn:com.instana/sensor-mysql/1.1.52</bundle>
   </feature>
 
   <feature name="instana-msiis-sensor" version="1.1.6">
