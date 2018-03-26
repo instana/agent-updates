@@ -142,8 +142,8 @@
     <bundle start-level="80">mvn:com.instana/sensor-hadoop-yarn-node/1.1.0</bundle>
   </feature>
 
-  <feature name="instana-haproxy-sensor" version="1.1.12">
-    <bundle start-level="80">mvn:com.instana/sensor-haproxy/1.1.12</bundle>
+  <feature name="instana-haproxy-sensor" version="1.1.13">
+    <bundle start-level="80">mvn:com.instana/sensor-haproxy/1.1.13</bundle>
   </feature>
 
   <feature name="instana-hbase-sensor" version="1.1.0">
@@ -168,9 +168,9 @@
     <bundle start-level="90">mvn:com.instana/sensor-java-trace/1.2.228</bundle>
   </feature>
 
-  <feature name="instana-jboss-as-sensor" version="1.1.23">
-    <feature version="[1.2.35,2)">instana-java-sensor</feature>
-    <bundle start-level="80">mvn:com.instana/sensor-jboss-as/1.1.23</bundle>
+  <feature name="instana-jboss-as-sensor" version="1.1.24">
+    <feature version="[1.2.58,2)">instana-java-sensor</feature>
+    <bundle start-level="80">mvn:com.instana/sensor-jboss-as/1.1.24</bundle>
   </feature>
 
   <feature name="instana-jboss-datagrid-sensor" version="1.1.10">
