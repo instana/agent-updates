@@ -82,6 +82,10 @@
     <bundle start-level="90">mvn:com.instana/sensor-clr-trace/1.1.5</bundle>
   </feature>
 
+  <feature name="instana-couchbase-sensor" version="1.0.0">
+    <bundle start-level="80">mvn:com.instana/sensor-couchbase/1.0.0</bundle>
+  </feature>
+
   <feature name="instana-crystal-sensor" version="1.0.2">
     <bundle start-level="80">mvn:com.instana/sensor-crystal/1.0.2</bundle>
   </feature>
@@ -147,8 +151,8 @@
     <bundle start-level="80">mvn:com.instana/sensor-hadoop-yarn-node/1.1.0</bundle>
   </feature>
 
-  <feature name="instana-haproxy-sensor" version="1.1.13">
-    <bundle start-level="80">mvn:com.instana/sensor-haproxy/1.1.13</bundle>
+  <feature name="instana-haproxy-sensor" version="1.1.14">
+    <bundle start-level="80">mvn:com.instana/sensor-haproxy/1.1.14</bundle>
   </feature>
 
   <feature name="instana-hbase-sensor" version="1.1.0">
