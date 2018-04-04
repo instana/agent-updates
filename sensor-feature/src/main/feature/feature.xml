@@ -151,8 +151,8 @@
     <bundle start-level="80">mvn:com.instana/sensor-hadoop-yarn-node/1.1.0</bundle>
   </feature>
 
-  <feature name="instana-haproxy-sensor" version="1.1.13">
-    <bundle start-level="80">mvn:com.instana/sensor-haproxy/1.1.13</bundle>
+  <feature name="instana-haproxy-sensor" version="1.1.14">
+    <bundle start-level="80">mvn:com.instana/sensor-haproxy/1.1.14</bundle>
   </feature>
 
   <feature name="instana-hbase-sensor" version="1.1.0">
