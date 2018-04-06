@@ -70,8 +70,8 @@
     <bundle start-level="80">mvn:com.instana/sensor-cassandra/1.1.28</bundle>
   </feature>
 
-  <feature name="instana-clickhouse-sensor" version="1.0.1">
-    <bundle start-level="80">mvn:com.instana/sensor-clickhouse/1.0.1</bundle>
+  <feature name="instana-clickhouse-sensor" version="1.0.2">
+    <bundle start-level="80">mvn:com.instana/sensor-clickhouse/1.0.2</bundle>
   </feature>
 
   <feature name="instana-clr-sensor" version="1.1.9">
