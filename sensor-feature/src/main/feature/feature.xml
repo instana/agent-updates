@@ -70,8 +70,8 @@
     <bundle start-level="80">mvn:com.instana/sensor-cassandra/1.1.28</bundle>
   </feature>
 
-  <feature name="instana-clickhouse-sensor" version="1.0.1">
-    <bundle start-level="80">mvn:com.instana/sensor-clickhouse/1.0.1</bundle>
+  <feature name="instana-clickhouse-sensor" version="1.0.2">
+    <bundle start-level="80">mvn:com.instana/sensor-clickhouse/1.0.2</bundle>
   </feature>
 
   <feature name="instana-clr-sensor" version="1.1.9">
@@ -94,8 +94,8 @@
     <bundle start-level="90">mvn:com.instana/sensor-crystal-trace/1.0.1</bundle>
   </feature>
 
-  <feature name="instana-docker-sensor" version="1.1.47">
-    <bundle start-level="80">mvn:com.instana/sensor-docker/1.1.47</bundle>
+  <feature name="instana-docker-sensor" version="1.1.48">
+    <bundle start-level="80">mvn:com.instana/sensor-docker/1.1.48</bundle>
   </feature>
 
   <feature name="instana-dropwizard-sensor" version="1.1.17">
@@ -173,13 +173,13 @@
     <bundle start-level="80">mvn:com.instana/sensor-httpd/1.1.81</bundle>
   </feature>
 
-  <feature name="instana-java-sensor" version="1.2.58">
-    <bundle start-level="80">mvn:com.instana/sensor-java/1.2.58</bundle>
+  <feature name="instana-java-sensor" version="1.2.59">
+    <bundle start-level="80">mvn:com.instana/sensor-java/1.2.59</bundle>
   </feature>
 
-  <feature name="instana-java-trace-sensor" version="1.2.230">
+  <feature name="instana-java-trace-sensor" version="1.2.231">
     <feature version="[1.2.35,2)">instana-java-sensor</feature>
-    <bundle start-level="90">mvn:com.instana/sensor-java-trace/1.2.230</bundle>
+    <bundle start-level="90">mvn:com.instana/sensor-java-trace/1.2.231</bundle>
   </feature>
 
   <feature name="instana-jboss-as-sensor" version="1.1.24">
