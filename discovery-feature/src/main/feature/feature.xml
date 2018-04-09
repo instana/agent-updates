@@ -17,6 +17,10 @@
     <bundle start-level="80">mvn:com.instana/discovery-cassandra/1.1.28</bundle>
   </feature>
 
+  <feature name="instana-consul-discovery" version="1.0.0">
+    <bundle start-level="80">mvn:com.instana/discovery-consul/1.0.0</bundle>
+  </feature>
+
   <feature name="instana-clickhouse-discovery" version="1.0.2">
     <bundle start-level="80">mvn:com.instana/discovery-clickhouse/1.0.2</bundle>
   </feature>
