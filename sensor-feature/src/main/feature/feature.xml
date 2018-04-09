@@ -82,6 +82,10 @@
     <bundle start-level="90">mvn:com.instana/sensor-clr-trace/1.1.5</bundle>
   </feature>
 
+  <feature name="instana-consul-sensor" version="1.0.0">
+    <bundle start-level="90">mvn:com.instana/sensor-consul/1.0.0</bundle>
+  </feature>
+
   <feature name="instana-couchbase-sensor" version="1.0.1">
     <bundle start-level="80">mvn:com.instana/sensor-couchbase/1.0.1</bundle>
   </feature>
@@ -116,8 +120,8 @@
     <bundle start-level="80">mvn:com.instana/sensor-etcd/1.0.11</bundle>
   </feature>
 
-  <feature name="instana-f5-sensor" version="1.0.0">
-    <bundle start-level="80">mvn:com.instana/sensor-f5/1.0.0</bundle>
+  <feature name="instana-f5-sensor" version="1.0.1">
+    <bundle start-level="80">mvn:com.instana/sensor-f5/1.0.1</bundle>
     <bundle start-level="80">wrap:mvn:org.snmp4j/snmp4j/2.6.0</bundle>
   </feature>
 
@@ -240,9 +244,9 @@
     <bundle start-level="80">mvn:com.instana/sensor-mongodb/1.1.25</bundle>
   </feature>
 
-  <feature name="instana-mysql-sensor" version="1.1.52">
+  <feature name="instana-mysql-sensor" version="1.1.53">
     <bundle start-level="80">mvn:org.mariadb.jdbc/mariadb-java-client/2.1.0</bundle>
-    <bundle start-level="80">mvn:com.instana/sensor-mysql/1.1.52</bundle>
+    <bundle start-level="80">mvn:com.instana/sensor-mysql/1.1.53</bundle>
   </feature>
 
   <feature name="instana-msiis-sensor" version="1.1.6">

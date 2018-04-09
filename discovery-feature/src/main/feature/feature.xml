@@ -17,6 +17,10 @@
     <bundle start-level="80">mvn:com.instana/discovery-cassandra/1.1.28</bundle>
   </feature>
 
+  <feature name="instana-consul-discovery" version="1.0.0">
+    <bundle start-level="80">mvn:com.instana/discovery-consul/1.0.0</bundle>
+  </feature>
+
   <feature name="instana-clickhouse-discovery" version="1.0.2">
     <bundle start-level="80">mvn:com.instana/discovery-clickhouse/1.0.2</bundle>
   </feature>
@@ -53,8 +57,8 @@
     <bundle start-level="80">mvn:com.instana/discovery-etcd/1.0.11</bundle>
   </feature>
 
-  <feature name="instana-f5-discovery" version="1.0.0">
-    <bundle start-level="80">mvn:com.instana/discovery-f5/1.0.0</bundle>
+  <feature name="instana-f5-discovery" version="1.0.1">
+    <bundle start-level="80">mvn:com.instana/discovery-f5/1.0.1</bundle>
   </feature>
 
   <feature name="instana-finagle-discovery" version="1.1.0">
@@ -145,8 +149,8 @@
     <bundle start-level="80">mvn:com.instana/discovery-mongodb/1.1.25</bundle>
   </feature>
 
-  <feature name="instana-mysql-discovery" version="1.1.52">
-    <bundle start-level="80">mvn:com.instana/discovery-mysql/1.1.52</bundle>
+  <feature name="instana-mysql-discovery" version="1.1.53">
+    <bundle start-level="80">mvn:com.instana/discovery-mysql/1.1.53</bundle>
   </feature>
 
   <feature name="instana-msiis-discovery" version="1.1.6">
