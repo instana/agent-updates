@@ -17,8 +17,8 @@
     <bundle start-level="80">mvn:com.instana/discovery-cassandra/1.1.28</bundle>
   </feature>
 
-  <feature name="instana-consul-discovery" version="1.0.0">
-    <bundle start-level="80">mvn:com.instana/discovery-consul/1.0.0</bundle>
+  <feature name="instana-consul-discovery" version="1.0.1">
+    <bundle start-level="80">mvn:com.instana/discovery-consul/1.0.1</bundle>
   </feature>
 
   <feature name="instana-clickhouse-discovery" version="1.0.2">
@@ -161,8 +161,8 @@
     <bundle start-level="80">mvn:com.instana/discovery-mule/1.0.2</bundle>
   </feature>
 
-  <feature name="instana-mssql-discovery" version="1.1.15">
-    <bundle start-level="80">mvn:com.instana/discovery-mssql/1.1.15</bundle>
+  <feature name="instana-mssql-discovery" version="1.1.16">
+    <bundle start-level="80">mvn:com.instana/discovery-mssql/1.1.16</bundle>
   </feature>
 
   <feature name="instana-nginx-discovery" version="1.1.48">
@@ -193,8 +193,8 @@
     <bundle start-level="80">mvn:com.instana/discovery-php-cgi/1.0.0</bundle>
   </feature>
 
-  <feature name="instana-php-fpm-discovery" version="1.1.48">
-    <bundle start-level="80">mvn:com.instana/discovery-php-fpm/1.1.48</bundle>
+  <feature name="instana-php-fpm-discovery" version="1.1.49">
+    <bundle start-level="80">mvn:com.instana/discovery-php-fpm/1.1.49</bundle>
   </feature>
 
   <feature name="instana-postgresql-discovery" version="1.0.23">
