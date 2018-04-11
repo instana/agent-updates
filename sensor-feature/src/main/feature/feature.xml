@@ -311,8 +311,8 @@
     <bundle start-level="80">mvn:com.instana/sensor-postgresql/1.0.23</bundle>
   </feature>
 
-  <feature name="instana-process-sensor" version="1.1.25">
-    <bundle start-level="80">mvn:com.instana/sensor-process/1.1.25</bundle>
+  <feature name="instana-process-sensor" version="1.1.26">
+    <bundle start-level="80">mvn:com.instana/sensor-process/1.1.26</bundle>
   </feature>
 
   <feature name="instana-python-sensor" version="1.2.4">
