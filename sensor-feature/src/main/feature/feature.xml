@@ -82,8 +82,8 @@
     <bundle start-level="90">mvn:com.instana/sensor-clr-trace/1.1.5</bundle>
   </feature>
 
-  <feature name="instana-consul-sensor" version="1.0.2">
-    <bundle start-level="90">mvn:com.instana/sensor-consul/1.0.2</bundle>
+  <feature name="instana-consul-sensor" version="1.0.3">
+    <bundle start-level="90">mvn:com.instana/sensor-consul/1.0.3</bundle>
   </feature>
 
   <feature name="instana-couchbase-sensor" version="1.0.1">
@@ -301,8 +301,8 @@
     <bundle start-level="80">mvn:com.instana/sensor-php-fpm/1.1.49</bundle>
   </feature>
 
-  <feature name="instana-php-sensor" version="1.0.79">
-    <bundle start-level="90">mvn:com.instana/sensor-php/1.0.79</bundle>
+  <feature name="instana-php-sensor" version="1.0.80">
+    <bundle start-level="90">mvn:com.instana/sensor-php/1.0.80</bundle>
   </feature>
 
   <feature name="instana-postgresql-sensor" version="1.0.23">
