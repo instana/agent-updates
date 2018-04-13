@@ -181,9 +181,9 @@
     <bundle start-level="80">mvn:com.instana/sensor-java/1.2.59</bundle>
   </feature>
 
-  <feature name="instana-java-trace-sensor" version="1.2.231">
+  <feature name="instana-java-trace-sensor" version="1.2.232">
     <feature version="[1.2.35,2)">instana-java-sensor</feature>
-    <bundle start-level="90">mvn:com.instana/sensor-java-trace/1.2.231</bundle>
+    <bundle start-level="90">mvn:com.instana/sensor-java-trace/1.2.232</bundle>
   </feature>
 
   <feature name="instana-jboss-as-sensor" version="1.1.24">
@@ -211,14 +211,14 @@
     <bundle start-level="80">mvn:com.instana/sensor-kafka/1.1.25</bundle>
   </feature>
 
-  <feature name="instana-kubernetes-sensor" version="1.1.19">
+  <feature name="instana-kubernetes-sensor" version="1.1.20">
     <bundle start-level="80">wrap:mvn:com.squareup.okio/okio/1.13.0</bundle>
     <bundle start-level="80">wrap:mvn:com.squareup.okhttp3/okhttp/3.9.0</bundle>
     <bundle start-level="80">wrap:mvn:com.squareup.okhttp3/logging-interceptor/3.9.0</bundle>
     <bundle start-level="80">mvn:javax.validation/validation-api/1.1.0.Final</bundle>
     <bundle start-level="80">wrap:mvn:io.fabric8/kubernetes-model/2.0.4</bundle>
     <bundle start-level="80">wrap:mvn:io.fabric8/kubernetes-client/3.1.2</bundle>
-    <bundle start-level="80">mvn:com.instana/sensor-kubernetes/1.1.19</bundle>
+    <bundle start-level="80">mvn:com.instana/sensor-kubernetes/1.1.20</bundle>
   </feature>
 
   <feature name="instana-liferay-sensor" version="1.0.0">
