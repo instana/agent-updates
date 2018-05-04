@@ -82,8 +82,8 @@
     <bundle start-level="90">mvn:com.instana/sensor-clr-trace/1.1.5</bundle>
   </feature>
 
-  <feature name="instana-consul-sensor" version="1.0.3">
-    <bundle start-level="90">mvn:com.instana/sensor-consul/1.0.3</bundle>
+  <feature name="instana-consul-sensor" version="1.0.4">
+    <bundle start-level="90">mvn:com.instana/sensor-consul/1.0.4</bundle>
   </feature>
 
   <feature name="instana-couchbase-sensor" version="1.0.1">
