@@ -17,6 +17,10 @@
     <bundle start-level="80">mvn:com.instana/discovery-cassandra/1.1.28</bundle>
   </feature>
 
+  <feature name="instana-ceph-discovery" version="1.1.0">
+    <bundle start-level="80">mvn:com.instana/discovery-ceph/1.1.0</bundle>
+  </feature>
+
   <feature name="instana-consul-discovery" version="1.0.6">
     <bundle start-level="80">mvn:com.instana/discovery-consul/1.0.6</bundle>
   </feature>
