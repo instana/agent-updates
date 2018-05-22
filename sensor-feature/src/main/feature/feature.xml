@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
 <features name="${project.artifactId}-${project.version}" xmlns="http://karaf.apache.org/xmlns/features/v1.3.0">
 
-  <feature name="instana-activemq-sensor" version="1.1.7">
+  <feature name="instana-activemq-sensor" version="1.1.8">
     <feature version="[1.2.45,2)">instana-java-sensor</feature>
-    <bundle start-level="80">mvn:com.instana/sensor-activemq/1.1.7</bundle>
+    <bundle start-level="80">mvn:com.instana/sensor-activemq/1.1.8</bundle>
   </feature>
 
   <feature name="instana-azure-sensor" version="1.1.5">
@@ -68,6 +68,10 @@
   <feature name="instana-cassandra-sensor" version="1.1.28">
     <feature version="[1.2.31,2)">instana-java-sensor</feature>
     <bundle start-level="80">mvn:com.instana/sensor-cassandra/1.1.28</bundle>
+  </feature>
+
+  <feature name="instana-ceph-sensor" version="1.1.0">
+    <bundle start-level="80">mvn:com.instana/sensor-ceph/1.1.0</bundle>
   </feature>
 
   <feature name="instana-clickhouse-sensor" version="1.0.2">
@@ -186,9 +190,9 @@
     <bundle start-level="90">mvn:com.instana/sensor-java-trace/1.2.240</bundle>
   </feature>
 
-  <feature name="instana-jboss-as-sensor" version="1.1.25">
+  <feature name="instana-jboss-as-sensor" version="1.1.26">
     <feature version="[1.2.58,2)">instana-java-sensor</feature>
-    <bundle start-level="80">mvn:com.instana/sensor-jboss-as/1.1.25</bundle>
+    <bundle start-level="80">mvn:com.instana/sensor-jboss-as/1.1.26</bundle>
   </feature>
 
   <feature name="instana-jboss-datagrid-sensor" version="1.1.10">
@@ -211,14 +215,17 @@
     <bundle start-level="80">mvn:com.instana/sensor-kafka/1.1.25</bundle>
   </feature>
 
-  <feature name="instana-kubernetes-sensor" version="1.1.23">
+  <feature name="instana-kubernetes-sensor" version="1.1.25">
     <bundle start-level="80">wrap:mvn:com.squareup.okio/okio/1.13.0</bundle>
-    <bundle start-level="80">wrap:mvn:com.squareup.okhttp3/okhttp/3.9.0</bundle>
-    <bundle start-level="80">wrap:mvn:com.squareup.okhttp3/logging-interceptor/3.9.0</bundle>
+    <bundle start-level="80">wrap:mvn:com.squareup.okhttp3/okhttp/3.9.1</bundle>
+    <bundle start-level="80">wrap:mvn:com.squareup.okhttp3/logging-interceptor/3.9.1</bundle>
+    <bundle start-level="80">wrap:mvn:io.fabric8/zjsonpatch/0.3.0/</bundle>
+    <bundle start-level="80">wrap:mvn:com.github.mifmif/generex/0.0.3</bundle>
     <bundle start-level="80">mvn:javax.validation/validation-api/1.1.0.Final</bundle>
-    <bundle start-level="80">wrap:mvn:io.fabric8/kubernetes-model/2.0.4</bundle>
-    <bundle start-level="80">wrap:mvn:io.fabric8/kubernetes-client/3.1.2</bundle>
-    <bundle start-level="80">mvn:com.instana/sensor-kubernetes/1.1.23</bundle>
+    <bundle start-level="80">wrap:mvn:io.fabric8/kubernetes-model/2.0.9</bundle>
+    <bundle start-level="80">mvn:io.fabric8/kubernetes-client/3.1.11//bundle</bundle>
+    <bundle start-level="80">mvn:io.fabric8/openshift-client/3.1.11//bundle</bundle>
+    <bundle start-level="80">mvn:com.instana/sensor-kubernetes/1.1.25</bundle>
   </feature>
 
   <feature name="instana-liferay-sensor" version="1.0.0">
@@ -239,9 +246,9 @@
     <bundle start-level="80">mvn:com.instana/sensor-memcached/1.0.14</bundle>
   </feature>
 
-  <feature name="instana-mongodb-sensor" version="1.1.27">
+  <feature name="instana-mongodb-sensor" version="1.1.28">
     <bundle start-level="80">mvn:org.mongodb/mongo-java-driver/3.4.1</bundle>
-    <bundle start-level="80">mvn:com.instana/sensor-mongodb/1.1.27</bundle>
+    <bundle start-level="80">mvn:com.instana/sensor-mongodb/1.1.28</bundle>
   </feature>
 
   <feature name="instana-mysql-sensor" version="1.1.53">
@@ -305,10 +312,10 @@
     <bundle start-level="90">mvn:com.instana/sensor-php/1.0.82</bundle>
   </feature>
 
-  <feature name="instana-postgresql-sensor" version="1.0.23">
+  <feature name="instana-postgresql-sensor" version="1.0.24">
     <feature version="[1.1,2)">jta-spec</feature>
     <bundle start-level="80">mvn:org.postgresql/postgresql/42.1.4</bundle>
-    <bundle start-level="80">mvn:com.instana/sensor-postgresql/1.0.23</bundle>
+    <bundle start-level="80">mvn:com.instana/sensor-postgresql/1.0.24</bundle>
   </feature>
 
   <feature name="instana-process-sensor" version="1.1.26">
