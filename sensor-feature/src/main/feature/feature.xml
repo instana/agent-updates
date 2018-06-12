@@ -125,9 +125,9 @@
     <bundle start-level="80">mvn:com.instana/sensor-ec2/1.1.6</bundle>
   </feature>
 
-  <feature name="instana-elasticsearch-sensor" version="1.1.43">
+  <feature name="instana-elasticsearch-sensor" version="1.1.44">
     <feature version="[1.2.45,2)">instana-java-sensor</feature>
-    <bundle start-level="80">mvn:com.instana/sensor-elasticsearch/1.1.43</bundle>
+    <bundle start-level="80">mvn:com.instana/sensor-elasticsearch/1.1.44</bundle>
   </feature>
 
   <feature name="instana-etcd-sensor" version="1.0.11">
@@ -340,9 +340,9 @@
     <bundle start-level="90">mvn:com.instana/sensor-python-trace/1.2.1</bundle>
   </feature>
 
-  <feature name="instana-redis-sensor" version="1.1.23">
+  <feature name="instana-redis-sensor" version="1.1.24">
     <bundle start-level="80">mvn:redis.clients/jedis/2.7.2</bundle>
-    <bundle start-level="80">mvn:com.instana/sensor-redis/1.1.23</bundle>
+    <bundle start-level="80">mvn:com.instana/sensor-redis/1.1.24</bundle>
   </feature>
 
   <feature name="instana-rabbitmq-sensor" version="1.1.32">
