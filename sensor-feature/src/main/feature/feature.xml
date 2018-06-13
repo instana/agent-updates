@@ -396,9 +396,9 @@
     <bundle start-level="80">mvn:com.instana/sensor-varnish/1.0.19</bundle>
   </feature>
 
-  <feature name="instana-weblogic-sensor" version="1.1.1">
+  <feature name="instana-weblogic-sensor" version="1.1.2">
     <feature version="[1.2.37,2)">instana-java-sensor</feature>
-    <bundle start-level="80">mvn:com.instana/sensor-weblogic/1.1.1</bundle>
+    <bundle start-level="80">mvn:com.instana/sensor-weblogic/1.1.2</bundle>
   </feature>
 
   <feature name="instana-websphere-sensor" version="1.1.10">
