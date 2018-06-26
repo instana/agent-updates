@@ -195,14 +195,14 @@
     <bundle start-level="80">mvn:com.instana/sensor-java/1.2.60</bundle>
   </feature>
 
-  <feature name="instana-java-trace-sensor" version="1.2.244">
+  <feature name="instana-java-trace-sensor" version="1.2.246">
     <feature version="[1.2.59,2)">instana-java-sensor</feature>
-    <bundle start-level="90">mvn:com.instana/sensor-java-trace/1.2.244</bundle>
+    <bundle start-level="90">mvn:com.instana/sensor-java-trace/1.2.246</bundle>
   </feature>
 
-  <feature name="instana-jboss-as-sensor" version="1.1.26">
+  <feature name="instana-jboss-as-sensor" version="1.1.27">
     <feature version="[1.2.58,2)">instana-java-sensor</feature>
-    <bundle start-level="80">mvn:com.instana/sensor-jboss-as/1.1.26</bundle>
+    <bundle start-level="80">mvn:com.instana/sensor-jboss-as/1.1.27</bundle>
   </feature>
 
   <feature name="instana-jboss-datagrid-sensor" version="1.1.10">
@@ -256,9 +256,9 @@
     <bundle start-level="80">mvn:com.instana/sensor-memcached/1.0.14</bundle>
   </feature>
 
-  <feature name="instana-mongodb-sensor" version="1.1.31">
+  <feature name="instana-mongodb-sensor" version="1.1.33">
     <bundle start-level="80">mvn:org.mongodb/mongo-java-driver/3.7.1</bundle>
-    <bundle start-level="80">mvn:com.instana/sensor-mongodb/1.1.31</bundle>
+    <bundle start-level="80">mvn:com.instana/sensor-mongodb/1.1.33</bundle>
   </feature>
 
   <feature name="instana-mysql-sensor" version="1.1.53">
@@ -289,8 +289,8 @@
     <bundle start-level="80">mvn:com.instana/sensor-nginx/1.1.50</bundle>
   </feature>
 
-  <feature name="instana-nodejs-sensor" version="1.2.5">
-    <bundle start-level="80">mvn:com.instana/sensor-nodejs/1.2.5</bundle>
+  <feature name="instana-nodejs-sensor" version="1.2.6">
+    <bundle start-level="80">mvn:com.instana/sensor-nodejs/1.2.6</bundle>
   </feature>
 
   <feature name="instana-nodejs-trace-sensor" version="1.2.3">
