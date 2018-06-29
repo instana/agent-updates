@@ -125,9 +125,9 @@
     <bundle start-level="80">mvn:com.instana/sensor-ec2/1.1.6</bundle>
   </feature>
 
-  <feature name="instana-elasticsearch-sensor" version="1.1.44">
+  <feature name="instana-elasticsearch-sensor" version="1.1.45">
     <feature version="[1.2.45,2)">instana-java-sensor</feature>
-    <bundle start-level="80">mvn:com.instana/sensor-elasticsearch/1.1.44</bundle>
+    <bundle start-level="80">mvn:com.instana/sensor-elasticsearch/1.1.45</bundle>
   </feature>
 
   <feature name="instana-etcd-sensor" version="1.0.11">
@@ -400,9 +400,9 @@
     <bundle start-level="80">mvn:com.instana/sensor-varnish/1.0.20</bundle>
   </feature>
 
-  <feature name="instana-weblogic-sensor" version="1.1.2">
+  <feature name="instana-weblogic-sensor" version="1.1.3">
     <feature version="[1.2.37,2)">instana-java-sensor</feature>
-    <bundle start-level="80">mvn:com.instana/sensor-weblogic/1.1.2</bundle>
+    <bundle start-level="80">mvn:com.instana/sensor-weblogic/1.1.3</bundle>
   </feature>
 
   <feature name="instana-websphere-sensor" version="1.1.10">
