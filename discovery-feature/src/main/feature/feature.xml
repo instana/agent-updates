@@ -57,8 +57,8 @@
     <bundle start-level="80">mvn:com.instana/discovery-elasticsearch/1.1.45</bundle>
   </feature>
 
-  <feature name="instana-etcd-discovery" version="1.0.11">
-    <bundle start-level="80">mvn:com.instana/discovery-etcd/1.0.11</bundle>
+  <feature name="instana-etcd-discovery" version="1.0.12">
+    <bundle start-level="80">mvn:com.instana/discovery-etcd/1.0.12</bundle>
   </feature>
 
   <feature name="instana-f5-discovery" version="1.0.1">
@@ -205,8 +205,8 @@
     <bundle start-level="80">mvn:com.instana/discovery-php-fpm/1.1.50</bundle>
   </feature>
 
-  <feature name="instana-ping-discovery" version="1.0.0">
-    <bundle start-level="80">mvn:com.instana/discovery-ping/1.0.0</bundle>
+  <feature name="instana-ping-discovery" version="1.0.1">
+    <bundle start-level="80">mvn:com.instana/discovery-ping/1.0.1</bundle>
   </feature>
 
   <feature name="instana-postgresql-discovery" version="1.0.24">
@@ -253,8 +253,8 @@
     <bundle start-level="80">mvn:com.instana/discovery-spark-standalone/1.1.1</bundle>
   </feature>
 
-  <feature name="instana-springboot-discovery" version="1.1.26">
-    <bundle start-level="80">mvn:com.instana/discovery-springboot/1.1.26</bundle>
+  <feature name="instana-springboot-discovery" version="1.1.27">
+    <bundle start-level="80">mvn:com.instana/discovery-springboot/1.1.27</bundle>
   </feature>
 
   <feature name="instana-tomcat-discovery" version="1.1.28">

@@ -130,8 +130,8 @@
     <bundle start-level="80">mvn:com.instana/sensor-elasticsearch/1.1.45</bundle>
   </feature>
 
-  <feature name="instana-etcd-sensor" version="1.0.11">
-    <bundle start-level="80">mvn:com.instana/sensor-etcd/1.0.11</bundle>
+  <feature name="instana-etcd-sensor" version="1.0.12">
+    <bundle start-level="80">mvn:com.instana/sensor-etcd/1.0.12</bundle>
   </feature>
 
   <feature name="instana-f5-sensor" version="1.0.1">
@@ -326,8 +326,8 @@
     <bundle start-level="90">mvn:com.instana/sensor-php/1.0.86</bundle>
   </feature>
 
-  <feature name="instana-ping-sensor" version="1.0.0">
-    <bundle start-level="80">mvn:com.instana/sensor-ping/1.0.0</bundle>
+  <feature name="instana-ping-sensor" version="1.0.1">
+    <bundle start-level="80">mvn:com.instana/sensor-ping/1.0.1</bundle>
   </feature>
 
   <feature name="instana-postgresql-sensor" version="1.0.24">
@@ -390,9 +390,9 @@
     <bundle start-level="80">mvn:com.instana/sensor-spark-standalone/1.1.1</bundle>
   </feature>
 
-  <feature name="instana-springboot-sensor" version="1.1.26">
+  <feature name="instana-springboot-sensor" version="1.1.27">
     <feature version="[1.2.45,2)">instana-java-sensor</feature>
-    <bundle start-level="80">mvn:com.instana/sensor-springboot/1.1.26</bundle>
+    <bundle start-level="80">mvn:com.instana/sensor-springboot/1.1.27</bundle>
   </feature>
 
   <feature name="instana-tomcat-sensor" version="1.1.28">
