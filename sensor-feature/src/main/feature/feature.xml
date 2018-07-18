@@ -326,8 +326,8 @@
     <bundle start-level="90">mvn:com.instana/sensor-php/1.0.86</bundle>
   </feature>
 
-  <feature name="instana-ping-sensor" version="1.0.1">
-    <bundle start-level="80">mvn:com.instana/sensor-ping/1.0.1</bundle>
+  <feature name="instana-ping-sensor" version="1.0.2">
+    <bundle start-level="80">mvn:com.instana/sensor-ping/1.0.2</bundle>
   </feature>
 
   <feature name="instana-postgresql-sensor" version="1.0.24">
