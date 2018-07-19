@@ -183,8 +183,8 @@
     <bundle start-level="80">mvn:com.instana/sensor-hbase/1.1.0</bundle>
   </feature>
 
-  <feature name="instana-host-sensor" version="1.1.95">
-    <bundle start-level="80">mvn:com.instana/sensor-host/1.1.95</bundle>
+  <feature name="instana-host-sensor" version="1.1.96">
+    <bundle start-level="80">mvn:com.instana/sensor-host/1.1.96</bundle>
   </feature>
 
   <feature name="instana-httpd-sensor" version="1.1.86">
@@ -326,8 +326,8 @@
     <bundle start-level="90">mvn:com.instana/sensor-php/1.0.86</bundle>
   </feature>
 
-  <feature name="instana-ping-sensor" version="1.0.2">
-    <bundle start-level="80">mvn:com.instana/sensor-ping/1.0.2</bundle>
+  <feature name="instana-ping-sensor" version="1.0.4">
+    <bundle start-level="80">mvn:com.instana/sensor-ping/1.0.4</bundle>
   </feature>
 
   <feature name="instana-postgresql-sensor" version="1.0.24">

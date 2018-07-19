@@ -101,8 +101,8 @@
     <bundle start-level="80">mvn:com.instana/discovery-hbase/1.1.0</bundle>
   </feature>
 
-  <feature name="instana-host-discovery" version="1.1.95">
-    <bundle start-level="80">mvn:com.instana/discovery-host/1.1.95</bundle>
+  <feature name="instana-host-discovery" version="1.1.96">
+    <bundle start-level="80">mvn:com.instana/discovery-host/1.1.96</bundle>
   </feature>
 
   <feature name="instana-httpd-discovery" version="1.1.86">
@@ -205,8 +205,8 @@
     <bundle start-level="80">mvn:com.instana/discovery-php-fpm/1.1.50</bundle>
   </feature>
 
-  <feature name="instana-ping-discovery" version="1.0.2">
-    <bundle start-level="80">mvn:com.instana/discovery-ping/1.0.2</bundle>
+  <feature name="instana-ping-discovery" version="1.0.4">
+    <bundle start-level="80">mvn:com.instana/discovery-ping/1.0.4</bundle>
   </feature>
 
   <feature name="instana-postgresql-discovery" version="1.0.24">
