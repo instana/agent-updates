@@ -104,8 +104,8 @@
     <bundle start-level="80">mvn:com.instana/sensor-couchbase/1.0.1</bundle>
   </feature>
 
-  <feature name="instana-crystal-sensor" version="1.0.2">
-    <bundle start-level="80">mvn:com.instana/sensor-crystal/1.0.2</bundle>
+  <feature name="instana-crystal-sensor" version="1.1.0">
+    <bundle start-level="80">mvn:com.instana/sensor-crystal/1.1.0</bundle>
   </feature>
 
   <feature name="instana-crystal-trace-sensor" version="1.0.1">
@@ -157,8 +157,8 @@
     <bundle start-level="80">mvn:com.instana/sensor-glassfish/1.1.7</bundle>
   </feature>
 
-  <feature name="instana-golang-sensor" version="1.2.4">
-    <bundle start-level="80">mvn:com.instana/sensor-golang/1.2.4</bundle>
+  <feature name="instana-golang-sensor" version="1.2.5">
+    <bundle start-level="80">mvn:com.instana/sensor-golang/1.2.5</bundle>
   </feature>
 
   <feature name="instana-golang-trace-sensor" version="1.2.1">
@@ -171,6 +171,7 @@
   </feature>
 
   <feature name="instana-hadoop-yarn-node-sensor" version="1.1.0">
+    <feature version="[1.2.37,2)">instana-java-sensor</feature>
     <bundle start-level="80">mvn:com.instana/sensor-hadoop-yarn-node/1.1.0</bundle>
   </feature>
 
@@ -239,6 +240,7 @@
   </feature>
 
   <feature name="instana-liferay-sensor" version="1.0.0">
+    <feature version="[1.2.46,2)">instana-java-sensor</feature>
     <bundle start-level="80">mvn:com.instana/sensor-liferay/1.0.0</bundle>
   </feature>
 
@@ -271,6 +273,7 @@
   </feature>
 
   <feature name="instana-mule-sensor" version="1.0.2">
+    <feature version="[1.2.45,2)">instana-java-sensor</feature>
     <bundle start-level="80">mvn:com.instana/sensor-mule/1.0.2</bundle>
   </feature>
 
@@ -289,8 +292,8 @@
     <bundle start-level="80">mvn:com.instana/sensor-nginx/1.1.50</bundle>
   </feature>
 
-  <feature name="instana-nodejs-sensor" version="1.2.6">
-    <bundle start-level="80">mvn:com.instana/sensor-nodejs/1.2.6</bundle>
+  <feature name="instana-nodejs-sensor" version="1.2.7">
+    <bundle start-level="80">mvn:com.instana/sensor-nodejs/1.2.7</bundle>
   </feature>
 
   <feature name="instana-nodejs-trace-sensor" version="1.2.3">
@@ -322,8 +325,8 @@
     <bundle start-level="80">mvn:com.instana/sensor-php-fpm/1.1.50</bundle>
   </feature>
 
-  <feature name="instana-php-sensor" version="1.0.86">
-    <bundle start-level="90">mvn:com.instana/sensor-php/1.0.86</bundle>
+  <feature name="instana-php-sensor" version="1.0.87">
+    <bundle start-level="90">mvn:com.instana/sensor-php/1.0.87</bundle>
   </feature>
 
   <feature name="instana-ping-sensor" version="1.0.4">
@@ -340,8 +343,8 @@
     <bundle start-level="80">mvn:com.instana/sensor-process/1.1.26</bundle>
   </feature>
 
-  <feature name="instana-python-sensor" version="1.2.4">
-    <bundle start-level="80">mvn:com.instana/sensor-python/1.2.4</bundle>
+  <feature name="instana-python-sensor" version="1.2.5">
+    <bundle start-level="80">mvn:com.instana/sensor-python/1.2.5</bundle>
   </feature>
 
   <feature name="instana-python-trace-sensor" version="1.2.1">
@@ -357,8 +360,8 @@
     <bundle start-level="80">mvn:com.instana/sensor-rabbitmq/1.1.32</bundle>
   </feature>
 
-  <feature name="instana-ruby-sensor" version="1.2.5">
-    <bundle start-level="80">mvn:com.instana/sensor-ruby/1.2.5</bundle>
+  <feature name="instana-ruby-sensor" version="1.2.6">
+    <bundle start-level="80">mvn:com.instana/sensor-ruby/1.2.6</bundle>
   </feature>
 
   <feature name="instana-ruby-trace-sensor" version="1.2.1">
@@ -404,9 +407,9 @@
     <bundle start-level="80">mvn:com.instana/sensor-varnish/1.0.20</bundle>
   </feature>
 
-  <feature name="instana-weblogic-sensor" version="1.1.4">
+  <feature name="instana-weblogic-sensor" version="1.1.5">
     <feature version="[1.2.37,2)">instana-java-sensor</feature>
-    <bundle start-level="80">mvn:com.instana/sensor-weblogic/1.1.4</bundle>
+    <bundle start-level="80">mvn:com.instana/sensor-weblogic/1.1.5</bundle>
   </feature>
 
   <feature name="instana-websphere-sensor" version="1.1.10">
