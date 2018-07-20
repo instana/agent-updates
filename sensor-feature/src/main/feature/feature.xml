@@ -171,6 +171,7 @@
   </feature>
 
   <feature name="instana-hadoop-yarn-node-sensor" version="1.1.0">
+    <feature version="[1.2.37,2)">instana-java-sensor</feature>
     <bundle start-level="80">mvn:com.instana/sensor-hadoop-yarn-node/1.1.0</bundle>
   </feature>
 
@@ -239,6 +240,7 @@
   </feature>
 
   <feature name="instana-liferay-sensor" version="1.0.0">
+    <feature version="[1.2.46,2)">instana-java-sensor</feature>
     <bundle start-level="80">mvn:com.instana/sensor-liferay/1.0.0</bundle>
   </feature>
 
@@ -271,6 +273,7 @@
   </feature>
 
   <feature name="instana-mule-sensor" version="1.0.2">
+    <feature version="[1.2.45,2)">instana-java-sensor</feature>
     <bundle start-level="80">mvn:com.instana/sensor-mule/1.0.2</bundle>
   </feature>
 
