@@ -125,9 +125,9 @@
     <bundle start-level="80">mvn:com.instana/sensor-ec2/1.1.6</bundle>
   </feature>
 
-  <feature name="instana-elasticsearch-sensor" version="1.1.45">
+  <feature name="instana-elasticsearch-sensor" version="1.1.46">
     <feature version="[1.2.45,2)">instana-java-sensor</feature>
-    <bundle start-level="80">mvn:com.instana/sensor-elasticsearch/1.1.45</bundle>
+    <bundle start-level="80">mvn:com.instana/sensor-elasticsearch/1.1.46</bundle>
   </feature>
 
   <feature name="instana-etcd-sensor" version="1.0.12">
@@ -152,9 +152,9 @@
     <bundle start-level="80">mvn:com.instana/sensor-generic-hardware/1.1.6</bundle>
   </feature>
 
-  <feature name="instana-glassfish-sensor" version="1.1.7">
+  <feature name="instana-glassfish-sensor" version="1.1.8">
     <feature version="[1.2.25,2)">instana-java-sensor</feature>
-    <bundle start-level="80">mvn:com.instana/sensor-glassfish/1.1.7</bundle>
+    <bundle start-level="80">mvn:com.instana/sensor-glassfish/1.1.8</bundle>
   </feature>
 
   <feature name="instana-golang-sensor" version="1.2.5">
@@ -184,12 +184,12 @@
     <bundle start-level="80">mvn:com.instana/sensor-hbase/1.1.0</bundle>
   </feature>
 
-  <feature name="instana-host-sensor" version="1.1.96">
-    <bundle start-level="80">mvn:com.instana/sensor-host/1.1.96</bundle>
+  <feature name="instana-host-sensor" version="1.1.97">
+    <bundle start-level="80">mvn:com.instana/sensor-host/1.1.97</bundle>
   </feature>
 
-  <feature name="instana-httpd-sensor" version="1.1.86">
-    <bundle start-level="80">mvn:com.instana/sensor-httpd/1.1.86</bundle>
+  <feature name="instana-httpd-sensor" version="1.1.87">
+    <bundle start-level="80">mvn:com.instana/sensor-httpd/1.1.87</bundle>
   </feature>
 
   <feature name="instana-java-sensor" version="1.2.60">
