@@ -173,8 +173,8 @@
     <bundle start-level="80">mvn:com.instana/discovery-netcore/1.0.2</bundle>
   </feature>
 
-  <feature name="instana-nginx-discovery" version="1.1.50">
-    <bundle start-level="80">mvn:com.instana/discovery-nginx/1.1.50</bundle>
+  <feature name="instana-nginx-discovery" version="1.1.51">
+    <bundle start-level="80">mvn:com.instana/discovery-nginx/1.1.51</bundle>
   </feature>
 
   <feature name="instana-nodejs-discovery" version="1.2.7">
