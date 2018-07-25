@@ -205,6 +205,10 @@
     <feature version="[1.2.58,2)">instana-java-sensor</feature>
     <bundle start-level="80">mvn:com.instana/sensor-jboss-as/1.1.28</bundle>
   </feature>
+  <feature name="instana-jboss-as4-sensor" version="1.0.0">
+    <feature version="[1.2.59,2)">instana-java-sensor</feature>
+    <bundle start-level="80">mvn:com.instana/sensor-jboss-as4/1.0.0</bundle>
+  </feature>
 
   <feature name="instana-jboss-datagrid-sensor" version="1.1.10">
     <feature version="[1.2.31,2)">instana-java-sensor</feature>
