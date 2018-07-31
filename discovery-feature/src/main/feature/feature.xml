@@ -85,8 +85,8 @@
     <bundle start-level="80">mvn:com.instana/discovery-golang/1.2.5</bundle>
   </feature>
 
-  <feature name="instana-hadoop-yarn-discovery" version="1.1.1">
-    <bundle start-level="80">mvn:com.instana/discovery-hadoop-yarn/1.1.1</bundle>
+  <feature name="instana-hadoop-yarn-discovery" version="1.1.2">
+    <bundle start-level="80">mvn:com.instana/discovery-hadoop-yarn/1.1.2</bundle>
   </feature>
 
   <feature name="instana-hadoop-yarn-node-discovery" version="1.1.0">
@@ -113,12 +113,12 @@
     <bundle start-level="80">mvn:com.instana/discovery-java/1.2.60</bundle>
   </feature>
 
-  <feature name="instana-jboss-as-discovery" version="1.1.28">
-    <bundle start-level="80">mvn:com.instana/discovery-jboss-as/1.1.28</bundle>
+  <feature name="instana-jboss-as-discovery" version="1.1.29">
+    <bundle start-level="80">mvn:com.instana/discovery-jboss-as/1.1.29</bundle>
   </feature>
 
-  <feature name="instana-jboss-as4-discovery" version="1.0.1">
-    <bundle start-level="80">mvn:com.instana/discovery-jboss-as4/1.0.1</bundle>
+  <feature name="instana-jboss-as4-discovery" version="1.0.2">
+    <bundle start-level="80">mvn:com.instana/discovery-jboss-as4/1.0.2</bundle>
   </feature>
 
   <feature name="instana-jboss-datagrid-discovery" version="1.1.10">
@@ -217,8 +217,8 @@
     <bundle start-level="80">mvn:com.instana/discovery-postgresql/1.0.24</bundle>
   </feature>
 
-  <feature name="instana-process-discovery" version="1.1.26">
-    <bundle start-level="80">mvn:com.instana/discovery-process/1.1.26</bundle>
+  <feature name="instana-process-discovery" version="1.1.27">
+    <bundle start-level="80">mvn:com.instana/discovery-process/1.1.27</bundle>
   </feature>
 
   <feature name="instana-python-discovery" version="1.2.5">
@@ -257,8 +257,8 @@
     <bundle start-level="80">mvn:com.instana/discovery-spark-standalone/1.1.1</bundle>
   </feature>
 
-  <feature name="instana-springboot-discovery" version="1.1.27">
-    <bundle start-level="80">mvn:com.instana/discovery-springboot/1.1.27</bundle>
+  <feature name="instana-springboot-discovery" version="1.1.28">
+    <bundle start-level="80">mvn:com.instana/discovery-springboot/1.1.28</bundle>
   </feature>
 
   <feature name="instana-tomcat-discovery" version="1.1.28">
