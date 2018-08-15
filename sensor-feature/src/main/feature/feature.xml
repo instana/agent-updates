@@ -329,8 +329,8 @@
     <bundle start-level="80">mvn:com.instana/sensor-php-fpm/1.1.50</bundle>
   </feature>
 
-  <feature name="instana-php-sensor" version="1.0.87">
-    <bundle start-level="90">mvn:com.instana/sensor-php/1.0.87</bundle>
+  <feature name="instana-php-sensor" version="1.0.88">
+    <bundle start-level="90">mvn:com.instana/sensor-php/1.0.88</bundle>
   </feature>
 
   <feature name="instana-ping-sensor" version="1.0.4">
