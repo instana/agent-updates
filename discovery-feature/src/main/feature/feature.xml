@@ -97,6 +97,10 @@
     <bundle start-level="80">mvn:com.instana/discovery-haproxy/1.1.14</bundle>
   </feature>
 
+  <feature name="instana-hazelcast-discovery" version="1.0.0">
+    <bundle start-level="80">mvn:com.instana/discovery-hazelcast/1.0.0</bundle>
+  </feature>
+
   <feature name="instana-hbase-discovery" version="1.1.0">
     <bundle start-level="80">mvn:com.instana/discovery-hbase/1.1.0</bundle>
   </feature>
@@ -109,8 +113,8 @@
     <bundle start-level="80">mvn:com.instana/discovery-httpd/1.1.87</bundle>
   </feature>
 
-  <feature name="instana-java-discovery" version="1.2.62">
-    <bundle start-level="80">mvn:com.instana/discovery-java/1.2.62</bundle>
+  <feature name="instana-java-discovery" version="1.2.63">
+    <bundle start-level="80">mvn:com.instana/discovery-java/1.2.63</bundle>
   </feature>
 
   <feature name="instana-jboss-as-discovery" version="1.1.29">
@@ -241,8 +245,8 @@
     <bundle start-level="80">mvn:com.instana/discovery-sap-hana/1.1.0</bundle>
   </feature>
 
-  <feature name="instana-solr-discovery" version="1.0.5">
-    <bundle start-level="80">mvn:com.instana/discovery-solr/1.0.5</bundle>
+  <feature name="instana-solr-discovery" version="1.0.6">
+    <bundle start-level="80">mvn:com.instana/discovery-solr/1.0.6</bundle>
   </feature>
 
   <feature name="instana-statsd-discovery" version="1.1.4">
