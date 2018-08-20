@@ -382,9 +382,9 @@
     <bundle start-level="80">mvn:com.instana/sensor-sap-hana/1.1.0</bundle>
   </feature>
 
-  <feature name="instana-solr-sensor" version="1.0.6">
+  <feature name="instana-solr-sensor" version="1.0.7">
     <feature version="[1.2.59,2)">instana-java-sensor</feature>
-    <bundle start-level="80">mvn:com.instana/sensor-solr/1.0.6</bundle>
+    <bundle start-level="80">mvn:com.instana/sensor-solr/1.0.7</bundle>
   </feature>
 
   <feature name="instana-statsd-sensor" version="1.1.4">
@@ -402,9 +402,9 @@
     <bundle start-level="80">mvn:com.instana/sensor-spark-standalone/1.1.1</bundle>
   </feature>
 
-  <feature name="instana-springboot-sensor" version="1.1.28">
+  <feature name="instana-springboot-sensor" version="1.1.29">
     <feature version="[1.2.45,2)">instana-java-sensor</feature>
-    <bundle start-level="80">mvn:com.instana/sensor-springboot/1.1.28</bundle>
+    <bundle start-level="80">mvn:com.instana/sensor-springboot/1.1.29</bundle>
   </feature>
 
   <feature name="instana-tomcat-sensor" version="1.1.28">

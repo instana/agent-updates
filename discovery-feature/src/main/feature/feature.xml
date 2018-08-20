@@ -245,8 +245,8 @@
     <bundle start-level="80">mvn:com.instana/discovery-sap-hana/1.1.0</bundle>
   </feature>
 
-  <feature name="instana-solr-discovery" version="1.0.6">
-    <bundle start-level="80">mvn:com.instana/discovery-solr/1.0.6</bundle>
+  <feature name="instana-solr-discovery" version="1.0.7">
+    <bundle start-level="80">mvn:com.instana/discovery-solr/1.0.7</bundle>
   </feature>
 
   <feature name="instana-statsd-discovery" version="1.1.4">
@@ -261,8 +261,8 @@
     <bundle start-level="80">mvn:com.instana/discovery-spark-standalone/1.1.1</bundle>
   </feature>
 
-  <feature name="instana-springboot-discovery" version="1.1.28">
-    <bundle start-level="80">mvn:com.instana/discovery-springboot/1.1.28</bundle>
+  <feature name="instana-springboot-discovery" version="1.1.29">
+    <bundle start-level="80">mvn:com.instana/discovery-springboot/1.1.29</bundle>
   </feature>
 
   <feature name="instana-tomcat-discovery" version="1.1.28">
