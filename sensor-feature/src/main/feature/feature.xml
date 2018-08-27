@@ -342,18 +342,18 @@
     <bundle start-level="80">mvn:com.instana/sensor-ping/1.0.4</bundle>
   </feature>
 
-  <feature name="instana-postgresql-sensor" version="1.0.24">
+  <feature name="instana-postgresql-sensor" version="1.0.25">
     <feature version="[1.1,2)">jta-spec</feature>
     <bundle start-level="80">mvn:org.postgresql/postgresql/42.1.4</bundle>
-    <bundle start-level="80">mvn:com.instana/sensor-postgresql/1.0.24</bundle>
+    <bundle start-level="80">mvn:com.instana/sensor-postgresql/1.0.25</bundle>
   </feature>
 
   <feature name="instana-process-sensor" version="1.1.27">
     <bundle start-level="80">mvn:com.instana/sensor-process/1.1.27</bundle>
   </feature>
 
-  <feature name="instana-python-sensor" version="1.2.5">
-    <bundle start-level="80">mvn:com.instana/sensor-python/1.2.5</bundle>
+  <feature name="instana-python-sensor" version="1.3.0">
+    <bundle start-level="80">mvn:com.instana/sensor-python/1.3.0</bundle>
   </feature>
 
   <feature name="instana-python-trace-sensor" version="1.2.1">
@@ -369,8 +369,8 @@
     <bundle start-level="80">mvn:com.instana/sensor-rabbitmq/1.1.32</bundle>
   </feature>
 
-  <feature name="instana-ruby-sensor" version="1.2.6">
-    <bundle start-level="80">mvn:com.instana/sensor-ruby/1.2.6</bundle>
+  <feature name="instana-ruby-sensor" version="1.2.7">
+    <bundle start-level="80">mvn:com.instana/sensor-ruby/1.2.7</bundle>
   </feature>
 
   <feature name="instana-ruby-trace-sensor" version="1.2.1">
