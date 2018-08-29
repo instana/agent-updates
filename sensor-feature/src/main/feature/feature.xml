@@ -292,6 +292,11 @@
     <bundle start-level="80">wrap:mvn:com.microsoft.sqlserver/sqljdbc4/4.0$Bundle-SymbolicName=sqljdbc4&amp;Bundle-Version=4.0</bundle>
   </feature>
 
+  <feature name="instana-neo4j-sensor" version="1.0.0">
+    <feature version="[1.2.59,2)">instana-java-sensor</feature>
+    <bundle start-level="80">mvn:com.instana/sensor-neo4j/1.0.0</bundle>
+  </feature>
+
   <feature name="instana-netcore-sensor" version="1.0.2">
     <bundle start-level="80">mvn:com.instana/sensor-netcore/1.0.2</bundle>
   </feature>
@@ -342,10 +347,10 @@
     <bundle start-level="80">mvn:com.instana/sensor-ping/1.0.4</bundle>
   </feature>
 
-  <feature name="instana-postgresql-sensor" version="1.0.25">
+  <feature name="instana-postgresql-sensor" version="1.0.26">
     <feature version="[1.1,2)">jta-spec</feature>
     <bundle start-level="80">mvn:org.postgresql/postgresql/42.1.4</bundle>
-    <bundle start-level="80">mvn:com.instana/sensor-postgresql/1.0.25</bundle>
+    <bundle start-level="80">mvn:com.instana/sensor-postgresql/1.0.26</bundle>
   </feature>
 
   <feature name="instana-process-sensor" version="1.1.27">
@@ -387,9 +392,9 @@
     <bundle start-level="80">mvn:com.instana/sensor-solr/1.0.8</bundle>
   </feature>
 
-  <feature name="instana-statsd-sensor" version="1.1.4">
-    <bundle start-level="80">mvn:org.hdrhistogram/HdrHistogram/2.1.9</bundle>
-    <bundle start-level="80">mvn:com.instana/sensor-statsd/1.1.4</bundle>
+  <feature name="instana-statsd-sensor" version="1.1.5">
+    <bundle start-level="80">mvn:org.hdrhistogram/HdrHistogram/2.1.10</bundle>
+    <bundle start-level="80">mvn:com.instana/sensor-statsd/1.1.5</bundle>
   </feature>
 
   <feature name="instana-spark-application-sensor" version="1.1.3">
