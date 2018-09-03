@@ -197,8 +197,8 @@
     <bundle start-level="80">mvn:com.instana/sensor-httpd/1.1.87</bundle>
   </feature>
 
-  <feature name="instana-java-sensor" version="1.2.63">
-    <bundle start-level="80">mvn:com.instana/sensor-java/1.2.63</bundle>
+  <feature name="instana-java-sensor" version="1.2.64">
+    <bundle start-level="80">mvn:com.instana/sensor-java/1.2.64</bundle>
   </feature>
 
   <feature name="instana-java-trace-sensor" version="1.2.256">
