@@ -84,8 +84,8 @@
     <bundle start-level="80">mvn:com.instana/sensor-ceph/1.1.0</bundle>
   </feature>
 
-  <feature name="instana-clickhouse-sensor" version="1.0.6">
-    <bundle start-level="80">mvn:com.instana/sensor-clickhouse/1.0.6</bundle>
+  <feature name="instana-clickhouse-sensor" version="1.0.7">
+    <bundle start-level="80">mvn:com.instana/sensor-clickhouse/1.0.7</bundle>
   </feature>
 
   <feature name="instana-clr-sensor" version="1.1.9">
@@ -197,8 +197,8 @@
     <bundle start-level="80">mvn:com.instana/sensor-httpd/1.1.87</bundle>
   </feature>
 
-  <feature name="instana-java-sensor" version="1.2.63">
-    <bundle start-level="80">mvn:com.instana/sensor-java/1.2.63</bundle>
+  <feature name="instana-java-sensor" version="1.2.64">
+    <bundle start-level="80">mvn:com.instana/sensor-java/1.2.64</bundle>
   </feature>
 
   <feature name="instana-java-trace-sensor" version="1.2.256">
@@ -206,9 +206,9 @@
     <bundle start-level="90">mvn:com.instana/sensor-java-trace/1.2.256</bundle>
   </feature>
 
-  <feature name="instana-jboss-as-sensor" version="1.1.30">
+  <feature name="instana-jboss-as-sensor" version="1.1.31">
     <feature version="[1.2.58,2)">instana-java-sensor</feature>
-    <bundle start-level="80">mvn:com.instana/sensor-jboss-as/1.1.30</bundle>
+    <bundle start-level="80">mvn:com.instana/sensor-jboss-as/1.1.31</bundle>
   </feature>
   <feature name="instana-jboss-as4-sensor" version="1.0.2">
     <feature version="[1.2.59,2)">instana-java-sensor</feature>
@@ -220,9 +220,9 @@
     <bundle start-level="80">mvn:com.instana/sensor-jboss-datagrid/1.1.10</bundle>
   </feature>
 
-  <feature name="instana-jetty-sensor" version="1.1.8">
+  <feature name="instana-jetty-sensor" version="1.1.9">
     <feature version="[1.2.45,2)">instana-java-sensor</feature>
-    <bundle start-level="80">mvn:com.instana/sensor-jetty/1.1.8</bundle>
+    <bundle start-level="80">mvn:com.instana/sensor-jetty/1.1.9</bundle>
   </feature>
 
   <feature name="instana-jira-sensor" version="1.1.11">
