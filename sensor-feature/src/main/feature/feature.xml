@@ -201,15 +201,16 @@
     <bundle start-level="80">mvn:com.instana/sensor-java/1.2.64</bundle>
   </feature>
 
-  <feature name="instana-java-trace-sensor" version="1.2.256">
+  <feature name="instana-java-trace-sensor" version="1.2.257">
     <feature version="[1.2.59,2)">instana-java-sensor</feature>
-    <bundle start-level="90">mvn:com.instana/sensor-java-trace/1.2.256</bundle>
+    <bundle start-level="90">mvn:com.instana/sensor-java-trace/1.2.257</bundle>
   </feature>
 
   <feature name="instana-jboss-as-sensor" version="1.1.31">
     <feature version="[1.2.58,2)">instana-java-sensor</feature>
     <bundle start-level="80">mvn:com.instana/sensor-jboss-as/1.1.31</bundle>
   </feature>
+
   <feature name="instana-jboss-as4-sensor" version="1.0.2">
     <feature version="[1.2.59,2)">instana-java-sensor</feature>
     <bundle start-level="80">mvn:com.instana/sensor-jboss-as4/1.0.2</bundle>
@@ -392,9 +393,9 @@
     <bundle start-level="80">mvn:com.instana/sensor-solr/1.0.8</bundle>
   </feature>
 
-  <feature name="instana-statsd-sensor" version="1.1.5">
+  <feature name="instana-statsd-sensor" version="1.1.6">
     <bundle start-level="80">mvn:org.hdrhistogram/HdrHistogram/2.1.10</bundle>
-    <bundle start-level="80">mvn:com.instana/sensor-statsd/1.1.5</bundle>
+    <bundle start-level="80">mvn:com.instana/sensor-statsd/1.1.6</bundle>
   </feature>
 
   <feature name="instana-spark-application-sensor" version="1.1.3">
