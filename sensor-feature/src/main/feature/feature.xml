@@ -157,8 +157,8 @@
     <bundle start-level="80">mvn:com.instana/sensor-glassfish/1.1.8</bundle>
   </feature>
 
-  <feature name="instana-golang-sensor" version="1.2.5">
-    <bundle start-level="80">mvn:com.instana/sensor-golang/1.2.5</bundle>
+  <feature name="instana-golang-sensor" version="1.2.6">
+    <bundle start-level="80">mvn:com.instana/sensor-golang/1.2.6</bundle>
   </feature>
 
   <feature name="instana-golang-trace-sensor" version="1.2.1">
