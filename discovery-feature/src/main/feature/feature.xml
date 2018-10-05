@@ -217,8 +217,8 @@
     <bundle start-level="80">mvn:com.instana/discovery-php-fpm/1.1.51</bundle>
   </feature>
 
-  <feature name="instana-ping-discovery" version="1.0.4">
-    <bundle start-level="80">mvn:com.instana/discovery-ping/1.0.4</bundle>
+  <feature name="instana-ping-discovery" version="1.0.5">
+    <bundle start-level="80">mvn:com.instana/discovery-ping/1.0.5</bundle>
   </feature>
 
   <feature name="instana-postgresql-discovery" version="1.0.27">
