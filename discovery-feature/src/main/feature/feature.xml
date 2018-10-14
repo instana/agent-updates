@@ -141,8 +141,8 @@
     <bundle start-level="80">mvn:com.instana/discovery-kafka/1.1.25</bundle>
   </feature>
 
-  <feature name="instana-kubernetes-discovery" version="1.1.32">
-    <bundle start-level="80">mvn:com.instana/discovery-kubernetes/1.1.32</bundle>
+  <feature name="instana-kubernetes-discovery" version="1.1.35">
+    <bundle start-level="80">mvn:com.instana/discovery-kubernetes/1.1.35</bundle>
   </feature>
 
   <feature name="instana-liferay-discovery" version="1.0.0">
@@ -185,8 +185,8 @@
     <bundle start-level="80">mvn:com.instana/discovery-netcore/1.0.3</bundle>
   </feature>
 
-  <feature name="instana-nginx-discovery" version="1.1.51">
-    <bundle start-level="80">mvn:com.instana/discovery-nginx/1.1.51</bundle>
+  <feature name="instana-nginx-discovery" version="1.1.55">
+    <bundle start-level="80">mvn:com.instana/discovery-nginx/1.1.55</bundle>
   </feature>
 
   <feature name="instana-nodejs-discovery" version="1.2.9">
@@ -205,8 +205,8 @@
     <bundle start-level="80">mvn:com.instana/discovery-openldap/1.0.7</bundle>
   </feature>
 
-  <feature name="instana-oracledb-discovery" version="1.1.5">
-    <bundle start-level="80">mvn:com.instana/discovery-oracledb/1.1.5</bundle>
+  <feature name="instana-oracledb-discovery" version="1.1.10">
+    <bundle start-level="80">mvn:com.instana/discovery-oracledb/1.1.10</bundle>
   </feature>
 
   <feature name="instana-php-cgi-discovery" version="1.0.0">

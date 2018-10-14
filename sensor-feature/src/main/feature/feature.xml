@@ -236,17 +236,17 @@
     <bundle start-level="80">mvn:com.instana/sensor-kafka/1.1.25</bundle>
   </feature>
 
-  <feature name="instana-kubernetes-sensor" version="1.1.32">
+  <feature name="instana-kubernetes-sensor" version="1.1.35">
     <bundle start-level="80">wrap:mvn:com.squareup.okio/okio/1.13.0</bundle>
     <bundle start-level="80">wrap:mvn:com.squareup.okhttp3/okhttp/3.9.1</bundle>
     <bundle start-level="80">wrap:mvn:com.squareup.okhttp3/logging-interceptor/3.9.1</bundle>
     <bundle start-level="80">wrap:mvn:io.fabric8/zjsonpatch/0.3.0/</bundle>
     <bundle start-level="80">wrap:mvn:com.github.mifmif/generex/1.0.1</bundle>
     <bundle start-level="80">mvn:javax.validation/validation-api/1.1.0.Final</bundle>
-    <bundle start-level="80">wrap:mvn:io.fabric8/kubernetes-model/2.0.9</bundle>
+    <bundle start-level="80">wrap:mvn:io.fabric8/kubernetes-model/2.1.0</bundle>
     <bundle start-level="80">mvn:io.fabric8/kubernetes-client/3.1.11//bundle</bundle>
     <bundle start-level="80">mvn:io.fabric8/openshift-client/3.1.11//bundle</bundle>
-    <bundle start-level="80">mvn:com.instana/sensor-kubernetes/1.1.32</bundle>
+    <bundle start-level="80">mvn:com.instana/sensor-kubernetes/1.1.35</bundle>
   </feature>
 
   <feature name="instana-liferay-sensor" version="1.0.0">
@@ -302,9 +302,9 @@
     <bundle start-level="80">mvn:com.instana/sensor-netcore/1.0.3</bundle>
   </feature>
 
-  <feature name="instana-nginx-sensor" version="1.1.51">
+  <feature name="instana-nginx-sensor" version="1.1.55">
     <bundle start-level="80">mvn:org.antlr/antlr4-runtime/4.5.3</bundle>
-    <bundle start-level="80">mvn:com.instana/sensor-nginx/1.1.51</bundle>
+    <bundle start-level="80">mvn:com.instana/sensor-nginx/1.1.55</bundle>
   </feature>
 
   <feature name="instana-nodejs-sensor" version="1.2.9">
@@ -331,9 +331,9 @@
     <bundle start-level="80">mvn:com.instana/sensor-openldap/1.0.7</bundle>
   </feature>
 
-  <feature name="instana-oracledb-sensor" version="1.1.5">
+  <feature name="instana-oracledb-sensor" version="1.1.10">
     <bundle start-level="80">wrap:mvn:com.oracle.jdbc/ojdbc7/12.1.0.2$Bundle-SymbolicName=ojdbc7&amp;Bundle-Version=12.1.0.2</bundle>
-    <bundle start-level="80">mvn:com.instana/sensor-oracledb/1.1.5</bundle>
+    <bundle start-level="80">mvn:com.instana/sensor-oracledb/1.1.10</bundle>
   </feature>
 
   <feature name="instana-php-fpm-sensor" version="1.1.51">
