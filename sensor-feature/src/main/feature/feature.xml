@@ -302,9 +302,9 @@
     <bundle start-level="80">mvn:com.instana/sensor-netcore/1.0.3</bundle>
   </feature>
 
-  <feature name="instana-nginx-sensor" version="1.1.55">
+  <feature name="instana-nginx-sensor" version="1.1.56">
     <bundle start-level="80">mvn:org.antlr/antlr4-runtime/4.5.3</bundle>
-    <bundle start-level="80">mvn:com.instana/sensor-nginx/1.1.55</bundle>
+    <bundle start-level="80">mvn:com.instana/sensor-nginx/1.1.56</bundle>
   </feature>
 
   <feature name="instana-nodejs-sensor" version="1.2.9">
