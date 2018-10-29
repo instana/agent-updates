@@ -319,6 +319,10 @@
     <bundle start-level="80">mvn:com.instana/sensor-nomad/1.0.2</bundle>
   </feature>
 
+  <feature name="instana-opc-sensor" version="1.1.0">
+    <bundle start-level="80">mvn:com.instana/sensor-opc/1.1.0</bundle>
+  </feature>
+
   <feature name="instana-openstack-nova-sensor" version="1.1.5">
     <bundle start-level="80">mvn:com.instana/sensor-openstack-nova/1.1.5</bundle>
   </feature>
