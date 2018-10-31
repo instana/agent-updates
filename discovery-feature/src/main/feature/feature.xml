@@ -233,8 +233,8 @@
     <bundle start-level="80">mvn:com.instana/discovery-process/1.1.30</bundle>
   </feature>
 
-  <feature name="instana-python-discovery" version="1.3.1">
-    <bundle start-level="80">mvn:com.instana/discovery-python/1.3.1</bundle>
+  <feature name="instana-python-discovery" version="1.3.2">
+    <bundle start-level="80">mvn:com.instana/discovery-python/1.3.2</bundle>
   </feature>
 
   <feature name="instana-redis-discovery" version="1.1.24">
