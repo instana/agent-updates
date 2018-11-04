@@ -388,8 +388,8 @@
     <bundle start-level="80">mvn:com.instana/sensor-process/1.1.30</bundle>
   </feature>
 
-  <feature name="instana-python-sensor" version="1.3.2">
-    <bundle start-level="80">mvn:com.instana/sensor-python/1.3.2</bundle>
+  <feature name="instana-python-sensor" version="1.3.3">
+    <bundle start-level="80">mvn:com.instana/sensor-python/1.3.3</bundle>
   </feature>
 
   <feature name="instana-python-trace-sensor" version="1.2.1">
