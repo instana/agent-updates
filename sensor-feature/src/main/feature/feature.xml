@@ -361,9 +361,9 @@
     <bundle start-level="80">mvn:com.instana/sensor-openldap/1.0.7</bundle>
   </feature>
 
-  <feature name="instana-oracledb-sensor" version="1.1.10">
+  <feature name="instana-oracledb-sensor" version="1.1.11">
     <bundle start-level="80">wrap:mvn:com.oracle.jdbc/ojdbc7/12.1.0.2$Bundle-SymbolicName=ojdbc7&amp;Bundle-Version=12.1.0.2</bundle>
-    <bundle start-level="80">mvn:com.instana/sensor-oracledb/1.1.10</bundle>
+    <bundle start-level="80">mvn:com.instana/sensor-oracledb/1.1.11</bundle>
   </feature>
 
   <feature name="instana-php-fpm-sensor" version="1.1.51">
