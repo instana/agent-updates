@@ -170,6 +170,10 @@
     <bundle start-level="80">mvn:com.instana/sensor-finagle/1.1.0</bundle>
   </feature>
 
+  <feature name="instana-garden-sensor" version="1.0.0">
+    <bundle start-level="80">mvn:com.instana/sensor-garden/1.0.0</bundle>
+  </feature>
+
   <feature name="instana-gce-sensor" version="1.1.7">
     <bundle start-level="80">mvn:com.instana/sensor-gce/1.1.7</bundle>
   </feature>
