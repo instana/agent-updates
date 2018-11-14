@@ -21,6 +21,10 @@
     <bundle start-level="80">mvn:com.instana/discovery-ceph/1.1.0</bundle>
   </feature>
 
+  <feature name="instana-cpp-discovery" version="1.0.0">
+    <bundle start-level="80">mvn:com.instana/discovery-cpp/1.0.0</bundle>
+  </feature>
+
   <feature name="instana-consul-discovery" version="1.0.10">
     <bundle start-level="80">mvn:com.instana/discovery-consul/1.0.10</bundle>
   </feature>
