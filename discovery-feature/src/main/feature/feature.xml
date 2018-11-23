@@ -5,8 +5,8 @@
     <bundle start-level="80">mvn:com.instana/discovery-activemq/1.1.8</bundle>
   </feature>
 
-  <feature name="instana-azure-discovery" version="1.1.7">
-    <bundle start-level="80">mvn:com.instana/discovery-azure/1.1.7</bundle>
+  <feature name="instana-azure-discovery" version="1.1.8">
+    <bundle start-level="80">mvn:com.instana/discovery-azure/1.1.8</bundle>
   </feature>7
 
   <feature name="instana-aws-discovery" version="1.0.34">

@@ -6,35 +6,40 @@
     <bundle start-level="80">mvn:com.instana/sensor-activemq/1.1.8</bundle>
   </feature>
 
-  <feature name="instana-azure-sdk" version="1.1.7">
+  <feature name="instana-azure-sdk" version="1.1.8">
     <bundle start-level="80">wrap:mvn:com.squareup.okhttp3/okhttp/3.11.0</bundle>
     <bundle start-level="80">wrap:mvn:com.squareup.okio/okio/1.14.0</bundle>
-    <bundle start-level="80">mvn:com.instana/instana-azure-sdk/1.1.7</bundle>
+    <bundle start-level="80">mvn:com.instana/instana-azure-sdk/1.1.8</bundle>
   </feature>
 
-  <feature name="instana-azure-sensor" version="1.1.7">
-    <bundle start-level="80">mvn:com.instana/sensor-azure/1.1.7</bundle>
+  <feature name="instana-azure-sensor" version="1.1.8">
+    <bundle start-level="80">mvn:com.instana/sensor-azure/1.1.8</bundle>
   </feature>
 
-  <feature name="instana-azure-services-discovery" version="1.1.7">
-    <feature version="[1.1.7,2)">instana-azure-sdk</feature>
-    <bundle start-level="80">mvn:com.instana/discovery-azure-services/1.1.7</bundle>
+  <feature name="instana-azure-services-discovery" version="1.1.8">
+    <feature version="[1.1.8,2)">instana-azure-sdk</feature>
+    <bundle start-level="80">mvn:com.instana/discovery-azure-services/1.1.8</bundle>
   </feature>
 
-  <feature name="instana-azure-appservice-sensor" version="1.1.7">
-    <feature version="[1.1.7,2)">instana-azure-sdk</feature>
-    <bundle start-level="80">mvn:com.instana/sensor-azure-appservice/1.1.7</bundle>
+  <feature name="instana-azure-appservice-sensor" version="1.1.8">
+    <feature version="[1.1.8,2)">instana-azure-sdk</feature>
+    <bundle start-level="80">mvn:com.instana/sensor-azure-appservice/1.1.8</bundle>
   </feature>
 
-  <feature name="instana-azure-rediscache-sensor" version="1.1.7">
-    <feature version="[1.1.7,2)">instana-azure-sdk</feature>
-    <bundle start-level="80">mvn:com.instana/sensor-azure-rediscache/1.1.7</bundle>
+  <feature name="instana-azure-rediscache-sensor" version="1.1.8">
+    <feature version="[1.1.8,2)">instana-azure-sdk</feature>
+    <bundle start-level="80">mvn:com.instana/sensor-azure-rediscache/1.1.8</bundle>
   </feature>
 
-  <feature name="instana-azure-cosmosdb-sensor" version="1.1.7">
-    <feature version="[1.1.7,2)">instana-azure-sdk</feature>
-    <bundle start-level="80">mvn:com.instana/sensor-azure-cosmosdb/1.1.7</bundle>
+  <feature name="instana-azure-cosmosdb-sensor" version="1.1.8">
+    <feature version="[1.1.8,2)">instana-azure-sdk</feature>
+    <bundle start-level="80">mvn:com.instana/sensor-azure-cosmosdb/1.1.8</bundle>
   </feature>
+
+  <feature name="instana-azure-storage-sensor" version="1.1.8">
+    <feature version="[1.1.8,2)">instana-azure-sdk</feature>
+    <bundle start-level="80">mvn:com.instana/sensor-azure-storage/1.1.8</bundle>
+  </feature>  
 
   <feature name="instana-aws-sdk" version="1.11.268">
     <bundle start-level="80">wrap:mvn:javax.mail/mail/1.4.7</bundle>
