@@ -5,8 +5,8 @@
     <bundle start-level="80">mvn:com.instana/discovery-activemq/1.1.8</bundle>
   </feature>
 
-  <feature name="instana-azure-discovery" version="1.1.7">
-    <bundle start-level="80">mvn:com.instana/discovery-azure/1.1.7</bundle>
+  <feature name="instana-azure-discovery" version="1.1.8">
+    <bundle start-level="80">mvn:com.instana/discovery-azure/1.1.8</bundle>
   </feature>7
 
   <feature name="instana-aws-discovery" version="1.0.34">
@@ -137,8 +137,8 @@
     <bundle start-level="80">mvn:com.instana/discovery-jboss-datagrid/1.1.10</bundle>
   </feature>
 
-  <feature name="instana-jetty-discovery" version="1.1.9">
-    <bundle start-level="80">mvn:com.instana/discovery-jetty/1.1.9</bundle>
+  <feature name="instana-jetty-discovery" version="1.1.10">
+    <bundle start-level="80">mvn:com.instana/discovery-jetty/1.1.10</bundle>
   </feature>
 
   <feature name="instana-jira-discovery" version="1.1.11">
@@ -261,8 +261,8 @@
     <bundle start-level="80">mvn:com.instana/discovery-sap-hana/1.1.0</bundle>
   </feature>
 
-  <feature name="instana-solr-discovery" version="1.0.8">
-    <bundle start-level="80">mvn:com.instana/discovery-solr/1.0.8</bundle>
+  <feature name="instana-solr-discovery" version="1.0.9">
+    <bundle start-level="80">mvn:com.instana/discovery-solr/1.0.9</bundle>
   </feature>
 
   <feature name="instana-statsd-discovery" version="1.1.6">
