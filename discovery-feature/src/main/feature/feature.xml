@@ -1,16 +1,16 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
 <features name="${project.artifactId}-${project.version}" xmlns="http://karaf.apache.org/xmlns/features/v1.3.0">
 
-  <feature name="instana-activemq-discovery" version="1.1.8">
-    <bundle start-level="80">mvn:com.instana/discovery-activemq/1.1.8</bundle>
+  <feature name="instana-activemq-discovery" version="1.1.9">
+    <bundle start-level="80">mvn:com.instana/discovery-activemq/1.1.9</bundle>
   </feature>
 
   <feature name="instana-azure-discovery" version="1.1.8">
     <bundle start-level="80">mvn:com.instana/discovery-azure/1.1.8</bundle>
   </feature>7
 
-  <feature name="instana-aws-discovery" version="1.0.34">
-    <bundle start-level="80">mvn:com.instana/discovery-aws/1.0.34</bundle>
+  <feature name="instana-aws-discovery" version="1.0.35">
+    <bundle start-level="80">mvn:com.instana/discovery-aws/1.0.35</bundle>
   </feature>
 
   <feature name="instana-cassandra-discovery" version="1.1.29">
@@ -25,8 +25,8 @@
     <bundle start-level="80">mvn:com.instana/discovery-cpp/1.0.0</bundle>
   </feature>
 
-  <feature name="instana-consul-discovery" version="1.0.10">
-    <bundle start-level="80">mvn:com.instana/discovery-consul/1.0.10</bundle>
+  <feature name="instana-consul-discovery" version="1.0.12">
+    <bundle start-level="80">mvn:com.instana/discovery-consul/1.0.12</bundle>
   </feature>
 
   <feature name="instana-clickhouse-discovery" version="1.0.8">
@@ -61,8 +61,8 @@
     <bundle start-level="80">mvn:com.instana/discovery-elasticsearch/1.1.48</bundle>
   </feature>
 
-  <feature name="instana-etcd-discovery" version="1.0.12">
-    <bundle start-level="80">mvn:com.instana/discovery-etcd/1.0.12</bundle>
+  <feature name="instana-etcd-discovery" version="1.0.13">
+    <bundle start-level="80">mvn:com.instana/discovery-etcd/1.0.13</bundle>
   </feature>
 
   <feature name="instana-f5-discovery" version="1.0.1">
@@ -149,8 +149,8 @@
     <bundle start-level="80">mvn:com.instana/discovery-kafka/1.1.25</bundle>
   </feature>
 
-  <feature name="instana-kubernetes-discovery" version="1.2.9">
-    <bundle start-level="80">mvn:com.instana/discovery-kubernetes/1.2.9</bundle>
+  <feature name="instana-kubernetes-discovery" version="1.2.10">
+    <bundle start-level="80">mvn:com.instana/discovery-kubernetes/1.2.10</bundle>
   </feature>
 
   <feature name="instana-liferay-discovery" version="1.0.0">
@@ -193,8 +193,8 @@
     <bundle start-level="80">mvn:com.instana/discovery-netcore/1.0.5</bundle>
   </feature>
 
-  <feature name="instana-nginx-discovery" version="1.1.59">
-    <bundle start-level="80">mvn:com.instana/discovery-nginx/1.1.59</bundle>
+  <feature name="instana-nginx-discovery" version="1.1.60">
+    <bundle start-level="80">mvn:com.instana/discovery-nginx/1.1.60</bundle>
   </feature>
 
   <feature name="instana-nodejs-discovery" version="1.2.9">
