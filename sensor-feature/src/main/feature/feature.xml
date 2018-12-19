@@ -185,8 +185,8 @@
     <bundle start-level="80">mvn:com.instana/sensor-elasticsearch/1.1.48</bundle>
   </feature>
 
-  <feature name="instana-etcd-sensor" version="1.0.13">
-    <bundle start-level="80">mvn:com.instana/sensor-etcd/1.0.13</bundle>
+  <feature name="instana-etcd-sensor" version="1.0.14">
+    <bundle start-level="80">mvn:com.instana/sensor-etcd/1.0.14</bundle>
   </feature>
 
   <feature name="instana-f5-sensor" version="1.0.1">
@@ -248,8 +248,8 @@
     <bundle start-level="80">mvn:com.instana/sensor-hbase/1.1.0</bundle>
   </feature>
 
-  <feature name="instana-host-sensor" version="1.1.103">
-    <bundle start-level="80">mvn:com.instana/sensor-host/1.1.103</bundle>
+  <feature name="instana-host-sensor" version="1.1.104">
+    <bundle start-level="80">mvn:com.instana/sensor-host/1.1.104</bundle>
   </feature>
 
   <feature name="instana-httpd-sensor" version="1.1.87">
@@ -295,7 +295,7 @@
     <bundle start-level="80">mvn:com.instana/sensor-kafka/1.1.25</bundle>
   </feature>
 
-  <feature name="instana-kubernetes-sensor" version="1.2.16">
+  <feature name="instana-kubernetes-sensor" version="1.2.17">
     <bundle start-level="80">wrap:mvn:com.squareup.okio/okio/1.14.0</bundle>
     <bundle start-level="80">wrap:mvn:com.squareup.okhttp3/okhttp/3.12.0</bundle>
     <bundle start-level="80">wrap:mvn:com.squareup.okhttp3/logging-interceptor/3.12.0</bundle>
@@ -305,7 +305,7 @@
     <bundle start-level="80">wrap:mvn:io.fabric8/kubernetes-model/2.1.0</bundle>
     <bundle start-level="80">mvn:io.fabric8/kubernetes-client/3.1.13//bundle</bundle>
     <bundle start-level="80">mvn:io.fabric8/openshift-client/3.1.13//bundle</bundle>
-    <bundle start-level="80">mvn:com.instana/sensor-kubernetes/1.2.16</bundle>
+    <bundle start-level="80">mvn:com.instana/sensor-kubernetes/1.2.17</bundle>
   </feature>
 
   <feature name="instana-liferay-sensor" version="1.0.0">
@@ -403,8 +403,8 @@
     <bundle start-level="80">mvn:com.instana/sensor-php-fpm/1.1.52</bundle>
   </feature>
 
-  <feature name="instana-php-sensor" version="1.0.97">
-    <bundle start-level="90">mvn:com.instana/sensor-php/1.0.97</bundle>
+  <feature name="instana-php-sensor" version="1.0.98">
+    <bundle start-level="90">mvn:com.instana/sensor-php/1.0.98</bundle>
   </feature>
 
   <feature name="instana-ping-sensor" version="1.0.5">
