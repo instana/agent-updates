@@ -190,8 +190,8 @@
     <bundle start-level="80">mvn:com.instana/sensor-elasticsearch/1.1.48</bundle>
   </feature>
 
-  <feature name="instana-etcd-sensor" version="1.0.17">
-    <bundle start-level="80">mvn:com.instana/sensor-etcd/1.0.17</bundle>
+  <feature name="instana-etcd-sensor" version="1.0.18">
+    <bundle start-level="80">mvn:com.instana/sensor-etcd/1.0.18</bundle>
   </feature>
 
   <feature name="instana-f5-sensor" version="1.0.1">
