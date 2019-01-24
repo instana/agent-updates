@@ -221,6 +221,10 @@
     <bundle start-level="80">mvn:com.instana/discovery-oracledb/1.1.13</bundle>
   </feature>
 
+  <feature name="instana-packet-discovery" version="1.1.0">
+    <bundle start-level="90">mvn:com.instana/discovery-packet/1.1.0</bundle>
+  </feature>
+
   <feature name="instana-php-cgi-discovery" version="1.0.0">
     <bundle start-level="80">mvn:com.instana/discovery-php-cgi/1.0.0</bundle>
   </feature>
