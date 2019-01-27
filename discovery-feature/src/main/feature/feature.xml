@@ -33,8 +33,8 @@
     <bundle start-level="80">mvn:com.instana/discovery-clickhouse/1.0.8</bundle>
   </feature>
 
-  <feature name="instana-clr-discovery" version="1.1.11">
-    <bundle start-level="80">mvn:com.instana/discovery-clr/1.1.11</bundle>
+  <feature name="instana-clr-discovery" version="1.1.12">
+    <bundle start-level="80">mvn:com.instana/discovery-clr/1.1.12</bundle>
   </feature>
 
   <feature name="instana-couchbase-discovery" version="1.0.2">
@@ -105,6 +105,10 @@
     <bundle start-level="80">mvn:com.instana/discovery-haproxy/1.1.16</bundle>
   </feature>
 
+  <feature name="instana-haskell-discovery" version="1.2.4">
+    <bundle start-level="80">mvn:com.instana/discovery-haskell/1.0.0</bundle>
+  </feature>
+
   <feature name="instana-hazelcast-discovery" version="1.1.0">
     <bundle start-level="80">mvn:com.instana/discovery-hazelcast/1.1.0</bundle>
   </feature>
@@ -121,8 +125,8 @@
     <bundle start-level="80">mvn:com.instana/discovery-httpd/1.1.87</bundle>
   </feature>
 
-  <feature name="instana-java-discovery" version="1.2.74">
-    <bundle start-level="80">mvn:com.instana/discovery-java/1.2.74</bundle>
+  <feature name="instana-java-discovery" version="1.2.75">
+    <bundle start-level="80">mvn:com.instana/discovery-java/1.2.75</bundle>
   </feature>
 
   <feature name="instana-jboss-as-discovery" version="1.1.35">
@@ -221,8 +225,12 @@
     <bundle start-level="80">mvn:com.instana/discovery-oracledb/1.1.13</bundle>
   </feature>
 
+  <feature name="instana-perfcounters-discovery" version="1.0.0">
+    <bundle start-level="80">mvn:com.instana/discovery-perfcounters/1.0.0</bundle>
+  </feature>
+  
   <feature name="instana-packet-discovery" version="1.1.0">
-    <bundle start-level="90">mvn:com.instana/discovery-packet/1.1.0</bundle>
+    <bundle start-level="80">mvn:com.instana/discovery-packet/1.1.0</bundle>
   </feature>
 
   <feature name="instana-php-cgi-discovery" version="1.0.0">
