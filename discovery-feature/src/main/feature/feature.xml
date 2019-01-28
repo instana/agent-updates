@@ -125,8 +125,8 @@
     <bundle start-level="80">mvn:com.instana/discovery-httpd/1.1.87</bundle>
   </feature>
 
-  <feature name="instana-java-discovery" version="1.2.75">
-    <bundle start-level="80">mvn:com.instana/discovery-java/1.2.75</bundle>
+  <feature name="instana-java-discovery" version="1.2.76">
+    <bundle start-level="80">mvn:com.instana/discovery-java/1.2.76</bundle>
   </feature>
 
   <feature name="instana-jboss-as-discovery" version="1.1.35">
@@ -257,8 +257,8 @@
     <bundle start-level="80">mvn:com.instana/discovery-prometheus/1.0.0</bundle>
   </feature>
 
-  <feature name="instana-python-discovery" version="1.4.0">
-    <bundle start-level="80">mvn:com.instana/discovery-python/1.4.0</bundle>
+  <feature name="instana-python-discovery" version="1.5.0">
+    <bundle start-level="80">mvn:com.instana/discovery-python/1.5.0</bundle>
   </feature>
 
   <feature name="instana-redis-discovery" version="1.1.24">
