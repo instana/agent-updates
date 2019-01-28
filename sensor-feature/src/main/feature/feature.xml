@@ -535,4 +535,9 @@
   <feature name="jta-spec" version="1.1.1">
     <bundle start-level="80">mvn:org.apache.geronimo.specs/geronimo-jta_1.1_spec/1.1.1</bundle>
   </feature>
+
+  <feature name="instana-ping-directory-sensor" version="1.0.0">
+    <feature version="[1.2.67,2)">instana-java-sensor</feature>
+    <bundle start-level="80">mvn:com.instana/sensor-ping-directory/1.0.0</bundle>
+  </feature>
 </features>
