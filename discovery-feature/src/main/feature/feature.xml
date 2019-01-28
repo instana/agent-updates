@@ -133,8 +133,8 @@
     <bundle start-level="80">mvn:com.instana/discovery-jboss-as/1.1.35</bundle>
   </feature>
 
-  <feature name="instana-jboss-as4-discovery" version="1.0.2">
-    <bundle start-level="80">mvn:com.instana/discovery-jboss-as4/1.0.2</bundle>
+  <feature name="instana-jboss-as4-discovery" version="1.0.3">
+    <bundle start-level="80">mvn:com.instana/discovery-jboss-as4/1.0.3</bundle>
   </feature>
 
   <feature name="instana-jboss-datagrid-discovery" version="1.1.10">
@@ -251,6 +251,10 @@
 
   <feature name="instana-process-discovery" version="1.1.30">
     <bundle start-level="80">mvn:com.instana/discovery-process/1.1.30</bundle>
+  </feature>
+
+  <feature name="instana-prometheus-discovery" version="1.0.0">
+    <bundle start-level="80">mvn:com.instana/discovery-prometheus/1.0.0</bundle>
   </feature>
 
   <feature name="instana-python-discovery" version="1.4.0">

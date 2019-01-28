@@ -283,9 +283,9 @@
     <bundle start-level="80">mvn:com.instana/sensor-jboss-as/1.1.35</bundle>
   </feature>
 
-  <feature name="instana-jboss-as4-sensor" version="1.0.2">
+  <feature name="instana-jboss-as4-sensor" version="1.0.3">
     <feature version="[1.2.59,2)">instana-java-sensor</feature>
-    <bundle start-level="80">mvn:com.instana/sensor-jboss-as4/1.0.2</bundle>
+    <bundle start-level="80">mvn:com.instana/sensor-jboss-as4/1.0.3</bundle>
   </feature>
 
   <feature name="instana-jboss-datagrid-sensor" version="1.1.10">
@@ -441,6 +441,10 @@
 
   <feature name="instana-process-sensor" version="1.1.30">
     <bundle start-level="80">mvn:com.instana/sensor-process/1.1.30</bundle>
+  </feature>
+
+  <feature name="instana-prometheus-sensor" version="1.0.0">
+    <bundle start-level="80">mvn:com.instana/sensor-prometheus/1.0.0</bundle>
   </feature>
 
   <feature name="instana-python-sensor" version="1.4.0">
