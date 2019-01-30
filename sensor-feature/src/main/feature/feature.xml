@@ -243,12 +243,12 @@
     <bundle start-level="80">mvn:com.instana/sensor-haproxy/1.1.16</bundle>
   </feature>
 
-  <feature name="instana-haskell-sensor" version="1.0.0">
-    <bundle start-level="80">mvn:com.instana/sensor-haskell/1.0.0</bundle>
+  <feature name="instana-haskell-sensor" version="1.0.1">
+    <bundle start-level="80">mvn:com.instana/sensor-haskell/1.0.1</bundle>
   </feature>
 
-  <feature name="instana-haskell-trace-sensor" version="1.0.0">
-    <bundle start-level="90">mvn:com.instana/sensor-haskell-trace/1.0.0</bundle>
+  <feature name="instana-haskell-trace-sensor" version="1.0.1">
+    <bundle start-level="90">mvn:com.instana/sensor-haskell-trace/1.0.1</bundle>
   </feature>
 
   <feature name="instana-hazelcast-sensor" version="1.1.0">
