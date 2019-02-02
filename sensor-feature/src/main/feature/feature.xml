@@ -190,8 +190,8 @@
     <bundle start-level="80">mvn:com.instana/sensor-elasticsearch/1.1.49</bundle>
   </feature>
 
-  <feature name="instana-etcd-sensor" version="1.0.18">
-    <bundle start-level="80">mvn:com.instana/sensor-etcd/1.0.18</bundle>
+  <feature name="instana-etcd-sensor" version="1.0.19">
+    <bundle start-level="80">mvn:com.instana/sensor-etcd/1.0.19</bundle>
   </feature>
 
   <feature name="instana-f5-sensor" version="1.0.1">
@@ -261,8 +261,8 @@
     <bundle start-level="80">mvn:com.instana/sensor-hbase/1.1.0</bundle>
   </feature>
 
-  <feature name="instana-host-sensor" version="1.1.105">
-    <bundle start-level="80">mvn:com.instana/sensor-host/1.1.105</bundle>
+  <feature name="instana-host-sensor" version="1.1.106">
+    <bundle start-level="80">mvn:com.instana/sensor-host/1.1.106</bundle>
   </feature>
 
   <feature name="instana-httpd-sensor" version="1.1.87">
@@ -452,8 +452,8 @@
     <bundle start-level="80">mvn:com.instana/sensor-prometheus/1.0.0</bundle>
   </feature>
 
-  <feature name="instana-python-sensor" version="1.5.1">
-    <bundle start-level="80">mvn:com.instana/sensor-python/1.5.1</bundle>
+  <feature name="instana-python-sensor" version="1.5.2">
+    <bundle start-level="80">mvn:com.instana/sensor-python/1.5.2</bundle>
   </feature>
 
   <feature name="instana-python-trace-sensor" version="1.2.1">
