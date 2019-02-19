@@ -153,8 +153,8 @@
     <bundle start-level="80">mvn:com.instana/discovery-kafka/1.1.25</bundle>
   </feature>
 
-  <feature name="instana-kubernetes-discovery" version="1.2.34">
-    <bundle start-level="80">mvn:com.instana/discovery-kubernetes/1.2.34</bundle>
+  <feature name="instana-kubernetes-discovery" version="1.2.36">
+    <bundle start-level="80">mvn:com.instana/discovery-kubernetes/1.2.36</bundle>
   </feature>
 
   <feature name="instana-liferay-discovery" version="1.0.0">
@@ -228,7 +228,7 @@
   <feature name="instana-perfcounters-discovery" version="1.0.0">
     <bundle start-level="80">mvn:com.instana/discovery-perfcounters/1.0.0</bundle>
   </feature>
-  
+
   <feature name="instana-packet-discovery" version="1.1.0">
     <bundle start-level="80">mvn:com.instana/discovery-packet/1.1.0</bundle>
   </feature>
