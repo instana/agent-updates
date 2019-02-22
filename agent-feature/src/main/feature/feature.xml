@@ -1,11 +1,10 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
 <features name="${project.artifactId}-${project.version}" xmlns="http://karaf.apache.org/xmlns/features/v1.3.0" >
 
-  <feature name="instana-init" description="Instana Init" version="1.0.1">
-    <bundle start-level="55">mvn:com.instana/agent-init/1.0.1</bundle>
-  </feature>
-
- <feature name="instana-apache-commons" description="Shared Apache Commons Libs" version="1.1.7">
+  <!-- Starting with agent bootstrap 1.2.3, these third party features are omitted, because they are included in bootstrap  -->
+  <!-- They are only defined here for backwards compatibility with old agents  -->
+  <!-- See com.instana.agent.bootstrap.impl.FeaturesManagerImpl -->
+  <feature name="instana-apache-commons" description="Shared Apache Commons Libs" version="1.1.7">
     <bundle start-level="60">mvn:commons-io/commons-io/2.6</bundle>
     <bundle start-level="60">mvn:org.apache.commons/commons-configuration2/2.2</bundle>
     <bundle start-level="60">mvn:org.apache.commons/commons-collections4/4.1</bundle>
@@ -36,6 +35,11 @@
     <bundle start-level="60">mvn:io.netty/netty-resolver/4.1.30.Final</bundle>
     <bundle start-level="60">mvn:io.netty/netty-resolver-dns/4.1.30.Final</bundle>
     <bundle start-level="60">mvn:io.netty/netty-transport/4.1.30.Final</bundle>
+  </feature>
+  <!-- End of third party features skipped by bootstrap 1.2.3 -->
+
+  <feature name="instana-init" description="Instana Init" version="1.0.1">
+    <bundle start-level="55">mvn:com.instana/agent-init/1.0.1</bundle>
   </feature>
 
   <feature name="instana-jctools2" description="Instana JCTools 2" version="2.1.1">
