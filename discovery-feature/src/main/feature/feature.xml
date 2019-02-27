@@ -45,8 +45,8 @@
     <bundle start-level="80">mvn:com.instana/discovery-crystal/1.1.1</bundle>
   </feature>
 
-  <feature name="instana-docker-discovery" version="1.1.51">
-    <bundle start-level="80">mvn:com.instana/discovery-docker/1.1.51</bundle>
+  <feature name="instana-docker-discovery" version="1.1.52">
+    <bundle start-level="80">mvn:com.instana/discovery-docker/1.1.52</bundle>
   </feature>
 
   <feature name="instana-dropwizard-discovery" version="1.1.18">
@@ -153,8 +153,8 @@
     <bundle start-level="80">mvn:com.instana/discovery-kafka/1.1.25</bundle>
   </feature>
 
-  <feature name="instana-kubernetes-discovery" version="1.2.37">
-    <bundle start-level="80">mvn:com.instana/discovery-kubernetes/1.2.37</bundle>
+  <feature name="instana-kubernetes-discovery" version="1.2.38">
+    <bundle start-level="80">mvn:com.instana/discovery-kubernetes/1.2.38</bundle>
   </feature>
 
   <feature name="instana-liferay-discovery" version="1.0.0">
@@ -169,8 +169,8 @@
     <bundle start-level="80">mvn:com.instana/discovery-memcached/1.0.15</bundle>
   </feature>
 
-  <feature name="instana-mongodb-discovery" version="1.1.38">
-    <bundle start-level="80">mvn:com.instana/discovery-mongodb/1.1.38</bundle>
+  <feature name="instana-mongodb-discovery" version="1.1.39">
+    <bundle start-level="80">mvn:com.instana/discovery-mongodb/1.1.39</bundle>
   </feature>
 
   <feature name="instana-mysql-discovery" version="1.1.58">
@@ -249,8 +249,8 @@
     <bundle start-level="80">mvn:com.instana/discovery-ping-directory/1.0.1</bundle>
   </feature>
 
-  <feature name="instana-postgresql-discovery" version="1.0.28">
-    <bundle start-level="80">mvn:com.instana/discovery-postgresql/1.0.28</bundle>
+  <feature name="instana-postgresql-discovery" version="1.0.29">
+    <bundle start-level="80">mvn:com.instana/discovery-postgresql/1.0.29</bundle>
   </feature>
 
   <feature name="instana-process-discovery" version="1.1.31">

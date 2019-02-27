@@ -192,8 +192,8 @@
     <bundle start-level="90">mvn:com.instana/sensor-crystal-trace/1.0.1</bundle>
   </feature>
 
-  <feature name="instana-docker-sensor" version="1.1.51">
-    <bundle start-level="80">mvn:com.instana/sensor-docker/1.1.51</bundle>
+  <feature name="instana-docker-sensor" version="1.1.52">
+    <bundle start-level="80">mvn:com.instana/sensor-docker/1.1.52</bundle>
   </feature>
 
   <feature name="instana-dropwizard-sensor" version="1.1.18">
@@ -293,9 +293,9 @@
     <bundle start-level="80">mvn:com.instana/sensor-java/1.2.78</bundle>
   </feature>
 
-  <feature name="instana-java-trace-sensor" version="1.2.282">
+  <feature name="instana-java-trace-sensor" version="1.2.283">
     <feature version="[1.2.59,2)">instana-java-sensor</feature>
-    <bundle start-level="90">mvn:com.instana/sensor-java-trace/1.2.282</bundle>
+    <bundle start-level="90">mvn:com.instana/sensor-java-trace/1.2.283</bundle>
   </feature>
 
   <feature name="instana-jboss-as-sensor" version="1.1.36">
@@ -328,7 +328,7 @@
     <bundle start-level="80">mvn:com.instana/sensor-kafka/1.1.25</bundle>
   </feature>
 
-  <feature name="instana-kubernetes-sensor" version="1.2.37">
+  <feature name="instana-kubernetes-sensor" version="1.2.38">
     <bundle start-level="80">wrap:mvn:com.squareup.okio/okio/1.14.0</bundle>
     <bundle start-level="80">wrap:mvn:com.squareup.okhttp3/okhttp/3.12.0</bundle>
     <bundle start-level="80">wrap:mvn:com.squareup.okhttp3/logging-interceptor/3.12.0</bundle>
@@ -338,7 +338,7 @@
     <bundle start-level="80">wrap:mvn:io.fabric8/kubernetes-model/4.1.1</bundle>
     <bundle start-level="80">mvn:io.fabric8/kubernetes-client/4.1.1//bundle</bundle>
     <bundle start-level="80">mvn:io.fabric8/openshift-client/4.1.1//bundle</bundle>
-    <bundle start-level="80">mvn:com.instana/sensor-kubernetes/1.2.37</bundle>
+    <bundle start-level="80">mvn:com.instana/sensor-kubernetes/1.2.38</bundle>
   </feature>
 
   <feature name="instana-liferay-sensor" version="1.0.0">
@@ -360,9 +360,9 @@
     <bundle start-level="80">mvn:com.instana/sensor-memcached/1.0.15</bundle>
   </feature>
 
-  <feature name="instana-mongodb-sensor" version="1.1.38">
-    <bundle start-level="80">mvn:org.mongodb/mongo-java-driver/3.7.1</bundle>
-    <bundle start-level="80">mvn:com.instana/sensor-mongodb/1.1.38</bundle>
+  <feature name="instana-mongodb-sensor" version="1.1.39">
+    <bundle start-level="80">mvn:org.mongodb/mongo-java-driver/3.10.1</bundle>
+    <bundle start-level="80">mvn:com.instana/sensor-mongodb/1.1.39</bundle>
   </feature>
 
   <feature name="instana-mysql-sensor" version="1.1.58">
@@ -458,10 +458,10 @@
     <bundle start-level="80">mvn:com.instana/sensor-ping-directory/1.0.1</bundle>
   </feature>
 
-  <feature name="instana-postgresql-sensor" version="1.0.28">
+  <feature name="instana-postgresql-sensor" version="1.0.29">
     <feature version="[1.1,2)">jta-spec</feature>
-    <bundle start-level="80">mvn:org.postgresql/postgresql/42.1.4</bundle>
-    <bundle start-level="80">mvn:com.instana/sensor-postgresql/1.0.28</bundle>
+    <bundle start-level="80">mvn:org.postgresql/postgresql/42.2.5</bundle>
+    <bundle start-level="80">mvn:com.instana/sensor-postgresql/1.0.29</bundle>
   </feature>
 
   <feature name="instana-process-sensor" version="1.1.31">
