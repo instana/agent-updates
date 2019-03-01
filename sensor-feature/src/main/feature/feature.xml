@@ -453,9 +453,9 @@
     <bundle start-level="80">mvn:com.instana/sensor-ping/1.0.5</bundle>
   </feature>
 
-  <feature name="instana-ping-directory-sensor" version="1.0.1">
-    <feature version="[1.2.67,2)">instana-java-sensor</feature>
-    <bundle start-level="80">mvn:com.instana/sensor-ping-directory/1.0.1</bundle>
+  <feature name="instana-ping-directory-sensor" version="1.0.2">
+    <feature version="[1.2.79,2)">instana-java-sensor</feature>
+    <bundle start-level="80">mvn:com.instana/sensor-ping-directory/1.0.2</bundle>
   </feature>
 
   <feature name="instana-postgresql-sensor" version="1.0.29">
