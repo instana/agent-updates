@@ -9,8 +9,8 @@
     <bundle start-level="80">mvn:com.instana/discovery-azure/1.1.18</bundle>
   </feature>
 
-  <feature name="instana-aws-discovery" version="1.0.54">
-    <bundle start-level="80">mvn:com.instana/discovery-aws/1.0.54</bundle>
+  <feature name="instana-aws-discovery" version="1.0.55">
+    <bundle start-level="80">mvn:com.instana/discovery-aws/1.0.55</bundle>
   </feature>
 
   <feature name="instana-cassandra-discovery" version="1.1.31">
@@ -101,8 +101,8 @@
     <bundle start-level="80">mvn:com.instana/discovery-hadoop-yarn-node/1.1.0</bundle>
   </feature>
 
-  <feature name="instana-haproxy-discovery" version="1.1.17">
-    <bundle start-level="80">mvn:com.instana/discovery-haproxy/1.1.17</bundle>
+  <feature name="instana-haproxy-discovery" version="1.1.18">
+    <bundle start-level="80">mvn:com.instana/discovery-haproxy/1.1.18</bundle>
   </feature>
 
   <feature name="instana-haskell-discovery" version="1.0.1">
@@ -153,8 +153,8 @@
     <bundle start-level="80">mvn:com.instana/discovery-kafka/1.1.25</bundle>
   </feature>
 
-  <feature name="instana-kubernetes-discovery" version="1.2.38">
-    <bundle start-level="80">mvn:com.instana/discovery-kubernetes/1.2.38</bundle>
+  <feature name="instana-kubernetes-discovery" version="1.2.39">
+    <bundle start-level="80">mvn:com.instana/discovery-kubernetes/1.2.39</bundle>
   </feature>
 
   <feature name="instana-liferay-discovery" version="1.0.0">
