@@ -289,8 +289,8 @@
     <bundle start-level="80">mvn:com.instana/sensor-httpd/1.1.90</bundle>
   </feature>
 
-  <feature name="instana-java-sensor" version="1.2.79">
-    <bundle start-level="80">mvn:com.instana/sensor-java/1.2.79</bundle>
+  <feature name="instana-java-sensor" version="1.2.80">
+    <bundle start-level="80">mvn:com.instana/sensor-java/1.2.80</bundle>
   </feature>
 
   <feature name="instana-java-trace-sensor" version="1.2.284">
@@ -328,7 +328,7 @@
     <bundle start-level="80">mvn:com.instana/sensor-kafka/1.1.25</bundle>
   </feature>
 
-  <feature name="instana-kubernetes-sensor" version="1.2.39">
+  <feature name="instana-kubernetes-sensor" version="1.2.41">
     <bundle start-level="80">wrap:mvn:com.squareup.okio/okio/1.14.0</bundle>
     <bundle start-level="80">wrap:mvn:com.squareup.okhttp3/okhttp/3.12.0</bundle>
     <bundle start-level="80">wrap:mvn:com.squareup.okhttp3/logging-interceptor/3.12.0</bundle>
@@ -338,7 +338,7 @@
     <bundle start-level="80">wrap:mvn:io.fabric8/kubernetes-model/4.1.1</bundle>
     <bundle start-level="80">mvn:io.fabric8/kubernetes-client/4.1.1//bundle</bundle>
     <bundle start-level="80">mvn:io.fabric8/openshift-client/4.1.1//bundle</bundle>
-    <bundle start-level="80">mvn:com.instana/sensor-kubernetes/1.2.39</bundle>
+    <bundle start-level="80">mvn:com.instana/sensor-kubernetes/1.2.41</bundle>
   </feature>
 
   <feature name="instana-liferay-sensor" version="1.0.0">
@@ -360,9 +360,9 @@
     <bundle start-level="80">mvn:com.instana/sensor-memcached/1.0.15</bundle>
   </feature>
 
-  <feature name="instana-mongodb-sensor" version="1.1.39">
+  <feature name="instana-mongodb-sensor" version="1.1.40">
     <bundle start-level="80">mvn:org.mongodb/mongo-java-driver/3.10.1</bundle>
-    <bundle start-level="80">mvn:com.instana/sensor-mongodb/1.1.39</bundle>
+    <bundle start-level="80">mvn:com.instana/sensor-mongodb/1.1.40</bundle>
   </feature>
 
   <feature name="instana-mysql-sensor" version="1.1.58">
@@ -484,8 +484,8 @@
     <bundle start-level="80">mvn:com.instana/sensor-prometheus/1.0.1</bundle>
   </feature>
 
-  <feature name="instana-python-sensor" version="1.5.4">
-    <bundle start-level="80">mvn:com.instana/sensor-python/1.5.4</bundle>
+  <feature name="instana-python-sensor" version="1.5.5">
+    <bundle start-level="80">mvn:com.instana/sensor-python/1.5.5</bundle>
   </feature>
 
   <feature name="instana-python-trace-sensor" version="1.2.1">
