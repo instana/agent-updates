@@ -153,8 +153,8 @@
     <bundle start-level="80">mvn:com.instana/discovery-kafka/1.1.25</bundle>
   </feature>
 
-  <feature name="instana-kubernetes-discovery" version="1.2.42">
-    <bundle start-level="80">mvn:com.instana/discovery-kubernetes/1.2.42</bundle>
+  <feature name="instana-kubernetes-discovery" version="1.2.43">
+    <bundle start-level="80">mvn:com.instana/discovery-kubernetes/1.2.43</bundle>
   </feature>
 
   <feature name="instana-liferay-discovery" version="1.0.0">
@@ -237,8 +237,8 @@
     <bundle start-level="80">mvn:com.instana/discovery-php-cgi/1.0.0</bundle>
   </feature>
 
-  <feature name="instana-php-fpm-discovery" version="1.1.53">
-    <bundle start-level="80">mvn:com.instana/discovery-php-fpm/1.1.53</bundle>
+  <feature name="instana-php-fpm-discovery" version="1.1.54">
+    <bundle start-level="80">mvn:com.instana/discovery-php-fpm/1.1.54</bundle>
   </feature>
 
   <feature name="instana-ping-discovery" version="1.0.5">

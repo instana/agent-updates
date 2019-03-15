@@ -328,7 +328,7 @@
     <bundle start-level="80">mvn:com.instana/sensor-kafka/1.1.25</bundle>
   </feature>
 
-  <feature name="instana-kubernetes-sensor" version="1.2.42">
+  <feature name="instana-kubernetes-sensor" version="1.2.43">
     <bundle start-level="80">wrap:mvn:com.squareup.okio/okio/1.14.0</bundle>
     <bundle start-level="80">wrap:mvn:com.squareup.okhttp3/okhttp/3.12.0</bundle>
     <bundle start-level="80">wrap:mvn:com.squareup.okhttp3/logging-interceptor/3.12.0</bundle>
@@ -338,7 +338,7 @@
     <bundle start-level="80">wrap:mvn:io.fabric8/kubernetes-model/4.1.1</bundle>
     <bundle start-level="80">mvn:io.fabric8/kubernetes-client/4.1.1//bundle</bundle>
     <bundle start-level="80">mvn:io.fabric8/openshift-client/4.1.1//bundle</bundle>
-    <bundle start-level="80">mvn:com.instana/sensor-kubernetes/1.2.42</bundle>
+    <bundle start-level="80">mvn:com.instana/sensor-kubernetes/1.2.43</bundle>
   </feature>
 
   <feature name="instana-liferay-sensor" version="1.0.0">
@@ -440,9 +440,9 @@
     <bundle start-level="80">mvn:com.instana/sensor-packet/1.1.0</bundle>
   </feature>
 
-  <feature name="instana-php-fpm-sensor" version="1.1.53">
+  <feature name="instana-php-fpm-sensor" version="1.1.54">
     <bundle start-level="80">mvn:org.apache.commons/commons-configuration2/2.2</bundle>
-    <bundle start-level="80">mvn:com.instana/sensor-php-fpm/1.1.53</bundle>
+    <bundle start-level="80">mvn:com.instana/sensor-php-fpm/1.1.54</bundle>
   </feature>
 
   <feature name="instana-php-sensor" version="1.0.99">
