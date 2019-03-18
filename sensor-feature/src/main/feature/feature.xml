@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
 <features name="${project.artifactId}-${project.version}" xmlns="http://karaf.apache.org/xmlns/features/v1.3.0">
 
-  <feature name="instana-activemq-artemis-sensor" version="1.0.1">
+  <feature name="instana-activemq-artemis-sensor" version="1.0.2">
     <feature version="[1.2.45,2)">instana-java-sensor</feature>
-    <bundle start-level="80">mvn:com.instana/sensor-activemq-artemis/1.0.1</bundle>
+    <bundle start-level="80">mvn:com.instana/sensor-activemq-artemis/1.0.2</bundle>
   </feature>
 
   <feature name="instana-activemq-sensor" version="1.1.9">
