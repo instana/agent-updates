@@ -238,24 +238,24 @@
     <bundle start-level="80">mvn:com.instana/sensor-garden/1.0.0</bundle>
   </feature>
 
-  <feature name="instana-gce-sensor" version="1.1.8">
-    <bundle start-level="80">mvn:com.instana/sensor-gce/1.1.8</bundle>
+  <feature name="instana-gce-sensor" version="1.1.9">
+    <bundle start-level="80">mvn:com.instana/sensor-gce/1.1.9</bundle>
   </feature>
 
-  <feature name="instana-gce-sdk" version="1.1.8">
+  <feature name="instana-gce-sdk" version="1.1.9">
     <bundle start-level="80">wrap:mvn:com.squareup.okhttp3/okhttp/3.12.0</bundle>
     <bundle start-level="80">wrap:mvn:com.squareup.okio/okio/1.14.0</bundle>
-    <bundle start-level="80">mvn:com.instana/instana-gce-sdk/1.1.8</bundle>
+    <bundle start-level="80">mvn:com.instana/instana-gce-sdk/1.1.9</bundle>
   </feature>
 
-  <feature name="instana-gce-services-discovery" version="1.1.8">
-    <feature version="[1.1.8,2)">instana-gce-sdk</feature>
-    <bundle start-level="80">mvn:com.instana/discovery-gce-services/1.1.8</bundle>
+  <feature name="instana-gce-services-discovery" version="1.1.9">
+    <feature version="[1.1.9,2)">instana-gce-sdk</feature>
+    <bundle start-level="80">mvn:com.instana/discovery-gce-services/1.1.9</bundle>
   </feature>
 
-  <feature name="instana-gce-sql-sensor" version="1.1.8">
-    <feature version="[1.1.8,2)">instana-gce-sdk</feature>
-    <bundle start-level="80">mvn:com.instana/sensors-sql/1.1.8</bundle>
+  <feature name="instana-gcp-sql-sensor" version="1.1.9">
+    <feature version="[1.1.9,2)">instana-gce-sdk</feature>
+    <bundle start-level="80">mvn:com.instana/sensors-sql/1.1.9</bundle>
   </feature>
 
   <feature name="instana-generic-hardware-sensor" version="1.1.6">
