@@ -29,6 +29,10 @@
     <bundle start-level="80">mvn:com.instana/discovery-cpp/1.0.0</bundle>
   </feature>
 
+  <feature name="instana-cockroachdb-discovery" version="1.0.0">
+    <bundle start-level="80">mvn:com.instana/discovery-cockroachdb/1.0.0</bundle>
+  </feature>
+
   <feature name="instana-consul-discovery" version="1.0.13">
     <bundle start-level="80">mvn:com.instana/discovery-consul/1.0.13</bundle>
   </feature>
