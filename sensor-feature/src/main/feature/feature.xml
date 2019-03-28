@@ -262,9 +262,9 @@
     <bundle start-level="80">mvn:com.instana/sensor-generic-hardware/1.1.6</bundle>
   </feature>
 
-  <feature name="instana-glassfish-sensor" version="1.1.8">
+  <feature name="instana-glassfish-sensor" version="1.1.9">
     <feature version="[1.2.25,2)">instana-java-sensor</feature>
-    <bundle start-level="80">mvn:com.instana/sensor-glassfish/1.1.8</bundle>
+    <bundle start-level="80">mvn:com.instana/sensor-glassfish/1.1.9</bundle>
   </feature>
 
   <feature name="instana-golang-sensor" version="1.2.6">
