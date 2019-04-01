@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
-<features name="${project.artifactId}-${project.version}" xmlns="http://karaf.apache.org/xmlns/features/v1.3.0" >
+<features name="${project.artifactId}-${project.version}" xmlns="http://karaf.apache.org/xmlns/features/v1.3.0">
 
   <!-- Starting with agent bootstrap 1.2.3, these third party features are omitted, because they are included in bootstrap  -->
   <!-- They are only defined here for backwards compatibility with old agents  -->
