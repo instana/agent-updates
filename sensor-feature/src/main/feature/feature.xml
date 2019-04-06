@@ -301,9 +301,9 @@
     <bundle start-level="90">mvn:com.instana/sensor-haskell-trace/1.0.1</bundle>
   </feature>
 
-  <feature name="instana-hazelcast-sensor" version="1.1.0">
+  <feature name="instana-hazelcast-sensor" version="1.2.0">
     <feature version="[1.2.59,2)">instana-java-sensor</feature>
-    <bundle start-level="80">mvn:com.instana/sensor-hazelcast/1.1.0</bundle>
+    <bundle start-level="80">mvn:com.instana/sensor-hazelcast/1.2.0</bundle>
   </feature>
 
   <feature name="instana-hbase-sensor" version="1.1.0">
@@ -323,9 +323,9 @@
     <bundle start-level="80">mvn:com.instana/sensor-java/1.2.82</bundle>
   </feature>
 
-  <feature name="instana-java-trace-sensor" version="1.2.285">
+  <feature name="instana-java-trace-sensor" version="1.2.286">
     <feature version="[1.2.59,2)">instana-java-sensor</feature>
-    <bundle start-level="90">mvn:com.instana/sensor-java-trace/1.2.285</bundle>
+    <bundle start-level="90">mvn:com.instana/sensor-java-trace/1.2.286</bundle>
   </feature>
 
   <feature name="instana-jboss-as-sensor" version="1.1.36">
