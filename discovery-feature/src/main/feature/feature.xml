@@ -125,12 +125,12 @@
     <bundle start-level="80">mvn:com.instana/discovery-hbase/1.1.0</bundle>
   </feature>
 
-  <feature name="instana-host-discovery" version="1.1.110">
-    <bundle start-level="80">mvn:com.instana/discovery-host/1.1.110</bundle>
+  <feature name="instana-host-discovery" version="1.1.111">
+    <bundle start-level="80">mvn:com.instana/discovery-host/1.1.111</bundle>
   </feature>
 
-  <feature name="instana-httpd-discovery" version="1.1.90">
-    <bundle start-level="80">mvn:com.instana/discovery-httpd/1.1.90</bundle>
+  <feature name="instana-httpd-discovery" version="1.1.91">
+    <bundle start-level="80">mvn:com.instana/discovery-httpd/1.1.91</bundle>
   </feature>
 
   <feature name="instana-java-discovery" version="1.2.82">
@@ -289,8 +289,8 @@
     <bundle start-level="80">mvn:com.instana/discovery-sap-hana/1.1.0</bundle>
   </feature>
 
-  <feature name="instana-solr-discovery" version="1.0.9">
-    <bundle start-level="80">mvn:com.instana/discovery-solr/1.0.9</bundle>
+  <feature name="instana-solr-discovery" version="1.0.10">
+    <bundle start-level="80">mvn:com.instana/discovery-solr/1.0.10</bundle>
   </feature>
 
   <feature name="instana-statsd-discovery" version="1.1.7">
