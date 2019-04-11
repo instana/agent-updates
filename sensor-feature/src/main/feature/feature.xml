@@ -253,7 +253,6 @@
   </feature>
 
   <feature name="instana-gce-services-discovery" version="1.1.9">
-    <feature version="[1.1.9,2)">instana-gce-sdk</feature>
     <bundle start-level="80">mvn:com.instana/discovery-gce-services/1.1.9</bundle>
   </feature>
 
