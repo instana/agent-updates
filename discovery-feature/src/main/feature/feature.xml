@@ -69,8 +69,8 @@
     <bundle start-level="80">mvn:com.instana/discovery-elasticsearch/1.1.50</bundle>
   </feature>
 
-  <feature name="instana-etcd-discovery" version="1.0.20">
-    <bundle start-level="80">mvn:com.instana/discovery-etcd/1.0.20</bundle>
+  <feature name="instana-etcd-discovery" version="1.0.21">
+    <bundle start-level="80">mvn:com.instana/discovery-etcd/1.0.21</bundle>
   </feature>
 
   <feature name="instana-f5-discovery" version="1.0.1">
@@ -137,8 +137,8 @@
     <bundle start-level="80">mvn:com.instana/discovery-java/1.2.82</bundle>
   </feature>
 
-  <feature name="instana-jboss-as-discovery" version="1.1.36">
-    <bundle start-level="80">mvn:com.instana/discovery-jboss-as/1.1.36</bundle>
+  <feature name="instana-jboss-as-discovery" version="1.1.37">
+    <bundle start-level="80">mvn:com.instana/discovery-jboss-as/1.1.37</bundle>
   </feature>
 
   <feature name="instana-jboss-as4-discovery" version="1.0.3">
@@ -149,8 +149,8 @@
     <bundle start-level="80">mvn:com.instana/discovery-jboss-datagrid/1.1.10</bundle>
   </feature>
 
-  <feature name="instana-jenkins-discovery" version="1.0.3">
-    <bundle start-level="80">mvn:com.instana/discovery-jenkins/1.0.3</bundle>
+  <feature name="instana-jenkins-discovery" version="1.0.4">
+    <bundle start-level="80">mvn:com.instana/discovery-jenkins/1.0.4</bundle>
   </feature>
 
   <feature name="instana-jetty-discovery" version="1.1.10">
@@ -253,8 +253,8 @@
     <bundle start-level="80">mvn:com.instana/discovery-php-fpm/1.1.54</bundle>
   </feature>
 
-  <feature name="instana-ping-discovery" version="1.0.5">
-    <bundle start-level="80">mvn:com.instana/discovery-ping/1.0.5</bundle>
+  <feature name="instana-ping-discovery" version="1.0.6">
+    <bundle start-level="80">mvn:com.instana/discovery-ping/1.0.6</bundle>
   </feature>
 
   <feature name="instana-ping-directory-discovery" version="1.0.2">

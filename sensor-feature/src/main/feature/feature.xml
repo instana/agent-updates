@@ -224,8 +224,8 @@
     <bundle start-level="80">mvn:com.instana/sensor-elasticsearch/1.1.50</bundle>
   </feature>
 
-  <feature name="instana-etcd-sensor" version="1.0.20">
-    <bundle start-level="80">mvn:com.instana/sensor-etcd/1.0.20</bundle>
+  <feature name="instana-etcd-sensor" version="1.0.21">
+    <bundle start-level="80">mvn:com.instana/sensor-etcd/1.0.21</bundle>
   </feature>
 
   <feature name="instana-f5-sensor" version="1.0.1">
@@ -322,14 +322,14 @@
     <bundle start-level="80">mvn:com.instana/sensor-java/1.2.82</bundle>
   </feature>
 
-  <feature name="instana-java-trace-sensor" version="1.2.288">
+  <feature name="instana-java-trace-sensor" version="1.2.289">
     <feature version="[1.2.82,2)">instana-java-sensor</feature>
-    <bundle start-level="90">mvn:com.instana/sensor-java-trace/1.2.288</bundle>
+    <bundle start-level="90">mvn:com.instana/sensor-java-trace/1.2.289</bundle>
   </feature>
 
-  <feature name="instana-jboss-as-sensor" version="1.1.36">
+  <feature name="instana-jboss-as-sensor" version="1.1.37">
     <feature version="[1.2.58,2)">instana-java-sensor</feature>
-    <bundle start-level="80">mvn:com.instana/sensor-jboss-as/1.1.36</bundle>
+    <bundle start-level="80">mvn:com.instana/sensor-jboss-as/1.1.37</bundle>
   </feature>
 
   <feature name="instana-jboss-as4-sensor" version="1.0.3">
@@ -342,8 +342,8 @@
     <bundle start-level="80">mvn:com.instana/sensor-jboss-datagrid/1.1.10</bundle>
   </feature>
 
-  <feature name="instana-jenkins-sensor" version="1.0.3">
-    <bundle start-level="80">mvn:com.instana/sensor-jenkins/1.0.3</bundle>
+  <feature name="instana-jenkins-sensor" version="1.0.4">
+    <bundle start-level="80">mvn:com.instana/sensor-jenkins/1.0.4</bundle>
   </feature>
 
   <feature name="instana-jetty-sensor" version="1.1.10">
@@ -482,8 +482,8 @@
     <bundle start-level="90">mvn:com.instana/sensor-php/1.0.100</bundle>
   </feature>
 
-  <feature name="instana-ping-sensor" version="1.0.5">
-    <bundle start-level="80">mvn:com.instana/sensor-ping/1.0.5</bundle>
+  <feature name="instana-ping-sensor" version="1.0.6">
+    <bundle start-level="80">mvn:com.instana/sensor-ping/1.0.6</bundle>
   </feature>
 
   <feature name="instana-ping-directory-sensor" version="1.0.2">
