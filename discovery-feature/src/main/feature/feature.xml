@@ -117,8 +117,8 @@
     <bundle start-level="80">mvn:com.instana/discovery-haskell/1.0.1</bundle>
   </feature>
 
-  <feature name="instana-hazelcast-discovery" version="1.2.0">
-    <bundle start-level="80">mvn:com.instana/discovery-hazelcast/1.2.0</bundle>
+  <feature name="instana-hazelcast-discovery" version="1.2.1">
+    <bundle start-level="80">mvn:com.instana/discovery-hazelcast/1.2.1</bundle>
   </feature>
 
   <feature name="instana-hbase-discovery" version="1.1.0">
