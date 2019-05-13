@@ -170,8 +170,8 @@
     <bundle start-level="80">mvn:com.instana/sensor-ceph/1.1.0</bundle>
   </feature>
 
-  <feature name="instana-clickhouse-sensor" version="1.0.8">
-    <bundle start-level="80">mvn:com.instana/sensor-clickhouse/1.0.8</bundle>
+  <feature name="instana-clickhouse-sensor" version="1.0.9">
+    <bundle start-level="80">mvn:com.instana/sensor-clickhouse/1.0.9</bundle>
   </feature>
 
   <feature name="instana-cpp-sensor" version="1.0.0">
