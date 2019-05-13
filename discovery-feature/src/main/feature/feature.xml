@@ -341,7 +341,7 @@
     <bundle start-level="80">mvn:com.instana/discovery-zookeeper/1.0.4</bundle>
   </feature>
 
-  <feature name="instana-weblogic-discovery" version="1.1.10">
-    <bundle start-level="80">mvn:com.instana/discovery-weblogic/1.1.10</bundle>
+  <feature name="instana-weblogic-discovery" version="1.1.11">
+    <bundle start-level="80">mvn:com.instana/discovery-weblogic/1.1.11</bundle>
   </feature>
 </features>
