@@ -233,8 +233,8 @@
     <bundle start-level="80">mvn:com.instana/discovery-opc/1.1.0</bundle>
   </feature>
 
-  <feature name="instana-openstack-nova-discovery" version="1.1.5">
-    <bundle start-level="80">mvn:com.instana/discovery-openstack-nova/1.1.5</bundle>
+  <feature name="instana-openstack-nova-discovery" version="1.1.6">
+    <bundle start-level="80">mvn:com.instana/discovery-openstack-nova/1.1.6</bundle>
   </feature>
 
   <feature name="instana-openldap-discovery" version="1.0.8">
