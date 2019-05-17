@@ -170,8 +170,8 @@
     <bundle start-level="80">mvn:com.instana/sensor-ceph/1.1.0</bundle>
   </feature>
 
-  <feature name="instana-clickhouse-sensor" version="1.0.8">
-    <bundle start-level="80">mvn:com.instana/sensor-clickhouse/1.0.8</bundle>
+  <feature name="instana-clickhouse-sensor" version="1.0.9">
+    <bundle start-level="80">mvn:com.instana/sensor-clickhouse/1.0.9</bundle>
   </feature>
 
   <feature name="instana-cpp-sensor" version="1.0.0">
@@ -190,16 +190,16 @@
     <bundle start-level="90">mvn:com.instana/sensor-clr-trace/1.1.7</bundle>
   </feature>
 
-  <feature name="instana-cockroachdb-sensor" version="1.0.5">
-    <bundle start-level="80">mvn:com.instana/sensor-cockroachdb/1.0.5</bundle>
+  <feature name="instana-cockroachdb-sensor" version="1.0.6">
+    <bundle start-level="80">mvn:com.instana/sensor-cockroachdb/1.0.6</bundle>
   </feature>
 
-  <feature name="instana-consul-sensor" version="1.0.14">
-    <bundle start-level="90">mvn:com.instana/sensor-consul/1.0.14</bundle>
+  <feature name="instana-consul-sensor" version="1.0.15">
+    <bundle start-level="90">mvn:com.instana/sensor-consul/1.0.15</bundle>
   </feature>
 
-  <feature name="instana-couchbase-sensor" version="1.0.2">
-    <bundle start-level="80">mvn:com.instana/sensor-couchbase/1.0.2</bundle>
+  <feature name="instana-couchbase-sensor" version="1.0.3">
+    <bundle start-level="80">mvn:com.instana/sensor-couchbase/1.0.3</bundle>
   </feature>
 
   <feature name="instana-crystal-sensor" version="1.1.1">
@@ -228,8 +228,8 @@
     <bundle start-level="80">mvn:com.instana/sensor-elasticsearch/1.1.53</bundle>
   </feature>
 
-  <feature name="instana-etcd-sensor" version="1.0.21">
-    <bundle start-level="80">mvn:com.instana/sensor-etcd/1.0.21</bundle>
+  <feature name="instana-etcd-sensor" version="1.0.22">
+    <bundle start-level="80">mvn:com.instana/sensor-etcd/1.0.22</bundle>
   </feature>
 
   <feature name="instana-f5-sensor" version="1.0.1">
@@ -246,23 +246,23 @@
     <bundle start-level="80">mvn:com.instana/sensor-garden/1.0.0</bundle>
   </feature>
 
-  <feature name="instana-gce-sensor" version="1.1.10">
-    <bundle start-level="80">mvn:com.instana/sensor-gce/1.1.10</bundle>
+  <feature name="instana-gce-sensor" version="1.1.11">
+    <bundle start-level="80">mvn:com.instana/sensor-gce/1.1.11</bundle>
   </feature>
 
-  <feature name="instana-gce-sdk" version="1.1.10">
+  <feature name="instana-gce-sdk" version="1.1.11">
     <bundle start-level="80">wrap:mvn:com.squareup.okhttp3/okhttp/3.12.0</bundle>
     <bundle start-level="80">wrap:mvn:com.squareup.okio/okio/1.14.0</bundle>
-    <bundle start-level="80">mvn:com.instana/instana-gce-sdk/1.1.10</bundle>
+    <bundle start-level="80">mvn:com.instana/instana-gce-sdk/1.1.11</bundle>
   </feature>
 
-  <feature name="instana-gce-services-discovery" version="1.1.10">
-    <bundle start-level="80">mvn:com.instana/discovery-gce-services/1.1.10</bundle>
+  <feature name="instana-gce-services-discovery" version="1.1.11">
+    <bundle start-level="80">mvn:com.instana/discovery-gce-services/1.1.11</bundle>
   </feature>
 
-  <feature name="instana-gcp-sql-sensor" version="1.1.10">
+  <feature name="instana-gcp-sql-sensor" version="1.1.11">
     <feature version="[1.1.10,2)">instana-gce-sdk</feature>
-    <bundle start-level="80">mvn:com.instana/sensors-sql/1.1.10</bundle>
+    <bundle start-level="80">mvn:com.instana/sensors-sql/1.1.11</bundle>
   </feature>
 
   <feature name="instana-generic-hardware-sensor" version="1.1.6">
@@ -292,8 +292,8 @@
     <bundle start-level="80">mvn:com.instana/sensor-hadoop-yarn-node/1.1.0</bundle>
   </feature>
 
-  <feature name="instana-haproxy-sensor" version="1.1.18">
-    <bundle start-level="80">mvn:com.instana/sensor-haproxy/1.1.18</bundle>
+  <feature name="instana-haproxy-sensor" version="1.1.19">
+    <bundle start-level="80">mvn:com.instana/sensor-haproxy/1.1.19</bundle>
   </feature>
 
   <feature name="instana-haskell-sensor" version="1.0.1">
@@ -318,8 +318,8 @@
     <bundle start-level="80">mvn:com.instana/sensor-host/1.1.113</bundle>
   </feature>
 
-  <feature name="instana-httpd-sensor" version="1.1.91">
-    <bundle start-level="80">mvn:com.instana/sensor-httpd/1.1.91</bundle>
+  <feature name="instana-httpd-sensor" version="1.1.92">
+    <bundle start-level="80">mvn:com.instana/sensor-httpd/1.1.92</bundle>
   </feature>
 
   <feature name="instana-instana-backend-sensor" version="1.1.0">
@@ -331,9 +331,9 @@
     <bundle start-level="80">mvn:com.instana/sensor-java/1.2.83</bundle>
   </feature>
 
-  <feature name="instana-java-trace-sensor" version="1.2.295">
+  <feature name="instana-java-trace-sensor" version="1.2.296">
     <feature version="[1.2.82,2)">instana-java-sensor</feature>
-    <bundle start-level="90">mvn:com.instana/sensor-java-trace/1.2.295</bundle>
+    <bundle start-level="90">mvn:com.instana/sensor-java-trace/1.2.296</bundle>
   </feature>
 
   <feature name="instana-jboss-as-sensor" version="1.1.38">
@@ -370,7 +370,7 @@
     <bundle start-level="80">mvn:com.instana/sensor-kafka/1.1.25</bundle>
   </feature>
 
-  <feature name="instana-kubernetes-sensor" version="1.2.63">
+  <feature name="instana-kubernetes-sensor" version="1.2.65">
     <bundle start-level="80">wrap:mvn:com.squareup.okio/okio/1.14.0</bundle>
     <bundle start-level="80">wrap:mvn:com.squareup.okhttp3/okhttp/3.12.0</bundle>
     <bundle start-level="80">wrap:mvn:com.squareup.okhttp3/logging-interceptor/3.12.0</bundle>
@@ -380,7 +380,7 @@
     <bundle start-level="80">wrap:mvn:io.fabric8/kubernetes-model/4.1.1</bundle>
     <bundle start-level="80">mvn:io.fabric8/kubernetes-client/4.1.1//bundle</bundle>
     <bundle start-level="80">mvn:io.fabric8/openshift-client/4.1.1//bundle</bundle>
-    <bundle start-level="80">mvn:com.instana/sensor-kubernetes/1.2.63</bundle>
+    <bundle start-level="80">mvn:com.instana/sensor-kubernetes/1.2.65</bundle>
   </feature>
 
   <feature name="instana-liferay-sensor" version="1.0.0">
@@ -388,8 +388,8 @@
     <bundle start-level="80">mvn:com.instana/sensor-liferay/1.0.0</bundle>
   </feature>
 
-  <feature name="instana-marathon-sensor" version="1.0.0">
-    <bundle start-level="80">mvn:com.instana/sensor-marathon/1.0.0</bundle>
+  <feature name="instana-marathon-sensor" version="1.0.1">
+    <bundle start-level="80">mvn:com.instana/sensor-marathon/1.0.1</bundle>
   </feature>
 
   <feature name="instana-mariadb-sensor" version="1.1.21">
@@ -402,9 +402,9 @@
     <bundle start-level="80">mvn:com.instana/sensor-memcached/1.0.15</bundle>
   </feature>
 
-  <feature name="instana-mongodb-sensor" version="1.1.40">
+  <feature name="instana-mongodb-sensor" version="1.1.41">
     <bundle start-level="80">mvn:org.mongodb/mongo-java-driver/3.10.1</bundle>
-    <bundle start-level="80">mvn:com.instana/sensor-mongodb/1.1.40</bundle>
+    <bundle start-level="80">mvn:com.instana/sensor-mongodb/1.1.41</bundle>
   </feature>
 
   <feature name="instana-mysql-sensor" version="1.1.58">
@@ -436,9 +436,9 @@
     <bundle start-level="80">mvn:com.instana/sensor-netcore/1.0.6</bundle>
   </feature>
 
-  <feature name="instana-nginx-sensor" version="1.1.63">
+  <feature name="instana-nginx-sensor" version="1.1.64">
     <bundle start-level="80">mvn:org.antlr/antlr4-runtime/4.5.3</bundle>
-    <bundle start-level="80">mvn:com.instana/sensor-nginx/1.1.63</bundle>
+    <bundle start-level="80">mvn:com.instana/sensor-nginx/1.1.64</bundle>
   </feature>
 
   <feature name="instana-nodejs-sensor" version="1.2.11">
@@ -449,16 +449,16 @@
     <bundle start-level="90">mvn:com.instana/sensor-nodejs-trace/1.2.3</bundle>
   </feature>
 
-  <feature name="instana-nomad-sensor" version="1.0.2">
-    <bundle start-level="80">mvn:com.instana/sensor-nomad/1.0.2</bundle>
+  <feature name="instana-nomad-sensor" version="1.0.3">
+    <bundle start-level="80">mvn:com.instana/sensor-nomad/1.0.3</bundle>
   </feature>
 
-  <feature name="instana-opc-sensor" version="1.1.0">
-    <bundle start-level="80">mvn:com.instana/sensor-opc/1.1.0</bundle>
+  <feature name="instana-opc-sensor" version="1.1.1">
+    <bundle start-level="80">mvn:com.instana/sensor-opc/1.1.1</bundle>
   </feature>
 
-  <feature name="instana-openstack-nova-sensor" version="1.1.5">
-    <bundle start-level="80">mvn:com.instana/sensor-openstack-nova/1.1.5</bundle>
+  <feature name="instana-openstack-nova-sensor" version="1.1.6">
+    <bundle start-level="80">mvn:com.instana/sensor-openstack-nova/1.1.6</bundle>
   </feature>
 
   <feature name="instana-opentsdb2-sensor" version="1.0.0-SNAPSHOT">
@@ -478,8 +478,8 @@
     <bundle start-level="80">mvn:com.instana/sensor-perfcounters/1.0.0</bundle>
   </feature>
 
-  <feature name="instana-packet-sensor" version="1.1.0">
-    <bundle start-level="80">mvn:com.instana/sensor-packet/1.1.0</bundle>
+  <feature name="instana-packet-sensor" version="1.1.1">
+    <bundle start-level="80">mvn:com.instana/sensor-packet/1.1.1</bundle>
   </feature>
 
   <feature name="instana-php-fpm-sensor" version="1.1.54">
@@ -510,8 +510,8 @@
     <bundle start-level="80">mvn:com.instana/sensor-process/1.1.33</bundle>
   </feature>
 
-  <feature name="instana-prometheus-kubernetes-discovery" version="1.0.1">
-    <bundle start-level="80">mvn:com.instana/discovery-prometheus-kubernetes/1.0.1</bundle>
+  <feature name="instana-prometheus-kubernetes-discovery" version="1.0.2">
+    <bundle start-level="80">mvn:com.instana/discovery-prometheus-kubernetes/1.0.2</bundle>
     <bundle start-level="80">wrap:mvn:com.squareup.okhttp3/okhttp/3.12.0</bundle>
     <bundle start-level="80">wrap:mvn:com.squareup.okhttp3/logging-interceptor/3.12.0</bundle>
     <bundle start-level="80">wrap:mvn:io.fabric8/kubernetes-model/4.1.1</bundle>
@@ -522,8 +522,8 @@
     <bundle start-level="80">wrap:mvn:com.squareup.okio/okio/1.14.0</bundle>
   </feature>
 
-  <feature name="instana-prometheus-sensor" version="1.0.1">
-    <bundle start-level="80">mvn:com.instana/sensor-prometheus/1.0.1</bundle>
+  <feature name="instana-prometheus-sensor" version="1.0.2">
+    <bundle start-level="80">mvn:com.instana/sensor-prometheus/1.0.2</bundle>
   </feature>
 
   <feature name="instana-python-sensor" version="1.5.5">
@@ -540,8 +540,8 @@
     <bundle start-level="80">mvn:com.instana/sensor-redis/1.1.26</bundle>
   </feature>
 
-  <feature name="instana-rabbitmq-sensor" version="1.1.36">
-    <bundle start-level="80">mvn:com.instana/sensor-rabbitmq/1.1.36</bundle>
+  <feature name="instana-rabbitmq-sensor" version="1.1.37">
+    <bundle start-level="80">mvn:com.instana/sensor-rabbitmq/1.1.37</bundle>
   </feature>
 
   <feature name="instana-ruby-sensor" version="1.3.0">
@@ -591,9 +591,9 @@
     <bundle start-level="80">mvn:com.instana/sensor-varnish/1.0.21</bundle>
   </feature>
 
-  <feature name="instana-weblogic-sensor" version="1.1.10">
+  <feature name="instana-weblogic-sensor" version="1.1.11">
     <feature version="[1.2.37,2)">instana-java-sensor</feature>
-    <bundle start-level="80">mvn:com.instana/sensor-weblogic/1.1.10</bundle>
+    <bundle start-level="80">mvn:com.instana/sensor-weblogic/1.1.11</bundle>
   </feature>
 
   <feature name="instana-websphere-sensor" version="1.1.10">
