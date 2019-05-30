@@ -173,8 +173,8 @@
     <bundle start-level="80">mvn:com.instana/discovery-kafka/1.1.26</bundle>
   </feature>
 
-  <feature name="instana-kubernetes-discovery" version="1.2.67">
-    <bundle start-level="80">mvn:com.instana/discovery-kubernetes/1.2.67</bundle>
+  <feature name="instana-kubernetes-discovery" version="1.2.68">
+    <bundle start-level="80">mvn:com.instana/discovery-kubernetes/1.2.68</bundle>
   </feature>
 
   <feature name="instana-liferay-discovery" version="1.0.0">
