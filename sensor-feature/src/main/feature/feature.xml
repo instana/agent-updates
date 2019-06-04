@@ -248,8 +248,8 @@
     <bundle start-level="80">mvn:com.instana/sensor-elasticsearch/1.1.53</bundle>
   </feature>
 
-  <feature name="instana-etcd-sensor" version="1.0.23">
-    <bundle start-level="80">mvn:com.instana/sensor-etcd/1.0.23</bundle>
+  <feature name="instana-etcd-sensor" version="1.0.24">
+    <bundle start-level="80">mvn:com.instana/sensor-etcd/1.0.24</bundle>
   </feature>
 
   <feature name="instana-f5-sensor" version="1.0.1">
@@ -489,9 +489,9 @@
     <bundle start-level="80">mvn:com.instana/sensor-openldap/1.0.8</bundle>
   </feature>
 
-  <feature name="instana-oracledb-sensor" version="1.1.14">
+  <feature name="instana-oracledb-sensor" version="1.1.15">
     <bundle start-level="80">wrap:mvn:com.oracle.jdbc/ojdbc7/12.1.0.2$Bundle-SymbolicName=ojdbc7&amp;Bundle-Version=12.1.0.2</bundle>
-    <bundle start-level="80">mvn:com.instana/sensor-oracledb/1.1.14</bundle>
+    <bundle start-level="80">mvn:com.instana/sensor-oracledb/1.1.15</bundle>
   </feature>
 
   <feature name="instana-perfcounters-sensor" version="1.0.0">
@@ -515,9 +515,9 @@
     <bundle start-level="80">mvn:com.instana/sensor-ping/1.0.6</bundle>
   </feature>
 
-  <feature name="instana-ping-directory-sensor" version="1.0.2">
+  <feature name="instana-ping-directory-sensor" version="1.0.3">
     <feature version="[1.2.79,2)">instana-java-sensor</feature>
-    <bundle start-level="80">mvn:com.instana/sensor-ping-directory/1.0.2</bundle>
+    <bundle start-level="80">mvn:com.instana/sensor-ping-directory/1.0.3</bundle>
   </feature>
 
   <feature name="instana-postgresql-sensor" version="1.0.30">
@@ -597,9 +597,9 @@
     <bundle start-level="80">mvn:com.instana/sensor-spark-standalone/1.1.1</bundle>
   </feature>
 
-  <feature name="instana-springboot-sensor" version="1.1.35">
+  <feature name="instana-springboot-sensor" version="1.1.36">
     <feature version="[1.2.45,2)">instana-java-sensor</feature>
-    <bundle start-level="80">mvn:com.instana/sensor-springboot/1.1.35</bundle>
+    <bundle start-level="80">mvn:com.instana/sensor-springboot/1.1.36</bundle>
   </feature>
 
   <feature name="instana-tomcat-sensor" version="1.1.28">
