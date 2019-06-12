@@ -42,8 +42,8 @@
     <bundle start-level="80">mvn:com.instana/discovery-consul/1.0.15</bundle>
   </feature>
 
-  <feature name="instana-containerd-discovery" version="1.0.8">
-    <bundle start-level="80">mvn:com.instana/discovery-containerd/1.0.8</bundle>
+  <feature name="instana-containerd-discovery" version="1.0.9">
+    <bundle start-level="80">mvn:com.instana/discovery-containerd/1.0.9</bundle>
   </feature>
 
   <feature name="instana-clickhouse-discovery" version="1.0.9">
