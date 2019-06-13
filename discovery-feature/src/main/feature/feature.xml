@@ -9,8 +9,9 @@
     <bundle start-level="80">mvn:com.instana/discovery-activemq/1.1.9</bundle>
   </feature>
 
-  <feature name="instana-azure-discovery" version="1.1.22">
-    <bundle start-level="80">mvn:com.instana/discovery-azure/1.1.22</bundle>
+  <feature name="instana-azure-discovery" version="1.2.0">
+    <feature version="[1.2.0,2)">instana-azure-sdk</feature>
+    <bundle start-level="80">mvn:com.instana/discovery-azure/1.2.0</bundle>
   </feature>
 
   <feature name="instana-aws-discovery" version="1.0.67">
@@ -61,8 +62,8 @@
     <bundle start-level="80">mvn:com.instana/discovery-docker/1.1.55</bundle>
   </feature>
 
-  <feature name="instana-dropwizard-discovery" version="1.1.18">
-    <bundle start-level="80">mvn:com.instana/discovery-dropwizard/1.1.18</bundle>
+  <feature name="instana-dropwizard-discovery" version="1.1.21">
+    <bundle start-level="80">mvn:com.instana/discovery-dropwizard/1.1.21</bundle>
   </feature>
 
   <feature name="instana-ec2-discovery" version="1.1.7">
@@ -85,8 +86,8 @@
     <bundle start-level="80">mvn:com.instana/discovery-finagle/1.1.0</bundle>
   </feature>
 
-  <feature name="instana-garden-discovery" version="1.0.0">
-    <bundle start-level="80">mvn:com.instana/discovery-garden/1.0.0</bundle>
+  <feature name="instana-garden-discovery" version="1.0.1">
+    <bundle start-level="80">mvn:com.instana/discovery-garden/1.0.1</bundle>
   </feature>
 
   <feature name="instana-gce-discovery" version="1.1.13">
@@ -113,8 +114,8 @@
     <bundle start-level="80">mvn:com.instana/discovery-hadoop-yarn-node/1.1.0</bundle>
   </feature>
 
-  <feature name="instana-haproxy-discovery" version="1.1.19">
-    <bundle start-level="80">mvn:com.instana/discovery-haproxy/1.1.19</bundle>
+  <feature name="instana-haproxy-discovery" version="1.1.20">
+    <bundle start-level="80">mvn:com.instana/discovery-haproxy/1.1.20</bundle>
   </feature>
 
   <feature name="instana-haskell-discovery" version="1.0.1">
@@ -129,8 +130,8 @@
     <bundle start-level="80">mvn:com.instana/discovery-hbase/1.1.0</bundle>
   </feature>
 
-  <feature name="instana-host-discovery" version="1.1.113">
-    <bundle start-level="80">mvn:com.instana/discovery-host/1.1.113</bundle>
+  <feature name="instana-host-discovery" version="1.1.117">
+    <bundle start-level="80">mvn:com.instana/discovery-host/1.1.117</bundle>
   </feature>
 
   <feature name="instana-httpd-discovery" version="1.1.95">
@@ -157,8 +158,8 @@
     <bundle start-level="80">mvn:com.instana/discovery-jboss-datagrid/1.1.10</bundle>
   </feature>
 
-  <feature name="instana-jenkins-discovery" version="1.0.7">
-    <bundle start-level="80">mvn:com.instana/discovery-jenkins/1.0.7</bundle>
+  <feature name="instana-jenkins-discovery" version="1.0.9">
+    <bundle start-level="80">mvn:com.instana/discovery-jenkins/1.0.9</bundle>
   </feature>
 
   <feature name="instana-jetty-discovery" version="1.1.10">
@@ -217,8 +218,8 @@
     <bundle start-level="80">mvn:com.instana/discovery-netcore/1.0.6</bundle>
   </feature>
 
-  <feature name="instana-nginx-discovery" version="1.1.64">
-    <bundle start-level="80">mvn:com.instana/discovery-nginx/1.1.64</bundle>
+  <feature name="instana-nginx-discovery" version="1.1.65">
+    <bundle start-level="80">mvn:com.instana/discovery-nginx/1.1.65</bundle>
   </feature>
 
   <feature name="instana-nodejs-discovery" version="1.2.11">
@@ -277,16 +278,16 @@
     <bundle start-level="80">mvn:com.instana/discovery-process/1.1.33</bundle>
   </feature>
 
-  <feature name="instana-prometheus-discovery" version="1.0.2">
-    <bundle start-level="80">mvn:com.instana/discovery-prometheus/1.0.2</bundle>
+  <feature name="instana-prometheus-discovery" version="1.0.5">
+    <bundle start-level="80">mvn:com.instana/discovery-prometheus/1.0.5</bundle>
   </feature>
 
   <feature name="instana-python-discovery" version="1.5.5">
     <bundle start-level="80">mvn:com.instana/discovery-python/1.5.5</bundle>
   </feature>
 
-  <feature name="instana-redis-discovery" version="1.1.26">
-    <bundle start-level="80">mvn:com.instana/discovery-redis/1.1.26</bundle>
+  <feature name="instana-redis-discovery" version="1.1.27">
+    <bundle start-level="80">mvn:com.instana/discovery-redis/1.1.27</bundle>
   </feature>
 
   <feature name="instana-rabbitmq-discovery" version="1.1.38">
@@ -341,7 +342,7 @@
     <bundle start-level="80">mvn:com.instana/discovery-zookeeper/1.0.4</bundle>
   </feature>
 
-  <feature name="instana-weblogic-discovery" version="1.1.11">
-    <bundle start-level="80">mvn:com.instana/discovery-weblogic/1.1.11</bundle>
+  <feature name="instana-weblogic-discovery" version="1.1.13">
+    <bundle start-level="80">mvn:com.instana/discovery-weblogic/1.1.13</bundle>
   </feature>
 </features>
