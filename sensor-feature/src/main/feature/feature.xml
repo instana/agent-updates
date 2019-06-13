@@ -182,8 +182,8 @@
     <bundle start-level="80">mvn:com.instana/sensor-aws-es/1.0.67</bundle>
   </feature>
 
-  <feature name="instana-biztalk-sensor" version="1.0.2">
-    <bundle start-level="80">mvn:com.instana/sensor-biztalk/1.0.2</bundle>
+  <feature name="instana-biztalk-sensor" version="1.0.3">
+    <bundle start-level="80">mvn:com.instana/sensor-biztalk/1.0.3</bundle>
   </feature>
 
   <feature name="instana-cassandra-sensor" version="1.1.31">
