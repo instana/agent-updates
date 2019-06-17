@@ -306,8 +306,8 @@
     <bundle start-level="80">mvn:com.instana/discovery-sap-hana/1.1.0</bundle>
   </feature>
 
-  <feature name="instana-solr-discovery" version="1.0.11">
-    <bundle start-level="80">mvn:com.instana/discovery-solr/1.0.11</bundle>
+  <feature name="instana-solr-discovery" version="1.0.12">
+    <bundle start-level="80">mvn:com.instana/discovery-solr/1.0.12</bundle>
   </feature>
 
   <feature name="instana-statsd-discovery" version="1.1.7">
