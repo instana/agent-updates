@@ -611,6 +611,11 @@
     <bundle start-level="80">mvn:com.instana/sensor-springboot/1.1.36</bundle>
   </feature>
 
+  <feature name="instana-sybase-sensor" version="1.0.0">
+    <bundle start-level="80">wrap:mvn:com.sybase.jdbc4.jdbc/jconn4/7.0$overwrite=merge&amp;Import-Package=javax.crypto;resolution:=optional,javax.crypto.spec;resolution:=optional,javax.naming;resolution:=optional,javax.naming.ldap;resolution:=optional,javax.naming.spi;resolution:=optional,javax.net;resolution:=optional,javax.net.ssl;resolution:=optional,javax.security.auth;resolution:=optional,javax.security.auth.x500;resolution:=optional,javax.sql;resolution:=optional,javax.swing;resolution:=optional,javax.swing.border;resolution:=optional,javax.transaction.xa;resolution:=optional,org.ietf.jgss;resolution:=optional</bundle>
+    <bundle start-level="80">mvn:com.instana/sensor-sybase/1.0.0</bundle>
+  </feature>
+
   <feature name="instana-tomcat-sensor" version="1.1.28">
     <feature version="[1.2.31,2)">instana-java-sensor</feature>
     <bundle start-level="80">mvn:com.instana/sensor-tomcat/1.1.28</bundle>
