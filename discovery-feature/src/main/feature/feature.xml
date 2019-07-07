@@ -9,9 +9,9 @@
     <bundle start-level="80">mvn:com.instana/discovery-activemq/1.1.9</bundle>
   </feature>
 
-  <feature name="instana-azure-discovery" version="1.2.1">
-    <feature version="[1.2.1,2)">instana-azure-sdk</feature>
-    <bundle start-level="80">mvn:com.instana/discovery-azure/1.2.1</bundle>
+  <feature name="instana-azure-discovery" version="1.2.2">
+    <feature version="[1.2.2,2)">instana-azure-sdk</feature>
+    <bundle start-level="80">mvn:com.instana/discovery-azure/1.2.2</bundle>
   </feature>
 
   <feature name="instana-aws-discovery" version="1.0.67">
@@ -178,8 +178,8 @@
     <bundle start-level="80">mvn:com.instana/discovery-kafka/1.1.26</bundle>
   </feature>
 
-  <feature name="instana-kubernetes-discovery" version="1.2.72">
-    <bundle start-level="80">mvn:com.instana/discovery-kubernetes/1.2.72</bundle>
+  <feature name="instana-kubernetes-discovery" version="1.2.73">
+    <bundle start-level="80">mvn:com.instana/discovery-kubernetes/1.2.73</bundle>
   </feature>
 
   <feature name="instana-liferay-discovery" version="1.0.0">
@@ -282,16 +282,16 @@
     <bundle start-level="80">mvn:com.instana/discovery-process/1.1.33</bundle>
   </feature>
 
-  <feature name="instana-prometheus-discovery" version="1.0.5">
-    <bundle start-level="80">mvn:com.instana/discovery-prometheus/1.0.5</bundle>
+  <feature name="instana-prometheus-discovery" version="1.0.6">
+    <bundle start-level="80">mvn:com.instana/discovery-prometheus/1.0.6</bundle>
   </feature>
 
   <feature name="instana-python-discovery" version="1.6.1">
     <bundle start-level="80">mvn:com.instana/discovery-python/1.6.1</bundle>
   </feature>
 
-  <feature name="instana-redis-discovery" version="1.1.27">
-    <bundle start-level="80">mvn:com.instana/discovery-redis/1.1.27</bundle>
+  <feature name="instana-redis-discovery" version="1.1.28">
+    <bundle start-level="80">mvn:com.instana/discovery-redis/1.1.28</bundle>
   </feature>
 
   <feature name="instana-rabbitmq-discovery" version="1.1.38">
