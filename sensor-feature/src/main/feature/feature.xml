@@ -249,8 +249,8 @@
     <bundle start-level="80">mvn:com.instana/sensor-dropwizard/1.1.23</bundle>
   </feature>
 
-  <feature name="instana-ec2-sensor" version="1.1.8">
-    <bundle start-level="80">mvn:com.instana/sensor-ec2/1.1.8</bundle>
+  <feature name="instana-ec2-sensor" version="1.1.9">
+    <bundle start-level="80">mvn:com.instana/sensor-ec2/1.1.9</bundle>
   </feature>
 
   <feature name="instana-elasticsearch-sensor" version="1.1.53">
