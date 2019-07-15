@@ -10,7 +10,6 @@
   </feature>
 
   <feature name="instana-azure-discovery" version="1.2.2">
-    <feature version="[1.2.2,2)">instana-azure-sdk</feature>
     <bundle start-level="80">mvn:com.instana/discovery-azure/1.2.2</bundle>
   </feature>
 
