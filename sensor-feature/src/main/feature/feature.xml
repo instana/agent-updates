@@ -196,8 +196,8 @@
     <bundle start-level="80">mvn:com.instana/sensor-ceph/1.1.1</bundle>
   </feature>
 
-  <feature name="instana-clickhouse-sensor" version="1.0.9">
-    <bundle start-level="80">mvn:com.instana/sensor-clickhouse/1.0.9</bundle>
+  <feature name="instana-clickhouse-sensor" version="1.0.10">
+    <bundle start-level="80">mvn:com.instana/sensor-clickhouse/1.0.10</bundle>
   </feature>
 
   <feature name="instana-cpp-sensor" version="1.0.0">
@@ -530,10 +530,10 @@
     <bundle start-level="80">mvn:com.instana/sensor-ping-directory/1.0.3</bundle>
   </feature>
 
-  <feature name="instana-postgresql-sensor" version="1.0.30">
+  <feature name="instana-postgresql-sensor" version="1.0.31">
     <feature version="[1.1,2)">jta-spec</feature>
     <bundle start-level="80">mvn:org.postgresql/postgresql/42.2.5</bundle>
-    <bundle start-level="80">mvn:com.instana/sensor-postgresql/1.0.30</bundle>
+    <bundle start-level="80">mvn:com.instana/sensor-postgresql/1.0.31</bundle>
   </feature>
 
   <feature name="instana-process-sensor" version="1.1.34">
@@ -564,10 +564,10 @@
     <bundle start-level="90">mvn:com.instana/sensor-python-trace/1.2.1</bundle>
   </feature>
 
-  <feature name="instana-redis-sensor" version="1.1.29">
+  <feature name="instana-redis-sensor" version="1.1.30">
     <bundle start-level="80">mvn:org.apache.commons/commons-pool2/2.5.0</bundle>
     <bundle start-level="80">mvn:redis.clients/jedis/2.7.2</bundle>
-    <bundle start-level="80">mvn:com.instana/sensor-redis/1.1.29</bundle>
+    <bundle start-level="80">mvn:com.instana/sensor-redis/1.1.30</bundle>
   </feature>
 
   <feature name="instana-rabbitmq-sensor" version="1.1.39">

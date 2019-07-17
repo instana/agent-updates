@@ -45,8 +45,8 @@
     <bundle start-level="80">mvn:com.instana/discovery-containerd/1.0.11</bundle>
   </feature>
 
-  <feature name="instana-clickhouse-discovery" version="1.0.9">
-    <bundle start-level="80">mvn:com.instana/discovery-clickhouse/1.0.9</bundle>
+  <feature name="instana-clickhouse-discovery" version="1.0.10">
+    <bundle start-level="80">mvn:com.instana/discovery-clickhouse/1.0.10</bundle>
   </feature>
 
   <feature name="instana-clr-discovery" version="1.1.13">
@@ -273,8 +273,8 @@
     <bundle start-level="80">mvn:com.instana/discovery-ping-directory/1.0.3</bundle>
   </feature>
 
-  <feature name="instana-postgresql-discovery" version="1.0.30">
-    <bundle start-level="80">mvn:com.instana/discovery-postgresql/1.0.30</bundle>
+  <feature name="instana-postgresql-discovery" version="1.0.31">
+    <bundle start-level="80">mvn:com.instana/discovery-postgresql/1.0.31</bundle>
   </feature>
 
   <feature name="instana-process-discovery" version="1.1.34">
@@ -289,8 +289,8 @@
     <bundle start-level="80">mvn:com.instana/discovery-python/1.6.1</bundle>
   </feature>
 
-  <feature name="instana-redis-discovery" version="1.1.29">
-    <bundle start-level="80">mvn:com.instana/discovery-redis/1.1.29</bundle>
+  <feature name="instana-redis-discovery" version="1.1.30">
+    <bundle start-level="80">mvn:com.instana/discovery-redis/1.1.30</bundle>
   </feature>
 
   <feature name="instana-rabbitmq-discovery" version="1.1.39">
