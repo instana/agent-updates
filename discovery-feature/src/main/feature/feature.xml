@@ -45,8 +45,8 @@
     <bundle start-level="80">mvn:com.instana/discovery-containerd/1.0.11</bundle>
   </feature>
 
-  <feature name="instana-clickhouse-discovery" version="1.0.9">
-    <bundle start-level="80">mvn:com.instana/discovery-clickhouse/1.0.9</bundle>
+  <feature name="instana-clickhouse-discovery" version="1.0.10">
+    <bundle start-level="80">mvn:com.instana/discovery-clickhouse/1.0.10</bundle>
   </feature>
 
   <feature name="instana-clr-discovery" version="1.1.13">
