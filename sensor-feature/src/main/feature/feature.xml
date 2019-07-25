@@ -206,6 +206,10 @@
     <bundle start-level="80">mvn:com.instana/sensor-clickhouse/1.0.10</bundle>
   </feature>
 
+  <feature name="instana-cloudfoundry-sensor" version="1.0.0">
+    <bundle start-level="80">mvn:com.instana/sensor-cloudfoundry/1.0.0</bundle>
+  </feature>
+
   <feature name="instana-cpp-sensor" version="1.0.0">
     <bundle start-level="80">mvn:com.instana/sensor-cpp/1.0.0</bundle>
   </feature>
@@ -272,7 +276,7 @@
     <bundle start-level="80">mvn:com.instana/sensor-f5/1.0.1</bundle>
     <bundle start-level="80">wrap:mvn:org.snmp4j/snmp4j/2.6.0</bundle>
   </feature>
-
+  
   <feature name="instana-finagle-sensor" version="1.1.0">
     <feature version="[1.2.45,2)">instana-java-sensor</feature>
     <bundle start-level="80">mvn:com.instana/sensor-finagle/1.1.0</bundle>
