@@ -269,8 +269,8 @@
     <bundle start-level="80">mvn:com.instana/discovery-php-cgi/1.0.0</bundle>
   </feature>
 
-  <feature name="instana-php-fpm-discovery" version="1.1.54">
-    <bundle start-level="80">mvn:com.instana/discovery-php-fpm/1.1.54</bundle>
+  <feature name="instana-php-fpm-discovery" version="1.1.55">
+    <bundle start-level="80">mvn:com.instana/discovery-php-fpm/1.1.55</bundle>
   </feature>
 
   <feature name="instana-ping-discovery" version="1.0.6">
