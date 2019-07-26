@@ -512,9 +512,9 @@
     <bundle start-level="80">mvn:com.instana/sensor-packet/1.1.1</bundle>
   </feature>
 
-  <feature name="instana-php-fpm-sensor" version="1.1.54">
+  <feature name="instana-php-fpm-sensor" version="1.1.55">
     <bundle start-level="80">mvn:org.apache.commons/commons-configuration2/2.2</bundle>
-    <bundle start-level="80">mvn:com.instana/sensor-php-fpm/1.1.54</bundle>
+    <bundle start-level="80">mvn:com.instana/sensor-php-fpm/1.1.55</bundle>
   </feature>
 
   <feature name="instana-php-sensor" version="1.1.3">
