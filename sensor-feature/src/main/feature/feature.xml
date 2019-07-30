@@ -6,9 +6,9 @@
     <bundle start-level="80">mvn:com.instana/sensor-activemq-artemis/1.0.3</bundle>
   </feature>
 
-  <feature name="instana-activemq-sensor" version="1.1.9">
+  <feature name="instana-activemq-sensor" version="1.1.10">
     <feature version="[1.2.45,2)">instana-java-sensor</feature>
-    <bundle start-level="80">mvn:com.instana/sensor-activemq/1.1.9</bundle>
+    <bundle start-level="80">mvn:com.instana/sensor-activemq/1.1.10</bundle>
   </feature>
 
   <feature name="instana-azure-sdk" version="1.2.3">
