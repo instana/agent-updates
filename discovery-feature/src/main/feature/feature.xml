@@ -237,8 +237,8 @@
     <bundle start-level="80">mvn:com.instana/discovery-nodejs/1.2.11</bundle>
   </feature>
 
-  <feature name="instana-nomad-discovery" version="1.0.3">
-    <bundle start-level="80">mvn:com.instana/discovery-nomad/1.0.3</bundle>
+  <feature name="instana-nomad-discovery" version="1.0.4">
+    <bundle start-level="80">mvn:com.instana/discovery-nomad/1.0.4</bundle>
   </feature>
 
   <feature name="instana-opc-discovery" version="1.1.1">
