@@ -597,9 +597,9 @@
     <bundle start-level="80">mvn:com.instana/sensor-sap-hana/1.1.0</bundle>
   </feature>
 
-  <feature name="instana-solr-sensor" version="1.0.12">
+  <feature name="instana-solr-sensor" version="1.0.13">
     <feature version="[1.2.59,2)">instana-java-sensor</feature>
-    <bundle start-level="80">mvn:com.instana/sensor-solr/1.0.12</bundle>
+    <bundle start-level="80">mvn:com.instana/sensor-solr/1.0.13</bundle>
   </feature>
 
   <feature name="instana-statsd-sensor" version="1.1.7">
