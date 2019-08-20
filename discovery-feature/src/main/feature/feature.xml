@@ -9,8 +9,8 @@
     <bundle start-level="80">mvn:com.instana/discovery-activemq/1.1.10</bundle>
   </feature>
 
-  <feature name="instana-azure-discovery" version="1.2.3">
-    <bundle start-level="80">mvn:com.instana/discovery-azure/1.2.3</bundle>
+  <feature name="instana-azure-discovery" version="1.2.4">
+    <bundle start-level="80">mvn:com.instana/discovery-azure/1.2.4</bundle>
   </feature>
 
   <feature name="instana-aws-discovery" version="1.0.70">
@@ -181,8 +181,8 @@
     <bundle start-level="80">mvn:com.instana/discovery-kafka/1.1.26</bundle>
   </feature>
 
-  <feature name="instana-kubernetes-discovery" version="1.2.73">
-    <bundle start-level="80">mvn:com.instana/discovery-kubernetes/1.2.73</bundle>
+  <feature name="instana-kubernetes-discovery" version="1.2.75">
+    <bundle start-level="80">mvn:com.instana/discovery-kubernetes/1.2.75</bundle>
   </feature>
 
   <feature name="instana-liferay-discovery" version="1.0.0">
@@ -313,8 +313,8 @@
     <bundle start-level="80">mvn:com.instana/discovery-sap-hana/1.1.0</bundle>
   </feature>
 
-  <feature name="instana-solr-discovery" version="1.0.12">
-    <bundle start-level="80">mvn:com.instana/discovery-solr/1.0.12</bundle>
+  <feature name="instana-solr-discovery" version="1.0.14">
+    <bundle start-level="80">mvn:com.instana/discovery-solr/1.0.14</bundle>
   </feature>
 
   <feature name="instana-statsd-discovery" version="1.1.7">

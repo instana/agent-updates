@@ -11,69 +11,69 @@
     <bundle start-level="80">mvn:com.instana/sensor-activemq/1.1.10</bundle>
   </feature>
 
-  <feature name="instana-azure-sdk" version="1.2.3">
+  <feature name="instana-azure-sdk" version="1.2.4">
     <bundle start-level="80">wrap:mvn:com.squareup.okhttp3/okhttp/3.12.0</bundle>
     <bundle start-level="80">wrap:mvn:com.squareup.okio/okio/1.14.0</bundle>
-    <bundle start-level="80">mvn:com.instana/instana-azure-sdk/1.2.3</bundle>
+    <bundle start-level="80">mvn:com.instana/instana-azure-sdk/1.2.4</bundle>
   </feature>
 
-  <feature name="instana-azure-sensor" version="1.2.3">
-    <bundle start-level="80">mvn:com.instana/sensor-azure/1.2.3</bundle>
+  <feature name="instana-azure-sensor" version="1.2.4">
+    <bundle start-level="80">mvn:com.instana/sensor-azure/1.2.4</bundle>
   </feature>
 
-  <feature name="instana-azure-services-sensor" version="1.2.3">
-    <feature version="[1.2.3,2)">instana-azure-sdk</feature>
-    <bundle start-level="80">mvn:com.instana/sensor-azure-services/1.2.3</bundle>
+  <feature name="instana-azure-services-sensor" version="1.2.4">
+    <feature version="[1.2.4,2)">instana-azure-sdk</feature>
+    <bundle start-level="80">mvn:com.instana/sensor-azure-services/1.2.4</bundle>
   </feature>
 
-  <feature name="instana-azure-services-discovery" version="1.2.3">
-    <feature version="[1.2.3,2)">instana-azure-sdk</feature>
-    <bundle start-level="80">mvn:com.instana/discovery-azure-services/1.2.3</bundle>
+  <feature name="instana-azure-services-discovery" version="1.2.4">
+    <feature version="[1.2.4,2)">instana-azure-sdk</feature>
+    <bundle start-level="80">mvn:com.instana/discovery-azure-services/1.2.4</bundle>
   </feature>
 
-  <feature name="instana-azure-appservice-sensor" version="1.2.3">
-    <feature version="[1.2.3,2)">instana-azure-sdk</feature>
-    <bundle start-level="80">mvn:com.instana/sensor-azure-appservice/1.2.3</bundle>
+  <feature name="instana-azure-appservice-sensor" version="1.2.4">
+    <feature version="[1.2.4,2)">instana-azure-sdk</feature>
+    <bundle start-level="80">mvn:com.instana/sensor-azure-appservice/1.2.4</bundle>
   </feature>
 
-  <feature name="instana-azure-rediscache-sensor" version="1.2.3">
-    <feature version="[1.2.3,2)">instana-azure-sdk</feature>
-    <bundle start-level="80">mvn:com.instana/sensor-azure-rediscache/1.2.3</bundle>
+  <feature name="instana-azure-rediscache-sensor" version="1.2.4">
+    <feature version="[1.2.4,2)">instana-azure-sdk</feature>
+    <bundle start-level="80">mvn:com.instana/sensor-azure-rediscache/1.2.4</bundle>
   </feature>
 
-  <feature name="instana-azure-cosmosdb-sensor" version="1.2.3">
-    <feature version="[1.2.3,2)">instana-azure-sdk</feature>
-    <bundle start-level="80">mvn:com.instana/sensor-azure-cosmosdb/1.2.3</bundle>
+  <feature name="instana-azure-cosmosdb-sensor" version="1.2.4">
+    <feature version="[1.2.4,2)">instana-azure-sdk</feature>
+    <bundle start-level="80">mvn:com.instana/sensor-azure-cosmosdb/1.2.4</bundle>
   </feature>
 
-  <feature name="instana-azure-storage-sensor" version="1.2.3">
-    <feature version="[1.2.3,2)">instana-azure-sdk</feature>
-    <bundle start-level="80">mvn:com.instana/sensor-azure-storage/1.2.3</bundle>
+  <feature name="instana-azure-storage-sensor" version="1.2.4">
+    <feature version="[1.2.4,2)">instana-azure-sdk</feature>
+    <bundle start-level="80">mvn:com.instana/sensor-azure-storage/1.2.4</bundle>
   </feature>
 
-  <feature name="instana-azure-apimanagement-sensor" version="1.2.3">
-    <feature version="[1.2.3,2)">instana-azure-sdk</feature>
-    <bundle start-level="80">mvn:com.instana/sensor-azure-apimanagement/1.2.3</bundle>
+  <feature name="instana-azure-apimanagement-sensor" version="1.2.4">
+    <feature version="[1.2.4,2)">instana-azure-sdk</feature>
+    <bundle start-level="80">mvn:com.instana/sensor-azure-apimanagement/1.2.4</bundle>
   </feature>
 
-  <feature name="instana-azure-sqldatabase-sensor" version="1.2.3">
-    <feature version="[1.2.3,2)">instana-azure-sdk</feature>
-    <bundle start-level="80">mvn:com.instana/sensor-azure-sqldatabase/1.2.3</bundle>
+  <feature name="instana-azure-sqldatabase-sensor" version="1.2.4">
+    <feature version="[1.2.4,2)">instana-azure-sdk</feature>
+    <bundle start-level="80">mvn:com.instana/sensor-azure-sqldatabase/1.2.4</bundle>
   </feature>
 
-  <feature name="instana-azure-sqldb-sensor" version="1.2.3">
-    <feature version="[1.2.3,2)">instana-azure-sdk</feature>
-    <bundle start-level="80">mvn:com.instana/sensor-azure-sqldb/1.2.3</bundle>
+  <feature name="instana-azure-sqldb-sensor" version="1.2.4">
+    <feature version="[1.2.4,2)">instana-azure-sdk</feature>
+    <bundle start-level="80">mvn:com.instana/sensor-azure-sqldb/1.2.4</bundle>
   </feature>
 
-  <feature name="instana-azure-sqlelasticpool-sensor" version="1.2.3">
-    <feature version="[1.2.3,2)">instana-azure-sdk</feature>
-    <bundle start-level="80">mvn:com.instana/sensor-azure-sqlelasticpool/1.2.3</bundle>
+  <feature name="instana-azure-sqlelasticpool-sensor" version="1.2.4">
+    <feature version="[1.2.4,2)">instana-azure-sdk</feature>
+    <bundle start-level="80">mvn:com.instana/sensor-azure-sqlelasticpool/1.2.4</bundle>
   </feature>
 
-  <feature name="instana-azure-sqlserver-sensor" version="1.2.3">
-    <feature version="[1.2.3,2)">instana-azure-sdk</feature>
-    <bundle start-level="80">mvn:com.instana/sensor-azure-sqlserver/1.2.3</bundle>
+  <feature name="instana-azure-sqlserver-sensor" version="1.2.4">
+    <feature version="[1.2.4,2)">instana-azure-sdk</feature>
+    <bundle start-level="80">mvn:com.instana/sensor-azure-sqlserver/1.2.4</bundle>
   </feature>
 
   <feature name="instana-aws-sdk" version="1.11.534.70">
@@ -406,7 +406,7 @@
     <bundle start-level="80">mvn:com.instana/sensor-kafka/1.1.26</bundle>
   </feature>
 
-  <feature name="instana-kubernetes-sensor" version="1.2.73">
+  <feature name="instana-kubernetes-sensor" version="1.2.75">
     <bundle start-level="80">wrap:mvn:com.squareup.okio/okio/1.14.0</bundle>
     <bundle start-level="80">wrap:mvn:com.squareup.okhttp3/okhttp/3.12.0</bundle>
     <bundle start-level="80">wrap:mvn:com.squareup.okhttp3/logging-interceptor/3.12.0</bundle>
@@ -416,7 +416,7 @@
     <bundle start-level="80">wrap:mvn:io.fabric8/kubernetes-model/4.1.1</bundle>
     <bundle start-level="80">mvn:io.fabric8/kubernetes-client/4.1.1//bundle</bundle>
     <bundle start-level="80">mvn:io.fabric8/openshift-client/4.1.1//bundle</bundle>
-    <bundle start-level="80">mvn:com.instana/sensor-kubernetes/1.2.73</bundle>
+    <bundle start-level="80">mvn:com.instana/sensor-kubernetes/1.2.75</bundle>
   </feature>
 
   <feature name="instana-liferay-sensor" version="1.0.0">
@@ -476,8 +476,8 @@
     <bundle start-level="80">mvn:com.instana/sensor-netcore/1.0.10</bundle>
   </feature>
 
-  <feature name="instana-netcore-trace-sensor" version="1.0.0">
-    <bundle start-level="80">mvn:com.instana/sensor-netcore-trace/1.0.0</bundle>
+  <feature name="instana-netcore-trace-sensor" version="1.0.1">
+    <bundle start-level="80">mvn:com.instana/sensor-netcore-trace/1.0.1</bundle>
   </feature>
 
   <feature name="instana-nginx-sensor" version="1.1.66">
@@ -601,9 +601,9 @@
     <bundle start-level="80">mvn:com.instana/sensor-sap-hana/1.1.0</bundle>
   </feature>
 
-  <feature name="instana-solr-sensor" version="1.0.12">
+  <feature name="instana-solr-sensor" version="1.0.14">
     <feature version="[1.2.59,2)">instana-java-sensor</feature>
-    <bundle start-level="80">mvn:com.instana/sensor-solr/1.0.12</bundle>
+    <bundle start-level="80">mvn:com.instana/sensor-solr/1.0.14</bundle>
   </feature>
 
   <feature name="instana-statsd-sensor" version="1.1.7">
