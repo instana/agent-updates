@@ -554,8 +554,8 @@
     <bundle start-level="80">mvn:com.instana/sensor-postgresql/1.0.33</bundle>
   </feature>
 
-  <feature name="instana-process-sensor" version="1.1.36">
-    <bundle start-level="80">mvn:com.instana/sensor-process/1.1.36</bundle>
+  <feature name="instana-process-sensor" version="1.1.37">
+    <bundle start-level="80">mvn:com.instana/sensor-process/1.1.37</bundle>
   </feature>
 
   <feature name="instana-prometheus-kubernetes-discovery" version="1.0.7">
