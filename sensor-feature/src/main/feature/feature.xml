@@ -202,8 +202,8 @@
     <bundle start-level="80">mvn:com.instana/sensor-ceph/1.1.1</bundle>
   </feature>
 
-  <feature name="instana-clickhouse-sensor" version="1.0.10">
-    <bundle start-level="80">mvn:com.instana/sensor-clickhouse/1.0.10</bundle>
+  <feature name="instana-clickhouse-sensor" version="1.0.11">
+    <bundle start-level="80">mvn:com.instana/sensor-clickhouse/1.0.11</bundle>
   </feature>
 
   <feature name="instana-cloudfoundry-sensor" version="1.0.2">
