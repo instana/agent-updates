@@ -202,8 +202,12 @@
     <bundle start-level="80">mvn:com.instana/sensor-ceph/1.1.1</bundle>
   </feature>
 
-  <feature name="instana-clickhouse-sensor" version="1.0.10">
-    <bundle start-level="80">mvn:com.instana/sensor-clickhouse/1.0.10</bundle>
+  <feature name="instana-clickhouse-sensor" version="1.0.11">
+    <bundle start-level="80">mvn:com.instana/sensor-clickhouse/1.0.11</bundle>
+  </feature>
+
+  <feature name="instana-cloudfoundry-sensor" version="1.0.3">
+    <bundle start-level="80">mvn:com.instana/sensor-cloudfoundry/1.0.3</bundle>
   </feature>
 
   <feature name="instana-cpp-sensor" version="1.0.0">
@@ -350,8 +354,8 @@
     <bundle start-level="80">mvn:com.instana/sensor-hbase/1.1.0</bundle>
   </feature>
 
-  <feature name="instana-host-sensor" version="1.1.120">
-    <bundle start-level="80">mvn:com.instana/sensor-host/1.1.120</bundle>
+  <feature name="instana-host-sensor" version="1.1.121">
+    <bundle start-level="80">mvn:com.instana/sensor-host/1.1.121</bundle>
   </feature>
 
   <feature name="instana-httpd-sensor" version="1.1.95">
@@ -377,9 +381,9 @@
     <bundle start-level="80">mvn:com.instana/sensor-jboss-as/1.1.41</bundle>
   </feature>
 
-  <feature name="instana-jboss-as4-sensor" version="1.0.4">
+  <feature name="instana-jboss-as4-sensor" version="1.0.5">
     <feature version="[1.2.59,2)">instana-java-sensor</feature>
-    <bundle start-level="80">mvn:com.instana/sensor-jboss-as4/1.0.4</bundle>
+    <bundle start-level="80">mvn:com.instana/sensor-jboss-as4/1.0.5</bundle>
   </feature>
 
   <feature name="instana-jboss-datagrid-sensor" version="1.1.10">
@@ -406,7 +410,7 @@
     <bundle start-level="80">mvn:com.instana/sensor-kafka/1.1.26</bundle>
   </feature>
 
-  <feature name="instana-kubernetes-sensor" version="1.2.76">
+  <feature name="instana-kubernetes-sensor" version="1.2.80">
     <bundle start-level="80">wrap:mvn:com.squareup.okio/okio/1.14.0</bundle>
     <bundle start-level="80">wrap:mvn:com.squareup.okhttp3/okhttp/3.12.0</bundle>
     <bundle start-level="80">wrap:mvn:com.squareup.okhttp3/logging-interceptor/3.12.0</bundle>
@@ -416,7 +420,7 @@
     <bundle start-level="80">wrap:mvn:io.fabric8/kubernetes-model/4.1.1</bundle>
     <bundle start-level="80">mvn:io.fabric8/kubernetes-client/4.1.1//bundle</bundle>
     <bundle start-level="80">mvn:io.fabric8/openshift-client/4.1.1//bundle</bundle>
-    <bundle start-level="80">mvn:com.instana/sensor-kubernetes/1.2.76</bundle>
+    <bundle start-level="80">mvn:com.instana/sensor-kubernetes/1.2.80</bundle>
   </feature>
 
   <feature name="instana-liferay-sensor" version="1.0.0">

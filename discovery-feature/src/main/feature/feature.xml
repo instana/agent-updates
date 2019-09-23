@@ -45,8 +45,12 @@
     <bundle start-level="80">mvn:com.instana/discovery-containerd/1.0.15</bundle>
   </feature>
 
-  <feature name="instana-clickhouse-discovery" version="1.0.10">
-    <bundle start-level="80">mvn:com.instana/discovery-clickhouse/1.0.10</bundle>
+  <feature name="instana-clickhouse-discovery" version="1.0.11">
+    <bundle start-level="80">mvn:com.instana/discovery-clickhouse/1.0.11</bundle>
+  </feature>
+
+  <feature name="instana-cloudfoundry-discovery" version="1.0.3">
+    <bundle start-level="80">mvn:com.instana/discovery-cloudfoundry/1.0.3</bundle>
   </feature>
 
   <feature name="instana-clr-discovery" version="1.1.13">
@@ -137,8 +141,8 @@
     <bundle start-level="80">mvn:com.instana/discovery-hbase/1.1.0</bundle>
   </feature>
 
-  <feature name="instana-host-discovery" version="1.1.120">
-    <bundle start-level="80">mvn:com.instana/discovery-host/1.1.120</bundle>
+  <feature name="instana-host-discovery" version="1.1.121">
+    <bundle start-level="80">mvn:com.instana/discovery-host/1.1.121</bundle>
   </feature>
 
   <feature name="instana-httpd-discovery" version="1.1.95">
@@ -157,8 +161,8 @@
     <bundle start-level="80">mvn:com.instana/discovery-jboss-as/1.1.41</bundle>
   </feature>
 
-  <feature name="instana-jboss-as4-discovery" version="1.0.4">
-    <bundle start-level="80">mvn:com.instana/discovery-jboss-as4/1.0.4</bundle>
+  <feature name="instana-jboss-as4-discovery" version="1.0.5">
+    <bundle start-level="80">mvn:com.instana/discovery-jboss-as4/1.0.5</bundle>
   </feature>
 
   <feature name="instana-jboss-datagrid-discovery" version="1.1.10">
@@ -181,8 +185,8 @@
     <bundle start-level="80">mvn:com.instana/discovery-kafka/1.1.26</bundle>
   </feature>
 
-  <feature name="instana-kubernetes-discovery" version="1.2.76">
-    <bundle start-level="80">mvn:com.instana/discovery-kubernetes/1.2.76</bundle>
+  <feature name="instana-kubernetes-discovery" version="1.2.80">
+    <bundle start-level="80">mvn:com.instana/discovery-kubernetes/1.2.80</bundle>
   </feature>
 
   <feature name="instana-liferay-discovery" version="1.0.0">
