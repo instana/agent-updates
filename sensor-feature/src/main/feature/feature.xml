@@ -410,7 +410,7 @@
     <bundle start-level="80">mvn:com.instana/sensor-kafka/1.1.26</bundle>
   </feature>
 
-  <feature name="instana-kubernetes-sensor" version="1.2.82">
+  <feature name="instana-kubernetes-sensor" version="1.2.86">
     <bundle start-level="80">wrap:mvn:com.squareup.okio/okio/1.14.0</bundle>
     <bundle start-level="80">wrap:mvn:com.squareup.okhttp3/okhttp/3.12.0</bundle>
     <bundle start-level="80">wrap:mvn:com.squareup.okhttp3/logging-interceptor/3.12.0</bundle>
@@ -420,7 +420,7 @@
     <bundle start-level="80">wrap:mvn:io.fabric8/kubernetes-model/4.1.1</bundle>
     <bundle start-level="80">mvn:io.fabric8/kubernetes-client/4.1.1//bundle</bundle>
     <bundle start-level="80">mvn:io.fabric8/openshift-client/4.1.1//bundle</bundle>
-    <bundle start-level="80">mvn:com.instana/sensor-kubernetes/1.2.82</bundle>
+    <bundle start-level="80">mvn:com.instana/sensor-kubernetes/1.2.86</bundle>
   </feature>
 
   <feature name="instana-liferay-sensor" version="1.0.0">
@@ -465,9 +465,9 @@
     <bundle start-level="80">mvn:com.instana/sensor-mule/1.0.3</bundle>
   </feature>
 
-  <feature name="instana-mssql-sensor" version="1.1.20">
+  <feature name="instana-mssql-sensor" version="1.1.21">
     <feature prerequisite="true">wrap</feature>
-    <bundle start-level="80">mvn:com.instana/sensor-mssql/1.1.20</bundle>
+    <bundle start-level="80">mvn:com.instana/sensor-mssql/1.1.21</bundle>
     <bundle start-level="80">wrap:mvn:com.microsoft.sqlserver/sqljdbc4/4.0$Bundle-SymbolicName=sqljdbc4&amp;Bundle-Version=4.0</bundle>
   </feature>
 
@@ -484,9 +484,9 @@
     <bundle start-level="90">mvn:com.instana/sensor-netcore-trace/1.0.5</bundle>
   </feature>
 
-  <feature name="instana-nginx-sensor" version="1.1.68">
+  <feature name="instana-nginx-sensor" version="1.1.69">
     <bundle start-level="80">mvn:org.antlr/antlr4-runtime/4.5.3</bundle>
-    <bundle start-level="80">mvn:com.instana/sensor-nginx/1.1.68</bundle>
+    <bundle start-level="80">mvn:com.instana/sensor-nginx/1.1.69</bundle>
   </feature>
 
   <feature name="instana-nodejs-sensor" version="1.2.12">
@@ -548,10 +548,10 @@
     <bundle start-level="80">mvn:com.instana/sensor-ping-directory/1.0.3</bundle>
   </feature>
 
-  <feature name="instana-postgresql-sensor" version="1.0.34">
+  <feature name="instana-postgresql-sensor" version="1.0.35">
     <feature version="[1.1,2)">jta-spec</feature>
     <bundle start-level="80">mvn:org.postgresql/postgresql/42.2.5</bundle>
-    <bundle start-level="80">mvn:com.instana/sensor-postgresql/1.0.34</bundle>
+    <bundle start-level="80">mvn:com.instana/sensor-postgresql/1.0.35</bundle>
   </feature>
 
   <feature name="instana-process-sensor" version="1.1.37">
