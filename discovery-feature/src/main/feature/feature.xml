@@ -13,8 +13,8 @@
     <bundle start-level="80">mvn:com.instana/discovery-azure/1.2.8</bundle>
   </feature>
 
-  <feature name="instana-aws-discovery" version="1.0.75">
-    <bundle start-level="80">mvn:com.instana/discovery-aws/1.0.75</bundle>
+  <feature name="instana-aws-discovery" version="1.0.76">
+    <bundle start-level="80">mvn:com.instana/discovery-aws/1.0.76</bundle>
   </feature>
 
   <feature name="instana-cassandra-discovery" version="1.1.34">
@@ -297,8 +297,8 @@
     <bundle start-level="80">mvn:com.instana/discovery-prometheus/1.0.7</bundle>
   </feature>
 
-  <feature name="instana-python-discovery" version="1.6.2">
-    <bundle start-level="80">mvn:com.instana/discovery-python/1.6.2</bundle>
+  <feature name="instana-python-discovery" version="1.6.3">
+    <bundle start-level="80">mvn:com.instana/discovery-python/1.6.3</bundle>
   </feature>
 
   <feature name="instana-redis-discovery" version="1.1.30">
