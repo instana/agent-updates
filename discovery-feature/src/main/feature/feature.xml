@@ -13,8 +13,8 @@
     <bundle start-level="80">mvn:com.instana/discovery-azure/1.2.12</bundle>
   </feature>
 
-  <feature name="instana-aws-discovery" version="1.0.83">
-    <bundle start-level="80">mvn:com.instana/discovery-aws/1.0.83</bundle>
+  <feature name="instana-aws-discovery" version="1.0.84">
+    <bundle start-level="80">mvn:com.instana/discovery-aws/1.0.84</bundle>
   </feature>
 
   <feature name="instana-cassandra-discovery" version="1.1.34">
@@ -63,6 +63,10 @@
 
   <feature name="instana-crystal-discovery" version="1.1.1">
     <bundle start-level="80">mvn:com.instana/discovery-crystal/1.1.1</bundle>
+  </feature>
+
+  <feature name="instana-crio-discovery" version="1.0.1">
+    <bundle start-level="80">mvn:com.instana/discovery-crio/1.0.1</bundle>
   </feature>
 
   <feature name="instana-docker-discovery" version="1.1.56">
@@ -141,8 +145,8 @@
     <bundle start-level="80">mvn:com.instana/discovery-hbase/1.1.0</bundle>
   </feature>
 
-  <feature name="instana-host-discovery" version="1.1.122">
-    <bundle start-level="80">mvn:com.instana/discovery-host/1.1.122</bundle>
+  <feature name="instana-host-discovery" version="1.1.123">
+    <bundle start-level="80">mvn:com.instana/discovery-host/1.1.123</bundle>
   </feature>
 
   <feature name="instana-httpd-discovery" version="1.1.96">
@@ -181,8 +185,8 @@
     <bundle start-level="80">mvn:com.instana/discovery-jira/1.1.11</bundle>
   </feature>
 
-  <feature name="instana-kafka-discovery" version="1.1.26">
-    <bundle start-level="80">mvn:com.instana/discovery-kafka/1.1.26</bundle>
+  <feature name="instana-kafka-discovery" version="1.1.27">
+    <bundle start-level="80">mvn:com.instana/discovery-kafka/1.1.27</bundle>
   </feature>
 
   <feature name="instana-kubernetes-discovery" version="1.2.90">
@@ -347,6 +351,10 @@
 
   <feature name="instana-varnish-discovery" version="1.0.22">
     <bundle start-level="80">mvn:com.instana/discovery-varnish/1.0.22</bundle>
+  </feature>
+
+  <feature name="instana-vsphere-discovery" version="1.0.1">
+    <bundle start-level="80">mvn:com.instana/discovery-vsphere/1.0.1</bundle>
   </feature>
 
   <feature name="instana-websphere-discovery" version="1.1.12">
