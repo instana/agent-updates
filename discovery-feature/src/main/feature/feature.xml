@@ -353,8 +353,8 @@
     <bundle start-level="80">mvn:com.instana/discovery-varnish/1.0.22</bundle>
   </feature>
 
-  <feature name="instana-vsphere-discovery" version="1.0.2">
-    <bundle start-level="80">mvn:com.instana/discovery-vsphere/1.0.2</bundle>
+  <feature name="instana-vsphere-discovery" version="1.0.3">
+    <bundle start-level="80">mvn:com.instana/discovery-vsphere/1.0.3</bundle>
   </feature>
 
   <feature name="instana-websphere-discovery" version="1.1.12">
