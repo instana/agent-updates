@@ -430,9 +430,9 @@
     <bundle start-level="80">mvn:com.instana/sensor-jira/1.1.11</bundle>
   </feature>
 
-  <feature name="instana-kafka-sensor" version="1.1.28">
+  <feature name="instana-kafka-sensor" version="1.1.29">
     <feature version="[1.2.31,2)">instana-java-sensor</feature>
-    <bundle start-level="80">mvn:com.instana/sensor-kafka/1.1.28</bundle>
+    <bundle start-level="80">mvn:com.instana/sensor-kafka/1.1.29</bundle>
   </feature>
 
   <feature name="instana-kubernetes-sensor" version="1.2.91">
