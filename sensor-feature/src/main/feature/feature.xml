@@ -276,8 +276,8 @@
     <bundle start-level="80">mvn:com.instana/sensor-dropwizard/1.1.23</bundle>
   </feature>
 
-  <feature name="instana-ebpf-sensor" version="1.0.2">
-    <bundle start-level="80">mvn:com.instana/sensor-ebpf/1.0.2</bundle>
+  <feature name="instana-ebpf-sensor" version="1.0.4">
+    <bundle start-level="80">mvn:com.instana/sensor-ebpf/1.0.4</bundle>
   </feature>
 
   <feature name="instana-ec2-sensor" version="1.1.9">
@@ -392,8 +392,8 @@
     <bundle start-level="80">mvn:com.instana/sensor-instana-backend/1.1.0</bundle>
   </feature>
 
-  <feature name="instana-java-sensor" version="1.2.90">
-    <bundle start-level="80">mvn:com.instana/sensor-java/1.2.90</bundle>
+  <feature name="instana-java-sensor" version="1.2.92">
+    <bundle start-level="80">mvn:com.instana/sensor-java/1.2.92</bundle>
   </feature>
 
   <feature name="instana-java-trace-sensor" version="1.2.323">
@@ -504,9 +504,9 @@
     <bundle start-level="80">mvn:com.instana/sensor-mule/1.0.3</bundle>
   </feature>
 
-  <feature name="instana-mssql-sensor" version="1.1.24">
+  <feature name="instana-mssql-sensor" version="1.1.25">
     <feature prerequisite="true">wrap</feature>
-    <bundle start-level="80">mvn:com.instana/sensor-mssql/1.1.24</bundle>
+    <bundle start-level="80">mvn:com.instana/sensor-mssql/1.1.25</bundle>
     <bundle start-level="80">wrap:mvn:com.microsoft.sqlserver/sqljdbc4/4.0$Bundle-SymbolicName=sqljdbc4&amp;Bundle-Version=4.0</bundle>
   </feature>
 
@@ -515,8 +515,8 @@
     <bundle start-level="80">mvn:com.instana/sensor-neo4j/1.0.0</bundle>
   </feature>
 
-  <feature name="instana-netcore-sensor" version="1.0.14">
-    <bundle start-level="80">mvn:com.instana/sensor-netcore/1.0.14</bundle>
+  <feature name="instana-netcore-sensor" version="1.0.15">
+    <bundle start-level="80">mvn:com.instana/sensor-netcore/1.0.15</bundle>
   </feature>
 
   <feature name="instana-netcore-trace-sensor" version="1.0.5">
@@ -587,10 +587,10 @@
     <bundle start-level="80">mvn:com.instana/sensor-ping-directory/1.0.3</bundle>
   </feature>
 
-  <feature name="instana-postgresql-sensor" version="1.0.37">
+  <feature name="instana-postgresql-sensor" version="1.0.38">
     <feature version="[1.1,2)">jta-spec</feature>
     <bundle start-level="80">mvn:org.postgresql/postgresql/42.2.5</bundle>
-    <bundle start-level="80">mvn:com.instana/sensor-postgresql/1.0.37</bundle>
+    <bundle start-level="80">mvn:com.instana/sensor-postgresql/1.0.38</bundle>
   </feature>
 
   <feature name="instana-process-sensor" version="1.1.37">
@@ -667,9 +667,9 @@
     <bundle start-level="80">mvn:com.instana/sensor-spark-standalone/1.1.1</bundle>
   </feature>
 
-  <feature name="instana-springboot-sensor" version="1.1.38">
+  <feature name="instana-springboot-sensor" version="1.1.39">
     <feature version="[1.2.45,2)">instana-java-sensor</feature>
-    <bundle start-level="80">mvn:com.instana/sensor-springboot/1.1.38</bundle>
+    <bundle start-level="80">mvn:com.instana/sensor-springboot/1.1.39</bundle>
   </feature>
 
   <feature name="instana-sybase-sensor" version="1.0.0">
