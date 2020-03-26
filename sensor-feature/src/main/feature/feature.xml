@@ -450,7 +450,7 @@
     <bundle start-level="80">mvn:com.instana/sensor-kafka/1.1.33</bundle>
   </feature>
 
-  <feature name="instana-kubernetes-sensor" version="1.2.97">
+  <feature name="instana-kubernetes-sensor" version="1.2.98">
     <feature version="[1.0.0,2)">instana-coordination-sdk</feature>
     <bundle start-level="80">mvn:commons-codec/commons-codec/1.13</bundle>
     <bundle start-level="80">mvn:org.apache.commons/commons-compress/1.19</bundle>
@@ -469,7 +469,7 @@
     <bundle start-level="80">
       <![CDATA[wrap:mvn:io.fabric8/openshift-client/4.6.0//bundle$overwrite=merge&Import-Package=com.fasterxml.jackson.annotation;version="[2.9.8,3)",*]]>
     </bundle>
-    <bundle start-level="80">mvn:com.instana/sensor-kubernetes/1.2.97</bundle>
+    <bundle start-level="80">mvn:com.instana/sensor-kubernetes/1.2.98</bundle>
   </feature>
 
   <feature name="instana-liferay-sensor" version="1.0.0">
