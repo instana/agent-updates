@@ -543,12 +543,16 @@
     <bundle start-level="80">mvn:com.instana/sensor-nginx/1.1.73</bundle>
   </feature>
 
-  <feature name="instana-nodejs-sensor" version="1.2.13">
-    <bundle start-level="80">mvn:com.instana/sensor-nodejs/1.2.13</bundle>
+  <feature name="instana-nodejs-sensor" version="1.2.14">
+    <bundle start-level="80">mvn:com.instana/sensor-nodejs/1.2.14</bundle>
   </feature>
 
   <feature name="instana-nodejs-trace-sensor" version="1.2.3">
     <bundle start-level="90">mvn:com.instana/sensor-nodejs-trace/1.2.3</bundle>
+  </feature>
+
+  <feature name="instana-nodejs-profile-sensor" version="1.0.0">
+    <bundle start-level="90">mvn:com.instana/sensor-nodejs-profile/1.0.0</bundle>
   </feature>
 
   <feature name="instana-nomad-sensor" version="1.0.6">
@@ -689,7 +693,7 @@
     <bundle start-level="80">wrap:mvn:com.sybase.jdbc4.jdbc/jconn4/7.0$overwrite=merge&amp;Import-Package=javax.crypto;resolution:=optional,javax.crypto.spec;resolution:=optional,javax.naming;resolution:=optional,javax.naming.ldap;resolution:=optional,javax.naming.spi;resolution:=optional,javax.net;resolution:=optional,javax.net.ssl;resolution:=optional,javax.security.auth;resolution:=optional,javax.security.auth.x500;resolution:=optional,javax.sql;resolution:=optional,javax.swing;resolution:=optional,javax.swing.border;resolution:=optional,javax.transaction.xa;resolution:=optional,org.ietf.jgss;resolution:=optional</bundle>
     <bundle start-level="80">mvn:com.instana/sensor-sybase/1.0.0</bundle>
   </feature>
-  
+
   <feature name="instana-tanzu-foundation-member-sensor" version="1.0.0">
     <bundle start-level="80">mvn:com.instana/sensor-tanzu-foundation-member/1.0.0</bundle>
   </feature>
