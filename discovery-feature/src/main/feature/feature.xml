@@ -154,8 +154,8 @@
     <bundle start-level="80">mvn:com.instana/discovery-host/1.1.127</bundle>
   </feature>
 
-  <feature name="instana-httpd-discovery" version="1.1.99">
-    <bundle start-level="80">mvn:com.instana/discovery-httpd/1.1.99</bundle>
+  <feature name="instana-httpd-discovery" version="1.1.100">
+    <bundle start-level="80">mvn:com.instana/discovery-httpd/1.1.100</bundle>
   </feature>
 
   <feature name="instana-instana-backend-discovery" version="1.1.1">

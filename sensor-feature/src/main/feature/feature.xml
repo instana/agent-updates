@@ -388,8 +388,8 @@
     <bundle start-level="80">mvn:com.instana/sensor-host/1.1.127</bundle>
   </feature>
 
-  <feature name="instana-httpd-sensor" version="1.1.99">
-    <bundle start-level="80">mvn:com.instana/sensor-httpd/1.1.99</bundle>
+  <feature name="instana-httpd-sensor" version="1.1.100">
+    <bundle start-level="80">mvn:com.instana/sensor-httpd/1.1.100</bundle>
   </feature>
 
   <feature name="instana-instana-backend-sensor" version="1.1.1">
