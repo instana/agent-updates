@@ -384,8 +384,8 @@
     <bundle start-level="80">mvn:com.instana/sensor-hbase/1.1.0</bundle>
   </feature>
 
-  <feature name="instana-host-sensor" version="1.1.127">
-    <bundle start-level="80">mvn:com.instana/sensor-host/1.1.127</bundle>
+  <feature name="instana-host-sensor" version="1.1.129">
+    <bundle start-level="80">mvn:com.instana/sensor-host/1.1.129</bundle>
   </feature>
 
   <feature name="instana-httpd-sensor" version="1.1.100">
