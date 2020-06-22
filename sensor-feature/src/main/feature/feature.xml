@@ -406,9 +406,9 @@
     <bundle start-level="90">mvn:com.instana/sensor-java-trace/1.2.332</bundle>
   </feature>
 
-  <feature name="instana-java-profile-sensor" version="1.0.9">
+  <feature name="instana-java-profile-sensor" version="1.0.10">
     <feature version="[1.2.89,2)">instana-java-sensor</feature>
-    <bundle start-level="90">mvn:com.instana/sensor-java-profile/1.0.9</bundle>
+    <bundle start-level="90">mvn:com.instana/sensor-java-profile/1.0.10</bundle>
   </feature>
 
   <feature name="instana-jboss-as-sensor" version="1.1.43">
