@@ -237,8 +237,8 @@
     <bundle start-level="80">mvn:com.instana/sensor-cockroachdb/1.0.6</bundle>
   </feature>
 
-  <feature name="instana-consul-sensor" version="1.0.15">
-    <bundle start-level="90">mvn:com.instana/sensor-consul/1.0.15</bundle>
+  <feature name="instana-consul-sensor" version="1.0.16">
+    <bundle start-level="80">mvn:com.instana/sensor-consul/1.0.16</bundle>
   </feature>
 
   <feature name="instana-containerd-sensor" version="1.0.19">
