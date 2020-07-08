@@ -27,6 +27,7 @@
     <module>agent-feature</module>
     <module>discovery-feature</module>
     <module>sensor-feature</module>
+    <module>optional-feature</module>
   </modules>
 
 
