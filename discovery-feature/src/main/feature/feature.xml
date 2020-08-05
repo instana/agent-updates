@@ -302,8 +302,8 @@
     <bundle start-level="80">mvn:com.instana/discovery-postgresql/1.0.39</bundle>
   </feature>
 
-  <feature name="instana-process-discovery" version="1.1.39">
-    <bundle start-level="80">mvn:com.instana/discovery-process/1.1.39</bundle>
+  <feature name="instana-process-discovery" version="1.1.40">
+    <bundle start-level="80">mvn:com.instana/discovery-process/1.1.40</bundle>
   </feature>
 
   <feature name="instana-prometheus-discovery" version="1.0.12">
