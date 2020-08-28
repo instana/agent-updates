@@ -688,9 +688,9 @@
     <bundle start-level="80">mvn:com.instana/sensor-spark-standalone/1.1.1</bundle>
   </feature>
 
-  <feature name="instana-springboot-sensor" version="1.1.40">
-    <feature version="[1.2.45,2)">instana-java-sensor</feature>
-    <bundle start-level="80">mvn:com.instana/sensor-springboot/1.1.40</bundle>
+  <feature name="instana-springboot-sensor" version="1.1.41">
+    <feature version="[1.2.96,2)">instana-java-sensor</feature>
+    <bundle start-level="80">mvn:com.instana/sensor-springboot/1.1.41</bundle>
   </feature>
 
   <feature name="instana-sybase-sensor" version="1.0.0">
