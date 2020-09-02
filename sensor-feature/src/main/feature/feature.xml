@@ -397,6 +397,13 @@
     <bundle start-level="80">mvn:com.instana/sensor-httpd/1.1.100</bundle>
   </feature>
 
+  <feature name="instana-ibmmq-sensor" version="1.0.0">
+    <bundle start-level="80">
+      <![CDATA[wrap:mvn:com.ibm.mq/com.ibm.mq.allclient/[9.1.0.0,9.1.5.0]$overwrite=merge&Export-Package=com.ibm.mq.*]]>
+    </bundle>
+    <bundle start-level="80">mvn:com.instana/sensor-ibmmq/1.0.0</bundle>
+  </feature>
+
   <feature name="instana-instana-backend-sensor" version="1.1.1">
     <feature version="[1.2.58,2)">instana-java-sensor</feature>
     <bundle start-level="80">mvn:com.instana/sensor-instana-backend/1.1.1</bundle>
