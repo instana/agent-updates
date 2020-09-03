@@ -196,6 +196,10 @@
     <bundle start-level="80">mvn:com.instana/sensor-aws-emr/1.0.88</bundle>
   </feature>
 
+  <feature name="instana-beeinstana-sensor" version="1.0.3">
+    <bundle start-level="80">mvn:com.instana/sensor-beeinstana/1.0.3</bundle>
+  </feature>
+
   <feature name="instana-biztalk-sensor" version="1.0.4">
     <bundle start-level="80">mvn:com.instana/sensor-biztalk/1.0.4</bundle>
   </feature>
