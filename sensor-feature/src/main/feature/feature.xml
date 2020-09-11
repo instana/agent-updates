@@ -609,6 +609,10 @@
     <bundle start-level="80">mvn:com.instana/sensor-php-fpm/1.1.62</bundle>
   </feature>
 
+  <feature name="instana-php-profile-sensor" version="1.0.2">
+    <bundle start-level="90">mvn:com.instana/sensor-php-profile/1.0.2</bundle>
+  </feature>
+
   <feature name="instana-php-sensor" version="1.1.33">
     <bundle start-level="90">mvn:com.instana/sensor-php/1.1.33</bundle>
   </feature>
