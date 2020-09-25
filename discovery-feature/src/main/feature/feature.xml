@@ -69,8 +69,8 @@
     <bundle start-level="80">mvn:com.instana/discovery-crystal/1.1.1</bundle>
   </feature>
 
-  <feature name="instana-crio-discovery" version="1.0.6">
-    <bundle start-level="80">mvn:com.instana/discovery-crio/1.0.6</bundle>
+  <feature name="instana-crio-discovery" version="1.0.7">
+    <bundle start-level="80">mvn:com.instana/discovery-crio/1.0.7</bundle>
   </feature>
 
   <feature name="instana-db2-discovery" version="1.0.7">
