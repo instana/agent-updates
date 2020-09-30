@@ -318,8 +318,8 @@
     <bundle start-level="80">mvn:com.instana/discovery-prometheus/1.0.13</bundle>
   </feature>
 
-  <feature name="instana-python-discovery" version="1.7.15">
-    <bundle start-level="80">mvn:com.instana/discovery-python/1.7.15</bundle>
+  <feature name="instana-python-discovery" version="1.7.16">
+    <bundle start-level="80">mvn:com.instana/discovery-python/1.7.16</bundle>
   </feature>
 
   <feature name="instana-redis-discovery" version="1.1.32">
