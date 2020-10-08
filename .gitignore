@@ -16,3 +16,6 @@ buildNumber.properties
 
 # Intellij
 .idea
+
+# Java/jenv
+.java-version
