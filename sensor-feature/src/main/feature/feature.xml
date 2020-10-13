@@ -447,8 +447,8 @@
     <bundle start-level="80">mvn:com.instana/sensor-jboss-datagrid/1.1.10</bundle>
   </feature>
 
-  <feature name="instana-jenkins-sensor" version="1.0.13">
-    <bundle start-level="80">mvn:com.instana/sensor-jenkins/1.0.13</bundle>
+  <feature name="instana-jenkins-sensor" version="1.0.14">
+    <bundle start-level="80">mvn:com.instana/sensor-jenkins/1.0.14</bundle>
   </feature>
 
   <feature name="instana-jetty-sensor" version="1.1.12">
