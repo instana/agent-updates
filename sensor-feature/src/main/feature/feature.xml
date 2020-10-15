@@ -286,8 +286,8 @@
     <bundle start-level="80">mvn:com.instana/sensor-dropwizard/1.1.25</bundle>
   </feature>
 
-  <feature name="instana-ebpf-sensor" version="1.0.16">
-    <bundle start-level="80">mvn:com.instana/sensor-ebpf/1.0.16</bundle>
+  <feature name="instana-ebpf-sensor" version="1.0.17">
+    <bundle start-level="80">mvn:com.instana/sensor-ebpf/1.0.17</bundle>
   </feature>
 
   <feature name="instana-ec2-sensor" version="1.1.9">
