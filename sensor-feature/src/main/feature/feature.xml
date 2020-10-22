@@ -674,8 +674,8 @@
     <bundle start-level="80">mvn:com.instana/sensor-redis/1.1.32</bundle>
   </feature>
 
-  <feature name="instana-redis-enterprise-sensor" version="1.0.0">
-    <bundle start-level="80">mvn:com.instana/sensor-redis-enterprise/1.0.0</bundle>
+  <feature name="instana-redis-enterprise-sensor" version="1.0.1">
+    <bundle start-level="80">mvn:com.instana/sensor-redis-enterprise/1.0.1</bundle>
   </feature>
 
   <feature name="instana-rabbitmq-sensor" version="1.1.41">
