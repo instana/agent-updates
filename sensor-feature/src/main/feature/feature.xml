@@ -517,9 +517,9 @@
     <bundle start-level="80">mvn:com.instana/sensor-marathon/1.0.1</bundle>
   </feature>
 
-  <feature name="instana-mariadb-sensor" version="1.1.22">
+  <feature name="instana-mariadb-sensor" version="1.1.23">
     <bundle start-level="80">mvn:org.mariadb.jdbc/mariadb-java-client/2.2.5</bundle>
-    <bundle start-level="80">mvn:com.instana/sensor-mariadb/1.1.22</bundle>
+    <bundle start-level="80">mvn:com.instana/sensor-mariadb/1.1.23</bundle>
   </feature>
 
   <feature name="instana-memcached-sensor" version="1.0.17">
