@@ -114,12 +114,19 @@
     <bundle start-level="80">mvn:com.instana/discovery-garden/1.0.5</bundle>
   </feature>
 
-  <feature name="instana-gce-discovery" version="1.1.24">
-    <bundle start-level="80">mvn:com.instana/discovery-gce/1.1.24</bundle>
+  <!-- This feature is sill here only to support auto-update -->
+  <!-- We renamed this feature to "instana-gcp-compute-engine-discovery". -->
+  <!-- "instana-gce-discovery" should be removed in the next release of GCP sensors. -->
+  <feature name="instana-gce-discovery" version="1.1.25">
+    <feature>instana-gcp-compute-engine-discovery</feature>
   </feature>
 
-  <feature name="instana-gcp-discovery" version="1.1.24">
-    <bundle start-level="80">mvn:com.instana/discovery-gcp/1.1.24</bundle>
+  <feature name="instana-gcp-compute-engine-discovery" version="1.1.25">
+    <bundle start-level="80">mvn:com.instana/discovery-gcp-compute-engine/1.1.25</bundle>
+  </feature>
+
+  <feature name="instana-gcp-discovery" version="1.1.25">
+    <bundle start-level="80">mvn:com.instana/discovery-gcp/1.1.25</bundle>
   </feature>
 
   <feature name="instana-generic-hardware-discovery" version="1.1.6">
