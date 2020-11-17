@@ -318,7 +318,7 @@
   <!-- This feature is sill here only to support auto-update -->
   <!-- We renamed this feature to "instana-gcp-compute-engine-sensor". -->
   <!-- "instana-gce-sensor" should be removed in the next release of GCP sensors. -->
-  <feature name="instana-gce-sensor" version="1.1.24">
+  <feature name="instana-gce-sensor" version="1.1.25">
     <feature>instana-gcp-compute-engine-sensor</feature>
   </feature>
 
@@ -335,7 +335,7 @@
   <!-- This feature is sill here only to support auto-update -->
   <!-- We renamed this feature to "instana-gcp-services-discovery". -->
   <!-- "instana-gce-services-discovery" should be removed in the next release of GCP sensors. -->
-  <feature name="instana-gce-services-discovery" version="1.1.24">
+  <feature name="instana-gce-services-discovery" version="1.1.25">
     <feature>instana-gcp-services-discovery</feature>
   </feature>
 
