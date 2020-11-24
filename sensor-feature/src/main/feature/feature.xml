@@ -315,8 +315,11 @@
     <bundle start-level="80">mvn:com.instana/sensor-garden/1.0.5</bundle>
   </feature>
 
-  <!-- This feature is abandoned. We have renamed this feature to "instana-gcp-compute-engine-sensor". -->
-  <feature name="instana-gce-sensor" version="1.1.25">
+  <!-- This feature is still here to support auto-update and backwards compatibility -->
+  <!-- https://github.com/instana/sensors/pull/2596/files#diff-16ef01867b3c7d9185bbbeb3ac74e36e5674b51569af13c03fe311aa4aa6a310 -->
+  <!-- Already started agents read old feature "instana-gce-sensor" -->
+  <feature name="instana-gce-sensor" version="1.1.26">
+    <feature>instana-gcp-compute-engine-sensor</feature>
   </feature>
 
   <feature name="instana-gcp-compute-engine-sensor" version="1.1.26">
