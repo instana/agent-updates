@@ -756,7 +756,7 @@
     <bundle start-level="80">mvn:com.instana/sensor-tomcat/1.1.29</bundle>
   </feature>
 
-  <feature name="instana-tibcoems-sensor" version="1.0.2">
+  <feature name="instana-tibcoems-sensor" version="1.0.3">
     <bundle start-level="80">
       <![CDATA[wrap:mvn:com.tibco.tibjms/tibjms/[8.4.1,8.5.1]$overwrite=merge&Export-Package=com.tibco.tibjms.*]]>
     </bundle>
@@ -765,7 +765,7 @@
     </bundle>
     <bundle start-level="80">mvn:javax.jms/javax.jms-api/2.0</bundle>
     <feature version="[1.1,2)">jta-spec</feature>
-    <bundle start-level="80">mvn:com.instana/sensor-tibcoems/1.0.2</bundle>
+    <bundle start-level="80">mvn:com.instana/sensor-tibcoems/1.0.3</bundle>
   </feature>
 
   <feature name="instana-varnish-sensor" version="1.0.22">
