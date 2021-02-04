@@ -647,8 +647,8 @@
     <bundle start-level="90">mvn:com.instana/sensor-php/1.1.44</bundle>
   </feature>
 
-  <feature name="instana-ping-sensor" version="1.0.6">
-    <bundle start-level="80">mvn:com.instana/sensor-ping/1.0.6</bundle>
+  <feature name="instana-ping-sensor" version="1.0.8">
+    <bundle start-level="80">mvn:com.instana/sensor-ping/1.0.8</bundle>
   </feature>
 
   <feature name="instana-ping-directory-sensor" version="1.0.3">
