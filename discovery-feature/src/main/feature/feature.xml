@@ -173,8 +173,8 @@
     <bundle start-level="80">mvn:com.instana/discovery-httpd/1.1.102</bundle>
   </feature>
 
-  <feature name="instana-ibmmq-discovery" version="1.0.3">
-    <bundle start-level="80">mvn:com.instana/discovery-ibmmq/1.0.3</bundle>
+  <feature name="instana-ibmmq-discovery" version="1.0.4">
+    <bundle start-level="80">mvn:com.instana/discovery-ibmmq/1.0.4</bundle>
   </feature>
 
   <feature name="instana-instana-backend-discovery" version="1.1.1">
