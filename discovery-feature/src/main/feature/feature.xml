@@ -13,6 +13,10 @@
     <bundle start-level="80">mvn:com.instana/discovery-activemq/1.1.10</bundle>
   </feature>
 
+  <feature name="instana-apmproxy-discovery" version="1.0.0">
+    <bundle start-level="80">mvn:com.instana/discovery-apmproxy/1.0.0</bundle>
+  </feature>
+
   <feature name="instana-azure-discovery" version="1.2.22">
     <bundle start-level="80">mvn:com.instana/discovery-azure/1.2.22</bundle>
   </feature>
