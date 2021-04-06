@@ -324,6 +324,10 @@
     <bundle start-level="80">mvn:com.instana/sensor-etcd/1.0.27</bundle>
   </feature>
 
+  <feature name="instana-envoy-sensor" version="1.0.0">
+    <bundle start-level="80">mvn:com.instana/sensor-envoy/1.0.0</bundle>
+  </feature>
+
   <feature name="instana-f5-sensor" version="1.0.1">
     <bundle start-level="80">mvn:com.instana/sensor-f5/1.0.1</bundle>
     <bundle start-level="80">wrap:mvn:org.snmp4j/snmp4j/2.6.0</bundle>
