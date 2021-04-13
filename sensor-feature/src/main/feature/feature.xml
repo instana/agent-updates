@@ -320,6 +320,10 @@
     <bundle start-level="80">mvn:com.instana/sensor-elasticsearch/1.1.56</bundle>
   </feature>
 
+  <feature name="instana-envoy-sensor" version="1.0.0">
+    <bundle start-level="80">mvn:com.instana/sensor-envoy/1.0.0</bundle>
+  </feature>
+
   <feature name="instana-etcd-sensor" version="1.0.27">
     <bundle start-level="80">mvn:com.instana/sensor-etcd/1.0.27</bundle>
   </feature>
