@@ -761,8 +761,8 @@
     <bundle start-level="90">mvn:com.instana/sensor-ruby-trace/1.2.1</bundle>
   </feature>
   
-  <feature name="instana-ruby-profile-sensor" version="1.0.2">
-    <bundle start-level="90">mvn:com.instana/sensor-ruby-profile/1.0.2</bundle>
+  <feature name="instana-ruby-profile-sensor" version="1.1.0">
+    <bundle start-level="90">mvn:com.instana/sensor-ruby-profile/1.1.0</bundle>
   </feature>
 
   <feature name="instana-sap-hana-sensor" version="1.1.3">
