@@ -201,8 +201,8 @@
     <bundle start-level="80">mvn:com.instana/discovery-instana-backend/1.1.1</bundle>
   </feature>
 
-  <feature name="instana-ibmcloud-discovery" version="1.0.6">
-    <bundle start-level="80">mvn:com.instana/discovery-ibmcloud/1.0.6</bundle>
+  <feature name="instana-ibmcloud-discovery" version="1.0.7">
+    <bundle start-level="80">mvn:com.instana/discovery-ibmcloud/1.0.7</bundle>
   </feature>
 
   <feature name="instana-java-discovery" version="1.2.101">
