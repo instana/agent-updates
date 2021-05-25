@@ -431,8 +431,8 @@
     <bundle start-level="80">mvn:com.instana/sensor-haproxy/1.1.29</bundle>
   </feature>
 
-  <feature name="instana-haskell-sensor" version="1.0.1">
-    <bundle start-level="80">mvn:com.instana/sensor-haskell/1.0.1</bundle>
+  <feature name="instana-haskell-sensor" version="1.0.2">
+    <bundle start-level="80">mvn:com.instana/sensor-haskell/1.0.2</bundle>
   </feature>
 
   <feature name="instana-haskell-trace-sensor" version="1.0.1">

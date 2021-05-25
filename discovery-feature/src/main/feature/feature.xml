@@ -165,8 +165,8 @@
     <bundle start-level="80">mvn:com.instana/discovery-haproxy/1.1.29</bundle>
   </feature>
 
-  <feature name="instana-haskell-discovery" version="1.0.1">
-    <bundle start-level="80">mvn:com.instana/discovery-haskell/1.0.1</bundle>
+  <feature name="instana-haskell-discovery" version="1.0.2">
+    <bundle start-level="80">mvn:com.instana/discovery-haskell/1.0.2</bundle>
   </feature>
 
   <feature name="instana-hazelcast-discovery" version="1.2.4">
