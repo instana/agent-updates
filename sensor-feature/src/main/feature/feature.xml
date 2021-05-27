@@ -462,11 +462,11 @@
     <bundle start-level="80">mvn:com.instana/sensor-ibmiseries/1.0.2</bundle>
   </feature>
 
-  <feature name="instana-ibmmq-sensor" version="1.0.6">
+  <feature name="instana-ibmmq-sensor" version="1.0.7">
     <bundle start-level="80">
       <![CDATA[wrap:mvn:com.ibm.mq/com.ibm.mq.allclient/9.2.1.0$overwrite=merge&Export-Package=com.ibm.mq.*]]>
     </bundle>
-    <bundle start-level="80">mvn:com.instana/sensor-ibmmq/1.0.6</bundle>
+    <bundle start-level="80">mvn:com.instana/sensor-ibmmq/1.0.7</bundle>
   </feature>
 
   <feature name="instana-ibmdatapower-sensor" version="1.0.3">
