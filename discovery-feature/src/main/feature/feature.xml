@@ -61,8 +61,8 @@
     <bundle start-level="80">mvn:com.instana/discovery-clickhouse/1.0.18</bundle>
   </feature>
 
-  <feature name="instana-cloudfoundry-discovery" version="1.0.4">
-    <bundle start-level="80">mvn:com.instana/discovery-cloudfoundry/1.0.4</bundle>
+  <feature name="instana-cloudfoundry-discovery" version="1.0.5">
+    <bundle start-level="80">mvn:com.instana/discovery-cloudfoundry/1.0.5</bundle>
   </feature>
 
   <feature name="instana-clr-discovery" version="1.1.56">
