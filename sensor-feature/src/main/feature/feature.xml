@@ -237,8 +237,8 @@
     <bundle start-level="80">mvn:com.instana/sensor-clickhouse/1.0.18</bundle>
   </feature>
 
-  <feature name="instana-cloudfoundry-sensor" version="1.0.4">
-    <bundle start-level="80">mvn:com.instana/sensor-cloudfoundry/1.0.4</bundle>
+  <feature name="instana-cloudfoundry-sensor" version="1.0.5">
+    <bundle start-level="80">mvn:com.instana/sensor-cloudfoundry/1.0.5</bundle>
   </feature>
 
   <feature name="instana-cpp-sensor" version="1.1.1">
