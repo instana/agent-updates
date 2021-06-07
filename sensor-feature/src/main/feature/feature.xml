@@ -695,8 +695,8 @@
     <bundle start-level="90">mvn:com.instana/sensor-php-profile/1.0.2</bundle>
   </feature>
 
-  <feature name="instana-php-sensor" version="1.1.52">
-    <bundle start-level="90">mvn:com.instana/sensor-php/1.1.52</bundle>
+  <feature name="instana-php-sensor" version="1.1.53">
+    <bundle start-level="90">mvn:com.instana/sensor-php/1.1.53</bundle>
   </feature>
 
   <feature name="instana-ping-sensor" version="1.0.9">
@@ -760,7 +760,7 @@
   <feature name="instana-ruby-trace-sensor" version="1.2.1">
     <bundle start-level="90">mvn:com.instana/sensor-ruby-trace/1.2.1</bundle>
   </feature>
-  
+
   <feature name="instana-ruby-profile-sensor" version="1.1.0">
     <bundle start-level="90">mvn:com.instana/sensor-ruby-profile/1.1.0</bundle>
   </feature>
