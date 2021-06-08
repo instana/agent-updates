@@ -193,8 +193,8 @@
     <bundle start-level="80">mvn:com.instana/discovery-ibmmq/1.0.9</bundle>
   </feature>
 
-  <feature name="instana-ibmdatapower-discovery" version="1.0.4">
-    <bundle start-level="80">mvn:com.instana/discovery-ibmdatapower/1.0.4</bundle>
+  <feature name="instana-ibmdatapower-discovery" version="1.0.5">
+    <bundle start-level="80">mvn:com.instana/discovery-ibmdatapower/1.0.5</bundle>
   </feature>
 
   <feature name="instana-instana-backend-discovery" version="1.1.1">
