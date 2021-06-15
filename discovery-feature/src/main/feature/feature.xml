@@ -185,8 +185,8 @@
     <bundle start-level="80">mvn:com.instana/discovery-httpd/1.1.103</bundle>
   </feature>
 
-  <feature name="instana-ibmiseries-discovery" version="1.0.2">
-    <bundle start-level="80">mvn:com.instana/discovery-ibmiseries/1.0.2</bundle>
+  <feature name="instana-ibmiseries-discovery" version="1.0.3">
+    <bundle start-level="80">mvn:com.instana/discovery-ibmiseries/1.0.3</bundle>
   </feature>
 
   <feature name="instana-ibmmq-discovery" version="1.0.9">
