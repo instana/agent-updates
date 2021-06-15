@@ -433,6 +433,10 @@
     <bundle start-level="80">mvn:com.instana/discovery-websphere-liberty/1.1.2</bundle>
   </feature>
 
+  <feature name="instana-zhmc-discovery" version="1.0.2">
+    <bundle start-level="80">mvn:com.instana/discovery-zhmc/1.0.2</bundle>
+  </feature>
+
   <feature name="instana-zookeeper-discovery" version="1.0.4">
     <bundle start-level="80">mvn:com.instana/discovery-zookeeper/1.0.4</bundle>
   </feature>
