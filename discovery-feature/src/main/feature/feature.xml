@@ -93,9 +93,8 @@
     <bundle start-level="80">mvn:com.instana/discovery-dropwizard/1.1.25</bundle>
   </feature>
 
-  <feature name="instana-ebpf-discovery" version="1.0.17">
-    <bundle start-level="80">wrap:mvn:net.java.dev.jna/jna/5.2.0</bundle>
-    <bundle start-level="80">mvn:com.instana/discovery-ebpf/1.0.17</bundle>
+  <feature name="instana-ebpf-discovery" version="1.0.19">
+    <bundle start-level="80">mvn:com.instana/discovery-ebpf/1.0.19</bundle>
   </feature>
 
   <feature name="instana-ec2-discovery" version="1.1.9">
