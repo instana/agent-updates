@@ -648,8 +648,8 @@
     <bundle start-level="90">mvn:com.instana/sensor-nodejs-profile/1.0.0</bundle>
   </feature>
 
-  <feature name="instana-nomad-sensor" version="1.0.6">
-    <bundle start-level="80">mvn:com.instana/sensor-nomad/1.0.6</bundle>
+  <feature name="instana-nomad-sensor" version="1.0.7">
+    <bundle start-level="80">mvn:com.instana/sensor-nomad/1.0.7</bundle>
   </feature>
 
   <feature name="instana-opc-sensor" version="1.1.1">
