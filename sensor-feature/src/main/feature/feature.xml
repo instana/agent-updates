@@ -529,9 +529,9 @@
     <bundle start-level="80">mvn:com.instana/sensor-jira/1.1.11</bundle>
   </feature>
 
-  <feature name="instana-kafka-connect-sensor" version="1.0.1">
+  <feature name="instana-kafka-connect-sensor" version="1.0.2">
     <feature version="[1.2.92,2)">instana-java-sensor</feature>
-    <bundle start-level="80">mvn:com.instana/sensor-kafka-connect/1.0.1</bundle>
+    <bundle start-level="80">mvn:com.instana/sensor-kafka-connect/1.0.2</bundle>
   </feature>
 
   <feature name="instana-kafka-sensor" version="1.1.41">

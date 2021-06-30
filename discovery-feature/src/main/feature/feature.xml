@@ -232,8 +232,8 @@
     <bundle start-level="80">mvn:com.instana/discovery-jira/1.1.11</bundle>
   </feature>
 
-  <feature name="instana-kafka-connect-discovery" version="1.0.1">
-    <bundle start-level="80">mvn:com.instana/discovery-kafka-connect/1.0.1</bundle>
+  <feature name="instana-kafka-connect-discovery" version="1.0.2">
+    <bundle start-level="80">mvn:com.instana/discovery-kafka-connect/1.0.2</bundle>
   </feature>
 
   <feature name="instana-kafka-discovery" version="1.1.41">
