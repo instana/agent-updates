@@ -292,8 +292,8 @@
     <bundle start-level="80">mvn:com.instana/discovery-nginx/1.1.76</bundle>
   </feature>
 
-  <feature name="instana-nodejs-discovery" version="1.2.16">
-    <bundle start-level="80">mvn:com.instana/discovery-nodejs/1.2.16</bundle>
+  <feature name="instana-nodejs-discovery" version="1.2.17">
+    <bundle start-level="80">mvn:com.instana/discovery-nodejs/1.2.17</bundle>
   </feature>
 
   <feature name="instana-nomad-discovery" version="1.0.7">
