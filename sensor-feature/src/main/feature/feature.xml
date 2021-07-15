@@ -827,9 +827,9 @@
     <bundle start-level="80">mvn:com.instana/sensor-varnish/1.0.23</bundle>
   </feature>
 
-  <feature name="instana-vault-sensor" version="1.0.7">
+  <feature name="instana-vault-sensor" version="1.0.8">
     <bundle start-level="80">wrap:mvn:com.bertramlabs.plugins/hcl4j/0.3.4</bundle>
-    <bundle start-level="80">mvn:com.instana/sensor-vault/1.0.7</bundle>
+    <bundle start-level="80">mvn:com.instana/sensor-vault/1.0.8</bundle>
   </feature>
 
   <feature name="instana-vsphere-sensor" version="1.0.23">
