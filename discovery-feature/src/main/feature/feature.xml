@@ -356,8 +356,8 @@
     <bundle start-level="80">mvn:com.instana/discovery-python/1.9.1</bundle>
   </feature>
 
-  <feature name="instana-redis-discovery" version="1.1.35">
-    <bundle start-level="80">mvn:com.instana/discovery-redis/1.1.35</bundle>
+  <feature name="instana-redis-discovery" version="1.1.36">
+    <bundle start-level="80">mvn:com.instana/discovery-redis/1.1.36</bundle>
   </feature>
 
   <feature name="instana-redis-enterprise-discovery" version="1.0.1">
