@@ -244,8 +244,8 @@
     <bundle start-level="80">mvn:com.instana/discovery-kubernetes/1.2.134</bundle>
   </feature>
 
-  <feature name="instana-liferay-discovery" version="1.0.0">
-    <bundle start-level="80">mvn:com.instana/discovery-liferay/1.0.0</bundle>
+  <feature name="instana-liferay-discovery" version="1.0.1">
+    <bundle start-level="80">mvn:com.instana/discovery-liferay/1.0.1</bundle>
   </feature>
 
   <feature name="instana-lxc-discovery" version="1.0.1">
