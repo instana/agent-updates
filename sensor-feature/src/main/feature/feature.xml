@@ -23,8 +23,8 @@
     <bundle start-level="80">mvn:com.instana/sensor-activemq/1.1.12</bundle>
   </feature>
 
-  <feature name="instana-apmproxy-sensor" version="1.0.6">
-    <bundle start-level="80">mvn:com.instana/sensor-apmproxy/1.0.6</bundle>
+  <feature name="instana-apmproxy-sensor" version="1.0.7">
+    <bundle start-level="80">mvn:com.instana/sensor-apmproxy/1.0.7</bundle>
   </feature>
 
   <feature name="instana-azure-sdk" version="1.2.25">
