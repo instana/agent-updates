@@ -220,8 +220,8 @@
     <bundle start-level="80">mvn:com.instana/discovery-jboss-datagrid/1.1.10</bundle>
   </feature>
 
-  <feature name="instana-jenkins-discovery" version="1.0.15">
-    <bundle start-level="80">mvn:com.instana/discovery-jenkins/1.0.15</bundle>
+  <feature name="instana-jenkins-discovery" version="1.0.17">
+    <bundle start-level="80">mvn:com.instana/discovery-jenkins/1.0.17</bundle>
   </feature>
 
   <feature name="instana-jetty-discovery" version="1.1.12">
