@@ -738,10 +738,10 @@
     <bundle start-level="90">mvn:com.instana/sensor-python-profile/1.0.0</bundle>
   </feature>
 
-  <feature name="instana-redis-sensor" version="1.1.36">
+  <feature name="instana-redis-sensor" version="1.1.37">
     <bundle start-level="80">mvn:org.apache.commons/commons-pool2/2.6.2</bundle>
     <bundle start-level="80">mvn:redis.clients/jedis/3.3.0</bundle>
-    <bundle start-level="80">mvn:com.instana/sensor-redis/1.1.36</bundle>
+    <bundle start-level="80">mvn:com.instana/sensor-redis/1.1.37</bundle>
   </feature>
 
   <feature name="instana-redis-enterprise-sensor" version="1.0.1">
