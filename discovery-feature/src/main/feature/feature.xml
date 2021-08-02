@@ -160,8 +160,8 @@
     <bundle start-level="80">mvn:com.instana/discovery-hadoop-yarn-node/1.1.0</bundle>
   </feature>
 
-  <feature name="instana-haproxy-discovery" version="1.1.30">
-    <bundle start-level="80">mvn:com.instana/discovery-haproxy/1.1.30</bundle>
+  <feature name="instana-haproxy-discovery" version="1.1.31">
+    <bundle start-level="80">mvn:com.instana/discovery-haproxy/1.1.31</bundle>
   </feature>
 
   <feature name="instana-haskell-discovery" version="1.0.2">
