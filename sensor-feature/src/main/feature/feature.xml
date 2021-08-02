@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
 <features name="${project.artifactId}-${project.version}" xmlns="http://karaf.apache.org/xmlns/features/v1.3.0">
 
-  <feature name="instana-ace-sensor" version="1.0.7">
+  <feature name="instana-ace-sensor" version="1.0.8">
     <bundle start-level="80">
        <![CDATA[wrap:mvn:com.ibm.mq/com.ibm.mq.allclient/9.2.1.0$overwrite=merge&Export-Package=com.ibm.jms.*,com.ibm.mq.*;resolution:=optional,javax.transaction.xa]]>
     </bundle>
@@ -10,7 +10,7 @@
     <bundle start-level="80">mvn:javax.jms/javax.jms-api/2.0</bundle>
     <bundle start-level="80">mvn:org.eclipse.paho/org.eclipse.paho.client.mqttv3/1.2.5</bundle>
     <bundle start-level="80">mvn:javax.xml.bind/jaxb-api/2.3.0</bundle>
-    <bundle start-level="80">mvn:com.instana/sensor-ace/1.0.7/</bundle>
+    <bundle start-level="80">mvn:com.instana/sensor-ace/1.0.8/</bundle>
   </feature>
 
   <feature name="instana-activemq-artemis-sensor" version="1.0.6">
