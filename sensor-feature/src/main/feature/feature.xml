@@ -824,6 +824,10 @@
     <bundle start-level="80">mvn:com.instana/sensor-tibcoems/1.0.4</bundle>
   </feature>
 
+  <feature name="instana-traefik-sensor" version="1.0.0">
+    <bundle start-level="80">mvn:com.instana/sensor-traefik/1.0.0</bundle>
+  </feature>
+
   <feature name="instana-varnish-sensor" version="1.0.23">
     <bundle start-level="80">mvn:com.instana/sensor-varnish/1.0.23</bundle>
   </feature>

@@ -412,6 +412,10 @@
     <bundle start-level="80">mvn:com.instana/discovery-tibcoems/1.0.4</bundle>
   </feature>
 
+  <feature name="instana-traefik-discovery" version="1.0.0">
+    <bundle start-level="80">mvn:com.instana/discovery-traefik/1.0.0</bundle>
+  </feature>
+
   <feature name="instana-varnish-discovery" version="1.0.23">
     <bundle start-level="80">mvn:com.instana/discovery-varnish/1.0.23</bundle>
   </feature>
