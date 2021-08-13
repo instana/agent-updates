@@ -236,8 +236,8 @@
     <bundle start-level="80">mvn:com.instana/discovery-kafka-connect/1.0.2</bundle>
   </feature>
 
-  <feature name="instana-kafka-discovery" version="1.1.41">
-    <bundle start-level="80">mvn:com.instana/discovery-kafka/1.1.41</bundle>
+  <feature name="instana-kafka-discovery" version="1.1.42">
+    <bundle start-level="80">mvn:com.instana/discovery-kafka/1.1.42</bundle>
   </feature>
 
   <feature name="instana-kubernetes-discovery" version="1.2.134">
