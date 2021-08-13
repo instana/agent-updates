@@ -332,7 +332,7 @@
     <bundle start-level="80">mvn:com.instana/discovery-php-cgi/1.0.0</bundle>
   </feature>
 
-  <feature name="instana-php-cli-discovery" version="1.0.0">
+  <feature name="instana-php-cli-discovery" version="1.0.1">
     <bundle start-level="80">mvn:com.instana/discovery-php-cli/1.0.1</bundle>
   </feature>
 
