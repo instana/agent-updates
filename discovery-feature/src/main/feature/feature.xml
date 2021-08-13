@@ -333,7 +333,7 @@
   </feature>
 
   <feature name="instana-php-cli-discovery" version="1.0.0">
-    <bundle start-level="80">mvn:com.instana/discovery-php-cli/1.0.0</bundle>
+    <bundle start-level="80">mvn:com.instana/discovery-php-cli/1.0.1</bundle>
   </feature>
 
   <feature name="instana-php-fpm-discovery" version="1.1.65">
