@@ -19,9 +19,10 @@ Java Trace Sensor 1.2.388: Add EJB support for WildFly 22
 ## Checklist 
 
 The PR Author and the Reviewer need to check the following before merging the PR to `internal` branch:
-- [] All feature versions are bumped in the discovery-feature and sensor-feature modules (`feature.xml` files)
-- [] Sensor PR is merged to `master` branch
-- [] Sensors Jenkins build has finished successfully 
-- [] PR title and the merge commit message adhere to the naming convention mentioned above
-- [] PR tagged with `Review & Merge` label? 
-- [] If the PR is for public release, is it tagged with `public` label? 
+- [ ] All feature versions are bumped in the discovery-feature and sensor-feature modules (`feature.xml` files)
+- [ ] Sensor PR is merged to `master` branch
+- [ ] Sensors Jenkins build has finished successfully 
+- [ ] PR title and the merge commit message adhere to the naming convention mentioned above
+- [ ] PR tagged with `Review & Merge` label? 
+- [ ] If the PR is for public release, is it tagged with `public` label? 
+- [ ] Auto-update verified?
