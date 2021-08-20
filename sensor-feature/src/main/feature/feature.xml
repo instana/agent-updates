@@ -301,6 +301,13 @@
     <bundle start-level="80">mvn:com.instana/sensor-db2/1.0.17</bundle>
   </feature>
 
+  <feature name="instana-db2z-sensor" version="1.0.0">
+    <bundle start-level="80">
+      <![CDATA[wrap:mvn:com.ibm.db2/jcc/11.5.5.0$overwrite=merge&Bundle-Activator=com.instana.agent.db2z.sensor.JCCBundleActivator&Export-Package=com.ibm.db2.jcc.*]]>
+    </bundle>
+    <bundle start-level="80">mvn:com.instana/sensor-db2z/1.0.0</bundle>
+  </feature>
+
   <feature name="instana-docker-sensor" version="1.1.59">
     <bundle start-level="80">mvn:com.instana/sensor-docker/1.1.59</bundle>
   </feature>
