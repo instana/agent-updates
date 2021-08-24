@@ -1,8 +1,8 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
 <features name="${project.artifactId}-${project.version}" xmlns="http://karaf.apache.org/xmlns/features/v1.3.0">
 
-  <feature name="instana-ace-discovery" version="1.0.10">
-    <bundle start-level="80">mvn:com.instana/discovery-ace/1.0.10</bundle>
+  <feature name="instana-ace-discovery" version="1.0.11">
+    <bundle start-level="80">mvn:com.instana/discovery-ace/1.0.11</bundle>
   </feature>
 
   <feature name="instana-activemq-artemis-discovery" version="1.0.6">
