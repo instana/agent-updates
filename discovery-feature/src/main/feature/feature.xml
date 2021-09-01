@@ -180,8 +180,8 @@
     <bundle start-level="80">mvn:com.instana/discovery-host/1.1.133</bundle>
   </feature>
 
-  <feature name="instana-httpd-discovery" version="1.1.104">
-    <bundle start-level="80">mvn:com.instana/discovery-httpd/1.1.104</bundle>
+  <feature name="instana-httpd-discovery" version="1.1.105">
+    <bundle start-level="80">mvn:com.instana/discovery-httpd/1.1.105</bundle>
   </feature>
 
   <feature name="instana-ibmiseries-discovery" version="1.0.3">
