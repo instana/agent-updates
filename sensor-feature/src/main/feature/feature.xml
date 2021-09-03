@@ -851,9 +851,9 @@
     <bundle start-level="80">mvn:com.instana/sensor-weblogic/1.1.18</bundle>
   </feature>
 
-  <feature name="instana-websphere-sensor" version="1.1.16">
+  <feature name="instana-websphere-sensor" version="1.1.17">
     <feature version="[1.2.97,2)">instana-java-sensor</feature>
-    <bundle start-level="80">mvn:com.instana/sensor-websphere/1.1.16</bundle>
+    <bundle start-level="80">mvn:com.instana/sensor-websphere/1.1.17</bundle>
   </feature>
 
   <feature name="instana-websphere-liberty-sensor" version="1.1.2">
