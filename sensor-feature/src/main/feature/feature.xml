@@ -3,7 +3,7 @@
 
   <feature name="instana-ace-sensor" version="1.0.15">
     <bundle start-level="80">
-       <![CDATA[wrap:mvn:com.ibm.mq/com.ibm.mq.allclient/9.2.1.0$overwrite=merge&Export-Package=com.ibm.jms.*,com.ibm.mq.*;resolution:=optional,javax.transaction.xa]]>
+      <![CDATA[wrap:mvn:com.ibm.mq/com.ibm.mq.allclient/9.2.1.0$overwrite=merge&Export-Package=com.ibm.jms.*,com.ibm.mq.*;resolution:=optional,javax.transaction.xa]]>
     </bundle>
     <bundle start-level="80">mvn:org.apache.httpcomponents/httpcore-osgi/4.4.9</bundle>
     <bundle start-level="80">mvn:org.apache.httpcomponents/httpclient-osgi/4.5.13</bundle>
@@ -489,6 +489,12 @@
     <bundle start-level="80">mvn:com.instana/sensor-ibmcloud/1.0.10</bundle>
   </feature>
 
+  <feature name="instana-ibmdatapower-sensor" version="1.0.8">
+    <bundle start-level="80">mvn:org.apache.httpcomponents/httpcore-osgi/4.4.9</bundle>
+    <bundle start-level="80">mvn:org.apache.httpcomponents/httpclient-osgi/4.5.13</bundle>
+    <bundle start-level="80">mvn:com.instana/sensor-ibmdatapower/1.0.8</bundle>
+  </feature>
+
   <feature name="instana-instana-backend-sensor" version="1.1.1">
     <feature version="[1.2.58,2)">instana-java-sensor</feature>
     <bundle start-level="80">mvn:com.instana/sensor-instana-backend/1.1.1</bundle>
@@ -877,13 +883,42 @@
     <bundle start-level="80">mvn:com.instana/sensor-zookeeper/1.0.4</bundle>
   </feature>
 
-  <feature name="instana-ibmdatapower-sensor" version="1.0.8">
-    <bundle start-level="80">mvn:org.apache.httpcomponents/httpcore-osgi/4.4.9</bundle>
-    <bundle start-level="80">mvn:org.apache.httpcomponents/httpclient-osgi/4.5.13</bundle>
-    <bundle start-level="80">mvn:com.instana/sensor-ibmdatapower/1.0.8</bundle>
-  </feature>
-
   <feature name="jta-spec" version="1.1.1">
     <bundle start-level="80">mvn:org.apache.geronimo.specs/geronimo-jta_1.1_spec/1.1.1</bundle>
+  </feature>
+
+  <feature name="alicloud-sdk" version="1.0.2">
+    <bundle start-level="80">wrap:mvn:com.aliyun/ons20190214/1.0.0$Bundle-SymbolicName=ons20190214</bundle>
+    <bundle start-level="80">wrap:mvn:com.aliyun/cms20190101/1.0.1$Bundle-SymbolicName=cms20190101</bundle>
+    <bundle start-level="80">wrap:mvn:com.aliyun/rds20140815/1.0.2$Bundle-SymbolicName=rds20140815</bundle>
+    <bundle start-level="80">wrap:mvn:com.aliyun/tea-openapi/0.0.13$Bundle-SymbolicName=tea-openapi</bundle>
+    <bundle start-level="80">wrap:mvn:com.aliyun/tea/1.0.3$Bundle-SymbolicName=tea</bundle>
+    <bundle start-level="80">wrap:mvn:com.aliyun/credentials-java/0.2.4$Bundle-SymbolicName=credentials</bundle>
+    <bundle start-level="80">wrap:mvn:com.aliyun/tea-util/0.2.10$Bundle-SymbolicName=tea-util</bundle>
+    <bundle start-level="80">wrap:mvn:com.aliyun/openapiutil/0.1.2$Bundle-SymbolicName=openapiutil</bundle>
+    <bundle start-level="80">wrap:mvn:com.aliyun/endpoint-util/0.0.6$Bundle-SymbolicName=endpoint-util</bundle>
+    <bundle start-level="80">wrap:mvn:com.aliyun/tea-rpc/0.0.11$Bundle-SymbolicName=tea-rpc</bundle>
+    <bundle start-level="80">wrap:mvn:com.aliyun/tea-rpc-util/0.1.2$Bundle-SymbolicName=tea-rpc-util</bundle>
+    <bundle start-level="80">wrap:mvn:org.jetbrains.kotlin/kotlin-stdlib/1.5.20</bundle>
+    <bundle start-level="80">wrap:mvn:org.jetbrains/annotations/20.1.0</bundle>
+    <bundle start-level="80">wrap:mvn:com.squareup.okio/okio/2.10.0</bundle>
+    <bundle start-level="80">wrap:mvn:com.squareup.okhttp3/okhttp/4.9.0</bundle>
+    <bundle start-level="80">wrap:mvn:com.google.code.gson/gson/2.8.7$Bundle-SymbolicName=gson</bundle>
+
+  </feature>
+
+  <feature name="instana-alicloud-sdk" version="1.0.2">
+    <feature version="1.0.2">alicloud-sdk</feature>
+    <bundle start-level="80">mvn:com.instana/instana-alicloud-sdk/1.0.2</bundle>
+  </feature>
+
+  <feature name="instana-alicloud-services-discovery" version="1.0.2">
+    <feature version="1.0.2">instana-alicloud-sdk</feature>
+    <bundle start-level="80">mvn:com.instana/discovery-alicloud-services/1.0.2</bundle>
+  </feature>
+
+  <feature name="instana-alicloud-rocketmq-sensor" version="1.0.2">
+    <feature version="1.0.2">instana-alicloud-sdk</feature>
+    <bundle start-level="80">mvn:com.instana/sensor-alicloud-rocketmq/1.0.2</bundle>
   </feature>
 </features>
