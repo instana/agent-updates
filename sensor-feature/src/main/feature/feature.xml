@@ -294,11 +294,11 @@
     <bundle start-level="80">mvn:com.instana/sensor-crio/1.0.9</bundle>
   </feature>
 
-  <feature name="instana-db2-sensor" version="1.0.17">
+  <feature name="instana-db2-sensor" version="1.0.18">
     <bundle start-level="80">
       <![CDATA[wrap:mvn:com.ibm.db2/jcc/11.5.5.0$overwrite=merge&Bundle-Activator=com.instana.agent.db2.sensor.JCCBundleActivator&Export-Package=com.ibm.db2.jcc.*]]>
     </bundle>
-    <bundle start-level="80">mvn:com.instana/sensor-db2/1.0.17</bundle>
+    <bundle start-level="80">mvn:com.instana/sensor-db2/1.0.18</bundle>
   </feature>
 
   <feature name="instana-db2z-sensor" version="1.0.0">
