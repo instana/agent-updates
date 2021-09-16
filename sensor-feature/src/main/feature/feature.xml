@@ -907,18 +907,23 @@
 
   </feature>
 
-  <feature name="instana-alicloud-sdk" version="1.0.2">
+  <feature name="instana-alicloud-sdk" version="1.0.3">
     <feature version="1.0.2">alicloud-sdk</feature>
-    <bundle start-level="80">mvn:com.instana/instana-alicloud-sdk/1.0.2</bundle>
+    <bundle start-level="80">mvn:com.instana/instana-alicloud-sdk/1.0.3</bundle>
   </feature>
 
-  <feature name="instana-alicloud-services-discovery" version="1.0.2">
-    <feature version="1.0.2">instana-alicloud-sdk</feature>
-    <bundle start-level="80">mvn:com.instana/discovery-alicloud-services/1.0.2</bundle>
+  <feature name="instana-alicloud-services-discovery" version="1.0.3">
+    <feature version="1.0.3">instana-alicloud-sdk</feature>
+    <bundle start-level="80">mvn:com.instana/discovery-alicloud-services/1.0.3</bundle>
   </feature>
 
-  <feature name="instana-alicloud-rocketmq-sensor" version="1.0.2">
-    <feature version="1.0.2">instana-alicloud-sdk</feature>
-    <bundle start-level="80">mvn:com.instana/sensor-alicloud-rocketmq/1.0.2</bundle>
+  <feature name="instana-alicloud-rocketmq-sensor" version="1.0.3">
+    <feature version="1.0.3">instana-alicloud-sdk</feature>
+    <bundle start-level="80">mvn:com.instana/sensor-alicloud-rocketmq/1.0.3</bundle>
+  </feature>
+
+  <feature name="instana-alicloud-rds-mysql-sensor" version="1.0.3">
+    <feature version="1.0.3">instana-alicloud-sdk</feature>
+    <bundle start-level="80">mvn:com.instana/sensor-alicloud-rds-mysql/1.0.3</bundle>
   </feature>
 </features>
