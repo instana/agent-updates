@@ -316,6 +316,10 @@
     <bundle start-level="80">mvn:com.instana/sensor-docker-log/1.1.59</bundle>
   </feature>
 
+  <feature name="instana-domino-sensor" version="1.0.0">
+    <bundle start-level="80">mvn:com.instana/sensor-domino/1.0.0</bundle>
+  </feature>
+
   <feature name="instana-dropwizard-sensor" version="1.1.25">
     <feature version="[1.2.31,2)">instana-java-sensor</feature>
     <bundle start-level="80">mvn:com.instana/sensor-dropwizard/1.1.25</bundle>
