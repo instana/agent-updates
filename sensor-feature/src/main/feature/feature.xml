@@ -18,9 +18,9 @@
     <bundle start-level="80">mvn:com.instana/sensor-activemq-artemis/1.0.6</bundle>
   </feature>
 
-  <feature name="instana-activemq-sensor" version="1.1.12">
-    <feature version="[1.2.98,2)">instana-java-sensor</feature>
-    <bundle start-level="80">mvn:com.instana/sensor-activemq/1.1.12</bundle>
+  <feature name="instana-activemq-sensor" version="1.1.13">
+    <feature version="[1.2.106,2)">instana-java-sensor</feature>
+    <bundle start-level="80">mvn:com.instana/sensor-activemq/1.1.13</bundle>
   </feature>
 
   <feature name="instana-apmproxy-sensor" version="1.0.7">
