@@ -316,9 +316,9 @@
     <bundle start-level="80">mvn:com.instana/sensor-docker-log/1.1.59</bundle>
   </feature>
 
-  <feature name="instana-dropwizard-sensor" version="1.1.25">
+  <feature name="instana-dropwizard-sensor" version="1.1.26">
     <feature version="[1.2.31,2)">instana-java-sensor</feature>
-    <bundle start-level="80">mvn:com.instana/sensor-dropwizard/1.1.25</bundle>
+    <bundle start-level="80">mvn:com.instana/sensor-dropwizard/1.1.26</bundle>
   </feature>
 
   <feature name="instana-ebpf-sensor" version="1.0.20">
