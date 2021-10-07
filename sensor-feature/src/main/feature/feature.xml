@@ -227,9 +227,9 @@
     <bundle start-level="80">mvn:com.instana/sensor-biztalk/1.0.5</bundle>
   </feature>
 
-  <feature name="instana-cassandra-sensor" version="1.1.34">
+  <feature name="instana-cassandra-sensor" version="1.1.35">
     <feature version="[1.2.84,2)">instana-java-sensor</feature>
-    <bundle start-level="80">mvn:com.instana/sensor-cassandra/1.1.34</bundle>
+    <bundle start-level="80">mvn:com.instana/sensor-cassandra/1.1.35</bundle>
   </feature>
 
   <feature name="instana-ceph-sensor" version="1.1.1">
