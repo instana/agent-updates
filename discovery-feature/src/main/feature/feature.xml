@@ -13,8 +13,8 @@
     <bundle start-level="80">mvn:com.instana/discovery-activemq/1.1.13</bundle>
   </feature>
 
-  <feature name="instana-alicloud-discovery" version="1.0.4">
-    <bundle start-level="80">mvn:com.instana/discovery-alicloud/1.0.4</bundle>
+  <feature name="instana-alicloud-discovery" version="1.0.5">
+    <bundle start-level="80">mvn:com.instana/discovery-alicloud/1.0.5</bundle>
   </feature>
 
   <feature name="instana-apmproxy-discovery" version="1.0.7">
