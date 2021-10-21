@@ -11,7 +11,7 @@ upgrade are available in the artifactory.
 1a. Set the mvn repository link to use `features-public`:
     
 ```xml
-org.ops4j.pax.url.mvn.repositories=https://artifact-public.instana.io/artifactory/features-internal@id=features@snapshots@snapshotsUpdate=always,https://artifact-public.instana.io/artifactory/shared@id=shared@snapshots@snapshotsUpdate=always
+org.ops4j.pax.url.mvn.repositories=https://artifact-public.instana.io/artifactory/features-public@id=features@snapshots@snapshotsUpdate=always,https://artifact-public.instana.io/artifactory/shared@id=shared@snapshots@snapshotsUpdate=always
 ```
     
 1b.  set default repository to `karaf.home` (not local .m2 repo):
