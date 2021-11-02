@@ -6,9 +6,9 @@
     <bundle>wrap:mvn:com.bettercloud/vault-java-driver/4.0.0</bundle>
   </feature>
 
-  <feature name="instana-agent-grpc-core" version="1.0.1">
+  <feature name="instana-agent-grpc-core" version="1.0.2">
     <feature version="[1.1.582,2)">instana-agent</feature>
-    <bundle start-level="80">mvn:com.instana/agent-grpc/1.0.1</bundle>
+    <bundle start-level="80">mvn:com.instana/agent-grpc/1.0.2</bundle>
     <!-- all grpc dependencies -->
     <bundle start-level="80">
            <![CDATA[wrap:mvn:io.grpc/grpc-protobuf/1.33.0$overwrite=merge&Export-Package=io.grpc.protobuf.*&Import-Package=io.grpc,*;resolution:=optional]]>
@@ -31,7 +31,7 @@
   </feature>
 
   <feature name="instana-agent-open-telemetry" version="1.0.4">
-    <feature version="[1.0.1,2)">instana-agent-grpc-core</feature>
+    <feature version="[1.0.2,2)">instana-agent-grpc-core</feature>
     <bundle start-level="90">mvn:com.instana/agent-open-telemetry/1.0.4</bundle>
     <!-- Other necessary dependencies are already included via feature 'instana-agent-grpc-core' -->
   </feature>
