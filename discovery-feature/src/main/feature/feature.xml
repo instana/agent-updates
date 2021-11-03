@@ -356,6 +356,10 @@
     <bundle start-level="80">mvn:com.instana/discovery-postgresql/1.0.40</bundle>
   </feature>
 
+  <feature name="instana-power-hmc-discovery" version="1.0.1">
+    <bundle start-level="80">mvn:com.instana/discovery-power-hmc/1.0.1</bundle>
+  </feature>
+
   <feature name="instana-process-discovery" version="1.1.45">
     <bundle start-level="80">mvn:com.instana/discovery-process/1.1.45</bundle>
   </feature>
