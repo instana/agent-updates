@@ -6,40 +6,40 @@
     <bundle>wrap:mvn:com.bettercloud/vault-java-driver/4.0.0</bundle>
   </feature>
 
-  <feature name="instana-agent-grpc-core" version="1.0.2">
+  <feature name="instana-agent-grpc-core" version="1.0.3">
     <feature version="[1.1.582,2)">instana-agent</feature>
-    <bundle start-level="80">mvn:com.instana/agent-grpc/1.0.2</bundle>
+    <bundle start-level="80">mvn:com.instana/agent-grpc/1.0.3</bundle>
     <!-- all grpc dependencies -->
     <bundle start-level="80">
-           <![CDATA[wrap:mvn:io.grpc/grpc-protobuf/1.33.0$overwrite=merge&Export-Package=io.grpc.protobuf.*&Import-Package=io.grpc,*;resolution:=optional]]>
+           <![CDATA[wrap:mvn:io.grpc/grpc-protobuf/1.42.0$overwrite=merge&Export-Package=io.grpc.protobuf.*&Import-Package=io.grpc,*;resolution:=optional]]>
     </bundle>
     <bundle start-level="80">
-               <![CDATA[wrap:mvn:io.grpc/grpc-stub/1.33.0$overwrite=merge&Export-Package=io.grpc.stub.*&Import-Package=io.grpc,*;resolution:=optional]]>
+               <![CDATA[wrap:mvn:io.grpc/grpc-stub/1.42.0$overwrite=merge&Export-Package=io.grpc.stub.*&Import-Package=io.grpc,*;resolution:=optional]]>
     </bundle>
     <bundle start-level="80">
-      <![CDATA[wrap:mvn:io.grpc/grpc-protobuf-lite/1.33.0$overwrite=merge&Export-Package=io.grpc.protobuf.lite.*&Import-Package=io.grpc,*;resolution:=optional]]>
+      <![CDATA[wrap:mvn:io.grpc/grpc-protobuf-lite/1.42.0$overwrite=merge&Export-Package=io.grpc.protobuf.lite.*&Import-Package=io.grpc,*;resolution:=optional]]>
     </bundle>
-    <bundle start-level="80">wrap:mvn:com.google.protobuf/protobuf-java/3.13.0</bundle>
+    <bundle start-level="80">wrap:mvn:com.google.protobuf/protobuf-java/3.17.2</bundle>
     <!-- all grpc transitive dependencies -->
-    <bundle start-level="80">wrap:mvn:io.perfmark/perfmark-api/0.19.0</bundle>
-    <bundle start-level="80">wrap:mvn:com.google.api.grpc/proto-google-common-protos/1.17.0</bundle>
+    <bundle start-level="80">wrap:mvn:io.perfmark/perfmark-api/0.23.0</bundle>
+    <bundle start-level="80">wrap:mvn:com.google.api.grpc/proto-google-common-protos/2.0.1</bundle>
     <bundle start-level="80">wrap:mvn:com.google.code.findbugs/jsr305/3.0.2</bundle>
-    <bundle start-level="80">wrap:mvn:com.google.code.gson/gson/2.8.5</bundle>
-    <bundle start-level="80">wrap:mvn:com.google.guava/guava/29.0-android</bundle>
+    <bundle start-level="80">wrap:mvn:com.google.code.gson/gson/2.8.6</bundle>
+    <bundle start-level="80">wrap:mvn:com.google.guava/guava/30.1-android</bundle>
     <bundle start-level="80">wrap:mvn:com.google.guava/failureaccess/1.0.1</bundle>
     <bundle start-level="80">wrap:mvn:com.google.guava/listenablefuture/9999.0-empty-to-avoid-conflict-with-guava</bundle>
   </feature>
 
-  <feature name="instana-agent-open-telemetry" version="1.0.4">
-    <feature version="[1.0.2,2)">instana-agent-grpc-core</feature>
-    <bundle start-level="90">mvn:com.instana/agent-open-telemetry/1.0.4</bundle>
+  <feature name="instana-agent-open-telemetry" version="1.0.5">
+    <feature version="[1.0.3,2)">instana-agent-grpc-core</feature>
+    <bundle start-level="90">mvn:com.instana/agent-open-telemetry/1.0.5</bundle>
     <!-- Other necessary dependencies are already included via feature 'instana-agent-grpc-core' -->
   </feature>
 
   <feature name="instana-agent-prometheus" version="1.0.4">
     <feature version="[1.1.587,2)">instana-agent</feature>
     <bundle start-level="80">mvn:com.instana/agent-prometheus/1.0.4</bundle>
-    <bundle start-level="80">wrap:mvn:com.google.protobuf/protobuf-java/3.13.0</bundle>
+    <bundle start-level="80">wrap:mvn:com.google.protobuf/protobuf-java/3.17.2</bundle>
   </feature>
 
 </features>
