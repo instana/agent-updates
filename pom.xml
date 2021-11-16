@@ -14,7 +14,7 @@
   <properties>
     <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
     <project.reporting.outputEncoding>UTF-8</project.reporting.outputEncoding>
-    <karaf.version>4.0.0</karaf.version>
+    <karaf.version>4.2.10</karaf.version>
   </properties>
 
   <modules>
