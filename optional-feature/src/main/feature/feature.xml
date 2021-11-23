@@ -6,7 +6,7 @@
     <bundle>wrap:mvn:com.bettercloud/vault-java-driver/4.0.0</bundle>
   </feature>
 
-  <feature name="instana-agent-grpc-core" version="1.0.3">
+  <feature name="instana-agent-grpc-core" version="1.0.3-1">
     <feature version="[1.1.582,2)">instana-agent</feature>
     <bundle start-level="80">mvn:com.instana/agent-grpc/1.0.3</bundle>
     <!-- all grpc dependencies -->
@@ -24,14 +24,14 @@
     <bundle start-level="80">wrap:mvn:io.perfmark/perfmark-api/0.23.0</bundle>
     <bundle start-level="80">wrap:mvn:com.google.api.grpc/proto-google-common-protos/2.0.1</bundle>
     <bundle start-level="80">wrap:mvn:com.google.code.findbugs/jsr305/3.0.2</bundle>
-    <bundle start-level="80">wrap:mvn:com.google.code.gson/gson/2.8.6</bundle>
+    <bundle start-level="80">wrap:mvn:com.google.code.gson/gson/2.8.9</bundle>
     <bundle start-level="80">wrap:mvn:com.google.guava/guava/30.1-android</bundle>
     <bundle start-level="80">wrap:mvn:com.google.guava/failureaccess/1.0.1</bundle>
     <bundle start-level="80">wrap:mvn:com.google.guava/listenablefuture/9999.0-empty-to-avoid-conflict-with-guava</bundle>
   </feature>
 
   <feature name="instana-agent-open-telemetry" version="1.0.5">
-    <feature version="[1.0.3,2)">instana-agent-grpc-core</feature>
+    <feature version="[1.0.3-1,2)">instana-agent-grpc-core</feature>
     <bundle start-level="90">mvn:com.instana/agent-open-telemetry/1.0.5</bundle>
     <!-- Other necessary dependencies are already included via feature 'instana-agent-grpc-core' -->
   </feature>
