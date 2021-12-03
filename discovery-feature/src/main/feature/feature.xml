@@ -97,6 +97,10 @@
     <bundle start-level="80">mvn:com.instana/discovery-docker/1.1.60</bundle>
   </feature>
 
+  <feature name="instana-domino-discovery" version="1.0.3">
+    <bundle start-level="80">mvn:com.instana/discovery-domino/1.0.3</bundle>
+  </feature>
+
   <feature name="instana-dropwizard-discovery" version="1.1.26">
     <bundle start-level="80">mvn:com.instana/discovery-dropwizard/1.1.26</bundle>
   </feature>
