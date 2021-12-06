@@ -200,8 +200,8 @@
     <bundle start-level="80">mvn:com.instana/discovery-ibmiseries/1.0.9</bundle>
   </feature>
 
-  <feature name="instana-ibmmq-discovery" version="1.0.18">
-    <bundle start-level="80">mvn:com.instana/discovery-ibmmq/1.0.18</bundle>
+  <feature name="instana-ibmmq-discovery" version="1.0.19">
+    <bundle start-level="80">mvn:com.instana/discovery-ibmmq/1.0.19</bundle>
   </feature>
 
   <feature name="instana-ibmdatapower-discovery" version="1.0.10">
