@@ -192,8 +192,8 @@
     <bundle start-level="80">mvn:com.instana/discovery-host/1.1.137</bundle>
   </feature>
 
-  <feature name="instana-httpd-discovery" version="1.1.108">
-    <bundle start-level="80">mvn:com.instana/discovery-httpd/1.1.108</bundle>
+  <feature name="instana-httpd-discovery" version="1.1.109">
+    <bundle start-level="80">mvn:com.instana/discovery-httpd/1.1.109</bundle>
   </feature>
 
   <feature name="instana-ibmiseries-discovery" version="1.0.9">
