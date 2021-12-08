@@ -23,6 +23,53 @@
     <bundle start-level="80">mvn:com.instana/sensor-activemq/1.1.13</bundle>
   </feature>
 
+  <feature name="alicloud-sdk" version="1.0.6">
+    <bundle start-level="80">mvn:commons-codec/commons-codec/1.13</bundle>
+    <bundle start-level="80">mvn:org.apache.httpcomponents/httpcore-osgi/4.4.9</bundle>
+    <bundle start-level="80">mvn:org.apache.httpcomponents/httpclient-osgi/4.5.13</bundle>
+    <bundle start-level="80">wrap:mvn:com.aliyun/ons20190214/1.0.0$Bundle-SymbolicName=ons20190214</bundle>
+    <bundle start-level="80">wrap:mvn:com.aliyun/cms20190101/1.0.1$Bundle-SymbolicName=cms20190101</bundle>
+    <bundle start-level="80">wrap:mvn:com.aliyun/rds20140815/1.0.2$Bundle-SymbolicName=rds20140815</bundle>
+    <bundle start-level="80">wrap:mvn:com.aliyun/tea-openapi/0.0.13$Bundle-SymbolicName=tea-openapi</bundle>
+    <bundle start-level="80">wrap:mvn:com.aliyun/tea/1.1.14$Bundle-SymbolicName=tea</bundle>
+    <bundle start-level="80">wrap:mvn:com.aliyun/credentials-java/0.2.4$Bundle-SymbolicName=credentials</bundle>
+    <bundle start-level="80">wrap:mvn:com.aliyun/tea-util/0.2.10$Bundle-SymbolicName=tea-util</bundle>
+    <bundle start-level="80">wrap:mvn:com.aliyun/openapiutil/0.1.2$Bundle-SymbolicName=openapiutil</bundle>
+    <bundle start-level="80">wrap:mvn:com.aliyun/endpoint-util/0.0.6$Bundle-SymbolicName=endpoint-util</bundle>
+    <bundle start-level="80">wrap:mvn:com.aliyun/tea-rpc/0.0.11$Bundle-SymbolicName=tea-rpc</bundle>
+    <bundle start-level="80">wrap:mvn:com.aliyun/tea-rpc-util/0.1.2$Bundle-SymbolicName=tea-rpc-util</bundle>
+    <bundle start-level="80">wrap:mvn:com.aliyun.oss/aliyun-sdk-oss/3.10.2$Bundle-SymbolicName=oss</bundle>
+    <bundle start-level="80">wrap:mvn:com.squareup.okio/okio/1.14.0</bundle>
+    <bundle start-level="80">wrap:mvn:com.squareup.okhttp3/okhttp/3.12.13</bundle>
+    <bundle start-level="80">wrap:mvn:com.google.code.gson/gson/2.8.7$Bundle-SymbolicName=gson</bundle>
+    <bundle start-level="80">wrap:mvn:org.jdom/jdom2/2.0.6$Bundle-SymbolicName=jdom2</bundle>
+  </feature>
+
+  <feature name="instana-alicloud-sdk" version="1.0.6">
+    <feature version="1.0.6">alicloud-sdk</feature>
+    <bundle start-level="80">mvn:com.instana/instana-alicloud-sdk/1.0.6</bundle>
+  </feature>
+
+  <feature name="instana-alicloud-services-discovery" version="1.0.6">
+    <feature version="1.0.6">instana-alicloud-sdk</feature>
+    <bundle start-level="80">mvn:com.instana/discovery-alicloud-services/1.0.6</bundle>
+  </feature>
+
+  <feature name="instana-alicloud-oss-sensor" version="1.0.6">
+    <feature version="1.0.6">instana-alicloud-sdk</feature>
+    <bundle start-level="80">mvn:com.instana/sensor-alicloud-oss/1.0.6</bundle>
+  </feature>
+
+  <feature name="instana-alicloud-rds-mysql-sensor" version="1.0.6">
+    <feature version="1.0.6">instana-alicloud-sdk</feature>
+    <bundle start-level="80">mvn:com.instana/sensor-alicloud-rds-mysql/1.0.6</bundle>
+  </feature>
+
+  <feature name="instana-alicloud-rocketmq-sensor" version="1.0.6">
+    <feature version="1.0.6">instana-alicloud-sdk</feature>
+    <bundle start-level="80">mvn:com.instana/sensor-alicloud-rocketmq/1.0.6</bundle>
+  </feature>
+
   <feature name="instana-apmproxy-sensor" version="1.0.7">
     <bundle start-level="80">mvn:com.instana/sensor-apmproxy/1.0.7</bundle>
   </feature>
@@ -890,41 +937,4 @@
     <bundle start-level="80">mvn:org.apache.geronimo.specs/geronimo-jta_1.1_spec/1.1.1</bundle>
   </feature>
 
-  <feature name="alicloud-sdk" version="1.0.5">
-    <bundle start-level="80">wrap:mvn:com.aliyun/ons20190214/1.0.0$Bundle-SymbolicName=ons20190214</bundle>
-    <bundle start-level="80">wrap:mvn:com.aliyun/cms20190101/1.0.1$Bundle-SymbolicName=cms20190101</bundle>
-    <bundle start-level="80">wrap:mvn:com.aliyun/rds20140815/1.0.2$Bundle-SymbolicName=rds20140815</bundle>
-    <bundle start-level="80">wrap:mvn:com.aliyun/tea-openapi/0.0.13$Bundle-SymbolicName=tea-openapi</bundle>
-    <bundle start-level="80">wrap:mvn:com.aliyun/tea/1.1.14$Bundle-SymbolicName=tea</bundle>
-    <bundle start-level="80">wrap:mvn:com.aliyun/credentials-java/0.2.4$Bundle-SymbolicName=credentials</bundle>
-    <bundle start-level="80">wrap:mvn:com.aliyun/tea-util/0.2.10$Bundle-SymbolicName=tea-util</bundle>
-    <bundle start-level="80">wrap:mvn:com.aliyun/openapiutil/0.1.2$Bundle-SymbolicName=openapiutil</bundle>
-    <bundle start-level="80">wrap:mvn:com.aliyun/endpoint-util/0.0.6$Bundle-SymbolicName=endpoint-util</bundle>
-    <bundle start-level="80">wrap:mvn:com.aliyun/tea-rpc/0.0.11$Bundle-SymbolicName=tea-rpc</bundle>
-    <bundle start-level="80">wrap:mvn:com.aliyun/tea-rpc-util/0.1.2$Bundle-SymbolicName=tea-rpc-util</bundle>
-    <bundle start-level="80">wrap:mvn:com.squareup.okio/okio/1.14.0</bundle>
-    <bundle start-level="80">wrap:mvn:com.squareup.okhttp3/okhttp/3.12.13</bundle>
-    <bundle start-level="80">wrap:mvn:com.google.code.gson/gson/2.8.7$Bundle-SymbolicName=gson</bundle>
-
-  </feature>
-
-  <feature name="instana-alicloud-sdk" version="1.0.5">
-    <feature version="1.0.5">alicloud-sdk</feature>
-    <bundle start-level="80">mvn:com.instana/instana-alicloud-sdk/1.0.5</bundle>
-  </feature>
-
-  <feature name="instana-alicloud-services-discovery" version="1.0.5">
-    <feature version="1.0.5">instana-alicloud-sdk</feature>
-    <bundle start-level="80">mvn:com.instana/discovery-alicloud-services/1.0.5</bundle>
-  </feature>
-
-  <feature name="instana-alicloud-rocketmq-sensor" version="1.0.5">
-    <feature version="1.0.5">instana-alicloud-sdk</feature>
-    <bundle start-level="80">mvn:com.instana/sensor-alicloud-rocketmq/1.0.5</bundle>
-  </feature>
-
-  <feature name="instana-alicloud-rds-mysql-sensor" version="1.0.5">
-    <feature version="1.0.5">instana-alicloud-sdk</feature>
-    <bundle start-level="80">mvn:com.instana/sensor-alicloud-rds-mysql/1.0.5</bundle>
-  </feature>
 </features>
