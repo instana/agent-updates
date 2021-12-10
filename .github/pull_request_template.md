@@ -28,10 +28,11 @@ The PR Author and the Reviewer need to check the following:
 - [ ] The PR title and the merge commit message adhere to the naming convention mentioned above
 - [ ] The PR is tagged with `Review & Merge` label?
 - [ ] All feature versions are bumped in the `feature.xml` files in the `discovery-feature` and `sensor-feature`
-  modules ()
+  modules
 - [ ] The Sensor PR is merged to `master` branch, and the Jenkins build job has finished successfully
 
 ### Before merging the PR to `public` branch:
 
 - [ ] The PR is tagged with `public` label
 - [ ] Auto-update verified as described in the [Auto-update Verfication](../AUTO_UPDATE_VERIFICATION.md).
+- [ ] Agent static build is verified as described in the [Agent Static Build Verification](../AGENT_STATIC_BUILD_VERIFICATION.md)
