@@ -38,8 +38,8 @@
   </feature>
   <!-- End of third party features skipped by bootstrap 1.2.3 -->
 
-  <feature name="instana-init" description="Instana Init" version="1.0.1">
-    <bundle start-level="55">mvn:com.instana/agent-init/1.0.1</bundle>
+  <feature name="instana-init" description="Instana Init" version="1.0.2">
+    <bundle start-level="55">mvn:com.instana/agent-init/1.0.2</bundle>
   </feature>
 
   <feature name="instana-jctools2" description="Instana JCTools 2" version="2.1.1">
@@ -59,8 +59,8 @@
     <bundle start-level="60">mvn:com.instana/agent-optional-api/1.0.0</bundle>
   </feature>
 
-  <feature name="instana-agent" description="Instana Agent" version="1.1.617">
+  <feature name="instana-agent" description="Instana Agent" version="1.1.618">
     <feature version="[1.0.0,2)">instana-agent-optional-api</feature>
-    <bundle start-level="70">mvn:com.instana/agent/1.1.617</bundle>
+    <bundle start-level="70">mvn:com.instana/agent/1.1.618</bundle>
   </feature>
 </features>
