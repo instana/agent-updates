@@ -928,9 +928,9 @@
     <bundle start-level="80">mvn:com.instana/sensor-zhmc/1.0.7</bundle>
   </feature>
 
-  <feature name="instana-zookeeper-sensor" version="1.0.4">
+  <feature name="instana-zookeeper-sensor" version="1.0.6">
     <feature version="[1.2.31,2)">instana-java-sensor</feature>
-    <bundle start-level="80">mvn:com.instana/sensor-zookeeper/1.0.4</bundle>
+    <bundle start-level="80">mvn:com.instana/sensor-zookeeper/1.0.6</bundle>
   </feature>
 
   <feature name="jta-spec" version="1.1.1">
