@@ -93,8 +93,8 @@
     <bundle start-level="80">mvn:com.instana/discovery-db2z/1.0.0</bundle>
   </feature>
 
-  <feature name="instana-docker-discovery" version="1.1.60">
-    <bundle start-level="80">mvn:com.instana/discovery-docker/1.1.60</bundle>
+  <feature name="instana-docker-discovery" version="1.1.63">
+    <bundle start-level="80">mvn:com.instana/discovery-docker/1.1.63</bundle>
   </feature>
 
   <feature name="instana-domino-discovery" version="1.0.3">

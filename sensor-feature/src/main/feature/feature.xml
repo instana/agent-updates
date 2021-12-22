@@ -355,12 +355,12 @@
     <bundle start-level="80">mvn:com.instana/sensor-db2z/1.0.0</bundle>
   </feature>
 
-  <feature name="instana-docker-sensor" version="1.1.60">
-    <bundle start-level="80">mvn:com.instana/sensor-docker/1.1.60</bundle>
+  <feature name="instana-docker-sensor" version="1.1.63">
+    <bundle start-level="80">mvn:com.instana/sensor-docker/1.1.63</bundle>
   </feature>
 
-  <feature name="instana-docker-log-sensor" version="1.1.60">
-    <bundle start-level="80">mvn:com.instana/sensor-docker-log/1.1.60</bundle>
+  <feature name="instana-docker-log-sensor" version="1.1.63">
+    <bundle start-level="80">mvn:com.instana/sensor-docker-log/1.1.63</bundle>
   </feature>
 
   <feature name="instana-domino-sensor" version="1.0.3">
