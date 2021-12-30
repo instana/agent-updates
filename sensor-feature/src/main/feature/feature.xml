@@ -692,9 +692,9 @@
     <bundle start-level="90">mvn:com.instana/sensor-netcore-trace/1.0.5</bundle>
   </feature>
 
-  <feature name="instana-nginx-sensor" version="1.1.77">
+  <feature name="instana-nginx-sensor" version="1.1.78">
     <bundle start-level="80">mvn:org.antlr/antlr4-runtime/4.5.3</bundle>
-    <bundle start-level="80">mvn:com.instana/sensor-nginx/1.1.77</bundle>
+    <bundle start-level="80">mvn:com.instana/sensor-nginx/1.1.78</bundle>
   </feature>
 
   <feature name="instana-nodejs-sensor" version="1.2.17">
