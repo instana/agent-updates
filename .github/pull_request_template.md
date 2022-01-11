@@ -12,8 +12,8 @@
     - `sensor-feature/src/main/feature/feature.xml`
 - [ ] The [Sensor PR](<INSERT_LINK_TO_THE_SENSOR_PR>) is merged to the `master` branch
 - [ ] The [Sensors Jenkins](https://agent-jenkins.instana.io/view/Agent/job/sensors) build job [successfully finished](<INSERT_THE_BUILD_JOB_LINK_HERE>)
-- [ ] Auto-update verified as described in the [Auto-update Verfication](../AUTO_UPDATE_VERIFICATION.md).
-- [ ] Agent static build is verified as described in the [Agent Static Build Verification](../AGENT_STATIC_BUILD_VERIFICATION.md)
+- [ ] Auto-update verified as described in the [Auto-update Verfication](../blob/internal/AUTO_UPDATE_VERIFICATION.md).
+- [ ] Agent static build is verified as described in the [Agent Static Build Verification](../blob/internal/AGENT_STATIC_BUILD_VERIFICATION.md)
 
 **Each box needs to be checked or deleted in case it does not apply, 
 and only then the PR is ready to be merged.**
