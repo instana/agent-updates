@@ -586,9 +586,9 @@
     <bundle start-level="80">mvn:com.instana/sensor-jetty/1.1.13</bundle>
   </feature>
 
-  <feature name="instana-jira-sensor" version="1.1.11">
+  <feature name="instana-jira-sensor" version="1.1.12">
     <feature version="[1.2.31,2)">instana-java-sensor</feature>
-    <bundle start-level="80">mvn:com.instana/sensor-jira/1.1.11</bundle>
+    <bundle start-level="80">mvn:com.instana/sensor-jira/1.1.12</bundle>
   </feature>
 
   <feature name="instana-kafka-connect-sensor" version="1.0.2">
