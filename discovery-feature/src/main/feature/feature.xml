@@ -404,8 +404,8 @@
     <bundle start-level="80">mvn:com.instana/discovery-statsd/1.1.7</bundle>
   </feature>
 
-  <feature name="instana-spark-application-discovery" version="1.1.5">
-    <bundle start-level="80">mvn:com.instana/discovery-spark-application/1.1.5</bundle>
+  <feature name="instana-spark-application-discovery" version="1.1.6">
+    <bundle start-level="80">mvn:com.instana/discovery-spark-application/1.1.6</bundle>
   </feature>
 
   <feature name="instana-spark-standalone-discovery" version="1.1.1">
