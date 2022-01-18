@@ -408,8 +408,8 @@
     <bundle start-level="80">mvn:com.instana/discovery-spark-application/1.1.6</bundle>
   </feature>
 
-  <feature name="instana-spark-standalone-discovery" version="1.1.1">
-    <bundle start-level="80">mvn:com.instana/discovery-spark-standalone/1.1.1</bundle>
+  <feature name="instana-spark-standalone-discovery" version="1.1.2">
+    <bundle start-level="80">mvn:com.instana/discovery-spark-standalone/1.1.2</bundle>
   </feature>
 
   <feature name="instana-springboot-discovery" version="1.1.42">
