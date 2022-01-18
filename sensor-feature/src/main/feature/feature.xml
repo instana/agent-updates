@@ -479,9 +479,9 @@
     <bundle start-level="90">mvn:com.instana/sensor-golang-profile/1.0.0</bundle>
   </feature>
 
-  <feature name="instana-hadoop-yarn-sensor" version="1.1.3">
-    <feature version="[1.2.35,2)">instana-java-sensor</feature>
-    <bundle start-level="80">mvn:com.instana/sensor-hadoop-yarn/1.1.3</bundle>
+  <feature name="instana-hadoop-yarn-sensor" version="1.1.4">
+    <feature version="[1.2.110,2)">instana-java-sensor</feature>
+    <bundle start-level="80">mvn:com.instana/sensor-hadoop-yarn/1.1.4</bundle>
   </feature>
 
   <feature name="instana-hadoop-yarn-node-sensor" version="1.1.0">
