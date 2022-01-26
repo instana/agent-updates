@@ -220,8 +220,8 @@
     <bundle start-level="80">mvn:com.instana/discovery-java/1.2.110</bundle>
   </feature>
 
-  <feature name="instana-jboss-as-discovery" version="1.1.44">
-    <bundle start-level="80">mvn:com.instana/discovery-jboss-as/1.1.44</bundle>
+  <feature name="instana-jboss-as-discovery" version="1.1.45">
+    <bundle start-level="80">mvn:com.instana/discovery-jboss-as/1.1.45</bundle>
   </feature>
 
   <feature name="instana-jboss-as4-discovery" version="1.0.7">

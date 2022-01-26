@@ -562,9 +562,9 @@
     <bundle start-level="90">mvn:com.instana/sensor-java-profile/1.0.18</bundle>
   </feature>
 
-  <feature name="instana-jboss-as-sensor" version="1.1.44">
+  <feature name="instana-jboss-as-sensor" version="1.1.45">
     <feature version="[1.2.106,2)">instana-java-sensor</feature>
-    <bundle start-level="80">mvn:com.instana/sensor-jboss-as/1.1.44</bundle>
+    <bundle start-level="80">mvn:com.instana/sensor-jboss-as/1.1.45</bundle>
   </feature>
 
   <feature name="instana-jboss-as4-sensor" version="1.0.7">
