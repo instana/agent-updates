@@ -669,9 +669,9 @@
     <bundle start-level="80">mvn:com.instana/sensor-msiis/1.1.8</bundle>
   </feature>
 
-  <feature name="instana-mule-sensor" version="1.0.4">
-    <feature version="[1.2.45,2)">instana-java-sensor</feature>
-    <bundle start-level="80">mvn:com.instana/sensor-mule/1.0.4</bundle>
+  <feature name="instana-mule-sensor" version="1.0.5">
+    <feature version="[1.2.110,2)">instana-java-sensor</feature>
+    <bundle start-level="80">mvn:com.instana/sensor-mule/1.0.5</bundle>
   </feature>
 
   <feature name="instana-mssql-sensor" version="1.1.31">

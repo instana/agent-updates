@@ -284,8 +284,8 @@
     <bundle start-level="80">mvn:com.instana/discovery-msiis/1.1.8</bundle>
   </feature>
 
-  <feature name="instana-mule-discovery" version="1.0.4">
-    <bundle start-level="80">mvn:com.instana/discovery-mule/1.0.4</bundle>
+  <feature name="instana-mule-discovery" version="1.0.5">
+    <bundle start-level="80">mvn:com.instana/discovery-mule/1.0.5</bundle>
   </feature>
 
   <feature name="instana-mssql-discovery" version="1.1.31">
