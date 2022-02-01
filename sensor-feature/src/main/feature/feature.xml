@@ -777,10 +777,10 @@
     <bundle start-level="80">mvn:com.instana/sensor-postgresql/1.0.40</bundle>
   </feature>
 
-  <feature name="instana-power-hmc-sensor" version="1.0.3">
+  <feature name="instana-power-hmc-sensor" version="1.0.4">
     <bundle start-level="80">mvn:org.apache.httpcomponents/httpcore-osgi/4.4.9</bundle>
     <bundle start-level="80">mvn:org.apache.httpcomponents/httpclient-osgi/4.5.13</bundle>
-    <bundle start-level="80">mvn:com.instana/sensor-power-hmc/1.0.3</bundle>
+    <bundle start-level="80">mvn:com.instana/sensor-power-hmc/1.0.4</bundle>
   </feature>
 
   <feature name="instana-process-sensor" version="1.1.45">
