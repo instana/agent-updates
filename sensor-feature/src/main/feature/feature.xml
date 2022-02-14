@@ -791,13 +791,13 @@
     <bundle start-level="80">mvn:com.instana/sensor-process/1.1.45</bundle>
   </feature>
 
-  <feature name="instana-prometheus-kubernetes-discovery" version="1.0.22.1">
+  <feature name="instana-prometheus-kubernetes-discovery" version="1.0.23">
     <feature version="4.9.2.2">fabric8-sdk</feature>
-    <bundle start-level="80">mvn:com.instana/discovery-prometheus-kubernetes/1.0.22</bundle>
+    <bundle start-level="80">mvn:com.instana/discovery-prometheus-kubernetes/1.0.23</bundle>
   </feature>
 
-  <feature name="instana-prometheus-sensor" version="1.0.22">
-    <bundle start-level="80">mvn:com.instana/sensor-prometheus/1.0.22</bundle>
+  <feature name="instana-prometheus-sensor" version="1.0.23">
+    <bundle start-level="80">mvn:com.instana/sensor-prometheus/1.0.23</bundle>
   </feature>
 
   <feature name="instana-python-sensor" version="1.9.2">
