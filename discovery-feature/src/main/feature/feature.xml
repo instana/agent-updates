@@ -272,8 +272,8 @@
     <bundle start-level="80">mvn:com.instana/discovery-mariadb/1.1.23</bundle>
   </feature>
 
-  <feature name="instana-memcached-discovery" version="1.0.18">
-    <bundle start-level="80">mvn:com.instana/discovery-memcached/1.0.18</bundle>
+  <feature name="instana-memcached-discovery" version="1.0.19">
+    <bundle start-level="80">mvn:com.instana/discovery-memcached/1.0.19</bundle>
   </feature>
 
   <feature name="instana-mongodb-discovery" version="1.1.48">
