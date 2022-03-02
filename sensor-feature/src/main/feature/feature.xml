@@ -605,7 +605,7 @@
     <bundle start-level="80">mvn:com.instana/sensor-kafka/1.1.44</bundle>
   </feature>
 
-  <feature name="fabric8-sdk" version="4.9.2.2">
+  <feature name="fabric8-sdk" version="4.9.2.3">
     <bundle start-level="80">
       <![CDATA[wrap:mvn:io.fabric8/kubernetes-model/4.9.2$overwrite=merge&Import-Package=com.fasterxml.jackson.annotation;version="[2.9.8,3)",*]]>
     </bundle>
@@ -617,7 +617,7 @@
     </bundle>
     <bundle start-level="80">mvn:com.fasterxml.jackson.datatype/jackson-datatype-jsr310/2.9.8</bundle>
     <bundle start-level="80">mvn:commons-codec/commons-codec/1.13</bundle>
-    <bundle start-level="80">mvn:org.apache.commons/commons-compress/1.19</bundle>
+    <bundle start-level="80">mvn:org.apache.commons/commons-compress/1.21</bundle>
     <bundle start-level="80">mvn:javax.validation/validation-api/1.1.0.Final</bundle>
     <bundle start-level="80">wrap:mvn:io.fabric8/zjsonpatch/0.3.0/</bundle>
     <bundle start-level="80">wrap:mvn:com.squareup.okio/okio/1.14.0</bundle>
@@ -628,7 +628,7 @@
 
   <feature name="instana-kubernetes-sensor" version="1.2.138">
     <feature version="[1.0.0,2)">instana-coordination-sdk</feature>
-    <feature version="4.9.2.2">fabric8-sdk</feature>
+    <feature version="4.9.2.3">fabric8-sdk</feature>
     <bundle start-level="80">mvn:javax.validation/validation-api/2.0.1.Final</bundle>
     <bundle start-level="80">mvn:com.cronutils/cron-utils/9.1.6</bundle>
     <bundle start-level="80">mvn:com.instana/sensor-kubernetes/1.2.138</bundle>
@@ -792,7 +792,7 @@
   </feature>
 
   <feature name="instana-prometheus-kubernetes-discovery" version="1.0.23">
-    <feature version="4.9.2.2">fabric8-sdk</feature>
+    <feature version="4.9.2.3">fabric8-sdk</feature>
     <bundle start-level="80">mvn:com.instana/discovery-prometheus-kubernetes/1.0.23</bundle>
   </feature>
 
