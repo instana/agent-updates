@@ -30,7 +30,7 @@ merged.
 
 ### Update the Public Reference Repository
 
-Update the Public Reference Repository for Instana Agent Updates as described in [this document](UPDATE_PUBLIC_REFERENCE_REPOSITORY.md). 
+Update the Public Reference Repository for Instana Agent Updates as described in [this document](../blob/internal/UPDATE_PUBLIC_REFERENCE_REPOSITORY.md). 
 
 <hr /> 
 
