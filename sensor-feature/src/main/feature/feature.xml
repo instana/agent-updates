@@ -851,9 +851,9 @@
     <bundle start-level="80">mvn:com.instana/sensor-solr/1.0.14</bundle>
   </feature>
 
-  <feature name="instana-statsd-sensor" version="1.1.7">
-    <bundle start-level="80">mvn:org.hdrhistogram/HdrHistogram/2.1.10</bundle>
-    <bundle start-level="80">mvn:com.instana/sensor-statsd/1.1.7</bundle>
+  <feature name="instana-statsd-sensor" version="1.1.8">
+    <bundle start-level="80">mvn:org.hdrhistogram/HdrHistogram/2.1.12</bundle>
+    <bundle start-level="80">mvn:com.instana/sensor-statsd/1.1.8</bundle>
   </feature>
 
   <feature name="instana-spark-application-sensor" version="1.1.6">

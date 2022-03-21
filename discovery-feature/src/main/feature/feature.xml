@@ -404,8 +404,8 @@
     <bundle start-level="80">mvn:com.instana/discovery-solr/1.0.14</bundle>
   </feature>
 
-  <feature name="instana-statsd-discovery" version="1.1.7">
-    <bundle start-level="80">mvn:com.instana/discovery-statsd/1.1.7</bundle>
+  <feature name="instana-statsd-discovery" version="1.1.8">
+    <bundle start-level="80">mvn:com.instana/discovery-statsd/1.1.8</bundle>
   </feature>
 
   <feature name="instana-spark-application-discovery" version="1.1.6">
