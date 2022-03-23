@@ -73,8 +73,8 @@
     <bundle start-level="80">mvn:com.instana/discovery-clr/1.1.66</bundle>
   </feature>
 
-  <feature name="instana-couchbase-discovery" version="1.0.3">
-    <bundle start-level="80">mvn:com.instana/discovery-couchbase/1.0.3</bundle>
+  <feature name="instana-couchbase-discovery" version="1.0.4">
+    <bundle start-level="80">mvn:com.instana/discovery-couchbase/1.0.4</bundle>
   </feature>
   
   <feature name="instana-crowdstrike-falcon-discovery" version="1.0.3">
