@@ -2,19 +2,18 @@
 
 Each box needs to be checked or deleted in case it does not apply:
 
-- [ ] Title: adheres to the [naming convention](#naming-convention) and makes sense from the customers' perspective.
-- [ ] Labels: `Review & Merge` & `internal`/`PUBLIC` as a destination branch
-- [ ] Reviewers: your team for `internal` branch, `@eng-agent-sensor-gatekeepers` for `public`
-- [ ] Ask `@eng-agent-sensor-gatekeepers` and inform others on Slack about release to public
-- [ ] All feature versions are bumped
-    - `discovery-feature/src/main/feature/feature.xml`
-    - `sensor-feature/src/main/feature/feature.xml`
-- [ ] The Sensor PR is merged to `master`: *<INSERT_LINK_TO_THE_SENSOR_PR_HERE>*
-- [ ] The Sensors Jenkins build job successfully finished: *<INSERT_LINK_TO_THE_BUILD_JOB_HERE>*
-- [ ] Auto-update verified as described in the [Auto-update Verfication](https://github.ibm.com/instana/agent-update-site/blob/internal/AUTO_UPDATE_VERIFICATION.md).
+- [ ] Title: adheres to the [naming convention](#naming-convention), is informative, not too technical and makes sense from the customers' perspective
+- [ ] Labels: `Review & Merge` + `internal`/`PUBLIC` to indicate the destination branch
+- [ ] Reviewer: `internal` branch = your team, `public` branch = `@eng-agent-sensor-gatekeepers`
+- [ ] All feature versions are bumped in `discovery-feature/src/main/feature/feature.xml` & `sensor-feature/src/main/feature/feature.xml`
+- [ ] The Sensor PR is merged to `master`: INSERT_LINK_TO_THE_SENSOR_PR_HERE
+- [ ] The Sensors Jenkins build job successfully finished: INSERT_LINK_TO_THE_BUILD_JOB_HERE
+
+When the destination branch is `public` the following is required:
+- [ ] Auto-update verified as described in the [Auto-update Verfication](https://github.ibm.com/instana/agent-update-site/blob/internal/AUTO_UPDATE_VERIFICATION.md). 
 - [ ] Agent static build is verified as described in the [Agent Static Build Verification](https://github.ibm.com/instana/agent-update-site/blob/internal/AGENT_STATIC_BUILD_VERIFICATION.md)
-- [ ] Agent Installer PR to be merged after merging this PR (only for `public` release): 
-  *<INSERT_AGENT_INSTALLER_PR-IF_PRESENT>*
+- [ ] Agent Installer PR to be merged after merging this PR: INSERT_AGENT_INSTALLER_PR-IF_PRESENT
+- [ ] Ping `@eng-agent-sensor-gatekeepers` and inform others about release to `public` in #brewery-sensors Slack channel 
 
 <hr />
 
