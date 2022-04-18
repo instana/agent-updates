@@ -456,8 +456,8 @@
     <bundle start-level="80">mvn:com.instana/discovery-vsphere/1.0.24</bundle>
   </feature>
 
-  <feature name="instana-websphere-discovery" version="1.1.22">
-    <bundle start-level="80">mvn:com.instana/discovery-websphere/1.1.22</bundle>
+  <feature name="instana-websphere-discovery" version="1.1.25">
+    <bundle start-level="80">mvn:com.instana/discovery-websphere/1.1.25</bundle>
   </feature>
 
   <feature name="instana-websphere-liberty-discovery" version="1.1.2">
