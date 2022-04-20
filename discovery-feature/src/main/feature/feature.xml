@@ -212,6 +212,10 @@
     <bundle start-level="80">mvn:com.instana/discovery-ibmdatapower/1.0.10</bundle>
   </feature>
 
+  <feature name="instana-ibmopenstack-discovery" version="1.0.0">
+    <bundle start-level="80">mvn:com.instana/discovery-ibmopenstack/1.0.0</bundle>
+  </feature>
+
   <feature name="instana-instana-backend-discovery" version="1.1.1">
     <bundle start-level="80">mvn:com.instana/discovery-instana-backend/1.1.1</bundle>
   </feature>
