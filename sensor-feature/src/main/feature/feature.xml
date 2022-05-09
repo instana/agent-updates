@@ -832,8 +832,8 @@
     <bundle start-level="80">mvn:com.instana/sensor-rabbitmq/1.1.46</bundle>
   </feature>
 
-  <feature name="instana-ruby-sensor" version="1.6.3">
-    <bundle start-level="80">mvn:com.instana/sensor-ruby/1.6.3</bundle>
+  <feature name="instana-ruby-sensor" version="1.6.4">
+    <bundle start-level="80">mvn:com.instana/sensor-ruby/1.6.4</bundle>
   </feature>
 
   <feature name="instana-ruby-trace-sensor" version="1.2.1">
