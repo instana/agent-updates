@@ -606,9 +606,9 @@
     <bundle start-level="80">mvn:com.instana/sensor-kafka-connect/1.0.3</bundle>
   </feature>
 
-  <feature name="instana-kafka-sensor" version="1.1.47">
+  <feature name="instana-kafka-sensor" version="1.1.48">
     <feature version="[1.2.101,2)">instana-java-sensor</feature>
-    <bundle start-level="80">mvn:com.instana/sensor-kafka/1.1.47</bundle>
+    <bundle start-level="80">mvn:com.instana/sensor-kafka/1.1.48</bundle>
   </feature>
 
   <feature name="fabric8-sdk" version="4.9.2.3">
