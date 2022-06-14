@@ -468,8 +468,8 @@
     <bundle start-level="80">mvn:com.instana/discovery-websphere-liberty/1.1.2</bundle>
   </feature>
 
-  <feature name="instana-zhmc-discovery" version="1.0.8">
-    <bundle start-level="80">mvn:com.instana/discovery-zhmc/1.0.8</bundle>
+  <feature name="instana-zhmc-discovery" version="1.0.9">
+    <bundle start-level="80">mvn:com.instana/discovery-zhmc/1.0.9</bundle>
   </feature>
 
   <feature name="instana-zookeeper-discovery" version="1.0.7">
