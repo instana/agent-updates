@@ -29,8 +29,8 @@
     <bundle start-level="80">mvn:com.instana/discovery-aws/1.0.112</bundle>
   </feature>
 
-  <feature name="instana-cassandra-discovery" version="1.1.36">
-    <bundle start-level="80">mvn:com.instana/discovery-cassandra/1.1.36</bundle>
+  <feature name="instana-cassandra-discovery" version="1.1.37">
+    <bundle start-level="80">mvn:com.instana/discovery-cassandra/1.1.37</bundle>
   </feature>
 
   <feature name="instana-beeinstana-discovery" version="1.0.4">
