@@ -42,6 +42,10 @@
     <bundle start-level="55">mvn:com.instana/agent-init/1.0.2</bundle>
   </feature>
 
+  <feature name="instana-netty-anti-leak" description="Instana Netty Anti Leak" version="1.0.0">
+    <bundle start-level="60">mvn:com.instana/agent-netty/1.0.0</bundle>
+  </feature>
+
   <feature name="instana-jctools2" description="Instana JCTools 2" version="2.1.1">
     <bundle start-level="60">mvn:com.instana/jctools/2.1.1</bundle>
   </feature>
