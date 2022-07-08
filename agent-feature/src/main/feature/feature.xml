@@ -59,12 +59,17 @@
     <bundle start-level="60">mvn:com.instana/unix-socket-util/1.2.3.0</bundle>
   </feature>
 
+  <feature name="instana-agent-api" description="Instana Agent API" version="1.0.0">
+    <bundle start-level="60">mvn:com.instana/agent-api/1.0.0</bundle>
+  </feature>
+
   <feature name="instana-agent-optional-api" description="Instana Agent Optional API" version="1.0.0">
     <bundle start-level="60">mvn:com.instana/agent-optional-api/1.0.0</bundle>
   </feature>
 
-  <feature name="instana-agent" description="Instana Agent" version="1.1.645">
+  <feature name="instana-agent" description="Instana Agent" version="1.1.646">
+    <feature version="[1.0.0,2)">instana-agent-api</feature>
     <feature version="[1.0.0,2)">instana-agent-optional-api</feature>
-    <bundle start-level="70">mvn:com.instana/agent/1.1.645</bundle>
+    <bundle start-level="70">mvn:com.instana/agent/1.1.646</bundle>
   </feature>
 </features>

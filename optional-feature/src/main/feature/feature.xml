@@ -6,9 +6,9 @@
     <bundle>wrap:mvn:com.bettercloud/vault-java-driver/4.0.0</bundle>
   </feature>
 
-  <feature name="instana-agent-grpc-core" version="1.0.6">
-    <feature version="[1.1.582,2)">instana-agent</feature>
-    <bundle start-level="80">mvn:com.instana/agent-grpc/1.0.6</bundle>
+  <feature name="instana-agent-grpc-core" version="1.0.7">
+    <feature version="[1.0.0,2)">instana-agent-api</feature>
+    <bundle start-level="80">mvn:com.instana/agent-grpc/1.0.7</bundle>
     <!-- all grpc dependencies -->
     <bundle start-level="80">
            <![CDATA[wrap:mvn:io.grpc/grpc-protobuf/1.46.0$overwrite=merge&Export-Package=io.grpc.protobuf.*&Import-Package=io.grpc,*;resolution:=optional]]>
