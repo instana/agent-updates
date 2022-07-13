@@ -695,8 +695,8 @@
     <bundle start-level="80">mvn:com.instana/sensor-neo4j/1.0.0</bundle>
   </feature>
 
-  <feature name="instana-netcore-sensor" version="1.0.36">
-    <bundle start-level="80">mvn:com.instana/sensor-netcore/1.0.36</bundle>
+  <feature name="instana-netcore-sensor" version="1.0.37">
+    <bundle start-level="80">mvn:com.instana/sensor-netcore/1.0.37</bundle>
   </feature>
 
   <feature name="instana-netcore-trace-sensor" version="1.0.5">
