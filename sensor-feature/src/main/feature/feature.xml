@@ -836,12 +836,12 @@
     <bundle start-level="80">mvn:com.instana/sensor-rabbitmq/1.1.47</bundle>
   </feature>
 
-  <feature name="instana-rocketmq-service-discovery" version="1.0.0">
-    <feature version="1.0.0">instana-rocketmq-sdk</feature>
-    <bundle start-level="80">mvn:com.instana/discovery-rocketmq-service/1.0.0</bundle>
+  <feature name="instana-rocketmq-service-discovery" version="1.0.1">
+    <feature version="1.0.1">instana-rocketmq-sdk</feature>
+    <bundle start-level="80">mvn:com.instana/discovery-rocketmq-service/1.0.1</bundle>
   </feature>
 
-  <feature name="instana-rocketmq-sdk" version="1.0.0">
+  <feature name="instana-rocketmq-sdk" version="1.0.1">
     <bundle start-level="80">wrap:mvn:ch.qos.logback/logback-core/1.2.10$Bundle-SymbolicName=logback-core</bundle>
     <bundle start-level="80">wrap:mvn:ch.qos.logback/logback-classic/1.2.10$Bundle-SymbolicName=logback-classic</bundle>
     <bundle start-level="80">wrap:mvn:com.alibaba/fastjson/1.2.76$Bundle-SymbolicName=fastjson</bundle>
@@ -856,12 +856,12 @@
     <bundle start-level="80">wrap:mvn:org.apache.rocketmq/rocketmq-srvutil/4.9.3$Bundle-SymbolicName=rocketmq-srvutil</bundle>
     <bundle start-level="80">wrap:mvn:org.yaml/snakeyaml/1.30$Bundle-SymbolicName=snakeyaml</bundle>
     <bundle start-level="80">wrap:mvn:org.apache.rocketmq/rocketmq-tools/4.9.3$Bundle-SymbolicName=rocketmq-tools</bundle>
-    <bundle start-level="80">mvn:com.instana/instana-rocketmq-sdk/1.0.0</bundle>
+    <bundle start-level="80">mvn:com.instana/instana-rocketmq-sdk/1.0.1</bundle>
   </feature>
 
-  <feature name="instana-rocketmq-sensor" version="1.0.0">
-    <feature version="1.0.0">instana-rocketmq-sdk</feature>
-    <bundle start-level="80">mvn:com.instana/sensor-rocketmq/1.0.0</bundle>
+  <feature name="instana-rocketmq-sensor" version="1.0.1">
+    <feature version="1.0.1">instana-rocketmq-sdk</feature>
+    <bundle start-level="80">mvn:com.instana/sensor-rocketmq/1.0.1</bundle>
   </feature>
 
   <feature name="instana-ruby-sensor" version="1.6.4">
