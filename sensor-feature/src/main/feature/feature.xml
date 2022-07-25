@@ -284,7 +284,7 @@
   </feature>
 
   <feature name="instana-clickhouse-sensor" version="1.0.19">
-    <bundle start-level="80">mvn:com.instana/sensor-clickhouse/1.0.19</bundle>
+    <bundle start-level="80">mvn:com.instana/sensor-clickhouse/1.0.20</bundle>
   </feature>
 
   <feature name="instana-cloudfoundry-sensor" version="1.0.5">
