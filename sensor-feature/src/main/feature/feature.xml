@@ -40,8 +40,8 @@
     <bundle start-level="80">wrap:mvn:com.aliyun/tea-rpc-util/0.1.2$Bundle-SymbolicName=tea-rpc-util</bundle>
     <bundle start-level="80">wrap:mvn:com.aliyun.oss/aliyun-sdk-oss/3.10.2$Bundle-SymbolicName=oss</bundle>
     <bundle start-level="80">wrap:mvn:com.squareup.okio/okio/1.14.0</bundle>
-    <bundle start-level="80">wrap:mvn:com.squareup.okhttp3/okhttp/3.12.13</bundle>
-    <bundle start-level="80">wrap:mvn:com.google.code.gson/gson/2.8.7$Bundle-SymbolicName=gson</bundle>
+    <bundle start-level="80">wrap:mvn:com.squareup.okhttp3/okhttp/4.10.0</bundle>
+    <bundle start-level="80">wrap:mvn:com.google.code.gson/gson/2.9.0$Bundle-SymbolicName=gson</bundle>
     <bundle start-level="80">wrap:mvn:org.jdom/jdom2/2.0.6$Bundle-SymbolicName=jdom2</bundle>
   </feature>
 
@@ -843,7 +843,7 @@
 
   <feature name="instana-rocketmq-sdk" version="1.0.5">
     <bundle start-level="80">mvn:commons-codec/commons-codec/1.9</bundle>
-    <bundle start-level="80">wrap:mvn:com.alibaba/fastjson/1.2.76$Bundle-SymbolicName=fastjson</bundle>
+    <bundle start-level="80">wrap:mvn:com.alibaba/fastjson/1.2.83$Bundle-SymbolicName=fastjson</bundle>
     <bundle start-level="80">wrap:mvn:org.apache.commons/commons-lang3/3.4$Bundle-SymbolicName=commons-lang3</bundle>
     <bundle start-level="80">wrap:mvn:org.apache.rocketmq/rocketmq-acl/4.9.3$Bundle-SymbolicName=rocketmq-acl</bundle>
     <bundle start-level="80">wrap:mvn:org.apache.rocketmq/rocketmq-client/4.9.3$Bundle-SymbolicName=rocketmq-client</bundle>
