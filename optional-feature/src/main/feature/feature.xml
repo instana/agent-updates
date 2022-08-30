@@ -30,10 +30,15 @@
     <bundle start-level="80">wrap:mvn:com.google.guava/listenablefuture/9999.0-empty-to-avoid-conflict-with-guava</bundle>
   </feature>
 
-  <feature name="instana-agent-open-telemetry" version="1.0.7">
-    <feature version="[1.0.5,2)">instana-agent-grpc-core</feature>
-    <bundle start-level="90">mvn:com.instana/agent-open-telemetry/1.0.7</bundle>
-    <!-- Other necessary dependencies are already included via feature 'instana-agent-grpc-core' -->
+  <feature name="instana-agent-open-telemetry-base" version="1.0.0">
+    <feature version="[1.0.0,2)">instana-apache-commons</feature>
+    <feature version="[1.0.0,2)">instana-agent-grpc-core</feature>
+    <bundle start-level="80">mvn:com.instana/agent-open-telemetry-base/1.0.0</bundle>
+  </feature>
+
+  <feature name="instana-agent-open-telemetry" version="1.0.8">
+    <feature version="[1.0.0,2)">instana-agent-open-telemetry-base</feature>
+    <bundle start-level="90">mvn:com.instana/agent-open-telemetry/1.0.8</bundle>
   </feature>
 
   <feature name="instana-agent-prometheus" version="1.0.4">
