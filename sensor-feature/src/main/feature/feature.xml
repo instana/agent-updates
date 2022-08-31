@@ -419,47 +419,47 @@
     <feature>instana-gcp-compute-engine-sensor</feature>
   </feature>
 
-  <feature name="instana-gcp-compute-engine-sensor" version="1.2.2">
-    <bundle start-level="80">mvn:com.instana/sensor-gcp-compute-engine/1.2.2</bundle>
+  <feature name="instana-gcp-compute-engine-sensor" version="1.2.3">
+    <bundle start-level="80">mvn:com.instana/sensor-gcp-compute-engine/1.2.3</bundle>
   </feature>
 
-  <feature name="instana-gcp-sdk" version="1.2.2">
+  <feature name="instana-gcp-sdk" version="1.2.3">
     <bundle start-level="80">wrap:mvn:com.squareup.okhttp3/okhttp/3.12.0</bundle>
     <bundle start-level="80">wrap:mvn:com.squareup.okio/okio/1.14.0</bundle>
-    <bundle start-level="80">mvn:com.instana/instana-gcp-sdk/1.2.2</bundle>
+    <bundle start-level="80">mvn:com.instana/instana-gcp-sdk/1.2.3</bundle>
   </feature>
 
   <!-- This feature is abandoned. We have renamed this feature to "instana-gcp-services-discovery". -->
   <feature name="instana-gce-services-discovery" version="1.1.25">
   </feature>
 
-  <feature name="instana-gcp-services-discovery" version="1.2.2">
-    <bundle start-level="80">mvn:com.instana/discovery-gcp-services/1.2.2</bundle>
+  <feature name="instana-gcp-services-discovery" version="1.2.3">
+    <bundle start-level="80">mvn:com.instana/discovery-gcp-services/1.2.3</bundle>
   </feature>
 
-  <feature name="instana-gcp-run-sensor" version="1.2.2">
+  <feature name="instana-gcp-run-sensor" version="1.2.3">
     <feature version="[1.1.29,2)">instana-gcp-sdk</feature>
-    <bundle start-level="80">mvn:com.instana/sensor-gcp-run/1.2.2</bundle>
+    <bundle start-level="80">mvn:com.instana/sensor-gcp-run/1.2.3</bundle>
   </feature>
 
-  <feature name="instana-gcp-sql-sensor" version="1.2.2">
+  <feature name="instana-gcp-sql-sensor" version="1.2.3">
     <feature version="[1.1.29,2)">instana-gcp-sdk</feature>
-    <bundle start-level="80">mvn:com.instana/sensor-gcp-sql/1.2.2</bundle>
+    <bundle start-level="80">mvn:com.instana/sensor-gcp-sql/1.2.3</bundle>
   </feature>
 
-  <feature name="instana-gcp-storage-sensor" version="1.2.2">
+  <feature name="instana-gcp-storage-sensor" version="1.2.3">
     <feature version="[1.1.29,2)">instana-gcp-sdk</feature>
-    <bundle start-level="80">mvn:com.instana/sensor-gcp-storage/1.2.2</bundle>
+    <bundle start-level="80">mvn:com.instana/sensor-gcp-storage/1.2.3</bundle>
   </feature>
 
-  <feature name="instana-gcp-pubsub-sensor" version="1.2.2">
+  <feature name="instana-gcp-pubsub-sensor" version="1.2.3">
     <feature version="[1.1.29,2)">instana-gcp-sdk</feature>
-    <bundle start-level="80">mvn:com.instana/sensor-gcp-pubsub/1.2.2</bundle>
+    <bundle start-level="80">mvn:com.instana/sensor-gcp-pubsub/1.2.3</bundle>
   </feature>
 
-  <feature name="instana-gcp-datastore-sensor" version="1.2.2">
+  <feature name="instana-gcp-datastore-sensor" version="1.2.3">
     <feature version="[1.1.29,2)">instana-gcp-sdk</feature>
-    <bundle start-level="80">mvn:com.instana/sensor-gcp-datastore/1.2.2</bundle>
+    <bundle start-level="80">mvn:com.instana/sensor-gcp-datastore/1.2.3</bundle>
   </feature>
 
   <feature name="instana-generic-hardware-sensor" version="1.1.6">

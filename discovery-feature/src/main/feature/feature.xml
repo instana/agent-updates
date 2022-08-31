@@ -148,12 +148,12 @@
     <feature>instana-gcp-compute-engine-discovery</feature>
   </feature>
 
-  <feature name="instana-gcp-compute-engine-discovery" version="1.2.2">
-    <bundle start-level="80">mvn:com.instana/discovery-gcp-compute-engine/1.2.2</bundle>
+  <feature name="instana-gcp-compute-engine-discovery" version="1.2.3">
+    <bundle start-level="80">mvn:com.instana/discovery-gcp-compute-engine/1.2.3</bundle>
   </feature>
 
-  <feature name="instana-gcp-discovery" version="1.2.2">
-    <bundle start-level="80">mvn:com.instana/discovery-gcp/1.2.2</bundle>
+  <feature name="instana-gcp-discovery" version="1.2.3">
+    <bundle start-level="80">mvn:com.instana/discovery-gcp/1.2.3</bundle>
   </feature>
 
   <feature name="instana-generic-hardware-discovery" version="1.1.6">
