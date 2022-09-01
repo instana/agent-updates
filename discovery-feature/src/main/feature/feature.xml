@@ -21,8 +21,8 @@
     <bundle start-level="80">mvn:com.instana/discovery-apmproxy/1.0.7</bundle>
   </feature>
 
-  <feature name="instana-azure-discovery" version="1.2.27">
-    <bundle start-level="80">mvn:com.instana/discovery-azure/1.2.27</bundle>
+  <feature name="instana-azure-discovery" version="1.2.28">
+    <bundle start-level="80">mvn:com.instana/discovery-azure/1.2.28</bundle>
   </feature>
 
   <feature name="instana-aws-discovery" version="1.0.112">
