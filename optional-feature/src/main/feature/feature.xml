@@ -31,7 +31,6 @@
   </feature>
 
   <feature name="instana-agent-open-telemetry-base" version="1.0.0">
-    <feature version="[1.0.0,2)">instana-apache-commons</feature>
     <feature version="[1.0.0,2)">instana-agent-grpc-core</feature>
     <bundle start-level="80">mvn:com.instana/agent-open-telemetry-base/1.0.0</bundle>
   </feature>
