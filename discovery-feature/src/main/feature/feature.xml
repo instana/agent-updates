@@ -224,8 +224,8 @@
     <bundle start-level="80">mvn:com.instana/discovery-ibmcloud/1.0.11</bundle>
   </feature>
 
-  <feature name="instana-java-discovery" version="1.2.120">
-    <bundle start-level="80">mvn:com.instana/discovery-java/1.2.120</bundle>
+  <feature name="instana-java-discovery" version="1.2.121">
+    <bundle start-level="80">mvn:com.instana/discovery-java/1.2.121</bundle>
   </feature>
 
   <feature name="instana-jboss-as-discovery" version="1.1.47">
