@@ -542,10 +542,10 @@
     <bundle start-level="80">mvn:com.instana/sensor-ibmmq/1.0.35</bundle>
   </feature>
 
-  <feature name="instana-ibmdatapower-sensor" version="1.0.10">
+  <feature name="instana-ibmdatapower-sensor" version="1.0.11">
     <bundle start-level="80">mvn:org.apache.httpcomponents/httpcore-osgi/4.4.9</bundle>
     <bundle start-level="80">mvn:org.apache.httpcomponents/httpclient-osgi/4.5.13</bundle>
-    <bundle start-level="80">mvn:com.instana/sensor-ibmdatapower/1.0.10</bundle>
+    <bundle start-level="80">mvn:com.instana/sensor-ibmdatapower/1.0.11</bundle>
   </feature>
 
   <feature name="instana-ibmcloud-sensor" version="1.0.11">
