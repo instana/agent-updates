@@ -468,8 +468,8 @@
     <bundle start-level="80">mvn:com.instana/discovery-weblogic/1.1.18</bundle>
   </feature>
 
-  <feature name="instana-websphere-discovery" version="1.1.28">
-    <bundle start-level="80">mvn:com.instana/discovery-websphere/1.1.28</bundle>
+  <feature name="instana-websphere-discovery" version="1.1.29">
+    <bundle start-level="80">mvn:com.instana/discovery-websphere/1.1.29</bundle>
   </feature>
 
   <feature name="instana-websphere-liberty-discovery" version="1.1.2">
