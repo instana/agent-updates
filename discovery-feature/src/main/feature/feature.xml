@@ -288,8 +288,8 @@
     <bundle start-level="80">mvn:com.instana/discovery-mongodb/1.1.51</bundle>
   </feature>
 
-  <feature name="instana-mysql-discovery" version="1.1.70">
-    <bundle start-level="80">mvn:com.instana/discovery-mysql/1.1.70</bundle>
+  <feature name="instana-mysql-discovery" version="1.1.71">
+    <bundle start-level="80">mvn:com.instana/discovery-mysql/1.1.71</bundle>
   </feature>
 
   <feature name="instana-msiis-discovery" version="1.1.9">
