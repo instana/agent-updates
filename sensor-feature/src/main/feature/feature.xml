@@ -804,8 +804,8 @@
     <bundle start-level="80">mvn:com.instana/sensor-power-hmc/1.0.8</bundle>
   </feature>
 
-  <feature name="instana-process-sensor" version="1.1.45">
-    <bundle start-level="80">mvn:com.instana/sensor-process/1.1.45</bundle>
+  <feature name="instana-process-sensor" version="1.1.46">
+    <bundle start-level="80">mvn:com.instana/sensor-process/1.1.46</bundle>
   </feature>
 
   <feature name="instana-prometheus-kubernetes-discovery" version="1.0.23">
