@@ -13,8 +13,8 @@
     <bundle start-level="80">mvn:com.instana/sensor-ace/1.0.41/</bundle>
   </feature>
 
-  <feature name="instana-action-sensor" version="1.0.1">
-    <bundle start-level="80">mvn:com.instana/sensor-action/1.0.1</bundle>
+  <feature name="instana-action-sensor" version="1.0.2">
+    <bundle start-level="80">mvn:com.instana/sensor-action/1.0.2</bundle>
   </feature>
 
   <feature name="instana-activemq-artemis-sensor" version="1.0.7">
