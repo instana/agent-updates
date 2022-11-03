@@ -15,7 +15,7 @@
     <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
     <project.reporting.outputEncoding>UTF-8</project.reporting.outputEncoding>
     <!-- Karaf version has no impact on the generated xml files but is only used for the maven plugins -->
-    <karaf.version>4.2.10</karaf.version>
+    <karaf.version>4.2.16</karaf.version>
   </properties>
 
   <modules>
