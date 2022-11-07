@@ -44,17 +44,4 @@
       </plugin>
     </plugins>
   </build>
-
-    <distributionManagement>
-    <!-- repository for features are always public snapshot repo. The latest deployed version indictates what gets installed by agents -->
-    <snapshotRepository>
-      <id>features-local-public</id>
-      <url>https://artifact.instana.io/artifactory/features-local-public</url>
-    </snapshotRepository>
-    <repository>
-      <id>features-local-public-releases</id>
-      <url>https://artifact.instana.io/artifactory/features-local-public</url>
-    </repository>
-  </distributionManagement>
-
 </project>
