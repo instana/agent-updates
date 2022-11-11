@@ -24,7 +24,6 @@
 
   <!-- everything up to and including OpenTelemetry service layer -->
   <feature name="instana-agent-open-telemetry-base" version="1.0.6">
-    <feature version="[1.0.0,2)">instana-apache-commons</feature>
     <feature version="[1.0.0,2)">instana-agent-grpc-core</feature>
     <bundle start-level="80">mvn:com.instana/agent-open-telemetry-base/1.0.7</bundle>
     <bundle start-level="80">mvn:com.instana/agent-open-telemetry-service/1.0.6</bundle>
