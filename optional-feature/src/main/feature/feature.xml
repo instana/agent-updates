@@ -30,9 +30,9 @@
   </feature>
 
   <!-- OpenTelemetry collector using gRPC -->
-  <feature name="instana-agent-open-telemetry" version="1.0.12">
+  <feature name="instana-agent-open-telemetry" version="1.0.13">
     <feature version="[1.0.0,2)">instana-agent-open-telemetry-base</feature>
-    <bundle start-level="80">mvn:com.instana/agent-open-telemetry-grpc/1.0.5</bundle>
+    <bundle start-level="80">mvn:com.instana/agent-open-telemetry-grpc/1.0.6</bundle>
   </feature>
 
   <!-- OpenTelemetry collector using HTTP -->
