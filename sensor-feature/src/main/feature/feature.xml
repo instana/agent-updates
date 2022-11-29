@@ -822,7 +822,7 @@
     <bundle start-level="80">mvn:com.instana/sensor-prometheus/1.0.23</bundle>
   </feature>
 
-  <feature name="instana-python-sensor" version="1.9.9">
+  <feature name="instana-python-sensor" version="1.9.10">
     <bundle start-level="80">mvn:com.instana/sensor-python/1.9.9</bundle>
   </feature>
 
