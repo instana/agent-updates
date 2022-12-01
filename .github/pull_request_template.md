@@ -7,7 +7,7 @@ Each box needs to be checked or deleted in case it does not apply:
 - [ ] Reviewer: `internal` branch = your team, `public` branch = `@eng-agent-sensor-gatekeepers`
 - [ ] All feature versions are bumped in `discovery-feature/src/main/feature/feature.xml` & `sensor-feature/src/main/feature/feature.xml`
 - [ ] The Sensor PR is merged to `master`: INSERT_LINK_TO_THE_SENSOR_PR_HERE
-- [ ] The Sensors Jenkins build job successfully finished: INSERT_LINK_TO_THE_BUILD_JOB_HERE
+- [ ] The Sensors Concourse CI build successfully finished: INSERT_LINK_TO_THE_BUILD_JOB_HERE
 
 When the destination branch is `public` the following is required:
 - [ ] Auto-update verified as described in the [Auto-update Verfication](https://github.ibm.com/instana/agent-update-site/blob/internal/AUTO_UPDATE_VERIFICATION.md). 
