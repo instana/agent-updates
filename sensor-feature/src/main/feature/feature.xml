@@ -848,12 +848,12 @@
     <bundle start-level="80">mvn:com.instana/sensor-rabbitmq/1.1.47</bundle>
   </feature>
 
-  <feature name="instana-rocketmq-service-discovery" version="1.0.7">
-    <feature version="1.0.7">instana-rocketmq-sdk</feature>
-    <bundle start-level="80">mvn:com.instana/discovery-rocketmq-service/1.0.7</bundle>
+  <feature name="instana-rocketmq-service-discovery" version="1.0.8">
+    <feature version="1.0.8">instana-rocketmq-sdk</feature>
+    <bundle start-level="80">mvn:com.instana/discovery-rocketmq-service/1.0.8</bundle>
   </feature>
 
-  <feature name="instana-rocketmq-sdk" version="1.0.7">
+  <feature name="instana-rocketmq-sdk" version="1.0.8">
     <bundle start-level="80">mvn:commons-codec/commons-codec/1.9</bundle>
     <bundle start-level="80">wrap:mvn:com.alibaba/fastjson/1.2.83$Bundle-SymbolicName=fastjson</bundle>
     <bundle start-level="80">wrap:mvn:org.apache.commons/commons-lang3/3.4$Bundle-SymbolicName=commons-lang3</bundle>
@@ -865,14 +865,14 @@
     <bundle start-level="80">wrap:mvn:org.apache.rocketmq/rocketmq-remoting/4.9.3$Bundle-SymbolicName=rocketmq-remoting</bundle>
     <bundle start-level="80">wrap:mvn:org.apache.rocketmq/rocketmq-store/4.9.3$Bundle-SymbolicName=rocketmq-store</bundle>
     <bundle start-level="80">wrap:mvn:org.apache.rocketmq/rocketmq-srvutil/4.9.3$Bundle-SymbolicName=rocketmq-srvutil</bundle>
-    <bundle start-level="80">wrap:mvn:org.yaml/snakeyaml/1.30$Bundle-SymbolicName=snakeyaml</bundle>
+    <bundle start-level="80">wrap:mvn:org.yaml/snakeyaml/1.33$Bundle-SymbolicName=snakeyaml</bundle>
     <bundle start-level="80">wrap:mvn:org.apache.rocketmq/rocketmq-tools/4.9.3$Bundle-SymbolicName=rocketmq-tools</bundle>
-    <bundle start-level="80">mvn:com.instana/instana-rocketmq-sdk/1.0.7</bundle>
+    <bundle start-level="80">mvn:com.instana/instana-rocketmq-sdk/1.0.8</bundle>
   </feature>
 
-  <feature name="instana-rocketmq-sensor" version="1.0.7">
-    <feature version="1.0.7">instana-rocketmq-sdk</feature>
-    <bundle start-level="80">mvn:com.instana/sensor-rocketmq/1.0.7</bundle>
+  <feature name="instana-rocketmq-sensor" version="1.0.8">
+    <feature version="1.0.8">instana-rocketmq-sdk</feature>
+    <bundle start-level="80">mvn:com.instana/sensor-rocketmq/1.0.8</bundle>
   </feature>
 
   <feature name="instana-ruby-sensor" version="1.6.4">
