@@ -304,7 +304,7 @@
   </feature>
 
   <feature name="instana-clr-sensor" version="1.1.72">
-    <bundle start-level="80">mvn:com.instana/sensor-clr/1.1.71</bundle>
+    <bundle start-level="80">mvn:com.instana/sensor-clr/1.1.72</bundle>
   </feature>
 
   <feature name="instana-clr-trace-sensor" version="1.1.8">
