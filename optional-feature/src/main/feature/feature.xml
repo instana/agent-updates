@@ -36,12 +36,12 @@
   </feature>
 
   <!-- OpenTelemetry collector using HTTP -->
-  <feature name="instana-agent-open-telemetry-http" version="1.0.7">
-    <feature version="[1.0.0,2)">instana-agent-internal-api</feature>
+  <feature name="instana-agent-open-telemetry-http" version="1.0.8">
+    <feature version="[1.0.6,2)">instana-agent-internal-api</feature>
     <feature version="[1.0.8,2)">instana-agent-open-telemetry-base</feature>
     <bundle start-level="80">mvn:com.instana/agent-http/1.0.5</bundle>
     <bundle start-level="80">mvn:com.instana/agent-open-telemetry-http-api/1.0.5</bundle>
-    <bundle start-level="80">mvn:com.instana/agent-open-telemetry-http/1.0.7</bundle>
+    <bundle start-level="80">mvn:com.instana/agent-open-telemetry-http/1.0.8</bundle>
   </feature>
 
   <feature name="instana-agent-prometheus" version="1.0.10">
