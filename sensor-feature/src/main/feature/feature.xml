@@ -634,9 +634,9 @@
     <bundle start-level="80">mvn:com.instana/sensor-jboss-as4/1.0.8</bundle>
   </feature>
 
-  <feature name="instana-jboss-datagrid-sensor" version="1.1.12">
+  <feature name="instana-jboss-datagrid-sensor" version="1.1.13">
     <feature version="[1.2.110,2)">instana-java-sensor</feature>
-    <bundle start-level="80">mvn:com.instana/sensor-jboss-datagrid/1.1.12</bundle>
+    <bundle start-level="80">mvn:com.instana/sensor-jboss-datagrid/1.1.13</bundle>
   </feature>
 
   <feature name="instana-jenkins-sensor" version="1.0.18">

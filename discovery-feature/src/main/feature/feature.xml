@@ -244,8 +244,8 @@
     <bundle start-level="80">mvn:com.instana/discovery-jboss-as4/1.0.8</bundle>
   </feature>
 
-  <feature name="instana-jboss-datagrid-discovery" version="1.1.12">
-    <bundle start-level="80">mvn:com.instana/discovery-jboss-datagrid/1.1.12</bundle>
+  <feature name="instana-jboss-datagrid-discovery" version="1.1.13">
+    <bundle start-level="80">mvn:com.instana/discovery-jboss-datagrid/1.1.13</bundle>
   </feature>
 
   <feature name="instana-jenkins-discovery" version="1.0.18">
