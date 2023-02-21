@@ -376,8 +376,8 @@
     <bundle start-level="80">mvn:com.instana/discovery-ping-directory/1.0.6</bundle>
   </feature>
 
-  <feature name="instana-postgresql-discovery" version="1.0.44">
-    <bundle start-level="80">mvn:com.instana/discovery-postgresql/1.0.44</bundle>
+  <feature name="instana-postgresql-discovery" version="1.0.45">
+    <bundle start-level="80">mvn:com.instana/discovery-postgresql/1.0.45</bundle>
   </feature>
 
   <feature name="instana-power-hmc-discovery" version="1.0.9">
