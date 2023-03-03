@@ -368,8 +368,8 @@
     <bundle start-level="80">mvn:com.instana/discovery-php/1.1.76</bundle>
   </feature>
 
-  <feature name="instana-ping-discovery" version="1.0.10">
-    <bundle start-level="80">mvn:com.instana/discovery-ping/1.0.10</bundle>
+  <feature name="instana-ping-discovery" version="1.0.11">
+    <bundle start-level="80">mvn:com.instana/discovery-ping/1.0.11</bundle>
   </feature>
 
   <feature name="instana-ping-directory-discovery" version="1.0.6">
