@@ -593,10 +593,10 @@
     <bundle start-level="80">mvn:com.instana/sensor-ibmdatapower/1.0.13</bundle>
   </feature>
 
-  <feature name="instana-ibmcloud-sensor" version="1.0.11">
+  <feature name="instana-ibmcloud-sensor" version="1.0.14">
     <bundle start-level="80">wrap:mvn:com.squareup.okhttp3/okhttp/3.12.0</bundle>
     <bundle start-level="80">wrap:mvn:com.squareup.okio/okio/1.14.0</bundle>
-    <bundle start-level="80">mvn:com.instana/sensor-ibmcloud/1.0.11</bundle>
+    <bundle start-level="80">mvn:com.instana/sensor-ibmcloud/1.0.14</bundle>
   </feature>
 
   <feature name="instana-ibmopenstack-sensor" version="1.0.3">
