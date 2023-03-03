@@ -974,12 +974,12 @@
     <bundle start-level="80">mvn:com.instana/sensor-tomcat/1.1.33</bundle>
   </feature>
 
-  <feature name="instana-tibcoems-sensor" version="1.0.8">
+  <feature name="instana-tibcoems-sensor" version="1.0.9">
     <bundle start-level="80"><![CDATA[wrap:mvn:com.tibco.tibjms/tibjms/[8.3.0,8.6.0]$overwrite=merge&Export-Package=com.tibco.tibjms.*&Bundle-SymbolicName=tibjms]]></bundle>
     <bundle start-level="80"><![CDATA[wrap:mvn:com.tibco.tibjms/tibjmsadmin/[8.3.0,8.6.0]$overwrite=merge&Import-Package=*;resolution:=optional,com.tibco.tibjms&Bundle-SymbolicName=tibjmsadmin]]></bundle>
     <bundle start-level="80">mvn:javax.jms/javax.jms-api/2.0</bundle>
     <feature version="[1.1,2)">jta-spec</feature>
-    <bundle start-level="80">mvn:com.instana/sensor-tibcoems/1.0.8</bundle>
+    <bundle start-level="80">mvn:com.instana/sensor-tibcoems/1.0.9</bundle>
   </feature>
 
   <feature name="instana-traefik-sensor" version="1.0.1">
