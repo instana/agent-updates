@@ -6,11 +6,11 @@
     <bundle>wrap:mvn:com.bettercloud/vault-java-driver/5.1.0</bundle>
   </feature>
 
-  <feature name="instana-agent-grpc-core" version="1.0.11">
+  <feature name="instana-agent-grpc-core" version="1.0.12">
     <feature version="[1.0.0,2)">instana-agent-api</feature>
     <bundle start-level="80">mvn:com.instana/agent-grpc/1.0.11</bundle>
-    <bundle start-level="80">wrap:mvn:com.google.protobuf/protobuf-java/3.21.5</bundle>
-    <bundle start-level="80">wrap:mvn:com.google.protobuf/protobuf-java-util/3.21.5</bundle>
+    <bundle start-level="80">wrap:mvn:com.google.protobuf/protobuf-java/3.21.9</bundle>
+    <bundle start-level="80">wrap:mvn:com.google.protobuf/protobuf-java-util/3.21.9</bundle>
     <bundle start-level="80">mvn:commons-codec/commons-codec/1.15</bundle>
     <!-- all grpc transitive dependencies -->
     <bundle start-level="80">wrap:mvn:io.perfmark/perfmark-api/0.25.0</bundle>
