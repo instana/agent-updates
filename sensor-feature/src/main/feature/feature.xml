@@ -837,10 +837,10 @@
     <bundle start-level="80">mvn:com.instana/sensor-ping-directory/1.0.7</bundle>
   </feature>
 
-  <feature name="instana-postgresql-sensor" version="1.0.45">
+  <feature name="instana-postgresql-sensor" version="1.0.46">
     <feature version="[1.1,2)">jta-spec</feature>
     <bundle start-level="80">mvn:org.postgresql/postgresql/42.3.7</bundle>
-    <bundle start-level="80">mvn:com.instana/sensor-postgresql/1.0.45</bundle>
+    <bundle start-level="80">mvn:com.instana/sensor-postgresql/1.0.46</bundle>
   </feature>
 
   <feature name="instana-power-hmc-sensor" version="1.0.10">
