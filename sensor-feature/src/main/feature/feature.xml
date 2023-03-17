@@ -568,9 +568,9 @@
     <bundle start-level="80">mvn:com.instana/sensor-httpd/1.2.7</bundle>
   </feature>
 
-  <feature name="instana-ibmiseries-sensor" version="1.0.25">
+  <feature name="instana-ibmiseries-sensor" version="1.0.26">
     <bundle start-level="80">wrap:mvn:net.sf.jt400/jt400/10.4</bundle>
-    <bundle start-level="80">mvn:com.instana/sensor-ibmiseries/1.0.25</bundle>
+    <bundle start-level="80">mvn:com.instana/sensor-ibmiseries/1.0.26</bundle>
   </feature>
 
   <feature name="instana-ibmmq-sensor" version="1.1.2">
