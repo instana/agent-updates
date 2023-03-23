@@ -838,6 +838,10 @@
     <bundle start-level="80">mvn:com.instana/sensor-ping-directory/1.0.7</bundle>
   </feature>
 
+  <feature name="instana-podman-sensor" version="1.0.3">
+    <bundle start-level="80">mvn:com.instana/sensor-podman/1.0.3</bundle>
+  </feature>
+
   <feature name="instana-postgresql-sensor" version="1.0.46">
     <feature version="[1.1,2)">jta-spec</feature>
     <bundle start-level="80">mvn:org.postgresql/postgresql/42.3.7</bundle>
