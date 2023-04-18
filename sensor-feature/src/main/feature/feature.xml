@@ -101,8 +101,8 @@
     <bundle start-level="80">mvn:com.instana/sensor-alicloud-rocketmq/1.0.12</bundle>
   </feature>
 
-  <feature name="instana-apmproxy-sensor" version="1.0.7">
-    <bundle start-level="80">mvn:com.instana/sensor-apmproxy/1.0.7</bundle>
+  <feature name="instana-apmproxy-sensor" version="1.0.8">
+    <bundle start-level="80">mvn:com.instana/sensor-apmproxy/1.0.8</bundle>
   </feature>
 
   <feature name="instana-azure-sdk" version="1.2.29">
