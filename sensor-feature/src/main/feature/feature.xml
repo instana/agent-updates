@@ -976,6 +976,10 @@
     <bundle start-level="80">mvn:com.instana/sensor-sybase/1.0.0</bundle>
   </feature>
 
+  <feature name="instana-synthetic-pop-sensor" version="1.0.1">
+    <bundle start-level="80">mvn:com.instana/sensor-synthetic-pop/1.0.1</bundle>
+  </feature>
+
   <feature name="instana-tanzu-foundation-member-sensor" version="1.0.0">
     <bundle start-level="80">mvn:com.instana/sensor-tanzu-foundation-member/1.0.0</bundle>
   </feature>
