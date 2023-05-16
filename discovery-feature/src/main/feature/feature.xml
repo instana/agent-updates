@@ -216,8 +216,8 @@
     <bundle start-level="80">mvn:com.instana/discovery-ibmmq-mft/1.0.13</bundle>
   </feature>
 
-  <feature name="instana-ibmdatapower-discovery" version="1.0.14">
-    <bundle start-level="80">mvn:com.instana/discovery-ibmdatapower/1.0.14</bundle>
+  <feature name="instana-ibmdatapower-discovery" version="1.0.15">
+    <bundle start-level="80">mvn:com.instana/discovery-ibmdatapower/1.0.15</bundle>
   </feature>
 
   <feature name="instana-ibmopenstack-discovery" version="1.0.6">
