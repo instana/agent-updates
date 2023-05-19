@@ -268,8 +268,8 @@
     <bundle start-level="80">mvn:com.instana/discovery-kafka/1.1.50</bundle>
   </feature>
 
-  <feature name="instana-kong-discovery" version="1.0.3">
-    <bundle start-level="80">mvn:com.instana/discovery-kong/1.0.3</bundle>
+  <feature name="instana-kong-discovery" version="1.0.4">
+    <bundle start-level="80">mvn:com.instana/discovery-kong/1.0.4</bundle>
   </feature>
 
   <feature name="instana-kubernetes-discovery" version="1.2.140">
