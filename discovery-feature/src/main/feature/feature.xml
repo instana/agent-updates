@@ -420,8 +420,8 @@
     <bundle start-level="80">mvn:com.instana/discovery-rocketmq/1.0.10</bundle>
   </feature>
 
-  <feature name="instana-ruby-discovery" version="1.6.4">
-    <bundle start-level="80">mvn:com.instana/discovery-ruby/1.6.4</bundle>
+  <feature name="instana-ruby-discovery" version="1.6.5">
+    <bundle start-level="80">mvn:com.instana/discovery-ruby/1.6.5</bundle>
   </feature>
 
   <feature name="instana-sap-hana-discovery" version="1.1.3">
