@@ -111,6 +111,11 @@
     <bundle start-level="80">wrap:mvn:org.jetbrains.kotlin/kotlin-stdlib/1.6.20</bundle>
     <bundle start-level="80">mvn:com.instana/instana-azure-sdk/1.2.29</bundle>
   </feature>
+  
+  <feature name="common-datacollector-application-apis" version="1.0.0">
+     <bundle start-level="80">mvn:com.instana/common-datacollector-application-api/1.0.0</bundle>
+     <bundle start-level="80">mvn:com.instana/common-datacollector-application-provider/1.0.0</bundle>
+  </feature>
 
   <feature name="instana-azure-sensor" version="1.2.29">
     <bundle start-level="80">mvn:com.instana/sensor-azure/1.2.29</bundle>
