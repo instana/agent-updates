@@ -564,8 +564,8 @@
     <bundle start-level="80">mvn:com.instana/sensor-host/1.1.147</bundle>
   </feature>
 
-  <feature name="instana-httpd-sensor" version="1.2.7">
-    <bundle start-level="80">mvn:com.instana/sensor-httpd/1.2.7</bundle>
+  <feature name="instana-httpd-sensor" version="1.2.8">
+    <bundle start-level="80">mvn:com.instana/sensor-httpd/1.2.8</bundle>
   </feature>
 
   <feature name="instana-ibmiseries-sensor" version="1.0.28">
