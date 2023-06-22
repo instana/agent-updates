@@ -701,12 +701,12 @@
     <bundle start-level="80">mvn:com.instana/sensor-kong/1.0.4</bundle>
   </feature>
 
-  <feature name="instana-kubernetes-sensor" version="1.2.140">
+  <feature name="instana-kubernetes-sensor" version="1.2.141">
     <feature version="[1.0.0,2)">instana-coordination-sdk</feature>
     <feature version="4.9.2.3">fabric8-sdk</feature>
     <bundle start-level="80">mvn:javax.validation/validation-api/2.0.1.Final</bundle>
     <bundle start-level="80">mvn:com.cronutils/cron-utils/9.1.6</bundle>
-    <bundle start-level="80">mvn:com.instana/sensor-kubernetes/1.2.140</bundle>
+    <bundle start-level="80">mvn:com.instana/sensor-kubernetes/1.2.141</bundle>
   </feature>
 
   <feature name="instana-liferay-sensor" version="1.0.2">
