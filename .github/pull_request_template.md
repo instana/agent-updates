@@ -17,13 +17,6 @@ When the destination branch is `public` the following is required:
 
 <hr />
 
-### Gatekeepers - Update the Public Reference Repository
-
-Update the repository for Instana Agent Updates as described in 
-[this document](https://github.ibm.com/instana/agent-update-site/blob/internal/UPDATE_PUBLIC_REFERENCE_REPOSITORY.md). 
-
-<hr /> 
-
 ### Naming convention
 
 The first commit message in the PR and the PR title need to be in the following format:
