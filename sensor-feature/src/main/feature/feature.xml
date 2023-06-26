@@ -1031,15 +1031,8 @@
     <bundle start-level="80">mvn:com.instana/sensor-tuxedo/1.0.1</bundle>
   </feature>
 
-  <feature name="instana-tuxedoapp-sensor" version="1.0.0">
-    <bundle start-level="80">mvn:commons-beanutils/commons-beanutils/1.9.4</bundle>
-    <bundle start-level="80">mvn:org.apache.commons/commons-lang3/3.12.0</bundle>
-    <bundle start-level="80">mvn:org.apache.commons/commons-text/1.10.0</bundle>
-    <bundle start-level="80">mvn:org.apache.commons/commons-collections4/4.4</bundle>
-    <bundle start-level="80">mvn:commons-collections/commons-collections/3.2.2</bundle>
-    <bundle start-level="80">mvn:commons-logging/commons-logging/1.2</bundle>
-    <bundle start-level="80">mvn:com.opencsv/opencsv/5.7.1</bundle>
-    <bundle start-level="80">mvn:com.instana/sensor-tuxedoapp/1.0.0</bundle>
+  <feature name="instana-tuxedoapp-sensor" version="1.0.1">
+    <bundle start-level="80">mvn:com.instana/sensor-tuxedoapp/1.0.1</bundle>
   </feature>
 
   <feature name="instana-varnish-sensor" version="1.0.23">
