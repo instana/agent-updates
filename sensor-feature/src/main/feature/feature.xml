@@ -1021,6 +1021,10 @@
     <bundle start-level="80">mvn:com.instana/sensor-tuxedo/1.0.1</bundle>
   </feature>
 
+  <feature name="instana-tuxedoapp-sensor" version="1.0.1">
+    <bundle start-level="80">mvn:com.instana/sensor-tuxedoapp/1.0.1</bundle>
+  </feature>
+
   <feature name="instana-varnish-sensor" version="1.0.23">
     <bundle start-level="80">mvn:com.instana/sensor-varnish/1.0.23</bundle>
   </feature>
