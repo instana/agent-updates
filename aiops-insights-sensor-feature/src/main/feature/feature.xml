@@ -1,0 +1,167 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<features name="${project.artifactId}-${project.version}" xmlns="http://karaf.apache.org/xmlns/features/v1.3.0">
+
+  <feature name="instana-action-sdk" version="1.0.9">
+     <bundle start-level="80">mvn:org.ow2.asm/asm/9.1</bundle>
+     <bundle start-level="80">mvn:net.minidev/accessors-smart/2.4.7</bundle>
+     <bundle start-level="80">mvn:net.minidev/json-smart/2.4.7</bundle>
+     <bundle start-level="80">mvn:com.jayway.jsonpath/json-path/2.7.0</bundle>
+    <bundle start-level="80">mvn:com.instana/instana-action-sdk/1.0.9</bundle>
+  </feature>
+
+  <feature name="instana-action-services-discovery" version="1.0.9">
+    <feature version="[1.0.9,2)">instana-action-sdk</feature>
+    <bundle start-level="80">mvn:com.instana/discovery-action-services/1.0.9</bundle>
+  </feature>
+
+  <feature name="instana-action-http-sensor" version="1.0.9">
+    <bundle start-level="80">wrap:mvn:com.squareup.okhttp3/okhttp/4.10.0</bundle>
+    <bundle start-level="80">wrap:mvn:com.squareup.okio/okio-jvm/3.0.0</bundle>
+    <bundle start-level="80">wrap:mvn:org.jetbrains.kotlin/kotlin-stdlib/1.6.20</bundle>
+    <feature version="[1.0.9,2)">instana-action-sdk</feature>
+    <bundle start-level="80">mvn:com.instana/sensor-action-http/1.0.9</bundle>
+  </feature>
+
+  <feature name="instana-appdynamics-sensor" version="1.0.2">
+    <bundle start-level="80">mvn:com.instana/entity-splitter-frontend/1.0.2</bundle>
+    <bundle start-level="80">mvn:com.instana/sensor-appdynamics/1.0.2</bundle>
+  </feature>
+
+  <feature name="instana-apmproxy-sensor" version="1.0.8">
+    <bundle start-level="80">mvn:com.instana/sensor-apmproxy/1.0.8</bundle>
+  </feature>
+
+  <feature name="instana-azure-sensor" version="1.2.29">
+    <bundle start-level="80">mvn:com.instana/sensor-azure/1.2.29</bundle>
+  </feature>
+
+  <feature name="instana-containerd-sensor" version="1.0.26">
+    <bundle start-level="80">mvn:com.instana/sensor-containerd/1.0.26</bundle>
+  </feature>
+
+  <feature name="instana-coordination-sdk" version="1.2.0">
+    <bundle start-level="80">wrap:mvn:com.squareup.okio/okio/1.14.0</bundle>
+    <bundle start-level="80">wrap:mvn:com.squareup.okhttp3/okhttp/3.12.0</bundle>
+    <bundle start-level="80">mvn:com.instana/coordination-sdk/1.2.0</bundle>
+  </feature>
+
+  <feature name="instana-crio-sensor" version="1.0.10">
+    <bundle start-level="80">mvn:com.instana/sensor-crio/1.0.10</bundle>
+  </feature>
+
+  <feature name="instana-datadog-sensor" version="1.0.2">
+    <bundle start-level="80">mvn:com.instana/entity-splitter-frontend/1.0.1</bundle>
+    <bundle start-level="80">mvn:com.instana/sensor-datadog/1.0.2</bundle>
+  </feature>
+
+  <feature name="instana-docker-sensor" version="1.1.73">
+    <bundle start-level="80">mvn:com.instana/sensor-docker/1.1.73</bundle>
+  </feature>
+
+  <feature name="instana-dynatrace-sensor" version="1.0.3">
+    <bundle start-level="80">mvn:com.instana/entity-splitter-frontend/1.0.2</bundle>
+    <bundle start-level="80">mvn:com.instana/apm-secure-event-listener/1.0.2</bundle>
+    <bundle start-level="80">mvn:com.instana/common-datacollector-application-api/1.0.0</bundle>
+    <bundle start-level="80">mvn:com.instana/common-datacollector-application-provider/1.0.0</bundle>
+    <bundle start-level="80">mvn:com.instana/sensor-dynatrace/1.0.3</bundle>
+  </feature>
+  
+  <feature name="instana-ec2-sensor" version="1.1.10">
+    <bundle start-level="80">mvn:com.instana/sensor-ec2/1.1.10</bundle>
+  </feature>
+
+  <feature name="fabric8-sdk" version="4.9.2.3">
+    <bundle start-level="80">
+      <![CDATA[wrap:mvn:io.fabric8/kubernetes-model/4.9.2$overwrite=merge&Import-Package=com.fasterxml.jackson.annotation;version="[2.9.8,3)",*]]>
+    </bundle>
+    <bundle start-level="80">
+      <![CDATA[wrap:mvn:io.fabric8/kubernetes-client/4.9.2//bundle$overwrite=merge&Import-Package=com.fasterxml.jackson.annotation;version="[2.9.8,3)",!org.bouncycastle.*, *]]>
+    </bundle>
+    <bundle start-level="80">
+      <![CDATA[wrap:mvn:io.fabric8/openshift-client/4.9.2//bundle$overwrite=merge&Import-Package=com.fasterxml.jackson.annotation;version="[2.9.8,3)",*]]>
+    </bundle>
+    <bundle start-level="80">mvn:com.fasterxml.jackson.datatype/jackson-datatype-jsr310/2.9.8</bundle>
+    <bundle start-level="80">mvn:commons-codec/commons-codec/1.13</bundle>
+    <bundle start-level="80">mvn:org.apache.commons/commons-compress/1.21</bundle>
+    <bundle start-level="80">mvn:javax.validation/validation-api/1.1.0.Final</bundle>
+    <bundle start-level="80">wrap:mvn:io.fabric8/zjsonpatch/0.3.0/</bundle>
+    <bundle start-level="80">wrap:mvn:com.squareup.okio/okio/1.14.0</bundle>
+    <bundle start-level="80">wrap:mvn:com.squareup.okhttp3/okhttp/3.12.12</bundle>
+    <bundle start-level="80">wrap:mvn:com.squareup.okhttp3/logging-interceptor/3.12.12</bundle>
+    <bundle start-level="80">wrap:mvn:com.github.mifmif/generex/1.0.1</bundle>
+  </feature>
+
+  <feature name="instana-gcp-compute-engine-sensor" version="1.2.5">
+    <bundle start-level="80">mvn:com.instana/sensor-gcp-compute-engine/1.2.5</bundle>
+  </feature>
+
+  <feature name="instana-generic-hardware-sensor" version="1.1.6">
+    <bundle start-level="80">mvn:com.instana/sensor-generic-hardware/1.1.6</bundle>
+  </feature>
+
+  <feature name="instana-host-sensor" version="1.1.147">
+    <bundle start-level="80">mvn:com.instana/sensor-host/1.1.147</bundle>
+  </feature>
+
+  <feature name="instana-ibmcloud-sensor" version="1.0.14">
+    <bundle start-level="80">wrap:mvn:com.squareup.okhttp3/okhttp/3.12.0</bundle>
+    <bundle start-level="80">wrap:mvn:com.squareup.okio/okio/1.14.0</bundle>
+    <bundle start-level="80">mvn:com.instana/sensor-ibmcloud/1.0.14</bundle>
+  </feature>
+
+  <feature name="instana-ibmopenstack-sensor" version="1.0.7">
+    <bundle start-level="80">mvn:org.apache.httpcomponents/httpcore-osgi/4.4.9</bundle>
+    <bundle start-level="80">mvn:com.basistech.org.apache.httpcomponents/httpclient-osgi/4.5.13</bundle>
+    <bundle start-level="80">mvn:com.instana/sensor-ibmopenstack/1.0.7</bundle>
+  </feature>
+
+  <feature name="instana-instana-remote-sensor" version="1.0.3">
+    <bundle start-level="80">mvn:com.instana/entity-splitter-frontend/1.0.2</bundle>
+    <bundle start-level="80">mvn:com.instana/apm-secure-event-listener/1.0.2</bundle>
+    <bundle start-level="80">mvn:com.instana/common-datacollector-application-api/1.0.0</bundle>
+    <bundle start-level="80">mvn:com.instana/common-datacollector-application-provider/1.0.0</bundle>
+    <bundle start-level="80">mvn:com.instana/sensor-instana-remote/1.0.3</bundle>
+  </feature>
+
+  <feature name="instana-kubernetes-sensor" version="1.2.139">
+    <feature version="[1.0.0,2)">instana-coordination-sdk</feature>
+    <feature version="4.9.2.3">fabric8-sdk</feature>
+    <bundle start-level="80">mvn:javax.validation/validation-api/2.0.1.Final</bundle>
+    <bundle start-level="80">mvn:com.cronutils/cron-utils/9.1.6</bundle>
+    <bundle start-level="80">mvn:com.instana/sensor-kubernetes/1.2.139</bundle>
+  </feature>
+
+  <feature name="instana-power-hmc-sensor" version="1.0.12">
+    <bundle start-level="80">mvn:org.apache.httpcomponents/httpcore-osgi/4.4.9</bundle>
+    <bundle start-level="80">mvn:com.basistech.org.apache.httpcomponents/httpclient-osgi/4.5.13</bundle>
+    <bundle start-level="80">mvn:com.instana/sensor-power-hmc/1.0.12</bundle>
+  </feature>
+
+  <feature name="instana-process-sensor" version="1.1.46">
+    <bundle start-level="80">mvn:com.instana/sensor-process/1.1.46</bundle>
+  </feature>
+
+  <feature name="instana-sevone-sensor" version="1.0.3">
+    <bundle start-level="80">mvn:com.instana/entity-splitter-frontend/1.0.2</bundle>
+    <bundle start-level="80">mvn:com.instana/sensor-sevone/1.0.3</bundle>
+  </feature>
+
+  <feature name="instana-vsphere-sensor" version="1.0.24">
+    <bundle start-level="80">wrap:mvn:org.dom4j/dom4j/2.1.3</bundle>
+    <bundle start-level="80">wrap:mvn:com.vmware/vijava/5.1</bundle>
+    <bundle start-level="80">mvn:com.instana/sensor-vsphere/1.0.24</bundle>
+  </feature>
+
+  <feature name="instana-zhmc-sensor" version="1.0.12">
+    <bundle start-level="80">mvn:org.apache.httpcomponents/httpcore-osgi/4.4.9</bundle>
+    <bundle start-level="80">mvn:com.basistech.org.apache.httpcomponents/httpclient-osgi/4.5.13</bundle>
+    <bundle start-level="80">mvn:com.instana/sensor-zhmc/1.0.12</bundle>
+  </feature>
+
+  <feature name="instana-zabbix-sensor" version="1.0.3">
+    <bundle start-level="80">mvn:com.instana/entity-splitter-frontend/1.0.3</bundle>
+    <bundle start-level="80">mvn:com.instana/apm-secure-event-listener/1.0.3</bundle>
+    <bundle start-level="80">mvn:com.instana/sensor-zabbix/1.0.3</bundle>
+  </feature>
+
+</features>

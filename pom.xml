@@ -19,6 +19,8 @@
 
   <modules>
     <module>agent-feature</module>
+    <module>aiops-insights-discovery-feature</module>
+    <module>aiops-insights-sensor-feature</module>
     <module>discovery-feature</module>
     <module>sensor-feature</module>
     <module>optional-feature</module>

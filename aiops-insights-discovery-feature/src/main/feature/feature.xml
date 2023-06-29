@@ -1,0 +1,95 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<features name="${project.artifactId}-${project.version}" xmlns="http://karaf.apache.org/xmlns/features/v1.3.0">
+
+  <feature name="instana-action-discovery" version="1.0.9">
+    <bundle start-level="80">mvn:com.instana/discovery-action/1.0.9</bundle>
+  </feature>
+
+  <feature name="instana-appdynamics-discovery" version="1.0.2">
+    <bundle start-level="80">mvn:com.instana/discovery-appdynamics/1.0.2</bundle>
+  </feature>
+
+  <feature name="instana-apmproxy-discovery" version="1.0.8">
+    <bundle start-level="80">mvn:com.instana/discovery-apmproxy/1.0.8</bundle>
+  </feature>
+
+  <feature name="instana-azure-discovery" version="1.2.29">
+    <bundle start-level="80">mvn:com.instana/discovery-azure/1.2.29</bundle>
+  </feature>
+
+  <feature name="instana-containerd-discovery" version="1.0.26">
+    <bundle start-level="80">mvn:com.instana/discovery-containerd/1.0.26</bundle>
+  </feature>
+
+  <feature name="instana-crio-discovery" version="1.0.10">
+    <bundle start-level="80">mvn:com.instana/discovery-crio/1.0.10</bundle>
+  </feature>
+
+  <feature name="instana-datadog-discovery" version="1.0.2">
+    <bundle start-level="80">mvn:com.instana/discovery-datadog/1.0.2</bundle>
+  </feature>
+
+  <feature name="instana-docker-discovery" version="1.1.73">
+    <bundle start-level="80">mvn:com.instana/discovery-docker/1.1.73</bundle>
+  </feature>
+
+  <feature name="instana-dynatrace-discovery" version="1.0.3">
+    <bundle start-level="80">mvn:com.instana/discovery-dynatrace/1.0.3</bundle>
+  </feature>
+
+  <feature name="instana-ec2-discovery" version="1.1.10">
+    <bundle start-level="80">mvn:com.instana/discovery-ec2/1.1.10</bundle>
+  </feature>
+
+  <feature name="instana-gcp-compute-engine-discovery" version="1.2.5">
+    <bundle start-level="80">mvn:com.instana/discovery-gcp-compute-engine/1.2.5</bundle>
+  </feature>
+
+  <feature name="instana-generic-hardware-discovery" version="1.1.6">
+    <bundle start-level="80">mvn:com.instana/discovery-generic-hardware/1.1.6</bundle>
+  </feature>
+
+  <feature name="instana-host-discovery" version="1.1.147">
+    <bundle start-level="80">mvn:com.instana/discovery-host/1.1.147</bundle>
+  </feature>
+
+  <feature name="instana-ibmcloud-discovery" version="1.0.14">
+    <bundle start-level="80">mvn:com.instana/discovery-ibmcloud/1.0.14</bundle>
+  </feature>
+
+  <feature name="instana-kubernetes-discovery" version="1.2.139">
+    <bundle start-level="80">mvn:com.instana/discovery-kubernetes/1.2.139</bundle>
+  </feature>
+
+  <feature name="instana-ibmopenstack-discovery" version="1.0.7">
+    <bundle start-level="80">mvn:com.instana/discovery-ibmopenstack/1.0.7</bundle>
+  </feature>
+
+  <feature name="instana-instana-remote-discovery" version="1.0.3">
+    <bundle start-level="80">mvn:com.instana/discovery-instana-remote/1.0.3</bundle>
+  </feature>
+
+  <feature name="instana-power-hmc-discovery" version="1.0.12">
+    <bundle start-level="80">mvn:com.instana/discovery-power-hmc/1.0.12</bundle>
+  </feature>
+
+  <feature name="instana-process-discovery" version="1.1.46">
+    <bundle start-level="80">mvn:com.instana/discovery-process/1.1.46</bundle>
+  </feature>
+
+  <feature name="instana-sevone-discovery" version="1.0.3">
+    <bundle start-level="80">mvn:com.instana/discovery-sevone/1.0.3</bundle>
+  </feature>
+
+  <feature name="instana-vsphere-discovery" version="1.0.24">
+    <bundle start-level="80">mvn:com.instana/discovery-vsphere/1.0.24</bundle>
+  </feature>
+
+  <feature name="instana-zhmc-discovery" version="1.0.12">
+    <bundle start-level="80">mvn:com.instana/discovery-zhmc/1.0.12</bundle>
+  </feature>
+
+  <feature name="instana-zabbix-discovery" version="1.0.3">
+    <bundle start-level="80">mvn:com.instana/discovery-zabbix/1.0.3</bundle>
+  </feature>
+</features>
