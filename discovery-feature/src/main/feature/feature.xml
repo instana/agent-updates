@@ -138,6 +138,10 @@
     <bundle start-level="80">mvn:com.instana/discovery-etcd/1.0.27</bundle>
   </feature>
 
+  <feature name="instana-eum-discovery" version="1.0.1">
+    <bundle start-level="80">mvn:com.instana/discovery-eum/1.0.1</bundle>
+  </feature>
+
   <feature name="instana-f5-discovery" version="1.0.1">
     <bundle start-level="80">mvn:com.instana/discovery-f5/1.0.1</bundle>
   </feature>
