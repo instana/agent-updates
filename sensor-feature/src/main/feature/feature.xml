@@ -887,8 +887,8 @@
     <bundle start-level="80">mvn:com.instana/sensor-powervc/1.0.1</bundle>
   </feature>
 
-  <feature name="instana-process-sensor" version="1.1.46">
-    <bundle start-level="80">mvn:com.instana/sensor-process/1.1.46</bundle>
+  <feature name="instana-process-sensor" version="1.1.47">
+    <bundle start-level="80">mvn:com.instana/sensor-process/1.1.47</bundle>
   </feature>
 
   <feature name="instana-prometheus-kubernetes-discovery" version="1.0.26">
