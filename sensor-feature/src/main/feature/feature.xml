@@ -181,7 +181,7 @@
     <bundle start-level="80">mvn:com.instana/sensor-azure-sqlserver/1.2.30</bundle>
   </feature>
 
-  <feature name="instana-aws-sdk" version="1.0.121">
+  <feature name="instana-aws-sdk" version="1.0.122">
     <feature version="1.12.296">aws-sdk</feature>
     <bundle start-level="80">mvn:org.apache.httpcomponents/httpcore-osgi/4.4.9</bundle>
     <bundle start-level="80">mvn:com.basistech.org.apache.httpcomponents/httpclient-osgi/4.5.13</bundle>
@@ -191,7 +191,7 @@
     </bundle>
 
     <bundle start-level="80">mvn:software.amazon.ion/ion-java/1.0.3</bundle>
-    <bundle start-level="80">mvn:com.instana/instana-aws-sdk/1.0.121</bundle>
+    <bundle start-level="80">mvn:com.instana/instana-aws-sdk/1.0.122</bundle>
   </feature>
 
   <feature name="aws-sdk" version="1.12.296">
@@ -226,99 +226,99 @@
     <bundle start-level="80">wrap:mvn:com.amazonaws/aws-java-sdk-resourcegroupstaggingapi/1.12.296$Bundle-SymbolicName=aws-resourcegroupstaggingapi</bundle>
   </feature>
 
-  <feature name="instana-aws-services-discovery" version="1.0.121">
-    <feature version="[1.0.121,2)">instana-aws-sdk</feature>
-    <bundle start-level="80">mvn:com.instana/discovery-aws-services/1.0.121</bundle>
+  <feature name="instana-aws-services-discovery" version="1.0.122">
+    <feature version="[1.0.122,2)">instana-aws-sdk</feature>
+    <bundle start-level="80">mvn:com.instana/discovery-aws-services/1.0.122</bundle>
   </feature>
 
-  <feature name="instana-aws-beanstalk-sensor" version="1.0.121">
-    <feature version="[1.0.121,2)">instana-aws-sdk</feature>
-    <bundle start-level="80">mvn:com.instana/sensor-aws-beanstalk/1.0.121</bundle>
+  <feature name="instana-aws-beanstalk-sensor" version="1.0.122">
+    <feature version="[1.0.122,2)">instana-aws-sdk</feature>
+    <bundle start-level="80">mvn:com.instana/sensor-aws-beanstalk/1.0.122</bundle>
   </feature>
 
-  <feature name="instana-aws-dynamodb-sensor" version="1.0.121">
-    <feature version="[1.0.121,2)">instana-aws-sdk</feature>
-    <bundle start-level="80">mvn:com.instana/sensor-aws-dynamodb/1.0.121</bundle>
+  <feature name="instana-aws-dynamodb-sensor" version="1.0.122">
+    <feature version="[1.0.122,2)">instana-aws-sdk</feature>
+    <bundle start-level="80">mvn:com.instana/sensor-aws-dynamodb/1.0.122</bundle>
   </feature>
 
-  <feature name="instana-aws-rds-sensor" version="1.0.121">
-    <feature version="[1.0.121,2)">instana-aws-sdk</feature>
-    <bundle start-level="80">mvn:com.instana/sensor-aws-rds/1.0.121</bundle>
+  <feature name="instana-aws-rds-sensor" version="1.0.122">
+    <feature version="[1.0.122,2)">instana-aws-sdk</feature>
+    <bundle start-level="80">mvn:com.instana/sensor-aws-rds/1.0.122</bundle>
   </feature>
 
-  <feature name="instana-aws-sqs-sensor" version="1.0.121">
-    <feature version="[1.0.121,2)">instana-aws-sdk</feature>
-    <bundle start-level="80">mvn:com.instana/sensor-aws-sqs/1.0.121</bundle>
+  <feature name="instana-aws-sqs-sensor" version="1.0.122">
+    <feature version="[1.0.122,2)">instana-aws-sdk</feature>
+    <bundle start-level="80">mvn:com.instana/sensor-aws-sqs/1.0.122</bundle>
   </feature>
 
-  <feature name="instana-aws-ec-sensor" version="1.0.121">
-    <feature version="[1.0.121,2)">instana-aws-sdk</feature>
-    <bundle start-level="80">mvn:com.instana/sensor-aws-ec/1.0.121</bundle>
+  <feature name="instana-aws-ec-sensor" version="1.0.122">
+    <feature version="[1.0.122,2)">instana-aws-sdk</feature>
+    <bundle start-level="80">mvn:com.instana/sensor-aws-ec/1.0.122</bundle>
   </feature>
 
-  <feature name="instana-aws-ec2-sensor" version="1.0.121">
-    <feature version="[1.0.121,2)">instana-aws-sdk</feature>
-    <bundle start-level="80">mvn:com.instana/sensor-aws-ec2/1.0.121</bundle>
+  <feature name="instana-aws-ec2-sensor" version="1.0.122">
+    <feature version="[1.0.122,2)">instana-aws-sdk</feature>
+    <bundle start-level="80">mvn:com.instana/sensor-aws-ec2/1.0.122</bundle>
   </feature>
 
-  <feature name="instana-aws-elb-sensor" version="1.0.121">
-    <feature version="[1.0.121,2)">instana-aws-sdk</feature>
-    <bundle start-level="80">mvn:com.instana/sensor-aws-elb/1.0.121</bundle>
+  <feature name="instana-aws-elb-sensor" version="1.0.122">
+    <feature version="[1.0.122,2)">instana-aws-sdk</feature>
+    <bundle start-level="80">mvn:com.instana/sensor-aws-elb/1.0.122</bundle>
   </feature>
 
-  <feature name="instana-aws-kinesis-sensor" version="1.0.121">
-    <feature version="[1.0.121,2)">instana-aws-sdk</feature>
-    <bundle start-level="80">mvn:com.instana/sensor-aws-kinesis/1.0.121</bundle>
+  <feature name="instana-aws-kinesis-sensor" version="1.0.122">
+    <feature version="[1.0.122,2)">instana-aws-sdk</feature>
+    <bundle start-level="80">mvn:com.instana/sensor-aws-kinesis/1.0.122</bundle>
   </feature>
 
-  <feature name="instana-aws-lambda-sensor" version="1.0.121">
-    <feature version="[1.0.121,2)">instana-aws-sdk</feature>
-    <bundle start-level="80">mvn:com.instana/sensor-aws-lambda/1.0.121</bundle>
+  <feature name="instana-aws-lambda-sensor" version="1.0.122">
+    <feature version="[1.0.122,2)">instana-aws-sdk</feature>
+    <bundle start-level="80">mvn:com.instana/sensor-aws-lambda/1.0.122</bundle>
   </feature>
 
-  <feature name="instana-aws-mq-sensor" version="1.0.121">
-    <feature version="[1.0.121,2)">instana-aws-sdk</feature>
-    <bundle start-level="80">mvn:com.instana/sensor-aws-mq/1.0.121</bundle>
+  <feature name="instana-aws-mq-sensor" version="1.0.122">
+    <feature version="[1.0.122,2)">instana-aws-sdk</feature>
+    <bundle start-level="80">mvn:com.instana/sensor-aws-mq/1.0.122</bundle>
   </feature>
 
-  <feature name="instana-aws-s3-sensor" version="1.0.121">
-    <feature version="[1.0.121,2)">instana-aws-sdk</feature>
-    <bundle start-level="80">mvn:com.instana/sensor-aws-s3/1.0.121</bundle>
+  <feature name="instana-aws-s3-sensor" version="1.0.122">
+    <feature version="[1.0.122,2)">instana-aws-sdk</feature>
+    <bundle start-level="80">mvn:com.instana/sensor-aws-s3/1.0.122</bundle>
   </feature>
 
-  <feature name="instana-aws-xray-sensor" version="1.0.121">
-    <feature version="[1.0.121,2)">instana-aws-sdk</feature>
-    <bundle start-level="80">mvn:com.instana/sensor-aws-xray/1.0.121</bundle>
+  <feature name="instana-aws-xray-sensor" version="1.0.122">
+    <feature version="[1.0.122,2)">instana-aws-sdk</feature>
+    <bundle start-level="80">mvn:com.instana/sensor-aws-xray/1.0.122</bundle>
   </feature>
 
-  <feature name="instana-aws-ebs-sensor" version="1.0.121">
-    <feature version="[1.0.121,2)">instana-aws-sdk</feature>
-    <bundle start-level="80">mvn:com.instana/sensor-aws-ebs/1.0.121</bundle>
+  <feature name="instana-aws-ebs-sensor" version="1.0.122">
+    <feature version="[1.0.122,2)">instana-aws-sdk</feature>
+    <bundle start-level="80">mvn:com.instana/sensor-aws-ebs/1.0.122</bundle>
   </feature>
 
-  <feature name="instana-aws-es-sensor" version="1.0.121">
-    <feature version="[1.0.121,2)">instana-aws-sdk</feature>
-    <bundle start-level="80">mvn:com.instana/sensor-aws-es/1.0.121</bundle>
+  <feature name="instana-aws-es-sensor" version="1.0.122">
+    <feature version="[1.0.122,2)">instana-aws-sdk</feature>
+    <bundle start-level="80">mvn:com.instana/sensor-aws-es/1.0.122</bundle>
   </feature>
 
-  <feature name="instana-aws-emr-sensor" version="1.0.121">
-    <feature version="[1.0.121,2]">instana-aws-sdk</feature>
-    <bundle start-level="80">mvn:com.instana/sensor-aws-emr/1.0.121</bundle>
+  <feature name="instana-aws-emr-sensor" version="1.0.122">
+    <feature version="[1.0.122,2]">instana-aws-sdk</feature>
+    <bundle start-level="80">mvn:com.instana/sensor-aws-emr/1.0.122</bundle>
   </feature>
 
-  <feature name="instana-aws-msk-sensor" version="1.0.121">
-    <feature version="[1.0.121,2]">instana-aws-sdk</feature>
-    <bundle start-level="80">mvn:com.instana/sensor-aws-msk/1.0.121</bundle>
+  <feature name="instana-aws-msk-sensor" version="1.0.122">
+    <feature version="[1.0.122,2]">instana-aws-sdk</feature>
+    <bundle start-level="80">mvn:com.instana/sensor-aws-msk/1.0.122</bundle>
   </feature>
 
-  <feature name="instana-aws-apigateway-sensor" version="1.0.121">
-    <feature version="[1.0.121,2)">instana-aws-sdk</feature>
-    <bundle start-level="80">mvn:com.instana/sensor-aws-apigateway/1.0.121</bundle>
+  <feature name="instana-aws-apigateway-sensor" version="1.0.122">
+    <feature version="[1.0.122,2)">instana-aws-sdk</feature>
+    <bundle start-level="80">mvn:com.instana/sensor-aws-apigateway/1.0.122</bundle>
   </feature>
 
-  <feature name="instana-aws-cloudfront-sensor" version="1.0.121">
-    <feature version="[1.0.121,2)">instana-aws-sdk</feature>
-    <bundle start-level="80">mvn:com.instana/sensor-aws-cloudfront/1.0.121</bundle>
+  <feature name="instana-aws-cloudfront-sensor" version="1.0.122">
+    <feature version="[1.0.122,2)">instana-aws-sdk</feature>
+    <bundle start-level="80">mvn:com.instana/sensor-aws-cloudfront/1.0.122</bundle>
   </feature>
 
   <feature name="instana-beeinstana-sensor" version="1.0.4">
