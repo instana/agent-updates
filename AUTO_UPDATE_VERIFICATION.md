@@ -25,7 +25,7 @@ org.ops4j.pax.url.mvn.defaultRepositories=file:${karaf.home}/${karaf.default.rep
 
 3. Switch the mvn repository to `features-internal`:
 ```
-org.ops4j.pax.url.mvn.repositories=https://artifact-public.instana.io/artifactory/features-internal@id=features@snapshots@snapshotsUpdate=always,https://artifact-public.instana.io/artifactory/shared@id=shared@snapshots@snapshotsUpdate=always
+org.ops4j.pax.url.mvn.repositories=https://artifact-public.instana.io/artifactory/features-internal@id=features@snapshots@snapshotsUpdate=always,https://artifact-public.instana.io/artifactory/shared@id=shared
 ```
 
 4. Update the Agent from the UI (no need to restart the agent manually) and verify the agent pulls the latest sensor 
