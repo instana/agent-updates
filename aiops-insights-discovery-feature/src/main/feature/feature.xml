@@ -69,6 +69,10 @@
     <bundle start-level="80">mvn:com.instana/discovery-instana-remote/1.0.3</bundle>
   </feature>
 
+  <feature name="instana-newrelic-discovery" version="1.0.3">
+    <bundle start-level="80">mvn:com.instana/discovery-newrelic/1.0.3</bundle>
+  </feature>
+
   <feature name="instana-power-hmc-discovery" version="1.0.12">
     <bundle start-level="80">mvn:com.instana/discovery-power-hmc/1.0.12</bundle>
   </feature>
