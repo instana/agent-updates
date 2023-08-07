@@ -142,9 +142,9 @@
     <bundle start-level="80">mvn:com.instana/sensor-kubernetes/1.2.139</bundle>
   </feature>
 
-  <feature name="instana-newrelic-sensor" version="1.0.3">
+  <feature name="instana-newrelic-sensor" version="1.0.4">
     <bundle start-level="80">mvn:com.instana/entity-splitter-frontend/1.0.4</bundle>
-    <bundle start-level="80">mvn:com.instana/sensor-newrelic/1.0.3</bundle>
+    <bundle start-level="80">mvn:com.instana/sensor-newrelic/1.0.4</bundle>
   </feature>
 
   <feature name="instana-power-hmc-sensor" version="1.0.12">
