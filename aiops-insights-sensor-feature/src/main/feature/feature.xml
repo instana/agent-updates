@@ -1,12 +1,6 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
 <features name="${project.artifactId}-${project.version}" xmlns="http://karaf.apache.org/xmlns/features/v1.3.0">
 
-  <!-- This feature is still here to support auto-update and backwards compatibility and therefore should not be version bumped any further. -->
-  <!-- Already started agents read old feature "instana-action-sensor" -->
-  <feature name="instana-action-sensor" version="1.0.2">
-    <feature>instana-action-script-sensor</feature>
-  </feature>
-
   <feature name="instana-action-sdk" version="1.0.19">
      <bundle start-level="80">mvn:org.ow2.asm/asm/9.3</bundle>
      <bundle start-level="80">mvn:net.minidev/accessors-smart/2.4.9</bundle>
