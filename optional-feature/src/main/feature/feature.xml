@@ -8,42 +8,42 @@
     <bundle start-level="80">mvn:commons-codec/commons-codec/1.15</bundle>
   </feature>
 
-  <feature name="instana-agent-grpc-core" version="1.0.12">
+  <feature name="instana-agent-grpc-core" version="1.0.13">
     <feature version="[1.0.0,2)">instana-agent-api</feature>
-    <bundle start-level="80">mvn:com.instana/agent-grpc/1.0.11</bundle>
-    <bundle start-level="80">wrap:mvn:com.google.protobuf/protobuf-java/3.21.9</bundle>
-    <bundle start-level="80">wrap:mvn:com.google.protobuf/protobuf-java-util/3.21.9</bundle>
+    <bundle start-level="80">mvn:com.instana/agent-grpc/1.0.12</bundle>
+    <bundle start-level="80">wrap:mvn:com.google.protobuf/protobuf-java/3.23.4</bundle>
+    <bundle start-level="80">wrap:mvn:com.google.protobuf/protobuf-java-util/3.23.4</bundle>
     <bundle start-level="80">mvn:commons-codec/commons-codec/1.15</bundle>
     <!-- all grpc transitive dependencies -->
     <bundle start-level="80">wrap:mvn:io.perfmark/perfmark-api/0.25.0</bundle>
     <bundle start-level="80">wrap:mvn:com.google.api.grpc/proto-google-common-protos/2.0.1</bundle>
     <bundle start-level="80">wrap:mvn:com.google.code.findbugs/jsr305/3.0.2</bundle>
     <bundle start-level="80">wrap:mvn:com.google.code.gson/gson/2.8.9</bundle>
-    <bundle start-level="80">wrap:mvn:com.google.guava/guava/31.1-jre</bundle>
+    <bundle start-level="80">wrap:mvn:com.google.guava/guava/32.1.1-jre</bundle>
     <bundle start-level="80">wrap:mvn:com.google.guava/failureaccess/1.0.1</bundle>
     <bundle start-level="80">wrap:mvn:com.google.guava/listenablefuture/9999.0-empty-to-avoid-conflict-with-guava</bundle>
   </feature>
 
   <!-- everything up to and including OpenTelemetry service layer -->
-  <feature name="instana-agent-open-telemetry-base" version="1.0.11">
-    <feature version="[1.0.0,2)">instana-agent-grpc-core</feature>
-    <bundle start-level="80">mvn:com.instana/agent-open-telemetry-base/1.0.11</bundle>
-    <bundle start-level="80">mvn:com.instana/agent-open-telemetry-service/1.0.11</bundle>
+  <feature name="instana-agent-open-telemetry-base" version="1.0.13">
+    <feature version="[1.0.13,2)">instana-agent-grpc-core</feature>
+    <bundle start-level="80">mvn:com.instana/agent-open-telemetry-base/1.0.13</bundle>
+    <bundle start-level="80">mvn:com.instana/agent-open-telemetry-service/1.0.13</bundle>
   </feature>
 
   <!-- OpenTelemetry collector using gRPC -->
-  <feature name="instana-agent-open-telemetry" version="1.0.18">
-    <feature version="[1.0.10,2)">instana-agent-open-telemetry-base</feature>
-    <bundle start-level="80">mvn:com.instana/agent-open-telemetry-grpc/1.0.11</bundle>
+  <feature name="instana-agent-open-telemetry" version="1.0.20">
+    <feature version="[1.0.13,2)">instana-agent-open-telemetry-base</feature>
+    <bundle start-level="80">mvn:com.instana/agent-open-telemetry-grpc/1.0.13</bundle>
   </feature>
 
   <!-- OpenTelemetry collector using HTTP -->
-  <feature name="instana-agent-open-telemetry-http" version="1.0.11">
+  <feature name="instana-agent-open-telemetry-http" version="1.0.13">
     <feature version="[1.0.6,2)">instana-agent-internal-api</feature>
-    <feature version="[1.0.10,2)">instana-agent-open-telemetry-base</feature>
+    <feature version="[1.0.13,2)">instana-agent-open-telemetry-base</feature>
     <bundle start-level="80">mvn:com.instana/agent-http/1.0.5</bundle>
     <bundle start-level="80">mvn:com.instana/agent-open-telemetry-http-api/1.0.5</bundle>
-    <bundle start-level="80">mvn:com.instana/agent-open-telemetry-http/1.0.11</bundle>
+    <bundle start-level="80">mvn:com.instana/agent-open-telemetry-http/1.0.13</bundle>
   </feature>
 
   <feature name="instana-agent-prometheus" version="1.0.10">
