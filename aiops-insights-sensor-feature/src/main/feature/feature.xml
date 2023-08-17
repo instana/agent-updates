@@ -135,6 +135,11 @@
     <bundle start-level="80">mvn:com.instana/sensor-kubernetes/1.2.139</bundle>
   </feature>
 
+  <feature name="instana-nagios-sensor" version="1.0.2">
+    <bundle start-level="80">mvn:com.instana/entity-splitter-frontend/1.0.4</bundle>
+    <bundle start-level="80">mvn:com.instana/sensor-nagios/1.0.2</bundle>
+  </feature>
+
   <feature name="instana-newrelic-sensor" version="1.0.3">
     <bundle start-level="80">mvn:com.instana/entity-splitter-frontend/1.0.4</bundle>
     <bundle start-level="80">mvn:com.instana/sensor-newrelic/1.0.3</bundle>
