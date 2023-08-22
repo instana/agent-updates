@@ -825,9 +825,9 @@
     <bundle start-level="80">mvn:com.instana/sensor-openldap/1.0.9</bundle>
   </feature>
 
-  <feature name="instana-oracledb-sensor" version="1.1.30">
+  <feature name="instana-oracledb-sensor" version="1.1.31">
     <bundle start-level="80">wrap:mvn:com.oracle.database.jdbc/ojdbc8/21.6.0.0.1</bundle>
-    <bundle start-level="80">mvn:com.instana/sensor-oracledb/1.1.30</bundle>
+    <bundle start-level="80">mvn:com.instana/sensor-oracledb/1.1.31</bundle>
   </feature>
 
   <feature name="instana-perfcounters-sensor" version="1.0.0">
