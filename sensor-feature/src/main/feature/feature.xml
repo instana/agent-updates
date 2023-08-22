@@ -640,9 +640,9 @@
     <bundle start-level="80">mvn:com.instana/sensor-java/1.2.125</bundle>
   </feature>
 
-  <feature name="instana-java-trace-sensor" version="1.2.446">
+  <feature name="instana-java-trace-sensor" version="1.2.448">
     <feature version="[1.2.124,2)">instana-java-sensor</feature>
-    <bundle start-level="90">mvn:com.instana/sensor-java-trace/1.2.446</bundle>
+    <bundle start-level="90">mvn:com.instana/sensor-java-trace/1.2.448</bundle>
   </feature>
 
   <feature name="instana-java-profile-sensor" version="1.0.25">
