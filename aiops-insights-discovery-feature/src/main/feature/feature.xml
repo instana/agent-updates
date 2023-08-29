@@ -65,8 +65,8 @@
     <bundle start-level="80">mvn:com.instana/discovery-ibmopenstack/1.0.7</bundle>
   </feature>
 
-  <feature name="instana-instana-remote-discovery" version="1.0.3">
-    <bundle start-level="80">mvn:com.instana/discovery-instana-remote/1.0.3</bundle>
+  <feature name="instana-instana-remote-discovery" version="1.0.5">
+    <bundle start-level="80">mvn:com.instana/discovery-instana-remote/1.0.5</bundle>
   </feature>
 
   <feature name="instana-nagios-discovery" version="1.0.2">
