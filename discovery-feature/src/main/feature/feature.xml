@@ -429,8 +429,8 @@
     <bundle start-level="80">mvn:com.instana/discovery-rabbitmq/1.1.48</bundle>
   </feature>
 
-  <feature name="instana-rocketmq-discovery" version="1.0.12">
-    <bundle start-level="80">mvn:com.instana/discovery-rocketmq/1.0.12</bundle>
+  <feature name="instana-rocketmq-discovery" version="1.0.13">
+    <bundle start-level="80">mvn:com.instana/discovery-rocketmq/1.0.13</bundle>
   </feature>
 
   <feature name="instana-ruby-discovery" version="1.6.5">
