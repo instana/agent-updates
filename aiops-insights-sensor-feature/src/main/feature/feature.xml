@@ -7,13 +7,13 @@
   </feature>
 
   <feature name="instana-action-sdk" version="1.0.23">
-     <bundle start-level="80">mvn:org.ow2.asm/asm/9.3</bundle>
-     <bundle start-level="80">mvn:net.minidev/accessors-smart/2.4.9</bundle>
-     <bundle start-level="80">mvn:net.minidev/json-smart/2.4.9</bundle>
-     <bundle start-level="80">mvn:com.jayway.jsonpath/json-path/2.8.0</bundle>
+    <bundle start-level="80">mvn:org.ow2.asm/asm/9.3</bundle>
+    <bundle start-level="80">mvn:net.minidev/accessors-smart/2.4.9</bundle>
+    <bundle start-level="80">mvn:net.minidev/json-smart/2.4.9</bundle>
+    <bundle start-level="80">mvn:com.jayway.jsonpath/json-path/2.8.0</bundle>
     <bundle start-level="80">mvn:com.instana/instana-action-sdk/1.0.23</bundle>
   </feature>
-  
+
   <feature name="instan-cdc-graalvm" description="Shared Graalvm Util" version="1.0.0">
     <bundle start-level="75">wrap:mvn:com.instana/cdc-transformapi-jsengine/1.0.0$Bundle-SymbolicName=cdc-transformapi-jsengine&amp;Bundle-Version=1.0.0</bundle>
   </feature>
@@ -77,7 +77,7 @@
   </feature>
 
   <feature name="instana-datadog-sensor" version="1.0.5">
-    <bundle start-level="80">mvn:com.instana/entity-splitter-frontend/1.0.5</bundle>
+    <feature version="[1.0.5,2)">ibm-apm-importer</feature>
     <bundle start-level="80">mvn:com.instana/sensor-datadog/1.0.5</bundle>
   </feature>
 
@@ -92,7 +92,7 @@
     <bundle start-level="80">mvn:com.instana/common-datacollector-application-provider/1.0.0</bundle>
     <bundle start-level="80">mvn:com.instana/sensor-dynatrace/1.0.4</bundle>
   </feature>
-  
+
   <feature name="instana-ec2-sensor" version="1.1.10">
     <bundle start-level="80">mvn:com.instana/sensor-ec2/1.1.10</bundle>
   </feature>
