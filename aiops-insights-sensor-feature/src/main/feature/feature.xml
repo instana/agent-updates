@@ -36,6 +36,11 @@
     <bundle start-level="80">mvn:com.instana/discovery-action-services/1.0.23</bundle>
   </feature>
 
+  <feature name="instana-action-ansible-sensor" version="1.0.23">
+    <feature version="[1.0.23,2)">instana-action-sdk</feature>
+    <bundle start-level="80">mvn:com.instana/sensor-action-ansible/1.0.23</bundle>
+  </feature>
+
   <feature name="instana-action-http-sensor" version="1.0.23">
     <bundle start-level="80">wrap:mvn:com.squareup.okhttp3/okhttp/4.10.0</bundle>
     <bundle start-level="80">wrap:mvn:com.squareup.okio/okio-jvm/3.0.0</bundle>
