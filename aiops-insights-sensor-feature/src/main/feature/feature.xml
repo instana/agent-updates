@@ -58,9 +58,9 @@
     <bundle start-level="80">mvn:com.instana/sensor-crio/1.0.10</bundle>
   </feature>
 
-  <feature name="instana-datadog-sensor" version="1.0.2">
-    <bundle start-level="80">mvn:com.instana/entity-splitter-frontend/1.0.1</bundle>
-    <bundle start-level="80">mvn:com.instana/sensor-datadog/1.0.2</bundle>
+  <feature name="instana-datadog-sensor" version="1.0.5">
+    <feature version="[1.0.5,2)">ibm-apm-importer</feature>
+    <bundle start-level="80">mvn:com.instana/sensor-datadog/1.0.5</bundle>
   </feature>
 
   <feature name="instana-docker-sensor" version="1.1.73">
@@ -74,7 +74,7 @@
     <bundle start-level="80">mvn:com.instana/common-datacollector-application-provider/1.0.0</bundle>
     <bundle start-level="80">mvn:com.instana/sensor-dynatrace/1.0.3</bundle>
   </feature>
-  
+
   <feature name="instana-ec2-sensor" version="1.1.10">
     <bundle start-level="80">mvn:com.instana/sensor-ec2/1.1.10</bundle>
   </feature>
