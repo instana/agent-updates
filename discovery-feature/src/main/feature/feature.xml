@@ -441,6 +441,10 @@
     <bundle start-level="80">mvn:com.instana/discovery-sap-hana/1.1.3</bundle>
   </feature>
 
+  <feature name="instana-sap-abap-discovery" version="1.0.1">
+    <bundle start-level="80">mvn:com.instana/discovery-sap-abap/1.0.1</bundle>
+  </feature>
+
   <feature name="instana-solr-discovery" version="1.0.15">
     <bundle start-level="80">mvn:com.instana/discovery-solr/1.0.15</bundle>
   </feature>
