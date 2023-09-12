@@ -161,8 +161,8 @@
     <bundle start-level="80">mvn:com.instana/sensor-power-hmc/1.0.12</bundle>
   </feature>
 
-  <feature name="instana-process-sensor" version="1.1.46">
-    <bundle start-level="80">mvn:com.instana/sensor-process/1.1.46</bundle>
+  <feature name="instana-process-sensor" version="1.1.48">
+    <bundle start-level="80">mvn:com.instana/sensor-process/1.1.48</bundle>
   </feature>
 
   <feature name="instana-sevone-sensor" version="1.0.3">
