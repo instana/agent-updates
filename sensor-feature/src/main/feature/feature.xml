@@ -324,8 +324,8 @@
     <bundle start-level="80">mvn:com.instana/sensor-aws-cloudfront/1.0.124</bundle>
   </feature>
 
-  <feature name="instana-beeinstana-sensor" version="1.0.4">
-    <bundle start-level="80">mvn:com.instana/sensor-beeinstana/1.0.4</bundle>
+  <feature name="instana-beeinstana-sensor" version="1.0.5">
+    <bundle start-level="80">mvn:com.instana/sensor-beeinstana/1.0.5</bundle>
   </feature>
 
   <feature name="instana-biztalk-sensor" version="1.0.5">
