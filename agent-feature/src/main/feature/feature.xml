@@ -36,10 +36,6 @@
     <bundle start-level="60">mvn:io.netty/netty-resolver-dns/4.1.30.Final</bundle>
     <bundle start-level="60">mvn:io.netty/netty-transport/4.1.30.Final</bundle>
   </feature>
-
-  <feature name="instana-opentelemetry" description="Shared OTel" version="0.19.0-alpha">
-    <bundle start-level="60">wrap:mvn:io.opentelemetry.proto/opentelemetry-proto/0.19.0-alpha</bundle>
-  </feature>
   <!-- End of third party features skipped by bootstrap 1.2.3 -->
 
   <feature name="instana-init" description="Instana Init" version="1.0.7">
@@ -54,10 +50,9 @@
     <bundle start-level="60">mvn:com.instana/jctools/2.1.6</bundle>
   </feature>
 
-  <feature name="instana-api" description="Instana Sensor and Discovery API" version="1.2.133">
-    <feature version="[0.19.0-alpha,2)">instana-opentelemetry</feature>
-    <bundle start-level="60">mvn:com.instana/agent-json/1.2.133</bundle>
-    <bundle start-level="60">mvn:com.instana/sensor-api/1.2.133</bundle>
+  <feature name="instana-api" description="Instana Sensor and Discovery API" version="1.2.132">
+    <bundle start-level="60">mvn:com.instana/agent-json/1.2.132</bundle>
+    <bundle start-level="60">mvn:com.instana/sensor-api/1.2.132</bundle>
   </feature>
 
   <feature name="instana-unix-socket-util" description="Instana Unix Socket Util" version="1.2.7">
