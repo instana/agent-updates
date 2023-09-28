@@ -176,6 +176,11 @@
     <bundle start-level="80">mvn:com.instana/sensor-splunk/1.0.0</bundle>
   </feature>
 
+  <feature name="instana-solarwinds-sensor" version="1.0.1">
+    <feature version="[1.0.4,2)">ibm-apm-importer</feature>
+    <bundle start-level="80">mvn:com.instana/sensor-solarwinds/1.0.1</bundle>
+  </feature>
+
   <feature name="instana-vsphere-sensor" version="1.0.24">
     <bundle start-level="80">wrap:mvn:org.dom4j/dom4j/2.1.3</bundle>
     <bundle start-level="80">wrap:mvn:com.vmware/vijava/5.1</bundle>
