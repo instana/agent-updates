@@ -13,7 +13,7 @@ When the destination branch is `public` the following is required:
 - [ ] Auto-update verified as described in the [Auto-update Verfication](https://github.ibm.com/instana/agent-update-site/blob/internal/AUTO_UPDATE_VERIFICATION.md). 
 - [ ] Agent static build is verified as described in the [Agent Static Build Verification](https://github.ibm.com/instana/agent-update-site/blob/internal/AGENT_STATIC_BUILD_VERIFICATION.md)
 - [ ] Agent Installer PR to be merged after merging this PR: INSERT_AGENT_INSTALLER_PR-IF_PRESENT
-- [ ] Ping `@eng-agent-sensor-gatekeepers` and inform others about release to `public` in #brewery-sensors Slack channel 
+- [ ] Ping `@eng-agent-sensor-gatekeepers` and inform others about release to `public` in `#agent-and-sensor-releases` Slack channel 
 
 <hr />
 
