@@ -191,10 +191,9 @@
     <bundle start-level="80">mvn:com.instana/sensor-zhmc/1.0.12</bundle>
   </feature>
 
-  <feature name="instana-zabbix-sensor" version="1.0.3">
-    <bundle start-level="80">mvn:com.instana/entity-splitter-frontend/1.0.3</bundle>
-    <bundle start-level="80">mvn:com.instana/apm-secure-event-listener/1.0.3</bundle>
-    <bundle start-level="80">mvn:com.instana/sensor-zabbix/1.0.3</bundle>
+  <feature name="instana-zabbix-sensor" version="1.0.7">
+    <feature version="[1.0.5,2)">ibm-apm-importer</feature>
+    <bundle start-level="80">mvn:com.instana/sensor-zabbix/1.0.7</bundle>
   </feature>
 
 </features>
