@@ -169,10 +169,9 @@
     <bundle start-level="80">mvn:com.instana/sensor-sevone/1.0.3</bundle>
   </feature>
 
-  <feature name="instana-splunk-sensor" version="1.0.0">
-    <bundle start-level="80">mvn:com.instana/entity-splitter-frontend/1.0.4</bundle>
-    <bundle start-level="80">mvn:com.instana/apm-secure-event-listener/1.0.4</bundle>
-    <bundle start-level="80">mvn:com.instana/sensor-splunk/1.0.0</bundle>
+  <feature name="instana-splunk-sensor" version="1.0.3">
+    <feature version="[1.0.4,2)">ibm-apm-importer</feature>
+    <bundle start-level="80">mvn:com.instana/sensor-splunk/1.0.3</bundle>
   </feature>
 
   <feature name="instana-solarwinds-sensor" version="1.0.1">
