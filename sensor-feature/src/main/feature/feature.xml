@@ -714,10 +714,10 @@
     <bundle start-level="80">wrap:mvn:com.github.mifmif/generex/1.0.1</bundle>
   </feature>
 
-  <feature name="instana-kong-sensor" version="1.0.8">
+  <feature name="instana-kong-sensor" version="1.0.10">
     <bundle start-level="80">mvn:org.apache.httpcomponents/httpcore-osgi/4.4.9</bundle>
     <bundle start-level="80">mvn:com.basistech.org.apache.httpcomponents/httpclient-osgi/4.5.13</bundle>
-    <bundle start-level="80">mvn:com.instana/sensor-kong/1.0.8</bundle>
+    <bundle start-level="80">mvn:com.instana/sensor-kong/1.0.10</bundle>
   </feature>
 
   <feature name="instana-kubernetes-sensor" version="1.2.141">
