@@ -32,7 +32,6 @@
   </feature>
 
   <feature name="common-data-collector-cp4aiops-sender" version="1.0.0">
-    <bundle start-level="60">mvn:com.instana/sensor-api/1.2.135</bundle>
     <bundle start-level="80">wrap:mvn:org.checkerframework/checker-qual/3.24.0</bundle>
     <bundle start-level="80">wrap:mvn:com.google.errorprone/error_prone_annotations/2.15.0</bundle>
     <bundle start-level="80">wrap:mvn:io.cloudevents/cloudevents-api/2.3.0</bundle>
