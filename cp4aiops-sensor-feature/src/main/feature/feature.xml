@@ -66,6 +66,6 @@
     <bundle start-level="80">wrap:mvn:org.latencyutils/LatencyUtils/2.0.3</bundle>
     <bundle start-level="80">wrap:mvn:com.ibm.cp4waiops.connectors/connectors-sdk/1.4.15.2-jdk8</bundle>
     <bundle start-level="80">wrap:mvn:com.instana/cdc-grpc/1.52.1</bundle>
-    <bundle start-level="80">mvn:com.instana/cdc-cp4aiops-sender/1.0.0</bundle>
+    <bundle start-level="80">mvn:com.instana/cdc-cp4aiops-sender/1.0.1</bundle>
   </feature>
 </features>
