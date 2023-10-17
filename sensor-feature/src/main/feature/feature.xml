@@ -734,18 +734,39 @@
     <bundle start-level="80">wrap:mvn:com.github.mifmif/generex/1.0.1</bundle>
   </feature>
 
+  <feature name="fabric8-sdk" version="4.13.2">
+    <bundle start-level="80">
+      <![CDATA[wrap:mvn:io.fabric8/kubernetes-model/4.13.2$overwrite=merge&Import-Package=com.fasterxml.jackson.annotation;version="[2.9.8,3)",*]]>
+    </bundle>
+    <bundle start-level="80">
+      <![CDATA[wrap:mvn:io.fabric8/kubernetes-client/4.13.2//bundle$overwrite=merge&Import-Package=com.fasterxml.jackson.annotation;version="[2.9.8,3)",!org.bouncycastle.*, *]]>
+    </bundle>
+    <bundle start-level="80">
+      <![CDATA[wrap:mvn:io.fabric8/openshift-client/4.13.2//bundle$overwrite=merge&Import-Package=com.fasterxml.jackson.annotation;version="[2.9.8,3)",*]]>
+    </bundle>
+    <bundle start-level="80">mvn:com.fasterxml.jackson.datatype/jackson-datatype-jsr310/2.9.8</bundle>
+    <bundle start-level="80">mvn:commons-codec/commons-codec/1.13</bundle>
+    <bundle start-level="80">mvn:org.apache.commons/commons-compress/1.21</bundle>
+    <bundle start-level="80">mvn:javax.validation/validation-api/1.1.0.Final</bundle>
+    <bundle start-level="80">wrap:mvn:io.fabric8/zjsonpatch/0.3.0/</bundle>
+    <bundle start-level="80">wrap:mvn:com.squareup.okio/okio/1.14.0</bundle>
+    <bundle start-level="80">wrap:mvn:com.squareup.okhttp3/okhttp/3.12.12</bundle>
+    <bundle start-level="80">wrap:mvn:com.squareup.okhttp3/logging-interceptor/3.12.12</bundle>
+    <bundle start-level="80">wrap:mvn:com.github.mifmif/generex/1.0.1</bundle>
+  </feature>
+
   <feature name="instana-kong-sensor" version="1.0.10">
     <bundle start-level="80">mvn:org.apache.httpcomponents/httpcore-osgi/4.4.9</bundle>
     <bundle start-level="80">mvn:com.basistech.org.apache.httpcomponents/httpclient-osgi/4.5.13</bundle>
     <bundle start-level="80">mvn:com.instana/sensor-kong/1.0.10</bundle>
   </feature>
 
-  <feature name="instana-kubernetes-sensor" version="1.2.141">
+  <feature name="instana-kubernetes-sensor" version="1.2.142">
     <feature version="[1.0.0,2)">instana-coordination-sdk</feature>
-    <feature version="4.9.2.3">fabric8-sdk</feature>
+    <feature version="4.13.2">fabric8-sdk</feature>
     <bundle start-level="80">mvn:javax.validation/validation-api/2.0.1.Final</bundle>
     <bundle start-level="80">mvn:com.cronutils/cron-utils/9.1.6</bundle>
-    <bundle start-level="80">mvn:com.instana/sensor-kubernetes/1.2.141</bundle>
+    <bundle start-level="80">mvn:com.instana/sensor-kubernetes/1.2.142</bundle>
   </feature>
 
   <feature name="instana-liferay-sensor" version="1.0.2">
