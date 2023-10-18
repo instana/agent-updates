@@ -1,8 +1,8 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
 <features name="${project.artifactId}-${project.version}" xmlns="http://karaf.apache.org/xmlns/features/v1.3.0">
 
-  <feature name="instana-dynatrace-discovery" version="1.0.7">
-    <bundle start-level="80">mvn:com.instana/discovery-dynatrace/1.0.7</bundle>
+  <feature name="instana-dynatrace-discovery" version="1.0.10">
+    <bundle start-level="80">mvn:com.instana/discovery-dynatrace/1.0.10</bundle>
   </feature>
 
 </features>
