@@ -89,8 +89,8 @@
     <bundle start-level="80">mvn:com.instana/discovery-scom/1.0.1</bundle>
   </feature>
 
-  <feature name="instana-sevone-discovery" version="1.0.4">
-    <bundle start-level="80">mvn:com.instana/discovery-sevone/1.0.4</bundle>
+  <feature name="instana-sevone-discovery" version="1.0.5">
+    <bundle start-level="80">mvn:com.instana/discovery-sevone/1.0.5</bundle>
   </feature>
 
   <feature name="instana-splunk-discovery" version="1.0.3">
