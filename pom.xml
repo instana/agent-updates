@@ -23,6 +23,8 @@
     <module>aiops-insights-sensor-feature</module>
     <module>cp4aiops-discovery-feature</module>
     <module>cp4aiops-sensor-feature</module>
+    <module>metric-manager-discovery-feature</module>
+    <module>metric-manager-sensor-feature</module>
     <module>discovery-feature</module>
     <module>sensor-feature</module>
     <module>optional-feature</module>
