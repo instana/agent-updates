@@ -49,8 +49,8 @@
     <bundle start-level="80">mvn:com.instana/cdc-cp4aiops-sender/1.0.1</bundle>
   </feature>
 
-  <feature name="instana-dynatrace-discovery" version="1.0.10">
-    <bundle start-level="80">mvn:com.instana/discovery-dynatrace/1.0.10</bundle>
+  <feature name="instana-dynatrace-discovery" version="1.0.12">
+    <bundle start-level="80">mvn:com.instana/discovery-dynatrace/1.0.12</bundle>
   </feature>
 
 </features>
