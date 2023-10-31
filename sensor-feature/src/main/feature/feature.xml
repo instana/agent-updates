@@ -998,7 +998,7 @@
     <bundle start-level="80">mvn:com.instana/sensor-sap-hana/1.1.3</bundle>
   </feature>
 
-  <feature name="instana-sap-abap-sensor" version="1.0.2">
+  <feature name="instana-sap-abap-sensor" version="1.0.5">
     <bundle start-level="80">
       <![CDATA[wrap:mvn:com.sap.cloud.db.jdbc/ngdbc/2.4.64$overwrite=merge&Bundle-Version=2.4.64&Export-Package=com.sap.db.jdbc.*;version=2.4.64]]>
     </bundle>
@@ -1006,7 +1006,7 @@
       <![CDATA[wrap:mvn:com.sap/sapjco3/3.1.8$overwrite=merge&Bundle-Version=3.1.8&Export-Package=com.sap.*;version=3.1.8]]>
     </bundle>
     <feature version="[1.1,2)">jta-spec</feature>
-    <bundle start-level="80">mvn:com.instana/sensor-sap-abap/1.0.2</bundle>
+    <bundle start-level="80">mvn:com.instana/sensor-sap-abap/1.0.5</bundle>
   </feature>
 
   <feature name="instana-solr-sensor" version="1.0.15">
