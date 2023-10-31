@@ -250,8 +250,8 @@
     <bundle start-level="80">mvn:com.instana/discovery-java/1.2.125</bundle>
   </feature>
 
-  <feature name="instana-jboss-as-discovery" version="1.1.51">
-    <bundle start-level="80">mvn:com.instana/discovery-jboss-as/1.1.51</bundle>
+  <feature name="instana-jboss-as-discovery" version="1.1.52">
+    <bundle start-level="80">mvn:com.instana/discovery-jboss-as/1.1.52</bundle>
   </feature>
 
   <feature name="instana-jboss-as4-discovery" version="1.0.9">
