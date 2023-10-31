@@ -713,27 +713,6 @@
     <bundle start-level="80">mvn:com.instana/sensor-kafka/1.1.50</bundle>
   </feature>
 
-  <feature name="fabric8-sdk" version="4.9.2.3">
-    <bundle start-level="80">
-      <![CDATA[wrap:mvn:io.fabric8/kubernetes-model/4.9.2$overwrite=merge&Import-Package=com.fasterxml.jackson.annotation;version="[2.9.8,3)",*]]>
-    </bundle>
-    <bundle start-level="80">
-      <![CDATA[wrap:mvn:io.fabric8/kubernetes-client/4.9.2//bundle$overwrite=merge&Import-Package=com.fasterxml.jackson.annotation;version="[2.9.8,3)",!org.bouncycastle.*, *]]>
-    </bundle>
-    <bundle start-level="80">
-      <![CDATA[wrap:mvn:io.fabric8/openshift-client/4.9.2//bundle$overwrite=merge&Import-Package=com.fasterxml.jackson.annotation;version="[2.9.8,3)",*]]>
-    </bundle>
-    <bundle start-level="80">mvn:com.fasterxml.jackson.datatype/jackson-datatype-jsr310/2.9.8</bundle>
-    <bundle start-level="80">mvn:commons-codec/commons-codec/1.13</bundle>
-    <bundle start-level="80">mvn:org.apache.commons/commons-compress/1.21</bundle>
-    <bundle start-level="80">mvn:javax.validation/validation-api/1.1.0.Final</bundle>
-    <bundle start-level="80">wrap:mvn:io.fabric8/zjsonpatch/0.3.0/</bundle>
-    <bundle start-level="80">wrap:mvn:com.squareup.okio/okio/1.14.0</bundle>
-    <bundle start-level="80">wrap:mvn:com.squareup.okhttp3/okhttp/3.12.12</bundle>
-    <bundle start-level="80">wrap:mvn:com.squareup.okhttp3/logging-interceptor/3.12.12</bundle>
-    <bundle start-level="80">wrap:mvn:com.github.mifmif/generex/1.0.1</bundle>
-  </feature>
-
   <feature name="fabric8-sdk" version="4.13.2">
     <bundle start-level="80">
       <![CDATA[wrap:mvn:io.fabric8/kubernetes-model/4.13.2$overwrite=merge&Import-Package=com.fasterxml.jackson.annotation;version="[2.9.8,3)",*]]>
@@ -941,15 +920,14 @@
     <bundle start-level="80">mvn:com.instana/sensor-process/1.1.48</bundle>
   </feature>
 
-  <feature name="instana-prometheus-kubernetes-discovery" version="1.0.51">
-    <bundle start-level="80">mvn:com.instana/discovery-prometheus-kubernetes/1.0.51</bundle>
-    <feature version="4.9.2.3">fabric8-sdk</feature>
+  <feature name="instana-prometheus-kubernetes-discovery" version="1.0.52">
+    <bundle start-level="80">mvn:com.instana/discovery-prometheus-kubernetes/1.0.52</bundle>
+    <feature version="4.13.2">fabric8-sdk</feature>
   </feature>
 
-  <feature name="instana-prometheus-sensor" version="1.0.51">
-    <bundle start-level="80">mvn:com.instana/sensor-prometheus/1.0.51</bundle>
+  <feature name="instana-prometheus-sensor" version="1.0.52">
+    <bundle start-level="80">mvn:com.instana/sensor-prometheus/1.0.52</bundle>
     <bundle start-level="80">wrap:mvn:com.github.petitparser/petitparser-core/2.2.0$Bundle-ManifestVersion=2&amp;Bundle-SymbolicName=petitparser-core&amp;Bundle-Version=2.2.0</bundle>
-
   </feature>
 
   <feature name="instana-python-sensor" version="1.9.12">
