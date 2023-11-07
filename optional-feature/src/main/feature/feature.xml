@@ -32,9 +32,9 @@
   </feature>
 
   <!-- everything up to and including OpenTelemetry service layer -->
-  <feature name="instana-agent-otel-sensor-sdk" version="1.0.3">
+  <feature name="instana-agent-otel-sensor-sdk" version="1.0.4">
     <feature version="[1.0.20,2)">instana-agent-open-telemetry-base</feature>
-    <bundle start-level="80">mvn:com.instana/otel-sensorsdk-database/1.0.1</bundle>
+    <bundle start-level="80">mvn:com.instana/otel-sensorsdk-database/1.0.2</bundle>
   </feature>
 
   <!-- everything up to and including OpenTelemetry service layer -->
