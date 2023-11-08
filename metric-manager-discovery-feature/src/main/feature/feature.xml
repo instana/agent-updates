@@ -1,22 +1,33 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
 <features name="${project.artifactId}-${project.version}" xmlns="http://karaf.apache.org/xmlns/features/v1.3.0">
 
-  <feature name="common-data-collector-transform-api" version="1.0.5">
-    <bundle start-level="80">wrap:mvn:com.instana/cdc-transformapi-jsengine/1.0.5$Bundle-SymbolicName=cdc-transformapi-jsengine&amp;Bundle-Version=1.0.5</bundle>
-    <bundle start-level="80">mvn:com.instana/cdc-instanatransform-api/1.0.5</bundle>
-    <bundle start-level="80">mvn:com.instana/cdc-transformapi-api/1.0.5</bundle>
-    <bundle start-level="80">mvn:com.instana/cdc-assembly-api/1.0.5</bundle>
-    <bundle start-level="80">mvn:com.instana/cdc-instanatransform-provider/1.0.5</bundle>
-    <bundle start-level="80">mvn:com.instana/cdc-transformapi-provider/1.0.5</bundle>
-    <bundle start-level="80">mvn:com.instana/cdc-assembly-provider/1.0.5</bundle>
+  <feature name="common-data-collector-transform-api" version="1.0.7">
+    <bundle start-level="80">wrap:mvn:com.instana/cdc-transformapi-jsengine/1.0.7$Bundle-SymbolicName=cdc-transformapi-jsengine&amp;Bundle-Version=1.0.7</bundle>
+    <bundle start-level="80">mvn:com.instana/cdc-instanatransform-api/1.0.7</bundle>
+    <bundle start-level="80">mvn:com.instana/cdc-transformapi-api/1.0.7</bundle>
+    <bundle start-level="80">mvn:com.instana/cdc-assembly-api/1.0.7</bundle>
+    <bundle start-level="80">mvn:com.instana/cdc-instanatransform-provider/1.0.7</bundle>
+    <bundle start-level="80">mvn:com.instana/cdc-transformapi-provider/1.0.7</bundle>
+    <bundle start-level="80">mvn:com.instana/cdc-assembly-provider/1.0.7</bundle>
   </feature>
 
-  <feature name="common-data-collector-metricmanager-sender" version="1.0.1">
-    <bundle start-level="80">mvn:com.instana/cdc-metricmanager-sender/1.0.1</bundle>
+  <feature name="common-data-collector-metricmanager-sender" version="1.0.4">
+    <bundle start-level="80">mvn:com.instana/cdc-metricmanager-sender/1.0.4</bundle>
   </feature>
 
-  <feature name="instana-dynatrace-discovery" version="1.0.10">
-    <bundle start-level="80">mvn:com.instana/discovery-dynatrace/1.0.10</bundle>
+  <feature name="instana-dynatrace-discovery" version="1.0.13">
+    <bundle start-level="80">mvn:com.instana/discovery-dynatrace/1.0.13</bundle>
   </feature>
 
+  <feature name="instana-appdynamics-discovery" version="1.0.8">
+    <bundle start-level="80">mvn:com.instana/discovery-appdynamics/1.0.8</bundle>
+  </feature>
+
+  <feature name="instana-newrelic-discovery" version="1.0.10">
+    <bundle start-level="80">mvn:com.instana/discovery-newrelic/1.0.10</bundle>
+  </feature>
+
+  <feature name="instana-splunkent-discovery" version="1.0.0">
+    <bundle start-level="80">mvn:com.instana/discovery-splunkent/1.0.0</bundle>
+  </feature>
 </features>

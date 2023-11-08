@@ -1,20 +1,44 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
 <features name="${project.artifactId}-${project.version}" xmlns="http://karaf.apache.org/xmlns/features/v1.3.0">
 
-  <feature name="ibm-apm-importer" version="1.0.7">
-    <bundle start-level="80">mvn:com.instana/entity-splitter-frontend/1.0.7</bundle>
-    <bundle start-level="80">mvn:com.instana/apm-secure-event-listener/1.0.7</bundle>
+  <feature name="ibm-apm-importer" version="1.0.8">
+    <bundle start-level="80">mvn:com.instana/entity-splitter-frontend/1.0.8</bundle>
+    <bundle start-level="80">mvn:com.instana/apm-secure-event-listener/1.0.8</bundle>
   </feature>
 
-  <feature name="instana-dynatrace-sensor" version="1.0.10">
+  <feature name="instana-dynatrace-sensor" version="1.0.13">
     <feature version="[1.0.7,2)">ibm-apm-importer</feature>
     <bundle start-level="80">mvn:com.instana/common-datacollector-application-api/1.0.0</bundle>
     <bundle start-level="80">mvn:com.instana/common-datacollector-application-provider/1.0.0</bundle>
-    <bundle start-level="80">mvn:com.instana/sensor-dynatrace/1.0.10</bundle>
+    <bundle start-level="80">mvn:com.instana/sensor-dynatrace/1.0.13</bundle>
+  </feature>
+
+  <feature name="instana-appdynamics-sensor" version="1.0.8">
+    <feature version="[1.0.5,2)">ibm-apm-importer</feature>
+    <bundle start-level="80">mvn:com.instana/sensor-appdynamics/1.0.8</bundle>
+    <bundle start-level="80">mvn:org.apache.httpcomponents/httpcore-osgi/4.4.9</bundle>
+    <bundle start-level="80">mvn:com.basistech.org.apache.httpcomponents/httpclient-osgi/4.5.13</bundle>
+  </feature>
+  
+  <feature name="instana-newrelic-sensor" version="1.0.10">
+    <feature version="[1.0.8,2)">ibm-apm-importer</feature>
+    <bundle start-level="80">mvn:com.instana/sensor-newrelic/1.0.10</bundle>
+  </feature>
+
+  <feature name="instana-splunkent-sensor" version="1.0.0">
+    <feature version="[1.0.7,2)">ibm-apm-importer</feature>
+    <bundle start-level="80">mvn:com.instana/sensor-splunkent/1.0.0</bundle>
   </feature>
 
   <feature name="instana-process-sensor" version="1.1.48">
     <bundle start-level="80">mvn:com.instana/sensor-process/1.1.48</bundle>
   </feature>
 
+  <feature name="instana-docker-sensor" version="1.1.75">
+   <bundle start-level="80">mvn:com.instana/sensor-docker/1.1.75</bundle>
+  </feature>
+  
+  <feature name="instana-podman-sensor" version="1.0.3">
+    <bundle start-level="80">mvn:com.instana/sensor-podman/1.0.3</bundle>
+  </feature>
 </features>
