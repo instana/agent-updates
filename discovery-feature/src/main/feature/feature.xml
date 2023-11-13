@@ -218,6 +218,10 @@
     <bundle start-level="80">mvn:com.instana/discovery-httpd/1.2.12</bundle>
   </feature>
 
+  <feature name="instana-ibmapiconnect-discovery" version="1.0.1">
+    <bundle start-level="80">mvn:com.instana/discovery-ibm-api-connect/1.0.1</bundle>
+  </feature>
+
   <feature name="instana-ibmiseries-discovery" version="1.0.36">
     <bundle start-level="80">mvn:com.instana/discovery-ibmiseries/1.0.36</bundle>
   </feature>

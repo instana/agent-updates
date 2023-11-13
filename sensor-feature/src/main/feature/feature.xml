@@ -612,6 +612,12 @@
     <bundle start-level="80">mvn:com.instana/sensor-httpd/1.2.12</bundle>
   </feature>
 
+  <feature name="instana-ibmapiconnect-sensor" version="1.0.1">
+    <bundle start-level="80">mvn:org.apache.httpcomponents/httpcore-osgi/4.4.9</bundle>
+    <bundle start-level="80">mvn:com.basistech.org.apache.httpcomponents/httpclient-osgi/4.5.13</bundle>
+    <bundle start-level="80">mvn:com.instana/sensor-ibm-api-connect/1.0.1</bundle>
+  </feature>
+
   <feature name="instana-ibmiseries-sensor" version="1.0.36">
     <bundle start-level="80">wrap:mvn:net.sf.jt400/jt400/10.4</bundle>
     <bundle start-level="80">mvn:com.instana/sensor-ibmiseries/1.0.36</bundle>
