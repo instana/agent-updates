@@ -25,11 +25,6 @@
     <bundle start-level="80">mvn:com.instana/sensor-newrelic/1.0.10</bundle>
   </feature>
 
-  <feature name="instana-splunkent-sensor" version="1.0.0">
-    <feature version="[1.0.7,2)">ibm-apm-importer</feature>
-    <bundle start-level="80">mvn:com.instana/sensor-splunkent/1.0.0</bundle>
-  </feature>
-
   <feature name="instana-podman-sensor" version="1.0.3">
     <bundle start-level="80">mvn:com.instana/sensor-podman/1.0.3</bundle>
   </feature>
