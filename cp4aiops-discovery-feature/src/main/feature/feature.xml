@@ -57,8 +57,8 @@
     <bundle start-level="80">mvn:com.instana/discovery-appdynamics/1.0.8</bundle>
   </feature>
 
-  <feature name="instana-newrelic-discovery" version="1.0.10">
-    <bundle start-level="80">mvn:com.instana/discovery-newrelic/1.0.10</bundle>
+  <feature name="instana-newrelic-discovery" version="1.0.12">
+    <bundle start-level="80">mvn:com.instana/discovery-newrelic/1.0.12</bundle>
   </feature>
 
 </features>
