@@ -384,18 +384,18 @@
     <bundle start-level="80">mvn:com.instana/sensor-consul/1.0.16</bundle>
   </feature>
 
-  <feature name="instana-containerd-common" version="1.0.35">
-    <bundle start-level="80">mvn:com.instana/sensor-containerd-common/1.0.35</bundle>
+  <feature name="instana-containerd-common" version="1.0.36">
+    <bundle start-level="80">mvn:com.instana/sensor-containerd-common/1.0.36</bundle>
   </feature>
 
-  <feature name="instana-containerd-sensor" version="1.0.35">
-    <feature version="[1.0.35,2.0.0)">instana-containerd-common</feature>
-    <bundle start-level="80">mvn:com.instana/sensor-containerd/1.0.35</bundle>
+  <feature name="instana-containerd-sensor" version="1.0.36">
+    <feature version="[1.0.36,2.0.0)">instana-containerd-common</feature>
+    <bundle start-level="80">mvn:com.instana/sensor-containerd/1.0.36</bundle>
   </feature>
 
-  <feature name="instana-containerd-log-sensor" version="1.0.35">
-    <feature version="[1.0.35,2.0.0)">instana-containerd-common</feature>
-    <bundle start-level="80">mvn:com.instana/sensor-containerd-log/1.0.35</bundle>
+  <feature name="instana-containerd-log-sensor" version="1.0.36">
+    <feature version="[1.0.36,2.0.0)">instana-containerd-common</feature>
+    <bundle start-level="80">mvn:com.instana/sensor-containerd-log/1.0.36</bundle>
   </feature>
 
   <feature name="instana-coordination-sdk" version="1.2.0">
