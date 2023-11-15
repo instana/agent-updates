@@ -27,7 +27,7 @@
     <bundle start-level="80">mvn:com.instana/discovery-newrelic/1.0.10</bundle>
   </feature>
 
-  <feature name="instana-splunkent-discovery" version="1.0.0">
-    <bundle start-level="80">mvn:com.instana/discovery-splunkent/1.0.0</bundle>
+  <feature name="instana-splunkent-discovery" version="1.0.1">
+    <bundle start-level="80">mvn:com.instana/discovery-splunkent/1.0.1</bundle>
   </feature>
 </features>
