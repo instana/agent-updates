@@ -20,14 +20,9 @@
     <bundle start-level="80">mvn:com.basistech.org.apache.httpcomponents/httpclient-osgi/4.5.13</bundle>
   </feature>
   
-  <feature name="instana-newrelic-sensor" version="1.0.10">
+  <feature name="instana-newrelic-sensor" version="1.0.12">
     <feature version="[1.0.8,2)">ibm-apm-importer</feature>
-    <bundle start-level="80">mvn:com.instana/sensor-newrelic/1.0.10</bundle>
-  </feature>
-
-  <feature name="instana-splunkent-sensor" version="1.0.0">
-    <feature version="[1.0.7,2)">ibm-apm-importer</feature>
-    <bundle start-level="80">mvn:com.instana/sensor-splunkent/1.0.0</bundle>
+    <bundle start-level="80">mvn:com.instana/sensor-newrelic/1.0.12</bundle>
   </feature>
 
   <feature name="instana-podman-sensor" version="1.0.3">
