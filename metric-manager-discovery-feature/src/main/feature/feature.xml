@@ -11,8 +11,8 @@
     <bundle start-level="80">mvn:com.instana/cdc-assembly-provider/1.0.8</bundle>
   </feature>
 
-  <feature name="common-data-collector-metricmanager-sender" version="1.0.6">
-    <bundle start-level="80">mvn:com.instana/cdc-metricmanager-sender/1.0.6</bundle>
+  <feature name="common-data-collector-metricmanager-sender" version="1.0.7">
+    <bundle start-level="80">mvn:com.instana/cdc-metricmanager-sender/1.0.7</bundle>
   </feature>
 
   <feature name="instana-dynatrace-discovery" version="1.0.13">
