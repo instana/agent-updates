@@ -30,6 +30,13 @@
     <bundle start-level="80">mvn:com.instana/sensor-splunkent/1.0.1</bundle>
   </feature>
 
+  <feature name="instana-solarwindsnpm-sensor" version="1.0.0">
+    <feature prerequisite="true">wrap</feature>
+    <feature version="[1.0.8,2)">ibm-apm-importer</feature>
+    <bundle start-level="80">mvn:com.instana/sensor-solarwindsnpm/1.0.0</bundle>
+    <bundle start-level="80">wrap:mvn:com.microsoft.sqlserver/sqljdbc4/4.0$Bundle-SymbolicName=sqljdbc4&amp;Bundle-Version=4.0</bundle>
+  </feature>
+
   <feature name="instana-process-sensor" version="1.1.48">
     <bundle start-level="80">mvn:com.instana/sensor-process/1.1.48</bundle>
   </feature>
