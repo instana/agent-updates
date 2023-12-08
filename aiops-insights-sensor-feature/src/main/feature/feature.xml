@@ -149,9 +149,9 @@
     <bundle start-level="80">mvn:com.instana/sensor-nagios/1.0.7</bundle>
   </feature>
 
-  <feature name="instana-newrelic-sensor" version="1.0.6">
-    <feature version="[1.0.5,2)">ibm-apm-importer</feature>
-    <bundle start-level="80">mvn:com.instana/sensor-newrelic/1.0.6</bundle>
+  <feature name="instana-newrelic-sensor" version="1.0.13">
+    <feature version="[1.0.8,2)">ibm-apm-importer</feature>
+    <bundle start-level="80">mvn:com.instana/sensor-newrelic/1.0.13</bundle>
   </feature>
 
   <feature name="instana-power-hmc-sensor" version="1.0.12">

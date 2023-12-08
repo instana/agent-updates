@@ -73,8 +73,8 @@
     <bundle start-level="80">mvn:com.instana/discovery-nagios/1.0.7</bundle>
   </feature>
 
-  <feature name="instana-newrelic-discovery" version="1.0.6">
-    <bundle start-level="80">mvn:com.instana/discovery-newrelic/1.0.6</bundle>
+  <feature name="instana-newrelic-discovery" version="1.0.13">
+    <bundle start-level="80">mvn:com.instana/discovery-newrelic/1.0.13</bundle>
   </feature>
 
   <feature name="instana-power-hmc-discovery" version="1.0.12">
