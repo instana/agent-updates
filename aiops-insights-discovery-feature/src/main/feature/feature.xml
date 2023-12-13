@@ -77,6 +77,10 @@
     <bundle start-level="80">mvn:com.instana/discovery-newrelic/1.0.13</bundle>
   </feature>
 
+  <feature name="instana-node-exporter-discovery" version="1.0.1">
+    <bundle start-level="80">mvn:com.instana/discovery-node-exporter/1.0.1</bundle>
+  </feature>
+
   <feature name="instana-power-hmc-discovery" version="1.0.12">
     <bundle start-level="80">mvn:com.instana/discovery-power-hmc/1.0.12</bundle>
   </feature>
