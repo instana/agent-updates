@@ -890,8 +890,8 @@
     <bundle start-level="90">mvn:com.instana/sensor-php-profile/1.0.3</bundle>
   </feature>
 
-  <feature name="instana-php-sensor" version="1.2.5">
-    <bundle start-level="90">mvn:com.instana/sensor-php/1.2.5</bundle>
+  <feature name="instana-php-sensor" version="1.2.6">
+    <bundle start-level="90">mvn:com.instana/sensor-php/1.2.6</bundle>
   </feature>
 
   <feature name="instana-php-trace-sensor" version="1.0.2">
