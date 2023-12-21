@@ -7,6 +7,9 @@
     <bundle start-level="80">mvn:com.instana/apm-sensor-api/1.0.11</bundle>
   </feature>
 
+  <feature name="cdc-sensor-api" version="1.0.2">
+    <bundle start-level="80">mvn:com.instana/cdc-sensor-api/1.0.2</bundle>
+  </feature>
 
   <feature name="instana-action-sdk" version="1.0.38">
     <bundle start-level="80">mvn:org.ow2.asm/asm/9.3</bundle>
@@ -187,9 +190,10 @@
     <bundle start-level="80">mvn:com.instana/sensor-splunk/1.0.7</bundle>
   </feature>
 
-  <feature name="instana-solarwinds-sensor" version="1.0.1">
+  <feature name="instana-solarwinds-sensor" version="1.0.6">
     <feature version="[1.0.4,2)">ibm-apm-importer</feature>
-    <bundle start-level="80">mvn:com.instana/sensor-solarwinds/1.0.1</bundle>
+    <feature version="[1.0.2,2)">cdc-sensor-api</feature>
+    <bundle start-level="80">mvn:com.instana/sensor-solarwinds/1.0.6</bundle>
   </feature>
 
   <feature name="instana-vsphere-sensor" version="1.0.24">
