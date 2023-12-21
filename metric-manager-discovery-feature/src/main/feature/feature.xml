@@ -31,8 +31,8 @@
     <bundle start-level="80">mvn:com.instana/discovery-splunkent/1.0.1</bundle>
   </feature>
 
-  <feature name="instana-solarwindsnpm-discovery" version="1.0.0">
-    <bundle start-level="80">mvn:com.instana/discovery-solarwindsnpm/1.0.0</bundle>
+  <feature name="instana-solarwindsnpm-discovery" version="1.0.1">
+    <bundle start-level="80">mvn:com.instana/discovery-solarwindsnpm/1.0.1</bundle>
   </feature>
 
   <feature name="instana-scom-discovery" version="1.0.4">
