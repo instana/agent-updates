@@ -28,7 +28,7 @@
     <bundle start-level="80">wrap:mvn:org.jetbrains.kotlin/kotlin-stdlib/1.9.10</bundle>
     <bundle start-level="80">mvn:com.instana/instana-action-sdk/1.0.40</bundle>
   </feature>
-  
+
   <feature name="common-datacollector-application-apis" version="1.0.0">
      <bundle start-level="80">mvn:com.instana/common-datacollector-application-api/1.0.0</bundle>
      <bundle start-level="80">mvn:com.instana/common-datacollector-application-provider/1.0.0</bundle>
@@ -474,9 +474,9 @@
     <bundle start-level="80">mvn:com.instana/sensor-ec2/1.1.10</bundle>
   </feature>
 
-  <feature name="instana-elasticsearch-sensor" version="1.1.62">
+  <feature name="instana-elasticsearch-sensor" version="1.1.66">
     <feature version="[1.2.126,2)">instana-java-sensor</feature>
-    <bundle start-level="80">mvn:com.instana/sensor-elasticsearch/1.1.62</bundle>
+    <bundle start-level="80">mvn:com.instana/sensor-elasticsearch/1.1.66</bundle>
   </feature>
 
   <feature name="instana-envoy-sensor" version="1.1.1">
