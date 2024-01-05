@@ -1078,6 +1078,11 @@
     <bundle start-level="80">mvn:com.instana/sensor-traefik/1.0.1</bundle>
   </feature>
 
+  <feature name="instana-turbonomic-sensor" version="1.0.8">
+    <feature version="[1.0.40,2)">instana-action-sdk</feature>
+    <bundle start-level="80">mvn:com.instana/sensor-turbonomic/1.0.8</bundle>
+  </feature>
+
   <feature name="instana-tuxedo-sensor" version="1.0.4">
     <bundle start-level="80">mvn:com.instana/sensor-tuxedo/1.0.4</bundle>
   </feature>
