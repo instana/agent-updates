@@ -502,8 +502,8 @@
     <bundle start-level="80">mvn:com.instana/discovery-turbonomic/1.0.8</bundle>
   </feature>
 
-  <feature name="instana-tuxedo-discovery" version="1.0.4">
-    <bundle start-level="80">mvn:com.instana/discovery-tuxedo/1.0.4</bundle>
+  <feature name="instana-tuxedo-discovery" version="1.0.5">
+    <bundle start-level="80">mvn:com.instana/discovery-tuxedo/1.0.5</bundle>
   </feature>
 
   <feature name="instana-tuxedoapp-discovery" version="1.0.8">

@@ -1128,8 +1128,8 @@
     <bundle start-level="80">mvn:com.instana/sensor-turbonomic/1.0.8</bundle>
   </feature>
 
-  <feature name="instana-tuxedo-sensor" version="1.0.4">
-    <bundle start-level="80">mvn:com.instana/sensor-tuxedo/1.0.4</bundle>
+  <feature name="instana-tuxedo-sensor" version="1.0.5">
+    <bundle start-level="80">mvn:com.instana/sensor-tuxedo/1.0.5</bundle>
   </feature>
 
   <feature name="instana-tuxedoapp-sensor" version="1.0.8">
