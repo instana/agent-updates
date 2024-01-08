@@ -726,25 +726,68 @@
     <bundle start-level="80">mvn:com.instana/sensor-kafka/1.1.50</bundle>
   </feature>
 
-  <feature name="fabric8-sdk" version="4.9.2.3">
+  <feature name="aeries-spi-fly" version="1.3.7">
+    <bundle start-level="80">mvn:org.apache.aries.spifly/org.apache.aries.spifly.dynamic.bundle/1.3.7</bundle>
+    <bundle start-level="80">mvn:org.ow2.asm/asm/9.6</bundle>
+    <bundle start-level="80">mvn:org.ow2.asm/asm-commons/9.6</bundle>
+    <bundle start-level="80">mvn:org.ow2.asm/asm-tree/9.6</bundle>
+    <bundle start-level="80">mvn:org.ow2.asm/asm-util/9.6</bundle>
+    <bundle start-level="80">mvn:org.ow2.asm/asm-analysis/9.6</bundle>
+  </feature>
+
+  <feature name="fabric8-sdk" version="4.13.2">
+    <feature version="1.3.7">aeries-spi-fly</feature>
     <bundle start-level="80">
-      <![CDATA[wrap:mvn:io.fabric8/kubernetes-model/4.9.2$overwrite=merge&Import-Package=com.fasterxml.jackson.annotation;version="[2.9.8,3)",*]]>
+      <![CDATA[wrap:mvn:io.fabric8/kubernetes-client/4.13.2//bundle$overwrite=merge&Import-Package=com.fasterxml.jackson.annotation;version="[2.9.8,3)",!org.bouncycastle.*,!org.osgi.*, !org.apache.felix.scr.annotations.*, *]]>
     </bundle>
     <bundle start-level="80">
-      <![CDATA[wrap:mvn:io.fabric8/kubernetes-client/4.9.2//bundle$overwrite=merge&Import-Package=com.fasterxml.jackson.annotation;version="[2.9.8,3)",!org.bouncycastle.*, *]]>
+      <![CDATA[wrap:mvn:io.fabric8/openshift-client/4.13.2//bundle$overwrite=merge&Import-Package=com.fasterxml.jackson.annotation;version="[2.9.8,3)",!org.osgi.*,*]]>
     </bundle>
-    <bundle start-level="80">
-      <![CDATA[wrap:mvn:io.fabric8/openshift-client/4.9.2//bundle$overwrite=merge&Import-Package=com.fasterxml.jackson.annotation;version="[2.9.8,3)",*]]>
-    </bundle>
-    <bundle start-level="80">mvn:com.fasterxml.jackson.datatype/jackson-datatype-jsr310/2.9.8</bundle>
-    <bundle start-level="80">mvn:commons-codec/commons-codec/1.13</bundle>
-    <bundle start-level="80">mvn:org.apache.commons/commons-compress/1.21</bundle>
-    <bundle start-level="80">mvn:javax.validation/validation-api/1.1.0.Final</bundle>
-    <bundle start-level="80">wrap:mvn:io.fabric8/zjsonpatch/0.3.0/</bundle>
-    <bundle start-level="80">wrap:mvn:com.squareup.okio/okio/1.14.0</bundle>
-    <bundle start-level="80">wrap:mvn:com.squareup.okhttp3/okhttp/3.12.12</bundle>
-    <bundle start-level="80">wrap:mvn:com.squareup.okhttp3/logging-interceptor/3.12.12</bundle>
-    <bundle start-level="80">wrap:mvn:com.github.mifmif/generex/1.0.1</bundle>
+
+    <!-- This is all taken from looking at the compile dependencies of: https://mvnrepository.com/artifact/io.fabric8/kubernetes-client/4.13.2 -->
+    <!-- and correlating it with the output of mvn dependency:tree or mvn dependency:resolve -DincludeScope=provided or -DincludeScope=compile -->
+    <!-- in the kubernetes-parent in the sensors repository -->
+    <!-- <bundle start-level="80">mvn:io.fabric8/kubernetes-client/4.13.2</bundle> -->
+    <bundle start-level="80">mvn:com.fasterxml.jackson.datatype/jackson-datatype-jsr310/2.15.3</bundle>
+    <bundle start-level="80">wrap:mvn:com.github.mifmif/generex/1.0.2</bundle>
+    <bundle start-level="80">wrap:mvn:dk.brics.automaton/automaton/1.11-8</bundle>
+    <bundle start-level="80">wrap:mvn:com.squareup.okhttp3/okhttp/4.12.0</bundle>
+    <bundle start-level="80">wrap:mvn:com.squareup.okio/okio-jvm/3.6.0</bundle>
+    <bundle start-level="80">wrap:mvn:org.jetbrains.kotlin/kotlin-stdlib/1.8.21</bundle>
+    <bundle start-level="80">wrap:mvn:com.squareup.okhttp3/logging-interceptor/4.12.0</bundle>
+    <bundle start-level="80">wrap:mvn:org.jetbrains.kotlin/kotlin-stdlib-jdk7/1.8.21</bundle>
+    <bundle start-level="80">mvn:io.fabric8/kubernetes-model-core/4.13.2</bundle>
+    <bundle start-level="80">mvn:io.fabric8/kubernetes-model-common/4.13.2</bundle>
+    <bundle start-level="80">mvn:io.fabric8/kubernetes-model-rbac/4.13.2</bundle>
+    <bundle start-level="80">mvn:io.fabric8/kubernetes-model-admissionregistration/4.13.2</bundle>
+    <bundle start-level="80">mvn:io.fabric8/kubernetes-model-apps/4.13.2</bundle>
+    <bundle start-level="80">mvn:io.fabric8/kubernetes-model-autoscaling/4.13.2</bundle>
+    <bundle start-level="80">mvn:io.fabric8/kubernetes-model-apiextensions/4.13.2</bundle>
+    <bundle start-level="80">mvn:io.fabric8/kubernetes-model-batch/4.13.2</bundle>
+    <bundle start-level="80">mvn:io.fabric8/kubernetes-model-certificates/4.13.2</bundle>
+    <bundle start-level="80">mvn:io.fabric8/kubernetes-model-coordination/4.13.2</bundle>
+    <bundle start-level="80">mvn:io.fabric8/kubernetes-model-discovery/4.13.2</bundle>
+    <bundle start-level="80">mvn:io.fabric8/kubernetes-model-events/4.13.2</bundle>
+    <bundle start-level="80">mvn:io.fabric8/kubernetes-model-extensions/4.13.2</bundle>
+    <bundle start-level="80">mvn:io.fabric8/kubernetes-model-networking/4.13.2</bundle>
+    <bundle start-level="80">mvn:io.fabric8/kubernetes-model-metrics/4.13.2</bundle>
+    <bundle start-level="80">mvn:io.fabric8/kubernetes-model-policy/4.13.2</bundle>
+    <bundle start-level="80">mvn:io.fabric8/kubernetes-model-scheduling/4.13.2</bundle>
+    <bundle start-level="80">mvn:io.fabric8/kubernetes-model-settings/4.13.2</bundle>
+    <bundle start-level="80">mvn:io.fabric8/kubernetes-model-storageclass/4.13.2</bundle>
+    <bundle start-level="80">mvn:io.fabric8/kubernetes-model-node/4.13.2</bundle>
+    <bundle start-level="80">mvn:io.fabric8/zjsonpatch/0.3.0</bundle>
+    <bundle start-level="80">mvn:commons-codec/commons-codec/1.16.0</bundle>
+    <bundle start-level="80">mvn:org.apache.commons/commons-compress/1.24.0</bundle>
+
+    <!-- This is all taken from looking at the compile dependencies of: https://mvnrepository.com/artifact/io.fabric8/openshift-client/4.13.2 -->
+    <!-- and correlating it with the output of mvn dependency:tree or mvn dependency:resolve -DincludeScope=provided or -DincludeScope=compile -->
+    <!-- in the kubernetes-parent in the sensors repository in addition to only adding the same dependencies once -->
+    <bundle start-level="80">mvn:io.fabric8/openshift-model/4.13.2</bundle>
+    <bundle start-level="80">mvn:io.fabric8/openshift-model-operator/4.13.2</bundle>
+    <bundle start-level="80">mvn:io.fabric8/openshift-model-operatorhub/4.13.2</bundle>
+    <bundle start-level="80">mvn:io.fabric8/openshift-model-monitoring/4.13.2</bundle>
+    <bundle start-level="80">mvn:io.fabric8/openshift-model-console/4.13.2</bundle>
   </feature>
 
   <feature name="instana-kong-sensor" version="1.0.10">
@@ -753,12 +796,14 @@
     <bundle start-level="80">mvn:com.instana/sensor-kong/1.0.10</bundle>
   </feature>
 
-  <feature name="instana-kubernetes-sensor" version="1.2.141">
+  <feature name="instana-kubernetes-sensor" version="1.2.143">
     <feature version="[1.0.0,2)">instana-coordination-sdk</feature>
-    <feature version="4.9.2.3">fabric8-sdk</feature>
+    <feature version="4.13.2">fabric8-sdk</feature>
+    <bundle start-level="80">mvn:org.apache.commons/commons-lang3/3.5</bundle>
+    <bundle start-level="80">mvn:org.apache.commons/commons-collections4/4.1</bundle>
     <bundle start-level="80">mvn:javax.validation/validation-api/2.0.1.Final</bundle>
     <bundle start-level="80">mvn:com.cronutils/cron-utils/9.1.6</bundle>
-    <bundle start-level="80">mvn:com.instana/sensor-kubernetes/1.2.141</bundle>
+    <bundle start-level="80">mvn:com.instana/sensor-kubernetes/1.2.143</bundle>
   </feature>
 
   <feature name="instana-liferay-sensor" version="1.0.2">
@@ -933,9 +978,9 @@
     <bundle start-level="80">mvn:com.instana/sensor-process/1.1.48</bundle>
   </feature>
 
-  <feature name="instana-prometheus-kubernetes-discovery" version="1.0.50">
-    <feature version="4.9.2.3">fabric8-sdk</feature>
-    <bundle start-level="80">mvn:com.instana/discovery-prometheus-kubernetes/1.0.50</bundle>
+  <feature name="instana-prometheus-kubernetes-discovery" version="1.0.52">
+    <bundle start-level="80">mvn:com.instana/discovery-prometheus-kubernetes/1.0.52</bundle>
+    <feature version="4.13.2">fabric8-sdk</feature>
   </feature>
 
   <feature name="instana-prometheus-sensor" version="1.0.50">
