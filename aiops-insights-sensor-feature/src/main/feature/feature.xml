@@ -180,9 +180,9 @@
     <bundle start-level="80">mvn:com.instana/sensor-scom/1.0.2</bundle>
   </feature>
 
-  <feature name="instana-sevone-sensor" version="1.0.4">
+  <feature name="instana-sevone-sensor" version="1.0.8">
     <feature version="[1.0.4,2)">ibm-apm-importer</feature>
-    <bundle start-level="80">mvn:com.instana/sensor-sevone/1.0.4</bundle>
+    <bundle start-level="80">mvn:com.instana/sensor-sevone/1.0.8</bundle>
   </feature>
 
   <feature name="instana-splunk-sensor" version="1.0.7">
