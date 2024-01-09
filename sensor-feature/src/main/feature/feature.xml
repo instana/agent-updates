@@ -214,13 +214,16 @@
 
   <feature name="aws-sdk" version="1.12.296">
     <bundle start-level="80">
-      <![CDATA[wrap:mvn:com.amazonaws/aws-java-sdk-core/1.12.296$Bundle-SymbolicName=aws-core&Export-Package=*&Require-Bundle=aws-sts,aws-s3]]>
+      <![CDATA[wrap:mvn:com.amazonaws/aws-java-sdk-core/1.12.296$Bundle-SymbolicName=aws-core&Export-Package=*&Require-Bundle=aws-sts,aws-s3,aws-cloudfront]]>
     </bundle>
     <bundle start-level="80">
       <![CDATA[wrap:mvn:com.amazonaws/aws-java-sdk-sts/1.12.296$Bundle-SymbolicName=aws-sts&Import-Package=!com.amazonaws.auth.*,*;resolution:=optional&Export-Package=com.amazonaws.auth;partial=true;mandatory:=partial,com.amazonaws.*&Require-Bundle=aws-core]]>
     </bundle>
     <bundle start-level="80">
       <![CDATA[wrap:mvn:com.amazonaws/aws-java-sdk-s3/1.12.296$Bundle-SymbolicName=aws-s3&Import-Package=!com.amazonaws.auth.*,*;resolution:=optional&Export-Package=com.amazonaws.auth;partial=true;mandatory:=partial,com.amazonaws.*&Require-Bundle=aws-core]]>
+    </bundle>
+    <bundle start-level="80">
+      <![CDATA[wrap:mvn:com.amazonaws/aws-java-sdk-cloudfront/1.12.296$Bundle-SymbolicName=aws-cloudfront&Import-Package=!com.amazonaws.auth.*,*;resolution:=optional&Export-Package=com.amazonaws.auth;partial=true;mandatory:=partial,com.amazonaws.*&Require-Bundle=aws-core]]>
     </bundle>
     <bundle start-level="80">wrap:mvn:com.amazonaws/aws-java-sdk-sqs/1.12.296$Bundle-SymbolicName=aws-sqs</bundle>
     <bundle start-level="80">wrap:mvn:com.amazonaws/aws-java-sdk-elasticache/1.12.296$Bundle-SymbolicName=aws-elasticache</bundle>
@@ -240,7 +243,6 @@
     <bundle start-level="80">wrap:mvn:com.amazonaws/aws-java-sdk-cloudwatch/1.12.296$Bundle-SymbolicName=aws-cloudwatch</bundle>
     <bundle start-level="80">wrap:mvn:com.amazonaws/aws-java-sdk-api-gateway/1.12.296$Bundle-SymbolicName=aws-api-gateway</bundle>
     <bundle start-level="80">wrap:mvn:com.amazonaws/aws-java-sdk-apigatewayv2/1.12.296$Bundle-SymbolicName=aws-apigatewayv2</bundle>
-    <bundle start-level="80">wrap:mvn:com.amazonaws/aws-java-sdk-cloudfront/1.12.296$Bundle-SymbolicName=aws-cloudfront</bundle>
     <bundle start-level="80">wrap:mvn:com.amazonaws/aws-java-sdk-redshift/1.12.296$Bundle-SymbolicName=aws-redshift</bundle>
     <bundle start-level="80">wrap:mvn:com.amazonaws/aws-java-sdk-resourcegroupstaggingapi/1.12.296$Bundle-SymbolicName=aws-resourcegroupstaggingapi</bundle>
   </feature>
