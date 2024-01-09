@@ -748,7 +748,7 @@
     <!-- and correlating it with the output of mvn dependency:tree or mvn dependency:resolve -DincludeScope=provided or -DincludeScope=compile -->
     <!-- in the kubernetes-parent in the sensors repository -->
     <!-- <bundle start-level="80">mvn:io.fabric8/kubernetes-client/4.13.2</bundle> -->
-    <bundle start-level="80">mvn:com.fasterxml.jackson.datatype/jackson-datatype-jsr310/2.15.3</bundle>
+    <bundle start-level="80">mvn:com.fasterxml.jackson.datatype/jackson-datatype-jsr310/2.9.8</bundle>
     <bundle start-level="80">wrap:mvn:com.github.mifmif/generex/1.0.2</bundle>
     <bundle start-level="80">wrap:mvn:dk.brics.automaton/automaton/1.11-8</bundle>
     <bundle start-level="80">wrap:mvn:com.squareup.okhttp3/okhttp/4.12.0</bundle>
