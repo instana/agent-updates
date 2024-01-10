@@ -57,8 +57,8 @@
     <bundle start-level="80">mvn:com.instana/discovery-ibmcloud/1.0.14</bundle>
   </feature>
 
-  <feature name="instana-kubernetes-discovery" version="1.2.139">
-    <bundle start-level="80">mvn:com.instana/discovery-kubernetes/1.2.139</bundle>
+  <feature name="instana-kubernetes-discovery" version="1.2.143">
+    <bundle start-level="80">mvn:com.instana/discovery-kubernetes/1.2.143</bundle>
   </feature>
 
   <feature name="instana-ibmopenstack-discovery" version="1.0.7">
