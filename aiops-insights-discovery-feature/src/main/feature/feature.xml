@@ -69,8 +69,8 @@
     <bundle start-level="80">mvn:com.instana/discovery-instana-remote/1.0.10</bundle>
   </feature>
 
-  <feature name="instana-nagios-discovery" version="1.0.7">
-    <bundle start-level="80">mvn:com.instana/discovery-nagios/1.0.7</bundle>
+  <feature name="instana-nagios-discovery" version="1.0.10">
+    <bundle start-level="80">mvn:com.instana/discovery-nagios/1.0.10</bundle>
   </feature>
 
   <feature name="instana-newrelic-discovery" version="1.0.13">
