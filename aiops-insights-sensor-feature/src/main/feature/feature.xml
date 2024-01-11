@@ -41,9 +41,11 @@
     <bundle start-level="80">mvn:com.instana/sensor-action-script/1.0.40</bundle>
   </feature>
 
-  <feature name="instana-appdynamics-sensor" version="1.0.7">
+  <feature name="instana-appdynamics-sensor" version="1.0.10">
     <feature version="[1.0.5,2)">ibm-apm-importer</feature>
-    <bundle start-level="80">mvn:com.instana/sensor-appdynamics/1.0.7</bundle>
+    <bundle start-level="80">mvn:com.instana/sensor-appdynamics/1.0.10</bundle>
+    <bundle start-level="80">mvn:org.apache.httpcomponents/httpcore-osgi/4.4.9</bundle>
+    <bundle start-level="80">mvn:com.basistech.org.apache.httpcomponents/httpclient-osgi/4.5.13</bundle>
   </feature>
 
   <feature name="instana-apmproxy-sensor" version="1.0.8">
