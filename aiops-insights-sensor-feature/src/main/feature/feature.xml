@@ -79,11 +79,11 @@
     <bundle start-level="80">mvn:com.instana/sensor-docker/1.1.73</bundle>
   </feature>
 
-  <feature name="instana-dynatrace-sensor" version="1.0.7">
+  <feature name="instana-dynatrace-sensor" version="1.0.14">
     <feature version="[1.0.4,2)">ibm-apm-importer</feature>
     <bundle start-level="80">mvn:com.instana/common-datacollector-application-api/1.0.0</bundle>
     <bundle start-level="80">mvn:com.instana/common-datacollector-application-provider/1.0.0</bundle>
-    <bundle start-level="80">mvn:com.instana/sensor-dynatrace/1.0.7</bundle>
+    <bundle start-level="80">mvn:com.instana/sensor-dynatrace/1.0.14</bundle>
   </feature>
 
   <feature name="instana-ec2-sensor" version="1.1.10">
