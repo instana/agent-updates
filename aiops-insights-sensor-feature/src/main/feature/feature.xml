@@ -11,7 +11,7 @@
     <bundle start-level="80">mvn:com.instana/cdc-sensor-api/1.0.2</bundle>
   </feature>
 
-  <feature name="instana-action-sdk" version="1.0.40">
+  <feature name="instana-action-sdk" version="1.0.41">
     <bundle start-level="80">mvn:org.ow2.asm/asm/9.3</bundle>
     <bundle start-level="80">mvn:net.minidev/accessors-smart/2.4.9</bundle>
     <bundle start-level="80">mvn:net.minidev/json-smart/2.4.9</bundle>
@@ -19,26 +19,26 @@
     <bundle start-level="80">wrap:mvn:com.squareup.okhttp3/okhttp/4.12.0</bundle>
     <bundle start-level="80">wrap:mvn:com.squareup.okio/okio-jvm/3.6.0</bundle>
     <bundle start-level="80">wrap:mvn:org.jetbrains.kotlin/kotlin-stdlib/1.9.10</bundle>
-    <bundle start-level="80">mvn:com.instana/instana-action-sdk/1.0.40</bundle>
+    <bundle start-level="80">mvn:com.instana/instana-action-sdk/1.0.41</bundle>
   </feature>
 
-  <feature name="instana-action-services-discovery" version="1.0.40">
-    <bundle start-level="80">mvn:com.instana/discovery-action-services/1.0.40</bundle>
+  <feature name="instana-action-services-discovery" version="1.0.41">
+    <bundle start-level="80">mvn:com.instana/discovery-action-services/1.0.41</bundle>
   </feature>
 
-  <feature name="instana-action-ansible-sensor" version="1.0.40">
-    <feature version="[1.0.40,2)">instana-action-sdk</feature>
-    <bundle start-level="80">mvn:com.instana/sensor-action-ansible/1.0.40</bundle>
+  <feature name="instana-action-ansible-sensor" version="1.0.41">
+    <feature version="[1.0.41,2)">instana-action-sdk</feature>
+    <bundle start-level="80">mvn:com.instana/sensor-action-ansible/1.0.41</bundle>
   </feature>
 
-  <feature name="instana-action-http-sensor" version="1.0.40">
-    <feature version="[1.0.40,2)">instana-action-sdk</feature>
-    <bundle start-level="80">mvn:com.instana/sensor-action-http/1.0.40</bundle>
+  <feature name="instana-action-http-sensor" version="1.0.41">
+    <feature version="[1.0.41,2)">instana-action-sdk</feature>
+    <bundle start-level="80">mvn:com.instana/sensor-action-http/1.0.41</bundle>
   </feature>
 
-  <feature name="instana-action-script-sensor" version="1.0.40">
-    <feature version="[1.0.40,2)">instana-action-sdk</feature>
-    <bundle start-level="80">mvn:com.instana/sensor-action-script/1.0.40</bundle>
+  <feature name="instana-action-script-sensor" version="1.0.41">
+    <feature version="[1.0.41,2)">instana-action-sdk</feature>
+    <bundle start-level="80">mvn:com.instana/sensor-action-script/1.0.41</bundle>
   </feature>
 
   <feature name="instana-appdynamics-sensor" version="1.0.10">
