@@ -228,9 +228,9 @@
     <bundle start-level="80">mvn:com.instana/sensor-newrelic/1.0.13</bundle>
   </feature>
 
-  <feature name="instana-node-exporter-sensor" version="1.0.1">
+  <feature name="instana-node-exporter-sensor" version="1.0.2">
     <feature version="[1.0.10,2)">ibm-apm-importer</feature>
-    <bundle start-level="80">mvn:com.instana/sensor-node-exporter/1.0.1</bundle>
+    <bundle start-level="80">mvn:com.instana/sensor-node-exporter/1.0.2</bundle>
   </feature>
 
   <feature name="instana-power-hmc-sensor" version="1.0.12">
