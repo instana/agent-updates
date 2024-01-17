@@ -260,10 +260,10 @@
     <bundle start-level="80">mvn:com.instana/sensor-splunk/1.0.7</bundle>
   </feature>
 
-  <feature name="instana-solarwinds-sensor" version="1.0.6">
+  <feature name="instana-solarwinds-sensor" version="1.0.7">
     <feature version="[1.0.4,2)">ibm-apm-importer</feature>
     <feature version="[1.0.2,2)">cdc-sensor-api</feature>
-    <bundle start-level="80">mvn:com.instana/sensor-solarwinds/1.0.6</bundle>
+    <bundle start-level="80">mvn:com.instana/sensor-solarwinds/1.0.7</bundle>
   </feature>
 
   <feature name="instana-vsphere-sensor" version="1.0.24">
