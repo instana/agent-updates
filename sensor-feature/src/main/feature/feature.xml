@@ -380,8 +380,8 @@
     <bundle start-level="90">mvn:com.instana/sensor-cpp-trace/1.0.0</bundle>
   </feature>
 
-  <feature name="instana-clr-sensor" version="1.1.102">
-    <bundle start-level="80">mvn:com.instana/sensor-clr/1.1.102</bundle>
+  <feature name="instana-clr-sensor" version="1.1.103">
+    <bundle start-level="80">mvn:com.instana/sensor-clr/1.1.103</bundle>
   </feature>
 
   <feature name="instana-clr-trace-sensor" version="1.1.8">
