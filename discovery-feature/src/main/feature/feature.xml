@@ -5,8 +5,8 @@
     <bundle start-level="80">mvn:com.instana/discovery-ace/1.0.68</bundle>
   </feature>
 
-  <feature name="instana-action-discovery" version="1.0.42">
-    <bundle start-level="80">mvn:com.instana/discovery-action/1.0.42</bundle>
+  <feature name="instana-action-discovery" version="1.0.43">
+    <bundle start-level="80">mvn:com.instana/discovery-action/1.0.43</bundle>
   </feature>
 
   <feature name="instana-activemq-artemis-discovery" version="1.0.8">
