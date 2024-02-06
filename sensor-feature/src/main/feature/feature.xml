@@ -463,9 +463,9 @@
     <bundle start-level="80">mvn:com.instana/sensor-domino/1.0.3</bundle>
   </feature>
 
-  <feature name="instana-dropwizard-sensor" version="1.1.28">
+  <feature name="instana-dropwizard-sensor" version="1.1.29">
     <feature version="[1.2.126,2)">instana-java-sensor</feature>
-    <bundle start-level="80">mvn:com.instana/sensor-dropwizard/1.1.28</bundle>
+    <bundle start-level="80">mvn:com.instana/sensor-dropwizard/1.1.29</bundle>
   </feature>
 
   <feature name="instana-ebpf-sensor" version="1.0.25">
