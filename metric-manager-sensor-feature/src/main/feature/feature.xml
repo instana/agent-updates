@@ -50,43 +50,49 @@
     <bundle start-level="80">mvn:com.instana/sensor-vsphere/1.0.24</bundle>
   </feature>
 
-  <feature name="aws-sdk" version="1.12.296">
+  <feature name="aws-sdk" version="1.12.475">
     <bundle start-level="80">
-      <![CDATA[wrap:mvn:com.amazonaws/aws-java-sdk-core/1.12.296$Bundle-SymbolicName=aws-core&Export-Package=*&Require-Bundle=aws-sts,aws-s3,aws-cloudfront]]>
+      <![CDATA[wrap:mvn:com.amazonaws/aws-java-sdk-core/1.12.475$Bundle-SymbolicName=aws-core&Export-Package=*&Require-Bundle=aws-sts,aws-s3,aws-cloudfront]]>
     </bundle>
     <bundle start-level="80">
-      <![CDATA[wrap:mvn:com.amazonaws/aws-java-sdk-sts/1.12.296$Bundle-SymbolicName=aws-sts&Import-Package=!com.amazonaws.auth.*,*;resolution:=optional&Export-Package=com.amazonaws.auth;partial=true;mandatory:=partial,com.amazonaws.*&Require-Bundle=aws-core]]>
+      <![CDATA[wrap:mvn:com.amazonaws/aws-java-sdk-sts/1.12.475$Bundle-SymbolicName=aws-sts&Import-Package=!com.amazonaws.auth.*,*;resolution:=optional&Export-Package=com.amazonaws.auth;partial=true;mandatory:=partial,com.amazonaws.*&Require-Bundle=aws-core]]>
     </bundle>
     <bundle start-level="80">
-      <![CDATA[wrap:mvn:com.amazonaws/aws-java-sdk-s3/1.12.296$Bundle-SymbolicName=aws-s3&Import-Package=!com.amazonaws.auth.*,*;resolution:=optional&Export-Package=com.amazonaws.auth;partial=true;mandatory:=partial,com.amazonaws.*&Require-Bundle=aws-core]]>
+      <![CDATA[wrap:mvn:com.amazonaws/aws-java-sdk-s3/1.12.475$Bundle-SymbolicName=aws-s3&Import-Package=!com.amazonaws.auth.*,*;resolution:=optional&Export-Package=com.amazonaws.auth;partial=true;mandatory:=partial,com.amazonaws.*&Require-Bundle=aws-core]]>
     </bundle>
     <bundle start-level="80">
-      <![CDATA[wrap:mvn:com.amazonaws/aws-java-sdk-cloudfront/1.12.296$Bundle-SymbolicName=aws-cloudfront&Import-Package=!com.amazonaws.auth.*,*;resolution:=optional&Export-Package=com.amazonaws.auth;partial=true;mandatory:=partial,com.amazonaws.*&Require-Bundle=aws-core]]>
+      <![CDATA[wrap:mvn:com.amazonaws/aws-java-sdk-cloudfront/1.12.475$Bundle-SymbolicName=aws-cloudfront&Import-Package=!com.amazonaws.auth.*,*;resolution:=optional&Export-Package=com.amazonaws.auth;partial=true;mandatory:=partial,com.amazonaws.*&Require-Bundle=aws-core]]>
     </bundle>
-    <bundle start-level="80">wrap:mvn:com.amazonaws/aws-java-sdk-sqs/1.12.296$Bundle-SymbolicName=aws-sqs</bundle>
-    <bundle start-level="80">wrap:mvn:com.amazonaws/aws-java-sdk-elasticache/1.12.296$Bundle-SymbolicName=aws-elasticache</bundle>
-    <bundle start-level="80">wrap:mvn:com.amazonaws/aws-java-sdk-ec2/1.12.296$Bundle-SymbolicName=aws-ec2</bundle>
-    <bundle start-level="80">wrap:mvn:com.amazonaws/aws-java-sdk-elasticloadbalancing/1.12.296$Bundle-SymbolicName=aws-elasticloadbalancing</bundle>
-    <bundle start-level="80">wrap:mvn:com.amazonaws/aws-java-sdk-elasticloadbalancingv2/1.12.296$Bundle-SymbolicName=aws-elasticloadbalancingv2</bundle>
-    <bundle start-level="80">wrap:mvn:com.amazonaws/aws-java-sdk-elasticsearch/1.12.296$Bundle-SymbolicName=aws-elasticsearch</bundle>
-    <bundle start-level="80">wrap:mvn:com.amazonaws/aws-java-sdk-emr/1.12.296$Bundle-SymbolicName=aws-emr</bundle>
-    <bundle start-level="80">wrap:mvn:com.amazonaws/aws-java-sdk-rds/1.12.296$Bundle-SymbolicName=aws-rds</bundle>
-    <bundle start-level="80">wrap:mvn:com.amazonaws/aws-java-sdk-mq/1.12.296$Bundle-SymbolicName=aws-mq</bundle>
-    <bundle start-level="80">wrap:mvn:com.amazonaws/aws-java-sdk-lambda/1.12.296$Bundle-SymbolicName=aws-lambda</bundle>
-    <bundle start-level="80">wrap:mvn:com.amazonaws/aws-java-sdk-kinesis/1.12.296$Bundle-SymbolicName=aws-kinesis</bundle>
-    <bundle start-level="80">wrap:mvn:com.amazonaws/aws-java-sdk-dynamodb/1.12.296$Bundle-SymbolicName=aws-dynamodb</bundle>
-    <bundle start-level="80">wrap:mvn:com.amazonaws/aws-java-sdk-elasticbeanstalk/1.12.296$Bundle-SymbolicName=aws-elasticbeanstalk</bundle>
-    <bundle start-level="80">wrap:mvn:com.amazonaws/aws-java-sdk-xray/1.12.296$Bundle-SymbolicName=aws-xray</bundle>
-    <bundle start-level="80">wrap:mvn:com.amazonaws/aws-java-sdk-kafka/1.12.296$Bundle-SymbolicName=aws-kafka</bundle>
-    <bundle start-level="80">wrap:mvn:com.amazonaws/aws-java-sdk-cloudwatch/1.12.296$Bundle-SymbolicName=aws-cloudwatch</bundle>
-    <bundle start-level="80">wrap:mvn:com.amazonaws/aws-java-sdk-api-gateway/1.12.296$Bundle-SymbolicName=aws-api-gateway</bundle>
-    <bundle start-level="80">wrap:mvn:com.amazonaws/aws-java-sdk-apigatewayv2/1.12.296$Bundle-SymbolicName=aws-apigatewayv2</bundle>
-    <bundle start-level="80">wrap:mvn:com.amazonaws/aws-java-sdk-redshift/1.12.296$Bundle-SymbolicName=aws-redshift</bundle>
-    <bundle start-level="80">wrap:mvn:com.amazonaws/aws-java-sdk-resourcegroupstaggingapi/1.12.296$Bundle-SymbolicName=aws-resourcegroupstaggingapi</bundle>
+    <bundle start-level="80">wrap:mvn:com.amazonaws/aws-java-sdk-sqs/1.12.475$Bundle-SymbolicName=aws-sqs</bundle>
+    <bundle start-level="80">wrap:mvn:com.amazonaws/aws-java-sdk-elasticache/1.12.475$Bundle-SymbolicName=aws-elasticache</bundle>
+    <bundle start-level="80">wrap:mvn:com.amazonaws/aws-java-sdk-ec2/1.12.475$Bundle-SymbolicName=aws-ec2</bundle>
+    <bundle start-level="80">wrap:mvn:com.amazonaws/aws-java-sdk-elasticloadbalancing/1.12.475$Bundle-SymbolicName=aws-elasticloadbalancing</bundle>
+    <bundle start-level="80">wrap:mvn:com.amazonaws/aws-java-sdk-elasticloadbalancingv2/1.12.475$Bundle-SymbolicName=aws-elasticloadbalancingv2</bundle>
+    <bundle start-level="80">wrap:mvn:com.amazonaws/aws-java-sdk-elasticsearch/1.12.475$Bundle-SymbolicName=aws-elasticsearch</bundle>
+    <bundle start-level="80">wrap:mvn:com.amazonaws/aws-java-sdk-emr/1.12.475$Bundle-SymbolicName=aws-emr</bundle>
+    <bundle start-level="80">wrap:mvn:com.amazonaws/aws-java-sdk-rds/1.12.475$Bundle-SymbolicName=aws-rds</bundle>
+    <bundle start-level="80">wrap:mvn:com.amazonaws/aws-java-sdk-mq/1.12.475$Bundle-SymbolicName=aws-mq</bundle>
+    <bundle start-level="80">wrap:mvn:com.amazonaws/aws-java-sdk-lambda/1.12.475$Bundle-SymbolicName=aws-lambda</bundle>
+    <bundle start-level="80">wrap:mvn:com.amazonaws/aws-java-sdk-kinesis/1.12.475$Bundle-SymbolicName=aws-kinesis</bundle>
+    <bundle start-level="80">wrap:mvn:com.amazonaws/aws-java-sdk-dynamodb/1.12.475$Bundle-SymbolicName=aws-dynamodb</bundle>
+    <bundle start-level="80">wrap:mvn:com.amazonaws/aws-java-sdk-elasticbeanstalk/1.12.475$Bundle-SymbolicName=aws-elasticbeanstalk</bundle>
+    <bundle start-level="80">wrap:mvn:com.amazonaws/aws-java-sdk-xray/1.12.475$Bundle-SymbolicName=aws-xray</bundle>
+    <bundle start-level="80">wrap:mvn:com.amazonaws/aws-java-sdk-kafka/1.12.475$Bundle-SymbolicName=aws-kafka</bundle>
+    <bundle start-level="80">wrap:mvn:com.amazonaws/aws-java-sdk-cloudwatch/1.12.475$Bundle-SymbolicName=aws-cloudwatch</bundle>
+    <bundle start-level="80">wrap:mvn:com.amazonaws/aws-java-sdk-api-gateway/1.12.475$Bundle-SymbolicName=aws-api-gateway</bundle>
+    <bundle start-level="80">wrap:mvn:com.amazonaws/aws-java-sdk-apigatewayv2/1.12.475$Bundle-SymbolicName=aws-apigatewayv2</bundle>
+    <bundle start-level="80">wrap:mvn:com.amazonaws/aws-java-sdk-redshift/1.12.475$Bundle-SymbolicName=aws-redshift</bundle>
+    <bundle start-level="80">wrap:mvn:com.amazonaws/aws-java-sdk-appsync/1.12.475$Bundle-SymbolicName=aws-appsync</bundle>
+    <bundle start-level="80">wrap:mvn:com.amazonaws/aws-java-sdk-resourcegroupstaggingapi/1.12.475$Bundle-SymbolicName=aws-resourcegroupstaggingapi</bundle>
   </feature>
 
-  <feature name="instana-aws-sdk" version="1.0.127">
-    <feature version="1.12.296">aws-sdk</feature>
+  <feature name="instana-aws-services-discovery" version="1.0.128">
+    <feature version="[1.0.128,2)">instana-aws-sdk</feature>
+    <bundle start-level="80">mvn:com.instana/discovery-aws-services/1.0.128</bundle>
+  </feature>
+
+  <feature name="instana-aws-sdk" version="1.0.128">
+    <feature version="1.12.475">aws-sdk</feature>
     <bundle start-level="80">mvn:org.apache.httpcomponents/httpcore-osgi/4.4.9</bundle>
     <bundle start-level="80">mvn:com.basistech.org.apache.httpcomponents/httpclient-osgi/4.5.13</bundle>
     <bundle start-level="80">mvn:joda-time/joda-time/2.9.9</bundle>
@@ -95,42 +101,42 @@
     </bundle>
 
     <bundle start-level="80">mvn:software.amazon.ion/ion-java/1.0.3</bundle>
-    <bundle start-level="80">mvn:com.instana/instana-aws-sdk/1.0.127</bundle>
+    <bundle start-level="80">mvn:com.instana/instana-aws-sdk/1.0.128</bundle>
   </feature>
 
-  <feature name="instana-aws-beanstalk-sensor" version="1.0.127">
-    <feature version="[1.0.127,2)">instana-aws-sdk</feature>
-    <bundle start-level="80">mvn:com.instana/sensor-aws-beanstalk/1.0.127</bundle>
+  <feature name="instana-aws-beanstalk-sensor" version="1.0.128">
+    <feature version="[1.0.128,2)">instana-aws-sdk</feature>
+    <bundle start-level="80">mvn:com.instana/sensor-aws-beanstalk/1.0.128</bundle>
   </feature>
 
-  <feature name="instana-aws-dynamodb-sensor" version="1.0.127">
-    <feature version="[1.0.127,2)">instana-aws-sdk</feature>
-    <bundle start-level="80">mvn:com.instana/sensor-aws-dynamodb/1.0.127</bundle>
+  <feature name="instana-aws-dynamodb-sensor" version="1.0.128">
+    <feature version="[1.0.128,2)">instana-aws-sdk</feature>
+    <bundle start-level="80">mvn:com.instana/sensor-aws-dynamodb/1.0.128</bundle>
   </feature>
 
-  <feature name="instana-aws-ebs-sensor" version="1.0.127">
-    <feature version="[1.0.127,2)">instana-aws-sdk</feature>
-    <bundle start-level="80">mvn:com.instana/sensor-aws-ebs/1.0.127</bundle>
+  <feature name="instana-aws-ebs-sensor" version="1.0.128">
+    <feature version="[1.0.128,2)">instana-aws-sdk</feature>
+    <bundle start-level="80">mvn:com.instana/sensor-aws-ebs/1.0.128</bundle>
   </feature>
 
-  <feature name="instana-aws-ec-sensor" version="1.0.127">
-    <feature version="[1.0.127,2)">instana-aws-sdk</feature>
-    <bundle start-level="80">mvn:com.instana/sensor-aws-ec/1.0.127</bundle>
+  <feature name="instana-aws-ec-sensor" version="1.0.128">
+    <feature version="[1.0.128,2)">instana-aws-sdk</feature>
+    <bundle start-level="80">mvn:com.instana/sensor-aws-ec/1.0.128</bundle>
   </feature>
 
-  <feature name="instana-aws-ec2-sensor" version="1.0.127">
-    <feature version="[1.0.127,2)">instana-aws-sdk</feature>
-    <bundle start-level="80">mvn:com.instana/sensor-aws-ec2/1.0.127</bundle>
+  <feature name="instana-aws-ec2-sensor" version="1.0.128">
+    <feature version="[1.0.128,2)">instana-aws-sdk</feature>
+    <bundle start-level="80">mvn:com.instana/sensor-aws-ec2/1.0.128</bundle>
   </feature>
 
-  <feature name="instana-aws-elb-sensor" version="1.0.127">
-    <feature version="[1.0.127,2)">instana-aws-sdk</feature>
-    <bundle start-level="80">mvn:com.instana/sensor-aws-elb/1.0.127</bundle>
+  <feature name="instana-aws-elb-sensor" version="1.0.128">
+    <feature version="[1.0.128,2)">instana-aws-sdk</feature>
+    <bundle start-level="80">mvn:com.instana/sensor-aws-elb/1.0.128</bundle>
   </feature>
 
-  <feature name="instana-aws-lambda-sensor" version="1.0.127">
-    <feature version="[1.0.127,2)">instana-aws-sdk</feature>
-    <bundle start-level="80">mvn:com.instana/sensor-aws-lambda/1.0.127</bundle>
+  <feature name="instana-aws-lambda-sensor" version="1.0.128">
+    <feature version="[1.0.128,2)">instana-aws-sdk</feature>
+    <bundle start-level="80">mvn:com.instana/sensor-aws-lambda/1.0.128</bundle>
   </feature>
 
   <feature name="instana-process-sensor" version="1.1.48">
