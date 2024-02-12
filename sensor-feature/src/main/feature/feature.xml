@@ -637,10 +637,10 @@
     <bundle start-level="80">mvn:com.instana/sensor-httpd/1.2.14</bundle>
   </feature>
 
-  <feature name="instana-ibmapiconnect-sensor" version="1.0.2">
+  <feature name="instana-ibmapiconnect-sensor" version="1.0.3">
     <bundle start-level="80">mvn:org.apache.httpcomponents/httpcore-osgi/4.4.9</bundle>
     <bundle start-level="80">mvn:com.basistech.org.apache.httpcomponents/httpclient-osgi/4.5.13</bundle>
-    <bundle start-level="80">mvn:com.instana/sensor-ibm-api-connect/1.0.2</bundle>
+    <bundle start-level="80">mvn:com.instana/sensor-ibm-api-connect/1.0.3</bundle>
   </feature>
 
   <feature name="instana-ibmiseries-sensor" version="1.0.39">
