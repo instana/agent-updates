@@ -909,8 +909,8 @@
     <bundle start-level="80">mvn:com.instana/sensor-opc/1.1.1</bundle>
   </feature>
 
-  <feature name="instana-openstack-nova-sensor" version="1.1.6">
-    <bundle start-level="80">mvn:com.instana/sensor-openstack-nova/1.1.6</bundle>
+  <feature name="instana-openstack-nova-sensor" version="1.1.7">
+    <bundle start-level="80">mvn:com.instana/sensor-openstack-nova/1.1.7</bundle>
   </feature>
 
   <feature name="instana-opentsdb2-sensor" version="1.0.0-SNAPSHOT">
