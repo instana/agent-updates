@@ -864,9 +864,9 @@
     <bundle start-level="80">mvn:com.instana/sensor-mule/1.0.6</bundle>
   </feature>
 
-  <feature name="instana-mssql-sensor" version="1.1.35">
+  <feature name="instana-mssql-sensor" version="1.1.37">
     <feature prerequisite="true">wrap</feature>
-    <bundle start-level="80">mvn:com.instana/sensor-mssql/1.1.35</bundle>
+    <bundle start-level="80">mvn:com.instana/sensor-mssql/1.1.37</bundle>
     <bundle start-level="80">wrap:mvn:com.microsoft.sqlserver/sqljdbc4/4.0$Bundle-SymbolicName=sqljdbc4&amp;Bundle-Version=4.0</bundle>
   </feature>
 
