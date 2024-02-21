@@ -1127,6 +1127,10 @@
     <bundle start-level="80">mvn:com.instana/sensor-tomcat/1.1.34</bundle>
   </feature>
 
+  <feature name="instana-tibcobw-sensor" version="1.0.2">
+    <bundle start-level="80">mvn:com.instana/sensor-tibcobw/1.0.2</bundle>
+  </feature>
+
   <feature name="instana-tibcoems-sensor" version="1.1.0">
     <bundle start-level="80"><![CDATA[wrap:mvn:com.tibco.tibjms/tibjms/[8.3.0,8.6.0]$overwrite=merge&Export-Package=com.tibco.tibjms&Bundle-SymbolicName=tibjms]]></bundle>
     <bundle start-level="80"><![CDATA[wrap:mvn:com.tibco.tibjms/tibjmsadmin/[8.3.0,8.6.0]$overwrite=merge&Import-Package=*;resolution:=optional&Require-Bundle=tibjms&Bundle-SymbolicName=tibjmsadmin]]></bundle>
