@@ -792,7 +792,7 @@
     <bundle start-level="80">mvn:io.fabric8/kubernetes-model-node/4.13.2</bundle>
     <bundle start-level="80">mvn:io.fabric8/zjsonpatch/0.3.0</bundle>
     <bundle start-level="80">mvn:commons-codec/commons-codec/1.16.0</bundle>
-    <bundle start-level="80">mvn:org.apache.commons/commons-compress/1.24.0</bundle>
+    <bundle start-level="80">mvn:org.apache.commons/commons-compress/1.26.0</bundle>
 
     <!-- This is all taken from looking at the compile dependencies of: https://mvnrepository.com/artifact/io.fabric8/openshift-client/4.13.2 -->
     <!-- and correlating it with the output of mvn dependency:tree or mvn dependency:resolve -DincludeScope=provided or -DincludeScope=compile -->
