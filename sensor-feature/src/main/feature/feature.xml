@@ -950,12 +950,12 @@
     <bundle start-level="90">mvn:com.instana/sensor-php-profile/1.0.3</bundle>
   </feature>
 
-  <feature name="instana-php-sensor" version="1.2.7">
-    <bundle start-level="90">mvn:com.instana/sensor-php/1.2.7</bundle>
+  <feature name="instana-php-sensor" version="1.3.2">
+    <bundle start-level="90">mvn:com.instana/sensor-php/1.3.2</bundle>
   </feature>
 
-  <feature name="instana-php-trace-sensor" version="1.0.2">
-    <bundle start-level="90">mvn:com.instana/trace-sensor-php/1.0.2</bundle>
+  <feature name="instana-php-trace-sensor" version="1.1.0">
+    <bundle start-level="90">mvn:com.instana/trace-sensor-php/1.1.0</bundle>
   </feature>
 
   <feature name="instana-ping-sensor" version="1.0.11">
