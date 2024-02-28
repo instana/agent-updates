@@ -126,8 +126,8 @@
     <bundle start-level="80">mvn:com.instana/discovery-ec2/1.1.11</bundle>
   </feature>
 
-  <feature name="instana-elasticsearch-discovery" version="1.1.70">
-    <bundle start-level="80">mvn:com.instana/discovery-elasticsearch/1.1.70</bundle>
+  <feature name="instana-elasticsearch-discovery" version="1.1.71">
+    <bundle start-level="80">mvn:com.instana/discovery-elasticsearch/1.1.71</bundle>
   </feature>
 
   <feature name="instana-envoy-discovery" version="1.1.1">
