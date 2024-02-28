@@ -124,7 +124,7 @@
     <bundle start-level="80">mvn:com.instana/discovery-zhmc/1.0.12</bundle>
   </feature>
 
-  <feature name="instana-zabbix-discovery" version="1.0.11">
-    <bundle start-level="80">mvn:com.instana/discovery-zabbix/1.0.11</bundle>
+  <feature name="instana-zabbix-discovery" version="1.0.12">
+    <bundle start-level="80">mvn:com.instana/discovery-zabbix/1.0.12</bundle>
   </feature>
 </features>
