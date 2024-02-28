@@ -1127,8 +1127,8 @@
     <bundle start-level="80">mvn:com.instana/sensor-tomcat/1.1.34</bundle>
   </feature>
 
-  <feature name="instana-tibcobw-sensor" version="1.0.2">
-    <bundle start-level="80">mvn:com.instana/sensor-tibcobw/1.0.2</bundle>
+  <feature name="instana-tibcobw-sensor" version="1.0.3">
+    <bundle start-level="80">mvn:com.instana/sensor-tibcobw/1.0.3</bundle>
   </feature>
 
   <feature name="instana-tibcoems-sensor" version="1.1.0">
