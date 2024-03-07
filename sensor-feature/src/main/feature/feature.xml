@@ -1153,6 +1153,11 @@
   <feature name="instana-tibcobw-sensor" version="1.0.3">
     <bundle start-level="80">mvn:com.instana/sensor-tibcobw/1.0.3</bundle>
   </feature>
+
+  <feature name="instana-tibcoas-node-sensor" version="1.0.0">
+    <bundle start-level="80">wrap:mvn:com.tibco/tibftl/6.10.1</bundle>
+    <bundle start-level="80">mvn:com.instana/sensor-tibcoas-node/1.0.0</bundle>
+  </feature>
   
   <feature name="instana-tibcoems-sensor" version="1.1.0">
     <bundle start-level="80"><![CDATA[wrap:mvn:com.tibco.tibjms/tibjms/[8.3.0,8.6.0]$overwrite=merge&Export-Package=com.tibco.tibjms&Bundle-SymbolicName=tibjms]]></bundle>
