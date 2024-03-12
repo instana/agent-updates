@@ -29,25 +29,6 @@
     <bundle start-level="80">mvn:com.instana/instana-action-sdk/1.0.46</bundle>
   </feature>
   
-  <feature name="instana-cdc-graalvm" description="Shared Graalvm Util" version="1.0.13">
-    <bundle start-level="75">wrap:mvn:com.instana/cdc-transformapi-jsengine/1.0.13$Bundle-SymbolicName=cdc-transformapi-jsengine&amp;Bundle-Version=1.0.13</bundle>
-  </feature>
-
-  <feature name="instana-cdc-instanatransform-common" version="1.0.13">
-    <feature version="1.0.13" prerequisite="true">instana-cdc-graalvm</feature>
-    <bundle start-level="75">mvn:com.instana/cdc-instanatransform-api/1.0.13</bundle>
-    <bundle start-level="75">mvn:com.instana/cdc-transformapi-api/1.0.13</bundle>
-    <bundle start-level="75">mvn:com.instana/cdc-assembly-api/1.0.13</bundle>
-  </feature>
-
-  <feature name="instana-cdc-instanatransform-provider" version="1.0.13">
-    <feature version="1.0.13" prerequisite="true">instana-cdc-instanatransform-common</feature>
-    <bundle start-level="80">mvn:com.instana/cdc-instanatransform-provider/1.0.13</bundle>
-    <bundle start-level="80">mvn:com.instana/cdc-transformapi-provider/1.0.13</bundle>
-    <bundle start-level="80">mvn:com.instana/cdc-assembly-provider/1.0.13</bundle>
-    <bundle start-level="80">mvn:com.instana/cdc-transformerinstana-provider/1.0.13</bundle>
-  </feature>
-
   <feature name="instana-action-services-discovery" version="1.0.46">
     <bundle start-level="80">mvn:com.instana/discovery-action-services/1.0.46</bundle>
   </feature>
