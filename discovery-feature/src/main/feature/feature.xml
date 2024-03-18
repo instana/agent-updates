@@ -310,8 +310,8 @@
     <bundle start-level="80">mvn:com.instana/discovery-memcached/1.0.19</bundle>
   </feature>
 
-  <feature name="instana-mongodb-discovery" version="1.1.54">
-    <bundle start-level="80">mvn:com.instana/discovery-mongodb/1.1.54</bundle>
+  <feature name="instana-mongodb-discovery" version="1.1.55">
+    <bundle start-level="80">mvn:com.instana/discovery-mongodb/1.1.55</bundle>
   </feature>
 
   <feature name="instana-mysql-discovery" version="1.1.74">
