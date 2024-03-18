@@ -209,7 +209,7 @@
 
   <feature name="instana-azure-managedhsm-sensor" version="1.2.40">
     <feature version="[1.2.40,2)">instana-azure-sdk</feature>
-    <bundle start-level="80">mvn:com.instana/sensor-azure-managedHSM/1.2.40</bundle>
+    <bundle start-level="80">mvn:com.instana/sensor-azure-managedhsm/1.2.40</bundle>
    </feature>
 
   <feature name="instana-azure-keyvault-sensor" version="1.2.40">
