@@ -56,10 +56,10 @@
     <bundle start-level="80">mvn:com.instana/sensor-containerd/1.0.26</bundle>
   </feature>
 
-  <feature name="instana-coordination-sdk" version="1.2.0">
-    <bundle start-level="80">wrap:mvn:com.squareup.okio/okio/1.14.0</bundle>
-    <bundle start-level="80">wrap:mvn:com.squareup.okhttp3/okhttp/3.12.0</bundle>
-    <bundle start-level="80">mvn:com.instana/coordination-sdk/1.2.0</bundle>
+  <feature name="instana-coordination-sdk" version="1.2.1">
+    <bundle start-level="80">wrap:mvn:com.squareup.okio/okio/3.6.0</bundle>
+    <bundle start-level="80">wrap:mvn:com.squareup.okhttp3/okhttp/4.12.0</bundle>
+    <bundle start-level="80">mvn:com.instana/coordination-sdk/1.2.1</bundle>
   </feature>
 
   <feature name="instana-crio-sensor" version="1.0.10">
