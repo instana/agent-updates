@@ -633,10 +633,14 @@
     <bundle start-level="80">mvn:com.instana/sensor-hbase/1.1.1</bundle>
   </feature>
 
-  <feature name="instana-host-sensor" version="1.1.168">
-    <bundle start-level="80">mvn:net.java.dev.jna/jna/5.13.0</bundle>
-    <bundle start-level="80">mvn:net.java.dev.jna/jna-platform/5.13.0</bundle>
-    <bundle start-level="80">mvn:com.instana/sensor-host/1.1.168</bundle>
+  <feature name="instana-host-sensor" version="1.1.169">
+    <bundle start-level="80">mvn:com.instana/sensor-host/1.1.169</bundle>
+  </feature>
+
+  <feature name="instana-host-native-aix" version="1.1.169">
+    <feature version="[5.13.0, 6)">instana-jna</feature>
+    <feature version="[1.1.169, 2)">instana-host-sensor</feature>
+    <bundle start-level="80">mvn:com.instana/sensor-host-native-aix/1.1.169</bundle>
   </feature>
 
   <feature name="instana-httpd-sensor" version="1.2.15">
@@ -735,6 +739,11 @@
   <feature name="instana-jira-sensor" version="1.1.13">
     <feature version="[1.2.129,2)">instana-java-sensor</feature>
     <bundle start-level="80">mvn:com.instana/sensor-jira/1.1.13</bundle>
+  </feature>
+
+  <feature name="instana-jna" version="5.13.0">
+    <bundle start-level="80">mvn:net.java.dev.jna/jna/5.13.0</bundle>
+    <bundle start-level="80">mvn:net.java.dev.jna/jna-platform/5.13.0</bundle>
   </feature>
 
   <feature name="instana-kafka-connect-sensor" version="1.0.4">
