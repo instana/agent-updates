@@ -12,7 +12,7 @@
     <bundle start-level="80">mvn:com.instana/cdc-transformercloudpack-provider/1.0.13</bundle>
   </feature>
 
-<feature name="common-data-collector-cp4aiops-sender" version="1.0.13">
+<feature name="common-data-collector-cp4aiops-sender" version="1.0.15">
     <bundle start-level="80">wrap:mvn:org.checkerframework/checker-qual/3.24.0</bundle>
     <bundle start-level="80">wrap:mvn:com.google.errorprone/error_prone_annotations/2.15.0</bundle>
     <bundle start-level="80">wrap:mvn:io.cloudevents/cloudevents-api/2.3.0</bundle>
@@ -47,7 +47,7 @@
     <bundle start-level="80">wrap:mvn:org.latencyutils/LatencyUtils/2.0.3</bundle>
     <bundle start-level="80">wrap:mvn:com.ibm.cp4waiops.connectors/connectors-sdk/1.4.15.3-jdk8</bundle>
     <bundle start-level="80">wrap:mvn:com.instana/cdc-grpc/1.57.1</bundle>
-    <bundle start-level="80">mvn:com.instana/cdc-cp4aiops-sender/1.0.13</bundle>
+    <bundle start-level="80">mvn:com.instana/cdc-cp4aiops-sender/1.0.15</bundle>
   </feature>
 
   <feature name="instana-dynatrace-discovery" version="1.0.20">
