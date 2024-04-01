@@ -1,15 +1,16 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
 <features name="${project.artifactId}-${project.version}" xmlns="http://karaf.apache.org/xmlns/features/v1.3.0">
 
-  <feature name="common-data-collector-transform-api" version="1.0.13">
-    <bundle start-level="80">wrap:mvn:com.instana/cdc-transformapi-jsengine/1.0.13$Bundle-SymbolicName=cdc-transformapi-jsengine&amp;Bundle-Version=1.0.13</bundle>
-    <bundle start-level="80">mvn:com.instana/cdc-instanatransform-api/1.0.13</bundle>
-    <bundle start-level="80">mvn:com.instana/cdc-transformapi-api/1.0.13</bundle>
-    <bundle start-level="80">mvn:com.instana/cdc-assembly-api/1.0.13</bundle>
-    <bundle start-level="80">mvn:com.instana/cdc-instanatransform-provider/1.0.13</bundle>
-    <bundle start-level="80">mvn:com.instana/cdc-transformapi-provider/1.0.13</bundle>
-    <bundle start-level="80">mvn:com.instana/cdc-assembly-provider/1.0.13</bundle>
-    <bundle start-level="80">mvn:com.instana/cdc-transformercloudpack-provider/1.0.13</bundle>
+  <feature name="common-data-collector-transform-api" version="1.0.16">
+    <bundle start-level="80">mvn:com.instana/cdc-bundle-jsengine/1.0.16</bundle>
+    <bundle start-level="80">mvn:com.instana/cdc-instanatransform-api/1.0.16</bundle>
+    <bundle start-level="80">mvn:com.instana/cdc-transformapi-api/1.0.16</bundle>
+    <bundle start-level="80">mvn:com.instana/cdc-assembly-api/1.0.16</bundle>
+    <bundle start-level="80">mvn:com.instana/cdc-instanatransform-provider/1.0.16</bundle>
+    <bundle start-level="80">mvn:com.instana/cdc-transformapi-provider/1.0.16</bundle>
+    <bundle start-level="80">mvn:com.instana/cdc-assembly-provider/1.0.16</bundle>
+    <bundle start-level="80">mvn:com.instana/cdc-sdk-provider/1.0.16</bundle>
+    <bundle start-level="80">mvn:com.instana/cdc-transformercloudpack-provider/1.0.16</bundle>
   </feature>
 
   <feature name="common-data-collector-metricmanager-sender" version="1.0.7">

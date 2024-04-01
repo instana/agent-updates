@@ -50,9 +50,9 @@
     <bundle start-level="60">mvn:com.instana/jctools/2.1.6</bundle>
   </feature>
 
-  <feature name="instana-api" description="Instana Sensor and Discovery API" version="1.2.140">
-    <bundle start-level="60">mvn:com.instana/agent-json/1.2.140</bundle>
-    <bundle start-level="60">mvn:com.instana/sensor-api/1.2.140</bundle>
+  <feature name="instana-api" description="Instana Sensor and Discovery API" version="1.2.143">
+    <bundle start-level="60">mvn:com.instana/agent-json/1.2.143</bundle>
+    <bundle start-level="60">mvn:com.instana/sensor-api/1.2.143</bundle>
   </feature>
 
   <feature name="instana-unix-socket-util" description="Instana Unix Socket Util" version="1.2.7">
@@ -72,7 +72,7 @@
   </feature>
 
   <feature name="instana-agent" description="Instana Agent" version="1.1.716">
-    <feature version="[1.2.140,2)">instana-api</feature>
+    <feature version="[1.2.143,2)">instana-api</feature>
     <feature version="[1.0.0,2)">instana-agent-api</feature>
     <feature version="[1.0.6,2)">instana-agent-internal-api</feature>
     <feature version="[1.0.0,2)">instana-agent-optional-api</feature>
