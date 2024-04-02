@@ -763,9 +763,9 @@
     <bundle start-level="80">mvn:com.instana/sensor-kafka-connect/1.0.4</bundle>
   </feature>
 
-  <feature name="instana-kafka-sensor" version="1.1.53">
+  <feature name="instana-kafka-sensor" version="1.1.54">
     <feature version="[1.2.129,2)">instana-java-sensor</feature>
-    <bundle start-level="80">mvn:com.instana/sensor-kafka/1.1.53</bundle>
+    <bundle start-level="80">mvn:com.instana/sensor-kafka/1.1.54</bundle>
   </feature>
 
   <feature name="aeries-spi-fly" version="1.3.7">
