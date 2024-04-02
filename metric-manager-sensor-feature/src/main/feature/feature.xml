@@ -146,5 +146,40 @@
   <feature name="instana-podman-sensor" version="1.0.3">
     <bundle start-level="80">mvn:com.instana/sensor-podman/1.0.3</bundle>
   </feature>
-  
+
+  <feature name="aws-sdk-cloudwatch" version="2.21.44">
+    <bundle start-level="80">wrap:mvn:software.amazon.awssdk/cloudwatch/2.21.44$Bundle-SymbolicName=software.amazon.awssdk.cloudwatch</bundle>
+    <bundle start-level="80">wrap:mvn:software.amazon.awssdk/aws-query-protocol/2.21.44$Bundle-SymbolicName=software.amazon.awssdk.aws-query-protocol</bundle>
+    <bundle start-level="80">wrap:mvn:software.amazon.awssdk/protocol-core/2.21.44$Bundle-SymbolicName=software.amazon.awssdk.protocol-core</bundle>
+    <bundle start-level="80">wrap:mvn:software.amazon.awssdk/http-auth-aws/2.21.44$Bundle-SymbolicName=software.amazon.awssdk.http-auth-aws</bundle>
+    <bundle start-level="80">wrap:mvn:software.amazon.awssdk/checksums-spi/2.21.44$Bundle-SymbolicName=software.amazon.awssdk.checksums-spi</bundle>
+    <bundle start-level="80">wrap:mvn:software.amazon.awssdk/checksums/2.21.44$Bundle-SymbolicName=software.amazon.awssdk.checksums</bundle>
+    <bundle start-level="80">wrap:mvn:software.amazon.awssdk/sdk-core/2.21.44$Bundle-SymbolicName=software.amazon.awssdk.sdk-core</bundle>
+    <bundle start-level="80">wrap:mvn:software.amazon.awssdk/profiles/2.21.44$Bundle-SymbolicName=software.amazon.awssdk.profiles</bundle>
+    <bundle start-level="80">wrap:mvn:software.amazon.awssdk/auth/2.21.44$Bundle-SymbolicName=software.amazon.awssdk.auth</bundle>
+    <bundle start-level="80">wrap:mvn:software.amazon.eventstream/eventstream/1.0.1$Bundle-SymbolicName=software.amazon.eventstream.eventstream</bundle>
+    <bundle start-level="80">wrap:mvn:software.amazon.awssdk/http-auth-spi/2.21.44$Bundle-SymbolicName=software.amazon.awssdk.http-auth-spi</bundle>
+    <bundle start-level="80">wrap:mvn:software.amazon.awssdk/http-auth/2.21.44$Bundle-SymbolicName=software.amazon.awssdk.http-auth</bundle>
+    <bundle start-level="80">wrap:mvn:software.amazon.awssdk/identity-spi/2.21.44$Bundle-SymbolicName=software.amazon.awssdk.identity-spi</bundle>
+    <bundle start-level="80">wrap:mvn:software.amazon.awssdk/http-client-spi/2.21.44$Bundle-SymbolicName=software.amazon.awssdk.http-client-spi</bundle>
+    <bundle start-level="80">wrap:mvn:software.amazon.awssdk/regions/2.21.44$Bundle-SymbolicName=software.amazon.awssdk.regions</bundle>
+    <bundle start-level="80">wrap:mvn:software.amazon.awssdk/annotations/2.21.44$Bundle-SymbolicName=software.amazon.awssdk.annotations</bundle>
+    <bundle start-level="80">wrap:mvn:software.amazon.awssdk/utils/2.21.44$Bundle-SymbolicName=software.amazon.awssdk.utils</bundle>
+    <bundle start-level="80">wrap:mvn:software.amazon.awssdk/aws-core/2.21.44$Bundle-SymbolicName=software.amazon.awssdk.aws-core</bundle>
+    <bundle start-level="80">wrap:mvn:software.amazon.awssdk/metrics-spi/2.21.44$Bundle-SymbolicName=software.amazon.awssdk.metrics-spi</bundle>
+    <bundle start-level="80">wrap:mvn:software.amazon.awssdk/json-utils/2.21.44$Bundle-SymbolicName=software.amazon.awssdk.json-utils</bundle>
+    <bundle start-level="80">wrap:mvn:software.amazon.awssdk/third-party-jackson-core/2.21.44$Bundle-SymbolicName=software.amazon.awssdk.third-party-jackson-core</bundle>
+    <bundle start-level="80">wrap:mvn:software.amazon.awssdk/endpoints-spi/2.21.44$Bundle-SymbolicName=software.amazon.awssdk.endpoints-spi</bundle>
+    <bundle start-level="80">wrap:mvn:software.amazon.awssdk/apache-client/2.21.44$Bundle-SymbolicName=software.amazon.awssdk.apache-client</bundle>
+    <bundle start-level="80">wrap:mvn:software.amazon.awssdk/netty-nio-client/2.21.44$Bundle-SymbolicName=software.amazon.awssdk.netty-nio-client</bundle>
+    <bundle start-level="80">mvn:org.apache.httpcomponents/httpcore-osgi/4.4.9</bundle>
+    <bundle start-level="80">mvn:com.basistech.org.apache.httpcomponents/httpclient-osgi/4.5.13</bundle>
+  </feature>
+
+  <feature name="instana-awsunf-sensor" version="1.0.1">
+    <feature version="[1.0.7,2)">ibm-apm-importer</feature>
+    <feature version="2.21.44">aws-sdk-cloudwatch</feature>
+    <bundle start-level="80">mvn:com.instana/sensor-awsunf/1.0.1</bundle>
+  </feature>
+
 </features>
