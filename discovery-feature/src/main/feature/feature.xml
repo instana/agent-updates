@@ -538,8 +538,8 @@
     <bundle start-level="80">mvn:com.instana/discovery-websphere/1.1.39</bundle>
   </feature>
 
-  <feature name="instana-websphere-liberty-discovery" version="1.1.4">
-    <bundle start-level="80">mvn:com.instana/discovery-websphere-liberty/1.1.4</bundle>
+  <feature name="instana-websphere-liberty-discovery" version="1.1.6">
+    <bundle start-level="80">mvn:com.instana/discovery-websphere-liberty/1.1.6</bundle>
   </feature>
 
   <feature name="instana-zhmc-discovery" version="1.0.12">
