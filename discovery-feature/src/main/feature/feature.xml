@@ -210,8 +210,8 @@
     <bundle start-level="80">mvn:com.instana/discovery-hbase/1.1.1</bundle>
   </feature>
 
-  <feature name="instana-host-discovery" version="1.1.170">
-    <bundle start-level="80">mvn:com.instana/discovery-host/1.1.170</bundle>
+  <feature name="instana-host-discovery" version="1.1.171">
+    <bundle start-level="80">mvn:com.instana/discovery-host/1.1.171</bundle>
   </feature>
 
   <feature name="instana-httpd-discovery" version="1.2.15">
