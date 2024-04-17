@@ -182,8 +182,8 @@
     <bundle start-level="80">mvn:com.instana/discovery-glassfish/1.1.11</bundle>
   </feature>
 
-  <feature name="instana-golang-discovery" version="1.3.6">
-    <bundle start-level="80">mvn:com.instana/discovery-golang/1.3.6</bundle>
+  <feature name="instana-golang-discovery" version="1.3.7">
+    <bundle start-level="80">mvn:com.instana/discovery-golang/1.3.7</bundle>
   </feature>
 
   <feature name="instana-hadoop-yarn-discovery" version="1.1.5">
