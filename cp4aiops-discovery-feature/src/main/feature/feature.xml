@@ -50,8 +50,8 @@
     <bundle start-level="80">mvn:com.instana/cdc-cp4aiops-sender/1.0.16</bundle>
   </feature>
 
-  <feature name="instana-dynatrace-discovery" version="1.0.22">
-    <bundle start-level="80">mvn:com.instana/discovery-dynatrace/1.0.22</bundle>
+  <feature name="instana-dynatrace-discovery" version="1.0.23">
+    <bundle start-level="80">mvn:com.instana/discovery-dynatrace/1.0.23</bundle>
   </feature>
 
   <feature name="instana-appdynamics-discovery" version="1.0.8">
