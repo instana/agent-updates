@@ -503,6 +503,12 @@
     <bundle start-level="80">mvn:com.instana/sensor-domino/1.0.3</bundle>
   </feature>
 
+  <feature name="instana-drbd-sensor" version="1.0.3">
+    <bundle start-level="80">mvn:org.apache.httpcomponents/httpcore-osgi/4.4.9</bundle>
+    <bundle start-level="80">mvn:com.basistech.org.apache.httpcomponents/httpclient-osgi/4.5.13</bundle>
+    <bundle start-level="80">mvn:com.instana/sensor-drbd/1.0.3</bundle>
+  </feature>
+
   <feature name="instana-dropwizard-sensor" version="1.1.29">
     <feature version="[1.2.129,2)">instana-java-sensor</feature>
     <bundle start-level="80">mvn:com.instana/sensor-dropwizard/1.1.29</bundle>
