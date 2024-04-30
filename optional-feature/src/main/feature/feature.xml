@@ -1,10 +1,12 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
 <features name="${project.artifactId}-${project.version}" xmlns="http://karaf.apache.org/xmlns/features/v1.3.0">
 
-  <feature name="instana-agent-configuration-integration-vault" version="1.0.11">
-    <bundle start-level="80">mvn:com.instana/agent-configuration-integration-vault/1.0.11</bundle>
+  <feature name="instana-agent-configuration-integration-vault" version="1.0.13">
+    <feature version="[1.2.144,2)">instana-api</feature>
+    <feature version="[1.0.6,2)">instana-agent-optional-api</feature>
+    <bundle start-level="80">mvn:com.instana/agent-configuration-integration-vault/1.0.13</bundle>
     <bundle start-level="80">wrap:mvn:com.bettercloud/vault-java-driver/5.1.0</bundle>
-    <bundle start-level="80">mvn:com.instana/agent-ibm-secrets-manager/1.0.0</bundle>
+    <bundle start-level="80">mvn:com.instana/agent-ibm-secrets-manager/1.0.1</bundle>
     <bundle start-level="80">mvn:commons-codec/commons-codec/1.15</bundle>
   </feature>
 
