@@ -363,9 +363,9 @@
     <bundle start-level="80">mvn:com.instana/sensor-aws-es/1.0.133</bundle>
   </feature>
 
-  <feature name="instana-aws-emr-sensor" version="1.0.132">
-    <feature version="[1.0.132,2]">instana-aws-sdk</feature>
-    <bundle start-level="80">mvn:com.instana/sensor-aws-emr/1.0.132</bundle>
+  <feature name="instana-aws-emr-sensor" version="1.0.133">
+    <feature version="[1.0.133,2]">instana-aws-sdk</feature>
+    <bundle start-level="80">mvn:com.instana/sensor-aws-emr/1.0.133</bundle>
   </feature>
 
   <feature name="instana-aws-msk-sensor" version="1.0.133">
