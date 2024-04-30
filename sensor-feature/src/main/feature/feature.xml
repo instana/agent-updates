@@ -23,16 +23,16 @@
     <bundle start-level="80">mvn:com.instana/instana-action-sdk/1.0.51</bundle>
   </feature>
 
-  <feature name="common-data-collector-transform-api" version="1.0.19">
-    <bundle start-level="80">mvn:com.instana/cdc-bundle-jsengine/1.0.19</bundle>
-    <bundle start-level="80">mvn:com.instana/cdc-instanatransform-api/1.0.19</bundle>
-    <bundle start-level="80">mvn:com.instana/cdc-transformapi-api/1.0.19</bundle>
-    <bundle start-level="80">mvn:com.instana/cdc-assembly-api/1.0.19</bundle>
-    <bundle start-level="80">mvn:com.instana/cdc-instanatransform-provider/1.0.19</bundle>
-    <bundle start-level="80">mvn:com.instana/cdc-transformapi-provider/1.0.19</bundle>
-    <bundle start-level="80">mvn:com.instana/cdc-assembly-provider/1.0.19</bundle>
-    <bundle start-level="80">mvn:com.instana/cdc-sdk-provider/1.0.19</bundle>
-    <bundle start-level="80">mvn:com.instana/cdc-transformerinstana-provider/1.0.19</bundle>
+  <feature name="common-data-collector-transform-api" version="1.0.21">
+    <bundle start-level="80">mvn:com.instana/cdc-bundle-jsengine/1.0.21</bundle>
+    <bundle start-level="80">mvn:com.instana/cdc-instanatransform-api/1.0.21</bundle>
+    <bundle start-level="80">mvn:com.instana/cdc-transformapi-api/1.0.21</bundle>
+    <bundle start-level="80">mvn:com.instana/cdc-assembly-api/1.0.21</bundle>
+    <bundle start-level="80">mvn:com.instana/cdc-instanatransform-provider/1.0.21</bundle>
+    <bundle start-level="80">mvn:com.instana/cdc-transformapi-provider/1.0.21</bundle>
+    <bundle start-level="80">mvn:com.instana/cdc-assembly-provider/1.0.21</bundle>
+    <bundle start-level="80">mvn:com.instana/cdc-sdk-provider/1.0.21</bundle>
+    <bundle start-level="80">mvn:com.instana/cdc-transformerinstana-provider/1.0.21</bundle>
   </feature>
 
   <feature name="common-datacollector-application-apis" version="1.0.0">
