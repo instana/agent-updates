@@ -11,28 +11,28 @@
     <bundle start-level="80">mvn:com.instana/cdc-sensor-api/1.0.2</bundle>
   </feature>
 
-  <feature name="instana-action-sdk" version="1.0.51">
+  <feature name="instana-action-sdk" version="1.0.52">
     <feature version="4.12.0">okhttp</feature>
-    <bundle start-level="80">mvn:com.instana/instana-action-sdk/1.0.51</bundle>
+    <bundle start-level="80">mvn:com.instana/instana-action-sdk/1.0.52</bundle>
   </feature>
 
-  <feature name="instana-action-services-discovery" version="1.0.51">
-    <bundle start-level="80">mvn:com.instana/discovery-action-services/1.0.51</bundle>
+  <feature name="instana-action-services-discovery" version="1.0.52">
+    <bundle start-level="80">mvn:com.instana/discovery-action-services/1.0.52</bundle>
   </feature>
 
-  <feature name="instana-action-ansible-sensor" version="1.0.51">
-    <feature version="[1.0.51,2)">instana-action-sdk</feature>
-    <bundle start-level="80">mvn:com.instana/sensor-action-ansible/1.0.51</bundle>
+  <feature name="instana-action-ansible-sensor" version="1.0.52">
+    <feature version="[1.0.52,2)">instana-action-sdk</feature>
+    <bundle start-level="80">mvn:com.instana/sensor-action-ansible/1.0.52</bundle>
   </feature>
 
-  <feature name="instana-action-http-sensor" version="1.0.51">
-    <feature version="[1.0.51,2)">instana-action-sdk</feature>
-    <bundle start-level="80">mvn:com.instana/sensor-action-http/1.0.51</bundle>
+  <feature name="instana-action-http-sensor" version="1.0.52">
+    <feature version="[1.0.52,2)">instana-action-sdk</feature>
+    <bundle start-level="80">mvn:com.instana/sensor-action-http/1.0.52</bundle>
   </feature>
 
-  <feature name="instana-action-script-sensor" version="1.0.51">
-    <feature version="[1.0.51,2)">instana-action-sdk</feature>
-    <bundle start-level="80">mvn:com.instana/sensor-action-script/1.0.51</bundle>
+  <feature name="instana-action-script-sensor" version="1.0.52">
+    <feature version="[1.0.52,2)">instana-action-sdk</feature>
+    <bundle start-level="80">mvn:com.instana/sensor-action-script/1.0.52</bundle>
   </feature>
 
   <feature name="instana-appdynamics-sensor" version="1.0.10">
