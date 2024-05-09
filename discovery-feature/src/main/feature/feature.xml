@@ -370,8 +370,8 @@
     <bundle start-level="80">mvn:com.instana/discovery-openldap/1.0.9</bundle>
   </feature>
 
-  <feature name="instana-oracledb-discovery" version="1.1.35">
-    <bundle start-level="80">mvn:com.instana/discovery-oracledb/1.1.35</bundle>
+  <feature name="instana-oracledb-discovery" version="1.1.36">
+    <bundle start-level="80">mvn:com.instana/discovery-oracledb/1.1.36</bundle>
   </feature>
 
   <feature name="instana-perfcounters-discovery" version="1.0.0">
