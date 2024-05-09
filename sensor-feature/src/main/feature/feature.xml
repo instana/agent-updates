@@ -2,9 +2,7 @@
 <features name="${project.artifactId}-${project.version}" xmlns="http://karaf.apache.org/xmlns/features/v1.3.0">
 
   <feature name="instana-ace-sensor" version="1.0.70">
-    <bundle start-level="80">
-       <![CDATA[wrap:mvn:com.ibm.mq/com.ibm.mq.allclient/9.3.0.0$overwrite=merge&Export-Package=com.ibm.jms.*,com.ibm.mq.*;resolution:=optional,javax.transaction.xa]]>
-    </bundle>
+    <feature version="9.3.0.0">ibmmqclient</feature>
     <bundle start-level="80">mvn:org.apache.httpcomponents/httpcore-osgi/4.4.9</bundle>
     <bundle start-level="80">mvn:com.basistech.org.apache.httpcomponents/httpclient-osgi/4.5.13</bundle>
     <bundle start-level="80">mvn:javax.jms/javax.jms-api/2.0</bundle>
@@ -698,16 +696,12 @@
   </feature>
 
   <feature name="instana-ibmmq-sensor" version="1.1.18">
-    <bundle start-level="80">
-      <![CDATA[wrap:mvn:com.ibm.mq/com.ibm.mq.allclient/9.3.0.0$overwrite=merge&Export-Package=com.ibm.*]]>
-    </bundle>
+    <feature version="9.3.0.0">ibmmqclient</feature>
     <bundle start-level="80">mvn:com.instana/sensor-ibmmq/1.1.18</bundle>
   </feature>
 
   <feature name="instana-ibmmq-mft-sensor" version="1.0.18">
-    <bundle start-level="80">
-      <![CDATA[wrap:mvn:com.ibm.mq/com.ibm.mq.allclient/9.3.0.0$overwrite=merge&Export-Package=com.ibm.mq.*]]>
-    </bundle>
+    <feature version="9.3.0.0">ibmmqclient</feature>
     <bundle start-level="80">mvn:com.instana/sensor-ibmmq-mft/1.0.18</bundle>
   </feature>
 
@@ -1268,6 +1262,13 @@
     <bundle start-level="80">mvn:com.squareup.okio/okio-jvm/3.9.0</bundle>
     <bundle start-level="80">wrap:mvn:org.jetbrains.kotlin/kotlin-stdlib/1.9.23$Bundle-SymbolicName=kotlin-stdlib&amp;Bundle-Version=1.9.23</bundle>
     <bundle start-level="80">wrap:mvn:com.squareup.okhttp3/logging-interceptor/4.12.0$Bundle-SymbolicName=logging-interceptor&amp;Bundle-Version=4.12.0</bundle>
+  </feature>
+
+  <feature name="ibmmqclient" version="9.3.0.0">
+    <bundle start-level="80">
+      <![CDATA[wrap:mvn:com.ibm.mq/com.ibm.mq.allclient/9.3.0.0$overwrite=merge&Export-Package=com.ibm.*]]>
+    </bundle>
+    <bundle start-level="80">mvn:javax.jms/javax.jms-api/2.0</bundle>
   </feature>
 
 </features>
