@@ -30,6 +30,9 @@
     <bundle start-level="80">mvn:com.instana/cdc-transformapi-provider/1.0.21</bundle>
     <bundle start-level="80">mvn:com.instana/cdc-assembly-provider/1.0.21</bundle>
     <bundle start-level="80">mvn:com.instana/cdc-sdk-provider/1.0.21</bundle>
+  </feature>
+
+  <feature name="common-data-collector-transformer-instana" version="1.0.21">
     <bundle start-level="80">mvn:com.instana/cdc-transformerinstana-provider/1.0.21</bundle>
   </feature>
 
@@ -948,6 +951,7 @@
   
   <feature name="instana-omegamon-sensor" version="1.0.0">
     <feature version="1.0.21">common-data-collector-transform-api</feature>
+    <feature version="1.0.21">common-data-collector-transformer-instana</feature>
     <bundle start-level="80">mvn:com.instana/sensor-omegamon/1.0.0</bundle>
   </feature>
 

@@ -10,6 +10,9 @@
     <bundle start-level="80">mvn:com.instana/cdc-transformapi-provider/1.0.21</bundle>
     <bundle start-level="80">mvn:com.instana/cdc-assembly-provider/1.0.21</bundle>
     <bundle start-level="80">mvn:com.instana/cdc-sdk-provider/1.0.21</bundle>
+  </feature>
+
+  <feature name="common-data-collector-transformer-cloudpack" version="1.0.21">
     <bundle start-level="80">mvn:com.instana/cdc-transformercloudpack-provider/1.0.21</bundle>
   </feature>
 
