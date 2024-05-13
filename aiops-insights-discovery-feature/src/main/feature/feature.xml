@@ -17,8 +17,13 @@
     <bundle start-level="80">mvn:com.instana/discovery-azure/1.2.29</bundle>
   </feature>
 
-  <feature name="instana-containerd-discovery" version="1.0.26">
-    <bundle start-level="80">mvn:com.instana/discovery-containerd/1.0.26</bundle>
+  <feature name="instana-containerd-common" version="1.0.38">
+    <bundle start-level="80">mvn:com.instana/sensor-containerd-common/1.0.38</bundle>
+  </feature>
+
+  <feature name="instana-containerd-discovery" version="1.0.38">
+    <feature version="[1.0.38,2.0.0)">instana-containerd-common</feature>
+    <bundle start-level="80">mvn:com.instana/discovery-containerd/1.0.38</bundle>
   </feature>
 
   <feature name="instana-crio-discovery" version="1.0.10">
