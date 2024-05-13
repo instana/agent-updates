@@ -1275,7 +1275,7 @@
 
   <feature name="ibmmqclient" version="9.3.0.0">
     <bundle start-level="80">
-      <![CDATA[wrap:mvn:com.ibm.mq/com.ibm.mq.allclient/9.3.0.0$overwrite=merge&Export-Package=com.ibm.*]]>
+      <![CDATA[wrap:mvn:com.ibm.mq/com.ibm.mq.allclient/9.3.0.0$overwrite=merge&Export-Package=com.ibm.*;resolution:=optional,javax.transaction.xa]]>
     </bundle>
     <bundle start-level="80">mvn:javax.jms/javax.jms-api/2.0</bundle>
   </feature>
