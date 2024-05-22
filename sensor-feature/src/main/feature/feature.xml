@@ -1167,6 +1167,13 @@
     <bundle start-level="80">mvn:com.instana/sensor-sap-abap/1.0.17</bundle>
   </feature>
 
+  <feature name="instana-scom-sensor" version="1.0.10">
+    <feature version="[1.0.17,2)">ibm-apm-importer</feature>
+    <bundle start-level="80">mvn:org.apache.httpcomponents/httpcore-osgi/4.4.9</bundle>
+    <bundle start-level="80">mvn:com.basistech.org.apache.httpcomponents/httpclient-osgi/4.5.13</bundle>
+    <bundle start-level="80">mvn:com.instana/sensor-scom/1.0.10</bundle>
+  </feature>
+
   <feature name="instana-solr-sensor" version="1.0.15">
     <feature version="[1.2.129,2)">instana-java-sensor</feature>
     <bundle start-level="80">mvn:com.instana/sensor-solr/1.0.15</bundle>
