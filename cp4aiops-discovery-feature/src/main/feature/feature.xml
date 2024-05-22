@@ -16,7 +16,12 @@
     <bundle start-level="80">mvn:com.instana/cdc-transformercloudpack-provider/1.0.21</bundle>
   </feature>
 
-  <feature name="common-data-collector-cp4aiops-sender" version="1.0.16">
+ <feature name="cdc-sensor-api" version="1.0.5">
+    <bundle start-level="80">mvn:com.instana/cdc-sensor-api/1.0.5</bundle>
+  </feature>
+
+  <feature name="common-data-collector-cp4aiops-sender" version="1.0.17">
+    <feature version="[1.0.5,2)">cdc-sensor-api</feature>
     <bundle start-level="80">wrap:mvn:org.checkerframework/checker-qual/3.24.0</bundle>
     <bundle start-level="80">wrap:mvn:com.google.errorprone/error_prone_annotations/2.15.0</bundle>
     <bundle start-level="80">wrap:mvn:io.cloudevents/cloudevents-api/2.3.0</bundle>
@@ -50,11 +55,12 @@
     <bundle start-level="80">wrap:mvn:org.latencyutils/LatencyUtils/2.0.3</bundle>
     <bundle start-level="80">wrap:mvn:com.ibm.cp4waiops.connectors/connectors-sdk/1.4.15.3-jdk8</bundle>
     <bundle start-level="80">wrap:mvn:com.instana/cdc-grpc/1.57.1</bundle>
-    <bundle start-level="80">mvn:com.instana/cdc-cp4aiops-sender/1.0.16</bundle>
+    <bundle start-level="80">mvn:com.instana/cdc-cp4aiops-sender/1.0.17</bundle>
   </feature>
 
   <feature name="cdc-observer" version="2.18.0.dev">
     <feature prerequisite="true">scr</feature>
+    <feature version="[1.0.5,2)">cdc-sensor-api</feature>
     <bundle start-level="80">mvn:io.dropwizard.metrics/metrics-core/4.2.19</bundle>
     <bundle start-level="80">mvn:io.dropwizard.metrics/metrics-annotation/4.2.19</bundle>
     <bundle start-level="80">mvn:com.fasterxml.jackson.core/jackson-annotations/2.16.1</bundle>
@@ -67,7 +73,6 @@
     <bundle start-level="80">mvn:org.apache.commons/commons-lang3/3.14.0</bundle>
     <bundle start-level="80">mvn:org.slf4j/slf4j-api/1.7.25</bundle>
     <bundle start-level="80">mvn:org.slf4j/slf4j-log4j12/1.7.25</bundle>
-    <bundle start-level="80">mvn:com.instana/cdc-sensor-api/1.0.5</bundle>
     <bundle start-level="80">mvn:com.instana/agent-json/1.2.140</bundle>
     <bundle start-level="80">mvn:com.ibm.itsm.topology/asm-utils/2.18.0.dev</bundle>
     <bundle start-level="80">mvn:com.ibm.itsm.topology/observer.base/2.18.0.dev</bundle>
