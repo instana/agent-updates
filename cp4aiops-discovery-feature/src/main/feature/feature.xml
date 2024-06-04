@@ -68,7 +68,7 @@
     <bundle start-level="80">mvn:javax.xml.bind/jaxb-api/2.3.1</bundle>
     <bundle start-level="80">mvn:com.ibm.itsm.topology/asm-utils/2.18.0.dev</bundle>
     <bundle start-level="80">mvn:com.ibm.itsm.topology/observer-base/2.18.0.dev</bundle>
-    <bundle start-level="80">mvn:com.instana/cdc-topology-orchestrator/1.0.6</bundle>
+    <bundle start-level="80">mvn:com.instana/cdc-topology-orchestrator/1.0.8</bundle>
   </feature>
 
   <feature name="cdc-dynatrace-observer" version="2.18.0.dev">
