@@ -11,12 +11,12 @@
     <bundle start-level="80">mvn:com.instana/apm-sensor-api/1.0.16</bundle>
   </feature>
 
-  <feature name="instana-dynatrace-sensor" version="1.0.29">
+  <feature name="instana-dynatrace-sensor" version="1.0.30">
     <feature version="[1.0.15,2)">ibm-apm-importer</feature>
     <feature version="[1.0.5,2)">cdc-sensor-api</feature>
     <bundle start-level="80">mvn:com.instana/common-datacollector-application-api/1.0.0</bundle>
     <bundle start-level="80">mvn:com.instana/common-datacollector-application-provider/1.0.0</bundle>
-    <bundle start-level="80">mvn:com.instana/sensor-dynatrace/1.0.29</bundle>
+    <bundle start-level="80">mvn:com.instana/sensor-dynatrace/1.0.30</bundle>
   </feature>
 
   <feature name="instana-appdynamics-sensor" version="1.0.12">
