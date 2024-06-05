@@ -506,9 +506,9 @@
     <bundle start-level="80">mvn:com.instana/sensor-crio/1.0.10</bundle>
   </feature>
 
-  <feature name="instana-datadog-sensor" version="1.0.14">
-    <feature version="[1.0.17,2)">ibm-apm-importer</feature>
-    <bundle start-level="80">mvn:com.instana/sensor-datadog/1.0.14</bundle>
+  <feature name="instana-datadog-sensor" version="1.0.15">
+    <feature version="[1.0.20,2)">ibm-apm-importer</feature>
+    <bundle start-level="80">mvn:com.instana/sensor-datadog/1.0.15</bundle>
   </feature>
 
   <feature name="instana-db2-sensor" version="1.0.55">
