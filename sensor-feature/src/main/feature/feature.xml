@@ -24,7 +24,7 @@
   <feature name="cdc-sensor-api" version="1.0.5">
     <bundle start-level="80">mvn:com.instana/cdc-sensor-api/1.0.5</bundle>
   </feature>
-
+  
   <feature name="common-data-collector-transform-api" version="1.0.21">
     <bundle start-level="80">mvn:com.instana/cdc-bundle-jsengine/1.0.21</bundle>
     <bundle start-level="80">mvn:com.instana/cdc-instanatransform-api/1.0.21</bundle>
@@ -1188,6 +1188,12 @@
     <bundle start-level="80">mvn:org.apache.httpcomponents/httpcore-osgi/4.4.9</bundle>
     <bundle start-level="80">mvn:com.basistech.org.apache.httpcomponents/httpclient-osgi/4.5.13</bundle>
     <bundle start-level="80">mvn:com.instana/sensor-scom/1.0.11</bundle>
+  </feature>
+
+  <feature name="instana-solarwinds-sensor" version="1.0.13">
+    <feature version="[1.0.20,2)">ibm-apm-importer</feature>
+    <feature version="[1.0.5,2)">cdc-sensor-api</feature>
+    <bundle start-level="80">mvn:com.instana/sensor-solarwinds/1.0.13</bundle>
   </feature>
 
   <feature name="instana-solr-sensor" version="1.0.15">
