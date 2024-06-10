@@ -16,8 +16,159 @@
 
   <name>Instana - AgentUpdate - Agent</name>
 
+  <properties>
+    <maven.build.timestamp.format>YYYY.MM.dd.HHmm</maven.build.timestamp.format>
+    <default.agent.version>${maven.build.timestamp}-dev</default.agent.version>
+  </properties>
+
   <build>
     <plugins>
+      <!-- Plugin to get the current git tag and output to a file -->
+      <plugin>
+        <groupId>org.apache.maven.plugins</groupId>
+        <artifactId>maven-antrun-plugin</artifactId>
+        <version>1.8</version>
+        <executions>
+          <execution>
+            <id>run-git-command</id>
+            <phase>initialize</phase>
+            <goals>
+              <goal>run</goal>
+            </goals>
+            <configuration>
+              <target>
+                <!-- Create a script file for Unix-like systems -->
+                <echo file="${project.build.directory}/get-git-tag.sh">
+                    <![CDATA[
+#!/bin/bash
+if [ "$(git rev-parse --abbrev-ref HEAD)" = "internal" ]; then
+    git show --no-patch --date=format:%Y.%m.%d.%H%M-internal --format=%cd | { read tag; echo "git.tag=${tag:-null}"; } > ${project.build.directory}/git-tag.properties
+else
+    git tag --points-at HEAD | { read tag; echo "git.tag=${tag:-null}"; } > ${project.build.directory}/git-tag.properties
+fi
+                    ]]>
+                </echo>
+                
+                <!-- Make the Unix script file executable -->
+                <chmod file="${project.build.directory}/get-git-tag.sh" perm="ugo+x"/>
+                
+                <!-- Execute the Unix script file -->
+                <exec executable="sh" osfamily="unix">
+                    <arg line="${project.build.directory}/get-git-tag.sh"/>
+                </exec>
+                
+                <!-- Create a script file for Windows -->
+                <echo file="${project.build.directory}/get-git-tag.bat">
+                    <![CDATA[
+@echo off
+setlocal enabledelayedexpansion
+set TAG=null
+
+for /f "delims=" %%i in ('git rev-parse --abbrev-ref HEAD') do (
+    set BRANCH=%%i
+)
+
+if "%BRANCH%"=="internal" (
+    for /f "delims=" %%t in ('git show --no-patch --date^=format:%%Y.%%m.%%d.%%H%%M-internal --format^=%%cd') do (
+        set TAG=%%t
+    )
+) else (
+    for /f "delims=" %%t in ('git tag --points-at HEAD') do (
+        set TAG=%%t
+    )
+)
+
+(
+    echo git.tag=!TAG!
+) > ${project.build.directory}\git-tag.properties
+
+endlocal
+                    ]]>
+                </echo>
+                
+                <!-- Execute the Windows script file -->
+                <exec executable="cmd" osfamily="windows">
+                    <arg line="/c ${project.build.directory}\get-git-tag.bat"/>
+                </exec>
+              </target>
+            </configuration>
+          </execution>
+        </executions>
+      </plugin>
+
+      <!-- Plugin to set properties based on the content of the file -->
+      <plugin>
+        <groupId>org.codehaus.mojo</groupId>
+        <artifactId>properties-maven-plugin</artifactId>
+        <version>1.2.1</version>
+        <executions>
+          <execution>
+            <id>read-git-tag</id>
+            <phase>initialize</phase>
+            <goals>
+              <goal>read-project-properties</goal>
+            </goals>
+            <configuration>
+              <files>
+                <file>${project.build.directory}/git-tag.properties</file>
+              </files>
+           </configuration>
+          </execution>
+        </executions>
+      </plugin>
+      
+      <!-- Plugin to set the agent.version property based on git.tag -->
+      <plugin>
+        <groupId>org.codehaus.mojo</groupId>
+        <artifactId>build-helper-maven-plugin</artifactId>
+        <version>3.2.0</version>
+        <executions>
+          <execution>
+            <phase>initialize</phase>
+            <id>set-agent-version-property</id>
+            <goals>
+              <goal>regex-property</goal>
+            </goals>
+            <configuration>
+              <name>agent.version</name>
+              <value>${git.tag}</value>
+              <regex>^null$</regex>
+              <replacement>${default.agent.version}</replacement>
+              <failIfNoMatch>false</failIfNoMatch>
+            </configuration>
+          </execution>
+        </executions>
+      </plugin>
+
+      <plugin>
+        <groupId>org.apache.maven.plugins</groupId>
+        <artifactId>maven-resources-plugin</artifactId>
+        <version>2.7</version>
+        <executions>
+          <execution>
+            <id>default-resources</id>
+            <phase>none</phase>
+          </execution>
+          <execution>
+            <id>copy-resources</id>
+            <phase>process-resources</phase>
+            <goals>
+              <goal>copy-resources</goal>
+            </goals>
+            <configuration>
+              <escapeString>\</escapeString>
+              <resources>
+                <resource>
+                  <directory>${project.basedir}/src/main/feature</directory>
+                  <filtering>true</filtering>
+                </resource>
+              </resources>
+              <outputDirectory>${project.build.directory}/feature</outputDirectory>
+              <overwrite>true</overwrite>
+            </configuration>
+          </execution>
+        </executions>
+      </plugin>
       <plugin>
         <groupId>org.apache.karaf.tooling</groupId>
         <artifactId>karaf-maven-plugin</artifactId>
