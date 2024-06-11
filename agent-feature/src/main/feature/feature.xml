@@ -38,6 +38,9 @@
   </feature>
   <!-- End of third party features skipped by bootstrap 1.2.3 -->
 
+  <feature name="agent-version" description="Instana Agent Version" version="${agent.version}">
+  </feature>
+
   <feature name="instana-init" description="Instana Init" version="1.0.7">
     <bundle start-level="55">mvn:com.instana/agent-init/1.0.7</bundle>
   </feature>
@@ -73,6 +76,7 @@
 
   <feature name="instana-agent" description="Instana Agent" version="1.1.722">
     <feature version="[1.2.146,2)">instana-api</feature>
+    <feature>agent-version</feature>
     <feature version="[1.0.0,2)">instana-agent-api</feature>
     <feature version="[1.0.6,2)">instana-agent-internal-api</feature>
     <feature version="[1.0.6,2)">instana-agent-optional-api</feature>
