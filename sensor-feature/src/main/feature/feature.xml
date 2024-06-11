@@ -549,8 +549,8 @@
     <bundle start-level="80">mvn:com.instana/sensor-envoy/1.1.1</bundle>
   </feature>
 
-  <feature name="instana-etcd-sensor" version="1.0.30">
-    <bundle start-level="80">mvn:com.instana/sensor-etcd/1.0.30</bundle>
+  <feature name="instana-etcd-sensor" version="1.0.31">
+    <bundle start-level="80">mvn:com.instana/sensor-etcd/1.0.31</bundle>
   </feature>
 
   <feature name="instana-eum-common" version="1.0.4">
