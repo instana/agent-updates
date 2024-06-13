@@ -61,7 +61,6 @@
   <feature name="instana-agent-open-telemetry-http" version="1.0.23">
     <feature version="[1.0.6,2)">instana-agent-internal-api</feature>
     <feature version="[1.0.23,2)">instana-agent-open-telemetry-service</feature>
-    <bundle start-level="80">mvn:com.instana/agent-http/1.0.5</bundle>
     <bundle start-level="80">mvn:com.instana/agent-open-telemetry-http-api/1.0.5</bundle>
     <bundle start-level="80">mvn:com.instana/agent-open-telemetry-http/1.0.23</bundle>
   </feature>
