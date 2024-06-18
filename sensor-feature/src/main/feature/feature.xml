@@ -1,13 +1,13 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
 <features name="${project.artifactId}-${project.version}" xmlns="http://karaf.apache.org/xmlns/features/v1.3.0">
 
-  <feature name="instana-ace-sensor" version="1.0.70">
+  <feature name="instana-ace-sensor" version="1.0.71">
     <feature version="9.3.0.0">ibmmqclient</feature>
     <bundle start-level="80">mvn:org.apache.httpcomponents/httpcore-osgi/4.4.9</bundle>
     <bundle start-level="80">mvn:com.basistech.org.apache.httpcomponents/httpclient-osgi/4.5.13</bundle>
     <bundle start-level="80">mvn:javax.jms/javax.jms-api/2.0</bundle>
     <bundle start-level="80">mvn:org.eclipse.paho/org.eclipse.paho.client.mqttv3/1.2.5</bundle>
-    <bundle start-level="80">mvn:com.instana/sensor-ace/1.0.70</bundle>
+    <bundle start-level="80">mvn:com.instana/sensor-ace/1.0.71</bundle>
   </feature>
 
   <!-- This feature is still here to support auto-update and backwards compatibility and therefore should not be version bumped any further. -->
