@@ -74,13 +74,13 @@
     <bundle start-level="60">mvn:com.instana/agent-internal-api/1.0.7</bundle>
   </feature>
 
-  <feature name="instana-agent" description="Instana Agent" version="1.1.723">
+  <feature name="instana-agent" description="Instana Agent" version="1.1.724">
     <feature>agent-version</feature>
     <feature version="[1.2.146,2)">instana-api</feature>
     <feature version="[1.0.0,2)">instana-agent-api</feature>
     <feature version="[1.0.6,2)">instana-agent-internal-api</feature>
     <feature version="[1.0.6,2)">instana-agent-optional-api</feature>
     <bundle start-level="70">mvn:com.instana/agent-http/1.0.6</bundle>
-    <bundle start-level="70">mvn:com.instana/agent/1.1.723</bundle>
+    <bundle start-level="70">mvn:com.instana/agent/1.1.724</bundle>
   </feature>
 </features>
