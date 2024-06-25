@@ -833,6 +833,55 @@
     <bundle start-level="80">mvn:org.ow2.asm/asm-analysis/9.6</bundle>
   </feature>
 
+  <feature name="kubernetes-client" version="20.0.1-legacy">  
+    <feature version="4.12.0">okhttp</feature>
+    <feature version="1.3.7">aeries-spi-fly</feature>
+
+    <bundle start-level="80">
+      <![CDATA[
+      wrap:mvn:io.kubernetes/client-java/20.0.1-legacy$overwrite=merge&Import-Package=!org.bouncycastle.*,org.slf4j;version="[1.7,2)",java.io.*;resolution:=optional,*;&version=20.0.1-legacy
+      ]]>
+    </bundle>
+    <bundle start-level="80">mvn:io.kubernetes/client-java-api/20.0.1-legacy</bundle>
+    <bundle start-level="80">mvn:io.kubernetes/client-java-proto/20.0.1-legacy</bundle>
+
+    <bundle start-level="80">mvn:io.prometheus/simpleclient/0.16.0</bundle>
+    <bundle start-level="80">mvn:io.prometheus/simpleclient_common/0.16.0</bundle>
+    <bundle start-level="80">
+      <![CDATA[wrap:mvn:io.prometheus/simpleclient_httpserver/0.16.0$overwrite=merge&Import-Package=*;resolution:=optional&version=0.16.0]]>
+    </bundle>
+    <bundle start-level="80">mvn:io.prometheus/simpleclient_tracer_common/0.16.0</bundle>
+    <bundle start-level="80">mvn:io.prometheus/simpleclient_tracer_otel/0.16.0</bundle>
+    <bundle start-level="80">mvn:io.prometheus/simpleclient_tracer_otel_agent/0.16.0</bundle>
+
+    <bundle start-level="80">wrap:mvn:com.microsoft.azure/adal4j/1.6.7$Bundle-SymbolicName=adal4j&amp;Bundle-Version=1.6.7</bundle>
+    <bundle start-level="80">wrap:mvn:com.amazonaws/aws-java-sdk-core/1.12.653$Bundle-SymbolicName=aws-java-sdk-core&amp;Bundle-Version=1.12.653</bundle>
+    <bundle start-level="80">wrap:mvn:com.amazonaws/aws-java-sdk-sts/1.12.653$Bundle-SymbolicName=aws-java-sdk-sts&amp;Bundle-Version=1.12.653</bundle>
+    <bundle start-level="80">wrap:mvn:com.amazonaws/jmespath-java/1.12.653$Bundle-SymbolicName=jmespath-java&amp;Bundle-Version=1.12.653</bundle>
+    <bundle start-level="80">mvn:com.google.code.gson/gson/2.10.1</bundle>
+    <bundle start-level="80">mvn:com.google.protobuf/protobuf-java/3.25.2</bundle>
+    <bundle start-level="80">wrap:mvn:com.google.auth/google-auth-library-oauth2-http/1.23.0$Bundle-Version=1.23.0</bundle>
+    <bundle start-level="80">mvn:commons-codec/commons-codec/1.16.1</bundle>
+    <bundle start-level="80">mvn:commons-io/commons-io/2.15.1</bundle>
+    <bundle start-level="80">mvn:io.gsonfire/gson-fire/1.9.0</bundle>
+    
+    <bundle start-level="80">mvn:io.swagger/swagger-annotations/1.6.12</bundle>
+    <bundle start-level="80">mvn:jakarta.annotation/jakarta.annotation-api/2.1.1</bundle>
+    <bundle start-level="80">mvn:jakarta.ws.rs/jakarta.ws.rs-api/3.1.0</bundle>
+    <bundle start-level="80">mvn:javax.annotation/javax.annotation-api/1.3.2</bundle>
+    <bundle start-level="80">mvn:org.apache.commons/commons-collections4/4.4</bundle>
+    <bundle start-level="80">mvn:org.apache.commons/commons-compress/1.26.0</bundle>
+    <bundle start-level="80">mvn:com.basistech.org.apache.httpcomponents/httpclient-osgi/4.5.13</bundle>
+    <bundle start-level="80">mvn:org.apache.httpcomponents/httpcore-osgi/4.4.9</bundle>
+    <bundle start-level="80">mvn:org.apache.commons/commons-lang3/3.14.0</bundle>
+    <!-- Missing export for org.jose4j.json.internal.json_simple -->
+    <bundle start-level="80">
+      <![CDATA[wrap:mvn:org.bitbucket.b_c/jose4j/0.9.6$overwrite=merge&Bundle-Version=0.9.6&Export-Package=org.jose4j.*;version=0.9.6]]>
+    </bundle>
+    <bundle start-level="80">mvn:org.yaml/snakeyaml/2.2</bundle>
+
+  </feature>
+
   <feature name="fabric8-sdk" version="4.13.2">
     <feature version="4.12.0">okhttp</feature>
     <feature version="1.3.7">aeries-spi-fly</feature>
@@ -1083,13 +1132,13 @@
     <bundle start-level="80">mvn:com.instana/sensor-process/1.1.48</bundle>
   </feature>
 
-  <feature name="instana-prometheus-kubernetes-discovery" version="1.0.67">
-    <bundle start-level="80">mvn:com.instana/discovery-prometheus-kubernetes/1.0.67</bundle>
-    <feature version="4.13.2">fabric8-sdk</feature>
+  <feature name="instana-prometheus-kubernetes-discovery" version="1.0.71">
+    <bundle start-level="80">mvn:com.instana/discovery-prometheus-kubernetes/1.0.71</bundle>
+    <feature version="20.0.1-legacy">kubernetes-client</feature>
   </feature>
 
-  <feature name="instana-prometheus-sensor" version="1.0.67">
-    <bundle start-level="80">mvn:com.instana/sensor-prometheus/1.0.67</bundle>
+  <feature name="instana-prometheus-sensor" version="1.0.71">
+    <bundle start-level="80">mvn:com.instana/sensor-prometheus/1.0.71</bundle>
   </feature>
 
   <feature name="instana-python-sensor" version="2.0.0">
@@ -1325,10 +1374,12 @@
   </feature>
 
   <feature name="okhttp" version="4.12.0">
-    <bundle start-level="80">wrap:mvn:com.squareup.okhttp3/okhttp/4.12.0$Bundle-SymbolicName=okhttp&amp;Bundle-Version=4.12.0</bundle>
+    <bundle start-level="80">
+      <![CDATA[wrap:mvn:com.squareup.okhttp3/okhttp/4.12.0$overwrite=merge&Bundle-SymbolicName=okhttp&Bundle-Version=4.12.0&Export-Package=*;version=4.12.0]]>
+    </bundle>
     <bundle start-level="80">mvn:com.squareup.okio/okio-jvm/3.9.0</bundle>
-    <bundle start-level="80">wrap:mvn:org.jetbrains.kotlin/kotlin-stdlib/1.9.23$Bundle-SymbolicName=kotlin-stdlib&amp;Bundle-Version=1.9.23</bundle>
     <bundle start-level="80">wrap:mvn:com.squareup.okhttp3/logging-interceptor/4.12.0$Bundle-SymbolicName=logging-interceptor&amp;Bundle-Version=4.12.0</bundle>
+    <bundle start-level="80">wrap:mvn:org.jetbrains.kotlin/kotlin-stdlib/1.9.23$Bundle-SymbolicName=kotlin-stdlib&amp;Bundle-Version=1.9.23</bundle>
   </feature>
 
   <feature name="ibmmqclient" version="9.3.0.0">
