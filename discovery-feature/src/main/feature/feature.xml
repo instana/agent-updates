@@ -338,6 +338,10 @@
     <bundle start-level="80">mvn:com.instana/discovery-mssql/1.1.37</bundle>
   </feature>
 
+  <feature name="instana-nagios-discovery" version="1.0.13">
+    <bundle start-level="80">mvn:com.instana/discovery-nagios/1.0.13</bundle>
+  </feature>
+
   <feature name="instana-neo4j-discovery" version="1.0.1">
     <bundle start-level="80">mvn:com.instana/discovery-neo4j/1.0.1</bundle>
   </feature>
