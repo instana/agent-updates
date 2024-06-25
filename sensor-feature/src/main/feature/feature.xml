@@ -21,6 +21,10 @@
     <bundle start-level="80">mvn:com.instana/instana-action-sdk/1.0.53</bundle>
   </feature>
 
+  <feature name="cdc-sensor-api" version="1.0.5">
+    <bundle start-level="80">mvn:com.instana/cdc-sensor-api/1.0.5</bundle>
+  </feature>
+
   <feature name="common-data-collector-transform-api" version="1.0.21">
     <bundle start-level="80">mvn:com.instana/cdc-bundle-jsengine/1.0.21</bundle>
     <bundle start-level="80">mvn:com.instana/cdc-instanatransform-api/1.0.21</bundle>
@@ -536,6 +540,14 @@
   <feature name="instana-dropwizard-sensor" version="1.1.29">
     <feature version="[1.2.129,2)">instana-java-sensor</feature>
     <bundle start-level="80">mvn:com.instana/sensor-dropwizard/1.1.29</bundle>
+  </feature>
+
+  <feature name="instana-dynatrace-sensor" version="1.0.31">
+    <feature version="[1.0.20,2)">ibm-apm-importer</feature>
+    <feature version="[1.0.5,2)">cdc-sensor-api</feature>
+    <bundle start-level="80">mvn:com.instana/common-datacollector-application-api/1.0.0</bundle>
+    <bundle start-level="80">mvn:com.instana/common-datacollector-application-provider/1.0.0</bundle>
+    <bundle start-level="80">mvn:com.instana/sensor-dynatrace/1.0.31</bundle>
   </feature>
 
   <feature name="instana-ebpf-sensor" version="1.0.25">
