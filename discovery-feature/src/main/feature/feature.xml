@@ -562,6 +562,10 @@
     <bundle start-level="80">mvn:com.instana/discovery-websphere-liberty/1.1.6</bundle>
   </feature>
 
+  <feature name="instana-zabbix-discovery" version="1.0.14">
+    <bundle start-level="80">mvn:com.instana/discovery-zabbix/1.0.14</bundle>
+  </feature>
+
   <feature name="instana-zhmc-discovery" version="1.0.15">
     <bundle start-level="80">mvn:com.instana/discovery-zhmc/1.0.15</bundle>
   </feature>
