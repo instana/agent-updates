@@ -474,6 +474,10 @@
     <bundle start-level="80">mvn:com.instana/discovery-scom/1.0.11</bundle>
   </feature>
 
+  <feature name="instana-splunk-discovery" version="1.0.10">
+    <bundle start-level="80">mvn:com.instana/discovery-splunk/1.0.10</bundle>
+  </feature>
+
   <feature name="instana-solr-discovery" version="1.0.15">
     <bundle start-level="80">mvn:com.instana/discovery-solr/1.0.15</bundle>
   </feature>
