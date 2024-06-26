@@ -1017,6 +1017,11 @@
     <bundle start-level="90">mvn:com.instana/sensor-netcore-trace/1.0.5</bundle>
   </feature>
 
+  <feature name="instana-newrelic-sensor" version="1.0.20">
+    <feature version="[1.0.20,2)">ibm-apm-importer</feature>
+    <bundle start-level="80">mvn:com.instana/sensor-newrelic/1.0.20</bundle>
+  </feature>
+
   <feature name="instana-nginx-sensor" version="1.1.81">
     <bundle start-level="80">mvn:org.antlr/antlr4-runtime/4.5.3</bundle>
     <bundle start-level="80">mvn:com.instana/sensor-nginx/1.1.81</bundle>
