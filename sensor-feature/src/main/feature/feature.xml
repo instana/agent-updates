@@ -510,6 +510,11 @@
     <bundle start-level="80">mvn:com.instana/sensor-crio/1.0.10</bundle>
   </feature>
 
+  <feature name="instana-datadog-sensor" version="1.0.16">
+    <feature version="[1.0.21,2)">ibm-apm-importer</feature>
+    <bundle start-level="80">mvn:com.instana/sensor-datadog/1.0.16</bundle>
+  </feature>
+
   <feature name="instana-db2-sensor" version="1.0.55">
     <bundle start-level="80">
       <![CDATA[wrap:mvn:com.ibm.db2/jcc/11.5.5.0$overwrite=merge&Bundle-Activator=com.instana.agent.db2.sensor.JCCBundleActivator&Export-Package=com.ibm.db2.jcc.*]]>
