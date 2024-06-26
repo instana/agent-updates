@@ -1240,6 +1240,12 @@
     <bundle start-level="80">mvn:com.instana/sensor-scom/1.0.11</bundle>
   </feature>
 
+  <feature name="instana-solarwinds-sensor" version="1.0.13">
+    <feature version="[1.0.20,2)">ibm-apm-importer</feature>
+    <feature version="[1.0.5,2)">cdc-sensor-api</feature>
+    <bundle start-level="80">mvn:com.instana/sensor-solarwinds/1.0.13</bundle>
+  </feature>
+
   <feature name="instana-solr-sensor" version="1.0.15">
     <feature version="[1.2.129,2)">instana-java-sensor</feature>
     <bundle start-level="80">mvn:com.instana/sensor-solr/1.0.15</bundle>
