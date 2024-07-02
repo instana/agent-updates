@@ -575,9 +575,9 @@
     <bundle start-level="80">mvn:com.instana/sensor-ec2/1.1.12</bundle>
   </feature>
 
-  <feature name="instana-elasticsearch-sensor" version="1.1.74">
+  <feature name="instana-elasticsearch-sensor" version="1.1.75">
     <feature version="[1.2.129,2)">instana-java-sensor</feature>
-    <bundle start-level="80">mvn:com.instana/sensor-elasticsearch/1.1.74</bundle>
+    <bundle start-level="80">mvn:com.instana/sensor-elasticsearch/1.1.75</bundle>
   </feature>
 
   <feature name="instana-envoy-sensor" version="1.1.1">
