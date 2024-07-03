@@ -713,14 +713,14 @@
     <bundle start-level="80">mvn:com.instana/sensor-hbase/1.1.1</bundle>
   </feature>
 
-  <feature name="instana-host-sensor" version="1.1.174">
-    <bundle start-level="80">mvn:com.instana/sensor-host/1.1.174</bundle>
+  <feature name="instana-host-sensor" version="1.1.175">
+    <bundle start-level="80">mvn:com.instana/sensor-host/1.1.175</bundle>
   </feature>
 
-  <feature name="instana-host-native-aix" version="1.1.174">
+  <feature name="instana-host-native-aix" version="1.1.175">
     <feature version="[5.13.0, 6)">instana-jna</feature>
-    <feature version="[1.1.174, 2)">instana-host-sensor</feature>
-    <bundle start-level="80">mvn:com.instana/sensor-host-native-aix/1.1.174</bundle>
+    <feature version="[1.1.175, 2)">instana-host-sensor</feature>
+    <bundle start-level="80">mvn:com.instana/sensor-host-native-aix/1.1.175</bundle>
   </feature>
 
   <feature name="instana-httpd-sensor" version="1.2.17">
