@@ -511,8 +511,8 @@
     <bundle start-level="90">mvn:com.instana/sensor-crystal-trace/1.0.1</bundle>
   </feature>
 
-  <feature name="instana-crio-sensor" version="1.0.10">
-    <bundle start-level="80">mvn:com.instana/sensor-crio/1.0.10</bundle>
+  <feature name="instana-crio-sensor" version="1.0.11">
+    <bundle start-level="80">mvn:com.instana/sensor-crio/1.0.11</bundle>
   </feature>
 
   <feature name="instana-datadog-sensor" version="1.0.16">
