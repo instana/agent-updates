@@ -522,8 +522,8 @@
     <bundle start-level="80">mvn:com.instana/discovery-sybase/1.0.0</bundle>
   </feature>
 
-  <feature name="instana-synthetic-pop-discovery" version="1.0.6">
-    <bundle start-level="80">mvn:com.instana/discovery-synthetic-pop/1.0.6</bundle>
+  <feature name="instana-synthetic-pop-discovery" version="1.0.7">
+    <bundle start-level="80">mvn:com.instana/discovery-synthetic-pop/1.0.7</bundle>
   </feature>
 
   <feature name="instana-tanzu-foundation-member-discovery" version="1.0.0">
