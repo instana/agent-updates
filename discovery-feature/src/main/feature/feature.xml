@@ -89,7 +89,7 @@
   <feature name="instana-couchbase-discovery" version="1.0.3">
     <bundle start-level="80">mvn:com.instana/discovery-couchbase/1.0.3</bundle>
   </feature>
-  
+
   <feature name="instana-crowdstrike-falcon-discovery" version="1.0.3">
     <bundle start-level="80">mvn:com.instana/discovery-crowdstrike-falcon/1.0.3</bundle>
   </feature>
@@ -377,7 +377,7 @@
   <feature name="instana-nomad-discovery" version="1.0.8">
     <bundle start-level="80">mvn:com.instana/discovery-nomad/1.0.8</bundle>
   </feature>
-  
+
   <feature name="instana-omegamon-discovery" version="1.0.1">
     <bundle start-level="80">mvn:com.instana/discovery-omegamon/1.0.1</bundle>
   </feature>
@@ -450,8 +450,8 @@
     <bundle start-level="80">mvn:com.instana/discovery-process/1.1.48</bundle>
   </feature>
 
-  <feature name="instana-prometheus-discovery" version="1.0.71">
-    <bundle start-level="80">mvn:com.instana/discovery-prometheus/1.0.71</bundle>
+  <feature name="instana-prometheus-discovery" version="1.0.74">
+    <bundle start-level="80">mvn:com.instana/discovery-prometheus/1.0.74</bundle>
   </feature>
 
   <feature name="instana-python-discovery" version="2.0.0">
@@ -561,7 +561,7 @@
   <feature name="instana-tuxedoapp-discovery" version="1.0.10">
     <bundle start-level="80">mvn:com.instana/discovery-tuxedoapp/1.0.10</bundle>
   </feature>
-  
+
   <feature name="instana-varnish-discovery" version="1.0.23">
     <bundle start-level="80">mvn:com.instana/discovery-varnish/1.0.23</bundle>
   </feature>

@@ -39,7 +39,7 @@
   <feature name="common-data-collector-transformer-instana" version="1.0.21">
     <feature version="1.0.21">common-data-collector-transform-api</feature>
     <bundle start-level="70">mvn:com.instana/cdc-transformerinstana-provider/1.0.21</bundle>
-  </feature> 
+  </feature>
 
   <feature name="common-datacollector-application-apis" version="1.0.0">
     <bundle start-level="80">mvn:com.instana/common-datacollector-application-api/1.0.0</bundle>
@@ -74,7 +74,7 @@
     <feature version="[1.0.53,2)">instana-action-sdk</feature>
     <bundle start-level="80">mvn:com.instana/sensor-action-script/1.0.53</bundle>
   </feature>
-  
+
   <feature name="instana-activemq-artemis-sensor" version="1.0.8">
     <feature version="[1.2.129,2)">instana-java-sensor</feature>
     <bundle start-level="80">mvn:com.instana/sensor-activemq-artemis/1.0.8</bundle>
@@ -498,7 +498,7 @@
   <feature name="instana-couchbase-sensor" version="1.0.3">
     <bundle start-level="80">mvn:com.instana/sensor-couchbase/1.0.3</bundle>
   </feature>
-  
+
   <feature name="instana-crowdstrike-falcon-sensor" version="1.0.3">
     <bundle start-level="80">mvn:com.instana/sensor-crowdstrike-falcon/1.0.3</bundle>
   </feature>
@@ -1013,7 +1013,7 @@
     <feature version="[1.0.20,2)">ibm-apm-importer</feature>
     <bundle start-level="80">mvn:com.instana/sensor-nagios/1.0.13</bundle>
   </feature>
-    
+
   <feature name="instana-neo4j-sensor" version="1.0.1">
     <feature version="[1.2.129,2)">instana-java-sensor</feature>
     <bundle start-level="80">mvn:com.instana/sensor-neo4j/1.0.1</bundle>
@@ -1053,7 +1053,7 @@
     <bundle start-level="80">wrap:mvn:com.bertramlabs.plugins/hcl4j/0.3.4</bundle>
     <bundle start-level="80">mvn:com.instana/sensor-nomad/1.0.8</bundle>
   </feature>
-  
+
   <feature name="instana-omegamon-sensor" version="1.0.1">
     <feature version="1.0.21">common-data-collector-transformer-instana</feature>
     <bundle start-level="80">mvn:com.instana/sensor-omegamon/1.0.1</bundle>
@@ -1147,13 +1147,13 @@
     <bundle start-level="80">mvn:com.instana/sensor-process/1.1.48</bundle>
   </feature>
 
-  <feature name="instana-prometheus-kubernetes-discovery" version="1.0.71">
-    <bundle start-level="80">mvn:com.instana/discovery-prometheus-kubernetes/1.0.71</bundle>
+  <feature name="instana-prometheus-kubernetes-discovery" version="1.0.74">
+    <bundle start-level="80">mvn:com.instana/discovery-prometheus-kubernetes/1.0.74</bundle>
     <feature version="20.0.1-legacy">kubernetes-client</feature>
   </feature>
 
-  <feature name="instana-prometheus-sensor" version="1.0.71">
-    <bundle start-level="80">mvn:com.instana/sensor-prometheus/1.0.71</bundle>
+  <feature name="instana-prometheus-sensor" version="1.0.74">
+    <bundle start-level="80">mvn:com.instana/sensor-prometheus/1.0.74</bundle>
   </feature>
 
   <feature name="instana-python-sensor" version="2.0.0">
@@ -1372,7 +1372,7 @@
     <feature version="[1.0.20,2)">ibm-apm-importer</feature>
     <bundle start-level="80">mvn:com.instana/sensor-zabbix/1.0.14</bundle>
   </feature>
-  
+
   <feature name="instana-zhmc-sensor" version="1.0.15">
     <bundle start-level="80">mvn:org.apache.httpcomponents/httpcore-osgi/4.4.9</bundle>
     <bundle start-level="80">mvn:com.basistech.org.apache.httpcomponents/httpclient-osgi/4.5.13</bundle>
@@ -1389,7 +1389,7 @@
     <bundle start-level="80">mvn:com.instana/apm-secure-event-listener/1.0.21</bundle>
     <bundle start-level="80">mvn:com.instana/apm-sensor-api/1.0.21</bundle>
   </feature>
-  
+
   <feature name="jta-spec" version="1.1.1">
     <bundle start-level="80">mvn:org.apache.geronimo.specs/geronimo-jta_1.1_spec/1.1.1</bundle>
   </feature>
