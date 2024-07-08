@@ -19,8 +19,6 @@
 
   <modules>
     <module>agent-feature</module>
-    <module>aiops-insights-discovery-feature</module>
-    <module>aiops-insights-sensor-feature</module>
     <module>cp4aiops-discovery-feature</module>
     <module>cp4aiops-sensor-feature</module>
     <module>metric-manager-discovery-feature</module>
