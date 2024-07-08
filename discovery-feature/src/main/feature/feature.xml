@@ -482,8 +482,8 @@
     <bundle start-level="80">mvn:com.instana/discovery-sap-hana/1.1.10</bundle>
   </feature>
 
-  <feature name="instana-sap-abap-discovery" version="1.0.22">
-    <bundle start-level="80">mvn:com.instana/discovery-sap-abap/1.0.22</bundle>
+  <feature name="instana-sap-abap-discovery" version="1.0.25">
+    <bundle start-level="80">mvn:com.instana/discovery-sap-abap/1.0.25</bundle>
   </feature>
 
   <feature name="instana-scom-discovery" version="1.0.11">
