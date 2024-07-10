@@ -1090,14 +1090,14 @@
     <bundle start-level="80">mvn:com.instana/sensor-packet/1.1.1</bundle>
   </feature>
 
-  <feature name="instana-php-fpm-sensor" version="1.1.70">
+  <feature name="instana-php-fpm-sensor" version="1.1.71">
     <bundle start-level="80">
       <![CDATA[wrap:mvn:org.apache.commons/commons-configuration2/2.10.1$overwrite=merge&Import-Package=*;resolution:=optional]]>
     </bundle>
     <bundle start-level="80">
       <![CDATA[wrap:mvn:org.apache.commons/commons-text/1.10.0]]>
     </bundle>
-    <bundle start-level="80">mvn:com.instana/sensor-php-fpm/1.1.70</bundle>
+    <bundle start-level="80">mvn:com.instana/sensor-php-fpm/1.1.71</bundle>
   </feature>
 
   <feature name="instana-php-profile-sensor" version="2.0.2">
