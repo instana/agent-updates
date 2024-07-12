@@ -16,8 +16,8 @@
     <bundle start-level="80">mvn:com.instana/cdc-transformercloudpack-provider/1.0.21</bundle>
   </feature>
 
-  <feature name="common-data-collector-metricmanager-sender" version="1.0.20">
-    <bundle start-level="80">mvn:com.instana/cdc-metricmanager-sender/1.0.20</bundle>
+  <feature name="common-data-collector-metricmanager-sender" version="1.0.22">
+    <bundle start-level="80">mvn:com.instana/cdc-metricmanager-sender/1.0.22</bundle>
   </feature>
 
   <feature name="instana-dynatrace-discovery" version="1.0.27">

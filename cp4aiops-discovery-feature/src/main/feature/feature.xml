@@ -20,7 +20,7 @@
     <bundle start-level="80">mvn:com.instana/cdc-sensor-api/1.0.5</bundle>
   </feature>
 
-  <feature name="common-data-collector-cp4aiops-sender" version="1.0.18">
+  <feature name="common-data-collector-cp4aiops-sender" version="1.0.22">
     <feature version="[1.0.5,2)">cdc-sensor-api</feature>
     <bundle start-level="80">wrap:mvn:org.checkerframework/checker-qual/3.24.0</bundle>
     <bundle start-level="80">wrap:mvn:com.google.errorprone/error_prone_annotations/2.15.0</bundle>
@@ -55,7 +55,7 @@
     <bundle start-level="80">wrap:mvn:org.latencyutils/LatencyUtils/2.0.3</bundle>
     <bundle start-level="80">wrap:mvn:com.ibm.cp4waiops.connectors/connectors-sdk/1.4.15.3-jdk8</bundle>
     <bundle start-level="80">wrap:mvn:com.instana/cdc-grpc/1.57.1</bundle>
-    <bundle start-level="80">mvn:com.instana/cdc-cp4aiops-sender/1.0.18</bundle>
+    <bundle start-level="80">mvn:com.instana/cdc-cp4aiops-sender/1.0.22</bundle>
   </feature>
 
   <feature name="cdc-observer" version="2.18.0.dev">
