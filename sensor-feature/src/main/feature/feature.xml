@@ -1348,10 +1348,10 @@
     <bundle start-level="80">mvn:com.instana/sensor-vault/1.0.9</bundle>
   </feature>
 
-  <feature name="instana-vsphere-sensor" version="1.0.25">
+  <feature name="instana-vsphere-sensor" version="1.0.27">
     <bundle start-level="80">wrap:mvn:org.dom4j/dom4j/2.1.3</bundle>
     <bundle start-level="80">wrap:mvn:com.vmware/vijava/5.1</bundle>
-    <bundle start-level="80">mvn:com.instana/sensor-vsphere/1.0.25</bundle>
+    <bundle start-level="80">mvn:com.instana/sensor-vsphere/1.0.27</bundle>
   </feature>
 
   <feature name="instana-weblogic-sensor" version="1.1.19">
