@@ -2,7 +2,7 @@
 <features name="${project.artifactId}-${project.version}" xmlns="http://karaf.apache.org/xmlns/features/v1.3.0">
 
   <feature name="instana-agent-configuration-integration-vault" version="1.0.14">
-    <feature version="[1.2.146,2)">instana-api</feature>
+    <feature version="[1.2.149,2)">instana-api</feature>
     <feature version="[1.0.6,2)">instana-agent-optional-api</feature>
     <bundle start-level="80">mvn:com.instana/agent-configuration-integration-vault/1.0.14</bundle>
     <bundle start-level="80">wrap:mvn:com.bettercloud/vault-java-driver/5.1.0</bundle>
