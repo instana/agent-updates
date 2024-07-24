@@ -58,8 +58,8 @@
     <bundle start-level="60">mvn:com.instana/sensor-api/1.2.149</bundle>
   </feature>
 
-  <feature name="instana-unix-socket-util" description="Instana Unix Socket Util" version="1.2.7">
-    <bundle start-level="60">mvn:com.instana/unix-socket-util/1.2.7</bundle>
+  <feature name="instana-unix-socket-util" description="Instana Unix Socket Util" version="1.2.9">
+    <bundle start-level="60">mvn:com.instana/unix-socket-util/1.2.9</bundle>
   </feature>
 
   <feature name="instana-agent-api" description="Instana Agent API" version="1.0.5">
