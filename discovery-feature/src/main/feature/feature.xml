@@ -378,8 +378,8 @@
     <bundle start-level="80">mvn:com.instana/discovery-nomad/1.0.8</bundle>
   </feature>
 
-  <feature name="instana-omegamon-discovery" version="1.0.2">
-    <bundle start-level="80">mvn:com.instana/discovery-omegamon/1.0.2</bundle>
+  <feature name="instana-omegamon-discovery" version="1.0.3">
+    <bundle start-level="80">mvn:com.instana/discovery-omegamon/1.0.3</bundle>
   </feature>
 
   <feature name="instana-opc-discovery" version="1.1.1">

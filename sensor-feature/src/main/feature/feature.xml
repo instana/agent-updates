@@ -1060,9 +1060,9 @@
     <bundle start-level="80">mvn:com.instana/sensor-nomad/1.0.8</bundle>
   </feature>
 
-  <feature name="instana-omegamon-sensor" version="1.0.2">
+  <feature name="instana-omegamon-sensor" version="1.0.3">
     <feature version="1.0.23">common-data-collector-transformer-instana</feature>
-    <bundle start-level="80">mvn:com.instana/sensor-omegamon/1.0.2</bundle>
+    <bundle start-level="80">mvn:com.instana/sensor-omegamon/1.0.3</bundle>
   </feature>
 
   <feature name="instana-opc-sensor" version="1.1.1">
