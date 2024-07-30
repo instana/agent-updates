@@ -538,8 +538,12 @@
     <bundle start-level="80">mvn:com.instana/discovery-tibcobw/1.0.3</bundle>
   </feature>
 
-  <feature name="instana-tibcoas-node-discovery" version="1.0.2">
-    <bundle start-level="80">mvn:com.instana/discovery-tibcoas-node/1.0.2</bundle>
+  <feature name="instana-tibcoas-node-discovery" version="1.0.3">
+    <bundle start-level="80">mvn:com.instana/discovery-tibcoas-node/1.0.3</bundle>
+  </feature>
+
+  <feature name="instana-tibcoas-proxy-discovery" version="1.0.3">
+    <bundle start-level="80">mvn:com.instana/discovery-tibcoas-proxy/1.0.3</bundle>
   </feature>
 
   <feature name="instana-tibcoems-discovery" version="1.1.0">
