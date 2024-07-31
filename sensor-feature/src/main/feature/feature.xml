@@ -594,13 +594,13 @@
     <bundle start-level="80">mvn:com.instana/sensor-etcd/1.0.31</bundle>
   </feature>
 
-  <feature name="instana-eum-common" version="1.0.4">
-    <bundle start-level="80">mvn:com.instana/eum-common/1.0.4</bundle>
+  <feature name="instana-eum-common" version="1.0.5">
+    <bundle start-level="80">mvn:com.instana/eum-common/1.0.5</bundle>
   </feature>
 
-  <feature name="instana-eum-sensor" version="1.0.4">
-    <feature version="[1.0.4,2.0.0)">instana-eum-common</feature>
-    <bundle start-level="80">mvn:com.instana/sensor-eum/1.0.4</bundle>
+  <feature name="instana-eum-sensor" version="1.0.5">
+    <feature version="[1.0.5,2.0.0)">instana-eum-common</feature>
+    <bundle start-level="80">mvn:com.instana/sensor-eum/1.0.5</bundle>
   </feature>
 
   <feature name="instana-f5-sensor" version="1.0.1">
