@@ -80,12 +80,13 @@
     <bundle start-level="80">mvn:jakarta.inject/jakarta.inject-api/1.0.5</bundle>
     <bundle start-level="80">mvn:org.glassfish.jersey.core/jersey-client/2.41</bundle>
     <bundle start-level="80">mvn:org.glassfish.jersey.core/jersey-common/2.41</bundle>
+    <bundle start-level="80">mvn:org.glassfish.jersey.connectors/jersey-apache-connector/2.35</bundle>
     <bundle start-level="80">mvn:org.glassfish.hk2/osgi-resource-locator/1.0.3</bundle>
     <bundle start-level="80">mvn:com.ibm.itsm.topology/observer-dynatrace/2.18.0.dev</bundle>
   </feature>
 
-  <feature name="instana-dynatrace-discovery" version="1.0.34">
-    <bundle start-level="80">mvn:com.instana/discovery-dynatrace/1.0.34</bundle>
+  <feature name="instana-dynatrace-discovery" version="1.0.35">
+    <bundle start-level="80">mvn:com.instana/discovery-dynatrace/1.0.35</bundle>
   </feature>
 
   <feature name="instana-appdynamics-discovery" version="1.0.12">
