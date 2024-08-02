@@ -949,10 +949,10 @@
     <bundle start-level="80">mvn:io.fabric8/openshift-model-console/4.13.2</bundle>
   </feature>
 
-  <feature name="instana-kong-sensor" version="1.0.12">
+  <feature name="instana-kong-sensor" version="1.0.13">
     <bundle start-level="80">mvn:org.apache.httpcomponents/httpcore-osgi/4.4.9</bundle>
     <bundle start-level="80">mvn:com.basistech.org.apache.httpcomponents/httpclient-osgi/4.5.13</bundle>
-    <bundle start-level="80">mvn:com.instana/sensor-kong/1.0.12</bundle>
+    <bundle start-level="80">mvn:com.instana/sensor-kong/1.0.13</bundle>
   </feature>
 
   <feature name="instana-kubernetes-sensor" version="1.2.143">
