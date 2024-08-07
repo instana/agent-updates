@@ -1374,9 +1374,9 @@
     <bundle start-level="80">mvn:com.instana/sensor-websphere-dmgr/1.1.41</bundle>
   </feature>
 
-  <feature name="instana-websphere-liberty-sensor" version="1.1.6">
+  <feature name="instana-websphere-liberty-sensor" version="1.1.7">
     <feature version="[1.2.129,2)">instana-java-sensor</feature>
-    <bundle start-level="80">mvn:com.instana/sensor-websphere-liberty/1.1.6</bundle>
+    <bundle start-level="80">mvn:com.instana/sensor-websphere-liberty/1.1.7</bundle>
   </feature>
 
   <feature name="instana-zabbix-sensor" version="1.0.14">
