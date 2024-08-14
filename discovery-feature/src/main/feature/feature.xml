@@ -29,8 +29,8 @@
     <bundle start-level="80">mvn:com.instana/discovery-appdynamics/1.0.16</bundle>
   </feature>
 
-  <feature name="instana-azure-discovery" version="1.2.52">
-    <bundle start-level="80">mvn:com.instana/discovery-azure/1.2.52</bundle>
+  <feature name="instana-azure-discovery" version="1.2.53">
+    <bundle start-level="80">mvn:com.instana/discovery-azure/1.2.53</bundle>
   </feature>
 
   <feature name="instana-aws-discovery" version="1.0.141">
