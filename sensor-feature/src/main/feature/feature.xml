@@ -1119,8 +1119,8 @@
     <bundle start-level="90">mvn:com.instana/trace-sensor-php/1.1.1</bundle>
   </feature>
 
-  <feature name="instana-ping-sensor" version="1.0.11">
-    <bundle start-level="80">mvn:com.instana/sensor-ping/1.0.11</bundle>
+  <feature name="instana-ping-sensor" version="1.0.12">
+    <bundle start-level="80">mvn:com.instana/sensor-ping/1.0.12</bundle>
   </feature>
 
   <feature name="instana-ping-directory-sensor" version="1.0.7">
