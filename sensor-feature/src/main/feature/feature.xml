@@ -25,20 +25,20 @@
     <bundle start-level="80">mvn:com.instana/cdc-sensor-api/1.0.5</bundle>
   </feature>
 
-  <feature name="common-data-collector-transform-api" version="1.0.23">
-    <bundle start-level="80">mvn:com.instana/cdc-bundle-jsengine/1.0.23</bundle>
-    <bundle start-level="80">mvn:com.instana/cdc-instanatransform-api/1.0.23</bundle>
-    <bundle start-level="80">mvn:com.instana/cdc-transformapi-api/1.0.23</bundle>
-    <bundle start-level="80">mvn:com.instana/cdc-assembly-api/1.0.23</bundle>
-    <bundle start-level="80">mvn:com.instana/cdc-instanatransform-provider/1.0.23</bundle>
-    <bundle start-level="80">mvn:com.instana/cdc-transformapi-provider/1.0.23</bundle>
-    <bundle start-level="80">mvn:com.instana/cdc-assembly-provider/1.0.23</bundle>
-    <bundle start-level="80">mvn:com.instana/cdc-sdk-provider/1.0.23</bundle>
+  <feature name="common-data-collector-transform-api" version="1.0.24">
+    <bundle start-level="80">mvn:com.instana/cdc-bundle-jsengine/1.0.24</bundle>
+    <bundle start-level="80">mvn:com.instana/cdc-instanatransform-api/1.0.24</bundle>
+    <bundle start-level="80">mvn:com.instana/cdc-transformapi-api/1.0.24</bundle>
+    <bundle start-level="80">mvn:com.instana/cdc-assembly-api/1.0.24</bundle>
+    <bundle start-level="80">mvn:com.instana/cdc-instanatransform-provider/1.0.24</bundle>
+    <bundle start-level="80">mvn:com.instana/cdc-transformapi-provider/1.0.24</bundle>
+    <bundle start-level="80">mvn:com.instana/cdc-assembly-provider/1.0.24</bundle>
+    <bundle start-level="80">mvn:com.instana/cdc-sdk-provider/1.0.24</bundle>
   </feature>
 
-  <feature name="common-data-collector-transformer-instana" version="1.0.23">
-    <feature version="1.0.23">common-data-collector-transform-api</feature>
-    <bundle start-level="70">mvn:com.instana/cdc-transformerinstana-provider/1.0.23</bundle>
+  <feature name="common-data-collector-transformer-instana" version="1.0.24">
+    <feature version="1.0.24">common-data-collector-transform-api</feature>
+    <bundle start-level="70">mvn:com.instana/cdc-transformerinstana-provider/1.0.24</bundle>
   </feature>
 
   <feature name="common-datacollector-application-apis" version="1.0.0">
@@ -1078,9 +1078,9 @@
     <bundle start-level="80">mvn:com.instana/sensor-nomad/1.0.8</bundle>
   </feature>
 
-  <feature name="instana-omegamon-sensor" version="1.0.3">
-    <feature version="1.0.23">common-data-collector-transformer-instana</feature>
-    <bundle start-level="80">mvn:com.instana/sensor-omegamon/1.0.3</bundle>
+  <feature name="instana-omegamon-sensor" version="1.0.4">
+    <feature version="1.0.24">common-data-collector-transformer-instana</feature>
+    <bundle start-level="80">mvn:com.instana/sensor-omegamon/1.0.4</bundle>
   </feature>
 
   <feature name="instana-opc-sensor" version="1.1.1">
