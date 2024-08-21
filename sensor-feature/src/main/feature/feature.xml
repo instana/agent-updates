@@ -1,13 +1,13 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
 <features name="${project.artifactId}-${project.version}" xmlns="http://karaf.apache.org/xmlns/features/v1.3.0">
 
-  <feature name="instana-ace-sensor" version="1.0.72">
-    <feature version="9.4.0.0">ibmmqclient</feature>
+  <feature name="instana-ace-sensor" version="1.0.73">
+    <feature version="9.3.0.0">ibmmqclient</feature>
     <bundle start-level="80">mvn:org.apache.httpcomponents/httpcore-osgi/4.4.9</bundle>
     <bundle start-level="80">mvn:com.basistech.org.apache.httpcomponents/httpclient-osgi/4.5.13</bundle>
     <bundle start-level="80">mvn:javax.jms/javax.jms-api/2.0</bundle>
     <bundle start-level="80">mvn:org.eclipse.paho/org.eclipse.paho.client.mqttv3/1.2.5</bundle>
-    <bundle start-level="80">mvn:com.instana/sensor-ace/1.0.72</bundle>
+    <bundle start-level="80">mvn:com.instana/sensor-ace/1.0.73</bundle>
   </feature>
 
   <!-- This feature is still here to support auto-update and backwards compatibility and therefore should not be version bumped any further. -->
@@ -768,14 +768,14 @@
     <bundle start-level="80">mvn:com.instana/sensor-ibmiseries/1.0.45</bundle>
   </feature>
 
-  <feature name="instana-ibmmq-sensor" version="1.1.21">
-    <feature version="9.4.0.0">ibmmqclient</feature>
-    <bundle start-level="80">mvn:com.instana/sensor-ibmmq/1.1.21</bundle>
+  <feature name="instana-ibmmq-sensor" version="1.1.22">
+    <feature version="9.3.0.0">ibmmqclient</feature>
+    <bundle start-level="80">mvn:com.instana/sensor-ibmmq/1.1.22</bundle>
   </feature>
 
-  <feature name="instana-ibmmq-mft-sensor" version="1.0.19">
-    <feature version="9.4.0.0">ibmmqclient</feature>
-    <bundle start-level="80">mvn:com.instana/sensor-ibmmq-mft/1.0.19</bundle>
+  <feature name="instana-ibmmq-mft-sensor" version="1.0.20">
+    <feature version="9.3.0.0">ibmmqclient</feature>
+    <bundle start-level="80">mvn:com.instana/sensor-ibmmq-mft/1.0.20</bundle>
   </feature>
 
   <feature name="instana-ibmdatapower-sensor" version="1.0.16">
@@ -1432,9 +1432,9 @@
     <bundle start-level="80">wrap:mvn:org.jetbrains.kotlin/kotlin-stdlib/1.9.23$Bundle-SymbolicName=kotlin-stdlib&amp;Bundle-Version=1.9.23</bundle>
   </feature>
 
-  <feature name="ibmmqclient" version="9.4.0.0">
+  <feature name="ibmmqclient" version="9.3.0.0">
     <bundle start-level="80">
-      <![CDATA[wrap:mvn:com.ibm.mq/com.ibm.mq.allclient/9.4.0.0$overwrite=merge&Export-Package=com.ibm.*;resolution:=optional,javax.transaction.xa]]>
+      <![CDATA[wrap:mvn:com.ibm.mq/com.ibm.mq.allclient/9.3.0.0$overwrite=merge&Export-Package=com.ibm.*;resolution:=optional,javax.transaction.xa]]>
     </bundle>
     <bundle start-level="80">mvn:javax.jms/javax.jms-api/2.0</bundle>
   </feature>
