@@ -16,12 +16,12 @@
     <bundle start-level="80">mvn:com.instana/cdc-transformercloudpack-provider/1.0.24</bundle>
   </feature>
 
- <feature name="cdc-sensor-api" version="1.0.5">
-    <bundle start-level="80">mvn:com.instana/cdc-sensor-api/1.0.5</bundle>
+ <feature name="cdc-sensor-api" version="1.0.6">
+    <bundle start-level="80">mvn:com.instana/cdc-sensor-api/1.0.6</bundle>
   </feature>
 
   <feature name="common-data-collector-cp4aiops-sender" version="1.0.22">
-    <feature version="[1.0.5,2)">cdc-sensor-api</feature>
+    <feature version="[1.0.6,2)">cdc-sensor-api</feature>
     <bundle start-level="80">wrap:mvn:org.checkerframework/checker-qual/3.24.0</bundle>
     <bundle start-level="80">wrap:mvn:com.google.errorprone/error_prone_annotations/2.15.0</bundle>
     <bundle start-level="80">wrap:mvn:io.cloudevents/cloudevents-api/2.3.0</bundle>
@@ -58,34 +58,35 @@
     <bundle start-level="80">mvn:com.instana/cdc-cp4aiops-sender/1.0.22</bundle>
   </feature>
 
-  <feature name="cdc-observer" version="2.18.0.dev">
+  <feature name="cdc-observer" version="2.18.1.dev">
     <feature prerequisite="true">scr</feature>
-    <feature version="[1.0.5,2)">cdc-sensor-api</feature>
+    <feature version="[1.0.6,2)">cdc-sensor-api</feature>
     <bundle start-level="80">mvn:io.swagger/swagger-annotations/1.6.12</bundle>
     <bundle start-level="80">mvn:io.dropwizard.metrics/metrics-core/4.2.19</bundle>
     <bundle start-level="80">mvn:jakarta.ws.rs/jakarta.ws.rs-api/2.1.6</bundle>
     <bundle start-level="80">mvn:javax.servlet/javax.servlet-api/3.1.0</bundle>
     <bundle start-level="80">mvn:javax.xml.bind/jaxb-api/2.3.1</bundle>
-    <bundle start-level="80">mvn:com.ibm.itsm.topology/asm-utils/2.18.0.dev</bundle>
-    <bundle start-level="80">mvn:com.ibm.itsm.topology/observer-base/2.18.0.dev</bundle>
+    <bundle start-level="80">mvn:com.ibm.itsm.topology/asm-utils/2.18.1.dev</bundle>
+    <bundle start-level="80">mvn:com.ibm.itsm.topology/observer-base/2.18.1.dev</bundle>
     <bundle start-level="80">mvn:com.instana/cdc-topology-orchestrator/1.0.10</bundle>
   </feature>
 
-  <feature name="cdc-dynatrace-observer" version="2.18.0.dev">
+  <feature name="cdc-dynatrace-observer" version="2.18.1.dev">
     <feature prerequisite="true">scr</feature>
-    <feature version="2.18.0.dev">cdc-observer</feature>
+    <feature version="2.18.1.dev">cdc-observer</feature>
     <bundle start-level="80">mvn:com.basistech.org.apache.httpcomponents/httpclient-osgi/4.5.13</bundle>
     <bundle start-level="80">mvn:org.apache.httpcomponents/httpcore-osgi/4.4.9</bundle>
     <bundle start-level="80">mvn:jakarta.annotation/jakarta.annotation-api/1.3.5</bundle>
     <bundle start-level="80">mvn:jakarta.inject/jakarta.inject-api/1.0.5</bundle>
     <bundle start-level="80">mvn:org.glassfish.jersey.core/jersey-client/2.41</bundle>
     <bundle start-level="80">mvn:org.glassfish.jersey.core/jersey-common/2.41</bundle>
+    <bundle start-level="80">mvn:org.glassfish.jersey.connectors/jersey-apache-connector/2.35</bundle>
     <bundle start-level="80">mvn:org.glassfish.hk2/osgi-resource-locator/1.0.3</bundle>
-    <bundle start-level="80">mvn:com.ibm.itsm.topology/observer-dynatrace/2.18.0.dev</bundle>
+    <bundle start-level="80">mvn:com.ibm.itsm.topology/observer-dynatrace/2.18.1.dev</bundle>
   </feature>
 
-  <feature name="instana-dynatrace-discovery" version="1.0.30">
-    <bundle start-level="80">mvn:com.instana/discovery-dynatrace/1.0.30</bundle>
+  <feature name="instana-dynatrace-discovery" version="1.0.35">
+    <bundle start-level="80">mvn:com.instana/discovery-dynatrace/1.0.35</bundle>
   </feature>
 
   <feature name="instana-appdynamics-discovery" version="1.0.12">
