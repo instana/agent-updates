@@ -1247,12 +1247,12 @@
     <bundle start-level="90">mvn:com.instana/sensor-ruby-profile/1.1.0</bundle>
   </feature>
 
-  <feature name="instana-sap-hana-sensor" version="1.1.11">
+  <feature name="instana-sap-hana-sensor" version="1.1.12">
     <bundle start-level="80">
       <![CDATA[wrap:mvn:com.sap.cloud.db.jdbc/ngdbc/2.4.64$overwrite=merge&Bundle-Version=2.4.64&Export-Package=com.sap.db.jdbc.*;version=2.4.64]]>
     </bundle>
     <feature version="[1.1,2)">jta-spec</feature>
-    <bundle start-level="80">mvn:com.instana/sensor-sap-hana/1.1.11</bundle>
+    <bundle start-level="80">mvn:com.instana/sensor-sap-hana/1.1.12</bundle>
   </feature>
 
   <feature name="instana-sap-abap-sensor" version="1.0.27">
