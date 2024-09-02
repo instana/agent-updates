@@ -1140,9 +1140,9 @@
     <bundle start-level="80">mvn:com.instana/sensor-ping/1.0.12</bundle>
   </feature>
 
-  <feature name="instana-ping-directory-sensor" version="1.0.7">
+  <feature name="instana-ping-directory-sensor" version="1.0.8">
     <feature version="[1.2.129,2)">instana-java-sensor</feature>
-    <bundle start-level="80">mvn:com.instana/sensor-ping-directory/1.0.7</bundle>
+    <bundle start-level="80">mvn:com.instana/sensor-ping-directory/1.0.8</bundle>
   </feature>
 
   <feature name="instana-podman-sensor" version="1.0.3">
