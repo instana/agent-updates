@@ -70,5 +70,21 @@
     <bundle start-level="80">mvn:com.instana/agent-prometheus/1.0.10</bundle>
     <bundle start-level="80">wrap:mvn:com.google.protobuf/protobuf-java/3.19.6</bundle>
   </feature>
+  <!--To upgrade the feature and bundles for thirdparty-jackson from agent-bootstrap-feature, updated the feature version here-->
+  <feature name="thirdparty-jackson" description="Shared Jackson JSON from optional feature" version="2.16.1">
+    <bundle start-level="40">mvn:com.fasterxml.jackson.core/jackson-core/2.16.1</bundle>
+    <bundle start-level="40">mvn:com.fasterxml.jackson.core/jackson-databind/2.16.1</bundle>
+    <bundle start-level="40">mvn:com.fasterxml.jackson.core/jackson-annotations/2.16.1</bundle>
+    <bundle start-level="40">mvn:com.fasterxml.jackson.dataformat/jackson-dataformat-yaml/2.16.1</bundle>
+    <!-- dependency for dataformat yaml -->
+    <bundle start-level="40">mvn:org.yaml/snakeyaml/2.2</bundle>
+  </feature>
+  <!--To upgrade the feature and bundles for thirdparty-apache-commons from agent-bootstrap-feature, updated the feature version here-->
+  <feature name="thirdparty-apache-commons" description="Shared Apache Commons from optional feature" version="1.1.11">
+    <bundle start-level="40">mvn:commons-io/commons-io/2.15.1</bundle>
+    <bundle start-level="40">mvn:org.apache.commons/commons-collections4/4.4</bundle>
+    <bundle start-level="40">mvn:org.apache.commons/commons-csv/1.10.0</bundle>
+    <bundle start-level="40">mvn:org.apache.commons/commons-lang3/3.14.0</bundle>
+  </feature>
 </features>
 
