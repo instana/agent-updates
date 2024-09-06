@@ -1,26 +1,26 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
 <features name="${project.artifactId}-${project.version}" xmlns="http://karaf.apache.org/xmlns/features/v1.3.0">
 
-  <feature name="common-data-collector-transform-api" version="1.0.21">
-    <bundle start-level="80">mvn:com.instana/cdc-bundle-jsengine/1.0.21</bundle>
-    <bundle start-level="80">mvn:com.instana/cdc-instanatransform-api/1.0.21</bundle>
-    <bundle start-level="80">mvn:com.instana/cdc-transformapi-api/1.0.21</bundle>
-    <bundle start-level="80">mvn:com.instana/cdc-assembly-api/1.0.21</bundle>
-    <bundle start-level="80">mvn:com.instana/cdc-instanatransform-provider/1.0.21</bundle>
-    <bundle start-level="80">mvn:com.instana/cdc-transformapi-provider/1.0.21</bundle>
-    <bundle start-level="80">mvn:com.instana/cdc-assembly-provider/1.0.21</bundle>
-    <bundle start-level="80">mvn:com.instana/cdc-sdk-provider/1.0.21</bundle>
+  <feature name="common-data-collector-transform-api" version="1.0.25">
+    <bundle start-level="80">mvn:com.instana/cdc-bundle-jsengine/1.0.25</bundle>
+    <bundle start-level="80">mvn:com.instana/cdc-instanatransform-api/1.0.25</bundle>
+    <bundle start-level="80">mvn:com.instana/cdc-transformapi-api/1.0.25</bundle>
+    <bundle start-level="80">mvn:com.instana/cdc-assembly-api/1.0.25</bundle>
+    <bundle start-level="80">mvn:com.instana/cdc-instanatransform-provider/1.0.25</bundle>
+    <bundle start-level="80">mvn:com.instana/cdc-transformapi-provider/1.0.25</bundle>
+    <bundle start-level="80">mvn:com.instana/cdc-assembly-provider/1.0.25</bundle>
+    <bundle start-level="80">mvn:com.instana/cdc-sdk-provider/1.0.25</bundle>
   </feature>
 
-  <feature name="common-data-collector-transformer-cloudpack" version="1.0.21">
-    <bundle start-level="80">mvn:com.instana/cdc-transformercloudpack-provider/1.0.21</bundle>
+  <feature name="common-data-collector-transformer-cloudpack" version="1.0.25">
+    <bundle start-level="80">mvn:com.instana/cdc-transformercloudpack-provider/1.0.25</bundle>
   </feature>
 
  <feature name="cdc-sensor-api" version="1.0.6">
     <bundle start-level="80">mvn:com.instana/cdc-sensor-api/1.0.6</bundle>
   </feature>
 
-  <feature name="common-data-collector-cp4aiops-sender" version="1.0.22">
+  <feature name="common-data-collector-cp4aiops-sender" version="1.0.24">
     <feature version="[1.0.6,2)">cdc-sensor-api</feature>
     <bundle start-level="80">wrap:mvn:org.checkerframework/checker-qual/3.24.0</bundle>
     <bundle start-level="80">wrap:mvn:com.google.errorprone/error_prone_annotations/2.15.0</bundle>
@@ -55,7 +55,7 @@
     <bundle start-level="80">wrap:mvn:org.latencyutils/LatencyUtils/2.0.3</bundle>
     <bundle start-level="80">wrap:mvn:com.ibm.cp4waiops.connectors/connectors-sdk/1.4.15.3-jdk8</bundle>
     <bundle start-level="80">wrap:mvn:com.instana/cdc-grpc/1.57.1</bundle>
-    <bundle start-level="80">mvn:com.instana/cdc-cp4aiops-sender/1.0.22</bundle>
+    <bundle start-level="80">mvn:com.instana/cdc-cp4aiops-sender/1.0.24</bundle>
   </feature>
 
   <feature name="cdc-observer" version="2.18.1.dev">
@@ -85,8 +85,8 @@
     <bundle start-level="80">mvn:com.ibm.itsm.topology/observer-dynatrace/2.18.1.dev</bundle>
   </feature>
 
-  <feature name="instana-dynatrace-discovery" version="1.0.35">
-    <bundle start-level="80">mvn:com.instana/discovery-dynatrace/1.0.35</bundle>
+  <feature name="instana-dynatrace-discovery" version="2.0.0">
+    <bundle start-level="80">mvn:com.instana/discovery-dynatrace/2.0.0</bundle>
   </feature>
 
   <feature name="instana-appdynamics-discovery" version="1.0.12">
