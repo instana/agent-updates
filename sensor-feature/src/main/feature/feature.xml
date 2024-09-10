@@ -1171,13 +1171,13 @@
     <bundle start-level="80">mvn:com.instana/sensor-process/1.1.49</bundle>
   </feature>
 
-  <feature name="instana-prometheus-kubernetes-discovery" version="1.0.76">
-    <bundle start-level="80">mvn:com.instana/discovery-prometheus-kubernetes/1.0.76</bundle>
+  <feature name="instana-prometheus-kubernetes-discovery" version="1.0.82">
+    <bundle start-level="80">mvn:com.instana/discovery-prometheus-kubernetes/1.0.82</bundle>
     <feature version="20.0.1-legacy">kubernetes-client</feature>
   </feature>
 
-  <feature name="instana-prometheus-sensor" version="1.0.76">
-    <bundle start-level="80">mvn:com.instana/sensor-prometheus/1.0.76</bundle>
+  <feature name="instana-prometheus-sensor" version="1.0.82">
+    <bundle start-level="80">mvn:com.instana/sensor-prometheus/1.0.82</bundle>
   </feature>
 
   <feature name="instana-python-sensor" version="2.0.0">
