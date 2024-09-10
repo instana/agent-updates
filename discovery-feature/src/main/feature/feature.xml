@@ -382,6 +382,10 @@
     <bundle start-level="80">mvn:com.instana/discovery-nomad/1.0.8</bundle>
   </feature>
 
+  <feature name="instana-nutanix-discovery" version="1.0.0">
+    <bundle start-level="80">mvn:com.instana/discovery-nutanix/1.0.0</bundle>
+  </feature>
+
   <feature name="instana-omegamon-discovery" version="1.0.5">
     <bundle start-level="80">mvn:com.instana/discovery-omegamon/1.0.5</bundle>
   </feature>
