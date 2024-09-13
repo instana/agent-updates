@@ -1089,6 +1089,12 @@
     <bundle start-level="80">mvn:com.instana/sensor-nomad/1.0.8</bundle>
   </feature>
 
+  <feature name="instana-nutanix-sensor" version="1.0.0">
+    <bundle start-level="80">mvn:org.apache.httpcomponents/httpcore-osgi/4.4.9</bundle>
+    <bundle start-level="80">mvn:com.basistech.org.apache.httpcomponents/httpclient-osgi/4.5.13</bundle>
+    <bundle start-level="80">mvn:com.instana/sensor-nutanix/1.0.0</bundle>
+  </feature>
+
   <feature name="instana-omegamon-sensor" version="1.0.5">
     <feature version="1.0.24">common-data-collector-transformer-instana</feature>
     <bundle start-level="80">mvn:com.instana/sensor-omegamon/1.0.5</bundle>
