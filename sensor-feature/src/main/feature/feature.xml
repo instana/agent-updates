@@ -1344,14 +1344,19 @@
     <bundle start-level="80">mvn:com.instana/sensor-tibcobw/1.0.3</bundle>
   </feature>
 
-  <feature name="instana-tibcoas-node-sensor" version="1.0.3">
+  <feature name="sensor-tibcoas-common" version="1.0.4">
     <bundle start-level="80">wrap:mvn:com.tibco/tibftl/6.10.1</bundle>
-    <bundle start-level="80">mvn:com.instana/sensor-tibcoas-node/1.0.3</bundle>
+    <bundle start-level="80">mvn:com.instana/sensor-tibcoas-common/1.0.4</bundle>
   </feature>
 
-  <feature name="instana-tibcoas-proxy-sensor" version="1.0.3">
-    <bundle start-level="80">wrap:mvn:com.tibco/tibftl/6.10.1</bundle>
-    <bundle start-level="80">mvn:com.instana/sensor-tibcoas-proxy/1.0.3</bundle>
+  <feature name="instana-tibcoas-node-sensor" version="1.0.4">
+    <feature version="1.0.4">sensor-tibcoas-common</feature>
+    <bundle start-level="80">mvn:com.instana/sensor-tibcoas-node/1.0.4</bundle>
+  </feature>
+
+  <feature name="instana-tibcoas-proxy-sensor" version="1.0.4">
+    <feature version="1.0.4">sensor-tibcoas-common</feature>
+    <bundle start-level="80">mvn:com.instana/sensor-tibcoas-proxy/1.0.4</bundle>
   </feature>
 
   <feature name="instana-tibcoems-sensor" version="1.1.0">
