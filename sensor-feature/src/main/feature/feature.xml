@@ -761,8 +761,8 @@
     <bundle start-level="80">mvn:com.instana/sensor-ibm-api-connect/1.0.3</bundle>
   </feature>
 
-  <feature name="instana-ibminfospherecdc-sensor" version="1.0.3">
-    <bundle start-level="80">mvn:com.instana/sensor-ibminfosphere-cdc/1.0.3</bundle>
+  <feature name="instana-ibminfospherecdc-sensor" version="1.0.4">
+    <bundle start-level="80">mvn:com.instana/sensor-ibminfosphere-cdc/1.0.4</bundle>
     <bundle start-level="80">mvn:com.instana/sensor-ibm-infosphere-chcclp/1.0.0</bundle>
   </feature>
 
