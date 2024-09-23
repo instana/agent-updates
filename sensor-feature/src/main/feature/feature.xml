@@ -577,9 +577,9 @@
     <bundle start-level="80">mvn:com.instana/sensor-drbd/1.0.3</bundle>
   </feature>
 
-  <feature name="instana-dropwizard-sensor" version="1.1.30">
+  <feature name="instana-dropwizard-sensor" version="1.1.31">
     <feature version="[1.2.129,2)">instana-java-sensor</feature>
-    <bundle start-level="80">mvn:com.instana/sensor-dropwizard/1.1.30</bundle>
+    <bundle start-level="80">mvn:com.instana/sensor-dropwizard/1.1.31</bundle>
   </feature>
 
   <feature name="instana-dynatrace-sensor" version="1.0.31">
