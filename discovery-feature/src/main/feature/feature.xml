@@ -126,8 +126,8 @@
     <bundle start-level="80">mvn:com.instana/discovery-drbd/1.0.3</bundle>
   </feature>
 
-  <feature name="instana-dropwizard-discovery" version="1.1.31">
-    <bundle start-level="80">mvn:com.instana/discovery-dropwizard/1.1.31</bundle>
+  <feature name="instana-dropwizard-discovery" version="1.1.30">
+    <bundle start-level="80">mvn:com.instana/discovery-dropwizard/1.1.30</bundle>
   </feature>
 
   <feature name="instana-dynatrace-discovery" version="1.0.31">
