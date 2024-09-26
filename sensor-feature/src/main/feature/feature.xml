@@ -1447,7 +1447,10 @@
 
   <feature name="okhttp" version="4.12.0">
     <bundle start-level="80">
-      <![CDATA[wrap:mvn:com.squareup.okhttp3/okhttp/4.12.0$overwrite=merge&Bundle-SymbolicName=okhttp&Bundle-Version=4.12.0&Export-Package=*;version=4.12.0]]>
+      <![CDATA[wrap:mvn:com.squareup.okhttp3/okhttp/4.12.0$overwrite=merge&Bundle-SymbolicName=okhttp&Bundle-Version=4.12.0&Export-Package=*;version=4.12.0&Require-Bundle=okhttp-urlconnection]]>
+    </bundle>
+    <bundle start-level="80">
+      <![CDATA[wrap:mvn:com.squareup.okhttp3/okhttp-urlconnection/4.12.0$overwrite=merge&Bundle-SymbolicName=okhttp-urlconnection&Bundle-Version=4.12.0&Import-Package=!okhttp3*,*;resolution:=optional&Export-Package=okhttp3;partial=true;mandatory:=partial;version=4.12.0,.*;version=4.12.0&Require-Bundle=okhttp]]>
     </bundle>
     <bundle start-level="80">mvn:com.squareup.okio/okio-jvm/3.9.0</bundle>
     <bundle start-level="80">wrap:mvn:com.squareup.okhttp3/logging-interceptor/4.12.0$Bundle-SymbolicName=logging-interceptor&amp;Bundle-Version=4.12.0</bundle>
