@@ -537,6 +537,11 @@
   <feature name="instana-crio-sensor" version="1.0.11">
     <bundle start-level="80">mvn:com.instana/sensor-crio/1.0.11</bundle>
   </feature>
+  
+  <feature name="instana-cve-sensor" version="1.0.1">
+    <feature version="4.12.0">okhttp</feature>
+    <bundle start-level="80">mvn:com.instana/sensor-cve/1.0.1</bundle>
+  </feature>
 
   <feature name="instana-datadog-sensor" version="1.0.16">
     <feature version="[1.0.21,2)">ibm-apm-importer</feature>
