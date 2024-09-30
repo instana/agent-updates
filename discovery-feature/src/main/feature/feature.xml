@@ -134,10 +134,10 @@
     <bundle start-level="80">mvn:com.instana/discovery-dropwizard/1.1.30</bundle>
   </feature>
 
-  <feature name="instana-dynatrace-discovery" version="1.0.31">
-    <bundle start-level="80">mvn:com.instana/discovery-dynatrace/1.0.31</bundle>
+  <feature name="instana-dynatrace-discovery" version="2.0.2">
+    <bundle start-level="80">mvn:com.instana/discovery-dynatrace/2.0.2</bundle>
   </feature>
-
+  
   <feature name="instana-ebpf-discovery" version="1.0.25">
     <bundle start-level="80">mvn:com.instana/discovery-ebpf/1.0.25</bundle>
   </feature>

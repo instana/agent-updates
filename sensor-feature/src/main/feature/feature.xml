@@ -587,12 +587,13 @@
     <bundle start-level="80">mvn:com.instana/sensor-dropwizard/1.1.30</bundle>
   </feature>
 
-  <feature name="instana-dynatrace-sensor" version="1.0.31">
-    <feature version="[1.0.20,2)">ibm-apm-importer</feature>
+  <feature name="instana-dynatrace-sensor" version="2.0.2">
+    <feature version="[1.0.24,2)">ibm-apm-importer</feature>
     <feature version="[1.0.5,2)">cdc-sensor-api</feature>
+    <feature version="[1.0.25,2)">common-data-collector-transformer-instana</feature>
     <bundle start-level="80">mvn:com.instana/common-datacollector-application-api/1.0.0</bundle>
     <bundle start-level="80">mvn:com.instana/common-datacollector-application-provider/1.0.0</bundle>
-    <bundle start-level="80">mvn:com.instana/sensor-dynatrace/1.0.31</bundle>
+    <bundle start-level="80">mvn:com.instana/sensor-dynatrace/2.0.2</bundle>
   </feature>
 
   <feature name="instana-ebpf-sensor" version="1.0.25">
