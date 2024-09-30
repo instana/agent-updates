@@ -778,9 +778,9 @@
     <bundle start-level="80">mvn:com.instana/sensor-ibmiseries/1.0.45</bundle>
   </feature>
 
-  <feature name="instana-ibmmq-sensor" version="1.1.22">
+  <feature name="instana-ibmmq-sensor" version="1.1.23">
     <feature version="9.3.0.0">ibmmqclient</feature>
-    <bundle start-level="80">mvn:com.instana/sensor-ibmmq/1.1.22</bundle>
+    <bundle start-level="80">mvn:com.instana/sensor-ibmmq/1.1.23</bundle>
   </feature>
 
   <feature name="instana-ibmmq-mft-sensor" version="1.0.20">
