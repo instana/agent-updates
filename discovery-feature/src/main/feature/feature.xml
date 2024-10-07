@@ -617,4 +617,10 @@
   <feature name="instana-zookeeper-discovery" version="1.0.8">
     <bundle start-level="80">mvn:com.instana/discovery-zookeeper/1.0.8</bundle>
   </feature>
+
+
+  <feature name="instana-k8sgpt-discovery" version="1.0.0">
+    <bundle start-level="80">mvn:com.instana/discovery-k8sgpt/1.0.0</bundle>
+  </feature>
+
 </features>

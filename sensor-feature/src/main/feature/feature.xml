@@ -1470,4 +1470,10 @@
     <bundle start-level="80">mvn:javax.jms/javax.jms-api/2.0</bundle>
   </feature>
 
+  <feature name="instana-k8sgpt-sensor" version="1.0.0">
+    <bundle start-level="80">mvn:com.instana/sensor-k8sgpt/1.0.0</bundle>
+    <bundle start-level="80">mvn:com.google.code.gson/gson/2.10.1</bundle>
+    <feature version="20.0.1-legacy">kubernetes-client</feature>
+  </feature>
+
 </features>
