@@ -74,14 +74,14 @@
     <bundle start-level="60">mvn:com.instana/agent-internal-api/1.0.10</bundle>
   </feature>
 
-  <feature name="instana-agent" description="Instana Agent" version="1.2.6">
+  <feature name="instana-agent" description="Instana Agent" version="1.2.7">
     <feature>agent-version</feature>
     <feature version="[1.2.154,2)">instana-api</feature>
     <feature version="[1.0.0,2)">instana-agent-api</feature>
     <feature version="[1.0.10,2)">instana-agent-internal-api</feature>
     <feature version="[1.0.7,2)">instana-agent-optional-api</feature>
     <bundle start-level="70">mvn:com.instana/agent-http/1.0.6</bundle>
-    <bundle start-level="70">mvn:com.instana/agent/1.1.735</bundle>
+    <bundle start-level="70">mvn:com.instana/agent/1.1.736</bundle>
     <bundle start-level="70">mvn:com.instana/agent-backend/1.0.1</bundle>
     <bundle start-level="70">mvn:com.instana/agent-backend-api/1.0.1</bundle>
     <bundle start-level="70">mvn:com.instana/agent-backend-util/1.0.0</bundle>
@@ -97,7 +97,7 @@
     <bundle start-level="70">mvn:com.instana/agent-self-profiling/1.0.0</bundle>
     <bundle start-level="70">mvn:com.instana/agent-socket-server/1.0.0</bundle>
     <bundle start-level="70">mvn:com.instana/agent-socket-server-api/1.0.0</bundle>
-    <bundle start-level="70">mvn:com.instana/agent-task-orchestrator/1.0.1</bundle>
+    <bundle start-level="70">mvn:com.instana/agent-task-orchestrator/1.0.2</bundle>
     <bundle start-level="70">mvn:com.instana/agent-task-orchestrator-api/1.0.1</bundle>
     <bundle start-level="70">mvn:com.instana/agent-util/1.0.3</bundle>
     <bundle start-level="70">mvn:com.instana/agent-zipkin-tracer/1.0.0</bundle>
