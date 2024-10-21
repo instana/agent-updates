@@ -1308,9 +1308,9 @@
     <bundle start-level="80">mvn:com.instana/sensor-splunk/1.0.10</bundle>
   </feature>
 
-  <feature name="instana-statsd-sensor" version="1.1.9">
+  <feature name="instana-statsd-sensor" version="1.1.10">
     <bundle start-level="80">mvn:org.hdrhistogram/HdrHistogram/2.1.12</bundle>
-    <bundle start-level="80">mvn:com.instana/sensor-statsd/1.1.9</bundle>
+    <bundle start-level="80">mvn:com.instana/sensor-statsd/1.1.10</bundle>
   </feature>
 
   <feature name="instana-spark-application-sensor" version="1.1.7">
