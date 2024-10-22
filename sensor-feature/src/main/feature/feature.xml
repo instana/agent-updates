@@ -562,14 +562,14 @@
     <bundle start-level="80">mvn:com.instana/sensor-db2z/1.0.0</bundle>
   </feature>
 
-  <feature name="instana-docker-sensor" version="1.1.80">
-    <bundle start-level="80">mvn:com.instana/sensor-docker/1.1.80</bundle>
+  <feature name="instana-docker-sensor" version="1.1.81">
+    <bundle start-level="80">mvn:com.instana/sensor-docker/1.1.81</bundle>
   </feature>
 
-  <feature name="instana-docker-log-sensor" version="1.1.80">
-    <feature version="[1.1.80,2)">instana-docker-sensor</feature>
+  <feature name="instana-docker-log-sensor" version="1.1.81">
+    <feature version="[1.1.81,2)">instana-docker-sensor</feature>
     <bundle start-level="80">mvn:org.apache.httpcomponents/httpcore-osgi/4.4.9</bundle>
-    <bundle start-level="80">mvn:com.instana/sensor-docker-log/1.1.80</bundle>
+    <bundle start-level="80">mvn:com.instana/sensor-docker-log/1.1.81</bundle>
   </feature>
 
   <feature name="instana-domino-sensor" version="1.0.3">
