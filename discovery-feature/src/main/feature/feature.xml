@@ -502,8 +502,8 @@
     <bundle start-level="80">mvn:com.instana/discovery-scom/1.0.11</bundle>
   </feature>
 
-  <feature name="instana-snowflake-discovery" version="1.0.0">
-    <bundle start-level="80">mvn:com.instana/discovery-snowflake/1.0.0</bundle>
+  <feature name="instana-snowflake-discovery" version="1.0.1">
+    <bundle start-level="80">mvn:com.instana/discovery-snowflake/1.0.1</bundle>
   </feature>
 
   <feature name="instana-solarwinds-discovery" version="1.0.13">
