@@ -35,8 +35,8 @@
     <bundle start-level="80">mvn:com.instana/sensor-podman/1.0.4</bundle>
   </feature>
 
-  <feature name="instana-process-sensor" version="1.1.50">
-    <bundle start-level="80">mvn:com.instana/sensor-process/1.1.50</bundle>
+  <feature name="instana-process-sensor" version="1.1.51">
+    <bundle start-level="80">mvn:com.instana/sensor-process/1.1.51</bundle>
   </feature>
 
 </features>
