@@ -66,6 +66,12 @@
     <bundle start-level="80">mvn:com.instana/agent-open-telemetry-http/1.0.25</bundle>
   </feature>
 
+  <feature name="instana-agent-ibmi-handler" version="1.0.0">
+    <feature version="[1.2.155,2)">instana-api</feature>
+    <bundle start-level="80">mvn:com.instana/agent-ibmi-handler/1.0.0</bundle>
+    <bundle start-level="80">wrap:mvn:net.sf.jt400/jt400/10.4</bundle>
+  </feature>
+
   <feature name="instana-agent-prometheus" version="1.0.11">
     <feature version="[1.1.587,2)">instana-agent</feature>
     <bundle start-level="80">mvn:com.instana/agent-prometheus/1.0.11</bundle>
