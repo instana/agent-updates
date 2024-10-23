@@ -29,6 +29,7 @@ The developer needs to create a [docs](https://github.ibm.com/instana/docs) PR a
     - 📋 The description can fall into 3 categories: **Features**, **Improvements**, **Fixes**. Add sections to your description as needed
     - 🔎 Reviewers should be: `instana/eng-agent-sensor-gatekeepers` and `instana/instana-content-team`
     - ⚠️ **IMPORTANT: Please write costumer oriented text in the description**
+    - ⚠️ **IMPORTANT: For "Private Preview" sensors the lines within [SUMMARY.md](https://github.ibm.com/instana/docs/blob/main/SUMMARY.md) and [index.md](https://github.ibm.com/instana/docs/blob/14496e1898e6902a55f922817b3b85d92b5d8821/src/pages/releases/sensor_release_notes/index.md) should remain commented**
 3. Add the link of `docs` PR to the `agent-update-site` PR and vise-versa
 4. Gatekeeper reviews and approves the `docs` PR only after the `agent-update-site` PR is merged and informs the content team that the PR is ready for content review (write a 📝 comment on the PR: "PR is ready for content review" and 🏷️ label the PR with `In ID Review`)
 5. Content Team reviews the `docs` PR from wording and grammar perspective
