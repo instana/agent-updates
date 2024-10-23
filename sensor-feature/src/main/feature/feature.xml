@@ -1203,8 +1203,8 @@
     <bundle start-level="80">mvn:com.instana/sensor-prometheus/1.0.83</bundle>
   </feature>
 
-  <feature name="instana-python-sensor" version="2.0.0">
-    <bundle start-level="80">mvn:com.instana/sensor-python/2.0.0</bundle>
+  <feature name="instana-python-sensor" version="2.0.1">
+    <bundle start-level="80">mvn:com.instana/sensor-python/2.0.1</bundle>
   </feature>
 
   <feature name="instana-python-trace-sensor" version="1.2.1">
