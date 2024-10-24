@@ -570,8 +570,8 @@
     <bundle start-level="80">mvn:com.instana/discovery-traefik/1.0.5</bundle>
   </feature>
 
-  <feature name="instana-turbonomic-discovery" version="1.0.11">
-    <bundle start-level="80">mvn:com.instana/discovery-turbonomic/1.0.11</bundle>
+  <feature name="instana-turbonomic-discovery" version="1.0.12">
+    <bundle start-level="80">mvn:com.instana/discovery-turbonomic/1.0.12</bundle>
   </feature>
 
   <feature name="instana-tuxedo-discovery" version="1.0.5">
