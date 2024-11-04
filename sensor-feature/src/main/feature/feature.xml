@@ -75,6 +75,11 @@
     <bundle start-level="80">mvn:com.instana/sensor-action-script/1.0.54</bundle>
   </feature>
 
+  <feature name="instana-activedirectory-sensor" version="1.0.0">
+    <bundle start-level="80">mvn:com.instana/sensor-activedirectory/1.0.0</bundle>
+    <bundle start-level="80">wrap:mvn:com.profesorfalken/WMI4Java/1.6.3</bundle>
+  </feature>
+
   <feature name="instana-activemq-artemis-sensor" version="1.0.8">
     <feature version="[1.2.129,2)">instana-java-sensor</feature>
     <bundle start-level="80">mvn:com.instana/sensor-activemq-artemis/1.0.8</bundle>

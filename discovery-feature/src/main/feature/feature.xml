@@ -9,6 +9,10 @@
     <bundle start-level="80">mvn:com.instana/discovery-action/1.0.54</bundle>
   </feature>
 
+  <feature name="instana-activedirectory-discovery" version="1.0.0">
+    <bundle start-level="80">mvn:com.instana/discovery-activedirectory/1.0.0</bundle>
+  </feature>
+
   <feature name="instana-activemq-artemis-discovery" version="1.0.8">
     <bundle start-level="80">mvn:com.instana/discovery-activemq-artemis/1.0.8</bundle>
   </feature>
