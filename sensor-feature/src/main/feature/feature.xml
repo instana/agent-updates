@@ -1282,11 +1282,11 @@
     <bundle start-level="80">mvn:com.instana/sensor-sap-hana/1.1.15</bundle>
   </feature>
 
-  <feature name="instana-sap-abap-sensor" version="1.0.32">
+  <feature name="instana-sap-abap-sensor" version="1.0.33">
     <bundle start-level="80">
       <![CDATA[wrap:mvn:com.sap/sapjco3/[3.1.8,4.1.1]$overwrite=merge&Export-Package=com.sap.*]]>
     </bundle>
-    <bundle start-level="80">mvn:com.instana/sensor-sap-abap/1.0.32</bundle>
+    <bundle start-level="80">mvn:com.instana/sensor-sap-abap/1.0.33</bundle>
   </feature>
 
   <feature name="instana-scom-sensor" version="1.0.11">
