@@ -25,20 +25,20 @@
     <bundle start-level="80">mvn:com.instana/cdc-sensor-api/1.0.5</bundle>
   </feature>
 
-  <feature name="common-data-collector-transform-api" version="1.0.26">
-    <bundle start-level="80">mvn:com.instana/cdc-bundle-jsengine/1.0.26</bundle>
-    <bundle start-level="80">mvn:com.instana/cdc-instanatransform-api/1.0.26</bundle>
-    <bundle start-level="80">mvn:com.instana/cdc-transformapi-api/1.0.26</bundle>
-    <bundle start-level="80">mvn:com.instana/cdc-assembly-api/1.0.26</bundle>
-    <bundle start-level="80">mvn:com.instana/cdc-instanatransform-provider/1.0.26</bundle>
-    <bundle start-level="80">mvn:com.instana/cdc-transformapi-provider/1.0.26</bundle>
-    <bundle start-level="80">mvn:com.instana/cdc-assembly-provider/1.0.26</bundle>
-    <bundle start-level="80">mvn:com.instana/cdc-sdk-provider/1.0.26</bundle>
+  <feature name="common-data-collector-transform-api" version="1.0.30">
+    <bundle start-level="80">mvn:com.instana/cdc-bundle-jsengine/1.0.30</bundle>
+    <bundle start-level="80">mvn:com.instana/cdc-instanatransform-api/1.0.30</bundle>
+    <bundle start-level="80">mvn:com.instana/cdc-transformapi-api/1.0.30</bundle>
+    <bundle start-level="80">mvn:com.instana/cdc-assembly-api/1.0.30</bundle>
+    <bundle start-level="80">mvn:com.instana/cdc-instanatransform-provider/1.0.30</bundle>
+    <bundle start-level="80">mvn:com.instana/cdc-transformapi-provider/1.0.30</bundle>
+    <bundle start-level="80">mvn:com.instana/cdc-assembly-provider/1.0.30</bundle>
+    <bundle start-level="80">mvn:com.instana/cdc-sdk-provider/1.0.30</bundle>
   </feature>
 
-  <feature name="common-data-collector-transformer-instana" version="1.0.26">
-    <feature version="1.0.26">common-data-collector-transform-api</feature>
-    <bundle start-level="70">mvn:com.instana/cdc-transformerinstana-provider/1.0.26</bundle>
+  <feature name="common-data-collector-transformer-instana" version="1.0.30">
+    <feature version="1.0.30">common-data-collector-transform-api</feature>
+    <bundle start-level="70">mvn:com.instana/cdc-transformerinstana-provider/1.0.30</bundle>
   </feature>
 
   <feature name="common-datacollector-application-apis" version="1.0.0">
