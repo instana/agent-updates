@@ -34,4 +34,4 @@ The developer needs to create a [docs](https://github.ibm.com/instana/docs) PR a
 4. Gatekeeper reviews and approves the `docs` PR only after the `agent-update-site` PR is merged and informs the content team that the PR is ready for content review (write a 📝 comment on the PR: "PR is ready for content review" and 🏷️ label the PR with `In ID Review`)
 5. Content Team reviews the `docs` PR from wording and grammar perspective
 6. The developer incorporates content review comments
-7. Once both parties (Gatekeeper and Content Team) approved the PR, the **Content Team merges** the `docs` PR
+7. Once both parties (Gatekeeper and Content Team) approved the PR, the **Author of the PR merges** the `docs` PR
