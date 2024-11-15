@@ -20,7 +20,7 @@ Add ["Sensor Releases" section](https://ibmdocs-test.dcs.ibm.com/docs/en/instana
 
 The developer needs to create a [docs](https://github.ibm.com/instana/docs) PR against `main` branch. The PR contains the sensor version and the description of the release ([example PR](https://github.ibm.com/instana/docs/pull/11140)). The content can be the same as the commit title or a broader description. Once merged the content of the PR will reflect on Sensor Releases section of public docs (example: [IBM Docs Staging - MS SQL sensor release](https://ibmdocs-test.dcs.ibm.com/docs/en/instana-observability/284?topic=server-microsoft-sql-sensor-releases) **You need to log in with your w3 to access**). The release notes will be shipped to [publicly available docs site](https://www.ibm.com/docs/en/instana-observability/current) with the next SaaS Release.
 
-> ✅ The docs PR is merged by the content team.
+> ✅ The docs PR is merged by the author.
 
 ## Step-by-step guidance for docs PR creation and process
 
