@@ -539,8 +539,8 @@
     <bundle start-level="90">mvn:com.instana/sensor-crystal-trace/1.0.1</bundle>
   </feature>
 
-  <feature name="instana-crio-sensor" version="1.0.12">
-    <bundle start-level="80">mvn:com.instana/sensor-crio/1.0.12</bundle>
+  <feature name="instana-crio-sensor" version="1.0.13">
+    <bundle start-level="80">mvn:com.instana/sensor-crio/1.0.13</bundle>
   </feature>
 
   <feature name="instana-cve-sensor" version="2.0.0">
