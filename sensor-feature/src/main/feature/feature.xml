@@ -793,9 +793,9 @@
     <bundle start-level="80">mvn:com.instana/sensor-ibmmq-mft/1.0.21</bundle>
   </feature>
 
-  <feature name="instana-ibmcloud-sensor" version="1.0.18">
+  <feature name="instana-ibmcloud-sensor" version="1.0.19">
     <feature version="4.12.0">okhttp</feature>
-    <bundle start-level="80">mvn:com.instana/sensor-ibmcloud/1.0.18</bundle>
+    <bundle start-level="80">mvn:com.instana/sensor-ibmcloud/1.0.19</bundle>
   </feature>
 
   <feature name="instana-ibmdatapower-sensor" version="1.0.17">
