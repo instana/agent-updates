@@ -868,9 +868,9 @@
     <bundle start-level="80">mvn:com.instana/sensor-kafka-connect/1.0.4</bundle>
   </feature>
 
-  <feature name="instana-kafka-sensor" version="1.1.54">
+  <feature name="instana-kafka-sensor" version="1.1.55">
     <feature version="[1.2.133,2)">instana-java-sensor</feature>
-    <bundle start-level="80">mvn:com.instana/sensor-kafka/1.1.54</bundle>
+    <bundle start-level="80">mvn:com.instana/sensor-kafka/1.1.55</bundle>
   </feature>
 
   <feature name="instana-snowflake-sensor" version="1.0.4">
