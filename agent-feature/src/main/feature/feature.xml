@@ -136,7 +136,7 @@
     <feature version="[1.0.14,2)">instana-agent-grpc-core</feature>
     <bundle start-level="70">mvn:com.instana/agent-http/1.0.6</bundle>
     <bundle start-level="70">mvn:com.instana/agent/1.1.742</bundle>
-    <bundle start-level="70">mvn:com.instana/agent-backend/1.0.3</bundle>
+    <bundle start-level="70">mvn:com.instana/agent-backend/1.0.4</bundle>
     <bundle start-level="70">mvn:com.instana/agent-backend-api/1.0.1</bundle>
     <bundle start-level="70">mvn:com.instana/agent-backend-util/1.0.0</bundle>
     <bundle start-level="70">mvn:com.instana/agent-cgroup/1.0.0</bundle>
