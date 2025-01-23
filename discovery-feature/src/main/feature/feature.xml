@@ -6,7 +6,7 @@
   </feature>
 
   <feature name="instana-action-discovery" version="1.0.60">
-    <bundle start-level="80">mvn:com.instana/discovery-action/1.0.60</bundle>
+    <bundle start-level="80">mvn:com.instana/discovery-action/1.0.61</bundle>
   </feature>
 
   <feature name="instana-activedirectory-discovery" version="1.0.2">
