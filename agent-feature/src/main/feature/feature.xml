@@ -39,40 +39,40 @@
   <!-- End of third party features skipped by bootstrap 1.2.3 -->
 
   <!--To upgrade the feature and bundles for thirdparty-apache-commons from agent-bootstrap-feature, updated the feature version here-->
-  <feature name="thirdparty-apache-commons" description="Shared Apache Commons from agent feature" version="1.1.11">
-    <bundle start-level="40">mvn:commons-io/commons-io/2.15.1</bundle>
+  <feature name="thirdparty-apache-commons" description="Shared Apache Commons from agent feature" version="1.1.12">
+    <bundle start-level="40">mvn:commons-io/commons-io/2.18.0</bundle>
+    <bundle start-level="40">mvn:commons-codec/commons-codec/1.18.0</bundle>
     <bundle start-level="40">mvn:org.apache.commons/commons-collections4/4.4</bundle>
-    <bundle start-level="40">mvn:org.apache.commons/commons-csv/1.10.0</bundle>
-    <bundle start-level="40">mvn:org.apache.commons/commons-lang3/3.14.0</bundle>
+    <bundle start-level="40">mvn:org.apache.commons/commons-csv/1.13.0</bundle>
+    <bundle start-level="40">mvn:org.apache.commons/commons-lang3/3.17.0</bundle>
   </feature>
 
   <!--To upgrade the feature and bundles for thirdparty-jackson from agent-bootstrap-feature, updated the feature version here-->
-  <feature name="thirdparty-jackson" description="Shared Jackson JSON from agent feature" version="2.16.1-Rev2">
-    <bundle start-level="40">mvn:com.fasterxml.jackson.core/jackson-core/2.16.1</bundle>
-    <bundle start-level="40">mvn:com.fasterxml.jackson.core/jackson-databind/2.16.1</bundle>
-    <bundle start-level="40">mvn:com.fasterxml.jackson.core/jackson-annotations/2.16.1</bundle>
-    <bundle start-level="40">mvn:com.fasterxml.jackson.dataformat/jackson-dataformat-yaml/2.16.1</bundle>
-    <bundle start-level="80">mvn:com.fasterxml.jackson.datatype/jackson-datatype-jdk8/2.16.1</bundle>
+  <feature name="thirdparty-jackson" description="Shared Jackson JSON from agent feature" version="2.18.2">
+    <bundle start-level="40">mvn:com.fasterxml.jackson.core/jackson-core/2.18.2</bundle>
+    <bundle start-level="40">mvn:com.fasterxml.jackson.core/jackson-databind/2.18.2</bundle>
+    <bundle start-level="40">mvn:com.fasterxml.jackson.core/jackson-annotations/2.18.2</bundle>
+    <bundle start-level="40">mvn:com.fasterxml.jackson.dataformat/jackson-dataformat-yaml/2.18.2</bundle>
+    <bundle start-level="80">mvn:com.fasterxml.jackson.datatype/jackson-datatype-jdk8/2.18.2</bundle>
     <!-- dependency for dataformat yaml -->
-    <bundle start-level="40">mvn:org.yaml/snakeyaml/2.2</bundle>
+    <bundle start-level="40">mvn:org.yaml/snakeyaml/2.3</bundle>
   </feature>
 
   <!--To upgrade the feature and bundles for thirdparty-netty from agent-bootstrap-feature, updated the feature version here-->
-  <feature name="thirdparty-netty" description="Shared Netty from agent feature" version="4.1.115.Final">
-    <bundle start-level="40">mvn:io.netty/netty-buffer/4.1.115.Final</bundle>
-    <bundle start-level="40">mvn:io.netty/netty-codec/4.1.115.Final</bundle>
-    <bundle start-level="40">mvn:io.netty/netty-codec-dns/4.1.115.Final</bundle>
-    <bundle start-level="40">mvn:io.netty/netty-codec-http/4.1.115.Final</bundle>
-    <bundle start-level="40">mvn:io.netty/netty-codec-http2/4.1.115.Final</bundle>
-    <bundle start-level="40">mvn:io.netty/netty-codec-socks/4.1.115.Final</bundle>
-    <bundle start-level="40">mvn:io.netty/netty-common/4.1.115.Final</bundle>
-    <bundle start-level="40">mvn:io.netty/netty-handler/4.1.115.Final</bundle>
-    <bundle start-level="40">mvn:io.netty/netty-handler-proxy/4.1.115.Final</bundle>
-    <bundle start-level="40">mvn:io.netty/netty-resolver/4.1.115.Final</bundle>
-    <!-- Issue with DNS resolver on ZOS - https://github.com/netty/netty/issues/13949 -->
-    <bundle start-level="40">mvn:io.netty/netty-resolver-dns/4.1.107.Final</bundle>
-    <bundle start-level="40">mvn:io.netty/netty-transport/4.1.115.Final</bundle>
-    <bundle start-level="40">mvn:io.netty/netty-transport-native-unix-common/4.1.115.Final</bundle>
+  <feature name="thirdparty-netty" description="Shared Netty from agent feature" version="4.1.118.Final">
+    <bundle start-level="40">mvn:io.netty/netty-buffer/4.1.118.Final</bundle>
+    <bundle start-level="40">mvn:io.netty/netty-codec/4.1.118.Final</bundle>
+    <bundle start-level="40">mvn:io.netty/netty-codec-dns/4.1.118.Final</bundle>
+    <bundle start-level="40">mvn:io.netty/netty-codec-http/4.1.118.Final</bundle>
+    <bundle start-level="40">mvn:io.netty/netty-codec-http2/4.1.118.Final</bundle>
+    <bundle start-level="40">mvn:io.netty/netty-codec-socks/4.1.118.Final</bundle>
+    <bundle start-level="40">mvn:io.netty/netty-common/4.1.118.Final</bundle>
+    <bundle start-level="40">mvn:io.netty/netty-handler/4.1.118.Final</bundle>
+    <bundle start-level="40">mvn:io.netty/netty-handler-proxy/4.1.118.Final</bundle>
+    <bundle start-level="40">mvn:io.netty/netty-resolver/4.1.118.Final</bundle>
+    <bundle start-level="40">mvn:io.netty/netty-resolver-dns/4.1.118.Final</bundle>
+    <bundle start-level="40">mvn:io.netty/netty-transport/4.1.118.Final</bundle>
+    <bundle start-level="40">mvn:io.netty/netty-transport-native-unix-common/4.1.118.Final</bundle>
   </feature>
   
   <feature name="instana-agent-grpc-core" version="1.0.15">
