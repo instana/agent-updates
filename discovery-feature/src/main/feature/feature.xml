@@ -102,8 +102,8 @@
     <bundle start-level="80">mvn:com.instana/discovery-crystal/1.1.1</bundle>
   </feature>
 
-  <feature name="instana-crio-discovery" version="1.0.13">
-    <bundle start-level="80">mvn:com.instana/discovery-crio/1.0.13</bundle>
+  <feature name="instana-crio-discovery" version="1.0.14">
+    <bundle start-level="80">mvn:com.instana/discovery-crio/1.0.14</bundle>
   </feature>
   
   <feature name="instana-cve-discovery" version="2.0.1">
