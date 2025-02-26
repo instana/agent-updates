@@ -11,9 +11,8 @@ Each box needs to be checked or deleted in case it does not apply:
 
 When the destination branch is `public` the following is required:
 - [ ] ♻️ Auto-update verified as described in the [Auto-update Verfication](https://github.ibm.com/instana/agent-update-site/blob/internal/AUTO_UPDATE_VERIFICATION.md).
-- [ ] 📜 Release Notes (Public docs PR link - [guidance can be found here](https://github.ibm.com/instana/agent-update-site/blob/internal/SENSOR_RELEASE_NOTES.md)): ❗️**_INSERT_LINK_**
 - [ ] 💻 Agent Installer PR to be merged after merging this PR (**_USE THE SAME BRANCH NAME AS FOR agent-update-site PR_**): ❗️**_INSERT_LINK_** (in case when pipeline is not working follow [this](https://github.ibm.com/instana/agent-update-site/blob/internal/AGENT_STATIC_BUILD_VERIFICATION.md))
-- [ ] 🔔 Ping `@eng-agent-sensor-gatekeepers` and inform others about release to `public` in `#agent-and-sensor-releases` Slack channel 
+- [ ] 🔔 Ping `@eng-agent-sensor-gatekeepers` and inform others about release to `public` in `#agent-and-sensor-releases` Slack channel ([GUIDANCE](https://github.ibm.com/instana/agent-update-site/blob/internal/RELEASE_REQUEST_PROCESS.md))
 
 <hr />
 
