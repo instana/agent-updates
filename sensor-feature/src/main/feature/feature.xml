@@ -1326,9 +1326,9 @@
     <bundle start-level="80">mvn:com.instana/sensor-statsd/1.1.10</bundle>
   </feature>
 
-  <feature name="instana-spark-application-sensor" version="1.1.7">
+  <feature name="instana-spark-application-sensor" version="1.1.8">
     <feature version="[1.2.133,2)">instana-java-sensor</feature>
-    <bundle start-level="80">mvn:com.instana/sensor-spark-application/1.1.7</bundle>
+    <bundle start-level="80">mvn:com.instana/sensor-spark-application/1.1.8</bundle>
   </feature>
 
   <feature name="instana-spark-standalone-sensor" version="1.1.3">
