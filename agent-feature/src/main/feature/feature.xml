@@ -149,7 +149,7 @@
     <bundle start-level="70">mvn:com.instana/agent-jvm-handling-api/1.0.0</bundle>
     <bundle start-level="70">mvn:com.instana/agent-memory/1.0.0</bundle>
     <bundle start-level="70">mvn:com.instana/agent-memory-api/1.0.0</bundle>
-    <bundle start-level="70">mvn:com.instana/agent-process-handling/1.0.10</bundle>
+    <bundle start-level="70">mvn:com.instana/agent-process-handling/1.0.11</bundle>
     <bundle start-level="70">mvn:com.instana/agent-process-handling-api/1.0.3</bundle>
     <bundle start-level="70">mvn:com.instana/agent-runtime/1.0.5</bundle>
     <bundle start-level="70">mvn:com.instana/agent-runtime-api/1.0.5</bundle>
