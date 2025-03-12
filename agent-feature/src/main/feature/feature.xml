@@ -53,7 +53,7 @@
     <bundle start-level="40">mvn:com.fasterxml.jackson.core/jackson-databind/2.18.2</bundle>
     <bundle start-level="40">mvn:com.fasterxml.jackson.core/jackson-annotations/2.18.2</bundle>
     <bundle start-level="40">mvn:com.fasterxml.jackson.dataformat/jackson-dataformat-yaml/2.18.2</bundle>
-    <bundle start-level="80">mvn:com.fasterxml.jackson.datatype/jackson-datatype-jdk8/2.18.2</bundle>
+    <bundle start-level="40">mvn:com.fasterxml.jackson.datatype/jackson-datatype-jdk8/2.18.2</bundle>
     <!-- dependency for dataformat yaml -->
     <bundle start-level="40">mvn:org.yaml/snakeyaml/2.3</bundle>
   </feature>
@@ -75,19 +75,19 @@
     <bundle start-level="40">mvn:io.netty/netty-transport-native-unix-common/4.1.118.Final</bundle>
   </feature>
   
-  <feature name="instana-agent-grpc-core" version="1.0.16">
-    <bundle start-level="80">mvn:com.instana/agent-grpc/1.0.16</bundle>
-    <bundle start-level="80">wrap:mvn:com.google.protobuf/protobuf-java/4.29.3</bundle>
-    <bundle start-level="80">wrap:mvn:com.google.protobuf/protobuf-java-util/4.29.3</bundle>
-    <bundle start-level="80">mvn:commons-codec/commons-codec/1.15</bundle>
+  <feature name="instana-agent-grpc-core" version="1.0.17">
+    <bundle start-level="70">mvn:com.instana/agent-grpc/1.0.17</bundle>
+    <bundle start-level="70">wrap:mvn:com.google.protobuf/protobuf-java/4.29.3</bundle>
+    <bundle start-level="70">wrap:mvn:com.google.protobuf/protobuf-java-util/4.29.3</bundle>
+    <bundle start-level="70">mvn:commons-codec/commons-codec/1.15</bundle>
     <!-- all grpc transitive dependencies -->
-    <bundle start-level="80">wrap:mvn:io.perfmark/perfmark-api/0.27.0</bundle>
-    <bundle start-level="80">wrap:mvn:com.google.api.grpc/proto-google-common-protos/2.50.1</bundle>
-    <bundle start-level="80">wrap:mvn:com.google.code.findbugs/jsr305/3.0.2</bundle>
-    <bundle start-level="80">wrap:mvn:com.google.code.gson/gson/2.11.0</bundle>
-    <bundle start-level="80">wrap:mvn:com.google.guava/guava/32.1.1-jre</bundle>
-    <bundle start-level="80">wrap:mvn:com.google.guava/failureaccess/1.0.1</bundle>
-    <bundle start-level="80">wrap:mvn:com.google.guava/listenablefuture/9999.0-empty-to-avoid-conflict-with-guava</bundle>
+    <bundle start-level="70">wrap:mvn:io.perfmark/perfmark-api/0.27.0</bundle>
+    <bundle start-level="70">wrap:mvn:com.google.api.grpc/proto-google-common-protos/2.50.1</bundle>
+    <bundle start-level="70">wrap:mvn:com.google.code.findbugs/jsr305/3.0.2</bundle>
+    <bundle start-level="70">wrap:mvn:com.google.code.gson/gson/2.11.0</bundle>
+    <bundle start-level="70">wrap:mvn:com.google.guava/guava/32.1.1-jre</bundle>
+    <bundle start-level="70">wrap:mvn:com.google.guava/failureaccess/1.0.1</bundle>
+    <bundle start-level="70">wrap:mvn:com.google.guava/listenablefuture/9999.0-empty-to-avoid-conflict-with-guava</bundle>
   </feature>
 
   <feature name="agent-version" description="Instana Agent Version" version="${agent.version}">
@@ -118,41 +118,41 @@
     <bundle start-level="60">mvn:com.instana/agent-api/1.0.5</bundle>
   </feature>
 
-  <feature name="instana-agent-optional-api" description="Instana Agent Optional API" version="1.0.7">
-    <bundle start-level="60">mvn:com.instana/agent-optional-api/1.0.7</bundle>
+  <feature name="instana-agent-optional-api" description="Instana Agent Optional API" version="1.0.8">
+    <bundle start-level="60">mvn:com.instana/agent-optional-api/1.0.8</bundle>
   </feature>
 
   <feature name="instana-agent-internal-api" description="Instana Agent Internal API" version="1.0.14">
     <bundle start-level="60">mvn:com.instana/agent-internal-api/1.0.14</bundle>
   </feature>
 
-  <feature name="instana-agent" description="Instana Agent" version="1.2.18">
+  <feature name="instana-agent" description="Instana Agent" version="1.2.19">
     <feature>agent-version</feature>
     <feature version="[1.2.160,2)">instana-api</feature>
     <feature version="[1.0.0,2)">instana-agent-api</feature>
     <feature version="[1.0.14,2)">instana-agent-internal-api</feature>
     <feature version="[1.0.7,2)">instana-agent-optional-api</feature>
     <feature version="[1.2.10,2)">instana-unix-socket-util</feature>
-    <feature version="[1.0.16,2)">instana-agent-grpc-core</feature>
+    <feature version="[1.0.17,2)">instana-agent-grpc-core</feature>
     <bundle start-level="70">mvn:com.instana/agent-http/1.0.6</bundle>
-    <bundle start-level="70">mvn:com.instana/agent/1.1.744</bundle>
+    <bundle start-level="70">mvn:com.instana/agent/1.1.745</bundle>
     <bundle start-level="70">mvn:com.instana/agent-backend/1.0.5</bundle>
     <bundle start-level="70">mvn:com.instana/agent-backend-api/1.0.1</bundle>
     <bundle start-level="70">mvn:com.instana/agent-backend-util/1.0.0</bundle>
     <bundle start-level="70">mvn:com.instana/agent-cgroup/1.0.1</bundle>
     <bundle start-level="70">mvn:com.instana/agent-config-provider/1.0.0</bundle>
-    <bundle start-level="70">mvn:com.instana/agent-cri-client/1.0.1</bundle>
+    <bundle start-level="70">mvn:com.instana/agent-cri-client/1.0.2</bundle>
     <bundle start-level="70">mvn:com.instana/agent-grpc-channel-cache/1.0.1</bundle>
     <bundle start-level="70">mvn:com.instana/agent-grpc-channel-cache-api/1.0.1</bundle>
     <bundle start-level="70">mvn:com.instana/agent-jaeger-tracer/1.0.1</bundle>
-    <bundle start-level="70">mvn:com.instana/agent-jvm-handling/1.0.12</bundle>
+    <bundle start-level="70">mvn:com.instana/agent-jvm-handling/1.0.13</bundle>
     <bundle start-level="70">mvn:com.instana/agent-jvm-handling-api/1.0.0</bundle>
     <bundle start-level="70">mvn:com.instana/agent-memory/1.0.0</bundle>
     <bundle start-level="70">mvn:com.instana/agent-memory-api/1.0.0</bundle>
-    <bundle start-level="70">mvn:com.instana/agent-process-handling/1.0.9</bundle>
+    <bundle start-level="70">mvn:com.instana/agent-process-handling/1.0.10</bundle>
     <bundle start-level="70">mvn:com.instana/agent-process-handling-api/1.0.3</bundle>
-    <bundle start-level="70">mvn:com.instana/agent-runtime/1.0.4</bundle>
-    <bundle start-level="70">mvn:com.instana/agent-runtime-api/1.0.4</bundle>
+    <bundle start-level="70">mvn:com.instana/agent-runtime/1.0.5</bundle>
+    <bundle start-level="70">mvn:com.instana/agent-runtime-api/1.0.5</bundle>
     <bundle start-level="70">mvn:com.instana/agent-secret-reader/1.0.0</bundle>
     <bundle start-level="70">mvn:com.instana/agent-self-profiling/1.0.0</bundle>
     <bundle start-level="70">mvn:com.instana/agent-sensor/1.0.1</bundle>
@@ -160,7 +160,7 @@
     <bundle start-level="70">mvn:com.instana/agent-socket-server-api/1.0.0</bundle>
     <bundle start-level="70">mvn:com.instana/agent-task-orchestrator/1.0.3</bundle>
     <bundle start-level="70">mvn:com.instana/agent-task-orchestrator-api/1.0.1</bundle>
-    <bundle start-level="70">mvn:com.instana/agent-util/1.0.8</bundle>
+    <bundle start-level="70">mvn:com.instana/agent-util/1.0.9</bundle>
     <bundle start-level="70">mvn:com.instana/agent-zipkin-tracer/1.0.0</bundle>
   </feature>
 
