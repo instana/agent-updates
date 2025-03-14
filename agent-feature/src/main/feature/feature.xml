@@ -126,7 +126,7 @@
     <bundle start-level="60">mvn:com.instana/agent-internal-api/1.0.14</bundle>
   </feature>
 
-  <feature name="instana-agent" description="Instana Agent" version="1.2.19">
+  <feature name="instana-agent" description="Instana Agent" version="1.2.20">
     <feature>agent-version</feature>
     <feature version="[1.2.160,2)">instana-api</feature>
     <feature version="[1.0.0,2)">instana-agent-api</feature>
@@ -135,11 +135,11 @@
     <feature version="[1.2.10,2)">instana-unix-socket-util</feature>
     <feature version="[1.0.17,2)">instana-agent-grpc-core</feature>
     <bundle start-level="70">mvn:com.instana/agent-http/1.0.6</bundle>
-    <bundle start-level="70">mvn:com.instana/agent/1.1.745</bundle>
+    <bundle start-level="70">mvn:com.instana/agent/1.1.746</bundle>
     <bundle start-level="70">mvn:com.instana/agent-backend/1.0.5</bundle>
     <bundle start-level="70">mvn:com.instana/agent-backend-api/1.0.1</bundle>
     <bundle start-level="70">mvn:com.instana/agent-backend-util/1.0.0</bundle>
-    <bundle start-level="70">mvn:com.instana/agent-cgroup/1.0.1</bundle>
+    <bundle start-level="70">mvn:com.instana/agent-cgroup/1.0.2</bundle>
     <bundle start-level="70">mvn:com.instana/agent-config-provider/1.0.0</bundle>
     <bundle start-level="70">mvn:com.instana/agent-cri-client/1.0.2</bundle>
     <bundle start-level="70">mvn:com.instana/agent-grpc-channel-cache/1.0.1</bundle>
@@ -149,7 +149,7 @@
     <bundle start-level="70">mvn:com.instana/agent-jvm-handling-api/1.0.0</bundle>
     <bundle start-level="70">mvn:com.instana/agent-memory/1.0.0</bundle>
     <bundle start-level="70">mvn:com.instana/agent-memory-api/1.0.0</bundle>
-    <bundle start-level="70">mvn:com.instana/agent-process-handling/1.0.11</bundle>
+    <bundle start-level="70">mvn:com.instana/agent-process-handling/1.0.12</bundle>
     <bundle start-level="70">mvn:com.instana/agent-process-handling-api/1.0.3</bundle>
     <bundle start-level="70">mvn:com.instana/agent-runtime/1.0.5</bundle>
     <bundle start-level="70">mvn:com.instana/agent-runtime-api/1.0.5</bundle>
@@ -160,7 +160,7 @@
     <bundle start-level="70">mvn:com.instana/agent-socket-server-api/1.0.0</bundle>
     <bundle start-level="70">mvn:com.instana/agent-task-orchestrator/1.0.3</bundle>
     <bundle start-level="70">mvn:com.instana/agent-task-orchestrator-api/1.0.1</bundle>
-    <bundle start-level="70">mvn:com.instana/agent-util/1.0.9</bundle>
+    <bundle start-level="70">mvn:com.instana/agent-util/1.0.10</bundle>
     <bundle start-level="70">mvn:com.instana/agent-zipkin-tracer/1.0.0</bundle>
   </feature>
 
