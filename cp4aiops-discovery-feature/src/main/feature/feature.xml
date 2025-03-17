@@ -20,8 +20,9 @@
     <bundle start-level="80">mvn:com.instana/cdc-sensor-api/1.0.6</bundle>
   </feature>
 
-  <feature name="common-data-collector-cp4aiops-sender" version="1.0.30">
+  <feature name="common-data-collector-cp4aiops-sender" version="1.0.31">
     <feature version="[1.0.6,2)">cdc-sensor-api</feature>
+    <feature version="[1.0.17,2)">instana-agent-grpc-core</feature>
     <bundle start-level="80">wrap:mvn:org.checkerframework/checker-qual/3.24.0</bundle>
     <bundle start-level="80">wrap:mvn:com.google.errorprone/error_prone_annotations/2.15.0</bundle>
     <bundle start-level="80">wrap:mvn:io.cloudevents/cloudevents-api/4.0.1</bundle>
@@ -34,16 +35,6 @@
     <bundle start-level="80">wrap:mvn:javax.inject/javax.inject/1</bundle>
     <bundle start-level="80">mvn:javax.interceptor/javax.interceptor-api/1.2</bundle>
     <bundle start-level="80">mvn:javax.enterprise/cdi-api/2.0</bundle>
-    <bundle start-level="80">wrap:mvn:io.grpc/grpc-protobuf/1.57.1</bundle>
-    <bundle start-level="80">wrap:mvn:io.grpc/grpc-stub/1.57.1</bundle>
-    <bundle start-level="80">wrap:mvn:io.grpc/grpc-protobuf-lite/1.57.1</bundle>
-    <bundle start-level="80">wrap:mvn:io.grpc/grpc-core/1.57.1</bundle>
-    <bundle start-level="80">mvn:com.google.protobuf/protobuf-java/3.25.5</bundle>
-    <bundle start-level="80">wrap:mvn:io.perfmark/perfmark-api/0.19.0</bundle>
-    <bundle start-level="80">wrap:mvn:com.google.api.grpc/proto-google-common-protos/2.0.1</bundle>
-    <bundle start-level="80">mvn:com.google.code.gson/gson/2.9.1</bundle>
-    <bundle start-level="80">mvn:com.google.guava/guava/32.1.3-jre</bundle>
-    <bundle start-level="80">mvn:com.google.guava/failureaccess/1.0.1</bundle>
     <bundle start-level="80">wrap:mvn:io.micrometer/micrometer-registry-prometheus/1.7.8</bundle>
     <bundle start-level="80">wrap:mvn:io.micrometer/micrometer-core/1.7.8</bundle>
     <bundle start-level="80">mvn:io.prometheus/simpleclient/0.10.0</bundle>
@@ -53,9 +44,7 @@
     <bundle start-level="80">wrap:mvn:org.apache.kafka/kafka-clients/3.7.1</bundle>
     <bundle start-level="80">wrap:mvn:org.eclipse.microprofile.health/microprofile-health-api/2.0</bundle>
     <bundle start-level="80">wrap:mvn:org.latencyutils/LatencyUtils/2.0.3</bundle>
-    <bundle start-level="80">wrap:mvn:com.ibm.cp4waiops.connectors/connectors-sdk/1.4.16.3-jdk8</bundle>
-    <bundle start-level="80">wrap:mvn:com.instana/cdc-grpc/1.57.1</bundle>
-    <bundle start-level="80">mvn:com.instana/cdc-cp4aiops-sender/1.0.30</bundle>
+    <bundle start-level="80">mvn:com.instana/cdc-cp4aiops-sender/1.0.31</bundle>
   </feature>
 
   <feature name="cdc-observer" version="2.18.1.dev">
