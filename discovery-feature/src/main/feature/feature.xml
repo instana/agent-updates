@@ -69,13 +69,13 @@
     <bundle start-level="80">mvn:com.instana/discovery-consul/1.0.18</bundle>
   </feature>
 
-  <feature name="instana-containerd-common" version="1.0.41">
-    <bundle start-level="80">mvn:com.instana/sensor-containerd-common/1.0.41</bundle>
+  <feature name="instana-containerd-common" version="1.0.42">
+    <bundle start-level="80">mvn:com.instana/sensor-containerd-common/1.0.42</bundle>
   </feature>
 
-  <feature name="instana-containerd-discovery" version="1.0.41">
-    <feature version="[1.0.41,2.0.0)">instana-containerd-common</feature>
-    <bundle start-level="80">mvn:com.instana/discovery-containerd/1.0.41</bundle>
+  <feature name="instana-containerd-discovery" version="1.0.42">
+    <feature version="[1.0.42,2.0.0)">instana-containerd-common</feature>
+    <bundle start-level="80">mvn:com.instana/discovery-containerd/1.0.42</bundle>
   </feature>
 
   <feature name="instana-clickhouse-discovery" version="1.0.31">
