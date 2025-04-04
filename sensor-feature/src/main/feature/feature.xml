@@ -1,4 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+
 <features name="${project.artifactId}-${project.version}" xmlns="http://karaf.apache.org/xmlns/features/v1.3.0">
 
   <feature name="instana-ace-sensor" version="1.0.76">
@@ -761,14 +762,14 @@
     <bundle start-level="80">mvn:com.instana/sensor-hbase/1.1.1</bundle>
   </feature>
 
-  <feature name="instana-host-sensor" version="1.1.196">
-    <bundle start-level="80">mvn:com.instana/sensor-host/1.1.196</bundle>
+  <feature name="instana-host-sensor" version="1.1.197">
+    <bundle start-level="80">mvn:com.instana/sensor-host/1.1.197</bundle>
   </feature>
 
-  <feature name="instana-host-native-aix" version="1.1.196">
+  <feature name="instana-host-native-aix" version="1.1.197">
     <feature version="[5.13.0, 6)">instana-jna</feature>
-    <feature version="[1.1.196, 2)">instana-host-sensor</feature>
-    <bundle start-level="80">mvn:com.instana/sensor-host-native-aix/1.1.196</bundle>
+    <feature version="[1.1.197, 2)">instana-host-sensor</feature>
+    <bundle start-level="80">mvn:com.instana/sensor-host-native-aix/1.1.197</bundle>
   </feature>
 
   <feature name="instana-httpd-sensor" version="1.2.22">
