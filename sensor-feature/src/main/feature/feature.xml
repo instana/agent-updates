@@ -1035,9 +1035,9 @@
     <bundle start-level="80">mvn:com.instana/sensor-mariadb/1.1.27</bundle>
   </feature>
 
-  <feature name="instana-memcached-sensor" version="1.0.19">
+  <feature name="instana-memcached-sensor" version="1.0.21">
     <bundle start-level="80">wrap:mvn:net.spy/spymemcached/2.12.3</bundle>
-    <bundle start-level="80">mvn:com.instana/sensor-memcached/1.0.19</bundle>
+    <bundle start-level="80">mvn:com.instana/sensor-memcached/1.0.21</bundle>
   </feature>
 
   <feature name="instana-mongodb-sensor" version="1.1.55">
