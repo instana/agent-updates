@@ -16,6 +16,27 @@ When the destination branch is `public` the following is required:
 
 <hr />
 
+## Sensor/Agent Release Notes
+
+When the destination branch is `public`, please write **_customer oriented release notes_** (delete the section which is not applicable):
+
+```markdown
+### Features
+
+<📝 awesome feature - you can use markdown to help Content Team's work (e.g. `monospace text`)>
+
+### Fixes
+
+<📝 awesome fix - you can use markdown to help Content Team's work (e.g. `monospace text`)>
+
+### Improvements
+
+<📝 awesome improvement - you can use markdown to help Content Team's work (e.g. `monospace text`)>
+```
+The release notes is taken care by the Content Team. It will be available [here](https://www.ibm.com/docs/en/instana-observability/current?topic=notes-sensor).
+
+<hr />
+
 ### Naming convention
 
 The first commit message in the PR and the PR title need to be in the following format:
