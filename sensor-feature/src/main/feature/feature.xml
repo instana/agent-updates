@@ -1091,7 +1091,7 @@
     <bundle start-level="80">mvn:com.instana/sensor-newrelic/1.0.21</bundle>
   </feature>
 
-  <feature name="instana-nginx-sensor" version="1.1.82">
+  <feature name="instana-nginx-sensor" version="1.1.83">
     <bundle start-level="80">mvn:org.antlr/antlr4-runtime/4.5.3</bundle>
     <bundle start-level="80">mvn:com.instana/sensor-nginx/1.1.82</bundle>
   </feature>
