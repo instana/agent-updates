@@ -1455,6 +1455,14 @@
     <bundle start-level="80">mvn:com.instana/sensor-websphere-liberty/1.1.7</bundle>
   </feature>
 
+  <feature name="instana-xenserver-sensor" version="1.0.0">
+    <bundle start-level="80">wrap:mvn:com.citrix.hypervisor/xen-api/8.1.0</bundle>
+    <bundle start-level="80">wrap:mvn:org.apache.ws.commons.util/ws-commons-util/1.0.2</bundle>
+    <bundle start-level="80">wrap:mvn:org.apache.xmlrpc/xmlrpc-common/3.1.3</bundle>
+    <bundle start-level="80">wrap:mvn:org.apache.xmlrpc/xmlrpc-client/3.1.3</bundle>
+    <bundle start-level="80">mvn:com.instana/sensor-xenserver/1.0.0</bundle>
+  </feature>
+
   <feature name="instana-zabbix-sensor" version="1.0.16">
     <feature version="[1.0.25,2)">ibm-apm-importer</feature>
     <bundle start-level="80">mvn:com.instana/sensor-zabbix/1.0.16</bundle>
