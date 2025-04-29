@@ -18,9 +18,16 @@ When the destination branch is `public` the following is required:
 
 ## Sensor/Agent Release Notes
 
-When the destination branch is `public`, please write **_customer oriented release notes_** (delete the section which is not applicable):
+When the destination branch is `public`, please write **_customer oriented release notes_** (delete the section which is not applicable).
+
+> [!IMPORTANT]
+> OPTIONALLY IF YOU ARE RELEASING MULTIPLE SENSORS AT ONCE, PLEASE DUPLICATE THE BELOW SECTION AND NAME THEM SEPARATELY.
 
 ```markdown
+## <sensor-version>
+
+<sensor-name>
+
 ### Features
 
 <📝 awesome feature - you can use markdown to help Content Team's work (e.g. `monospace text`)>
@@ -33,6 +40,7 @@ When the destination branch is `public`, please write **_customer oriented relea
 
 <📝 awesome improvement - you can use markdown to help Content Team's work (e.g. `monospace text`)>
 ```
+
 The release notes is taken care by the Content Team. It will be available [here](https://www.ibm.com/docs/en/instana-observability/current?topic=notes-sensor).
 
 <hr />
