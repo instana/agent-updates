@@ -1301,10 +1301,10 @@
     <bundle start-level="80">mvn:com.instana/sensor-sap-abap/1.0.40</bundle>
   </feature>
 
-  <feature name="instana-kubecost-sensor" version="1.0.5">
+  <feature name="instana-kubecost-sensor" version="1.0.6">
     <bundle start-level="80">mvn:org.apache.httpcomponents/httpcore-osgi/4.4.9</bundle>
     <bundle start-level="80">mvn:com.basistech.org.apache.httpcomponents/httpclient-osgi/4.5.13</bundle>
-    <bundle start-level="80">mvn:com.instana/sensor-kubecost/1.0.5</bundle>
+    <bundle start-level="80">mvn:com.instana/sensor-kubecost/1.0.6</bundle>
   </feature>
 
   <feature name="instana-scom-sensor" version="1.0.11">
