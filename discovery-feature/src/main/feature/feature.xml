@@ -34,6 +34,10 @@
     <bundle start-level="80">mvn:com.instana/discovery-appdynamics/1.0.17</bundle>
   </feature>
 
+  <feature name="instana-argocd-discovery" version="1.0.2">
+    <bundle start-level="80">mvn:com.instana/discovery-argocd/1.0.2</bundle>
+  </feature>
+
   <feature name="instana-azure-discovery" version="1.2.57">
     <bundle start-level="80">mvn:com.instana/discovery-azure/1.2.57</bundle>
   </feature>
