@@ -563,7 +563,7 @@
   <feature name="instana-crio-sensor" version="1.0.15">
     <bundle start-level="80">mvn:com.instana/sensor-crio/1.0.15</bundle>
   </feature>
-  
+
   <feature name="instana-cve-sensor" version="2.0.7">
     <feature version="4.12.0">okhttp</feature>
     <bundle start-level="80">mvn:com.instana/sensor-cve/2.0.7</bundle>
@@ -1101,9 +1101,9 @@
     <bundle start-level="80">mvn:com.instana/sensor-newrelic/1.0.21</bundle>
   </feature>
 
-  <feature name="instana-nginx-sensor" version="1.1.82">
+  <feature name="instana-nginx-sensor" version="1.1.84">
     <bundle start-level="80">mvn:org.antlr/antlr4-runtime/4.5.3</bundle>
-    <bundle start-level="80">mvn:com.instana/sensor-nginx/1.1.82</bundle>
+    <bundle start-level="80">mvn:com.instana/sensor-nginx/1.1.84</bundle>
   </feature>
 
   <feature name="instana-nodejs-sensor" version="1.2.18">

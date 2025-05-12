@@ -110,7 +110,7 @@
   <feature name="instana-crio-discovery" version="1.0.15">
     <bundle start-level="80">mvn:com.instana/discovery-crio/1.0.15</bundle>
   </feature>
-  
+
   <feature name="instana-cve-discovery" version="2.0.7">
     <bundle start-level="80">mvn:com.instana/discovery-cve/2.0.7</bundle>
   </feature>
@@ -146,7 +146,7 @@
   <feature name="instana-dynatrace-discovery" version="2.0.6">
     <bundle start-level="80">mvn:com.instana/discovery-dynatrace/2.0.6</bundle>
   </feature>
-  
+
   <feature name="instana-ebpf-discovery" version="1.1.9">
     <bundle start-level="80">mvn:com.instana/discovery-ebpf/1.1.9</bundle>
   </feature>
@@ -378,13 +378,13 @@
   <feature name="instana-netcore-discovery" version="1.0.63">
     <bundle start-level="80">mvn:com.instana/discovery-netcore/1.0.63</bundle>
   </feature>
- 
+
   <feature name="instana-newrelic-discovery" version="1.0.21">
     <bundle start-level="80">mvn:com.instana/discovery-newrelic/1.0.21</bundle>
   </feature>
 
-  <feature name="instana-nginx-discovery" version="1.1.82">
-    <bundle start-level="80">mvn:com.instana/discovery-nginx/1.1.82</bundle>
+  <feature name="instana-nginx-discovery" version="1.1.84">
+    <bundle start-level="80">mvn:com.instana/discovery-nginx/1.1.84</bundle>
   </feature>
 
   <feature name="instana-nodejs-discovery" version="1.2.18">
