@@ -619,6 +619,10 @@
     <bundle start-level="80">mvn:com.instana/discovery-websphere-liberty/1.1.7</bundle>
   </feature>
 
+  <feature name="instana-windows-hyperv-discovery" version="1.0.0">
+    <bundle start-level="80">mvn:com.instana/discovery-windows-hyperv/1.0.0</bundle>
+  </feature>
+
   <feature name="instana-xenserver-discovery" version="1.0.0">
     <bundle start-level="80">mvn:com.instana/discovery-xenserver/1.0.0</bundle>
   </feature>
