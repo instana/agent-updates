@@ -782,8 +782,8 @@
     <bundle start-level="80">mvn:com.instana/sensor-host-native-aix/1.1.203</bundle>
   </feature>
 
-  <feature name="instana-httpd-sensor" version="1.2.23">
-    <bundle start-level="80">mvn:com.instana/sensor-httpd/1.2.23</bundle>
+  <feature name="instana-httpd-sensor" version="1.2.26">
+    <bundle start-level="80">mvn:com.instana/sensor-httpd/1.2.26</bundle>
   </feature>
 
   <feature name="instana-ibmapiconnect-sensor" version="1.0.4">
@@ -1178,8 +1178,8 @@
     <bundle start-level="90">mvn:com.instana/sensor-php-profile/3.0.0</bundle>
   </feature>
 
-  <feature name="instana-php-sensor" version="1.8.1">
-    <bundle start-level="90">mvn:com.instana/sensor-php/1.8.1</bundle>
+  <feature name="instana-php-sensor" version="1.9.7">
+    <bundle start-level="90">mvn:com.instana/sensor-php/1.9.7</bundle>
   </feature>
 
   <feature name="instana-php-trace-sensor" version="1.1.1">
