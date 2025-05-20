@@ -507,8 +507,8 @@
     <bundle start-level="80">mvn:com.instana/discovery-sap-abap/1.0.41</bundle>
   </feature>
 
-  <feature name="instana-kubecost-discovery" version="1.0.6">
-    <bundle start-level="80">mvn:com.instana/discovery-kubecost/1.0.6</bundle>
+  <feature name="instana-kubecost-discovery" version="1.0.7">
+    <bundle start-level="80">mvn:com.instana/discovery-kubecost/1.0.7</bundle>
   </feature>
 
   <feature name="instana-scom-discovery" version="1.0.11">
