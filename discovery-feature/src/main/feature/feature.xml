@@ -311,6 +311,8 @@
     <bundle start-level="80">mvn:com.instana/discovery-jetty/1.1.16</bundle>
   </feature>
 
+  <!-- This feature is sill here only to support auto-update -->
+  <!-- instana-jira-discovery" should not be version bumped. -->
   <feature name="instana-jira-discovery" version="1.1.13">
     <bundle start-level="80">mvn:com.instana/discovery-jira/1.1.13</bundle>
   </feature>

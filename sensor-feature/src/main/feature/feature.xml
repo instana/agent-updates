@@ -889,6 +889,10 @@
     <bundle start-level="80">mvn:com.instana/sensor-jetty/1.1.16</bundle>
   </feature>
 
+  <!-- This feature remains only to support auto-update. -->
+  <!-- We have stopped supporting Jira Server because it has reached end of life (EOL). -->
+  <!-- For more details, see: https://confluence.atlassian.com/support/atlassian-support-end-of-life-policy-201851003.html (last server release info) -->
+  <!-- "instana-jira-sensor" should not be version bumped. -->
   <feature name="instana-jira-sensor" version="1.1.13">
     <feature version="[1.2.133,2)">instana-java-sensor</feature>
     <bundle start-level="80">mvn:com.instana/sensor-jira/1.1.13</bundle>
