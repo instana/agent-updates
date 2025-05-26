@@ -1103,9 +1103,9 @@
     <bundle start-level="80">mvn:com.instana/sensor-nagios/1.0.13</bundle>
   </feature>
 
-  <feature name="instana-neo4j-sensor" version="1.0.1">
+  <feature name="instana-neo4j-sensor" version="1.0.3">
     <feature version="[1.2.133,2)">instana-java-sensor</feature>
-    <bundle start-level="80">mvn:com.instana/sensor-neo4j/1.0.1</bundle>
+    <bundle start-level="80">mvn:com.instana/sensor-neo4j/1.0.3</bundle>
   </feature>
 
   <feature name="instana-netcore-sensor" version="1.0.63">
