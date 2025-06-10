@@ -582,19 +582,19 @@
     <bundle start-level="80">mvn:com.instana/sensor-datadog/1.0.17</bundle>
   </feature>
 
-  <feature name="instana-db2-sensor" version="1.0.62">
+  <feature name="instana-db2-sensor" version="1.0.63">
     <bundle start-level="80">
     <![CDATA[wrap:mvn:com.ibm.db2/jcc/11.5.9.0$overwrite=merge&Export-Package=com.ibm.db2.jcc.*]]>
     </bundle>
-    <bundle start-level="80">mvn:com.instana/sensor-db2/1.0.62</bundle>
+    <bundle start-level="80">mvn:com.instana/sensor-db2/1.0.63</bundle>
   </feature>
 
-  <feature name="instana-db2-sidecar" version="1.0.62">
+  <feature name="instana-db2-sidecar" version="1.0.63">
     <feature version="[1.0.4,2)">instana-cdc-sidecar</feature>
     <bundle start-level="80">
     <![CDATA[wrap:mvn:com.ibm.db2/jcc/11.5.9.0$overwrite=merge&Export-Package=com.ibm.db2.jcc.*]]>
     </bundle>
-    <bundle start-level="80">mvn:com.instana/sidecar-db2/1.0.62</bundle>
+    <bundle start-level="80">mvn:com.instana/sidecar-db2/1.0.63</bundle>
   </feature>
 
   <feature name="instana-db2z-sensor" version="1.0.0">
