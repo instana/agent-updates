@@ -1138,9 +1138,9 @@
     <bundle start-level="90">mvn:com.instana/sensor-nodejs-profile/1.0.0</bundle>
   </feature>
 
-  <feature name="instana-nomad-sensor" version="1.0.9">
+  <feature name="instana-nomad-sensor" version="1.0.10">
     <bundle start-level="80">wrap:mvn:com.bertramlabs.plugins/hcl4j/0.3.4</bundle>
-    <bundle start-level="80">mvn:com.instana/sensor-nomad/1.0.9</bundle>
+    <bundle start-level="80">mvn:com.instana/sensor-nomad/1.0.10</bundle>
   </feature>
 
   <feature name="instana-nutanix-sensor" version="1.0.5">
