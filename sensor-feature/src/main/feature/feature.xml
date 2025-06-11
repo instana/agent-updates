@@ -22,8 +22,8 @@
     <bundle start-level="80">mvn:com.instana/instana-action-sdk/1.0.73</bundle>
   </feature>
 
-  <feature name="cdc-sensor-api" version="1.0.8">
-    <bundle start-level="80">mvn:com.instana/cdc-sensor-api/1.0.8</bundle>
+  <feature name="cdc-sensor-api" version="1.0.10">
+    <bundle start-level="80">mvn:com.instana/cdc-sensor-api/1.0.10</bundle>
   </feature>
 
   <feature name="common-data-collector-transform-api" version="1.0.62">
@@ -46,6 +46,14 @@
     <bundle start-level="80">mvn:com.instana/common-datacollector-application-provider/1.0.0</bundle>
   </feature>
 
+  <feature name="instana-cdc-sidecar" version="1.0.4">
+    <feature version="[1.0.25,2)">ibm-apm-importer</feature>
+    <feature version="[1.0.10,2)">cdc-sensor-api</feature>
+    <feature version="[1.0.62,2)">common-data-collector-transformer-instana</feature>
+    <feature version="[1.0.0,2)">common-datacollector-application-apis</feature>
+    <bundle start-level="80">mvn:com.instana/cdc-sidecar/1.0.4</bundle>
+  </feature>
+  
   <feature name="instana-action-services-discovery" version="1.0.73">
     <bundle start-level="80">mvn:com.instana/discovery-action-services/1.0.73</bundle>
   </feature>
@@ -574,11 +582,19 @@
     <bundle start-level="80">mvn:com.instana/sensor-datadog/1.0.17</bundle>
   </feature>
 
-  <feature name="instana-db2-sensor" version="1.0.61">
+  <feature name="instana-db2-sensor" version="1.0.63">
     <bundle start-level="80">
-      <![CDATA[wrap:mvn:com.ibm.db2/jcc/11.5.9.0$overwrite=merge&Export-Package=com.ibm.db2.jcc.*]]>
+    <![CDATA[wrap:mvn:com.ibm.db2/jcc/11.5.9.0$overwrite=merge&Export-Package=com.ibm.db2.jcc.*]]>
     </bundle>
-    <bundle start-level="80">mvn:com.instana/sensor-db2/1.0.61</bundle>
+    <bundle start-level="80">mvn:com.instana/sensor-db2/1.0.63</bundle>
+  </feature>
+
+  <feature name="instana-db2-sidecar" version="1.0.63">
+    <feature version="[1.0.4,2)">instana-cdc-sidecar</feature>
+    <bundle start-level="80">
+    <![CDATA[wrap:mvn:com.ibm.db2/jcc/11.5.9.0$overwrite=merge&Export-Package=com.ibm.db2.jcc.*]]>
+    </bundle>
+    <bundle start-level="80">mvn:com.instana/sidecar-db2/1.0.63</bundle>
   </feature>
 
   <feature name="instana-db2z-sensor" version="1.0.0">
