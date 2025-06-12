@@ -119,12 +119,12 @@
     <bundle start-level="80">mvn:com.instana/discovery-datadog/1.0.17</bundle>
   </feature>
 
-  <feature name="instana-db2-discovery" version="1.0.63">
-    <bundle start-level="80">mvn:com.instana/discovery-db2/1.0.63</bundle>
+  <feature name="instana-db2-discovery" version="1.0.64">
+    <bundle start-level="80">mvn:com.instana/discovery-db2/1.0.64</bundle>
   </feature>
 
-  <feature name="instana-db2sidecar-discovery" version="1.0.63">
-    <bundle start-level="80">mvn:com.instana/discovery-db2sidecar/1.0.63</bundle>
+  <feature name="instana-db2-sidecar-discovery" version="1.0.64">
+    <bundle start-level="80">mvn:com.instana/discovery-db2-sidecar/1.0.64</bundle>
   </feature>
 
   <feature name="instana-db2z-discovery" version="1.0.0">
