@@ -1078,8 +1078,8 @@
     <bundle start-level="80">mvn:com.instana/sensor-mysql/1.1.79</bundle>
   </feature>
 
-  <feature name="instana-msiis-sensor" version="1.1.9">
-    <bundle start-level="80">mvn:com.instana/sensor-msiis/1.1.9</bundle>
+  <feature name="instana-msiis-sensor" version="1.2.0">
+    <bundle start-level="80">mvn:com.instana/sensor-msiis/1.2.0</bundle>
   </feature>
 
   <feature name="instana-mule-sensor" version="1.0.6">
@@ -1198,8 +1198,8 @@
     <bundle start-level="90">mvn:com.instana/sensor-php-profile/3.0.0</bundle>
   </feature>
 
-  <feature name="instana-php-sensor" version="1.9.7">
-    <bundle start-level="90">mvn:com.instana/sensor-php/1.9.7</bundle>
+  <feature name="instana-php-sensor" version="1.9.9">
+    <bundle start-level="90">mvn:com.instana/sensor-php/1.9.9</bundle>
   </feature>
 
   <feature name="instana-php-trace-sensor" version="1.1.1">
