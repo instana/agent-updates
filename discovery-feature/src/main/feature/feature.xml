@@ -123,6 +123,13 @@
     <bundle start-level="80">mvn:com.instana/discovery-db2/1.0.64</bundle>
   </feature>
 
+  <!-- This feature is sill here only to support auto-update -->
+  <!-- We renamed this feature to "instana-db2-sidecar-discovery". -->
+  <!-- "instana-db2sidecar-discovery" should not be version bumped. -->
+  <feature name="instana-db2sidecar-discovery" version="1.0.63">
+    <feature>instana-db2-sidecar-discovery</feature>
+  </feature>
+
   <feature name="instana-db2-sidecar-discovery" version="1.0.64">
     <bundle start-level="80">mvn:com.instana/discovery-db2-sidecar/1.0.64</bundle>
   </feature>
