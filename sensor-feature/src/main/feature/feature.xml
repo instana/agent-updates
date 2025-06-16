@@ -1500,8 +1500,8 @@
     <bundle start-level="80">wrap:mvn:com.profesorfalken/jPowerShell/3.1.1</bundle>
   </feature>
 
-  <feature name="instana-xenserver-sensor" version="1.0.1">
-    <bundle start-level="80">mvn:com.instana/sensor-xenserver/1.0.1</bundle>
+  <feature name="instana-xenserver-sensor" version="1.0.2">
+    <bundle start-level="80">mvn:com.instana/sensor-xenserver/1.0.2</bundle>
   </feature>
 
   <feature name="instana-zabbix-sensor" version="1.0.16">
