@@ -2,7 +2,7 @@
 
 ### Purpose
 The purpose of the verification step before a release to `public` is to ensure all artefacts needed for successful 
-upgrade are available in the artifactory.
+upgrade are available in the artifactory. It also ensures that a module can be updated from version `X` to `X+1` without any issues and errors.
 
 ### Steps 
 
@@ -14,7 +14,7 @@ upgrade are available in the artifactory.
 org.ops4j.pax.url.mvn.repositories=https://artifact-public.instana.io/artifactory/features-public@id=features@snapshots@snapshotsUpdate=always,https://artifact-public.instana.io/artifactory/shared@id=shared@snapshots@snapshotsUpdate=always
 ```
     
-1b.  set default repository to `karaf.home` (not local .m2 repo):
+1b.  set default repository to `karaf.home`:
 
 ```xml
 org.ops4j.pax.url.mvn.defaultRepositories=file:${karaf.home}/${karaf.default.repository}@id=system.repository@snapshots
@@ -28,5 +28,5 @@ org.ops4j.pax.url.mvn.defaultRepositories=file:${karaf.home}/${karaf.default.rep
 org.ops4j.pax.url.mvn.repositories=https://artifact-public.instana.io/artifactory/features-internal@id=features@snapshots@snapshotsUpdate=always,https://artifact-public.instana.io/artifactory/shared@id=shared
 ```
 
-4. Update the Agent from the UI (no need to restart the agent manually) and verify the agent pulls the latest sensor 
+4. Update the Agent from the UI (**DO NOT STOP/START** or **RESTART** the agent manually during this process) and verify the agent pulls the latest sensor 
    version internal (eg: `MySQL 1.0.10`)
