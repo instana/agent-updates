@@ -451,8 +451,8 @@
     <bundle start-level="80">mvn:com.instana/discovery-php/1.9.9</bundle>
   </feature>
 
-  <feature name="instana-ping-discovery" version="1.0.12">
-    <bundle start-level="80">mvn:com.instana/discovery-ping/1.0.12</bundle>
+  <feature name="instana-ping-discovery" version="1.0.13">
+    <bundle start-level="80">mvn:com.instana/discovery-ping/1.0.13</bundle>
   </feature>
 
   <feature name="instana-ping-directory-discovery" version="1.0.8">
