@@ -1056,6 +1056,10 @@
     <bundle start-level="80">mvn:com.instana/sensor-lxc/1.0.1</bundle>
   </feature>
 
+  <feature name="instana-mapr-sensor" version="1.0.1">
+    <bundle start-level="80">mvn:com.instana/sensor-mapr/1.0.1</bundle>
+  </feature>
+
   <feature name="instana-marathon-sensor" version="1.0.1">
     <bundle start-level="80">mvn:com.instana/sensor-marathon/1.0.1</bundle>
   </feature>
