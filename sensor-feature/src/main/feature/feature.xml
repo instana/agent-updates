@@ -823,9 +823,9 @@
     <bundle start-level="80">mvn:com.instana/sensor-ibmiseries/1.0.63</bundle>
   </feature>
 
-  <feature name="instana-ibmmq-sensor" version="1.1.33">
+  <feature name="instana-ibmmq-sensor" version="1.1.34">
     <feature version="9.4.0.10">ibmmqclient</feature>
-    <bundle start-level="80">mvn:com.instana/sensor-ibmmq/1.1.33</bundle>
+    <bundle start-level="80">mvn:com.instana/sensor-ibmmq/1.1.34</bundle>
   </feature>
 
   <feature name="instana-ibmmq-mft-sensor" version="1.0.23">
