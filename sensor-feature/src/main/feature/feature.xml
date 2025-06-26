@@ -53,7 +53,7 @@
     <feature version="[1.0.0,2)">common-datacollector-application-apis</feature>
     <bundle start-level="80">mvn:com.instana/cdc-sidecar/1.0.4</bundle>
   </feature>
-  
+
   <feature name="instana-action-services-discovery" version="1.0.73">
     <bundle start-level="80">mvn:com.instana/discovery-action-services/1.0.73</bundle>
   </feature>
@@ -87,7 +87,7 @@
     <feature version="[1.0.73,2)">instana-action-sdk</feature>
     <bundle start-level="80">mvn:com.instana/sensor-action-issue/1.0.73</bundle>
   </feature>
-  
+
   <feature name="instana-action-script-sensor" version="1.0.73">
     <feature version="[1.0.73,2)">instana-action-sdk</feature>
     <bundle start-level="80">mvn:com.instana/sensor-action-script/1.0.73</bundle>
@@ -890,8 +890,8 @@
     <bundle start-level="80">mvn:com.instana/sensor-jboss-datagrid/1.1.16</bundle>
   </feature>
 
-  <feature name="instana-jenkins-sensor" version="1.0.18">
-    <bundle start-level="80">mvn:com.instana/sensor-jenkins/1.0.18</bundle>
+  <feature name="instana-jenkins-sensor" version="1.0.21">
+    <bundle start-level="80">mvn:com.instana/sensor-jenkins/1.0.21</bundle>
   </feature>
 
   <feature name="instana-jetty-sensor" version="1.1.16">
