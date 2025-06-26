@@ -618,8 +618,8 @@
     <bundle start-level="80">mvn:com.instana/discovery-tuxedoapp/1.0.10</bundle>
   </feature>
 
-  <feature name="instana-varnish-discovery" version="1.0.23">
-    <bundle start-level="80">mvn:com.instana/discovery-varnish/1.0.23</bundle>
+  <feature name="instana-varnish-discovery" version="1.0.24">
+    <bundle start-level="80">mvn:com.instana/discovery-varnish/1.0.24</bundle>
   </feature>
 
   <feature name="instana-vault-discovery" version="1.0.11">
