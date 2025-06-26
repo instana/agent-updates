@@ -568,8 +568,8 @@
     <bundle start-level="80">mvn:com.instana/discovery-splunk/1.0.10</bundle>
   </feature>
 
-  <feature name="instana-springboot-discovery" version="1.1.47">
-    <bundle start-level="80">mvn:com.instana/discovery-springboot/1.1.47</bundle>
+  <feature name="instana-springboot-discovery" version="1.1.48">
+    <bundle start-level="80">mvn:com.instana/discovery-springboot/1.1.48</bundle>
   </feature>
 
   <feature name="instana-sybase-discovery" version="1.0.3">
