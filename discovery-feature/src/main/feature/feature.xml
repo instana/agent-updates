@@ -115,8 +115,8 @@
     <bundle start-level="80">mvn:com.instana/discovery-cve/2.0.8</bundle>
   </feature>
 
-  <feature name="instana-datadog-discovery" version="1.0.17">
-    <bundle start-level="80">mvn:com.instana/discovery-datadog/1.0.17</bundle>
+  <feature name="instana-datadog-discovery" version="1.0.18">
+    <bundle start-level="80">mvn:com.instana/discovery-datadog/1.0.18</bundle>
   </feature>
 
   <feature name="instana-db2-discovery" version="1.0.66">
