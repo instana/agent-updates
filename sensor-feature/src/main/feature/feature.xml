@@ -1523,9 +1523,13 @@
     <bundle start-level="80">mvn:com.instana/sensor-xenserver/1.0.2</bundle>
   </feature>
 
-  <feature name="instana-zabbix-sensor" version="1.0.16">
+  <feature name="instana-zabbix-sensor" version="2.0.3">
     <feature version="[1.0.25,2)">ibm-apm-importer</feature>
-    <bundle start-level="80">mvn:com.instana/sensor-zabbix/1.0.16</bundle>
+    <feature version="[1.0.5,2)">cdc-sensor-api</feature>
+    <feature version="[1.0.65,2)">common-data-collector-transformer-instana</feature>
+    <bundle start-level="80">mvn:com.instana/common-datacollector-application-api/1.0.0</bundle>
+    <bundle start-level="80">mvn:com.instana/common-datacollector-application-provider/1.0.0</bundle>
+    <bundle start-level="80">mvn:com.instana/sensor-zabbix/2.0.3</bundle>
   </feature>
 
   <feature name="instana-zhmc-sensor" version="1.0.19">
