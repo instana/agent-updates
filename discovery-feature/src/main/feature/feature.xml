@@ -656,8 +656,8 @@
     <bundle start-level="80">mvn:com.instana/discovery-windows-hyperv/1.0.1</bundle>
   </feature>
 
-  <feature name="instana-xenserver-discovery" version="1.0.2">
-    <bundle start-level="80">mvn:com.instana/discovery-xenserver/1.0.2</bundle>
+  <feature name="instana-xenserver-discovery" version="1.0.3">
+    <bundle start-level="80">mvn:com.instana/discovery-xenserver/1.0.3</bundle>
   </feature>
 
   <feature name="instana-zabbix-discovery" version="2.0.3">
