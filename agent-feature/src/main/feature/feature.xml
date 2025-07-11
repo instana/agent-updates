@@ -125,7 +125,7 @@
     <bundle start-level="60">mvn:com.instana/agent-internal-api/1.0.16</bundle>
   </feature>
 
-  <feature name="instana-agent" description="Instana Agent" version="1.2.32">
+  <feature name="instana-agent" description="Instana Agent" version="1.2.33">
     <feature>agent-version</feature>
     <feature version="[1.2.163,2)">instana-api</feature>
     <feature version="[1.0.0,2)">instana-agent-api</feature>
@@ -150,7 +150,7 @@
     <bundle start-level="70">mvn:com.instana/agent-memory-api/1.0.0</bundle>
     <bundle start-level="70">mvn:com.instana/agent-netty-allocator/1.0.1</bundle>
     <bundle start-level="70">mvn:com.instana/agent-netty-allocator-api/1.0.1</bundle>
-    <bundle start-level="70">mvn:com.instana/agent-process-handling/1.0.21</bundle>
+    <bundle start-level="70">mvn:com.instana/agent-process-handling/1.0.22</bundle>
     <bundle start-level="70">mvn:com.instana/agent-process-handling-api/1.0.5</bundle>
     <bundle start-level="70">mvn:com.instana/agent-runtime/1.0.12</bundle>
     <bundle start-level="70">mvn:com.instana/agent-runtime-api/1.0.11</bundle>
