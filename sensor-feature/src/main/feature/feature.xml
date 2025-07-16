@@ -46,12 +46,12 @@
     <bundle start-level="80">mvn:com.instana/common-datacollector-application-provider/1.0.0</bundle>
   </feature>
 
-  <feature name="instana-cdc-sidecar" version="1.0.4">
+  <feature name="instana-cdc-sidecar" version="1.0.6">
     <feature version="[1.0.25,2)">ibm-apm-importer</feature>
     <feature version="[1.0.10,2)">cdc-sensor-api</feature>
     <feature version="[1.0.66,2)">common-data-collector-transformer-instana</feature>
     <feature version="[1.0.0,2)">common-datacollector-application-apis</feature>
-    <bundle start-level="80">mvn:com.instana/cdc-sidecar/1.0.4</bundle>
+    <bundle start-level="80">mvn:com.instana/cdc-sidecar/1.0.6</bundle>
   </feature>
 
   <feature name="instana-action-services-discovery" version="1.0.74">
