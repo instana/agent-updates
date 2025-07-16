@@ -556,8 +556,8 @@
     <bundle start-level="80">mvn:com.instana/coordination-sdk/1.2.2</bundle>
   </feature>
 
-  <feature name="instana-couchbase-sensor" version="1.0.3">
-    <bundle start-level="80">mvn:com.instana/sensor-couchbase/1.0.3</bundle>
+  <feature name="instana-couchbase-sensor" version="1.0.7">
+    <bundle start-level="80">mvn:com.instana/sensor-couchbase/1.0.7</bundle>
   </feature>
 
   <feature name="instana-crowdstrike-falcon-sensor" version="1.0.3">
