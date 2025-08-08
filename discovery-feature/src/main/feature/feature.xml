@@ -352,8 +352,8 @@
     <bundle start-level="80">mvn:com.instana/discovery-liferay/1.0.2</bundle>
   </feature>
 
-  <feature name="instana-linuxkvmhypervisor-discovery" version="1.0.4">
-    <bundle start-level="80">mvn:com.instana/discovery-linuxkvmhypervisor/1.0.4</bundle>
+  <feature name="instana-linuxkvmhypervisor-discovery" version="1.0.5">
+    <bundle start-level="80">mvn:com.instana/discovery-linuxkvmhypervisor/1.0.5</bundle>
   </feature>
 
   <feature name="instana-lxc-discovery" version="1.0.1">
