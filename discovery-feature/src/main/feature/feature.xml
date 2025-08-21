@@ -540,8 +540,8 @@
     <bundle start-level="80">mvn:com.instana/discovery-sap-java-netweaver/1.0.4</bundle>
   </feature>
 
-  <feature name="instana-kubecost-discovery" version="1.0.11">
-    <bundle start-level="80">mvn:com.instana/discovery-kubecost/1.0.11</bundle>
+  <feature name="instana-kubecost-discovery" version="1.0.12">
+    <bundle start-level="80">mvn:com.instana/discovery-kubecost/1.0.12</bundle>
   </feature>
 
   <feature name="instana-scom-discovery" version="1.0.11">
