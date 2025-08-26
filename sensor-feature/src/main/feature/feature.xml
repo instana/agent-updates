@@ -1167,9 +1167,9 @@
     <bundle start-level="80">mvn:com.instana/sensor-nutanix/1.0.5</bundle>
   </feature>
 
-  <feature name="instana-omegamon-sensor" version="1.0.13">
+  <feature name="instana-omegamon-sensor" version="1.0.14">
     <feature version="[1.0.71,2)">common-data-collector-transformer-instana</feature>
-    <bundle start-level="80">mvn:com.instana/sensor-omegamon/1.0.13</bundle>
+    <bundle start-level="80">mvn:com.instana/sensor-omegamon/1.0.14</bundle>
   </feature>
 
   <feature name="instana-opc-sensor" version="1.1.1">
