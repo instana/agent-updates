@@ -422,8 +422,8 @@
     <bundle start-level="80">mvn:com.instana/discovery-nutanix/1.0.5</bundle>
   </feature>
 
-  <feature name="instana-omegamon-discovery" version="1.0.13">
-    <bundle start-level="80">mvn:com.instana/discovery-omegamon/1.0.13</bundle>
+  <feature name="instana-omegamon-discovery" version="1.0.14">
+    <bundle start-level="80">mvn:com.instana/discovery-omegamon/1.0.14</bundle>
   </feature>
 
   <feature name="instana-opc-discovery" version="1.1.1">
