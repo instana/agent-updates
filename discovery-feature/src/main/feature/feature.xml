@@ -38,8 +38,8 @@
     <bundle start-level="80">mvn:com.instana/discovery-argocd/1.0.3</bundle>
   </feature>
 
-  <feature name="instana-azure-discovery" version="1.2.59">
-    <bundle start-level="80">mvn:com.instana/discovery-azure/1.2.59</bundle>
+  <feature name="instana-azure-discovery" version="1.2.60">
+    <bundle start-level="80">mvn:com.instana/discovery-azure/1.2.60</bundle>
   </feature>
 
   <feature name="instana-aws-discovery" version="1.0.147">
