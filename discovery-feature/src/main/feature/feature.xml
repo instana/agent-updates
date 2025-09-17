@@ -556,8 +556,8 @@
     <bundle start-level="80">mvn:com.instana/discovery-solarwinds/1.0.13</bundle>
   </feature>
 
-  <feature name="instana-solr-discovery" version="1.0.15">
-    <bundle start-level="80">mvn:com.instana/discovery-solr/1.0.15</bundle>
+  <feature name="instana-solr-discovery" version="1.0.18">
+    <bundle start-level="80">mvn:com.instana/discovery-solr/1.0.18</bundle>
   </feature>
 
   <feature name="instana-statsd-discovery" version="1.1.10">
