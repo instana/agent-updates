@@ -783,9 +783,9 @@
     <bundle start-level="80">mvn:com.instana/sensor-hazelcast/1.3.6</bundle>
   </feature>
 
-  <feature name="instana-hbase-sensor" version="1.1.1">
+  <feature name="instana-hbase-sensor" version="1.1.3">
     <feature version="[1.2.135,2)">instana-java-sensor</feature>
-    <bundle start-level="80">mvn:com.instana/sensor-hbase/1.1.1</bundle>
+    <bundle start-level="80">mvn:com.instana/sensor-hbase/1.1.3</bundle>
   </feature>
 
   <feature name="instana-host-sensor" version="1.1.214">
