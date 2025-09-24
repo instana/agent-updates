@@ -813,10 +813,10 @@
     <bundle start-level="80">mvn:com.instana/sensor-ibm-infosphere-chcclp/1.0.1</bundle>
   </feature>
 
-  <feature name="instana-ibmiseries-sensor" version="1.0.74">
+  <feature name="instana-ibmiseries-sensor" version="1.0.75">
     <bundle start-level="80">wrap:mvn:net.sf.jt400/jt400/20.0.7</bundle>
     <bundle start-level="80">mvn:javax.validation/validation-api/1.1.0.Final</bundle>
-    <bundle start-level="80">mvn:com.instana/sensor-ibmiseries/1.0.74</bundle>
+    <bundle start-level="80">mvn:com.instana/sensor-ibmiseries/1.0.75</bundle>
   </feature>
 
   <feature name="instana-ibmmq-sensor" version="1.1.46">
