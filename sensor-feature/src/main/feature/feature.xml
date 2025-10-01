@@ -103,9 +103,9 @@
     <bundle start-level="80">mvn:com.instana/sensor-activemq-artemis/1.0.8</bundle>
   </feature>
 
-  <feature name="instana-activemq-sensor" version="1.1.14">
+  <feature name="instana-activemq-sensor" version="1.1.16">
     <feature version="[1.2.135,2)">instana-java-sensor</feature>
-    <bundle start-level="80">mvn:com.instana/sensor-activemq/1.1.14</bundle>
+    <bundle start-level="80">mvn:com.instana/sensor-activemq/1.1.16</bundle>
   </feature>
 
   <feature name="alicloud-sdk" version="1.0.13">
