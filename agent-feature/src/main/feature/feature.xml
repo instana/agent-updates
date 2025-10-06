@@ -105,9 +105,9 @@
     <bundle start-level="60">mvn:com.instana/jctools/2.1.6</bundle>
   </feature>
 
-  <feature name="instana-api" description="Instana Sensor and Discovery API" version="1.2.169">
-    <bundle start-level="60">mvn:com.instana/agent-json/1.2.169</bundle>
-    <bundle start-level="60">mvn:com.instana/sensor-api/1.2.169</bundle>
+  <feature name="instana-api" description="Instana Sensor and Discovery API" version="1.2.170">
+    <bundle start-level="60">mvn:com.instana/agent-json/1.2.170</bundle>
+    <bundle start-level="60">mvn:com.instana/sensor-api/1.2.170</bundle>
   </feature>
 
   <feature name="instana-unix-socket-util" description="Instana Unix Socket Util" version="1.2.10">
@@ -126,9 +126,9 @@
     <bundle start-level="60">mvn:com.instana/agent-internal-api/1.0.17</bundle>
   </feature>
 
-  <feature name="instana-agent" description="Instana Agent" version="1.2.41">
+  <feature name="instana-agent" description="Instana Agent" version="1.2.42">
     <feature>agent-version</feature>
-    <feature version="[1.2.169,2)">instana-api</feature>
+    <feature version="[1.2.170,2)">instana-api</feature>
     <feature version="[1.0.6,2)">instana-agent-api</feature>
     <feature version="[1.0.17,2)">instana-agent-internal-api</feature>
     <feature version="[1.0.7,2)">instana-agent-optional-api</feature>
@@ -151,7 +151,7 @@
     <bundle start-level="70">mvn:com.instana/agent-memory-api/1.0.0</bundle>
     <bundle start-level="70">mvn:com.instana/agent-netty-allocator/1.0.2</bundle>
     <bundle start-level="70">mvn:com.instana/agent-netty-allocator-api/1.0.1</bundle>
-    <bundle start-level="70">mvn:com.instana/agent-process-handling/1.0.30</bundle>
+    <bundle start-level="70">mvn:com.instana/agent-process-handling/1.0.31</bundle>
     <bundle start-level="70">mvn:com.instana/agent-process-handling-api/1.0.5</bundle>
     <bundle start-level="70">mvn:com.instana/agent-runtime/1.0.15</bundle>
     <bundle start-level="70">mvn:com.instana/agent-runtime-api/1.0.12</bundle>
