@@ -28,5 +28,11 @@ org.ops4j.pax.url.mvn.defaultRepositories=file:${karaf.home}/${karaf.default.rep
 org.ops4j.pax.url.mvn.repositories=https://artifact-public.instana.io/artifactory/features-internal@id=features@snapshots@snapshotsUpdate=always,https://artifact-public.instana.io/artifactory/shared@id=shared
 ```
 
+3.1. For Kubernetes environments you can update the url by running the following:
+
+```
+kubectl exec -it -n instana-agent daemonset/instana-agent -- sed -i 's/features-public/features-internal/g' /opt/instana/agent/etc/org.ops4j.pax.url.mvn.cfg
+```
+
 4. Update the Agent from the UI (**DO NOT STOP/START** or **RESTART** the agent manually during this process) and verify the agent pulls the latest sensor 
    version internal (eg: `MySQL 1.0.10`)
