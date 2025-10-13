@@ -1052,10 +1052,10 @@
     <bundle start-level="80">mvn:com.instana/sensor-liferay/1.0.2</bundle>
   </feature>
 
-  <feature name="instana-linuxkvmhypervisor-sensor" version="1.0.7">
+  <feature name="instana-linuxkvmhypervisor-sensor" version="1.0.8">
     <feature version="[5.13.0, 6)">instana-jna</feature>
     <bundle start-level="80"><![CDATA[wrap:mvn:org.libvirt/libvirt/0.5.2$overwrite=merge&Import-Package=com.sun.jna.*&Export-Package=org.libvirt&Bundle-SymbolicName=kvm-libvirt]]></bundle>
-    <bundle start-level="80">mvn:com.instana/sensor-linuxkvmhypervisor/1.0.7</bundle>
+    <bundle start-level="80">mvn:com.instana/sensor-linuxkvmhypervisor/1.0.8</bundle>
   </feature>
 
   <feature name="instana-lxc-sensor" version="1.0.1">
