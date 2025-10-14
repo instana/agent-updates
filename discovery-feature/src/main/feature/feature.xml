@@ -111,8 +111,8 @@
     <bundle start-level="80">mvn:com.instana/discovery-crio/1.0.16</bundle>
   </feature>
 
-  <feature name="instana-cve-discovery" version="2.0.9">
-    <bundle start-level="80">mvn:com.instana/discovery-cve/2.0.9</bundle>
+  <feature name="instana-cve-discovery" version="2.0.10">
+    <bundle start-level="80">mvn:com.instana/discovery-cve/2.0.10</bundle>
   </feature>
 
   <feature name="instana-datadog-discovery" version="1.0.18">
