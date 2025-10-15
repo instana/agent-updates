@@ -10,7 +10,7 @@
   <feature name="instana-dynatrace-sensor" version="2.0.9">
     <feature version="[1.0.26,2)">ibm-apm-importer</feature>
     <feature version="[1.0.6,2)">cdc-sensor-api</feature>
-    <feature version="[1.0.73,2)">common-data-collector-transformer-cloudpack</feature>
+    <feature version="[1.0.74,2)">common-data-collector-transformer-cloudpack</feature>
     <bundle start-level="80">mvn:com.instana/common-datacollector-application-api/1.0.0</bundle>
     <bundle start-level="80">mvn:com.instana/common-datacollector-application-provider/1.0.0</bundle>
     <bundle start-level="80">mvn:com.instana/sensor-dynatrace/2.0.9</bundle>
