@@ -1,6 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
-
-<features name="${project.artifactId}-${project.version}" xmlns="http://karaf.apache.org/xmlns/features/v1.3.0">
+<features xmlns="http://karaf.apache.org/xmlns/features/v1.3.0" name="${project.artifactId}-${project.version}">
 
   <feature name="instana-ace-sensor" version="1.0.82">
     <feature version="9.4.0.10">ibmmqclient</feature>
@@ -861,9 +860,9 @@
     <bundle start-level="80">mvn:com.instana/sensor-java/1.2.139</bundle>
   </feature>
 
-  <feature name="instana-java-trace-sensor" version="2.0.3">
+  <feature name="instana-java-trace-sensor" version="2.0.4">
     <feature version="[1.2.138,2)">instana-java-sensor</feature>
-    <bundle start-level="90">mvn:com.instana/sensor-java-trace/2.0.3</bundle>
+    <bundle start-level="90">mvn:com.instana/sensor-java-trace/2.0.4</bundle>
   </feature>
 
   <feature name="instana-java-profile-sensor" version="1.1.13">
