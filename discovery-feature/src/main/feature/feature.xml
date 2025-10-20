@@ -666,8 +666,8 @@
     <bundle start-level="80">mvn:com.instana/discovery-zhmc/1.0.19</bundle>
   </feature>
 
-  <feature name="instana-zookeeper-discovery" version="1.0.8">
-    <bundle start-level="80">mvn:com.instana/discovery-zookeeper/1.0.8</bundle>
+  <feature name="instana-zookeeper-discovery" version="1.0.9">
+    <bundle start-level="80">mvn:com.instana/discovery-zookeeper/1.0.9</bundle>
   </feature>
 
 </features>
