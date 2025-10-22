@@ -520,8 +520,8 @@
     <bundle start-level="90">mvn:com.instana/sensor-cpp-trace/1.0.0</bundle>
   </feature>
 
-  <feature name="instana-clr-sensor" version="1.1.137">
-    <bundle start-level="80">mvn:com.instana/sensor-clr/1.1.137</bundle>
+  <feature name="instana-clr-sensor" version="1.1.138">
+    <bundle start-level="80">mvn:com.instana/sensor-clr/1.1.138</bundle>
   </feature>
 
   <feature name="instana-clr-trace-sensor" version="1.1.9">
@@ -1113,8 +1113,8 @@
     <bundle start-level="80">mvn:com.instana/sensor-neo4j/1.0.3</bundle>
   </feature>
 
-  <feature name="instana-netcore-sensor" version="1.0.74">
-    <bundle start-level="80">mvn:com.instana/sensor-netcore/1.0.74</bundle>
+  <feature name="instana-netcore-sensor" version="1.0.75">
+    <bundle start-level="80">mvn:com.instana/sensor-netcore/1.0.75</bundle>
   </feature>
 
   <feature name="instana-netcore-trace-sensor" version="1.0.5">
