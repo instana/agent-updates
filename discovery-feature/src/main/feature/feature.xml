@@ -468,8 +468,8 @@
     <bundle start-level="80">mvn:com.instana/discovery-php-fpm/1.4.1</bundle>
   </feature>
 
-  <feature name="instana-php-discovery" version="2.3.3">
-    <bundle start-level="80">mvn:com.instana/discovery-php/2.3.3</bundle>
+  <feature name="instana-php-discovery" version="2.3.4">
+    <bundle start-level="80">mvn:com.instana/discovery-php/2.3.4</bundle>
   </feature>
 
   <feature name="instana-ping-discovery" version="1.0.13">
