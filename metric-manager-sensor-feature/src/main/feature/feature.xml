@@ -239,8 +239,8 @@
     <bundle start-level="80">mvn:com.instana/sensor-process/1.1.55</bundle>
   </feature>
 
-  <feature name="instana-podman-sensor" version="1.0.8">
-    <bundle start-level="80">mvn:com.instana/sensor-podman/1.0.8</bundle>
+  <feature name="instana-podman-sensor" version="1.0.9">
+    <bundle start-level="80">mvn:com.instana/sensor-podman/1.0.9</bundle>
   </feature>
 
   <feature name="aws-sdk-cloudwatch" version="2.21.44">

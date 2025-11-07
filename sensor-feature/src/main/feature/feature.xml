@@ -1235,8 +1235,8 @@
     <bundle start-level="80">mvn:com.instana/sensor-ping-directory/1.0.8</bundle>
   </feature>
 
-  <feature name="instana-podman-sensor" version="1.0.8">
-    <bundle start-level="80">mvn:com.instana/sensor-podman/1.0.8</bundle>
+  <feature name="instana-podman-sensor" version="1.0.9">
+    <bundle start-level="80">mvn:com.instana/sensor-podman/1.0.9</bundle>
   </feature>
 
   <feature name="instana-postgresql-sensor" version="1.0.51">

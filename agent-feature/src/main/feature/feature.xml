@@ -76,9 +76,9 @@
     <bundle start-level="40">mvn:io.netty/netty-transport-native-unix-common/4.1.125.Final</bundle>
   </feature>
   
-  <feature name="instana-agent-grpc-core" version="1.0.18">
+  <feature name="instana-agent-grpc-core" version="1.0.19">
     <feature version="[1.1.15,2)">thirdparty-apache-commons</feature>
-    <bundle start-level="70">mvn:com.instana/agent-grpc/1.0.18</bundle>
+    <bundle start-level="70">mvn:com.instana/agent-grpc/1.0.19</bundle>
     <bundle start-level="70">wrap:mvn:com.google.protobuf/protobuf-java/4.29.3</bundle>
     <bundle start-level="70">wrap:mvn:com.google.protobuf/protobuf-java-util/4.29.3</bundle>
     <!-- all grpc transitive dependencies -->
@@ -105,9 +105,9 @@
     <bundle start-level="60">mvn:com.instana/jctools/2.1.6</bundle>
   </feature>
 
-  <feature name="instana-api" description="Instana Sensor and Discovery API" version="1.2.170">
-    <bundle start-level="60">mvn:com.instana/agent-json/1.2.170</bundle>
-    <bundle start-level="60">mvn:com.instana/sensor-api/1.2.170</bundle>
+  <feature name="instana-api" description="Instana Sensor and Discovery API" version="1.2.172">
+    <bundle start-level="60">mvn:com.instana/agent-json/1.2.172</bundle>
+    <bundle start-level="60">mvn:com.instana/sensor-api/1.2.172</bundle>
   </feature>
 
   <feature name="instana-unix-socket-util" description="Instana Unix Socket Util" version="1.2.10">
@@ -126,45 +126,74 @@
     <bundle start-level="60">mvn:com.instana/agent-internal-api/1.0.18</bundle>
   </feature>
 
-  <feature name="instana-agent" description="Instana Agent" version="1.2.43">
+  <!-- everything up to and including OpenTelemetry base layer -->
+  <feature name="instana-agent-open-telemetry-base" version="2.2.5">
+    <feature version="[1.0.15,2)">instana-agent-grpc-core</feature>
+    <bundle start-level="80">mvn:com.instana/agent-open-telemetry-base/2.2.5</bundle>
+    <bundle start-level="80">mvn:com.instana/agent-otel-sensorsdk-api/1.0.4</bundle>
+  </feature>
+
+  <!-- everything up to and including OpenTelemetry service layer -->
+  <feature name="instana-agent-otel-sensor-sdk" version="1.1.18">
+    <feature version="[2.2.4,3)">instana-agent-open-telemetry-base</feature>
+    <bundle start-level="80">mvn:com.instana/otel-sensorsdk-utils/1.0.1</bundle>
+    <bundle start-level="80">mvn:com.instana/otel-sensorsdk-database/1.0.11</bundle>
+    <bundle start-level="80">mvn:com.instana/otel-sensorsdk-host/1.0.5</bundle>
+    <bundle start-level="80">mvn:com.instana/otel-sensorsdk-llmonitor/1.0.7</bundle>
+    <bundle start-level="80">mvn:com.instana/otel-sensorsdk-milvusdb/1.0.0</bundle>
+    <bundle start-level="80">mvn:com.instana/otel-sensorsdk-vllm/1.0.1</bundle>
+    <bundle start-level="80">mvn:com.instana/otel-sensorsdk-dcgm/1.0.2</bundle>
+    <bundle start-level="80">mvn:com.instana/otel-sensorsdk-jvm/1.0.2</bundle>
+    <bundle start-level="80">mvn:com.instana/otel-sensorsdk-k8s/1.0.5</bundle>
+  </feature>
+
+  <!-- everything up to and including OpenTelemetry service layer -->
+  <feature name="instana-agent-open-telemetry-service" version="1.1.13">
+    <feature version="[2.2.5,3)">instana-agent-open-telemetry-base</feature>
+    <feature version="[1.0.5,2)">instana-agent-otel-sensor-sdk</feature>
+    <bundle start-level="80">mvn:com.instana/agent-open-telemetry-service/1.1.13</bundle>
+  </feature>
+
+  <feature name="instana-agent" description="Instana Agent" version="1.2.44">
     <feature>agent-version</feature>
-    <feature version="[1.2.170,2)">instana-api</feature>
+    <feature version="[1.2.172,2)">instana-api</feature>
     <feature version="[1.0.6,2)">instana-agent-api</feature>
     <feature version="[1.0.18,2)">instana-agent-internal-api</feature>
     <feature version="[1.0.7,2)">instana-agent-optional-api</feature>
     <feature version="[1.2.10,2)">instana-unix-socket-util</feature>
     <feature version="[1.0.17,2)">instana-agent-grpc-core</feature>
-    <bundle start-level="70">mvn:com.instana/agent-http/1.0.6</bundle>
-    <bundle start-level="70">mvn:com.instana/agent/1.1.760</bundle>
-    <bundle start-level="70">mvn:com.instana/agent-backend/1.0.8</bundle>
-    <bundle start-level="70">mvn:com.instana/agent-backend-api/1.0.1</bundle>
-    <bundle start-level="70">mvn:com.instana/agent-backend-util/1.0.0</bundle>
+    <feature version="[1.1.13,2)">instana-agent-open-telemetry-service</feature>
+    <bundle start-level="70">mvn:com.instana/agent/1.1.761</bundle>
+    <bundle start-level="70">mvn:com.instana/agent-backend/1.0.9</bundle>
+    <bundle start-level="70">mvn:com.instana/agent-backend-api/1.0.2</bundle>
+    <bundle start-level="70">mvn:com.instana/agent-backend-util/1.0.1</bundle>
     <bundle start-level="70">mvn:com.instana/agent-cgroup/1.0.7</bundle>
     <bundle start-level="70">mvn:com.instana/agent-config-provider/1.0.0</bundle>
     <bundle start-level="70">mvn:com.instana/agent-cri-client/1.0.6</bundle>
-    <bundle start-level="70">mvn:com.instana/agent-grpc-channel-cache/1.0.3</bundle>
+    <bundle start-level="70">mvn:com.instana/agent-grpc-channel-cache/1.0.4</bundle>
     <bundle start-level="70">mvn:com.instana/agent-grpc-channel-cache-api/1.0.1</bundle>
-    <bundle start-level="70">mvn:com.instana/agent-jaeger-tracer/1.0.1</bundle>
-    <bundle start-level="70">mvn:com.instana/agent-jvm-handling/1.0.28</bundle>
+    <bundle start-level="70">mvn:com.instana/agent-http/1.0.7</bundle>
+    <bundle start-level="70">mvn:com.instana/agent-jaeger-tracer/1.0.2</bundle>
+    <bundle start-level="70">mvn:com.instana/agent-jvm-handling/1.0.29</bundle>
     <bundle start-level="70">mvn:com.instana/agent-jvm-handling-api/1.0.0</bundle>
-    <bundle start-level="70">mvn:com.instana/agent-memory/1.0.0</bundle>
+    <bundle start-level="70">mvn:com.instana/agent-memory/1.0.1</bundle>
     <bundle start-level="70">mvn:com.instana/agent-memory-api/1.0.0</bundle>
-    <bundle start-level="70">mvn:com.instana/agent-netty-allocator/1.0.2</bundle>
-    <bundle start-level="70">mvn:com.instana/agent-netty-allocator-api/1.0.1</bundle>
-    <bundle start-level="70">mvn:com.instana/agent-process-handling/1.0.32</bundle>
-    <bundle start-level="70">mvn:com.instana/agent-process-handling-api/1.0.5</bundle>
+    <bundle start-level="70">mvn:com.instana/agent-netty-allocator/1.0.3</bundle>
+    <bundle start-level="70">mvn:com.instana/agent-netty-allocator-api/1.0.2</bundle>
+    <bundle start-level="70">mvn:com.instana/agent-process-handling/1.0.33</bundle>
+    <bundle start-level="70">mvn:com.instana/agent-process-handling-api/1.0.6</bundle>
     <bundle start-level="70">mvn:com.instana/agent-runtime/1.0.16</bundle>
     <bundle start-level="70">mvn:com.instana/agent-runtime-api/1.0.13</bundle>
     <bundle start-level="70">mvn:com.instana/agent-secret-reader/1.0.0</bundle>
-    <bundle start-level="70">mvn:com.instana/agent-self-profiling/1.0.0</bundle>
-    <bundle start-level="70">mvn:com.instana/agent-sensor/1.0.1</bundle>
-    <bundle start-level="70">mvn:com.instana/agent-socket-server/1.0.8</bundle>
-    <bundle start-level="70">mvn:com.instana/agent-socket-server-api/1.0.5</bundle>
+    <bundle start-level="70">mvn:com.instana/agent-self-profiling/1.0.1</bundle>
+    <bundle start-level="70">mvn:com.instana/agent-sensor/1.0.2</bundle>
+    <bundle start-level="70">mvn:com.instana/agent-socket-server/1.0.9</bundle>
+    <bundle start-level="70">mvn:com.instana/agent-socket-server-api/1.0.6</bundle>
     <bundle start-level="70">mvn:com.instana/agent-support-karaf/1.0.1</bundle>
-    <bundle start-level="70">mvn:com.instana/agent-task-orchestrator/1.0.7</bundle>
+    <bundle start-level="70">mvn:com.instana/agent-task-orchestrator/1.0.8</bundle>
     <bundle start-level="70">mvn:com.instana/agent-task-orchestrator-api/1.0.2</bundle>
-    <bundle start-level="70">mvn:com.instana/agent-util/1.0.14</bundle>
-    <bundle start-level="70">mvn:com.instana/agent-zipkin-tracer/1.0.0</bundle>
+    <bundle start-level="70">mvn:com.instana/agent-util/1.0.15</bundle>
+    <bundle start-level="70">mvn:com.instana/agent-zipkin-tracer/1.0.1</bundle>
   </feature>
 
 </features>
