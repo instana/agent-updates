@@ -1,56 +1,28 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
 <features name="${project.artifactId}-${project.version}" xmlns="http://karaf.apache.org/xmlns/features/v1.3.0">
 
-  <feature name="instana-agent-configuration-integration-vault" version="1.0.16">
+  <feature name="instana-agent-configuration-integration-vault" version="1.0.17">
     <feature version="[1.1.15,2)">thirdparty-apache-commons</feature>
     <feature version="4.12.0">okhttp</feature>
     <feature version="[1.2.150,2)">instana-api</feature>
     <feature version="[1.0.7,2)">instana-agent-optional-api</feature>
-    <bundle start-level="80">mvn:com.instana/agent-configuration-integration-vault/1.0.16</bundle>
+    <bundle start-level="80">mvn:com.instana/agent-configuration-integration-vault/1.0.17</bundle>
     <bundle start-level="80">wrap:mvn:com.bettercloud/vault-java-driver/5.1.0</bundle>
     <bundle start-level="80">mvn:com.instana/agent-ibm-secrets-manager/1.0.2</bundle>
   </feature>
 
-  <!-- everything up to and including OpenTelemetry base layer -->
-  <feature name="instana-agent-open-telemetry-base" version="2.2.5">
-    <feature version="[1.0.15,2)">instana-agent-grpc-core</feature>
-    <bundle start-level="80">mvn:com.instana/agent-open-telemetry-base/2.2.5</bundle>
-    <bundle start-level="80">mvn:com.instana/agent-otel-sensorsdk-api/1.0.3</bundle>
-  </feature>
-
-  <!-- everything up to and including OpenTelemetry service layer -->
-  <feature name="instana-agent-otel-sensor-sdk" version="1.1.18">
-    <feature version="[2.2.4,3)">instana-agent-open-telemetry-base</feature>
-    <bundle start-level="80">mvn:com.instana/otel-sensorsdk-utils/1.0.1</bundle>
-    <bundle start-level="80">mvn:com.instana/otel-sensorsdk-database/1.0.11</bundle>
-    <bundle start-level="80">mvn:com.instana/otel-sensorsdk-host/1.0.5</bundle>
-    <bundle start-level="80">mvn:com.instana/otel-sensorsdk-llmonitor/1.0.7</bundle>
-    <bundle start-level="80">mvn:com.instana/otel-sensorsdk-milvusdb/1.0.0</bundle>
-    <bundle start-level="80">mvn:com.instana/otel-sensorsdk-vllm/1.0.1</bundle>
-    <bundle start-level="80">mvn:com.instana/otel-sensorsdk-dcgm/1.0.2</bundle>
-    <bundle start-level="80">mvn:com.instana/otel-sensorsdk-jvm/1.0.2</bundle>
-    <bundle start-level="80">mvn:com.instana/otel-sensorsdk-k8s/1.0.5</bundle>
-  </feature>
-
-  <!-- everything up to and including OpenTelemetry service layer -->
-  <feature name="instana-agent-open-telemetry-service" version="1.1.12">
-    <feature version="[2.2.5,3)">instana-agent-open-telemetry-base</feature>
-    <feature version="[1.0.5,2)">instana-agent-otel-sensor-sdk</feature>
-    <bundle start-level="80">mvn:com.instana/agent-open-telemetry-service/1.1.12</bundle>
-  </feature>
-
   <!-- OpenTelemetry collector using gRPC -->
-  <feature name="instana-agent-open-telemetry" version="1.1.13">
+  <feature name="instana-agent-open-telemetry" version="1.1.14">
     <feature version="[1.1.12,2)">instana-agent-open-telemetry-service</feature>
-    <bundle start-level="80">mvn:com.instana/agent-open-telemetry-grpc/1.1.13</bundle>
+    <bundle start-level="80">mvn:com.instana/agent-open-telemetry-grpc/1.1.14</bundle>
   </feature>
 
   <!-- OpenTelemetry collector using HTTP -->
-  <feature name="instana-agent-open-telemetry-http" version="1.1.14">
+  <feature name="instana-agent-open-telemetry-http" version="1.1.15">
     <feature version="[1.0.6,2)">instana-agent-internal-api</feature>
     <feature version="[1.1.12,2)">instana-agent-open-telemetry-service</feature>
     <bundle start-level="80">mvn:com.instana/agent-open-telemetry-http-api/1.0.5</bundle>
-    <bundle start-level="80">mvn:com.instana/agent-open-telemetry-http/1.1.14</bundle>
+    <bundle start-level="80">mvn:com.instana/agent-open-telemetry-http/1.1.15</bundle>
   </feature>
 
   <feature name="instana-agent-ibmi-handler" version="1.0.2">
@@ -59,13 +31,13 @@
     <bundle start-level="80">wrap:mvn:net.sf.jt400/jt400/20.0.7</bundle>
   </feature>
 
-  <feature name="instana-agent-prometheus" version="1.0.12">
+  <feature name="instana-agent-prometheus" version="1.0.13">
     <feature version="[1.2.16,2)">instana-agent</feature>
     <!-- implicit import through instana-agent feature, make sure to keep protobuf in sync
     <feature version="[1.0.15,2)">instana-agent-grpc-core</feature>
     <bundle start-level="80">wrap:mvn:com.google.protobuf/protobuf-java/4.29.2</bundle>
     -->
-    <bundle start-level="80">mvn:com.instana/agent-prometheus/1.0.12</bundle>
+    <bundle start-level="80">mvn:com.instana/agent-prometheus/1.0.13</bundle>
   </feature>
 
 </features>
