@@ -1358,13 +1358,13 @@
     <bundle start-level="80">mvn:com.instana/discovery-sap-abap-messageserver/1.0.51</bundle>
   </feature>
 
-  <feature name="instana-sap-java-netweaver-sensor" version="1.0.9">
+  <feature name="instana-sap-java-netweaver-sensor" version="1.0.10">
     <feature version="[1.0.24,2)">ibm-apm-importer</feature>
     <feature version="[1.0.5,2)">cdc-sensor-api</feature>
     <feature version="[1.0.79,2)">common-data-collector-transformer-instana</feature>
     <bundle start-level="80">mvn:com.instana/common-datacollector-application-api/1.0.0</bundle>
     <bundle start-level="80">mvn:com.instana/common-datacollector-application-provider/1.0.0</bundle>
-    <bundle start-level="80">mvn:com.instana/sensor-sap-java-netweaver/1.0.9</bundle>
+    <bundle start-level="80">mvn:com.instana/sensor-sap-java-netweaver/1.0.10</bundle>
   </feature>
 
   <feature name="instana-kubecost-sensor" version="1.0.13">
