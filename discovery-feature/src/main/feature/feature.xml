@@ -534,8 +534,8 @@
     <bundle start-level="80">mvn:com.instana/discovery-sap-abap/1.0.51</bundle>
   </feature>
 
-  <feature name="instana-sap-java-netweaver-discovery" version="1.0.8">
-    <bundle start-level="80">mvn:com.instana/discovery-sap-java-netweaver/1.0.8</bundle>
+  <feature name="instana-sap-java-netweaver-discovery" version="1.0.10">
+    <bundle start-level="80">mvn:com.instana/discovery-sap-java-netweaver/1.0.10</bundle>
   </feature>
 
   <feature name="instana-kubecost-discovery" version="1.0.13">
@@ -582,7 +582,7 @@
     <bundle start-level="80">mvn:com.instana/discovery-sybase/1.0.3</bundle>
   </feature>
 
-  <feature name="instana-synthetic-pop-discovery" version="1.0.12"> 
+  <feature name="instana-synthetic-pop-discovery" version="1.0.12">
     <bundle start-level="80">mvn:com.instana/discovery-synthetic-pop/1.0.12</bundle>
   </feature>
 
