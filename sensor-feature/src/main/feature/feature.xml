@@ -152,13 +152,13 @@
     <bundle start-level="80">mvn:com.instana/sensor-apmproxy/1.0.8</bundle>
   </feature>
 
-  <feature name="instana-appdynamics-sensor" version="2.0.3">
+  <feature name="instana-appdynamics-sensor" version="2.0.4">
     <feature version="[1.0.24,2)">ibm-apm-importer</feature>
     <feature version="[1.0.5,2)">cdc-sensor-api</feature>
     <feature version="[1.0.79,2)">common-data-collector-transformer-instana</feature>
     <bundle start-level="80">mvn:com.instana/common-datacollector-application-api/1.0.0</bundle>
     <bundle start-level="80">mvn:com.instana/common-datacollector-application-provider/1.0.0</bundle>
-    <bundle start-level="80">mvn:com.instana/sensor-appdynamics/2.0.3</bundle>
+    <bundle start-level="80">mvn:com.instana/sensor-appdynamics/2.0.4</bundle>
     <bundle start-level="80">mvn:org.apache.httpcomponents/httpcore-osgi/4.4.9</bundle>
     <bundle start-level="80">mvn:com.basistech.org.apache.httpcomponents/httpclient-osgi/4.5.13</bundle>
   </feature>
