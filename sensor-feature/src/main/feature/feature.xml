@@ -1125,13 +1125,13 @@
     <bundle start-level="90">mvn:com.instana/sensor-netcore-trace/1.0.5</bundle>
   </feature>
 
-  <feature name="instana-newrelic-sensor" version="2.0.3">
+  <feature name="instana-newrelic-sensor" version="2.0.4">
     <feature version="[1.0.24,2)">ibm-apm-importer</feature>
     <feature version="[1.0.5,2)">cdc-sensor-api</feature>
     <feature version="[1.0.79,2)">common-data-collector-transformer-instana</feature>
     <bundle start-level="80">mvn:com.instana/common-datacollector-application-api/1.0.0</bundle>
     <bundle start-level="80">mvn:com.instana/common-datacollector-application-provider/1.0.0</bundle>
-    <bundle start-level="80">mvn:com.instana/sensor-newrelic/2.0.3</bundle>
+    <bundle start-level="80">mvn:com.instana/sensor-newrelic/2.0.4</bundle>
   </feature>
 
   <feature name="instana-nginx-sensor" version="1.1.87">
