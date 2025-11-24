@@ -1046,9 +1046,9 @@
     <bundle start-level="80">mvn:com.instana/sensor-kubernetes/1.2.143</bundle>
   </feature>
 
-  <feature name="instana-liferay-sensor" version="1.0.2">
+  <feature name="instana-liferay-sensor" version="1.0.3">
     <feature version="[1.2.138,2)">instana-java-sensor</feature>
-    <bundle start-level="80">mvn:com.instana/sensor-liferay/1.0.2</bundle>
+    <bundle start-level="80">mvn:com.instana/sensor-liferay/1.0.3</bundle>
   </feature>
 
   <feature name="instana-linuxkvmhypervisor-sensor" version="1.0.10">
