@@ -544,8 +544,8 @@
     <bundle start-level="80">mvn:com.instana/discovery-kubecost/1.0.14</bundle>
   </feature>
 
-  <feature name="instana-scom-discovery" version="1.0.11">
-    <bundle start-level="80">mvn:com.instana/discovery-scom/1.0.11</bundle>
+  <feature name="instana-scom-discovery" version="1.0.12">
+    <bundle start-level="80">mvn:com.instana/discovery-scom/1.0.12</bundle>
   </feature>
 
   <feature name="instana-snowflake-discovery" version="1.0.5">
