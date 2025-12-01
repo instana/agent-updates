@@ -41,8 +41,11 @@
                 <echo file="${project.build.directory}/get-git-tag.sh">
                     <![CDATA[
 #!/bin/bash
-if [ "$(git rev-parse --abbrev-ref HEAD)" = "internal" ]; then
+BRANCH=$(git rev-parse --abbrev-ref HEAD)
+if [ "$BRANCH" = "internal" ]; then
     git show --no-patch --date=format:%Y.%m.%d.%H%M-internal --format=%cd | { read tag; echo "git.tag=${tag:-null}"; } > ${project.build.directory}/git-tag.properties
+elif [[ "$BRANCH" == fedramp-* ]]; then
+    git show --no-patch --date=format:%Y.%m.%d.%H%M-fedramp --format=%cd | { read tag; echo "git.tag=${tag:-null}"; } > ${project.build.directory}/git-tag.properties
 else
     git tag --points-at HEAD | { read tag; echo "git.tag=${tag:-null}"; } > ${project.build.directory}/git-tag.properties
 fi
@@ -70,6 +73,10 @@ for /f "delims=" %%i in ('git rev-parse --abbrev-ref HEAD') do (
 
 if "%BRANCH%"=="internal" (
     for /f "delims=" %%t in ('git show --no-patch --date^=format:%%Y.%%m.%%d.%%H%%M-internal --format^=%%cd') do (
+        set TAG=%%t
+    )
+) else if "%BRANCH:~0,8%"=="fedramp-" (
+    for /f "delims=" %%t in ('git show --no-patch --date^=format:%%Y.%%m.%%d.%%H%%M-fedramp --format^=%%cd') do (
         set TAG=%%t
     )
 ) else (
