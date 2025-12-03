@@ -16,9 +16,9 @@
     <feature>instana-action-script-sensor</feature>
   </feature>
 
-  <feature name="instana-action-sdk" version="1.0.75">
+  <feature name="instana-action-sdk" version="1.0.76">
     <feature version="4.12.0">okhttp</feature>
-    <bundle start-level="80">mvn:com.instana/instana-action-sdk/1.0.75</bundle>
+    <bundle start-level="80">mvn:com.instana/instana-action-sdk/1.0.76</bundle>
   </feature>
 
   <feature name="cdc-sensor-api" version="1.0.10">
@@ -53,43 +53,44 @@
     <bundle start-level="80">mvn:com.instana/cdc-sidecar/1.0.6</bundle>
   </feature>
 
-  <feature name="instana-action-services-discovery" version="1.0.75">
-    <bundle start-level="80">mvn:com.instana/discovery-action-services/1.0.75</bundle>
+  <feature name="instana-action-services-discovery" version="1.0.76">
+    <bundle start-level="80">mvn:com.instana/discovery-action-services/1.0.76</bundle>
   </feature>
 
-  <feature name="instana-action-ansible-sensor" version="1.0.75">
-    <feature version="[1.0.75,2)">instana-action-sdk</feature>
-    <bundle start-level="80">mvn:com.instana/sensor-action-ansible/1.0.75</bundle>
+  <feature name="instana-action-ansible-sensor" version="1.0.76">
+    <feature version="[1.0.76,2)">instana-action-sdk</feature>
+    <bundle start-level="80">mvn:com.instana/sensor-action-ansible/1.0.76</bundle>
   </feature>
 
-  <feature name="instana-action-command-sensor" version="1.0.75">
-    <feature version="[1.0.75,2)">instana-action-sdk</feature>
-    <bundle start-level="80">mvn:com.instana/sensor-action-command/1.0.75</bundle>
+  <feature name="instana-action-command-sensor" version="1.0.76">
+    <feature version="[1.0.76,2)">instana-action-sdk</feature>
+    <bundle start-level="80">mvn:com.instana/sensor-action-command/1.0.76</bundle>
   </feature>
 
-  <feature name="instana-action-gitlab-sensor" version="1.0.75">
-    <feature version="[1.0.75,2)">instana-action-sdk</feature>
-    <bundle start-level="80">mvn:com.instana/sensor-action-gitlab/1.0.75</bundle>
+  <feature name="instana-action-gitlab-sensor" version="1.0.76">
+    <feature version="[1.0.76,2)">instana-action-sdk</feature>
+    <bundle start-level="80">mvn:com.instana/sensor-action-gitlab/1.0.76</bundle>
   </feature>
 
-  <feature name="instana-action-github-sensor" version="1.0.75">
-    <feature version="[1.0.75,2)">instana-action-sdk</feature>
-    <bundle start-level="80">mvn:com.instana/sensor-action-github/1.0.75</bundle>
+  <feature name="instana-action-github-sensor" version="1.0.76">
+    <feature version="[1.0.76,2)">instana-action-sdk</feature>
+    <bundle start-level="80">mvn:com.instana/sensor-action-github/1.0.76</bundle>
   </feature>
 
-  <feature name="instana-action-http-sensor" version="1.0.75">
-    <feature version="[1.0.75,2)">instana-action-sdk</feature>
-    <bundle start-level="80">mvn:com.instana/sensor-action-http/1.0.75</bundle>
+  <feature name="instana-action-http-sensor" version="1.0.76">
+    <feature version="[1.0.76,2)">instana-action-sdk</feature>
+    <bundle start-level="80">mvn:com.instana/sensor-action-http/1.0.76</bundle>
   </feature>
 
-  <feature name="instana-action-issue-sensor" version="1.0.75">
-    <feature version="[1.0.75,2)">instana-action-sdk</feature>
-    <bundle start-level="80">mvn:com.instana/sensor-action-issue/1.0.75</bundle>
+  <feature name="instana-action-issue-sensor" version="1.0.76">
+    <feature version="[1.0.76,2)">instana-action-sdk</feature>
+    <bundle start-level="80">mvn:com.instana/sensor-action-issue/1.0.76</bundle>
   </feature>
 
-  <feature name="instana-action-script-sensor" version="1.0.75">
-    <feature version="[1.0.75,2)">instana-action-sdk</feature>
-    <bundle start-level="80">mvn:com.instana/sensor-action-script/1.0.75</bundle>
+  <feature name="instana-action-script-sensor" version="1.0.76">
+    <feature version="[5.13.0, 6)">instana-jna</feature>
+    <feature version="[1.0.76,2)">instana-action-sdk</feature>
+    <bundle start-level="80">mvn:com.instana/sensor-action-script/1.0.76</bundle>
   </feature>
 
   <feature name="instana-activedirectory-sensor" version="1.0.3">
