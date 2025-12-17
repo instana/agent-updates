@@ -1505,14 +1505,14 @@
     <bundle start-level="80">mvn:com.instana/sensor-weblogic/1.1.23</bundle>
   </feature>
 
-  <feature name="instana-websphere-sensor" version="1.1.51">
+  <feature name="instana-websphere-sensor" version="1.1.52">
     <feature version="[1.2.138,2)">instana-java-sensor</feature>
-    <bundle start-level="80">mvn:com.instana/sensor-websphere/1.1.51</bundle>
+    <bundle start-level="80">mvn:com.instana/sensor-websphere/1.1.52</bundle>
   </feature>
 
-  <feature name="instana-websphere-dmgr-sensor" version="1.1.51">
+  <feature name="instana-websphere-dmgr-sensor" version="1.1.52">
     <feature version="[1.2.138,2)">instana-java-sensor</feature>
-    <bundle start-level="80">mvn:com.instana/sensor-websphere-dmgr/1.1.51</bundle>
+    <bundle start-level="80">mvn:com.instana/sensor-websphere-dmgr/1.1.52</bundle>
   </feature>
 
   <feature name="instana-websphere-liberty-sensor" version="1.1.10">
