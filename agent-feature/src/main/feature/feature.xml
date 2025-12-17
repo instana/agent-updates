@@ -60,20 +60,20 @@
   </feature>
 
   <!--To upgrade the feature and bundles for thirdparty-netty from agent-bootstrap-feature, updated the feature version here-->
-  <feature name="thirdparty-netty" description="Shared Netty from agent feature" version="4.1.125.Final">
-    <bundle start-level="40">mvn:io.netty/netty-buffer/4.1.125.Final</bundle>
-    <bundle start-level="40">mvn:io.netty/netty-codec/4.1.125.Final</bundle>
-    <bundle start-level="40">mvn:io.netty/netty-codec-dns/4.1.125.Final</bundle>
-    <bundle start-level="40">mvn:io.netty/netty-codec-http/4.1.125.Final</bundle>
-    <bundle start-level="40">mvn:io.netty/netty-codec-http2/4.1.125.Final</bundle>
-    <bundle start-level="40">mvn:io.netty/netty-codec-socks/4.1.125.Final</bundle>
-    <bundle start-level="40">mvn:io.netty/netty-common/4.1.125.Final</bundle>
-    <bundle start-level="40">mvn:io.netty/netty-handler/4.1.125.Final</bundle>
-    <bundle start-level="40">mvn:io.netty/netty-handler-proxy/4.1.125.Final</bundle>
-    <bundle start-level="40">mvn:io.netty/netty-resolver/4.1.125.Final</bundle>
-    <bundle start-level="40">mvn:io.netty/netty-resolver-dns/4.1.125.Final</bundle>
-    <bundle start-level="40">mvn:io.netty/netty-transport/4.1.125.Final</bundle>
-    <bundle start-level="40">mvn:io.netty/netty-transport-native-unix-common/4.1.125.Final</bundle>
+  <feature name="thirdparty-netty" description="Shared Netty from agent feature" version="4.1.129.Final">
+    <bundle start-level="40">mvn:io.netty/netty-buffer/4.1.129.Final</bundle>
+    <bundle start-level="40">mvn:io.netty/netty-codec/4.1.129.Final</bundle>
+    <bundle start-level="40">mvn:io.netty/netty-codec-dns/4.1.129.Final</bundle>
+    <bundle start-level="40">mvn:io.netty/netty-codec-http/4.1.129.Final</bundle>
+    <bundle start-level="40">mvn:io.netty/netty-codec-http2/4.1.129.Final</bundle>
+    <bundle start-level="40">mvn:io.netty/netty-codec-socks/4.1.129.Final</bundle>
+    <bundle start-level="40">mvn:io.netty/netty-common/4.1.129.Final</bundle>
+    <bundle start-level="40">mvn:io.netty/netty-handler/4.1.129.Final</bundle>
+    <bundle start-level="40">mvn:io.netty/netty-handler-proxy/4.1.129.Final</bundle>
+    <bundle start-level="40">mvn:io.netty/netty-resolver/4.1.129.Final</bundle>
+    <bundle start-level="40">mvn:io.netty/netty-resolver-dns/4.1.129.Final</bundle>
+    <bundle start-level="40">mvn:io.netty/netty-transport/4.1.129.Final</bundle>
+    <bundle start-level="40">mvn:io.netty/netty-transport-native-unix-common/4.1.129.Final</bundle>
   </feature>
   
   <feature name="instana-agent-grpc-core" version="1.0.19">
@@ -105,9 +105,9 @@
     <bundle start-level="60">mvn:com.instana/jctools/2.1.6</bundle>
   </feature>
 
-  <feature name="instana-api" description="Instana Sensor and Discovery API" version="1.2.174">
-    <bundle start-level="60">mvn:com.instana/agent-json/1.2.174</bundle>
-    <bundle start-level="60">mvn:com.instana/sensor-api/1.2.174</bundle>
+  <feature name="instana-api" description="Instana Sensor and Discovery API" version="1.2.177">
+    <bundle start-level="60">mvn:com.instana/agent-json/1.2.177</bundle>
+    <bundle start-level="60">mvn:com.instana/sensor-api/1.2.177</bundle>
   </feature>
 
   <feature name="instana-unix-socket-util" description="Instana Unix Socket Util" version="1.2.10">
@@ -155,16 +155,16 @@
     <bundle start-level="80">mvn:com.instana/agent-open-telemetry-service/1.1.13</bundle>
   </feature>
 
-  <feature name="instana-agent" description="Instana Agent" version="1.2.47">
+  <feature name="instana-agent" description="Instana Agent" version="1.2.48">
     <feature>agent-version</feature>
-    <feature version="[1.2.174,2)">instana-api</feature>
+    <feature version="[1.2.177,2)">instana-api</feature>
     <feature version="[1.0.6,2)">instana-agent-api</feature>
     <feature version="[1.0.18,2)">instana-agent-internal-api</feature>
     <feature version="[1.0.7,2)">instana-agent-optional-api</feature>
     <feature version="[1.2.10,2)">instana-unix-socket-util</feature>
     <feature version="[1.0.17,2)">instana-agent-grpc-core</feature>
     <feature version="[1.1.13,2)">instana-agent-open-telemetry-service</feature>
-    <bundle start-level="70">mvn:com.instana/agent/1.1.763</bundle>
+    <bundle start-level="70">mvn:com.instana/agent/1.1.764</bundle>
     <bundle start-level="70">mvn:com.instana/agent-backend/1.0.10</bundle>
     <bundle start-level="70">mvn:com.instana/agent-backend-api/1.0.2</bundle>
     <bundle start-level="70">mvn:com.instana/agent-backend-util/1.0.1</bundle>
@@ -175,13 +175,13 @@
     <bundle start-level="70">mvn:com.instana/agent-grpc-channel-cache-api/1.0.1</bundle>
     <bundle start-level="70">mvn:com.instana/agent-http/1.0.7</bundle>
     <bundle start-level="70">mvn:com.instana/agent-jaeger-tracer/1.0.2</bundle>
-    <bundle start-level="70">mvn:com.instana/agent-jvm-handling/1.0.31</bundle>
+    <bundle start-level="70">mvn:com.instana/agent-jvm-handling/1.0.32</bundle>
     <bundle start-level="70">mvn:com.instana/agent-jvm-handling-api/1.0.0</bundle>
     <bundle start-level="70">mvn:com.instana/agent-memory/1.0.1</bundle>
     <bundle start-level="70">mvn:com.instana/agent-memory-api/1.0.0</bundle>
     <bundle start-level="70">mvn:com.instana/agent-netty-allocator/1.0.3</bundle>
     <bundle start-level="70">mvn:com.instana/agent-netty-allocator-api/1.0.2</bundle>
-    <bundle start-level="70">mvn:com.instana/agent-process-handling/1.0.36</bundle>
+    <bundle start-level="70">mvn:com.instana/agent-process-handling/1.0.37</bundle>
     <bundle start-level="70">mvn:com.instana/agent-process-handling-api/1.0.6</bundle>
     <bundle start-level="70">mvn:com.instana/agent-runtime/1.0.17</bundle>
     <bundle start-level="70">mvn:com.instana/agent-runtime-api/1.0.14</bundle>
