@@ -803,8 +803,8 @@
     <bundle start-level="80">mvn:com.instana/sensor-host-native-aix/1.1.225</bundle>
   </feature>
 
-  <feature name="instana-httpd-sensor" version="1.2.36">
-    <bundle start-level="80">mvn:com.instana/sensor-httpd/1.2.36</bundle>
+  <feature name="instana-httpd-sensor" version="1.2.37">
+    <bundle start-level="80">mvn:com.instana/sensor-httpd/1.2.37</bundle>
   </feature>
 
   <feature name="instana-ibmapiconnect-sensor" version="1.0.4">
