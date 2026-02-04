@@ -274,12 +274,12 @@
     <bundle start-level="80">mvn:com.instana/discovery-ibmiseries/1.0.78</bundle>
   </feature>
 
-  <feature name="instana-ibmmq-discovery" version="1.1.53">
-    <bundle start-level="80">mvn:com.instana/discovery-ibmmq/1.1.53</bundle>
+  <feature name="instana-ibmmq-discovery" version="1.1.54">
+    <bundle start-level="80">mvn:com.instana/discovery-ibmmq/1.1.54</bundle>
   </feature>
 
-  <feature name="instana-ibmmq-sidecar-discovery" version="1.1.53">
-    <bundle start-level="80">mvn:com.instana/discovery-ibmmq-sidecar/1.1.53</bundle>
+  <feature name="instana-ibmmq-sidecar-discovery" version="1.1.54">
+    <bundle start-level="80">mvn:com.instana/discovery-ibmmq-sidecar/1.1.54</bundle>
   </feature>
 
   <feature name="instana-ibmmq-mft-discovery" version="1.0.23">
