@@ -12,17 +12,17 @@
   </feature>
 
   <!-- OpenTelemetry collector using gRPC -->
-  <feature name="instana-agent-open-telemetry" version="1.1.15">
+  <feature name="instana-agent-open-telemetry" version="1.1.16">
     <feature version="[1.1.12,2)">instana-agent-open-telemetry-service</feature>
-    <bundle start-level="80">mvn:com.instana/agent-open-telemetry-grpc/1.1.15</bundle>
+    <bundle start-level="80">mvn:com.instana/agent-open-telemetry-grpc/1.1.16</bundle>
   </feature>
 
   <!-- OpenTelemetry collector using HTTP -->
-  <feature name="instana-agent-open-telemetry-http" version="1.1.15">
-    <feature version="[1.0.6,2)">instana-agent-internal-api</feature>
+  <feature name="instana-agent-open-telemetry-http" version="1.1.16">
+    <feature version="[2.0.0,3)">instana-agent-internal-api</feature>
     <feature version="[1.1.12,2)">instana-agent-open-telemetry-service</feature>
     <bundle start-level="80">mvn:com.instana/agent-open-telemetry-http-api/1.0.5</bundle>
-    <bundle start-level="80">mvn:com.instana/agent-open-telemetry-http/1.1.15</bundle>
+    <bundle start-level="80">mvn:com.instana/agent-open-telemetry-http/1.1.16</bundle>
   </feature>
 
   <feature name="instana-agent-ibmi-handler" version="1.0.3">
