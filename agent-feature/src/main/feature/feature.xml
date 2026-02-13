@@ -155,7 +155,7 @@
     <bundle start-level="80">mvn:com.instana/agent-open-telemetry-service/1.1.13</bundle>
   </feature>
 
-  <feature name="instana-agent" description="Instana Agent" version="1.2.51">
+  <feature name="instana-agent" description="Instana Agent" version="1.2.52">
     <feature>agent-version</feature>
     <feature version="[1.2.180,2)">instana-api</feature>
     <feature version="[1.0.6,2)">instana-agent-api</feature>
@@ -188,7 +188,7 @@
     <bundle start-level="70">mvn:com.instana/agent-secret-reader/1.0.0</bundle>
     <bundle start-level="70">mvn:com.instana/agent-self-profiling/1.0.2</bundle>
     <bundle start-level="70">mvn:com.instana/agent-sensor/1.0.3</bundle>
-    <bundle start-level="70">mvn:com.instana/agent-socket-server/1.0.10</bundle>
+    <bundle start-level="70">mvn:com.instana/agent-socket-server/1.0.11</bundle>
     <bundle start-level="70">mvn:com.instana/agent-socket-server-api/1.0.7</bundle>
     <bundle start-level="70">mvn:com.instana/agent-support-karaf/1.0.1</bundle>
     <bundle start-level="70">mvn:com.instana/agent-task-orchestrator/1.0.9</bundle>
