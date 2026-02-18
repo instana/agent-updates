@@ -7,7 +7,7 @@
     <bundle start-level="80">mvn:com.basistech.org.apache.httpcomponents/httpclient-osgi/4.5.13</bundle>
     <bundle start-level="80">mvn:javax.jms/javax.jms-api/2.0</bundle>
     <bundle start-level="80">mvn:org.eclipse.paho/org.eclipse.paho.client.mqttv3/1.2.5</bundle>
-    <bundle start-level="80">mvn:com.instana/sensor-ace/1.0.88</bundle>
+    <bundle start-level="80">mvn:com.instana/sensor-ace/1.0.89</bundle>
   </feature>
 
   <!-- This feature is still here to support auto-update and backwards compatibility and therefore should not be version bumped any further. -->
