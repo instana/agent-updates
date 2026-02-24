@@ -531,8 +531,8 @@
     <bundle start-level="80">mvn:com.instana/discovery-sap-hana/1.1.32</bundle>
   </feature>
 
-  <feature name="instana-sap-abap-discovery" version="1.0.56">
-    <bundle start-level="80">mvn:com.instana/discovery-sap-abap/1.0.56</bundle>
+  <feature name="instana-sap-abap-discovery" version="1.0.57">
+    <bundle start-level="80">mvn:com.instana/discovery-sap-abap/1.0.57</bundle>
   </feature>
 
   <feature name="instana-sap-java-netweaver-discovery" version="1.0.14">
