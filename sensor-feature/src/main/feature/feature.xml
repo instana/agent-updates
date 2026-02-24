@@ -829,15 +829,15 @@
     <bundle start-level="80">mvn:com.instana/sensor-ibmiseries/1.0.79</bundle>
   </feature>
 
-  <feature name="instana-ibmmq-sensor" version="1.1.54">
+  <feature name="instana-ibmmq-sensor" version="1.1.55">
     <feature version="9.4.0.10">ibmmqclient</feature>
-    <bundle start-level="80">mvn:com.instana/sensor-ibmmq/1.1.54</bundle>
+    <bundle start-level="80">mvn:com.instana/sensor-ibmmq/1.1.55</bundle>
   </feature>
 
-  <feature name="instana-ibmmq-sidecar" version="1.1.54">
+  <feature name="instana-ibmmq-sidecar" version="1.1.55">
     <feature version="[1.0.6,2)">instana-cdc-sidecar</feature>
     <feature version="9.4.0.10">ibmmqclient</feature>
-    <bundle start-level="80">mvn:com.instana/sidecar-ibmmq/1.1.54</bundle>
+    <bundle start-level="80">mvn:com.instana/sidecar-ibmmq/1.1.55</bundle>
   </feature>
 
   <feature name="instana-ibmmq-mft-sensor" version="1.0.23">
