@@ -1256,10 +1256,10 @@
     <bundle start-level="80">mvn:com.instana/sensor-postgresql/1.0.52</bundle>
   </feature>
 
-  <feature name="instana-power-hmc-sensor" version="1.0.19">
+  <feature name="instana-power-hmc-sensor" version="1.0.20">
     <bundle start-level="80">mvn:org.apache.httpcomponents/httpcore-osgi/4.4.9</bundle>
     <bundle start-level="80">mvn:com.basistech.org.apache.httpcomponents/httpclient-osgi/4.5.13</bundle>
-    <bundle start-level="80">mvn:com.instana/sensor-power-hmc/1.0.19</bundle>
+    <bundle start-level="80">mvn:com.instana/sensor-power-hmc/1.0.20</bundle>
   </feature>
 
   <feature name="instana-powervc-sensor" version="1.0.6">
