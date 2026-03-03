@@ -394,8 +394,8 @@
     <bundle start-level="80">mvn:com.instana/discovery-nagios/1.0.14</bundle>
   </feature>
 
-  <feature name="instana-neo4j-discovery" version="1.0.3">
-    <bundle start-level="80">mvn:com.instana/discovery-neo4j/1.0.3</bundle>
+  <feature name="instana-neo4j-discovery" version="1.0.5">
+    <bundle start-level="80">mvn:com.instana/discovery-neo4j/1.0.5</bundle>
   </feature>
 
   <feature name="instana-netcore-discovery" version="1.0.87">
