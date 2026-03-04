@@ -86,7 +86,7 @@
     <feature version="[1.0.79,2)">instana-action-sdk</feature>
     <bundle start-level="80">mvn:com.instana/sensor-action-issue/1.0.79</bundle>
   </feature>
-  
+
   <feature name="instana-action-script-sensor" version="1.0.79">
     <feature version="[1.0.79,2)">instana-action-sdk</feature>
     <bundle start-level="80">mvn:com.instana/sensor-action-script/1.0.79</bundle>
