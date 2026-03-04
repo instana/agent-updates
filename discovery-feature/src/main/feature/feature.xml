@@ -6,8 +6,8 @@
     <bundle start-level="80">mvn:com.instana/discovery-ace/1.0.88</bundle>
   </feature>
 
-  <feature name="instana-action-discovery" version="1.0.78">
-    <bundle start-level="80">mvn:com.instana/discovery-action/1.0.78</bundle>
+  <feature name="instana-action-discovery" version="1.0.79">
+    <bundle start-level="80">mvn:com.instana/discovery-action/1.0.79</bundle>
   </feature>
 
   <feature name="instana-activedirectory-discovery" version="1.0.3">
