@@ -392,8 +392,8 @@
     <bundle start-level="80">mvn:com.instana/discovery-mule/1.0.7</bundle>
   </feature>
 
-  <feature name="instana-mssql-discovery" version="1.1.49">
-    <bundle start-level="80">mvn:com.instana/discovery-mssql/1.1.49</bundle>
+  <feature name="instana-mssql-discovery" version="1.1.50">
+    <bundle start-level="80">mvn:com.instana/discovery-mssql/1.1.50</bundle>
   </feature>
 
   <feature name="instana-nagios-discovery" version="1.0.14">
