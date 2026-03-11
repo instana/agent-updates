@@ -867,6 +867,11 @@
     <bundle start-level="80">mvn:com.instana/sensor-instana-backend/1.1.3</bundle>
   </feature>
 
+  <feature name="instana-itm-sensor" version="1.0.1">
+    <feature version="[1.0.85,2)">common-data-collector-transformer-instana</feature>
+    <bundle start-level="80">mvn:com.instana/sensor-itm/1.0.1</bundle>
+  </feature>
+
   <feature name="instana-java-sensor" version="1.3.2">
     <bundle start-level="80">mvn:com.instana/sensor-java/1.3.2</bundle>
   </feature>
