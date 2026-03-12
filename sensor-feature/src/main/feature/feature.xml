@@ -1403,9 +1403,9 @@
     <bundle start-level="80">mvn:com.instana/sensor-solarwinds/1.0.14</bundle>
   </feature>
 
-  <feature name="instana-solr-sensor" version="1.0.19">
+  <feature name="instana-solr-sensor" version="1.0.21">
     <feature version="[1.2.138,2)">instana-java-sensor</feature>
-    <bundle start-level="80">mvn:com.instana/sensor-solr/1.0.19</bundle>
+    <bundle start-level="80">mvn:com.instana/sensor-solr/1.0.21</bundle>
   </feature>
 
   <feature name="instana-splunk-sensor" version="1.0.12">
