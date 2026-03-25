@@ -12,9 +12,9 @@
   </feature>
 
   <!-- OpenTelemetry collector using gRPC -->
-  <feature name="instana-agent-open-telemetry" version="1.1.16">
+  <feature name="instana-agent-open-telemetry" version="1.1.17">
     <feature version="[1.1.12,2)">instana-agent-open-telemetry-service</feature>
-    <bundle start-level="80">mvn:com.instana/agent-open-telemetry-grpc/1.1.16</bundle>
+    <bundle start-level="80">mvn:com.instana/agent-open-telemetry-grpc/1.1.17</bundle>
   </feature>
 
   <!-- OpenTelemetry collector using HTTP -->
@@ -31,13 +31,13 @@
     <bundle start-level="80">wrap:mvn:net.sf.jt400/jt400/20.0.7</bundle>
   </feature>
 
-  <feature name="instana-agent-prometheus" version="1.0.13">
+  <feature name="instana-agent-prometheus" version="1.0.14">
     <feature version="[1.2.16,2)">instana-agent</feature>
     <!-- implicit import through instana-agent feature, make sure to keep protobuf in sync
     <feature version="[1.0.15,2)">instana-agent-grpc-core</feature>
     <bundle start-level="80">wrap:mvn:com.google.protobuf/protobuf-java/4.29.2</bundle>
     -->
-    <bundle start-level="80">mvn:com.instana/agent-prometheus/1.0.13</bundle>
+    <bundle start-level="80">mvn:com.instana/agent-prometheus/1.0.14</bundle>
   </feature>
 
 </features>
