@@ -1,43 +1,45 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
 <features name="${project.artifactId}-${project.version}" xmlns="http://karaf.apache.org/xmlns/features/v1.3.0">
 
-  <feature name="instana-agent-configuration-integration-vault" version="1.0.17">
-    <feature version="[1.1.15,2)">thirdparty-apache-commons</feature>
+  <feature name="instana-agent-configuration-integration-vault" version="1.0.18">
+    <feature version="[1.1.16,2)">thirdparty-apache-commons</feature>
     <feature version="4.12.0">okhttp</feature>
     <feature version="[1.2.150,2)">instana-api</feature>
     <feature version="[1.0.7,2)">instana-agent-optional-api</feature>
-    <bundle start-level="80">mvn:com.instana/agent-configuration-integration-vault/1.0.17</bundle>
+    <bundle start-level="80">mvn:com.instana/agent-configuration-integration-vault/1.0.18</bundle>
     <bundle start-level="80">wrap:mvn:com.bettercloud/vault-java-driver/5.1.0</bundle>
-    <bundle start-level="80">mvn:com.instana/agent-ibm-secrets-manager/1.0.2</bundle>
+    <bundle start-level="80">mvn:com.instana/agent-ibm-secrets-manager/1.0.3</bundle>
   </feature>
 
   <!-- OpenTelemetry collector using gRPC -->
-  <feature name="instana-agent-open-telemetry" version="1.1.17">
-    <feature version="[1.1.12,2)">instana-agent-open-telemetry-service</feature>
-    <bundle start-level="80">mvn:com.instana/agent-open-telemetry-grpc/1.1.17</bundle>
+  <feature name="instana-agent-open-telemetry" version="1.1.18">
+    <feature version="[1.1.15,2)">instana-agent-open-telemetry-service</feature>
+    <bundle start-level="80">mvn:com.instana/agent-open-telemetry-grpc/1.1.18</bundle>
   </feature>
 
   <!-- OpenTelemetry collector using HTTP -->
-  <feature name="instana-agent-open-telemetry-http" version="1.1.16">
+  <feature name="instana-agent-open-telemetry-http" version="1.1.17">
     <feature version="[2.0.0,3)">instana-agent-internal-api</feature>
-    <feature version="[1.1.12,2)">instana-agent-open-telemetry-service</feature>
-    <bundle start-level="80">mvn:com.instana/agent-open-telemetry-http-api/1.0.5</bundle>
-    <bundle start-level="80">mvn:com.instana/agent-open-telemetry-http/1.1.16</bundle>
+    <feature version="[1.1.15,2)">instana-agent-open-telemetry-service</feature>
+    <bundle start-level="80">mvn:com.instana/agent-open-telemetry-http-api/1.0.7</bundle>
+    <bundle start-level="80">mvn:com.instana/agent-open-telemetry-http/1.1.17</bundle>
   </feature>
 
-  <feature name="instana-agent-ibmi-handler" version="1.0.3">
+  <feature name="instana-agent-ibmi-handler" version="1.0.4">
     <feature version="[1.2.177,2)">instana-api</feature>
-    <bundle start-level="80">mvn:com.instana/agent-ibmi-handler/1.0.3</bundle>
+    <bundle start-level="80">mvn:com.instana/agent-ibmi-handler/1.0.4</bundle>
     <bundle start-level="80">wrap:mvn:net.sf.jt400/jt400/20.0.7</bundle>
   </feature>
 
-  <feature name="instana-agent-prometheus" version="1.0.14">
-    <feature version="[1.2.16,2)">instana-agent</feature>
+  <feature name="instana-agent-prometheus" version="1.0.15">
+    <feature version="[1.2.59,2)">instana-agent</feature>
+    <feature version="[1.1.16,2)">thirdparty-apache-commons</feature>
+    <feature version="[4.1.132.Final,4.2)">thirdparty-netty</feature>
     <!-- implicit import through instana-agent feature, make sure to keep protobuf in sync
     <feature version="[1.0.15,2)">instana-agent-grpc-core</feature>
     <bundle start-level="80">wrap:mvn:com.google.protobuf/protobuf-java/4.29.2</bundle>
     -->
-    <bundle start-level="80">mvn:com.instana/agent-prometheus/1.0.14</bundle>
+    <bundle start-level="80">mvn:com.instana/agent-prometheus/1.0.15</bundle>
   </feature>
 
 </features>
