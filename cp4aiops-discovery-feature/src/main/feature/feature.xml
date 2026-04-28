@@ -19,7 +19,7 @@
     <bundle start-level="80">mvn:com.instana/cdc-sensor-api/1.0.6</bundle>
   </feature>
 
-  <feature name="common-data-collector-cp4aiops-sender" version="1.0.34">
+  <feature name="common-data-collector-cp4aiops-sender" version="1.0.35">
     <feature version="[1.0.6,2)">cdc-sensor-api</feature>
     <feature version="[1.0.17,2)">instana-agent-grpc-core</feature>
     <bundle start-level="80">wrap:mvn:org.checkerframework/checker-qual/3.24.0</bundle>
@@ -43,7 +43,7 @@
     <bundle start-level="80">wrap:mvn:org.apache.kafka/kafka-clients/3.9.1</bundle>
     <bundle start-level="80">wrap:mvn:org.eclipse.microprofile.health/microprofile-health-api/2.0</bundle>
     <bundle start-level="80">wrap:mvn:org.latencyutils/LatencyUtils/2.0.3</bundle>
-    <bundle start-level="80">mvn:com.instana/cdc-cp4aiops-sender/1.0.34</bundle>
+    <bundle start-level="80">mvn:com.instana/cdc-cp4aiops-sender/1.0.35</bundle>
   </feature>
 
   <feature name="cdc-observer" version="2.18.1.dev">
