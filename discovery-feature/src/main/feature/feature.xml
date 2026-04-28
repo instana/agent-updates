@@ -410,9 +410,9 @@
     <bundle start-level="80">mvn:com.instana/discovery-neo4j/1.0.5</bundle>
   </feature>
 
-  <feature name="instana-netcore-discovery" version="1.0.96">
-    <bundle start-level="80">mvn:com.instana/netcore-logcollector/1.0.96</bundle>
-    <bundle start-level="80">mvn:com.instana/discovery-netcore/1.0.96</bundle>
+  <feature name="instana-netcore-discovery" version="1.0.97">
+    <bundle start-level="80">mvn:com.instana/netcore-logcollector/1.0.97</bundle>
+    <bundle start-level="80">mvn:com.instana/discovery-netcore/1.0.97</bundle>
   </feature>
 
   <feature name="instana-newrelic-discovery" version="2.0.4">
