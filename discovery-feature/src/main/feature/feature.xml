@@ -673,8 +673,8 @@
     <bundle start-level="80">mvn:com.instana/discovery-xenserver/1.0.3</bundle>
   </feature>
 
-  <feature name="instana-zabbix-discovery" version="2.0.5">
-    <bundle start-level="80">mvn:com.instana/discovery-zabbix/2.0.5</bundle>
+  <feature name="instana-zabbix-discovery" version="2.0.6">
+    <bundle start-level="80">mvn:com.instana/discovery-zabbix/2.0.6</bundle>
   </feature>
 
   <feature name="instana-zhmc-discovery" version="1.0.20">
