@@ -47,8 +47,8 @@
     <bundle start-level="80">mvn:com.instana/discovery-vsphere/1.0.25</bundle>
   </feature>
 
-  <feature name="instana-aws-discovery" version="2.0.0">
-    <bundle start-level="80">mvn:com.instana/discovery-aws/2.0.0</bundle>
+  <feature name="instana-aws-discovery" version="2.0.1">
+    <bundle start-level="80">mvn:com.instana/discovery-aws/2.0.1</bundle>
   </feature>
 
   <feature name="instana-awsunf-discovery" version="1.0.1">
