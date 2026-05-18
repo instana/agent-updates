@@ -266,8 +266,8 @@
     <bundle start-level="80">mvn:com.instana/discovery-ibm-api-connect/1.0.4</bundle>
   </feature>
 
-  <feature name="instana-ibminfospherecdc-discovery" version="1.0.10">
-    <bundle start-level="80">mvn:com.instana/discovery-ibminfosphere-cdc/1.0.10</bundle>
+  <feature name="instana-ibminfospherecdc-discovery" version="1.0.11">
+    <bundle start-level="80">mvn:com.instana/discovery-ibminfosphere-cdc/1.0.11</bundle>
   </feature>
 
   <feature name="instana-ibmiseries-discovery" version="1.0.85">
