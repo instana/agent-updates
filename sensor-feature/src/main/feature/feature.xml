@@ -585,12 +585,12 @@
   </feature>
 
   <feature name="instana-aws-v2-emr-sensor" version="2.0.1">
-    <feature version="[2.0.1,2]">instana-aws-v2-sdk</feature>
+    <feature version="[2.0.1,3]">instana-aws-v2-sdk</feature>
     <bundle start-level="80">mvn:com.instana/sensor-aws-v2-emr/2.0.1</bundle>
   </feature>
 
   <feature name="instana-aws-v2-msk-sensor" version="2.0.1">
-    <feature version="[2.0.1,2]">instana-aws-v2-sdk</feature>
+    <feature version="[2.0.1,3]">instana-aws-v2-sdk</feature>
     <bundle start-level="80">mvn:com.instana/sensor-aws-v2-msk/2.0.1</bundle>
   </feature>
 
