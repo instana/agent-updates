@@ -105,7 +105,7 @@
     <bundle start-level="60">mvn:com.instana/jctools/2.1.6</bundle>
   </feature>
 
-  <feature name="instana-api" description="Instana Sensor and Discovery API" version="1.2.180">
+  <feature name="instana-api" description="Instana Sensor and Discovery API" version="1.2.181">
     <bundle start-level="60">mvn:com.instana/agent-json/1.2.181</bundle>
     <bundle start-level="60">mvn:com.instana/sensor-api/1.2.181</bundle>
   </feature>
@@ -155,9 +155,9 @@
     <bundle start-level="80">mvn:com.instana/agent-open-telemetry-service/1.1.15</bundle>
   </feature>
 
-  <feature name="instana-agent" description="Instana Agent" version="1.2.63">
+  <feature name="instana-agent" description="Instana Agent" version="1.2.64">
     <feature>agent-version</feature>
-    <feature version="[1.2.180,2)">instana-api</feature>
+    <feature version="[1.2.181,2)">instana-api</feature>
     <feature version="[1.0.6,2)">instana-agent-api</feature>
     <feature version="[2.0.1,3)">instana-agent-internal-api</feature>
     <feature version="[1.0.7,2)">instana-agent-optional-api</feature>
@@ -166,7 +166,7 @@
     <feature version="[1.1.13,2)">instana-agent-open-telemetry-service</feature>
     <feature version="[1.1.16,2)">thirdparty-apache-commons</feature>
     <feature version="[4.1.133.Final,4.2)">thirdparty-netty</feature>
-    <bundle start-level="70">mvn:com.instana/agent/1.1.773</bundle>
+    <bundle start-level="70">mvn:com.instana/agent/1.1.774</bundle>
     <bundle start-level="70">mvn:com.instana/agent-backend/1.0.13</bundle>
     <bundle start-level="70">mvn:com.instana/agent-backend-api/1.0.2</bundle>
     <bundle start-level="70">mvn:com.instana/agent-backend-util/1.0.1</bundle>
@@ -177,7 +177,7 @@
     <bundle start-level="70">mvn:com.instana/agent-grpc-channel-cache-api/1.0.1</bundle>
     <bundle start-level="70">mvn:com.instana/agent-http/1.0.8</bundle>
     <bundle start-level="70">mvn:com.instana/agent-jaeger-tracer/1.0.2</bundle>
-    <bundle start-level="70">mvn:com.instana/agent-jvm-handling/1.0.44</bundle>
+    <bundle start-level="70">mvn:com.instana/agent-jvm-handling/1.0.45</bundle>
     <bundle start-level="70">mvn:com.instana/agent-jvm-handling-api/1.0.0</bundle>
     <bundle start-level="70">mvn:com.instana/agent-memory/1.0.2</bundle>
     <bundle start-level="70">mvn:com.instana/agent-memory-api/1.0.0</bundle>
@@ -198,7 +198,7 @@
     <bundle start-level="70">mvn:com.instana/agent-support-karaf/1.0.2</bundle>
     <bundle start-level="70">mvn:com.instana/agent-task-orchestrator/1.0.10</bundle>
     <bundle start-level="70">mvn:com.instana/agent-task-orchestrator-api/1.0.4</bundle>
-    <bundle start-level="70">mvn:com.instana/agent-util/1.0.20</bundle>
+    <bundle start-level="70">mvn:com.instana/agent-util/1.0.21</bundle>
     <bundle start-level="70">mvn:com.instana/agent-zipkin-tracer/1.0.1</bundle>
   </feature>
 
