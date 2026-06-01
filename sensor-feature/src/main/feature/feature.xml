@@ -1075,9 +1075,9 @@
     <bundle start-level="80">mvn:com.instana/sensor-kafka/1.1.63</bundle>
   </feature>
 
-  <feature name="instana-keycloak-sensor" version="1.0.4">
+  <feature name="instana-keycloak-sensor" version="1.0.5">
     <feature version="[1.2.138,2)">instana-java-sensor</feature>
-    <bundle start-level="80">mvn:com.instana/sensor-keycloak/1.0.4</bundle>
+    <bundle start-level="80">mvn:com.instana/sensor-keycloak/1.0.5</bundle>
   </feature>
 
   <feature name="instana-snowflake-sensor" version="1.0.5">
