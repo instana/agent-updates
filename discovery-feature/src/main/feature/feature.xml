@@ -645,8 +645,8 @@
     <bundle start-level="80">mvn:com.instana/discovery-varnish/1.0.24</bundle>
   </feature>
 
-  <feature name="instana-vault-discovery" version="1.0.11">
-    <bundle start-level="80">mvn:com.instana/discovery-vault/1.0.11</bundle>
+  <feature name="instana-vault-discovery" version="1.0.12">
+    <bundle start-level="80">mvn:com.instana/discovery-vault/1.0.12</bundle>
   </feature>
 
   <feature name="instana-vsphere-discovery" version="1.0.32">
