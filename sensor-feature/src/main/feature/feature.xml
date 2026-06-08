@@ -1345,17 +1345,17 @@
     <bundle start-level="80">mvn:com.instana/sensor-openldap/1.0.11</bundle>
   </feature>
 
-  <feature name="instana-oracledb-sensor" version="1.1.55">
+  <feature name="instana-oracledb-sensor" version="1.1.56">
     <bundle start-level="80">wrap:mvn:com.oracle.database.jdbc/ojdbc8/21.6.0.0.1$Bundle-SymbolicName=ojdbc8</bundle>
     <bundle start-level="80">wrap:mvn:com.oracle.jdbc/orai18n/12.1.0.2$Bundle-SymbolicName=orai18n</bundle>
-    <bundle start-level="80">mvn:com.instana/sensor-oracledb/1.1.55</bundle>
+    <bundle start-level="80">mvn:com.instana/sensor-oracledb/1.1.56</bundle>
   </feature>
 
-  <feature name="instana-oracledb-sidecar" version="1.1.55">
+  <feature name="instana-oracledb-sidecar" version="1.1.56">
     <feature version="[1.0.6,2)">instana-cdc-sidecar</feature>
     <bundle start-level="80">wrap:mvn:com.oracle.database.jdbc/ojdbc8/21.6.0.0.1$Bundle-SymbolicName=ojdbc8</bundle>
     <bundle start-level="80">wrap:mvn:com.oracle.jdbc/orai18n/12.1.0.2$Bundle-SymbolicName=orai18n</bundle>
-    <bundle start-level="80">mvn:com.instana/sidecar-oracledb/1.1.55</bundle>
+    <bundle start-level="80">mvn:com.instana/sidecar-oracledb/1.1.56</bundle>
   </feature>
 
   <feature name="instana-perfcounters-sensor" version="1.0.0">
