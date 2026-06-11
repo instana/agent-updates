@@ -157,7 +157,7 @@
     <bundle start-level="80">mvn:com.instana/agent-open-telemetry-service/1.1.15</bundle>
   </feature>
 
-  <feature name="instana-agent" description="Instana Agent" version="1.2.67">
+  <feature name="instana-agent" description="Instana Agent" version="1.2.68">
     <feature>agent-version</feature>
     <feature version="[1.1.1,2)">instana-init</feature>
     <feature version="[1.0.6,2)">instana-netty-anti-leak</feature>
@@ -170,7 +170,7 @@
     <feature version="[1.1.13,2)">instana-agent-open-telemetry-service</feature>
     <feature version="[1.1.16,2)">thirdparty-apache-commons</feature>
     <feature version="[4.1.133.Final,4.2)">thirdparty-netty</feature>
-    <bundle start-level="70">mvn:com.instana/agent/1.1.777</bundle>
+    <bundle start-level="70">mvn:com.instana/agent/1.1.778</bundle>
     <bundle start-level="70">mvn:com.instana/agent-backend/1.0.13</bundle>
     <bundle start-level="70">mvn:com.instana/agent-backend-api/1.0.2</bundle>
     <bundle start-level="70">mvn:com.instana/agent-backend-util/1.0.1</bundle>
