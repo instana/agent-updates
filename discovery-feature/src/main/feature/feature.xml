@@ -479,8 +479,8 @@
     <bundle start-level="80">mvn:com.instana/discovery-php-fpm/1.4.6</bundle>
   </feature>
 
-  <feature name="instana-php-discovery" version="2.6.10">
-    <bundle start-level="80">mvn:com.instana/discovery-php/2.6.10</bundle>
+  <feature name="instana-php-discovery" version="2.6.12">
+    <bundle start-level="80">mvn:com.instana/discovery-php/2.6.12</bundle>
   </feature>
 
   <feature name="instana-ping-discovery" version="1.0.13">
