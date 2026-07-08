@@ -400,8 +400,8 @@
     <bundle start-level="80">mvn:com.instana/discovery-msmq/1.0.0</bundle>
   </feature>
 
-  <feature name="instana-mssql-discovery" version="1.1.53">
-    <bundle start-level="80">mvn:com.instana/discovery-mssql/1.1.53</bundle>
+  <feature name="instana-mssql-discovery" version="1.1.54">
+    <bundle start-level="80">mvn:com.instana/discovery-mssql/1.1.54</bundle>
   </feature>
 
   <feature name="instana-nagios-discovery" version="1.0.14">
