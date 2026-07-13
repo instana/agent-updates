@@ -1287,8 +1287,8 @@
     <bundle start-level="80">mvn:com.instana/sensor-netcore/1.0.113</bundle>
   </feature>
 
-  <feature name="instana-netcore-trace-sensor" version="1.0.5">
-    <bundle start-level="90">mvn:com.instana/sensor-netcore-trace/1.0.5</bundle>
+  <feature name="instana-netcore-trace-sensor" version="1.0.6">
+    <bundle start-level="90">mvn:com.instana/sensor-netcore-trace/1.0.6</bundle>
   </feature>
 
   <feature name="instana-newrelic-sensor" version="2.0.4">
