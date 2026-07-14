@@ -25,9 +25,9 @@
     <bundle start-level="80">mvn:com.instana/agent-open-telemetry-http/1.1.17</bundle>
   </feature>
 
-  <feature name="instana-agent-ibmi-handler" version="1.0.4">
+  <feature name="instana-agent-ibmi-handler" version="1.0.5">
     <feature version="[1.2.177,2)">instana-api</feature>
-    <bundle start-level="80">mvn:com.instana/agent-ibmi-handler/1.0.4</bundle>
+    <bundle start-level="80">mvn:com.instana/agent-ibmi-handler/1.0.5</bundle>
     <bundle start-level="80">wrap:mvn:net.sf.jt400/jt400/20.0.7</bundle>
   </feature>
 
