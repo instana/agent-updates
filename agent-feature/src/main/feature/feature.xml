@@ -151,10 +151,10 @@
   </feature>
 
   <!-- everything up to and including OpenTelemetry service layer -->
-  <feature name="instana-agent-open-telemetry-service" version="1.1.15">
+  <feature name="instana-agent-open-telemetry-service" version="1.1.16">
     <feature version="[2.2.5,3)">instana-agent-open-telemetry-base</feature>
     <feature version="[1.0.5,2)">instana-agent-otel-sensor-sdk</feature>
-    <bundle start-level="80">mvn:com.instana/agent-open-telemetry-service/1.1.15</bundle>
+    <bundle start-level="80">mvn:com.instana/agent-open-telemetry-service/1.1.16</bundle>
   </feature>
 
   <feature name="instana-agent" description="Instana Agent" version="1.2.72">
