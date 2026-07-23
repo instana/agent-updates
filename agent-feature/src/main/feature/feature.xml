@@ -49,31 +49,31 @@
   </feature>
 
   <!--To upgrade the feature and bundles for thirdparty-jackson from agent-bootstrap-feature, updated the feature version here-->
-  <feature name="thirdparty-jackson" description="Shared Jackson JSON from agent feature" version="2.21.1">
-    <bundle start-level="40">mvn:com.fasterxml.jackson.core/jackson-core/2.21.1</bundle>
-    <bundle start-level="40">mvn:com.fasterxml.jackson.core/jackson-databind/2.21.1</bundle>
-    <bundle start-level="40">mvn:com.fasterxml.jackson.core/jackson-annotations/2.21</bundle>
-    <bundle start-level="40">mvn:com.fasterxml.jackson.dataformat/jackson-dataformat-yaml/2.21.1</bundle>
-    <bundle start-level="40">mvn:com.fasterxml.jackson.datatype/jackson-datatype-jdk8/2.21.1</bundle>
+  <feature name="thirdparty-jackson" description="Shared Jackson JSON from agent feature" version="2.22.1">
+    <bundle start-level="40">mvn:com.fasterxml.jackson.core/jackson-core/2.22.1</bundle>
+    <bundle start-level="40">mvn:com.fasterxml.jackson.core/jackson-databind/2.22.1</bundle>
+    <bundle start-level="40">mvn:com.fasterxml.jackson.core/jackson-annotations/2.22</bundle>
+    <bundle start-level="40">mvn:com.fasterxml.jackson.dataformat/jackson-dataformat-yaml/2.22.1</bundle>
+    <bundle start-level="40">mvn:com.fasterxml.jackson.datatype/jackson-datatype-jdk8/2.22.1</bundle>
     <!-- dependency for dataformat yaml -->
     <bundle start-level="40">mvn:org.yaml/snakeyaml/2.6</bundle>
   </feature>
 
   <!--To upgrade the feature and bundles for thirdparty-netty from agent-bootstrap-feature, updated the feature version here-->
-  <feature name="thirdparty-netty" description="Shared Netty from agent feature" version="4.1.135.Final">
-    <bundle start-level="40">mvn:io.netty/netty-buffer/4.1.135.Final</bundle>
-    <bundle start-level="40">mvn:io.netty/netty-codec/4.1.135.Final</bundle>
-    <bundle start-level="40">mvn:io.netty/netty-codec-dns/4.1.135.Final</bundle>
-    <bundle start-level="40">mvn:io.netty/netty-codec-http/4.1.135.Final</bundle>
-    <bundle start-level="40">mvn:io.netty/netty-codec-http2/4.1.135.Final</bundle>
-    <bundle start-level="40">mvn:io.netty/netty-codec-socks/4.1.135.Final</bundle>
-    <bundle start-level="40">mvn:io.netty/netty-common/4.1.135.Final</bundle>
-    <bundle start-level="40">mvn:io.netty/netty-handler/4.1.135.Final</bundle>
-    <bundle start-level="40">mvn:io.netty/netty-handler-proxy/4.1.135.Final</bundle>
-    <bundle start-level="40">mvn:io.netty/netty-resolver/4.1.135.Final</bundle>
-    <bundle start-level="40">mvn:io.netty/netty-resolver-dns/4.1.135.Final</bundle>
-    <bundle start-level="40">mvn:io.netty/netty-transport/4.1.135.Final</bundle>
-    <bundle start-level="40">mvn:io.netty/netty-transport-native-unix-common/4.1.135.Final</bundle>
+  <feature name="thirdparty-netty" description="Shared Netty from agent feature" version="4.1.136.Final">
+    <bundle start-level="40">mvn:io.netty/netty-buffer/4.1.136.Final</bundle>
+    <bundle start-level="40">mvn:io.netty/netty-codec/4.1.136.Final</bundle>
+    <bundle start-level="40">mvn:io.netty/netty-codec-dns/4.1.136.Final</bundle>
+    <bundle start-level="40">mvn:io.netty/netty-codec-http/4.1.136.Final</bundle>
+    <bundle start-level="40">mvn:io.netty/netty-codec-http2/4.1.136.Final</bundle>
+    <bundle start-level="40">mvn:io.netty/netty-codec-socks/4.1.136.Final</bundle>
+    <bundle start-level="40">mvn:io.netty/netty-common/4.1.136.Final</bundle>
+    <bundle start-level="40">mvn:io.netty/netty-handler/4.1.136.Final</bundle>
+    <bundle start-level="40">mvn:io.netty/netty-handler-proxy/4.1.136.Final</bundle>
+    <bundle start-level="40">mvn:io.netty/netty-resolver/4.1.136.Final</bundle>
+    <bundle start-level="40">mvn:io.netty/netty-resolver-dns/4.1.136.Final</bundle>
+    <bundle start-level="40">mvn:io.netty/netty-transport/4.1.136.Final</bundle>
+    <bundle start-level="40">mvn:io.netty/netty-transport-native-unix-common/4.1.136.Final</bundle>
   </feature>
   
   <feature name="instana-agent-grpc-core" version="1.0.20">
@@ -157,7 +157,7 @@
     <bundle start-level="80">mvn:com.instana/agent-open-telemetry-service/1.1.16</bundle>
   </feature>
 
-  <feature name="instana-agent" description="Instana Agent" version="1.2.73">
+  <feature name="instana-agent" description="Instana Agent" version="1.2.74">
     <feature>agent-version</feature>
     <feature version="[1.1.1,2)">instana-init</feature>
     <feature version="[1.0.6,2)">instana-netty-anti-leak</feature>
@@ -169,7 +169,7 @@
     <feature version="[1.0.20,2)">instana-agent-grpc-core</feature>
     <feature version="[1.1.13,2)">instana-agent-open-telemetry-service</feature>
     <feature version="[1.1.16,2)">thirdparty-apache-commons</feature>
-    <feature version="[4.1.135.Final,4.2)">thirdparty-netty</feature>
+    <feature version="[4.1.136.Final,4.2)">thirdparty-netty</feature>
     <bundle start-level="70">mvn:com.instana/agent/1.1.781</bundle>
     <bundle start-level="70">mvn:com.instana/agent-backend/1.0.14</bundle>
     <bundle start-level="70">mvn:com.instana/agent-backend-api/1.0.2</bundle>
@@ -188,9 +188,9 @@
     <bundle start-level="70">mvn:com.instana/agent-netty42-pki/1.0.1</bundle>
     <bundle start-level="70">mvn:com.instana/agent-netty-allocator/1.0.5</bundle>
     <bundle start-level="70">mvn:com.instana/agent-netty-allocator-api/1.0.2</bundle>
-    <bundle start-level="70">mvn:com.instana/agent-permission/1.0.2</bundle>
-    <bundle start-level="70">mvn:com.instana/agent-permission-api/1.0.2</bundle>
-    <bundle start-level="70">mvn:com.instana/agent-process-handling/1.0.53</bundle>
+    <bundle start-level="70">mvn:com.instana/agent-permission/1.0.3</bundle>
+    <bundle start-level="70">mvn:com.instana/agent-permission-api/1.0.3</bundle>
+    <bundle start-level="70">mvn:com.instana/agent-process-handling/1.0.54</bundle>
     <bundle start-level="70">mvn:com.instana/agent-process-handling-api/1.0.9</bundle>
     <bundle start-level="70">mvn:com.instana/agent-reversedns/1.0.0</bundle>
     <bundle start-level="70">mvn:com.instana/agent-runtime/1.0.23</bundle>
@@ -198,7 +198,7 @@
     <bundle start-level="70">mvn:com.instana/agent-secret-reader/1.0.0</bundle>
     <bundle start-level="70">mvn:com.instana/agent-self-profiling/2.0.1</bundle>
     <bundle start-level="70">mvn:com.instana/agent-sensor/1.0.5</bundle>
-    <bundle start-level="70">mvn:com.instana/agent-socket-server/1.0.16</bundle>
+    <bundle start-level="70">mvn:com.instana/agent-socket-server/1.0.17</bundle>
     <bundle start-level="70">mvn:com.instana/agent-socket-server-api/1.0.9</bundle>
     <bundle start-level="70">mvn:com.instana/agent-support-karaf/1.0.2</bundle>
     <bundle start-level="70">mvn:com.instana/agent-task-orchestrator/1.0.12</bundle>
