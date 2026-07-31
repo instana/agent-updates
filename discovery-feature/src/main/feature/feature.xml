@@ -26,6 +26,11 @@
     <bundle start-level="80">mvn:com.instana/discovery-alicloud/1.0.13</bundle>
   </feature>
 
+  <!-- This feature is deprecated and should not be version-bumped. -->
+  <!-- It is kept here to support the auto-update test. -->
+  <feature name="instana-apmproxy-discovery" version="1.0.9">
+  </feature>
+
   <feature name="instana-appdynamics-discovery" version="2.0.4">
     <bundle start-level="80">mvn:com.instana/discovery-appdynamics/2.0.4</bundle>
   </feature>
