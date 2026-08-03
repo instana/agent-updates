@@ -154,8 +154,9 @@
     <bundle start-level="80">mvn:com.instana/sensor-alicloud-rocketmq/1.0.13</bundle>
   </feature>
 
-  <feature name="instana-apmproxy-sensor" version="1.0.8">
-    <bundle start-level="80">mvn:com.instana/sensor-apmproxy/1.0.8</bundle>
+  <!-- This feature is deprecated and should not be version-bumped. -->
+  <!-- It is kept here to support the auto-update test. -->
+  <feature name="instana-apmproxy-sensor" version="1.0.9">
   </feature>
 
   <feature name="instana-appdynamics-sensor" version="2.0.4">
