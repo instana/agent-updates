@@ -259,8 +259,8 @@
     <bundle start-level="80">mvn:com.instana/discovery-host/1.2.4</bundle>
   </feature>
 
-  <feature name="instana-httpd-discovery" version="1.2.48">
-    <bundle start-level="80">mvn:com.instana/discovery-httpd/1.2.48</bundle>
+  <feature name="instana-httpd-discovery" version="1.2.49">
+    <bundle start-level="80">mvn:com.instana/discovery-httpd/1.2.49</bundle>
   </feature>
 
   <feature name="instana-ibmapiconnect-discovery" version="1.0.4">
