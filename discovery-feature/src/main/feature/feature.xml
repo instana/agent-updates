@@ -179,13 +179,13 @@
     <bundle start-level="80">mvn:com.instana/discovery-etcd/1.0.35</bundle>
   </feature>
 
-  <feature name="instana-eum-common" version="1.0.7">
-    <bundle start-level="80">mvn:com.instana/eum-common/1.0.7</bundle>
+  <feature name="instana-eum-common" version="1.0.9">
+    <bundle start-level="80">mvn:com.instana/eum-common/1.0.9</bundle>
   </feature>
 
-  <feature name="instana-eum-discovery" version="1.0.7">
+  <feature name="instana-eum-discovery" version="1.0.9">
     <feature version="[1.0.7,2.0.0)">instana-eum-common</feature>
-    <bundle start-level="80">mvn:com.instana/discovery-eum/1.0.7</bundle>
+    <bundle start-level="80">mvn:com.instana/discovery-eum/1.0.9</bundle>
   </feature>
 
   <feature name="instana-f5-discovery" version="1.0.1">
