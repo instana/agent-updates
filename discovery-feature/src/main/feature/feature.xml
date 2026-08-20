@@ -2,7 +2,7 @@
 
 <features name="${project.artifactId}-${project.version}" xmlns="http://karaf.apache.org/xmlns/features/v1.3.0">
 
-  <feature name="instana-ace-discovery" version="1.0.98>
+  <feature name="instana-ace-discovery" version="1.0.98">
     <bundle start-level="80">mvn:com.instana/discovery-ace/1.0.98</bundle>
   </feature>
 
