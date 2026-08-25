@@ -98,8 +98,8 @@
     <bundle start-level="80">mvn:com.instana/instana-action-script-windows/1.0.83</bundle>
   </feature>
 
-  <feature name="instana-activedirectory-sensor" version="1.0.3">
-    <bundle start-level="80">mvn:com.instana/sensor-activedirectory/1.0.3</bundle>
+  <feature name="instana-activedirectory-sensor" version="1.0.5">
+    <bundle start-level="80">mvn:com.instana/sensor-activedirectory/1.0.5</bundle>
     <bundle start-level="80">wrap:mvn:com.profesorfalken/WMI4Java/1.6.3</bundle>
   </feature>
 
