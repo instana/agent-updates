@@ -136,11 +136,11 @@
   </feature>
 
   <!-- everything up to and including OpenTelemetry service layer -->
-  <feature name="instana-agent-otel-sensor-sdk" version="1.1.32">
+  <feature name="instana-agent-otel-sensor-sdk" version="1.1.33">
     <feature version="[2.2.4,3)">instana-agent-open-telemetry-base</feature>
     <bundle start-level="80">mvn:com.instana/otel-sensorsdk-utils/1.0.4</bundle>
     <bundle start-level="80">mvn:com.instana/otel-sensorsdk-database/1.0.12</bundle>
-    <bundle start-level="80">mvn:com.instana/otel-sensorsdk-genai/1.0.6</bundle>
+    <bundle start-level="80">mvn:com.instana/otel-sensorsdk-genai/1.0.7</bundle>
     <bundle start-level="80">mvn:com.instana/otel-sensorsdk-host/1.0.7</bundle>
     <bundle start-level="80">mvn:com.instana/otel-sensorsdk-llmonitor/1.0.9</bundle>
     <bundle start-level="80">mvn:com.instana/otel-sensorsdk-milvusdb/1.0.1</bundle>
