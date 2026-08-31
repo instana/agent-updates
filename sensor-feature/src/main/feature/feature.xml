@@ -1495,8 +1495,8 @@
     <bundle start-level="80">mvn:com.instana/sensor-rocketmq/1.0.15</bundle>
   </feature>
 
-  <feature name="instana-ruby-sensor" version="1.7.0">
-    <bundle start-level="80">mvn:com.instana/sensor-ruby/1.7.0</bundle>
+  <feature name="instana-ruby-sensor" version="1.8.1">
+    <bundle start-level="80">mvn:com.instana/sensor-ruby/1.8.1</bundle>
   </feature>
 
   <feature name="instana-ruby-trace-sensor" version="1.2.1">
