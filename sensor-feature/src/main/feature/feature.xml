@@ -1314,8 +1314,8 @@
     <bundle start-level="80">mvn:com.instana/sensor-nginx/1.1.89</bundle>
   </feature>
 
-  <feature name="instana-nodejs-sensor" version="1.2.18">
-    <bundle start-level="80">mvn:com.instana/sensor-nodejs/1.2.18</bundle>
+  <feature name="instana-nodejs-sensor" version="1.2.19">
+    <bundle start-level="80">mvn:com.instana/sensor-nodejs/1.2.19</bundle>
   </feature>
 
   <feature name="instana-nodejs-trace-sensor" version="1.2.3">
