@@ -514,8 +514,8 @@
     <bundle start-level="80">mvn:com.instana/discovery-process/1.1.63</bundle>
   </feature>
 
-  <feature name="instana-prometheus-discovery" version="1.0.103">
-    <bundle start-level="80">mvn:com.instana/discovery-prometheus/1.0.103</bundle>
+  <feature name="instana-prometheus-discovery" version="1.0.104">
+    <bundle start-level="80">mvn:com.instana/discovery-prometheus/1.0.104</bundle>
   </feature>
 
   <feature name="instana-python-discovery" version="2.4.0">
