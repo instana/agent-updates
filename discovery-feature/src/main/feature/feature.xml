@@ -496,8 +496,8 @@
     <bundle start-level="80">mvn:com.instana/discovery-podman/1.0.9</bundle>
   </feature>
 
-  <feature name="instana-postgresql-discovery" version="1.0.54">
-    <bundle start-level="80">mvn:com.instana/discovery-postgresql/1.0.54</bundle>
+  <feature name="instana-postgresql-discovery" version="1.0.55">
+    <bundle start-level="80">mvn:com.instana/discovery-postgresql/1.0.55</bundle>
   </feature>
 
   <feature name="instana-power-hmc-discovery" version="1.0.23">
