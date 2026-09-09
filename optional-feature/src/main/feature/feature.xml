@@ -12,17 +12,17 @@
   </feature>
 
   <!-- OpenTelemetry collector using gRPC -->
-  <feature name="instana-agent-open-telemetry" version="1.1.18">
+  <feature name="instana-agent-open-telemetry" version="1.1.19">
     <feature version="[1.1.15,2)">instana-agent-open-telemetry-service</feature>
-    <bundle start-level="80">mvn:com.instana/agent-open-telemetry-grpc/1.1.18</bundle>
+    <bundle start-level="80">mvn:com.instana/agent-open-telemetry-grpc/1.1.19</bundle>
   </feature>
 
   <!-- OpenTelemetry collector using HTTP -->
-  <feature name="instana-agent-open-telemetry-http" version="1.1.17">
+  <feature name="instana-agent-open-telemetry-http" version="1.1.18">
     <feature version="[2.0.0,3)">instana-agent-internal-api</feature>
     <feature version="[1.1.15,2)">instana-agent-open-telemetry-service</feature>
     <bundle start-level="80">mvn:com.instana/agent-open-telemetry-http-api/1.0.7</bundle>
-    <bundle start-level="80">mvn:com.instana/agent-open-telemetry-http/1.1.17</bundle>
+    <bundle start-level="80">mvn:com.instana/agent-open-telemetry-http/1.1.18</bundle>
   </feature>
 
   <feature name="instana-agent-ibmi-handler" version="1.0.5">
@@ -31,15 +31,15 @@
     <bundle start-level="80">wrap:mvn:net.sf.jt400/jt400/20.0.7</bundle>
   </feature>
 
-  <feature name="instana-agent-prometheus" version="1.0.17">
+  <feature name="instana-agent-prometheus" version="1.0.18">
     <feature version="[1.2.76,2)">instana-agent</feature>
     <feature version="[1.1.16,2)">thirdparty-apache-commons</feature>
     <feature version="[4.1.137.Final,4.2)">thirdparty-netty</feature>
     <!-- implicit import through instana-agent feature, make sure to keep protobuf in sync
     <feature version="[1.0.15,2)">instana-agent-grpc-core</feature>
-    <bundle start-level="80">wrap:mvn:com.google.protobuf/protobuf-java/4.29.2</bundle>
+    <bundle start-level="80">wrap:mvn:com.google.protobuf/protobuf-java/4.34.0</bundle>
     -->
-    <bundle start-level="80">mvn:com.instana/agent-prometheus/1.0.17</bundle>
+    <bundle start-level="80">mvn:com.instana/agent-prometheus/1.0.18</bundle>
   </feature>
 
 </features>
