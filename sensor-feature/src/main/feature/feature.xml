@@ -1468,12 +1468,12 @@
     <bundle start-level="80">mvn:com.instana/sensor-rabbitmq/1.1.52</bundle>
   </feature>
 
-  <feature name="instana-rocketmq-service-discovery" version="1.0.15">
-    <feature version="1.0.15">instana-rocketmq-sdk</feature>
-    <bundle start-level="80">mvn:com.instana/discovery-rocketmq-service/1.0.15</bundle>
+  <feature name="instana-rocketmq-service-discovery" version="1.0.16">
+    <feature version="1.0.16">instana-rocketmq-sdk</feature>
+    <bundle start-level="80">mvn:com.instana/discovery-rocketmq-service/1.0.16</bundle>
   </feature>
 
-  <feature name="instana-rocketmq-sdk" version="1.0.15">
+  <feature name="instana-rocketmq-sdk" version="1.0.16">
     <feature version="[1.1.15,2)">thirdparty-apache-commons</feature>
     <bundle start-level="80">mvn:com.google.guava/guava/33.0.0-jre</bundle>
     <bundle start-level="80">mvn:com.google.guava/failureaccess/1.0.2</bundle>
@@ -1488,12 +1488,12 @@
     <bundle start-level="80">wrap:mvn:org.apache.rocketmq/rocketmq-srvutil/5.1.4$Bundle-SymbolicName=rocketmq-srvutil</bundle>
     <bundle start-level="80">wrap:mvn:org.yaml/snakeyaml/2.0$Bundle-SymbolicName=snakeyaml</bundle>
     <bundle start-level="80">wrap:mvn:org.apache.rocketmq/rocketmq-tools/5.1.4$Bundle-SymbolicName=rocketmq-tools</bundle>
-    <bundle start-level="80">mvn:com.instana/instana-rocketmq-sdk/1.0.15</bundle>
+    <bundle start-level="80">mvn:com.instana/instana-rocketmq-sdk/1.0.16</bundle>
   </feature>
 
-  <feature name="instana-rocketmq-sensor" version="1.0.15">
-    <feature version="1.0.15">instana-rocketmq-sdk</feature>
-    <bundle start-level="80">mvn:com.instana/sensor-rocketmq/1.0.15</bundle>
+  <feature name="instana-rocketmq-sensor" version="1.0.16">
+    <feature version="1.0.16">instana-rocketmq-sdk</feature>
+    <bundle start-level="80">mvn:com.instana/sensor-rocketmq/1.0.16</bundle>
   </feature>
 
   <feature name="instana-ruby-sensor" version="1.8.1">
