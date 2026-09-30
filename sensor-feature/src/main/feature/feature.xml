@@ -1475,8 +1475,10 @@
 
   <feature name="instana-rocketmq-sdk" version="1.0.16">
     <feature version="[1.1.15,2)">thirdparty-apache-commons</feature>
-    <bundle start-level="80">mvn:com.google.guava/guava/33.0.0-jre</bundle>
-    <bundle start-level="80">mvn:com.google.guava/failureaccess/1.0.2</bundle>
+    <!-- required due to guava import -->
+    <feature version="[1.0.23,2)">instana-agent-grpc-core</feature>
+    <!-- required due to snakeyaml import -->
+    <feature version="[2.22.2,3)">thirdparty-jackson</feature>
     <bundle start-level="80">wrap:mvn:com.alibaba/fastjson/1.2.84$Bundle-SymbolicName=fastjson</bundle>
     <bundle start-level="80">wrap:mvn:org.apache.rocketmq/rocketmq-acl/5.1.4$Bundle-SymbolicName=rocketmq-acl</bundle>
     <bundle start-level="80">wrap:mvn:org.apache.rocketmq/rocketmq-client/5.1.4$Bundle-SymbolicName=rocketmq-client</bundle>
@@ -1486,7 +1488,6 @@
     <bundle start-level="80">wrap:mvn:org.apache.rocketmq/rocketmq-remoting/5.1.4$Bundle-SymbolicName=rocketmq-remoting</bundle>
     <bundle start-level="80">wrap:mvn:org.apache.rocketmq/rocketmq-store/5.1.4$Bundle-SymbolicName=rocketmq-store</bundle>
     <bundle start-level="80">wrap:mvn:org.apache.rocketmq/rocketmq-srvutil/5.1.4$Bundle-SymbolicName=rocketmq-srvutil</bundle>
-    <bundle start-level="80">wrap:mvn:org.yaml/snakeyaml/2.0$Bundle-SymbolicName=snakeyaml</bundle>
     <bundle start-level="80">wrap:mvn:org.apache.rocketmq/rocketmq-tools/5.1.4$Bundle-SymbolicName=rocketmq-tools</bundle>
     <bundle start-level="80">mvn:com.instana/instana-rocketmq-sdk/1.0.16</bundle>
   </feature>
