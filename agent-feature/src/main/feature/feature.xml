@@ -49,14 +49,14 @@
   </feature>
 
   <!--To upgrade the feature and bundles for thirdparty-jackson from agent-bootstrap-feature, updated the feature version here-->
-  <feature name="thirdparty-jackson" description="Shared Jackson JSON from agent feature" version="2.22.2">
-    <bundle start-level="40">mvn:com.fasterxml.jackson.core/jackson-core/2.22.2</bundle>
-    <bundle start-level="40">mvn:com.fasterxml.jackson.core/jackson-databind/2.22.2</bundle>
+  <feature name="thirdparty-jackson" description="Shared Jackson JSON from agent feature" version="2.22.3">
+    <bundle start-level="40">mvn:com.fasterxml.jackson.core/jackson-core/2.22.3</bundle>
+    <bundle start-level="40">mvn:com.fasterxml.jackson.core/jackson-databind/2.22.3</bundle>
     <bundle start-level="40">mvn:com.fasterxml.jackson.core/jackson-annotations/2.22</bundle>
-    <bundle start-level="40">mvn:com.fasterxml.jackson.dataformat/jackson-dataformat-yaml/2.22.2</bundle>
-    <bundle start-level="40">mvn:com.fasterxml.jackson.datatype/jackson-datatype-jdk8/2.22.2</bundle>
+    <bundle start-level="40">mvn:com.fasterxml.jackson.dataformat/jackson-dataformat-yaml/2.22.3</bundle>
+    <bundle start-level="40">mvn:com.fasterxml.jackson.datatype/jackson-datatype-jdk8/2.22.3</bundle>
     <!-- dependency for dataformat yaml -->
-    <bundle start-level="40">mvn:org.yaml/snakeyaml/2.6</bundle>
+    <bundle start-level="40">mvn:org.yaml/snakeyaml/2.7</bundle>
   </feature>
 
   <!--To upgrade the feature and bundles for thirdparty-netty from agent-bootstrap-feature, updated the feature version here-->
