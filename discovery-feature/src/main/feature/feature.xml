@@ -271,8 +271,8 @@
     <bundle start-level="80">mvn:com.instana/discovery-ibminfosphere-cdc/1.0.13</bundle>
   </feature>
 
-  <feature name="instana-ibmiseries-discovery" version="1.0.86">
-    <bundle start-level="80">mvn:com.instana/discovery-ibmiseries/1.0.86</bundle>
+  <feature name="instana-ibmiseries-discovery" version="1.0.87">
+    <bundle start-level="80">mvn:com.instana/discovery-ibmiseries/1.0.87</bundle>
   </feature>
 
   <feature name="instana-ibmmq-discovery" version="1.1.61">
